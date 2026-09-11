@@ -69,6 +69,9 @@ and saves page edits and approve/needs-fix decisions in Netlify Blobs. The
 extractor and the original 300-DPI images continue to run and stay on your
 computer.
 
+For the complete owner and proofreader workflow, see
+[Netlify review workflow](docs/netlify-review-workflow.md).
+
 ### Deploy from GitHub
 
 1. In Netlify, choose **Add new project** and **Import an existing project**.
