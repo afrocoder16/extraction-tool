@@ -1,0 +1,40 @@
+{
+  "page": 97,
+  "notes": "The first unnumbered block continues the stanza begun on the preceding page.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "The final refrain is split across the bottom edge. 'ቅድስት ሆይ' is visible; the following clipped line, apparently beginning 'ለምኝልን', is omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፷፭  የእሁድ ውዳሴ ጸሎት", "c": "black" }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "ክርስቶስን የወለድሽልን ሆይ", "c": "red" },
+        { "t": " አንቺ እንደርሷ ነሽ። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲",
+      "spans": [
+        { "t": "ጸጋን የተመላሽ ሆይ ከቅዱሳን ሁሉ ይልቅ ትለምኝልን ዘንድ ለአንቺ ይገባል። አንቺ ከሊቃነ ጳጳሳት ትበልጫለሽ ከነቢያትም ከመምህራንም ትበልጫለሽ። ከሱራፌልና ከኪሩቤል ግርማ የሚበልጥ የመወደድ ግርማ አለሽ። በእውነት የባሕርያችን መመኪያ አንቺ ነሽ። በሰውነታችንም ሕይወትን የምትለምኝ ነሽ። ወደ ", "c": "black" },
+        { "t": "ጌታችንና መድኃኒታችን ኢየሱስ ክርስቶስ", "c": "red" },
+        { "t": " ለምኝልን። እርሱን በማመን በቀናች ሃይማኖት ያጸናን ዘንድ ይቅርታውንና ምሕረቱን ይሰጠን ዘንድ በቸርነቱ ብዛት ኃጢአታችንን ያስተሠርይልን ዘንድ። ", "c": "black" },
+        { "t": "ቅድስት ሆይ", "c": "red" }
+      ]
+    }
+  ]
+}

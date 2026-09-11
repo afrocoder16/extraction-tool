@@ -1,0 +1,80 @@
+{
+  "page": 15,
+  "notes": "The last block ends with a scripture reference, Luke 1:26–56, printed in Ethiopic numerals as 'ሉቃ ፩ ፡ ፳፮ ፡ ፶፮።' — the numerals are small and worth checking. That passage (the Annunciation, Visitation and Magnificat) fits the Marian prayer it introduces.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [
+    {
+      "printed": "ጉብስት",
+      "suggested": "ኅብስት",
+      "reason": "ጉ should be ኅ — the word is 'bread', paired with 'ጽዋ' (cup) in the same sentence",
+      "applied": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፯  የዘወትር ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ኅብስት ላበላን ይህንንም ጽዋ ላጠጣን፤ ምግባችንንና ልብሳችንንም ላዘጋጀልን፤ ኃጢአታችንንም ሁሉ ለታገሠልን፤ ክቡር ደሙን ቅዱስ ሥጋውን ለሰጠን፤ እስከዚችም ሰዓት ላደረሰን ለእሱ ለልዑል ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ፍፁም ምስጋና ይገባል፤ ለወለደችው ለድንግል ምስጋና ይገባል፤ ለክቡር መስቀሉም ምስጋና ይገባል። ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ስሙ ፈጽሞ ይመስገን ዘንድ ዘወትር በየጊዜያቱና በየሰዓቱ ምስጋና ይገባል።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፭",
+      "spans": [
+        {
+          "t": "እናታችን ማርያም ሆይ",
+          "c": "red"
+        },
+        {
+          "t": " ሰላም ላንቺ ይሁን እያልን እንሰግድልሻለን እንማልድሻለን ከክፉ አውሬ ታድኝን ዘንድ ተማጽነንብሻል ስለ እናትሽ ስለ ሐና ብለሽ ስለ አባትሽ ስለ ኢያቄም ብለሽ ",
+          "c": "black"
+        },
+        {
+          "t": "ድንግል",
+          "c": "red"
+        },
+        {
+          "t": " ማኅበራችንን ዛሬ ባርኪልን።",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [],
+  "uncertain": [
+    {
+      "text": "፩ ፡ ፳፮ ፡ ፶፮",
+      "why": "scripture reference numerals are small; reads as Luke 1:26-56"
+    }
+  ]
+}

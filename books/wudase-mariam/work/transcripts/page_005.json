@@ -1,0 +1,96 @@
+{
+  "page": 5,
+  "notes": "'እንጠራልሃን' at the end of the first paragraph is not a standard form — the expected word is 'እንጠራሃለን' (or 'እንጠራልሃለን', matching 'እንገዛልሃለን' and 'እንሰግድልሃለን' on the previous page). The glyphs are clear, so it is transcribed as printed and left out of the corrections list rather than guessed at. The page ends mid-sentence; 'ላንቺ' continues on the next page.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [
+    {
+      "printed": "አነተ",
+      "suggested": "አንተ",
+      "reason": "ነ should be ን — the same page prints 'አንተ ነህ' correctly one line above",
+      "applied": true
+    },
+    {
+      "printed": "በመልእኩ",
+      "suggested": "በመልአኩ",
+      "reason": "እ should be አ",
+      "applied": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪  የዘወትር ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የንጉሦችም ንጉሥ",
+          "c": "red"
+        },
+        {
+          "t": " አንተ ነህ። የስጋም የነፍስም ፈጣሪ አንተ ነህ። እናንተስ በምትጸልዩበት ጊዜ እንዲህ ብላችሁ ጸልዩ ብሎ ቅዱስ ልጅህ እንዳስተማረን እንጠራልሃን።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፫",
+      "spans": [
+        {
+          "t": "አባታችን ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " በሰማያት የምትኖር ስምህ ይቀደስ መንግሥትህ ትምጣ ፈቃድህ በሰማይ እንደሆነች እንዲሁም በምድር ትሁን። የዕለት እንጀራችንን ስጠን ዛሬ በደላችንንም ይቅር በለን፤ እኛም የበደሉንን ይቅር እንደምንል። አቤቱ ወደ ፈተናም አታግባን ከክፉ ሁሉ አድነን እንጂ መንግሥት ያንተ ናትና ኃይል ክብር ምስጋና ለዘለዓለሙ አሜን።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፬",
+      "spans": [
+        {
+          "t": "እመቤቴ ማርያም ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " በመልአኩ ",
+          "c": "black"
+        },
+        {
+          "t": "በቅዱስ ገብርኤል ሰላምታ ሰላም",
+          "c": "red"
+        },
+        {
+          "t": " እልሻለሁ በሃሳብሽ ድንግል ነሽ በሥጋሽም ድንግል ነሽ። የአሸናፌ ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " እናት ሆይ፤ ሠላምታ ላንቺ ይገባሻል",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [],
+  "uncertain": [
+    {
+      "text": "እንጠራልሃን",
+      "why": "not a standard form; expected እንጠራሃለን or እንጠራልሃለን"
+    }
+  ]
+}

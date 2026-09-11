@@ -1,0 +1,48 @@
+{
+  "page": 119,
+  "notes": "The opening text continues verse ፮ from page 117. Verse ፰ begins near the bottom; only its first line is fully visible.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Verse ፰ continues after the fully visible red line 'ከሁሉ ጌታ የተገኘ የሁሉ ጌታ'; the next red line is sliced by the bottom edge and omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፸፮  አንቀጸ ብርሃን", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "በሆነ ልብ ከእርሱ ለሚበላም ሁሉ ሕይወትን ለሚሰጥ ከሰማይ የወረደ ነው። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ልጅሽ", "c": "red" },
+        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፯",
+      "spans": [
+        { "t": "የብልሃተኛ እጅ ያልሰራት በውስጧም መብራት የሚያበሩባት የወርቅ መቅረዝ አንቺ ነሽ፤ ራሱ ", "c": "black" },
+        { "t": "የአብ ብርሃን", "c": "red" },
+        { "t": " ያበራባት እንጂ። ከብርሃን የተገኘ ብርሃን ወደ አንቺ መጥቶ አደረ። በአምሳልነቱም በዓለም ሁሉ አበራ። ጨለማን ከሰዎች ላይ አራቀ። እኔ የዓለም ብርሃን ነኝ። በብርሃኔ እመኑ። ብርሃን ሳለላችሁ ተመላለሱ ብሎ በሚያድን ቃሉ አዳነን። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ልጅሽ", "c": "red" },
+        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፰",
+      "spans": [
+        { "t": "ከሁሉ ጌታ የተገኘ የሁሉ ጌታ", "c": "red" }
+      ]
+    }
+  ]
+}

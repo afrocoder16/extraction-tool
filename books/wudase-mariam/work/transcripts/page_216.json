@@ -1,0 +1,25 @@
+{
+  "page": 216,
+  "notes": "Partial page: two lines, and the FIRST is cut off by the top edge — only the bottom strokes of its glyphs survive, so it is not transcribed. It continues 'ቅዱሳን እጆችሽን ንጹሃን' from page 215 and appears to begin 'ጣቶችሽን ወደ ልጅሽ ዘርጊ', but that is inference, not reading. The second line is clear and runs on into page 217 ('...በአጠገቤ ተገኝተሽ አረጋጊኝ'). No red ink on this page — the audit's trace red reading here is scanner speckle.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጭንቀቴንና መከራዬን ለማቃለል በአጠገቤ",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line cut off by the top edge."
+    }
+  ],
+  "uncertain": []
+}

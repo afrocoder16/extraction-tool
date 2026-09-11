@@ -1,0 +1,14 @@
+{
+  "page": 70,
+  "notes": "Only a short continuation fragment is present. The FIRST line is cut off by the top edge and is not transcribed. The Latin website address is a digitization watermark and is omitted. The readable text ends mid-sentence after 'ከአሳቦች'.",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "ከድቂቀ አዳምም ትበልጫለሽ። ከአሳቦች", "c": "black" }
+      ]
+    }
+  ]
+}

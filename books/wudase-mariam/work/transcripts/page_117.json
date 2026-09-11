@@ -1,0 +1,44 @@
+{
+  "page": 117,
+  "notes": "The opening text continues the stanza from page 115; the page later begins verse ፮.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ነቢዩ",
+      "why": "The second letter is tightly inked and could be read as ብ rather than ቢ; this is the best scan-only reading."
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Verse ፮ continues after the fully visible phrase ending '(ይኸውም) በቀኙ ካሉ ጻድቃን ጋር'; the next line is sliced by the bottom edge and omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፸፭  አንቀጸ ብርሃን", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "አንድነት ሆነ) አሉ። ካንቺ የነሳውን የኛን ሥጋ ለብሶ ባዩት ጊዜ ሰውን ምንኛ ወደደው ብለው ሰገዱለት ነቢዩ ዳዊትም እንዲህ ብሎ ተናገረ ", "c": "black" },
+        { "t": "እግዚአብሔር", "c": "red" },
+        { "t": " በሰማይና በማደሪያው ቦታ ሆኖ በምድር ወደሚኖሩት ሁሉ ተመለከተ። የሰውንም ልጅ ሁሉ አየ። ንጉሥ ውበትሽን ወደደ። ዘለዓለም ማረፊያዬ ይህቺ ናት መርጫታለሁና በእርሷ አድራለሁ አለ። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ልጅሽ", "c": "red" },
+        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፮",
+      "spans": [
+        { "t": "የተለየሽና ደግ የሆንሽ የተመሰገንሽና የተባረክሽ የከበርሽና ከፍ ከፍ ያልሽ ሆይ፤ የሕይወት ሕብስት ባለበት በወርቅ መሶብ መሰልንሽ። የሕይወት ሕብስትም (ይኸውም) በቀኙ ካሉ ጻድቃን ጋር", "c": "black" }
+      ]
+    }
+  ]
+}

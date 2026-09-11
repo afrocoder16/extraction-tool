@@ -1,0 +1,58 @@
+{
+  "page": 101,
+  "notes": "The running header visibly prints a lone ፯ before አንቀጸ ብርሃን; it is retained without supplying a missing tens numeral. The first verse block continues verse ፪ from page 99.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ከንቲባም",
+      "why": "The left side of the word is degraded and the visible reading is semantically anomalous; no letters were supplied from context."
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Verse ፬ continues below the fully visible red line ending 'የአምላክ'; the following text is sliced off by the bottom edge."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፯  አንቀጸ ብርሃን", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "ከፍጥረት ሁሉ ይልቅ የተከበርሽ ሆይ፤ ", "c": "black" },
+        { "t": "አብ", "c": "red" },
+        { "t": " የወደደሽ ወልድ ያደረብሽ ", "c": "black" },
+        { "t": "መንፈስ ቅዱስ", "c": "red" },
+        { "t": " ያረፈብሽ (የጸለለብሽ) ተባልሽ። በምድር ላይ ከፍተኛ አርያምን የሆንሽ ከሰማያት በላይ ያለ የአርያም የልዑል ስፍራ ምትክ አንቺ ነሽ። ቅዱሳን ነቢያት ካህናት ነገሥታት ያንቺ ምሳሌ አድርገው በውስጧ የኪዳን የሕግ ጽላት ያለባት ቅድስተ ቅዱሳን ከተለየ የተለየችውን ሠሩ ", "c": "black" },
+        { "t": "ቅድስት ሆይ፤ ልጅሽ", "c": "red" },
+        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፫",
+      "spans": [
+        { "t": "የአምላክ ልጅ", "c": "red" },
+        { "t": " ካንቺ ሰው ስለመሆኑ ከንቲባም ከምድር ወደ አርያም ወደ መንግሥተ ሰማያት የቀረብን ሆን፤ ", "c": "black" },
+        { "t": "በአንቺና በልጅሽ", "c": "red" },
+        { "t": " ስም የቀረብን ሆን።", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፬",
+      "spans": [
+        { "t": "አሥሩ ቃላት", "c": "red" },
+        { "t": " በጣቶቹ የተፃፉ ", "c": "black" },
+        { "t": "የፍጥረት ሁሉ ጌታ የሆነ የአምላክ", "c": "red" }
+      ]
+    }
+  ]
+}

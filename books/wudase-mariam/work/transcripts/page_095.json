@@ -1,0 +1,58 @@
+{
+  "page": 95,
+  "notes": "The first unnumbered block continues the stanza begun on the preceding page.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Verse ፱ continues beyond the bottom edge after the visible word 'አምላካችንን'; the following line is not visible."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፷፬  የዘወትር ጸሎት", "c": "black" }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "እግር ወደ ሰላም መንገድ አቀናልን። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፯",
+      "spans": [
+        { "t": "ብሩክ ከቤተ መቅደስ ይዞሽ የወጣ እሳትነት ያለውን ፍሕም የተሸከምሽ የወርቅ ማዕጠንት አንቺ ነሽ ፍሕም የተባለውም ኃጢአትን የሚያስተሠርይና በደልን የሚደመስስ ነው። ይኸውም ካንቺ ሰው የሆነና ራሱን የተወደደ መሥዋዕት አድርጎ ያቀረበ ", "c": "black" },
+        { "t": "የእግዚአብሔር", "c": "red" },
+        { "t": " ቃል ነው። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፰",
+      "spans": [
+        { "t": "የእግዚአብሔርን", "c": "red" },
+        { "t": " ቃል የወለድሽልን መልካሟ ርግብ ", "c": "black" },
+        { "t": "ማርያም ሆይ", "c": "red" },
+        { "t": " ደስ ይበልሽ። ከእሴይ ሥር የወጣሽ መዐዛሽ ያማረ አበባ አንቺ ነሽ። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፱",
+      "spans": [
+        { "t": "ሳይተክሏትና ውኃ ሳያጠጧት የለመለመች የአሮን በትር ነበረች ያለ ዘር ሰው ሆኖ ያዳነን ", "c": "black" },
+        { "t": "እውነተኛ አምላካችንን", "c": "red" }
+      ]
+    }
+  ]
+}

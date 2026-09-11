@@ -1,0 +1,29 @@
+{
+  "page": 12,
+  "notes": "Partial page: two lines, and the FIRST is cut off by the top edge — only the bottom strokes of its glyphs survive. It appears to read 'እሰግዳለሁ፤ ዓለምን ለማዳን ሲል' (continuing 'ለድንግል ማርያም' from page 11), but that is inference from context, not reading, so it is NOT transcribed here. It needs checking against the physical book. The second line is clear.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ኢየሱስ ክርስቶስ",
+          "c": "red"
+        },
+        {
+          "t": " ለተሰቀለበት መስቀልም ",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line cut off by the top edge."
+    }
+  ],
+  "uncertain": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wudase-review-netlify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build_netlify_site.mjs",
+    "build:assets": "python scripts/build_review_assets.py",
+    "test": "node --test tests/netlify/*.test.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "11.0.3",
+    "@netlify/identity": "2.0.0"
+  },
+  "devDependencies": {
+    "@netlify/functions": "6.0.0",
+    "esbuild": "0.28.2"
+  }
+}

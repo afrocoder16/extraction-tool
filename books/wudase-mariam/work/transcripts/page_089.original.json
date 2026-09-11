@@ -1,0 +1,45 @@
+{
+  "page": 89,
+  "notes": "This page starts the Sunday seventh part with an ornament and red section heading. The repeated wording 'ስሙን መጀመሪያ ስሙን' is clear enough to transcribe but syntactically unusual, so it has not been normalized.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "በይሁዳ",
+      "why": "The compact middle glyphs are difficult to distinguish; this is the best direct reading from the scan."
+    }
+  ],
+  "clipped": [],
+  "blocks": [
+    {
+      "type": "ornament",
+      "verse_num_am": "",
+      "spans": []
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "በሰንበተ ክርስቲያን እሑድ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና", "c": "red" }
+      ]
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "ሰባተኛ ክፍል።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፩",
+      "spans": [
+        { "t": "ከሴቶች ይልቅ ተለይተሽ የተባረክሽ ሆይ የተወደድሽ ተባልሽ። ከተለዩ የተለየች በውስጧም የኪዳን የሕግ ጽላት ያለባት የምትባይ ሁለተኛ ክፍል አንቺ ነሽ ኪዳንም ", "c": "black" },
+        { "t": "በእግዚአብሔር", "c": "red" },
+        { "t": " ጣቶች የተጻፉ ዐሥሩ ቃላት ናቸው። ያለመለወጥ ካንቺ ሰው የሆነ ", "c": "black" },
+        { "t": "መድኃኒታችን ኢየሱስ ክርስቶስ", "c": "red" },
+        { "t": " ደግሞ ስሙን መጀመሪያ ስሙን አስቀድሞ በይሁዳ ነገረን። ለአዲስ ኪዳንም አስታራቂ ሆነ። በከበረ ደሙ ፈሳሽነት ወይም መፍሰስ ያመኑትንና ንጹሓን የሆኑትን ወገኖች አነጻቸው። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    }
+  ]
+}

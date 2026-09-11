@@ -1,0 +1,23 @@
+{
+  "page": 110,
+  "notes": "This is a narrow partial scan continuing verse ፯. The Latin URL below the prayer line is a digitization overlay and is omitted.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "A preceding prayer line is sliced through at the top edge and is omitted; only its lower glyph fragments are visible."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "መላኩ ", "c": "black" },
+        { "t": "ገብርኤል", "c": "red" },
+        { "t": " አበሰረሽ እንዲህም", "c": "black" }
+      ]
+    }
+  ]
+}

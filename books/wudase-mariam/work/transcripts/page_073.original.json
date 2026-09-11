@@ -1,0 +1,47 @@
+{
+  "page": 73,
+  "notes": "",
+  "corrections": [
+    {
+      "printed": "እንሰግድለትን",
+      "suggested": "እንሰግድለታለን",
+      "reason": "The printed form appears to omit አለ in the phrase meaning ‘we worship him,’ immediately before እናመሰግነው."
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "በመኻል",
+      "why": "The middle glyph appears to be ኻ, but its small interior detail is faint and may instead be ካ."
+    }
+  ],
+  "clipped": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፶፫  የዓርብ ውዳሴ ማርያም", "c": "black" }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "ማርያም ሆይ", "c": "red" },
+        { "t": " ልዑል ", "c": "black" },
+        { "t": "እግዚአብሔር", "c": "red" },
+        { "t": " ያደረብሽ (የከተመብሽ) ረቂቅ ከተማ ነሽ። በኪሩቤልና በሱራፌል ላይ የሚኖረውን ጌታን በመኻል እጅሽ ይዘሽዋልና። በቸርነቱ ብዛት ሥጋዊ ፍጥረትን ሁሉ የሚመግብ እርሱ ጡትሽን ይዞ ጠባ። ይኸውም ሁሉን የሚያድን አምላካችን ነው። ለዘለዓለሙ ይጠብቀናል። እንሰግድለትን እናመሰግነው ዘንድ እርሱ ፈጥሮናልና። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፪",
+      "spans": [
+        { "t": "ድንግል ማርያም", "c": "red" },
+        { "t": " የሽቱ መኖሪያና የሕይወት ውኃ ምንጭ ናት። የማኅፀንዋ ፍሬ ሰውን ሁሉ አድኖአልና። ከእኛም እርግማንን አጠፋልን። በመካከላችንም ሆኖ በስቀሉ አስታረቀን በልዩ ትንሣኤውም ሰውን ዳግመኛ ወደ ገነት መለሰው። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    }
+  ]
+}

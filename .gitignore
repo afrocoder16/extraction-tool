@@ -1,0 +1,30 @@
+# Most of work/ is derived from source/ and is also large (~2 GB per book).
+# Keep only the small inputs needed by the hosted reviewer.  Its compressed
+# images live separately in netlify/review-assets.
+books/*/work/*
+!books/*/work/transcripts/
+!books/*/work/transcripts/*.json
+!books/*/work/review.json
+!books/*/work/page_stats.json
+!books/*/work/verification.json
+
+# Source PDFs are large binaries; track them with git-lfs or keep them out.
+books/*/source/*.pdf
+
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+netlify-dist/
+.netlify/
+
+# Legacy/generated output from the pre-book-aware pipeline.
+/output/
+/archive/v1/output/
+
+# Local credentials and OS/editor noise.
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

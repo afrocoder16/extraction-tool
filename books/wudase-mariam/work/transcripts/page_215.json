@@ -1,0 +1,76 @@
+{
+  "page": 215,
+  "notes": "The running header carries a worn single-glyph page numeral that is not transcribed. 'ባለሟልነትን' (favour/standing) — confirmed against page 213, where the same word is printed clearly. 'የምስራዉን' reads as printed; 'የምሠራውን' (what I do) would fit the sense. The last line runs into the bottom edge and is not transcribed; the page ends after 'ንጹሃን'.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የኅሊና ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ባለሟልነትን የተጎናጸፍሽ ነሽና በተንኮልና በክፉ በምቀኝነት በሚያሴሩብኝ ጠላቶቼ ላይ ቁጣና መዓት ይውረድባቸው እንደጉም በነው እንደጢስ ተነው ይጥፉ በቆፈሩት ጉድጓድ ይውደቁ።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፩",
+      "spans": [
+        {
+          "t": "ወላዲተ አምላክ ማሪያም ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ጧት ስነሳ ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔርና",
+          "c": "red"
+        },
+        {
+          "t": " አንቺን እመቤቴን በጸሎት እንዳመሰግን የሚያነቃ መንፈስ ኅሊና አሳድሪብኝ፤ ስራና ወንድምን ወዳድ አድርጊኝ የምስራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጪኝ፤ ኃጥያት እንዳልሰራ ተቆጣጠሪኝ ከችግር ከመከራ ሰውሪኝ።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፪",
+      "spans": [
+        {
+          "t": "እመቤቴ ድንግል ማሪያም ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ለጸሎት እጄን ወደ አንቺ በዘረጋሁ ጊዜ ስለኔ ለመጸለይ ቅዱሳን እጆችሽን ንጹሃን",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Final line runs into the bottom edge."
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "የምስራዉን",
+      "why": "may be የምሠራውን (what I do)"
+    }
+  ]
+}

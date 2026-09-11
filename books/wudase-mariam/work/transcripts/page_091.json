@@ -1,0 +1,107 @@
+{
+  "page": 91,
+  "notes": "",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "እናንጋጥባለን",
+      "why": "The closely printed middle sequence after ጋ is difficult to distinguish; this is the best scan reading."
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Verse ፬ continues beyond the bottom edge after the visible word 'ካንቺ'; the following line is not visible."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፷፪  የእሁድ ውዳሴ ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፪",
+      "spans": [
+        {
+          "t": "ሁል ጊዜ ንጽሕት የሆንሽ ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክን የወለድሽ እመቤታችን ሆይ",
+          "c": "red"
+        },
+        {
+          "t": " ሁላችን ስለዚህ እናገንሻለን ሰውን በሚወድ በጌታ ዘንድ ይቅርታን እናገኝ ዘንድ እንለምንሻለን ወዳንቺም እናንጋጥጣለን።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፫",
+      "spans": [
+        {
+          "t": "ከማይነቅዝ እንጨት የተቀረፀ በውስጥና በውጭ በወርቅ የተለበጠ ታቦት ያለመለየትና ያለመለወጥ ሰው የሆነ ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔርን ቃል",
+          "c": "red"
+        },
+        {
+          "t": " ይመስልልናል። ይኸውም መለወጥ የሌለበት ንጹሕ ",
+          "c": "black"
+        },
+        {
+          "t": "መለኮት ነው ከአብ",
+          "c": "red"
+        },
+        {
+          "t": " ጋር የተካከለ ነው ለንጽሕት በራሱ አበሠራት። በልዩ ጥበቡ ያለ ወንድ ዘር እንደ እኛ ሆነ ",
+          "c": "black"
+        },
+        {
+          "t": "መለኮቱን",
+          "c": "red"
+        },
+        {
+          "t": " አዋሕዶ ያለ ርኩሰት ባንቺ ሰው ሆነ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፬",
+      "spans": [
+        {
+          "t": "በእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ሥዕል የተሣሉ ኪሩቤል የሚጋርዱሽ መቅደስ አንቺ ነሽ። ",
+          "c": "black"
+        },
+        {
+          "t": "ንጽሕት ሆይ",
+          "c": "red"
+        },
+        {
+          "t": " ያለመለወጥ ካንቺ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

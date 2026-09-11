@@ -1,0 +1,61 @@
+{
+  "page": 17,
+  "notes": "The main text is the Magnificat. Below it the book prints a cross-reference footnote ('ማመሳከሪያ') in smaller type, using Latin letters and Arabic numerals — 'ሉቃስ ም.1 ቁ.47-55' and the verse number '48'. These are genuinely printed on the page, so they are transcribed as-is; the verifier's Latin-character and ASCII-digit checks will flag this page for that reason and the flag is expected here, not an error. The footnote runs off the bottom edge — verse 49 onward is cut off and not transcribed.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፰  የዘወትር ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ታላቅ ታደርገዋለች መንፈሴም በመድኃኒቴ ",
+          "c": "black"
+        },
+        {
+          "t": "በእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ደስ ይላታል። የባሪያይቱን መዋረድ አይቷልና። እነሆ ከዛሬ ጀምሮ ትውልድ ሁሉ ያመሰግኑኛል። እርሱ ብርቱ የሚሆን ታላቅ ሥራን በእኔ አድርጎልና ",
+          "c": "black"
+        },
+        {
+          "t": "ስሙም ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " ነው ለሚፈሩትም ምሕረቱ ለልጅ ልጅ ነው ኃይልን በክንዱ አደረገ። በልባቸው አሳብ የሚኮሩ ትዕቢተኞችን በታተናቸው ብርቱዎችንም ከዙፋናቸው አዋረዳቸው። የተራቡትንም በቸርነቱ አጠገባቸው ባለጠጎችንም ባዶ እጃቸውን ሰደዳቸው ምሕረቱን እንዲያስብ እስራኤል ባርያውን ተቀበለ። ለአባቶቻችን ለአብርሃምና ለዘሩም እስከ ዘለዓለም ድረስ እንደተናገረው።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "instruction",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ማመሳከሪያ\nሉቃስ ም.1 ቁ.47-55\n48 የባሪያይቱን ውርደት ተመልክቶአልና። እነሆም፤ ከዛሬ ጀምሮ ትውልድ ሁሉ ብፅዕት ይሉኛል፤",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Footnote continues past the bottom edge (verse 49 onward)."
+    }
+  ],
+  "uncertain": []
+}

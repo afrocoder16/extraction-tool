@@ -1,0 +1,170 @@
+{
+  "page": 137,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 95 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ጭ፳",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "እርስዋ",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 27 — check against the scan"
+    },
+    {
+      "text": "እጅ",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ይደረግልኛል?",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "ስሙንም",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "ያባቱን",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "ስለርሱም",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 58 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጭ፳ ይዌድስዋ መላእክት. | ወደ እርስዋ ገብቶ እንዲህ አላት ደስታ ይገባሻል",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": ".-",
+          "c": "black"
+        },
+        {
+          "t": "..",
+          "c": "red"
+        },
+        {
+          "t": "ከሥጋሽ ሥጋ ከነፍስሽ ነፍስ ነሥቶ ካንቺ ሰው ሆኗልና ከሴቶች ይልቅ አንቺ ቡርክት ነሽ፡፡ ከቃሉ አነጋገር አይታ ደነገጠች እንዲህም አለች እንዲህ ያለ የምስጋና እጅ መንሻ ይደረግልኛል? መልአክ አንዲህ አላት",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም",
+          "c": "red"
+        },
+        {
+          "t": "ሽ",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ",
+          "c": "red"
+        },
+        {
+          "t": "አትፍሪ",
+          "c": "black"
+        },
+        {
+          "t": "ከእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": ". . ዘንድ ባለሟልነትን አግኝተሻልና እነሆ ተፀንሻለሽ ትወልጃልሽ ስሙንም",
+          "c": "black"
+        },
+        {
+          "t": "ኢየሱስ",
+          "c": "red"
+        },
+        {
+          "t": ". ትይዋለሽ እርሱም ታላቅ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔር - . ልጅ",
+          "c": "red"
+        },
+        {
+          "t": "ይባላል",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": "| |",
+          "c": "black"
+        },
+        {
+          "t": "አምላክም",
+          "c": "red"
+        },
+        {
+          "t": "| የዳዊት ያባቱን - ዙፋን ይሰጠዋል፡።፡ | ስለርሱም በያዕቆብ ወገን ለዘላለሙ . ይገግሣል መንግሥቱም .-",
+          "c": "black"
+        },
+        {
+          "t": "ማርያምም መልአኩን",
+          "c": "red"
+        },
+        {
+          "t": "እንዲህ",
+          "c": "black"
+        },
+        {
+          "t": "-",
+          "c": "red"
+        },
+        {
+          "t": "አለችው ይህ ነገር እንደምን ይሆንልኛል እንዘ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

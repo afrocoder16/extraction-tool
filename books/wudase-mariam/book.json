@@ -1,0 +1,277 @@
+{
+  "book_id": "wudase_mariam",
+  "title_am": "ውዳሴ ማርያም",
+  "title_en": "Praise of Mary",
+  "tradition": "Ethiopian Orthodox Tewahedo Church",
+  "language": [
+    "am",
+    "gez"
+  ],
+  "script": "Ethiopic",
+  "source_pdf": "source/Wudase Mariam.pdf",
+  "render": {
+    "dpi": 300
+  },
+  "ocr": {
+    "tesseract_lang": "amh",
+    "model": "claude-opus-5",
+    "effort": "high"
+  },
+  "sections": [
+    {
+      "section_id": "daily_prayer",
+      "order": 1,
+      "title_am": "የዘወትር ጸሎት",
+      "title_en": "Daily Prayer",
+      "category": "daily_prayer",
+      "weekday_am": null,
+      "weekday_en": null,
+      "keywords": [
+        "ዘወትር",
+        "ጸሎት"
+      ],
+      "required_any": [
+        [
+          "ዘወትር"
+        ]
+      ]
+    },
+    {
+      "section_id": "monday_wudase_mariam",
+      "order": 2,
+      "title_am": "የሰኞ ውዳሴ ማርያም",
+      "title_en": "Monday Praise of Mary",
+      "category": "wudase_mariam_weekday",
+      "weekday_am": "ሰኞ",
+      "weekday_en": "Monday",
+      "keywords": [
+        "ሰኞ",
+        "ውዳሴ",
+        "ማርያም"
+      ],
+      "required_any": [
+        [
+          "ሰኞ"
+        ],
+        [
+          "ማርያም"
+        ]
+      ]
+    },
+    {
+      "section_id": "tuesday_wudase_mariam",
+      "order": 3,
+      "title_am": "የማክሰኞ ውዳሴ ማርያም",
+      "title_en": "Tuesday Praise of Mary",
+      "category": "wudase_mariam_weekday",
+      "weekday_am": "ማክሰኞ",
+      "weekday_en": "Tuesday",
+      "keywords": [
+        "ማክሰኞ",
+        "ማክሰኛ",
+        "ውዳሴ",
+        "ማርያም"
+      ],
+      "required_any": [
+        [
+          "ማክሰኞ",
+          "ማክሰኛ"
+        ]
+      ]
+    },
+    {
+      "section_id": "wednesday_wudase_mariam",
+      "order": 4,
+      "title_am": "የረቡዕ ውዳሴ ማርያም",
+      "title_en": "Wednesday Praise of Mary",
+      "category": "wudase_mariam_weekday",
+      "weekday_am": "ረቡዕ",
+      "weekday_en": "Wednesday",
+      "keywords": [
+        "ረቡዕ",
+        "ውዳሴ",
+        "ማርያም"
+      ],
+      "required_any": [
+        [
+          "ረቡዕ"
+        ]
+      ]
+    },
+    {
+      "section_id": "thursday_wudase_mariam",
+      "order": 5,
+      "title_am": "የሐሙስ ውዳሴ ማርያም",
+      "title_en": "Thursday Praise of Mary",
+      "category": "wudase_mariam_weekday",
+      "weekday_am": "ሐሙስ",
+      "weekday_en": "Thursday",
+      "keywords": [
+        "ሐሙስ",
+        "ኃሙስ",
+        "ውዳሴ",
+        "ማርያም"
+      ],
+      "required_any": [
+        [
+          "ሐሙስ",
+          "ኃሙስ"
+        ]
+      ]
+    },
+    {
+      "section_id": "friday_wudase_mariam",
+      "order": 6,
+      "title_am": "የዓርብ ውዳሴ ማርያም",
+      "title_en": "Friday Praise of Mary",
+      "category": "wudase_mariam_weekday",
+      "weekday_am": "ዓርብ",
+      "weekday_en": "Friday",
+      "keywords": [
+        "ዓርብ",
+        "አርብ",
+        "ውዳሴ",
+        "ማርያም"
+      ],
+      "required_any": [
+        [
+          "ዓርብ",
+          "አርብ"
+        ]
+      ]
+    },
+    {
+      "section_id": "saturday_wudase_mariam",
+      "order": 7,
+      "title_am": "የቅዳሜ ውዳሴ ማርያም",
+      "title_en": "Saturday Praise of Mary",
+      "category": "wudase_mariam_weekday",
+      "weekday_am": "ቅዳሜ",
+      "weekday_en": "Saturday",
+      "keywords": [
+        "ቅዳሜ",
+        "ውዳሴ",
+        "ዉዳሴ",
+        "ጸሎት",
+        "ማርያም"
+      ],
+      "required_any": [
+        [
+          "ቅዳሜ"
+        ]
+      ]
+    },
+    {
+      "section_id": "sunday_wudase_mariam",
+      "order": 8,
+      "title_am": "የእሁድ ውዳሴ ማርያም",
+      "title_en": "Sunday Praise of Mary",
+      "category": "wudase_mariam_weekday",
+      "weekday_am": "እሁድ",
+      "weekday_en": "Sunday",
+      "keywords": [
+        "እሁድ",
+        "እሑድ",
+        "አሁድ",
+        "ውዳሴ",
+        "ዉዳሴ",
+        "ጸሎት",
+        "ማርያም"
+      ],
+      "required_any": [
+        [
+          "እሁድ",
+          "እሑድ",
+          "አሁድ"
+        ]
+      ]
+    },
+    {
+      "section_id": "anqetse_birhan",
+      "order": 9,
+      "title_am": "አንቀጸ ብርሃን",
+      "title_en": "Anqetse Birhan",
+      "category": "marian_hymn",
+      "weekday_am": null,
+      "weekday_en": null,
+      "keywords": [
+        "አንቀጸ",
+        "ብርሃን",
+        "ብርፃን"
+      ],
+      "required_any": [
+        [
+          "አንቀጸ"
+        ]
+      ]
+    },
+    {
+      "section_id": "yewediswa_melaekt",
+      "order": 10,
+      "title_am": "ይወድስዋ መላእክት",
+      "title_en": "Angels Praise Her",
+      "category": "marian_hymn",
+      "weekday_am": null,
+      "weekday_en": null,
+      "keywords": [
+        "ይወድስዋ",
+        "ይዌድስዋ",
+        "መላእክት",
+        "መሳእክት"
+      ],
+      "required_any": [
+        [
+          "ይወድስዋ",
+          "ይዌድስዋ"
+        ],
+        [
+          "መላእክት",
+          "መሳእክት"
+        ]
+      ]
+    },
+    {
+      "section_id": "sene_golgota",
+      "order": 11,
+      "title_am": "የሰኔ ጎልጎታ",
+      "title_en": "Sene Golgotha",
+      "category": "other",
+      "weekday_am": null,
+      "weekday_en": null,
+      "keywords": [
+        "ሰኔ",
+        "ስኔ",
+        "ጎልጎታ",
+        "ጎለጎታ"
+      ],
+      "required_any": [
+        [
+          "ሰኔ",
+          "ስኔ"
+        ],
+        [
+          "ጎልጎታ",
+          "ጎለጎታ"
+        ]
+      ]
+    },
+    {
+      "section_id": "conscience_prayer",
+      "order": 12,
+      "title_am": "የኅሊና ጸሎት",
+      "title_en": "Prayer of Conscience",
+      "category": "repentance_or_conscience_prayer",
+      "weekday_am": null,
+      "weekday_en": null,
+      "keywords": [
+        "ኅሊና",
+        "ጸሎት"
+      ],
+      "required_any": [
+        [
+          "ኅሊና"
+        ]
+      ]
+    }
+  ]
+}

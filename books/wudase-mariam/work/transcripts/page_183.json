@@ -1,0 +1,226 @@
+{
+  "page": 183,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 34 of 93 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "የሰኔ",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "-39",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "\"ሆ\"ነ",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "ከኤዶም",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "“:-",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": "--.-",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": "-''ያዘነዉን",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "-ረ2ጋ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "ነ;",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "ዛዘንና",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "አጌ",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "..፡ኋጋጋዋለሁ",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "ግ",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "የተከከቨዉን",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "\"",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "-.-”-",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "=ኃት",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "የምስ.ናሸንም",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "መጸሀፍ",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": "ገሕይወት",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": "||.",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": ".\".",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "ቪ.*ቤተክርስቲያን",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "አዬ",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "ገ8ሮ#ይ",
+      "why": "Tesseract confidence 67 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፲፻",
+      "spans": [
+        {
+          "t": "የሰኔ ጎልጎታ - ገላዋለሁ፡፡ ለተጠማ ያጠጣ- ከመዓር -39 ር የሚጣፍጥ ከወተት እጅግ ነጭ \"ሆ\"ነ ከኤዶም ገነት ከሚፈሰው የሕይወት",
+          "c": "black"
+        },
+        {
+          "t": "“:-",
+          "c": "red"
+        },
+        {
+          "t": "አጠጣዋለሁ",
+          "c": "black"
+        },
+        {
+          "t": "--.- በስምሽ",
+          "c": "red"
+        },
+        {
+          "t": "-''ያዘነዉን - -ረ2ጋ",
+          "c": "black"
+        },
+        {
+          "t": "ነ;",
+          "c": "red"
+        },
+        {
+          "t": "ዛዘንና ችግር በደረሰበት ጊዜ አጌ ..፡ኋጋጋዋለሁ",
+          "c": "black"
+        },
+        {
+          "t": "ግ",
+          "c": "red"
+        },
+        {
+          "t": "በልቡ ያ[ነዉን የተከከቨዉን -ስደሰተ ስለስምሽ ብዬ",
+          "c": "black"
+        },
+        {
+          "t": ". \" -.-”-",
+          "c": "red"
+        },
+        {
+          "t": "=ኃት ደስ አሰኘዋለሁ፡፡ | .",
+          "c": "black"
+        },
+        {
+          "t": "የምስ.ናሸንም መጸሀፍ",
+          "c": "red"
+        },
+        {
+          "t": "ገሕይወት",
+          "c": "black"
+        },
+        {
+          "t": "||.",
+          "c": "red"
+        },
+        {
+          "t": "መጸሐፍ ስሙን እፅፈዋለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ስለአንቺ .\". .",
+          "c": "red"
+        },
+        {
+          "t": "መብራት ዘይት",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "እጣንም",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "- ቪ.*ቤተክርስቲያን መብካ የሰጠ አዬ ገ8ሮ#ይ ከጨረቃ ይልቅ ሰባት እጅ - 2ሚያበራ መብራት በመንግስተ ሰማያት =በራለታለሁ፡፡ ንዑህ መዓዛ አጣንም ለሰጠ መ=ዓዛዉን ሽታዉን እንደመላዕክት መዓዛ - 0 ቦባገወእዝዜ ለት ጠርም ዷጁጄጀን",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

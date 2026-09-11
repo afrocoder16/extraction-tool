@@ -1,0 +1,95 @@
+{
+  "page": 19,
+  "notes": "This is the real start of the Monday section — the title reads 'ቅዱስ ኤፍሬም የደረሰው ሰኞ የሚጸለይ...'. Note it says 'ሰኞ', not 'የሰኞ', so the section table's current keyword ('የሰኞ') will NOT match here and will instead open the Monday section two pages later at p.21, where the running header reads 'የሰኞ ውዳሴ ማርያም'. The section table needs 'ሰኞ' + 'ማርያም' to catch this page.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "ornament",
+      "verse_num_am": "",
+      "spans": []
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቅዱስ ኤፍሬም የደረሰው ሰኞ የሚጸለይ አምላክን የወለደች የድንግል ማርያም ምስጋና።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የመጀመሪያ ክፍል",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፩",
+      "spans": [
+        {
+          "t": "ጌታ ልቡ ያዘነና የተከዘ አዳምን ነፃ ያወጣውና ወደ ቀድሞ ቦታው ይመልሰው ዘንድ ወደደ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፪",
+      "spans": [
+        {
+          "t": "ከድንግል ያለወንድ ዘር በሥጋ ተወለደና አዳነን።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፫",
+      "spans": [
+        {
+          "t": "ከይሲ (ዲያብሎስ) ያሳታት ሔዋንን ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ምጥሽንና ጻርሽን አበዛዋለሁ ብሎ ፈረደባት፤ ሰውን ወደደና ነፃ አደረጋት። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፬",
+      "spans": [
+        {
+          "t": "ሰው የሆነና በኛ ያደረ ቃል ኢየሱስ ክርስቶስ ነው። ክብሩንም ለአባቱ አንድ እንደመሆኑ ክብር አየን። ይቅር ይለን ዘንድ ወደደ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    }
+  ],
+  "uncertain": [],
+  "clipped": []
+}

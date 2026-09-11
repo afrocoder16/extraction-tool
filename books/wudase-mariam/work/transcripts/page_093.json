@@ -1,0 +1,48 @@
+{
+  "page": 93,
+  "notes": "The first unnumbered block continues the stanza begun on the preceding page.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Verse ፮ continues beyond the bottom edge after the visible word 'የልቦናችንን'; the following line is not visible."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፷፫  የእሁድ ውዳሴ ጸሎት", "c": "black" }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "ሰው የሆነው ቃል ኃጢአታችንን የሚያስተሠርይልንና አበሳችንን የሚደመስስልን ሆነ። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፭",
+      "spans": [
+        { "t": "የተሠወረ መና ያለብሽ የንጹሕ ወርቅ መሶብ አንቺ ነሽ መናም ከሰማይ የወረደውና ለዓለም ሁሉ ሕይወትን የሚያድለው ኅብስት ነው። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፮",
+      "spans": [
+        { "t": "ሁል ጊዜ ብርሃንነት ያለውን ፋና የተሸከምሽ የወርቅ መቅረዝ አንቺ ነሽ ይኸውም ፋና የዓለም ብርሃን ነው። ጥንት ከሌለው ብርሃን የተገኘ ብርሃን ነው። ከእውነተኛ ", "c": "black" },
+        { "t": "አምላክ", "c": "red" },
+        { "t": " የተገኘ ", "c": "black" },
+        { "t": "እውነተኛ አምላክ", "c": "red" },
+        { "t": " ነው። ያለ መለወጥ ከአንቺ ሰው የሆነው ነው። በመምጣቱም (ሰው በመሆኑም) በጨለማና በሞት ጥላ ውስጥ ለምንኖር ለእኛ አበራልን በልዩ ጥበቡ ምሥጢር በሥጋዌ የልቦናችንን", "c": "black" }
+      ]
+    }
+  ]
+}

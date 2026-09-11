@@ -1,0 +1,1564 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Extraction Review</title>
+  <style>
+    :root {
+      --bg: #f4f5f7;
+      --panel: #ffffff;
+      --text: #1d232a;
+      --muted: #6b7280;
+      --line: #dde1e8;
+      --accent: #8b1e2d;
+      --accent-soft: #f8ebed;
+      --ink-red: #c0392b;
+      --ink-black: #16191d;
+      --good: #1f7a4d;
+      --good-soft: #eafaf2;
+      --warn: #a45c00;
+      --warn-soft: #fff6e8;
+      --shadow: 0 1px 3px rgba(16, 24, 40, 0.08);
+      --sidebar: 260px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { height: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", system-ui, Arial, sans-serif;
+      font-size: 14px;
+      overflow: hidden;
+    }
+
+    .app {
+      height: 100vh;
+      display: grid;
+      grid-template-columns: var(--sidebar) minmax(0, 1fr);
+    }
+
+    /* ---------- sidebar ---------- */
+
+    aside {
+      background: var(--panel);
+      border-right: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .brand {
+      padding: 14px 16px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 19px;
+      font-family: "Nyala", "Noto Sans Ethiopic", "Abyssinica SIL", serif;
+    }
+
+    .brand .sub {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    .filters {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 7px;
+    }
+
+    .filters label {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--muted);
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .page-list {
+      overflow: auto;
+      flex: 1;
+      padding: 8px;
+      min-height: 0;
+    }
+
+    .page-item {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      text-align: left;
+      border: 1px solid transparent;
+      background: none;
+      color: var(--text);
+      border-radius: 6px;
+      padding: 7px 9px;
+      cursor: pointer;
+      font-size: 13px;
+      font-family: inherit;
+    }
+
+    .page-item:hover { background: #f0f2f5; }
+
+    .page-item.active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      font-weight: 600;
+    }
+
+    .page-item .no { font-variant-numeric: tabular-nums; }
+
+    .chips { display: flex; gap: 4px; }
+
+    .chip {
+      font-size: 10px;
+      line-height: 1;
+      padding: 3px 5px;
+      border-radius: 4px;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      background: #fff;
+      white-space: nowrap;
+    }
+
+    .chip.ok { color: var(--good); border-color: #b7dfca; background: var(--good-soft); }
+    .chip.flag { color: var(--warn); border-color: #f3d3a1; background: var(--warn-soft); }
+    .chip.blank { color: #9aa1ac; }
+    .chip.red { color: var(--accent); border-color: #e6c3c9; background: var(--accent-soft); }
+
+    .sidebar-foot {
+      border-top: 1px solid var(--line);
+      padding: 10px 12px;
+      display: grid;
+      gap: 8px;
+    }
+
+    /* ---------- main ---------- */
+
+    main {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      min-height: 0;
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+      flex-wrap: wrap;
+    }
+
+    .seg {
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      overflow: hidden;
+    }
+
+    .seg button {
+      border: 0;
+      background: #fff;
+      padding: 7px 12px;
+      cursor: pointer;
+      font-size: 13px;
+      font-family: inherit;
+      color: var(--text);
+      border-right: 1px solid var(--line);
+    }
+
+    .seg button:last-child { border-right: 0; }
+    .seg button.on { background: var(--accent); color: #fff; }
+
+    button.btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--text);
+      border-radius: 7px;
+      padding: 7px 12px;
+      cursor: pointer;
+      font-size: 13px;
+      font-family: inherit;
+    }
+
+    button.btn:hover { background: #f0f2f5; }
+    button.btn.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+    button.btn.approve.on { background: var(--good); border-color: var(--good); }
+    button.btn.flagbtn.on { background: var(--warn); border-color: var(--warn); }
+    button.btn:disabled { opacity: .45; cursor: default; }
+
+    .spacer { flex: 1; }
+
+    .pageno {
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+      min-width: 84px;
+      text-align: center;
+    }
+
+    .panes {
+      flex: 1;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      min-height: 0;
+    }
+
+    .imagepane {
+      position: relative;
+      background: #2b2f36;
+      overflow: hidden;
+      cursor: grab;
+      min-width: 0;
+    }
+
+    .imagepane.dragging { cursor: grabbing; }
+
+    .stage {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform-origin: 0 0;
+    }
+
+    .stage img {
+      display: block;
+      max-width: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    /* Overlay sits exactly on top of the original so a toggle swaps them in place. */
+    .stage img.overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    .imagepane.show-overlay .stage img.overlay { opacity: 1; }
+
+    .split .stage img.overlay {
+      opacity: 1;
+      clip-path: inset(0 0 0 50%);
+    }
+
+    .split-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      background: rgba(255, 255, 255, .55);
+      pointer-events: none;
+      display: none;
+    }
+
+    .split .split-line { display: block; }
+
+    .hint {
+      position: absolute;
+      left: 12px;
+      bottom: 12px;
+      background: rgba(0, 0, 0, .62);
+      color: #fff;
+      border-radius: 6px;
+      padding: 6px 9px;
+      font-size: 11.5px;
+      pointer-events: none;
+      line-height: 1.5;
+    }
+
+    .hint kbd {
+      background: rgba(255, 255, 255, .16);
+      border-radius: 3px;
+      padding: 1px 4px;
+      font-family: inherit;
+    }
+
+    .textpane {
+      background: var(--panel);
+      border-left: 1px solid var(--line);
+      overflow: auto;
+      padding: 16px 18px;
+      min-width: 0;
+    }
+
+    .flagbar { display: grid; gap: 6px; margin-bottom: 14px; }
+
+    .flagpill {
+      border: 1px solid #f3d3a1;
+      background: var(--warn-soft);
+      color: var(--warn);
+      border-radius: 6px;
+      padding: 7px 10px;
+      font-size: 12.5px;
+    }
+
+    .block {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 13px 15px;
+      margin-bottom: 11px;
+      box-shadow: var(--shadow);
+    }
+
+    .block-head {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 9px;
+    }
+
+    .btype {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .verse-badge {
+      font-family: "Nyala", "Noto Sans Ethiopic", serif;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      padding: 1px 7px;
+      font-size: 15px;
+    }
+
+    .ethiopic {
+      font-family: "Nyala", "Noto Sans Ethiopic", "Abyssinica SIL", "Segoe UI", serif;
+      font-size: 22px;
+      line-height: 1.95;
+      white-space: pre-wrap;
+      word-break: break-word;
+      color: var(--ink-black);
+    }
+
+    /* The whole point of the tool: red spans must read as red. */
+    .ethiopic .red { color: var(--ink-red); }
+
+    /* Explicit black, so un-marking inside a red run actually turns black
+       instead of inheriting red from the enclosing element. */
+    .ethiopic .blk { color: var(--ink-black); }
+
+    .ethiopic[contenteditable="true"] {
+      outline: none;
+      border-radius: 5px;
+      padding: 3px 5px;
+      margin: -3px -5px;
+    }
+
+    .ethiopic[contenteditable="true"]:focus {
+      background: #fffdf5;
+      box-shadow: 0 0 0 2px #ffe08a;
+    }
+
+    .block.dirty { border-color: #f0b429; background: #fffdf5; }
+
+    .block-head .spacer { flex: 1; }
+
+    .btype-select, .verse-input {
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      padding: 3px 6px;
+      font-size: 12px;
+      font-family: inherit;
+      background: #fff;
+    }
+
+    .verse-input {
+      width: 62px;
+      font-family: "Nyala", "Noto Sans Ethiopic", serif;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .mini {
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 5px;
+      padding: 3px 7px;
+      font-size: 11.5px;
+      cursor: pointer;
+      font-family: inherit;
+      color: var(--muted);
+    }
+
+    .mini:hover { background: #f0f2f5; color: var(--text); }
+    .mini.danger:hover { background: #fff1f2; color: #9f1239; border-color: #fecdd3; }
+
+    .edit-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      margin-bottom: 12px;
+      background: #f7f8fa;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      position: sticky;
+      top: -16px;
+      z-index: 5;
+      flex-wrap: wrap;
+    }
+
+    .mark-red {
+      color: #fff;
+      background: var(--ink-red);
+      border-color: var(--ink-red);
+      font-weight: 600;
+    }
+
+    .mark-black {
+      color: #fff;
+      background: var(--ink-black);
+      border-color: var(--ink-black);
+      font-weight: 600;
+    }
+
+    /* Suspected misprint, still showing the printed form. Underline rather than a
+       colour change, so it can never be mistaken for red liturgical ink. */
+    .sugg {
+      border-bottom: 3px dotted #d97706;
+      background: #fff8e6;
+      border-radius: 2px;
+      cursor: help;
+    }
+
+    .suggbox {
+      border: 1px solid #f0b429;
+      background: #fffdf5;
+      border-radius: 8px;
+      padding: 11px 13px;
+      margin-bottom: 14px;
+    }
+
+    .suggbox h3 {
+      margin: 0 0 9px;
+      font-size: 12.5px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--warn);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .sugg-row {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 7px 0;
+      border-top: 1px solid #f3e3bd;
+      flex-wrap: wrap;
+    }
+
+    .sugg-row:first-of-type { border-top: 0; }
+
+    .sugg-words {
+      font-family: "Nyala", "Noto Sans Ethiopic", serif;
+      font-size: 19px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .sugg-from { color: #9a3412; text-decoration: line-through 1.5px; opacity: .75; }
+    .sugg-to { color: var(--good); font-weight: 600; }
+    .sugg-why { color: var(--muted); font-size: 12px; }
+    .sugg-row.done { opacity: .5; }
+
+    /* A word the transcriber could not resolve. Blue, so it is never confused
+       with red liturgical ink or with an amber misprint suggestion. */
+    .unsure {
+      border-bottom: 3px dotted #2563eb;
+      background: #eef4ff;
+      border-radius: 2px;
+      cursor: help;
+    }
+
+    .cutbox {
+      border: 1px solid #dc2626;
+      background: #fef2f2;
+      border-radius: 8px;
+      padding: 11px 13px;
+      margin-bottom: 14px;
+    }
+
+    .cutbox h3 {
+      margin: 0 0 6px;
+      font-size: 12.5px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: #b91c1c;
+    }
+
+    .cutbox .row { font-size: 13px; padding: 4px 0; color: #7f1d1d; }
+    .cutbox .edge {
+      display: inline-block;
+      background: #dc2626;
+      color: #fff;
+      border-radius: 4px;
+      padding: 1px 7px;
+      font-size: 11px;
+      margin-right: 7px;
+      text-transform: uppercase;
+    }
+
+    .unsurebox {
+      border: 1px solid #93b4f5;
+      background: #f5f9ff;
+      border-radius: 8px;
+      padding: 11px 13px;
+      margin-bottom: 14px;
+    }
+
+    .unsurebox h3 {
+      margin: 0 0 6px;
+      font-size: 12.5px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: #1d4ed8;
+    }
+
+    .unsurebox .row {
+      display: flex;
+      gap: 9px;
+      align-items: baseline;
+      padding: 4px 0;
+      border-top: 1px solid #dbe7fb;
+      flex-wrap: wrap;
+    }
+
+    .unsurebox .row:first-of-type { border-top: 0; }
+
+    .unsure-word {
+      font-family: "Nyala", "Noto Sans Ethiopic", serif;
+      font-size: 19px;
+      color: #1d4ed8;
+    }
+
+    .unsure-why { color: var(--muted); font-size: 12px; }
+
+    .savestate { font-size: 12px; color: var(--muted); }
+    .savestate.unsaved { color: var(--warn); font-weight: 600; }
+    .savestate.saved { color: var(--good); }
+    .savestate.error { color: #9f1239; font-weight: 600; }
+
+    .block.ornament {
+      text-align: center;
+      color: var(--muted);
+      font-size: 12.5px;
+      letter-spacing: .12em;
+      background: #fbfbfc;
+    }
+
+    .notice {
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.65;
+    }
+
+    .notice code {
+      background: #eef0f4;
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 12.5px;
+    }
+
+    .reviewbar {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      padding: 10px 14px;
+      background: var(--panel);
+      border-top: 1px solid var(--line);
+    }
+
+    .note {
+      flex: 1;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px 11px;
+      font-size: 13px;
+      font-family: inherit;
+      min-width: 0;
+    }
+
+    .fatal {
+      margin: 40px auto;
+      max-width: 620px;
+      background: #fff1f2;
+      border: 1px solid #fecdd3;
+      color: #9f1239;
+      border-radius: 8px;
+      padding: 20px 24px;
+      line-height: 1.7;
+    }
+
+    .fatal code {
+      display: block;
+      background: #fff;
+      border: 1px solid #fecdd3;
+      border-radius: 5px;
+      padding: 8px 11px;
+      margin: 9px 0;
+      color: #1d232a;
+    }
+
+    @media (max-width: 1100px) {
+      .panes { grid-template-columns: 1fr; grid-template-rows: 45% 55%; }
+      .textpane { border-left: 0; border-top: 1px solid var(--line); }
+    }
+  </style>
+</head>
+<body>
+<div class="app" id="app" hidden>
+  <aside>
+    <div class="brand">
+      <h1 id="bookTitle">…</h1>
+      <div class="sub" id="brandSub">Extraction review</div>
+    </div>
+
+    <div class="filters">
+      <label><input type="checkbox" id="fBlank"> Show blank &amp; picture pages</label>
+      <label><input type="checkbox" id="fFlagged"> Flagged only</label>
+      <label><input type="checkbox" id="fUnreviewed"> Not yet reviewed</label>
+    </div>
+
+    <div class="page-list" id="pageList"></div>
+
+    <div class="sidebar-foot">
+      <div class="sub" id="progress" style="color:var(--muted);font-size:12px"></div>
+      <button class="btn" id="exportBtn">Export review.json</button>
+    </div>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <div class="seg" id="viewSeg">
+        <button data-view="original" class="on">Original</button>
+        <button data-view="overlay">Overlay</button>
+        <button data-view="split">Split</button>
+      </div>
+      <button class="btn" id="fitBtn">Fit</button>
+      <button class="btn" id="zoomOut">&minus;</button>
+      <button class="btn" id="zoomIn">+</button>
+      <div class="spacer"></div>
+      <button class="btn" id="prevBtn">&lsaquo; Prev</button>
+      <div class="pageno" id="pageNo">—</div>
+      <button class="btn" id="nextBtn">Next &rsaquo;</button>
+    </div>
+
+    <div class="panes">
+      <div class="imagepane" id="imagePane">
+        <div class="stage" id="stage">
+          <img id="imgOriginal" alt="Page scan">
+          <img id="imgOverlay" class="overlay" alt="Red-ink mask overlay">
+        </div>
+        <div class="split-line"></div>
+        <div class="hint">
+          Hold <kbd>O</kbd> to flash the overlay &middot; scroll to zoom &middot; drag to pan<br>
+          <b style="color:#7CFC9B">green</b> = detected red ink &middot;
+          <b style="color:#FF7BFF">magenta</b> = rejected ornament
+        </div>
+      </div>
+
+      <div class="textpane" id="textPane"></div>
+    </div>
+
+    <div class="reviewbar">
+      <button class="btn approve" id="approveBtn">&check; Approve</button>
+      <button class="btn flagbtn" id="flagBtn">&#9873; Needs fix</button>
+      <input class="note" id="noteInput" placeholder="Note for this page (optional)…">
+      <span style="color:var(--muted);font-size:12px">
+        <kbd>←</kbd><kbd>→</kbd> page &middot; <kbd>A</kbd> approve &middot; <kbd>F</kbd> flag
+      </span>
+    </div>
+  </main>
+</div>
+
+<div id="fatal" hidden></div>
+
+<script>
+"use strict";
+
+const state = {
+  bookId: null,
+  hosting: "local",
+  imageExtension: "png",
+  pages: [],          // [{page, is_blank, red_ink_ratio, ...}]
+  flags: {},          // page -> [flag strings]
+  transcripts: {},    // page -> transcript | null (null = fetched, absent)
+  current: null,
+  view: "original",
+  zoom: 1,
+  panX: 0,
+  panY: 0,
+  fitted: false,
+  review: {},
+  filters: { blank: false, flagged: false, unreviewed: false },
+};
+
+const el = (id) => document.getElementById(id);
+const pad = (n) => String(n).padStart(3, "0");
+
+function reviewStoreKey() {
+  return `extraction-review:${state.bookId || "unknown-book"}`;
+}
+
+function loadReview() {
+  try { return JSON.parse(localStorage.getItem(reviewStoreKey())) || {}; }
+  catch { return {}; }
+}
+
+let reviewSaveChain = Promise.resolve();
+
+function saveReview() {
+  // localStorage is the offline fallback; the review server persists to work/review.json
+  // so decisions survive a different browser or machine.
+  localStorage.setItem(reviewStoreKey(), JSON.stringify(state.review));
+  const body = JSON.stringify({ entries: state.review });
+  // Serialize writes so rapid page decisions cannot arrive out of order and
+  // replace a newer review with an older snapshot.
+  reviewSaveChain = reviewSaveChain
+    .catch(() => {})
+    .then(async () => {
+      const res = await fetch("/api/review", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body,
+      });
+      if (!res.ok) throw new Error(await res.text());
+    })
+    .catch((err) => console.error("Could not persist review decisions", err));
+}
+
+function escapeHtml(v) {
+  return String(v ?? "")
+    .replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;").replaceAll("'", "&#039;");
+}
+
+/* ---------------- data loading ---------------- */
+
+async function getJSON(path) {
+  const res = await fetch(path, { cache: "no-store" });
+  if (!res.ok) throw Object.assign(new Error(res.status + " " + path), { status: res.status });
+  return res.json();
+}
+
+async function boot() {
+  // The local server exposes /api/book; the generated Netlify site uses a
+  // static copy so the shared UI remains book-aware in either environment.
+  let meta = null;
+  for (const path of ["/api/book", "/book.json"]) {
+    try { meta = await getJSON(path); break; }
+    catch { /* try the next source */ }
+  }
+  if (meta) {
+    state.bookId = meta.book_id;
+    state.hosting = meta.hosting || "local";
+    state.imageExtension = meta.image_extension || "png";
+    state.review = loadReview();
+    el("bookTitle").textContent = meta.title_am || meta.title_en || meta.book_id;
+    document.title = `${meta.title_en || meta.book_id} — Extraction Review`;
+  } else {
+    state.review = loadReview();
+    el("bookTitle").textContent = "Extraction Review";
+  }
+
+  let stats;
+  try {
+    stats = await getJSON("/work/page_stats.json");
+  } catch (err) {
+    // Under file:// fetch is blocked entirely, which is the most likely cause.
+    showFatal(err);
+    return;
+  }
+
+  state.pages = Object.keys(stats)
+    .map(Number)
+    .sort((a, b) => a - b)
+    .map((p) => ({ page: p, ...stats[String(p)] }));
+
+  // verification.json only exists once the verify stage has run.
+  try {
+    const v = await getJSON("/work/verification.json");
+    for (const r of v.reports || []) state.flags[r.page] = r.review_flags || [];
+  } catch { /* not verified yet — no flags to show */ }
+
+  // Decisions saved on disk by serve.py win over this browser's localStorage.
+  try {
+    const saved = await getJSON("/api/review");
+    if (saved.entries) state.review = saved.entries;
+    state.canSave = true;
+  } catch { state.canSave = false; }
+
+  if (state.hosting === "netlify") el("exportBtn").textContent = "Export all saved changes";
+
+  el("app").hidden = false;
+  el("brandSub").textContent =
+    `${state.pages.filter(p => !p.is_blank && !p.is_illustration).length} text pages · ${state.pages.filter(p => p.is_blank).length} blank · ${state.pages.filter(p => p.is_illustration).length} pictures`;
+
+  renderList();
+  const first = visiblePages()[0] || state.pages[0];
+  if (first) selectPage(first.page);
+  updateProgress();
+}
+
+function showFatal(err) {
+  const box = el("fatal");
+  box.hidden = false;
+  box.className = "fatal";
+  box.innerHTML = `
+    <b>Could not load the pipeline data.</b><br>
+    <span style="font-size:13px">${escapeHtml(err.message)}</span>
+    <p>This page reads JSON from disk, which browsers block when a file is opened
+    directly (<code style="display:inline">file://</code>). Serve the folder over HTTP instead:</p>
+    <p><b>VS Code:</b> run the review server (it serves this page):</p>
+    <p><b>Or</b>, from the <code style="display:inline">extract-tool</code> folder:</p>
+    <code>python -m engine.serve books/wudase-mariam</code>
+    then open <code>http://127.0.0.1:8000/</code>
+    <p style="font-size:13px;color:#6b7280">
+      If you are already on http:// and still see this, run the split stage first:<br>
+      <code>python -m engine books/wudase-mariam --stage split</code>
+    </p>`;
+}
+
+/* ---------------- page list ---------------- */
+
+function statusOf(page) {
+  return state.review[page]?.status || null;
+}
+
+function visiblePages() {
+  return state.pages.filter((p) => {
+    // Blanks and colour plates both carry no prayer text; one filter covers both.
+    if ((p.is_blank || p.is_illustration) && !state.filters.blank) return false;
+    if (state.filters.flagged && !(state.flags[p.page] || []).length) return false;
+    if (state.filters.unreviewed && statusOf(p.page)) return false;
+    return true;
+  });
+}
+
+function renderList() {
+  const rows = visiblePages().map((p) => {
+    const chips = [];
+    if (p.is_blank) chips.push('<span class="chip blank">blank</span>');
+    else if (p.is_illustration) chips.push('<span class="chip blank">picture</span>');
+    else if (p.red_ink_ratio > 0) chips.push(`<span class="chip red">${Math.round(p.red_ink_ratio * 100)}% red</span>`);
+    if ((state.flags[p.page] || []).length) chips.push('<span class="chip flag">&#9873;</span>');
+    const st = statusOf(p.page);
+    if (st === "approved") chips.push('<span class="chip ok">&check;</span>');
+    if (st === "needs_fix") chips.push('<span class="chip flag">fix</span>');
+
+    return `<button class="page-item${p.page === state.current ? " active" : ""}" data-page="${p.page}">
+      <span class="no">p.${p.page}</span><span class="chips">${chips.join("")}</span>
+    </button>`;
+  });
+
+  el("pageList").innerHTML = rows.join("") ||
+    '<div style="padding:14px;color:var(--muted);font-size:13px">No pages match these filters.</div>';
+
+  el("pageList").querySelectorAll(".page-item").forEach((b) =>
+    b.addEventListener("click", () => selectPage(Number(b.dataset.page))));
+}
+
+function updateProgress() {
+  const total = state.pages.filter((p) => !p.is_blank && !p.is_illustration).length;
+  const done = Object.entries(state.review)
+    .filter(([pg, r]) => r.status && state.pages.some(
+      (p) => p.page === Number(pg) && !p.is_blank && !p.is_illustration)).length;
+  el("progress").textContent = `${done} / ${total} content pages reviewed`;
+}
+
+/* ---------------- page selection ---------------- */
+
+async function selectPage(page) {
+  // Never let a page change silently discard typed corrections.
+  if (state.current != null && state.current !== page && dirty.has(state.current)) {
+    if (!confirm(`Page ${state.current} has unsaved edits. Leave without saving?`)) return;
+    dirty.delete(state.current);
+    delete state.transcripts[state.current];  // drop the edited copy, re-fetch clean
+  }
+  state.current = page;
+  el("pageNo").textContent = "page " + page;
+  el("imgOriginal").src = `/work/page_images/page_${pad(page)}.${state.imageExtension}`;
+  el("imgOverlay").src = `/work/debug/page_${pad(page)}.${state.imageExtension}`;
+  state.fitted = false;
+
+  const r = state.review[page] || {};
+  el("noteInput").value = r.note || "";
+  el("approveBtn").classList.toggle("on", r.status === "approved");
+  el("flagBtn").classList.toggle("on", r.status === "needs_fix");
+
+  const idx = state.pages.findIndex((p) => p.page === page);
+  el("prevBtn").disabled = idx <= 0;
+  el("nextBtn").disabled = idx < 0 || idx >= state.pages.length - 1;
+
+  renderList();
+  renderText(page);
+}
+
+async function renderText(page) {
+  const pane = el("textPane");
+  const flags = state.flags[page] || [];
+  const flagHtml = flags.length
+    ? `<div class="flagbar">${flags.map((f) => `<div class="flagpill">&#9873; ${escapeHtml(f)}</div>`).join("")}</div>`
+    : "";
+
+  const meta = state.pages.find((p) => p.page === page);
+  if (meta?.is_blank || meta?.is_illustration) {
+    const what = meta.is_blank
+      ? "<b>Blank scan.</b><br>This page carries only the website watermark"
+      : "<b>Colour illustration.</b><br>This page is a devotional plate, not text (the red-ink mask is meaningless on it)";
+    pane.innerHTML = flagHtml + `<div class="notice">${what}, so it is excluded
+      from transcription and from the final JSON.</div>`;
+    return;
+  }
+
+  if (!(page in state.transcripts)) {
+    pane.innerHTML = flagHtml + `<div class="notice">Loading…</div>`;
+    try {
+      // A hosted edit wins over the checked-in baseline. The local server has
+      // no GET transcript endpoint, so its normal 404 falls through.
+      state.transcripts[page] = await getJSON(`/api/transcript/${page}`);
+    } catch {
+      try {
+        state.transcripts[page] = await getJSON(`/work/transcripts/page_${pad(page)}.json`);
+      } catch {
+        state.transcripts[page] = null;
+      }
+    }
+    if (state.current !== page) return;  // user moved on while we fetched
+  }
+
+  const t = state.transcripts[page];
+  if (!t) {
+    pane.innerHTML = flagHtml + `<div class="notice">
+      <b>Not transcribed yet.</b><br>
+      The red-ink extraction on the left is finished and can be checked now.
+      Text appears here after the transcription stage runs:
+      <br><br><code>python -m engine books/wudase-mariam --stage ocr</code>
+      <br><br>That stage needs <code>ANTHROPIC_API_KEY</code> to be set.</div>`;
+    return;
+  }
+
+  const TYPES = ["title", "verse", "prayer", "instruction", "ornament"];
+  const corrections = t.corrections || [];
+  const uncertain = t.uncertain || [];
+  const clipped = t.clipped || [];
+  const pending = corrections
+    .map((c, i) => ({ c, i }))
+    .filter((x) => !x.c.applied && !x.c.dismissed);
+
+  const blocks = (t.blocks || []).map((b, i) => {
+    const typeSel = TYPES.map((v) =>
+      `<option value="${v}"${v === b.type ? " selected" : ""}>${v}</option>`).join("");
+    const spans = (b.spans || []).map((s) =>
+      `<span class="${s.c === "red" ? "red" : "blk"}">${markUncertain(markSuggestions(s.t, pending), uncertain)}</span>`).join("");
+
+    return `<article class="block${b.type === "ornament" ? " ornament" : ""}" data-i="${i}">
+        <div class="block-head">
+          <select class="btype-select" data-role="type">${typeSel}</select>
+          <input class="verse-input" data-role="verse" value="${escapeHtml(b.verse_num_am || "")}"
+                 placeholder="፩" title="Verse numeral">
+          <span class="spacer"></span>
+          <button class="mini" data-role="add">+ block below</button>
+          <button class="mini danger" data-role="del">delete</button>
+        </div>
+        <div class="ethiopic" data-role="text" contenteditable="true"
+             spellcheck="false">${spans}</div>
+      </article>`;
+  }).join("");
+
+  const note = t.notes?.trim()
+    ? `<div class="flagbar"><div class="flagpill">Note: ${escapeHtml(t.notes)}</div></div>` : "";
+
+  const toolbar = `<div class="edit-toolbar">
+      <button class="mini mark-red" id="markRed">Mark red</button>
+      <button class="mini mark-black" id="markBlack">Mark black</button>
+      <span style="color:var(--muted);font-size:11.5px">select text, then mark</span>
+      <span class="spacer" style="flex:1"></span>
+      <span class="savestate" id="saveState"></span>
+      <button class="mini" id="revertBtn" title="Restore the original extraction">Revert</button>
+      <button class="btn" id="saveBtn">Save <span style="opacity:.6">⌃S</span></button>
+    </div>`;
+
+  pane.innerHTML = flagHtml + renderClipped(clipped) + note + toolbar +
+    renderSuggestions(corrections) + renderUncertain(uncertain) +
+    (blocks || `<div class="notice">No blocks on this page.</div>`) +
+    `<button class="mini" id="addFirst" style="margin-top:4px">+ add block</button>`;
+  pane.scrollTop = 0;
+  wireEditor(page);
+  setSaveState(dirty.has(page) ? "unsaved" : "");
+}
+
+/* ---------------- spelling suggestions ---------------- */
+
+/**
+ * Underline suspected misprints inside a span's text.
+ * Built by scanning the raw string once and escaping each piece, so a suggested
+ * word that happens to contain another needle can never corrupt the markup.
+ */
+function markSuggestions(text, pending) {
+  if (!pending.length) return escapeHtml(text);
+  const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const rx = new RegExp(pending.map((x) => esc(x.c.printed)).join("|"), "g");
+
+  let out = "";
+  let last = 0;
+  for (const m of text.matchAll(rx)) {
+    out += escapeHtml(text.slice(last, m.index));
+    const hit = pending.find((x) => x.c.printed === m[0]);
+    out += `<span class="sugg" data-ci="${hit.i}" title="suggested: ${escapeHtml(hit.c.suggested)} (${escapeHtml(hit.c.reason || "")})">${escapeHtml(m[0])}</span>`;
+    last = m.index + m[0].length;
+  }
+  return out + escapeHtml(text.slice(last));
+}
+
+function renderSuggestions(corrections) {
+  if (!corrections.length) return "";
+  const pending = corrections.filter((c) => !c.applied && !c.dismissed).length;
+
+  const rows = corrections.map((c, i) => {
+    const done = c.applied || c.dismissed;
+    const status = c.applied ? "accepted" : c.dismissed ? "kept as printed" : "";
+    const buttons = done
+      ? `<button class="mini" data-undo="${i}">undo</button>`
+      : `<button class="mini" data-accept="${i}">Accept</button>
+         <button class="mini" data-keep="${i}">Keep as printed</button>`;
+    return `<div class="sugg-row${done ? " done" : ""}">
+        <span class="sugg-words">
+          <span class="sugg-from">${escapeHtml(c.printed)}</span> →
+          <span class="sugg-to">${escapeHtml(c.suggested)}</span>
+        </span>
+        <span class="sugg-why">${escapeHtml(c.reason || "")}${status ? " · " + status : ""}</span>
+        <span style="flex:1"></span>${buttons}
+      </div>`;
+  }).join("");
+
+  return `<div class="suggbox">
+      <h3>Suspected misprints in the book
+        <span style="font-weight:400;text-transform:none;letter-spacing:0">
+          ${pending} awaiting your decision</span>
+        <span style="flex:1"></span>
+        ${pending ? '<button class="mini" id="acceptAll">Accept all</button>' : ""}
+      </h3>${rows}</div>`;
+}
+
+/** Replace every occurrence of a suggested word across the page's spans. */
+function resolveCorrection(page, idx, action) {
+  const t = collectTranscript(page);
+  const c = (t.corrections || [])[idx];
+  if (!c) return;
+
+  if (action === "accept") {
+    for (const b of t.blocks)
+      for (const s of b.spans) s.t = s.t.split(c.printed).join(c.suggested);
+    c.applied = true;
+    delete c.dismissed;
+  } else if (action === "keep") {
+    c.dismissed = true;
+    delete c.applied;
+  } else if (action === "undo") {
+    // Only an accepted change altered the text, so only that needs reversing.
+    if (c.applied)
+      for (const b of t.blocks)
+        for (const s of b.spans) s.t = s.t.split(c.suggested).join(c.printed);
+    delete c.applied;
+    delete c.dismissed;
+  }
+
+  state.transcripts[page] = t;
+  markPageDirty(page);
+  renderText(page);
+}
+
+/** Missing text: the scan sliced these lines off, so the words are absent. */
+function renderClipped(clipped) {
+  if (!clipped.length) return "";
+  const rows = clipped.map((c) => `<div class="row">
+      <span class="edge">${escapeHtml(c.edge || "edge")}</span>
+      ${escapeHtml(c.note || "a line was cut off and is not transcribed")}
+    </div>`).join("");
+  return `<div class="cutbox">
+      <h3>&#9888; Text cut off by the scan — ${clipped.length} line(s) missing</h3>
+      ${rows}
+      <div class="row" style="margin-top:6px;opacity:.8">
+        These words exist in the printed book but not in this transcript. Read them
+        from the physical book and type them in.
+      </div>
+    </div>`;
+}
+
+/** Words the transcriber flagged rather than guessed at. */
+function renderUncertain(uncertain) {
+  if (!uncertain.length) return "";
+  const rows = uncertain.map((u) => `<div class="row">
+      <span class="unsure-word">${escapeHtml(u.text || "")}</span>
+      <span class="unsure-why">${escapeHtml(u.why || "unclear on the scan")}</span>
+    </div>`).join("");
+  return `<div class="unsurebox">
+      <h3>Uncertain readings — ${uncertain.length} to check</h3>${rows}
+      <div class="unsure-why" style="margin-top:5px">
+        Underlined in blue below. Check each against the page image and correct it
+        directly in the text.
+      </div>
+    </div>`;
+}
+
+/** Underline uncertain words in the rendered text. Runs on already-escaped HTML. */
+function markUncertain(html, uncertain) {
+  if (!uncertain.length) return html;
+  for (const u of uncertain) {
+    const word = escapeHtml(u.text || "");
+    if (!word) continue;
+    // Skip anything already inside a tag or attribute so markup stays intact.
+    html = html.split(word).join(
+      `<span class="unsure" title="${escapeHtml(u.why || "unclear on the scan")}">${word}</span>`);
+  }
+  return html;
+}
+
+/* ---------------- editing ---------------- */
+
+const dirty = new Set();
+
+function setSaveState(kind, msg) {
+  const s = el("saveState");
+  if (!s) return;
+  s.className = "savestate " + (kind || "");
+  s.textContent = msg || (kind === "unsaved" ? "unsaved changes"
+    : kind === "saved" ? "saved to disk"
+    : kind === "error" ? "save failed" : "");
+}
+
+function markPageDirty(page) {
+  dirty.add(page);
+  setSaveState("unsaved");
+}
+
+/**
+ * Read a contenteditable block back into span objects.
+ * Colour is decided by the nearest ancestor carrying .red or .blk, so nesting
+ * produced by the browser during editing still resolves to one flat run list.
+ */
+function extractSpans(root) {
+  const out = [];
+  const push = (text, red) => {
+    if (!text) return;
+    const c = red ? "red" : "black";
+    const last = out[out.length - 1];
+    if (last && last.c === c) last.t += text;
+    else out.push({ t: text, c });
+  };
+  const walk = (node, red) => {
+    if (node.nodeType === Node.TEXT_NODE) { push(node.nodeValue, red); return; }
+    if (node.nodeType !== Node.ELEMENT_NODE) return;
+    if (node.tagName === "BR") { push("\n", red); return; }
+    let r = red;
+    if (node.classList.contains("red")) r = true;
+    else if (node.classList.contains("blk")) r = false;
+    for (const child of node.childNodes) walk(child, r);
+    if (node.tagName === "DIV" || node.tagName === "P") push("\n", r);
+  };
+  for (const child of root.childNodes) walk(child, false);
+  // Trailing newline from the last block wrapper is an artefact, not content.
+  if (out.length && out[out.length - 1].t.endsWith("\n")) {
+    out[out.length - 1].t = out[out.length - 1].t.replace(/\n+$/, "");
+    if (!out[out.length - 1].t) out.pop();
+  }
+  return out;
+}
+
+/** Wrap the current selection so it renders (and saves) as red or black. */
+function markSelection(color) {
+  const sel = window.getSelection();
+  if (!sel || !sel.rangeCount || sel.isCollapsed) {
+    setSaveState("error", "select some text first");
+    setTimeout(() => setSaveState(dirty.has(state.current) ? "unsaved" : ""), 1600);
+    return;
+  }
+  const range = sel.getRangeAt(0);
+  const host = range.commonAncestorContainer.parentElement?.closest('[data-role="text"]');
+  if (!host) return;
+
+  const frag = range.extractContents();
+  const wrap = document.createElement("span");
+  wrap.className = color === "red" ? "red" : "blk";
+  wrap.appendChild(frag);
+  // Drop colour markers inside the selection so the new one wins outright.
+  wrap.querySelectorAll("span.red, span.blk").forEach((s) => s.replaceWith(...s.childNodes));
+  range.insertNode(wrap);
+  host.normalize();
+
+  sel.removeAllRanges();
+  const after = document.createRange();
+  after.selectNodeContents(wrap);
+  sel.addRange(after);
+
+  markPageDirty(state.current);
+}
+
+function collectTranscript(page) {
+  const base = state.transcripts[page] || { page, notes: "", blocks: [] };
+  const blocks = [...el("textPane").querySelectorAll(".block")].map((art) => ({
+    type: art.querySelector('[data-role="type"]').value,
+    verse_num_am: art.querySelector('[data-role="verse"]').value.trim(),
+    spans: extractSpans(art.querySelector('[data-role="text"]')),
+  }));
+  // Saving a legacy transcript upgrades it to the current review schema. These
+  // fields used to be absent, which made "not recorded" look like "none found".
+  return {
+    ...base,
+    page,
+    notes: base.notes || "",
+    corrections: base.corrections || [],
+    uncertain: base.uncertain || [],
+    clipped: base.clipped || [],
+    blocks,
+  };
+}
+
+async function saveTranscript(page) {
+  const payload = collectTranscript(page);
+  setSaveState("", "saving…");
+  try {
+    const res = await fetch(`/api/transcript/${page}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    state.transcripts[page] = payload;
+    dirty.delete(page);
+    setSaveState("saved");
+    setTimeout(() => { if (!dirty.has(page)) setSaveState(""); }, 2200);
+  } catch (err) {
+    setSaveState("error", "save failed — is the review server running?");
+    console.error(err);
+  }
+}
+
+function wireEditor(page) {
+  const pane = el("textPane");
+
+  pane.querySelectorAll('[data-role="text"]').forEach((box) => {
+    box.addEventListener("input", () => markPageDirty(page));
+    // Paste as plain text: pasted markup would smuggle in styling that the
+    // span extractor would then misread as colour.
+    box.addEventListener("paste", (e) => {
+      e.preventDefault();
+      const text = (e.clipboardData || window.clipboardData).getData("text/plain");
+      document.execCommand("insertText", false, text);
+    });
+  });
+
+  pane.querySelectorAll('[data-role="type"], [data-role="verse"]').forEach((f) =>
+    f.addEventListener("input", () => markPageDirty(page)));
+
+  pane.querySelectorAll('[data-role="add"]').forEach((b) =>
+    b.addEventListener("click", () => {
+      const t = collectTranscript(page);
+      const i = Number(b.closest(".block").dataset.i);
+      t.blocks.splice(i + 1, 0, { type: "prayer", verse_num_am: "", spans: [] });
+      state.transcripts[page] = t;
+      markPageDirty(page);
+      renderText(page);
+    }));
+
+  pane.querySelectorAll('[data-role="del"]').forEach((b) =>
+    b.addEventListener("click", () => {
+      if (!confirm("Delete this block?")) return;
+      const t = collectTranscript(page);
+      t.blocks.splice(Number(b.closest(".block").dataset.i), 1);
+      state.transcripts[page] = t;
+      markPageDirty(page);
+      renderText(page);
+    }));
+
+  el("addFirst")?.addEventListener("click", () => {
+    const t = collectTranscript(page);
+    t.blocks.push({ type: "prayer", verse_num_am: "", spans: [] });
+    state.transcripts[page] = t;
+    markPageDirty(page);
+    renderText(page);
+  });
+
+  el("markRed")?.addEventListener("click", () => markSelection("red"));
+  el("markBlack")?.addEventListener("click", () => markSelection("black"));
+  el("saveBtn")?.addEventListener("click", () => saveTranscript(page));
+
+  // Spelling suggestions: accept, keep as printed, or undo either decision.
+  for (const [attr, action] of [["accept", "accept"], ["keep", "keep"], ["undo", "undo"]]) {
+    pane.querySelectorAll(`[data-${attr}]`).forEach((b) =>
+      b.addEventListener("click", () =>
+        resolveCorrection(page, Number(b.dataset[attr]), action)));
+  }
+
+  el("acceptAll")?.addEventListener("click", () => {
+    const t = collectTranscript(page);
+    (t.corrections || []).forEach((c) => {
+      if (c.applied || c.dismissed) return;
+      for (const b of t.blocks)
+        for (const s of b.spans) s.t = s.t.split(c.printed).join(c.suggested);
+      c.applied = true;
+    });
+    state.transcripts[page] = t;
+    markPageDirty(page);
+    renderText(page);
+  });
+
+  // Clicking an underlined word in the text jumps to its suggestion row.
+  pane.querySelectorAll(".sugg").forEach((s) =>
+    s.addEventListener("click", () => {
+      const row = pane.querySelectorAll(".sugg-row")[Number(s.dataset.ci)];
+      row?.scrollIntoView({ block: "center", behavior: "smooth" });
+      row?.animate([{ background: "#ffe08a" }, { background: "transparent" }], 900);
+    }));
+
+  el("revertBtn")?.addEventListener("click", async () => {
+    if (!confirm("Discard your edits and restore the original extraction for this page?")) return;
+    let original = null;
+    for (const path of [
+      `/work/transcripts/page_${pad(page)}.original.json`,
+      `/work/transcripts/page_${pad(page)}.json`,
+    ]) {
+      try { original = await getJSON(path); break; }
+      catch { /* try the canonical baseline next */ }
+    }
+    if (original) {
+      state.transcripts[page] = original;
+      markPageDirty(page);
+      renderText(page);
+      setSaveState("unsaved", "reverted — press Save to write it");
+    } else {
+      setSaveState("error", "no original on file (this page was never edited)");
+    }
+  });
+}
+
+/* ---------------- image view ---------------- */
+
+function applyTransform() {
+  el("stage").style.transform =
+    `translate(${state.panX}px, ${state.panY}px) scale(${state.zoom})`;
+}
+
+function setView(view) {
+  state.view = view;
+  const pane = el("imagePane");
+  pane.classList.toggle("show-overlay", view === "overlay");
+  pane.classList.toggle("split", view === "split");
+  el("viewSeg").querySelectorAll("button").forEach((b) =>
+    b.classList.toggle("on", b.dataset.view === view));
+}
+
+function fit() {
+  const img = el("imgOriginal");
+  const pane = el("imagePane");
+  if (!img.naturalWidth) return;
+  const scale = Math.min(
+    pane.clientWidth / img.naturalWidth,
+    pane.clientHeight / img.naturalHeight);
+  state.zoom = scale;
+  state.panX = (pane.clientWidth - img.naturalWidth * scale) / 2;
+  state.panY = (pane.clientHeight - img.naturalHeight * scale) / 2;
+  applyTransform();
+  state.fitted = true;
+}
+
+function zoomBy(factor, cx, cy) {
+  const pane = el("imagePane");
+  const px = cx ?? pane.clientWidth / 2;
+  const py = cy ?? pane.clientHeight / 2;
+  // Keep the point under the cursor stationary while scaling.
+  const next = Math.min(8, Math.max(0.05, state.zoom * factor));
+  const ratio = next / state.zoom;
+  state.panX = px - (px - state.panX) * ratio;
+  state.panY = py - (py - state.panY) * ratio;
+  state.zoom = next;
+  applyTransform();
+}
+
+el("imgOriginal").addEventListener("load", () => { if (!state.fitted) fit(); });
+
+el("imagePane").addEventListener("wheel", (e) => {
+  e.preventDefault();
+  const r = el("imagePane").getBoundingClientRect();
+  zoomBy(e.deltaY < 0 ? 1.12 : 1 / 1.12, e.clientX - r.left, e.clientY - r.top);
+}, { passive: false });
+
+(function enableDrag() {
+  const pane = el("imagePane");
+  let dragging = false, lastX = 0, lastY = 0;
+  pane.addEventListener("pointerdown", (e) => {
+    dragging = true; lastX = e.clientX; lastY = e.clientY;
+    pane.classList.add("dragging"); pane.setPointerCapture(e.pointerId);
+  });
+  pane.addEventListener("pointermove", (e) => {
+    if (!dragging) return;
+    state.panX += e.clientX - lastX;
+    state.panY += e.clientY - lastY;
+    lastX = e.clientX; lastY = e.clientY;
+    applyTransform();
+  });
+  const stop = (e) => {
+    dragging = false; pane.classList.remove("dragging");
+    if (e.pointerId != null && pane.hasPointerCapture?.(e.pointerId)) pane.releasePointerCapture(e.pointerId);
+  };
+  pane.addEventListener("pointerup", stop);
+  pane.addEventListener("pointercancel", stop);
+})();
+
+/* ---------------- review actions ---------------- */
+
+function setStatus(status) {
+  if (state.current == null) return;
+  const cur = state.review[state.current] || {};
+  // Pressing the same button again clears the decision.
+  cur.status = cur.status === status ? null : status;
+  cur.note = el("noteInput").value.trim();
+  state.review[state.current] = cur;
+  saveReview();
+  el("approveBtn").classList.toggle("on", cur.status === "approved");
+  el("flagBtn").classList.toggle("on", cur.status === "needs_fix");
+  renderList();
+  updateProgress();
+}
+
+el("approveBtn").addEventListener("click", () => setStatus("approved"));
+el("flagBtn").addEventListener("click", () => setStatus("needs_fix"));
+
+el("noteInput").addEventListener("change", () => {
+  if (state.current == null) return;
+  const cur = state.review[state.current] || {};
+  cur.note = el("noteInput").value.trim();
+  state.review[state.current] = cur;
+  saveReview();
+});
+
+el("exportBtn").addEventListener("click", async () => {
+  if (state.hosting === "netlify") {
+    const button = el("exportBtn");
+    button.disabled = true;
+    try {
+      const res = await fetch("/api/export", { cache: "no-store" });
+      if (!res.ok) throw new Error(await res.text());
+      const blob = await res.blob();
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `${state.bookId}_review_export.json`;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (err) {
+      alert("Export failed. Make sure you are signed in, then try again.");
+      console.error(err);
+    } finally {
+      button.disabled = false;
+    }
+    return;
+  }
+
+  const entries = Object.entries(state.review)
+    .filter(([, r]) => r.status || r.note)
+    .map(([page, r]) => ({ page: Number(page), status: r.status || null, note: r.note || "" }))
+    .sort((a, b) => a.page - b.page);
+
+  const payload = {
+    book: state.bookId,
+    exported_at: new Date().toISOString(),
+    reviewed: entries.length,
+    entries,
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "review.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+});
+
+/* ---------------- navigation ---------------- */
+
+function step(delta) {
+  const list = visiblePages();
+  const i = list.findIndex((p) => p.page === state.current);
+  const next = list[i + delta];
+  if (next) selectPage(next.page);
+}
+
+el("prevBtn").addEventListener("click", () => step(-1));
+el("nextBtn").addEventListener("click", () => step(1));
+el("fitBtn").addEventListener("click", fit);
+el("zoomIn").addEventListener("click", () => zoomBy(1.25));
+el("zoomOut").addEventListener("click", () => zoomBy(1 / 1.25));
+
+el("viewSeg").addEventListener("click", (e) => {
+  const b = e.target.closest("button");
+  if (b) setView(b.dataset.view);
+});
+
+for (const [id, key] of [["fBlank", "blank"], ["fFlagged", "flagged"], ["fUnreviewed", "unreviewed"]]) {
+  el(id).addEventListener("change", (e) => {
+    state.filters[key] = e.target.checked;
+    renderList();
+  });
+}
+
+// Hold O to flash the overlay. Restoring the previous view on keyup makes it a
+// momentary compare rather than a mode switch, which is what makes the mask easy
+// to check against the glyphs underneath.
+let flashFrom = null;
+document.addEventListener("keydown", (e) => {
+  // Ctrl/Cmd+S saves from anywhere, including mid-edit.
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {
+    e.preventDefault();
+    if (state.current != null) saveTranscript(state.current);
+    return;
+  }
+  // Single-letter shortcuts must not fire while typing Amharic into a block.
+  if (e.target.matches("input, textarea") || e.target.isContentEditable) return;
+  const k = e.key.toLowerCase();
+  if (k === "o" && !e.repeat) { flashFrom = state.view; setView("overlay"); return; }
+  if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); }
+  else if (e.key === "ArrowRight") { e.preventDefault(); step(1); }
+  else if (k === "a") setStatus("approved");
+  else if (k === "f") setStatus("needs_fix");
+  else if (k === "s") setView("split");
+  else if (k === "0") fit();
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key.toLowerCase() === "o" && flashFrom) { setView(flashFrom); flashFrom = null; }
+});
+
+window.addEventListener("resize", () => { if (state.fitted) fit(); });
+
+window.addEventListener("beforeunload", (e) => {
+  if (dirty.size) { e.preventDefault(); e.returnValue = ""; }
+});
+
+boot();
+</script>
+</body>
+</html>

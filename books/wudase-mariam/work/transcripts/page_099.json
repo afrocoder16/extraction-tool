@@ -1,0 +1,97 @@
+{
+  "page": 99,
+  "notes": "This page ends the Sunday prayer and starts አንቀጸ ብርሃን after an ornament. The closing line visibly contains a printed run of eight ASCII hyphens, which is retained.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Verse ፪ continues below the visible red phrase ending 'ማርያም ሆይ፤'; the following line is sliced by the bottom edge and omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፷፮  የእሁድ ውዳሴ ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፩",
+      "spans": [
+        {
+          "t": "ልመናዋ ክብሯ የልጇም ቸርነት ከልጇ ከወዳጇ ከ--------ጋር ለዘለዓለሙ ይኑር አሜን።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "ornament",
+      "verse_num_am": "",
+      "spans": []
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንቀጸ ብርሃን",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፩",
+      "spans": [
+        {
+          "t": "ኢትዮጵያዊው ቅዱስ ያሬድ",
+          "c": "red"
+        },
+        {
+          "t": " የደረሰው ",
+          "c": "black"
+        },
+        {
+          "t": "የአምላክ እናት",
+          "c": "red"
+        },
+        {
+          "t": " ምስጋና። ለእውነተኛ ፈራጅ ",
+          "c": "black"
+        },
+        {
+          "t": "ለአምላክ እናት",
+          "c": "red"
+        },
+        {
+          "t": " ምስጋና አገልግሎት ይገባል።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፪",
+      "spans": [
+        {
+          "t": "ቅድስት ሆይ",
+          "c": "red"
+        },
+        {
+          "t": " ብፅዕት ነሽ የተመሰገንሽና የተባረክሽ ነሽ የከበርሽና ከፍ ከፍ ያልሽ ነሽ የብርሃን መውጫ የሕይወት መሰላል ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክን የወለድሽ እመቤታችን ድንግል ማርያም ሆይ፤ ከተለዩ የተለየሽ የመለኮት ማደሪያ ነሽ፧",
+          "c": "red"
+        }
+      ]
+    }
+  ]
+}

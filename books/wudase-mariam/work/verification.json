@@ -1,0 +1,2324 @@
+{
+  "pages_checked": 129,
+  "pages_flagged": 125,
+  "flagged_pages": [
+    3,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    15,
+    17,
+    23,
+    25,
+    27,
+    29,
+    31,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    49,
+    50,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61,
+    63,
+    65,
+    67,
+    69,
+    70,
+    71,
+    73,
+    75,
+    77,
+    79,
+    83,
+    85,
+    89,
+    91,
+    93,
+    95,
+    97,
+    99,
+    101,
+    103,
+    105,
+    107,
+    109,
+    110,
+    111,
+    113,
+    115,
+    117,
+    119,
+    121,
+    122,
+    123,
+    125,
+    127,
+    129,
+    131,
+    132,
+    133,
+    135,
+    137,
+    139,
+    141,
+    143,
+    147,
+    149,
+    150,
+    151,
+    153,
+    154,
+    155,
+    157,
+    159,
+    161,
+    162,
+    163,
+    164,
+    165,
+    167,
+    168,
+    169,
+    171,
+    173,
+    175,
+    176,
+    177,
+    179,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    189,
+    191,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    201,
+    202,
+    203,
+    204,
+    205,
+    207,
+    209,
+    211,
+    213,
+    215,
+    216,
+    217
+  ],
+  "reports": [
+    {
+      "page": 3,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.322,
+        "mask_red_ratio": 0.358,
+        "tesseract_lines": 21,
+        "model_blocks": 5,
+        "text_agreement": 0.813,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Opening page of የዘወትር ጸሎት. A stray dash-like mark appears between 'ስምህን' and 'እናመስግናለን' and is treated as a scan artefact, not printed text. The page ends mid-sentence; 'የጌቶች ጌታ' continues on the next page. Note the print alternates 'እክድሃለው' and 'እክድሃለሁ' within one paragraph — both transcribed as printed."
+      }
+    },
+    {
+      "page": 5,
+      "review_flags": [
+        "1 uncertain word(s) to check: እንጠራልሃን"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.149,
+        "mask_red_ratio": 0.198,
+        "tesseract_lines": 20,
+        "model_blocks": 4,
+        "text_agreement": 0.819,
+        "uncertain_words": 1,
+        "clipped_lines": 0,
+        "corrections_total": 2,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "'እንጠራልሃን' at the end of the first paragraph is not a standard form — the expected word is 'እንጠራሃለን' (or 'እንጠራልሃለን', matching 'እንገዛልሃለን' and 'እንሰግድልሃለን' on the previous page). The glyphs are clear, so it is transcribed as printed and left out of the corrections list rather than guessed at. The page ends mid-sentence; 'ላንቺ' continues on the next page."
+      }
+    },
+    {
+      "page": 7,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.208,
+        "mask_red_ratio": 0.296,
+        "tesseract_lines": 15,
+        "model_blocks": 4,
+        "text_agreement": 0.736,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 1,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Second block starts the የሃይማኖት ጸሎት (the Creed). A stray ':' appears at the start of the line after 'እናምናለን፤' and is treated as a wrapped punctuation mark, not text. The page ends mid-sentence; 'በእርሱ' continues on the next page."
+      }
+    },
+    {
+      "page": 8,
+      "review_flags": [
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.0,
+        "mask_red_ratio": 0.0,
+        "tesseract_lines": 3,
+        "model_blocks": 1,
+        "text_agreement": 0.766,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Partial page: only two lines of text, and the FIRST line is cut off by the top edge of the scan — only the lower half of its glyphs survives, so it is NOT transcribed here. It needs to be read from the physical book. This is Creed text, so guessing at it would be worse than leaving the gap visible. The second line is clear and is transcribed. No red ink on this page."
+      }
+    },
+    {
+      "page": 9,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.109,
+        "mask_red_ratio": 0.15,
+        "tesseract_lines": 19,
+        "model_blocks": 2,
+        "text_agreement": 0.771,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 1,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Creed continues. The last line runs into the bottom edge of the scan: 'ሐዋርያት በሥራት በአንዲት ኅብረት' is my best reading, but the final word is clipped and should be checked against the book — 'በሥራት' may be 'በሥርዓት'. The page ends mid-sentence."
+      }
+    },
+    {
+      "page": 11,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.254,
+        "mask_red_ratio": 0.333,
+        "tesseract_lines": 20,
+        "model_blocks": 4,
+        "text_agreement": 0.858,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 1,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "'፫ ጊዜ በል' inside verse ፫ is a rubric (an instruction to the reader to say it three times), printed in red inline with the prayer. The last line of the page is cut off by the bottom edge — it begins 'እሰግዳለሁ' and continues on the next page; it is not transcribed here."
+      }
+    },
+    {
+      "page": 12,
+      "review_flags": [
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.429,
+        "mask_red_ratio": 0.299,
+        "tesseract_lines": 4,
+        "model_blocks": 1,
+        "text_agreement": 0.784,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Partial page: two lines, and the FIRST is cut off by the top edge — only the bottom strokes of its glyphs survive. It appears to read 'እሰግዳለሁ፤ ዓለምን ለማዳን ሲል' (continuing 'ለድንግል ማርያም' from page 11), but that is inference from context, not reading, so it is NOT transcribed here. It needs checking against the physical book. The second line is clear."
+      }
+    },
+    {
+      "page": 13,
+      "review_flags": [
+        "1 uncertain word(s) to check: ስማመስገን",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.178,
+        "mask_red_ratio": 0.229,
+        "tesseract_lines": 20,
+        "model_blocks": 3,
+        "text_agreement": 0.691,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 1,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "'፫ ጊዜ በል፤' is a rubric printed in red inline with the prayer. 'ስማመስገን' in the phrase 'ስሙን ስማመስገን ያነቃን ዘንድ' is transcribed as printed; the expected form would be 'ለማመስገን' or 'ልናመሰግን', but the glyphs are not clear enough to raise as a correction. The last line runs into the bottom edge and is not transcribed; the page ends after 'መንበር'."
+      }
+    },
+    {
+      "page": 15,
+      "review_flags": [
+        "1 uncertain word(s) to check: ፩ ፡ ፳፮ ፡ ፶፮"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.094,
+        "mask_red_ratio": 0.165,
+        "tesseract_lines": 20,
+        "model_blocks": 3,
+        "text_agreement": 0.734,
+        "uncertain_words": 1,
+        "clipped_lines": 0,
+        "corrections_total": 1,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The last block ends with a scripture reference, Luke 1:26–56, printed in Ethiopic numerals as 'ሉቃ ፩ ፡ ፳፮ ፡ ፶፮።' — the numerals are small and worth checking. That passage (the Annunciation, Visitation and Magnificat) fits the Marian prayer it introduces."
+      }
+    },
+    {
+      "page": 17,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.076,
+        "mask_red_ratio": 0.065,
+        "tesseract_lines": 21,
+        "model_blocks": 2,
+        "text_agreement": 0.758,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The main text is the Magnificat. Below it the book prints a cross-reference footnote ('ማመሳከሪያ') in smaller type, using Latin letters and Arabic numerals — 'ሉቃስ ም.1 ቁ.47-55' and the verse number '48'. These are genuinely printed on the page, so they are transcribed as-is; the verifier's Latin-character and ASCII-digit checks will flag this page for that reason and the flag is expected here, not an error. The footnote runs off the bottom edge — verse 49 onward is cut off and not transcribed."
+      }
+    },
+    {
+      "page": 19,
+      "review_flags": [],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.339,
+        "mask_red_ratio": 0.35,
+        "tesseract_lines": 15,
+        "model_blocks": 7,
+        "text_agreement": 0.741,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This is the real start of the Monday section — the title reads 'ቅዱስ ኤፍሬም የደረሰው ሰኞ የሚጸለይ...'. Note it says 'ሰኞ', not 'የሰኞ', so the section table's current keyword ('የሰኞ') will NOT match here and will instead open the Monday section two pages later at p.21, where the running header reads 'የሰኞ ውዳሴ ማርያም'. The section table needs 'ሰኞ' + 'ማርያም' to catch this page."
+      }
+    },
+    {
+      "page": 21,
+      "review_flags": [],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.216,
+        "mask_red_ratio": 0.243,
+        "tesseract_lines": 19,
+        "model_blocks": 5,
+        "text_agreement": 0.852,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Header numeral read as ፲፭ (page 15 of the printed book); small and worn, worth a second look. 'ተወልዳልና' in the last verse may be printed for the standard 'ተወልዷልና', but the glyph is not clear enough to raise as a correction."
+      }
+    },
+    {
+      "page": 23,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.183,
+        "mask_red_ratio": 0.202,
+        "tesseract_lines": 21,
+        "model_blocks": 3,
+        "text_agreement": 0.873,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 3,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Three suspected misprints are listed as suggestions rather than corrected in place. The third (ንጉሠ) is doubtful: ንጉሠ is the Ge'ez construct form used before a following noun (as in ንጉሠ ነገሥት), so before ክርስቶስን it may well be correct as printed — worth keeping. The running-header numeral read as ፲፮ but is small and worn. The page ends mid-refrain; ለምኝልን። is partly cut off at the bottom edge."
+      }
+    },
+    {
+      "page": 25,
+      "review_flags": [
+        "1 uncertain word(s) to check: አመሰገንሁ",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.242,
+        "mask_red_ratio": 0.314,
+        "tesseract_lines": 15,
+        "model_blocks": 6,
+        "text_agreement": 0.781,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page carries the end of the Monday section and the start of the Tuesday section (title: 'ማክሰኞ የሚጸለይ...'), separated by an ornament border. 'አመሰገንሁ' at the end of verse ፲ reads as printed; 'አመሰገንህ' (we praised you) would fit the surrounding second-person forms better, but the final glyph is not clear enough to raise as a correction. The page ends mid-sentence after 'እኛን'."
+      }
+    },
+    {
+      "page": 27,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.21,
+        "mask_red_ratio": 0.232,
+        "tesseract_lines": 15,
+        "model_blocks": 4,
+        "text_agreement": 0.808,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false
+      }
+    },
+    {
+      "page": 29,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.195,
+        "mask_red_ratio": 0.231,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.789,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'ደስ'."
+      }
+    },
+    {
+      "page": 31,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.152,
+        "mask_red_ratio": 0.228,
+        "tesseract_lines": 19,
+        "model_blocks": 4,
+        "text_agreement": 0.698,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-refrain after 'ቅድስት ሆይ'."
+      }
+    },
+    {
+      "page": 33,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.117,
+        "mask_red_ratio": 0.13,
+        "tesseract_lines": 18,
+        "model_blocks": 3,
+        "text_agreement": 0.86,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The LAST line is cut off by the bottom edge—only the upper part of the opening of verse ፲፩ survives, so it is not transcribed."
+      }
+    },
+    {
+      "page": 35,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.132,
+        "mask_red_ratio": 0.142,
+        "tesseract_lines": 16,
+        "model_blocks": 4,
+        "text_agreement": 0.728,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'እኛን'."
+      }
+    },
+    {
+      "page": 37,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.143,
+        "mask_red_ratio": 0.173,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.711,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'ያለማቋረጥ'."
+      }
+    },
+    {
+      "page": 39,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.28,
+        "mask_red_ratio": 0.29,
+        "tesseract_lines": 15,
+        "model_blocks": 6,
+        "text_agreement": 0.84,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page carries the end of the Tuesday section and the start of the Wednesday section, separated by an ornament border."
+      }
+    },
+    {
+      "page": 41,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.117,
+        "mask_red_ratio": 0.157,
+        "tesseract_lines": 17,
+        "model_blocks": 4,
+        "text_agreement": 0.705,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'የወለድሽልን'."
+      }
+    },
+    {
+      "page": 43,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.204,
+        "mask_red_ratio": 0.287,
+        "tesseract_lines": 19,
+        "model_blocks": 4,
+        "text_agreement": 0.869,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'ማርያምን'."
+      }
+    },
+    {
+      "page": 45,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.018,
+        "mask_red_ratio": 0.023,
+        "tesseract_lines": 18,
+        "model_blocks": 2,
+        "text_agreement": 0.825,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The faint word in the final sentence is read as 'መኰንንን'; it is worth a second look in review."
+      }
+    },
+    {
+      "page": 47,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.09,
+        "mask_red_ratio": 0.145,
+        "tesseract_lines": 17,
+        "model_blocks": 3,
+        "text_agreement": 0.755,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'ታላቅ'."
+      }
+    },
+    {
+      "page": 49,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.154,
+        "mask_red_ratio": 0.131,
+        "tesseract_lines": 21,
+        "model_blocks": 3,
+        "text_agreement": 0.748,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'በቀር'."
+      }
+    },
+    {
+      "page": 50,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped",
+        "red coverage under-marked: model 0.00 vs mask 0.38",
+        "model produced no text but Tesseract found lines",
+        "transcript contains no Ethiopic text"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.0,
+        "mask_red_ratio": 0.377,
+        "tesseract_lines": 3,
+        "model_blocks": 0,
+        "text_agreement": null,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Only a short continuation fragment is present. The Latin website address is a digitization watermark, not printed prayer-book text, and is not transcribed."
+      }
+    },
+    {
+      "page": 51,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.044,
+        "mask_red_ratio": 0.055,
+        "tesseract_lines": 15,
+        "model_blocks": 2,
+        "text_agreement": 0.895,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false
+      }
+    },
+    {
+      "page": 53,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.293,
+        "mask_red_ratio": 0.389,
+        "tesseract_lines": 14,
+        "model_blocks": 5,
+        "text_agreement": 0.638,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page starts the Thursday section. It ends mid-sentence after 'ይቅርታሽ'."
+      }
+    },
+    {
+      "page": 55,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.059,
+        "mask_red_ratio": 0.08,
+        "tesseract_lines": 19,
+        "model_blocks": 2,
+        "text_agreement": 0.819,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'ከወለደችውም'; the following line is cut off by the bottom edge and is not transcribed."
+      }
+    },
+    {
+      "page": 57,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.1,
+        "mask_red_ratio": 0.135,
+        "tesseract_lines": 18,
+        "model_blocks": 3,
+        "text_agreement": 0.828,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'እርሱን'."
+      }
+    },
+    {
+      "page": 59,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.082,
+        "mask_red_ratio": 0.099,
+        "tesseract_lines": 15,
+        "model_blocks": 2,
+        "text_agreement": 0.666,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'በፈቃዱ'."
+      }
+    },
+    {
+      "page": 61,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.052,
+        "mask_red_ratio": 0.074,
+        "tesseract_lines": 19,
+        "model_blocks": 3,
+        "text_agreement": 0.791,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'ወልዳላቸዋለችና'; the following line is cut off by the bottom edge and is not transcribed."
+      }
+    },
+    {
+      "page": 63,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.128,
+        "mask_red_ratio": 0.167,
+        "tesseract_lines": 18,
+        "model_blocks": 3,
+        "text_agreement": 0.806,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The LAST line is cut off by the bottom edge and is not transcribed; the readable text stops after 'ዳግመኛም'."
+      }
+    },
+    {
+      "page": 65,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.053,
+        "mask_red_ratio": 0.071,
+        "tesseract_lines": 19,
+        "model_blocks": 3,
+        "text_agreement": 0.891,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The page ends mid-sentence after 'ጊዜ'."
+      }
+    },
+    {
+      "page": 67,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.142,
+        "mask_red_ratio": 0.172,
+        "tesseract_lines": 17,
+        "model_blocks": 3,
+        "text_agreement": 0.867,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false
+      }
+    },
+    {
+      "page": 69,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.283,
+        "mask_red_ratio": 0.305,
+        "tesseract_lines": 15,
+        "model_blocks": 6,
+        "text_agreement": 0.59,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page starts the Friday section. A faint English digitization watermark is not transcribed. The LAST line is cut off by the bottom edge and is omitted; verse ፫ stops after 'ከመላእክት'."
+      }
+    },
+    {
+      "page": 70,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped",
+        "model produced no text but Tesseract found lines",
+        "transcript contains no Ethiopic text"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.0,
+        "mask_red_ratio": 0.0,
+        "tesseract_lines": 2,
+        "model_blocks": 0,
+        "text_agreement": null,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Only a short continuation fragment is present. The FIRST line is cut off by the top edge and is not transcribed. The Latin website address is a digitization watermark and is omitted. The readable text ends mid-sentence after 'ከአሳቦች'."
+      }
+    },
+    {
+      "page": 71,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.074,
+        "mask_red_ratio": 0.106,
+        "tesseract_lines": 19,
+        "model_blocks": 3,
+        "text_agreement": 0.814,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "A faint English digitization watermark is not transcribed. The page ends mid-sentence after 'ሴቶች'."
+      }
+    },
+    {
+      "page": 73,
+      "review_flags": [
+        "1 uncertain word(s) to check: በመኻል"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.142,
+        "mask_red_ratio": 0.181,
+        "tesseract_lines": 19,
+        "model_blocks": 3,
+        "text_agreement": 0.848,
+        "uncertain_words": 1,
+        "clipped_lines": 0,
+        "corrections_total": 1,
+        "corrections_undecided": 0,
+        "unusable": false
+      }
+    },
+    {
+      "page": 75,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.191,
+        "mask_red_ratio": 0.239,
+        "tesseract_lines": 20,
+        "model_blocks": 3,
+        "text_agreement": 0.858,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false
+      }
+    },
+    {
+      "page": 77,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.051,
+        "mask_red_ratio": 0.071,
+        "tesseract_lines": 20,
+        "model_blocks": 2,
+        "text_agreement": 0.76,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page starts the Saturday section."
+      }
+    },
+    {
+      "page": 79,
+      "review_flags": [
+        "2 uncertain word(s) to check: በመኻል, እየጮኹ",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.338,
+        "mask_red_ratio": 0.486,
+        "tesseract_lines": 15,
+        "model_blocks": 6,
+        "text_agreement": 0.844,
+        "uncertain_words": 2,
+        "clipped_lines": 1,
+        "corrections_total": 1,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page contains the Saturday sixth-part heading and an ornament border. A white English digitization overlay crossing the ornament is not printed book text and is omitted."
+      }
+    },
+    {
+      "page": 81,
+      "review_flags": [],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.227,
+        "mask_red_ratio": 0.275,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.83,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "ባለሟልነትን confirmed against page 213, where the same word prints clearly."
+      }
+    },
+    {
+      "page": 83,
+      "review_flags": [
+        "1 uncertain word(s) to check: ባሕርዩን",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.24,
+        "mask_red_ratio": 0.248,
+        "tesseract_lines": 23,
+        "model_blocks": 4,
+        "text_agreement": 0.841,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false
+      }
+    },
+    {
+      "page": 85,
+      "review_flags": [
+        "1 uncertain word(s) to check: ተፈትሖ"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.298,
+        "mask_red_ratio": 0.361,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.752,
+        "uncertain_words": 1,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The running header changes to the Sunday section; the first unnumbered block is a continuation already in progress at the top of the page."
+      }
+    },
+    {
+      "page": 87,
+      "review_flags": [],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.105,
+        "mask_red_ratio": 0.122,
+        "tesseract_lines": 16,
+        "model_blocks": 3,
+        "text_agreement": 0.797,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false
+      }
+    },
+    {
+      "page": 89,
+      "review_flags": [
+        "1 uncertain word(s) to check: በይሁዳ"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.321,
+        "mask_red_ratio": 0.379,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.841,
+        "uncertain_words": 1,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page starts the Sunday seventh part with an ornament and red section heading. The repeated wording 'ስሙን መጀመሪያ ስሙን' is clear enough to transcribe but syntactically unusual, so it has not been normalized."
+      }
+    },
+    {
+      "page": 91,
+      "review_flags": [
+        "1 uncertain word(s) to check: እናንጋጥባለን",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.21,
+        "mask_red_ratio": 0.251,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.805,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false
+      }
+    },
+    {
+      "page": 93,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.115,
+        "mask_red_ratio": 0.132,
+        "tesseract_lines": 19,
+        "model_blocks": 4,
+        "text_agreement": 0.819,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The first unnumbered block continues the stanza begun on the preceding page."
+      }
+    },
+    {
+      "page": 95,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.226,
+        "mask_red_ratio": 0.249,
+        "tesseract_lines": 17,
+        "model_blocks": 5,
+        "text_agreement": 0.751,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The first unnumbered block continues the stanza begun on the preceding page."
+      }
+    },
+    {
+      "page": 97,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.177,
+        "mask_red_ratio": 0.213,
+        "tesseract_lines": 18,
+        "model_blocks": 3,
+        "text_agreement": 0.845,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The first unnumbered block continues the stanza begun on the preceding page."
+      }
+    },
+    {
+      "page": 99,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.397,
+        "mask_red_ratio": 0.436,
+        "tesseract_lines": 17,
+        "model_blocks": 6,
+        "text_agreement": 0.767,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page ends the Sunday prayer and starts አንቀጸ ብርሃን after an ornament. The closing line visibly contains a printed run of eight ASCII hyphens, which is retained."
+      }
+    },
+    {
+      "page": 101,
+      "review_flags": [
+        "1 uncertain word(s) to check: ከንቲባም",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.185,
+        "mask_red_ratio": 0.23,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.849,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The running header visibly prints a lone ፯ before አንቀጸ ብርሃን; it is retained without supplying a missing tens numeral. The first verse block continues verse ፪ from page 99."
+      }
+    },
+    {
+      "page": 103,
+      "review_flags": [
+        "1 uncertain word(s) to check: በየውጣ",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing",
+        "1 spelling suggestion(s) to review: የፈልቃል→ይፈልቃል"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.212,
+        "mask_red_ratio": 0.266,
+        "tesseract_lines": 18,
+        "model_blocks": 3,
+        "text_agreement": 0.935,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 1,
+        "corrections_undecided": 1,
+        "unusable": false,
+        "model_notes": "The first verse block continues verse ፬ from page 101."
+      }
+    },
+    {
+      "page": 105,
+      "review_flags": [
+        "1 uncertain word(s) to check: ከምሥራቅ",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.076,
+        "mask_red_ratio": 0.105,
+        "tesseract_lines": 18,
+        "model_blocks": 2,
+        "text_agreement": 0.902,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The prayer text is a continuation of verse ፭ from page 103."
+      }
+    },
+    {
+      "page": 107,
+      "review_flags": [
+        "1 uncertain word(s) to check: ታስተሰርይላቸው",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.085,
+        "mask_red_ratio": 0.107,
+        "tesseract_lines": 21,
+        "model_blocks": 3,
+        "text_agreement": 0.834,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The first verse block continues verse ፭ from page 105."
+      }
+    },
+    {
+      "page": 109,
+      "review_flags": [
+        "1 uncertain word(s) to check: እይም",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.108,
+        "mask_red_ratio": 0.131,
+        "tesseract_lines": 19,
+        "model_blocks": 3,
+        "text_agreement": 0.882,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The first verse block continues verse ፮ from page 107."
+      }
+    },
+    {
+      "page": 110,
+      "review_flags": [
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.278,
+        "mask_red_ratio": 0.191,
+        "tesseract_lines": 2,
+        "model_blocks": 1,
+        "text_agreement": 0.694,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This is a narrow partial scan continuing verse ፯. The Latin URL below the prayer line is a digitization overlay and is omitted."
+      }
+    },
+    {
+      "page": 111,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.17,
+        "mask_red_ratio": 0.218,
+        "tesseract_lines": 19,
+        "model_blocks": 2,
+        "text_agreement": 0.821,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page continues verse ፯ from the partial scan on page 110. ባለሟልነትን confirmed against page 213, where the same word prints clearly."
+      }
+    },
+    {
+      "page": 113,
+      "review_flags": [
+        "1 uncertain word(s) to check: አጋዕዝት ኃይላት",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.165,
+        "mask_red_ratio": 0.203,
+        "tesseract_lines": 18,
+        "model_blocks": 2,
+        "text_agreement": 0.929,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "This page continues the stanza whose opening line was clipped at the bottom of page 111."
+      }
+    },
+    {
+      "page": 115,
+      "review_flags": [
+        "1 uncertain word(s) to check: ሲጠቡ",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing",
+        "1 spelling suggestion(s) to review: ሲጠቡ→ሲጠባ"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.065,
+        "mask_red_ratio": 0.08,
+        "tesseract_lines": 18,
+        "model_blocks": 2,
+        "text_agreement": 0.881,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 1,
+        "corrections_undecided": 1,
+        "unusable": false,
+        "model_notes": "This page continues the stanza from page 113."
+      }
+    },
+    {
+      "page": 117,
+      "review_flags": [
+        "1 uncertain word(s) to check: ነቢዩ",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.054,
+        "mask_red_ratio": 0.071,
+        "tesseract_lines": 18,
+        "model_blocks": 3,
+        "text_agreement": 0.829,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The opening text continues the stanza from page 115; the page later begins verse ፮."
+      }
+    },
+    {
+      "page": 119,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.137,
+        "mask_red_ratio": 0.202,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.851,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The opening text continues verse ፮ from page 117. Verse ፰ begins near the bottom; only its first line is fully visible."
+      }
+    },
+    {
+      "page": 121,
+      "review_flags": [
+        "DRAFT transcript — every word still needs checking against the scan",
+        "2 ASCII digits (Ethiopic numerals expected)",
+        "17 uncertain word(s) to check: .0, .-, የእውነተኛው, ንታ (+13 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 2,
+        "model_red_ratio": 0.129,
+        "mask_red_ratio": 0.16,
+        "tesseract_lines": 20,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 17,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 17 of 96 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
+    },
+    {
+      "page": 122,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 123,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 125,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 127,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 129,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 131,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 132,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 133,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 135,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 137,
+      "review_flags": [
+        "DRAFT transcript — every word still needs checking against the scan",
+        "14 uncertain word(s) to check: ጭ፳, እርስዋ, .-, .. (+10 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.174,
+        "mask_red_ratio": 0.214,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 14,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 95 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
+    },
+    {
+      "page": 139,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 141,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 143,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 147,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 149,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 150,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 151,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 153,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 154,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 155,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 157,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 159,
+      "review_flags": [
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "13 uncertain word(s) to check: ፡, 1, አማልድሃዛለሁፁሁ፡፡, . (+9 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.388,
+        "mask_red_ratio": 0.45,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 13,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 13 of 93 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
+    },
+    {
+      "page": 161,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 162,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 163,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 164,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 165,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 167,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 168,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 169,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 171,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 173,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 175,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 176,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 177,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 179,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 181,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 182,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 183,
+      "review_flags": [
+        "DRAFT transcript — every word still needs checking against the scan",
+        "6 ASCII digits (Ethiopic numerals expected)",
+        "30 uncertain word(s) to check: የሰኔ, -39, \"ሆ\"ነ, ከኤዶም (+26 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 6,
+        "model_red_ratio": 0.075,
+        "mask_red_ratio": 0.115,
+        "tesseract_lines": 20,
+        "model_blocks": 1,
+        "text_agreement": 0.997,
+        "uncertain_words": 30,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 34 of 93 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
+    },
+    {
+      "page": 184,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 185,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 186,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 187,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 189,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 191,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 193,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 194,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 195,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 196,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 197,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 198,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 199,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 201,
+      "review_flags": [
+        "DRAFT transcript — every word still needs checking against the scan",
+        "2 ASCII digits (Ethiopic numerals expected)",
+        "30 uncertain word(s) to check: ., -, ያአቆብም, .-. (+26 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 2,
+        "model_red_ratio": 0.201,
+        "mask_red_ratio": 0.233,
+        "tesseract_lines": 20,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 30,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 30 of 121 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
+    },
+    {
+      "page": 202,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 203,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 204,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 205,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 207,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 209,
+      "review_flags": [
+        "no transcript"
+      ],
+      "checks": {}
+    },
+    {
+      "page": 211,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing",
+        "1 spelling suggestion(s) to review: እንቺ→አንቺ"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.095,
+        "mask_red_ratio": 0.127,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.774,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 1,
+        "corrections_undecided": 1,
+        "unusable": false,
+        "model_notes": "The running header carries a worn single-glyph page numeral that is not transcribed. The printing varies between 'ው' and 'ዉ' in verb endings (ጣይዉ, አሳዉሪው, አሳጥሪዉ); these are transcribed exactly as printed and are not raised as corrections. The last line runs into the bottom edge; the page ends after 'አድኝኝ'."
+      }
+    },
+    {
+      "page": 213,
+      "review_flags": [
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.146,
+        "mask_red_ratio": 0.183,
+        "tesseract_lines": 19,
+        "model_blocks": 4,
+        "text_agreement": 0.951,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The running header carries a worn single-glyph page numeral that is not transcribed. This page prints 'ባለሟልነትን' clearly, which settles the same word on pages 215 and 217 (favour/standing — 'ባለሟል'). The book uses Latin '?' question marks in the first block; they are printed on the page and transcribed as-is. The last line runs into the bottom edge; the page ends after 'በመላእክቶች'."
+      }
+    },
+    {
+      "page": 215,
+      "review_flags": [
+        "1 uncertain word(s) to check: የምስራዉን",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.128,
+        "mask_red_ratio": 0.168,
+        "tesseract_lines": 18,
+        "model_blocks": 4,
+        "text_agreement": 0.865,
+        "uncertain_words": 1,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "The running header carries a worn single-glyph page numeral that is not transcribed. 'ባለሟልነትን' (favour/standing) — confirmed against page 213, where the same word is printed clearly. 'የምስራዉን' reads as printed; 'የምሠራውን' (what I do) would fit the sense. The last line runs into the bottom edge and is not transcribed; the page ends after 'ንጹሃን'."
+      }
+    },
+    {
+      "page": 216,
+      "review_flags": [
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
+      ],
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.0,
+        "mask_red_ratio": 0.002,
+        "tesseract_lines": 4,
+        "model_blocks": 1,
+        "text_agreement": 0.667,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Partial page: two lines, and the FIRST is cut off by the top edge — only the bottom strokes of its glyphs survive, so it is not transcribed. It continues 'ቅዱሳን እጆችሽን ንጹሃን' from page 215 and appears to begin 'ጣቶችሽን ወደ ልጅሽ ዘርጊ', but that is inference, not reading. The second line is clear and runs on into page 217 ('...በአጠገቤ ተገኝተሽ አረጋጊኝ'). No red ink on this page — the audit's trace red reading here is scanner speckle."
+      }
+    },
+    {
+      "page": 217,
+      "review_flags": [
+        "legacy transcript missing review field(s): uncertain, clipped"
+      ],
+      "checks": {
+        "missing_review_fields": [
+          "uncertain",
+          "clipped"
+        ],
+        "draft_transcript": false,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.156,
+        "mask_red_ratio": 0.187,
+        "tesseract_lines": 15,
+        "model_blocks": 4,
+        "text_agreement": 0.945,
+        "uncertain_words": 0,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "Last text page of the book — the የኅሊና ጸሎት ends here and a black diamond rule closes it. The running header carries a printed page numeral that is a single worn glyph (፹ or ፻); it is left out of the title rather than guessed, since it is pagination, not liturgical text. 'ባለሟልነት' (favour/standing) — confirmed against page 213, where the same word is printed clearly."
+      }
+    }
+  ]
+}

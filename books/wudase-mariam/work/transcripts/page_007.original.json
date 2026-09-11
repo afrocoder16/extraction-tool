@@ -1,0 +1,51 @@
+{
+  "page": 7,
+  "notes": "Second block starts the የሃይማኖት ጸሎት (the Creed). A stray ':' appears at the start of the line after 'እናምናለን፤' and is treated as a wrapped punctuation mark, not text. The page ends mid-sentence; 'በእርሱ' continues on the next page.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [
+    {
+      "printed": "የማተካከል",
+      "suggested": "የሚተካከል",
+      "reason": "ማ should be ሚ — the Creed reads 'ከአብ ጋር የሚተካከል' (equal with the Father)"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፫  የዘወትር ጸሎት", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "አንቺ የተባረክሽ ነሽና የማኅፀንሽም ፍሬ የተባረከ ነው። ፀጋን የተመላሽ ድንግል ሆይ ደስ ይበልሽ ", "c": "black" },
+        { "t": "እግዚአብሔር", "c": "red" },
+        { "t": " ካንቺ ጋር ነውና ከተወደደው ልጅሽ ከጌታችን ከመድኃኒታችን ", "c": "black" },
+        { "t": "ከኢየሱስ ክርስቶስ", "c": "red" },
+        { "t": " ዘንድ ይቅርታን ለምኝልን ኃጢአታችንን ያስተሰርይልን ዘንድ አሜን።", "c": "black" }
+      ]
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "የሃይማኖት ጸሎት።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፩",
+      "spans": [
+        { "t": "ሁሉን የፈጠረ አንድ አምላክ በሚሆን በእግዚአብሔር አብ", "c": "red" },
+        { "t": " እናምናለን። ሰማይንና ምድርን የፈጠረ የሚታየውንና የማይታየውን ዓለም ሳይፈጠር ከርሱ ጋር በነበረ አንድ ", "c": "black" },
+        { "t": "የአብ ልጅ", "c": "red" },
+        { "t": " በሚሆን በአንድ ጌታ ", "c": "black" },
+        { "t": "በኢየሱስ ክርስቶስ", "c": "red" },
+        { "t": " እናምናለን፤ ከብርሃን የተገኘ ብርሃን ከእውነተኛ አምላክ የተገኘ እውነተኛ አምላክ የተወለደ እንጂ ያልተፈጠረ በባሕርዩ ከአብ ጋር የማተካከል ሁሉ በእርሱ", "c": "black" }
+      ]
+    }
+  ]
+}

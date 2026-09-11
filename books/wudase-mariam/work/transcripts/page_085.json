@@ -1,0 +1,54 @@
+{
+  "page": 85,
+  "notes": "The running header changes to the Sunday section; the first unnumbered block is a continuation already in progress at the top of the page.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ተፈትሖ",
+      "why": "The final two glyphs are closely set and faint; this is the best reading directly from the scan."
+    }
+  ],
+  "clipped": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፶፱  የእሁድ ውዳሴ ጸሎት", "c": "black" }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "የአብ ቃል", "c": "red" },
+        { "t": " በርስዋ ሰው ሆነ መጥቶ ያዳነን የባሕርይ ንጉሥን በዓለም ውስጥ የወለደችው የሚናገር በግ ", "c": "black" },
+        { "t": "የክርስቶስ እናት", "c": "red" },
+        { "t": " ገነት ደስ ይላታል ለዘለዓለም የሚኖር ", "c": "black" },
+        { "t": "የአብ ልጅ", "c": "red" },
+        { "t": " እርሱ መጥቶ ከኃጢአት አድኖናልና። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፰",
+      "spans": [
+        { "t": "የንጉሥ ክርስቶስ እናቱን", "c": "red" },
+        { "t": " ተባልሽ እርሱን ከወለድሽ በኋላም በድንግልና ኖርሽ። ድንቅ በሆነ ምሥጢርም (ተዋህዶ) ", "c": "black" },
+        { "t": "አማኑኤልን", "c": "red" },
+        { "t": " ወለድሽው ስለዚህም ባለመለወጥ አዳነን። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፱",
+      "spans": [
+        { "t": "እግዚአብሔር", "c": "red" },
+        { "t": " በላይዋ ተቀምጦባት ያዕቆብ ያያት መሰላል አንቺ ነሽ በሁሉ በኩል የማይመረመር እርሱን ተፈትሖ በሌለበት ማኅፀንሽ ተሸክመሽዋልና። እኛን ስለማዳን ካንቺ ሰው በሆነ በጌታችን ", "c": "black" },
+        { "t": "በኢየሱስ ክርስቶስ ዘንድ አማላጅ ሆንሽና። ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    }
+  ]
+}

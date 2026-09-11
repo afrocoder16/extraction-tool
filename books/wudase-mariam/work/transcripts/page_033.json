@@ -1,0 +1,32 @@
+{
+  "page": 33,
+  "notes": "The LAST line is cut off by the bottom edge—only the upper part of the opening of verse ፲፩ survives, so it is not transcribed.",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፳፩  የማክሰኞ ውዳሴ ማርያም", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፱",
+      "spans": [
+        { "t": "ወደ ደብረሲና የወረደ ለሙሴ ሕግን የሰጠ የተራራውን እራስ በጽጋግ በጢስ በጨለማና በነፋስ የሸፈነ ፈርተው የቆሙትንም በነጋሪቶች ድምፅ የገሠፀ የአብ አካላዊ ቃል ነው። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲",
+      "spans": [
+        { "t": "በትሕትና የተናገርሽ ተራራ ሆይ ይኸውም ወደ አንቺ የወረደው ነው። ሰውን የወደደ እርሱ ያለመለወጥ ባንቺ ሰው ሆነ። እንደ እኛ በሚናገር ሥጋ ፍጹም ሆኖ ", "c": "black" },
+        { "t": "አምላክ በመንፈስ ቅዱስ", "c": "red" },
+        { "t": " በማኅፀንሽ አደረና ፍጹም ሰው ሆነ። አዳምን ያድነው ዘንድ ኃጢአቱንም ያስተሠርይለት ዘንድ በሰማያት (በሰማያዊ መዓርግ) ያኖረው ዘንድ በቸርነቱና በይቅርታው ብዛት ወደ ቀድሞው ቦታው ይመልሰው ዘንድ። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    }
+  ]
+}

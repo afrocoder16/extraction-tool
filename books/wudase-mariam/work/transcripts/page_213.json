@@ -1,0 +1,79 @@
+{
+  "page": 213,
+  "notes": "The running header carries a worn single-glyph page numeral that is not transcribed. This page prints 'ባለሟልነትን' clearly, which settles the same word on pages 215 and 217 (favour/standing — 'ባለሟል'). The book uses Latin '?' question marks in the first block; they are printed on the page and transcribed as-is. The last line runs into the bottom edge; the page ends after 'በመላእክቶች'.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የኅሊና ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ነገር መናገር የሚቻለዉ ምን አንደበት ነው? የጽርሐ አርያም ብርኃን ሆይ፤ ስለቅድስናሽ መስማት የሚቻለው ምን ጆሮ ነው?",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፫",
+      "spans": [
+        {
+          "t": "እመቤቴ ድንግል ማሪያም ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " የአለም ሁሉ ህዝብ ለክብርሽና ለገናንነትሽ እንደምን ባለው ምስጋና ለማመስገን ይችላል ነገር ግን ምስጋናሽ ገናንነትሽን በሰው አንደበት ተነግሮ አያልቅም፤ ስለሆነም እንደ ቅዱስ ",
+          "c": "black"
+        },
+        {
+          "t": "ገብርኤል",
+          "c": "red"
+        },
+        {
+          "t": " ሰላምታ ",
+          "c": "black"
+        },
+        {
+          "t": "በእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ዘንድ ባለሟልነትን አግኝተሻልና ፀጋን ክብርን የተመላሽ ሆይ፤ ደስ ይበልሽ እያልኩ አመሰግንሻለሁ።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፬",
+      "spans": [
+        {
+          "t": "እመቤቴ ድንግል ማሪያም ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ወላዲተ አምላክ ሆይ፤ ክብርሽ ገናንነትሽ ታላቅ እንደመሆኑ በሰውና በመላእክቶች",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Final line runs into the bottom edge."
+    }
+  ],
+  "uncertain": []
+}

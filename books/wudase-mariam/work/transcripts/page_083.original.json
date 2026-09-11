@@ -1,0 +1,55 @@
+{
+  "page": 83,
+  "notes": "",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ባሕርዩን",
+      "why": "The small final sequence inside the parentheses is faint and may instead read ባሕርይን."
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "A line following the visible phrase 'በድንግል ማርያም ማኅፀን' is sliced by the bottom edge and is omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፶፰  የቅዳሜ ውዳሴ ጸሎት", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፭",
+      "spans": [
+        { "t": "ከዳዊት ሥር የተገኘሽ ባሕርይ (ዘር) አንቺ ነሽ ", "c": "black" },
+        { "t": "መድኃኒታችን ኢየሱስ ክርስቶስን", "c": "red" },
+        { "t": " በሥጋ ወልደሽልናልና። ", "c": "black" },
+        { "t": "ከአብ", "c": "red" },
+        { "t": " የተወለደ ከዓለም በፊት የነበረ አንዱ ቃል ራሱን (ባሕርዩን) ሰወረ ካንቺም የተገኘን (ሰውን) አርአያ ነሣ። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፮",
+      "spans": [
+        { "t": "አምላክን", "c": "red" },
+        { "t": " ያለርኩሰት የወለድሽው ሆይ የምድር ሁለተኛ ሰማይን ሆንሽ። እውነተኛ ፀሐይ ካንቺ ወጥቶልናልና። እንደነቢያት ትንቢትም ያለዘርና ያለመለወጥ ወለድሽው። ", "c": "black" },
+        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፯",
+      "spans": [
+        { "t": "ከተለዩ የተለየች የተባልሽ የኪዳን ጽላት ያለብሽ የተሰወረ መና ያለበት የወርቅ መሶብ ያለብሽ ደብተራ ድንኳን አንቺ ነሽ። ይኸውም መና የተባለው መጥቶ ", "c": "black" },
+        { "t": "በድንግል ማርያም ማኅፀን", "c": "red" }
+      ]
+    }
+  ]
+}

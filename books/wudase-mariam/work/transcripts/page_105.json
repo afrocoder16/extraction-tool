@@ -1,0 +1,39 @@
+{
+  "page": 105,
+  "notes": "The prayer text is a continuation of verse ፭ from page 103.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ከምሥራቅ",
+      "why": "The ሥ/ስ glyph is softened by the scan; ከምሥራቅ is the best visible reading."
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "The verse continues after the fully visible line ending 'ወደ እርሱ'; the next line is sliced by the bottom edge and omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፷፱  አንቀጸ ብርሃን", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "የሚያውቅ ሳይኖር ከሰማይ ወረደ ብለን እናምናለን። በማህፀንሽ አደረና ዘጠኝ ወር ተሸክመሽው ሰማያት ደስ ተሰኙ፤ ምድርም ደስ ተሰኘች፤ ", "c": "black" },
+        { "t": "በልጅሽ መወለድ መላእክት", "c": "red" },
+        { "t": " ምስራች ተናገሩ። የሰማይ ጭፍሮችም መላእክትም ምስጋና በሰማይ ", "c": "black" },
+        { "t": "ለእግዚአብሔር", "c": "red" },
+        { "t": " ይሁን በምድርም ላይ ሰላም በሰውም እርሱ በሚፈቅደው እያሉ አመሰገኑ። እረኞችም በቤተልሔም ካዩትና ከሰሙት የተነሳ አደነቁ፤ የጥበብ ሰዎች ብልሆች ሰዎች ", "c": "black" },
+        { "t": "ለልጅሽ", "c": "red" },
+        { "t": " ሊሰግዱና አንቺን ሊያገለግሉ ኮከብን አይተው ከሩቅ አገር መጡ። ከምሥራቅ ጀምሮ መርቶ እስከ ቤተልሔም ያደረሳቸው ያ ኮከብ አንቺ ከሕፃንሽ ጋር ባለሽበት ቦታ ላይ ቆመ። እነዚያ ብልሆች ሰዎች አይተው በታላቅ ደስታ ደስ ተሰኙ። ወደ እርሱ", "c": "black" }
+      ]
+    }
+  ]
+}

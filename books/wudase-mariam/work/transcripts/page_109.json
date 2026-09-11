@@ -1,0 +1,49 @@
+{
+  "page": 109,
+  "notes": "The first verse block continues verse ፮ from page 107.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "እይም",
+      "why": "The first vowel form in this short word is faint; እይም is the best visible reading."
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Verse ፯ continues below the fully visible red phrase 'ጌታ ፊት'; the following line is sliced by the bottom edge and omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፸፩  አንቀጸ ብርሃን", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "ምግብሽን ያመጡ ነበር። ", "c": "black" },
+        { "t": "መላእክት", "c": "red" },
+        { "t": " እየጎበኙሽ እንዲህ አሥራ ሁለት አመት ኖርሽ መጠጥሽም የሕይወት መጠጥ ነበር፤ ምግብሽም የሰማይ ሕብስት ነበር፤ አባትሽ ዳዊት በመሰንቆ አመሰገነ በትንቢት መንፈስም ", "c": "black" },
+        { "t": "መንፈስ ቅዱስ", "c": "red" },
+        { "t": " በገና እየደረደረ እንዲህ ብሎ ዘመረ ልጄ ሆይ፤ ስሚ እይም ጆሮሽንም አዘንብይ፤ ሕዝብሽንና የአባትሽንም ቤት እርሺ ንጉሡም ውበትሽን ይወዳል፤ እርሱም ጌታሽ ነውና ለእርሱም ስገጂ ትሰግጃለሽ ", "c": "black" },
+        { "t": "ቅድስት ሆይ ልጅሽ", "c": "red" },
+        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፯",
+      "spans": [
+        { "t": "ከንጹሐን ካልበደሉ ", "c": "black" },
+        { "t": "መላእክት", "c": "red" },
+        { "t": " ወገን የሆነና በደል የሌለበት በሁሉ ", "c": "black" },
+        { "t": "ጌታ ፊት", "c": "red" }
+      ]
+    }
+  ]
+}
