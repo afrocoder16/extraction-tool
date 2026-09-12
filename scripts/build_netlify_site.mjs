@@ -47,8 +47,23 @@ await writeFile(join(dist, "_headers"), `/*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
 
-/work/*
+/work/page_images/*
   Cache-Control: public, max-age=31536000, immutable
+
+/work/debug/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/work/transcripts/*
+  Cache-Control: no-store
+
+/work/page_stats.json
+  Cache-Control: no-store
+
+/work/verification.json
+  Cache-Control: no-store
+
+/work/review.json
+  Cache-Control: no-store
 
 /book.json
   Cache-Control: no-store
