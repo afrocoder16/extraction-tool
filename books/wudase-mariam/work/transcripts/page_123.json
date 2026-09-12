@@ -1,0 +1,130 @@
+{
+  "page": 123,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 76 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": ".",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "ብርዛክኑን",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "ይምረን",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "አግሮቻችንን",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": "ስዋቀና",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "1",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "ልጅሽ",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "ሰማይ.",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "በሚያሳርተ",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "ባለ.",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "እንመስልሻሰለን፡፡-",
+      "why": "Tesseract confidence 28 — check against the scan"
+    },
+    {
+      "text": "የሰው",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "ልጆችን",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "የወገኖችሽንም",
+      "why": "Tesseract confidence 51 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስንቀጸጳ ብርሃን . በምሕረቱ በአርያም (በልዕልና) ሆኖ ጎበኘን፡፡ በጨለማና በሞት ጥላ ውስጥ ለሚኖሩትም ብርዛክኑን ይገልጥላቸው ዘንድ ተወለደ ይቅርም ይለን ይምረን ዘንድ አግሮቻችንን ወደ ሰላም መንገድ ስዋቀና ልን፡፡ 1",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ልጅሽ",
+          "c": "red"
+        },
+        {
+          "t": ". ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+          "c": "black"
+        },
+        {
+          "t": "፲፪: . . እመቤታችን ሆይ",
+          "c": "red"
+        },
+        {
+          "t": "የቅዱሳንና",
+          "c": "black"
+        },
+        {
+          "t": "-",
+          "c": "red"
+        },
+        {
+          "t": "የምእመናን ሁሉ ጸሎት በማዕጠንታቸው ከምድር - ወደ ሰማይ. በሚያሳርተ በሰማያዊያን የካህናት አለቆች እጆች ውስጥ ባለ. የወርቅ ማዕጥንት. እንመስልሻሰለን፡፡- እንዲሁም ስምሽን በመጥራት የሰው ልጆችን ልመና ወደ",
+          "c": "black"
+        },
+        {
+          "t": "ልዩ ሦስት አብ ወልድ መንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": "የወገኖችሽንም ኃጢአት",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

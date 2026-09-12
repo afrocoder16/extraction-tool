@@ -110,9 +110,10 @@ committed browser-size copies before pushing:
 npm run build:assets
 ```
 
-The hosted app contains the current extraction baseline. It does not make an
-incomplete extraction complete: pages with no transcript still appear as **Not
-transcribed yet** and must go through the OCR/transcription stage separately.
+The hosted app contains the current extraction baseline. All 129 content pages
+now have editable text, but many later pages are explicitly marked as Tesseract
+drafts. Those drafts must be read word by word against the scan before the book
+can be considered complete.
 
 ---
 

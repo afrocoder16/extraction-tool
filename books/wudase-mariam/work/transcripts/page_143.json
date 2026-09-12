@@ -1,0 +1,209 @@
+{
+  "page": 143,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 30 of 64 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "6፳",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "እ",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "ካሰማዕፅት",
+      "why": "Tesseract confidence 27 — check against the scan"
+    },
+    {
+      "text": "ዮሐንስ",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "ጓና",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "፤",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "፡",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "ሥ“ሇቻሥ\"",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "ሻ",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "›",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "“ጐኑ",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "7",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "ኣካሜን፤",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "/",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "ለዘለዓለሙ",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "ይቅር",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "ይበለ?ን፡፡",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "፣፡",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "ኤ)",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "ፅዓ",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "እን",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "“ረ",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": "።",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "ፆ#",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": "4",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": ".4",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "4ቆ",
+      "why": "Tesseract confidence 50 — check against the scan"
+    }
+  ],
+  "clipped": [],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "6፳ - ይዌድስዋ መሳእአክጉ እ መላእክቶቹ ጋር በመጣ ጊዜ ጻድቅንን በቀኙ",
+          "c": "black"
+        },
+        {
+          "t": "'",
+          "c": "red"
+        },
+        {
+          "t": "ኃጥአንን በግራው ባቆመ ጊዜ እኛን",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "ካሰማዕፅት እንጢፋኖስ ከመጥምቁ ዮሐንስ ጓና",
+          "c": "black"
+        },
+        {
+          "t": "፤",
+          "c": "red"
+        },
+        {
+          "t": "ከሁሉ ቅዱሳን ከሰማዕታት ጋር ያቆመን",
+          "c": "black"
+        },
+        {
+          "t": "፡ ሥ“ሇቻሥ\" 4",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ ለምኝልን",
+          "c": "black"
+        },
+        {
+          "t": "።",
+          "c": "red"
+        },
+        {
+          "t": "ሰዓለመ",
+          "c": "black"
+        },
+        {
+          "t": "7 7ኝ ሻ › “ጐኑ",
+          "c": "red"
+        },
+        {
+          "t": "ዓሰም",
+          "c": "black"
+        },
+        {
+          "t": "/ 7 .",
+          "c": "red"
+        },
+        {
+          "t": "ኣካሜን፤",
+          "c": "black"
+        },
+        {
+          "t": "/",
+          "c": "red"
+        },
+        {
+          "t": "ለዘለዓለሙ ይቅር ይበለ?ን፡፡",
+          "c": "black"
+        },
+        {
+          "t": "፣፡ ነ ( ኤ) / ፅዓ እን “ረ ። ፆ# 4 .4 4ቆ 2",
+          "c": "red"
+        }
+      ]
+    }
+  ]
+}

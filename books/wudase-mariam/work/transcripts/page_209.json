@@ -1,0 +1,154 @@
+{
+  "page": 209,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 22 of 94 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "፻፪.",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "የኅሊና-ጸሎት",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "ቆመሽ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "ከንዋመ",
+      "why": "Tesseract confidence 31 — check against the scan"
+    },
+    {
+      "text": "ቀቢኝ፡፡",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "ጀ",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ሆይ፤",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "\"",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "የሚፃረረኝን",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "ጉሮሮውን",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "ዝጊ፡፡",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ጆሮዉን",
+      "why": "Tesseract confidence 28 — check against the scan"
+    },
+    {
+      "text": "አደንቁሪ",
+      "why": "Tesseract confidence 28 — check against the scan"
+    },
+    {
+      "text": "የሚያንየብበዉን",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "--",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "ነሽሸና",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ከገደል",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "ኣካ",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "ጠገ፡»",
+      "why": "Tesseract confidence 38 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፻፪. የኅሊና-ጸሎት | ቸል አትበያት፡፡ ዝምብለሽ አትመልከቻት በቆምኩበት ቦታ ቆመሽ ከንዋመ ሐኬት አንቂኝ ቅብዓ መንፈስ ቅዱስን ቀቢኝ፡፡ . በመለኮት ጨውነት ነገሬን አጣፍጠሽ በሁሉ ዘንድ መወደድን አትርፊልኝ፡፡ . .",
+          "c": "black"
+        },
+        {
+          "t": "ጀ ድንግል - ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "የልጅሽን በረከት",
+          "c": "black"
+        },
+        {
+          "t": "\"",
+          "c": "red"
+        },
+        {
+          "t": "በኔላይ አዝንቢ የሚፃረረኝን የሚቃወመኝን ሰው",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "'አፉን ለጉሚ አንደበቱን ዲዳ አድርጊ ጉሮሮውን ዝጊ፡፡ ጆሮዉን አደንቁሪ ሀይሉንም አድክሚ በልጅሽ ' መለኮታዊ ሰይፍ አንገቱን ቆርጠሸ ጣይዉ በላዬ የሚያንየብበዉን የጠላት ዲያቢሎስን -- ክንፍ ስበሪ አሜን፡፡ |",
+          "c": "black"
+        },
+        {
+          "t": "ሀ ድንግል",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "የሁላችን መመኪያ ጠባቂያችን ነሽና ከቀን: ወራሪ ከለሊት . ሰባሪ አድኝኝ፡ የሕይወት መሸጋገሪያ ድልድይ ነሽሸና ከባህር ጠልቆ ከገደል ኣካ 5 ኤ5 ጠገ፡» |",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

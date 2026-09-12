@@ -1,0 +1,206 @@
+{
+  "page": 171,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 21 of 101 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ጎጎጎታ",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": "ህያዊ",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": "ወዳጁ",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "ኣጓመናዬን",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "አለምንፃለሁ፡፡",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "እማልድፃሃለሁ፡፡",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": "የብርፃን",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "እመቤታችን",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "»",
+      "why": "Tesseract confidence 46 — check against the scan"
+    },
+    {
+      "text": "ተሰነጣጠቁ",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "መቃብራትና",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "ተከፈቱ፡።",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "በቪህ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "ጋር",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 28 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የሰኔ ጎጎጎታ .- ህያዊ በሚሆን - በአንተ ስልጣን \"ሀጠያትን ስር ቆራርጦ የሚጥል ነፍስን ገስጋ የሚለይ ስሁል ነበልባላዊ በሆነ",
+          "c": "black"
+        },
+        {
+          "t": "መንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": "'",
+          "c": "black"
+        },
+        {
+          "t": "ቃል",
+          "c": "red"
+        },
+        {
+          "t": "የተፈተኑና ነፃ “ወጡ ይሆኑ ዘንድ አማልድሃዛለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጁ",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ወዳጁ",
+          "c": "red"
+        },
+        {
+          "t": "-",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "ጸሎቴንና ኣጓመናዬን ሰምተህ ወደጌ ትመጣ ዘንድ አለምንፃለሁ፡፡ እማልድፃሃለሁ፡፡ ከመዓር ክወተት ይልቅ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ስሟ ጣፋጭ የሆነ አምላክን የወለደች",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "የብርፃን",
+          "c": "black"
+        },
+        {
+          "t": "አናቱ -",
+          "c": "red"
+        },
+        {
+          "t": "-.",
+          "c": "black"
+        },
+        {
+          "t": "እመቤታችን . ' ማርያም",
+          "c": "red"
+        },
+        {
+          "t": ". » አንደዚህ *ብላ በፀለየች ጊዜ ምድር ተነዋወጠች ድንጋዮች (አለቶች) ተሰነጣጠቁ መቃብራትና , የተዘጉ በሮችም ተከፈቱ፡። በቪህ ጊዜ ዘጠና - ዘጠኙ መላእክት ከአለቆቻቸው ጋር ከሰማይ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ወርደው በግራ-በቀኝ ቆሙ",
+          "c": "black"
+        },
+        {
+          "t": "ጌታ . ኢየሱስ ክርስቶስም ..",
+          "c": "red"
+        },
+        {
+          "t": "ከፀሀይና",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ከጨረቃ ሰባት አጅ . አብርቶ አራቱ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

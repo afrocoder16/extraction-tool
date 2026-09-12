@@ -1,0 +1,274 @@
+{
+  "page": 187,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 35 of 99 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "-",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": ".:",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "ነ",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": ")]",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "ገ1አይን",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "?",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "ፍፃ",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "1መም",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "(|",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "የሚመስሉ",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "1፤፡",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "\"።ሚመስሱ",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "በአንጨት",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "13ድንጋይም",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "የሚመስሉ",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "በእሳትና",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "ቱ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "ወይም",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "ጩከት",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "በቁርና",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "ጨለማ",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "።ሬ",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "%",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "ጻሊህ",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "/#",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ክይቀርቡም፡፡",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "ኒ፣",
+      "why": "Tesseract confidence 27 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፳፳",
+      "spans": [
+        {
+          "t": "- የሰኔ ጎልጎታ .: ላብን",
+          "c": "black"
+        },
+        {
+          "t": "ነ",
+          "c": "red"
+        },
+        {
+          "t": "በመፋቅ በቃር-የሚመስሉ በጥርስ ገሽታ",
+          "c": "black"
+        },
+        {
+          "t": "! )]",
+          "c": "red"
+        },
+        {
+          "t": "አፍን በማምረር በራስ ምታትና ገ1አይን",
+          "c": "black"
+        },
+        {
+          "t": "?",
+          "c": "red"
+        },
+        {
+          "t": "ህመምም ቢሆን የሚመሰሉ በልብ",
+          "c": "black"
+        },
+        {
+          "t": "ፍፃ",
+          "c": "red"
+        },
+        {
+          "t": "1መም",
+          "c": "black"
+        },
+        {
+          "t": "(|",
+          "c": "red"
+        },
+        {
+          "t": "ወይም በሆድ ቁርጠት የሚመስሉ",
+          "c": "black"
+        },
+        {
+          "t": "1፤፡",
+          "c": "red"
+        },
+        {
+          "t": "ገንዳድ",
+          "c": "black"
+        },
+        {
+          "t": "'",
+          "c": "red"
+        },
+        {
+          "t": "(በወባ) በማንቀጥቀጥም ቢሆን",
+          "c": "black"
+        },
+        {
+          "t": "፦",
+          "c": "red"
+        },
+        {
+          "t": "\"።ሚመስሱ በባህርና በየብስ በአንጨት 13ድንጋይም",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ቢሆን የሚመስሉ በእሳትና ባዲን",
+          "c": "black"
+        },
+        {
+          "t": "' ቱ",
+          "c": "red"
+        },
+        {
+          "t": "የሚመስሉ በፍቅርና በሰላም ወይም በጠብ ቢሆን የሚመስሱ በአራዊትና ባአአዋፍም ጩከት ሀሩር ወይም በቁርና በአመዳይ በውርጭ -በነፋስ ንውፅውፅታ ኃይል ወይም በውሻ መንከስ",
+          "c": "black"
+        },
+        {
+          "t": "ና",
+          "c": "red"
+        },
+        {
+          "t": "መንደፍም ቢሆን በአሳት ማቃጠል የሚመስሱ በሌሲት ጨለማ",
+          "c": "black"
+        },
+        {
+          "t": "።ሬ",
+          "c": "red"
+        },
+        {
+          "t": "በቀን ብርሃንም የሚመሰሉ",
+          "c": "black"
+        },
+        {
+          "t": "%",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "49»",
+          "c": "red"
+        },
+        {
+          "t": "ጻሊህ",
+          "c": "black"
+        },
+        {
+          "t": "' /#",
+          "c": "red"
+        },
+        {
+          "t": "ሁሉ ክይቀርቡም፡፡ |",
+          "c": "black"
+        },
+        {
+          "t": "ይህቺን ኒ፣ መጽሐፈ",
+          "c": "red"
+        },
+        {
+          "t": "ጥፄፃኋሕኋ ያ”“ኖ ጣሰ ሕጌጠስጠሮሥዮ ዐ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

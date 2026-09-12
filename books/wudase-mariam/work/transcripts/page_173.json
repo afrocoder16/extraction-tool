@@ -1,0 +1,234 @@
+{
+  "page": 173,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 29 of 120 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "-",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "ወትእአልፊት",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "ልጂን",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ወዳጂን",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 46 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "አላት",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "ብርክት",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "አኳገን",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "በግዘፈ",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 22 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "አየሁህ፡።",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "እናቴ",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": ".:(0",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": "ሆይ፤",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "በማህፀንሽ.",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "ውሃም",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": ",",
+      "why": "Tesseract confidence 62 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፲8 - የሰኔ ጎልጎታ ወትእአልፊት አእላፋት መላእክት በግራ በቀኝ ተሰልፈው ወረደ",
+          "c": "black"
+        },
+        {
+          "t": "አመቤታችን . . ማርያም .",
+          "c": "red"
+        },
+        {
+          "t": ". ይህን ሁሉ ባየት ጊዜ ልጂን - - ወዳጂን በታላቅ ግርማ አየችው ፈፅማም . - አደነቀች፡፡ . .",
+          "c": "black"
+        },
+        {
+          "t": "ጌታ ኢየሱስ ክርስቶስም እናቱ ማሪያምን . - ይህ .-",
+          "c": "red"
+        },
+        {
+          "t": "ያስደንቅሻልን ዘጠኝ ቀን በማህጸንሽ ተሸክመሽኝ አይደለምን አላት ብርክት",
+          "c": "black"
+        },
+        {
+          "t": "ማርያምም -",
+          "c": "red"
+        },
+        {
+          "t": "አንዲህ ስትል መለሰችለት ቀድሞ በዚህ አኳገን አላየሁህም የሰውን ስጋ ለብሰህ በግዘፈ .-",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "ስጋ ግን በመለኮት መለሰ",
+          "c": "black"
+        },
+        {
+          "t": "ላ |",
+          "c": "red"
+        },
+        {
+          "t": "እጅግ በማህዐኔ እንዲህም ግርማ በሚያስደነግጥና ተሸከምኩህ አላት አየሁህ፡።",
+          "c": "black"
+        },
+        {
+          "t": "ወላጅ . 0 እናቴ .:(0",
+          "c": "red"
+        },
+        {
+          "t": "በሚያስፈራ እንጂ",
+          "c": "black"
+        },
+        {
+          "t": "ጌታችንም (-",
+          "c": "red"
+        },
+        {
+          "t": ".-",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤ ..",
+          "c": "red"
+        },
+        {
+          "t": "ዛሬ",
+          "c": "black"
+        },
+        {
+          "t": "-",
+          "c": "red"
+        },
+        {
+          "t": ". ዘጠኝ ወር ከአምስት ቀን በማህፀንሽ. . የተሸከምሽኝ በጀርባሽም ያዘልሽኝ ከመዓር . ከስኳር የነባ",
+          "c": "black"
+        },
+        {
+          "t": "።",
+          "c": "red"
+        },
+        {
+          "t": "ከገነት ይልቅ ፈሳሽ የሚጣፍጥ ውሃም ንፁህ ከበረዶ የሆነ",
+          "c": "black"
+        },
+        {
+          "t": ",",
+          "c": "red"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "page": 203,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 22 of 97 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "'",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": ":፣",
+      "why": "Tesseract confidence 22 — check against the scan"
+    },
+    {
+      "text": "ዙፋኔ",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "።=ረገጫ",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "ሰማይ",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "እአፀመስቀል",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "ገባሁልሽ፡፡",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "አግሬ",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "‹(ሰሰተ",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "|]",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "አርብ",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "(ችንካር)",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "ሌሊት",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "1ከርሰ",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "ገባሁልሽ፡፡",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 45 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "'ሞት አሳልፈዉ ስለሰጡ ሰባ ሁለቱ",
+          "c": "black"
+        },
+        {
+          "t": "' ቃል . ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ገባሁልሽ፡፡ .: :፣ -",
+          "c": "red"
+        },
+        {
+          "t": "ዙፋኔ .ፐዘጋጀባት ሉዓላዊት ሰማይ የእግሬ ።=ረገጫ በሆነችዉ ታህታዊት ምድር",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": "ነደ ዕሳት በሆነ",
+          "c": "black"
+        },
+        {
+          "t": ". .",
+          "c": "red"
+        },
+        {
+          "t": "“ዕሳት መጋረጃዬ ፍዑም ማደሪያዬ በሆነ 1ተሰቀልኩበት .ጓርያም ሰማይ እአፀመስቀል",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": "እጅና",
+          "c": "black"
+        },
+        {
+          "t": "ገባሁልሽ፡፡",
+          "c": "red"
+        },
+        {
+          "t": "አግሬ .",
+          "c": "black"
+        },
+        {
+          "t": "-",
+          "c": "red"
+        },
+        {
+          "t": "‹(ሰሰተ በሞቴ 1ተቸነከረበት 1ተወጋዉ",
+          "c": "black"
+        },
+        {
+          "t": "|]",
+          "c": "red"
+        },
+        {
+          "t": "ሶስት አርብ ገኔ በፈሰሰው መአልት ቀኖት",
+          "c": "black"
+        },
+        {
+          "t": "ቃል",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": "(ችንካር) ደሜ - ሶስት",
+          "c": "black"
+        },
+        {
+          "t": "ገባሁልሽ፡፡",
+          "c": "red"
+        },
+        {
+          "t": "በህመሜና ሌሊት በጦር | - . 1ከርሰ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "መቃብር በአደርኩበት",
+          "c": "black"
+        },
+        {
+          "t": "ቃል",
+          "c": "red"
+        },
+        {
+          "t": "(0 .",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን ገባሁልሽ፡፡",
+          "c": "red"
+        },
+        {
+          "t": ".. - ከመቃብር ወጥቼ ኣዳምን ከነልጆቹ ከሲኦል ለማውጣት . ጋደ ሲኦል በመውረዴ በሶስተኛው ቀን. ተለይቼ ሙስና መቃብርን",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "page": 131,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 82 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ሯ፳፳",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "ብርፃዛን",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "እነዚህ",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": "ይሸሽፍናሱ፡፡",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "መስቀል",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "'”",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "አከላቃጠለሽም፡፡",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "እጸ",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "አላቃጠለሸሽም፡፡",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "ስለመሆኑም",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "ሆን፡፡",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "ነሽ",
+      "why": "Tesseract confidence 57 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሯ፳፳ አንቀጸ ብርፃዛን አለሽ፤ እነዚህ ፊታቸውን ይሸሽፍናሱ፡፡ አግሮቻቸዉም -",
+          "c": "black"
+        },
+        {
+          "t": "የትአምርተ መስቀል . '”",
+          "c": "red"
+        },
+        {
+          "t": "አምሳያዎች ናቸው",
+          "c": "black"
+        },
+        {
+          "t": "ከልጅሽ",
+          "c": "red"
+        },
+        {
+          "t": "'",
+          "c": "black"
+        },
+        {
+          "t": "መለኮት",
+          "c": "red"
+        },
+        {
+          "t": "የሚወጣው አሳት ይድኑ ዘንድ አንቺ ግን",
+          "c": "black"
+        },
+        {
+          "t": "ለመለኮት",
+          "c": "red"
+        },
+        {
+          "t": "ማደሪያ ሆንሽ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "የመለኮት",
+          "c": "red"
+        },
+        {
+          "t": "ባህሪይም አከላቃጠለሽም፡፡ የአሳት ነበልባልን ተሽከምሽ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "የመለኮት",
+          "c": "red"
+        },
+        {
+          "t": "ባህርይ አላቃጠለሽም፡፡ ሙሴ እንጨትነቷ በእሳት . ሳይቃጠል ያያት ዕፅ ጳጦስን መሰልሽ፡፡ ሁለንተናው ፍፁም አሳት የሆነ የኃይላተ ጌታ እንደ እጸ ጳጦስ አላቃጠለሸሽም፡፡ ለክርስቲያን ወገኖች በአውነት መመኪያ የሆንሽ አንቺ ነሽ",
+          "c": "black"
+        },
+        {
+          "t": "የአምላክ ልጆ",
+          "c": "red"
+        },
+        {
+          "t": "ካንቺ ሰው ስለመሆኑም ባንቺ ከምድር ወደ አርያም የቀረብን ሆን፡፡ በጸሎት ለሚያምኑ ምህረትን የምታሰጪ ሆይ ለነፍሳችን ህይወትን የምትለምኝ ነሽ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

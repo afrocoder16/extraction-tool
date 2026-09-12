@@ -1,0 +1,98 @@
+{
+  "page": 149,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 87 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "፤",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "አትችልም፤",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "ከጥልቀቂታቸው",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "በእአፍኝህ",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "አፄ",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ወር.",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "ተሸክሜዛለሁና፡፡",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "ሄሮድስ",
+      "why": "Tesseract confidence 46 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "ከክንዱ",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": ":-",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "ማህዐጌኔን",
+      "why": "Tesseract confidence 22 — check against the scan"
+    },
+    {
+      "text": "ከክከጠኝ",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "እ",
+      "why": "Tesseract confidence 51 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "-፪ የሰኔ ጎልጎታ ፤ የአለም ዳርቻዎች አይወስኑህም . ምድር ልትሸከምህ አትችልም፤ ቀላያት አብርህትም ከጥልቀቂታቸው የተነሳ የክረምት ማአበልም፤ በእአፍኝህ አይመሉም ኃይላት መላአክትም ቢሆኑ ወደ አንተ ሊቀርቡ አይችሉም አቤቱ አፄ እናትህን ገረድህ የምሆን በማህዐኔ ዘጠኝ ወር. ከአምስት ቀን ተሸክሜዛለሁና፡፡ ጡቶቼንም አራት አመት እየጠባህ አድገሀልና አለምንሀለሁ አማለድሀለሁ፡ : ሄሮድስ በምቀኝነት ሊገድልህ በፈለገ ጊዜ አንተን በጀርባዬ አዝዬ አራት .- ዓመት ከክንዱ ሀገር ወደ አንዱ ሀገር ተሰድጃለሁና አቤቱ |",
+          "c": "black"
+        },
+        {
+          "t": "አምላኬ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ኢየሱስ ክርስቶስ",
+          "c": "red"
+        },
+        {
+          "t": "ሆይ ጸሎቴንና ልመናዬን :- ስማኝ አቤቱ ማህዐጌኔን ስለም አድርገህ ከክከጠኝ ወር ከአምስት ቀን የተሸከምኩህን እ በወሕሮሮ በብሮዮዬ ጠራት በቢተልሒም",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

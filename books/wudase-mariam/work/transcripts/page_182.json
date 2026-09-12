@@ -1,0 +1,50 @@
+{
+  "page": 182,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 5 of 14 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ያየኒ.(5",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "(፪(፪፳",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "ርረሮ(1፪",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "1088",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 58 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ኤ",
+          "c": "red"
+        },
+        {
+          "t": "ያየኒ.(5 (፪(፪፳ ርረሮ(1፪ 1088 . ያይደለ ሰማያዊ የሆነ የሕይወት እንጀራ | - .",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

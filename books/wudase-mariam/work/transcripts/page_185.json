@@ -1,0 +1,130 @@
+{
+  "page": 185,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 12 of 77 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": ".",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "-.",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "በተደረገበ",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "ዛር.",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "በከይየ",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "-ሚ'",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "አክይጋርደዉም:-ርኩሳን",
+      "why": "Tesseract confidence 33 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፳",
+      "spans": [
+        {
+          "t": "የሰኔ ጎለጎታ . ሰዎችና በሰማያዊያን መላአክት ዘንድ ከፍ ያለ ግርማሞገስ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ያገኛል፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ይህቺ",
+          "c": "red"
+        },
+        {
+          "t": "ዘላለም",
+          "c": "black"
+        },
+        {
+          "t": "መጽሀፍ",
+          "c": "red"
+        },
+        {
+          "t": "ድረስ ምህረት ካለችበት ቸርነት ቦታ ተድላ እስከ ደስታ ጥጋብ ይሁን",
+          "c": "black"
+        },
+        {
+          "t": ".- ስምሽ",
+          "c": "red"
+        },
+        {
+          "t": "በተጠራበት ስዕልሽም ' ፡ ባለበት",
+          "c": "black"
+        },
+        {
+          "t": ". -. ..",
+          "c": "red"
+        },
+        {
+          "t": "በተደረገበ",
+          "c": "black"
+        },
+        {
+          "t": "በስምሽ",
+          "c": "red"
+        },
+        {
+          "t": "- በሚጸለይበት ቦታ ሁሉ እኩያን አጋንንት አይቀርቡም በረቂቅ ሰዉን የሚያሰቃዩ ጸሊማን ዛር. ውላጆችም ይርታሉ፡፡ በከይየ -ሚ'",
+          "c": "black"
+        },
+        {
+          "t": "ይህቺን መጽሀፍ",
+          "c": "red"
+        },
+        {
+          "t": "በክብር ይዞ ለሚጸልይ የጨለማ ኃይል አክይጋርደዉም:-ርኩሳን መናፍስትም -- የቀትር አጋንንትም ሊቀርቡት አይችሉም በሌሊት በህልም የሚያስደነግጡ በመአልት በእሾህ መውጋት ቢሆን በእንቅፋት የሚመስሉ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

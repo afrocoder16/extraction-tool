@@ -1,0 +1,270 @@
+{
+  "page": 163,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 25 of 98 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ጨረቃ",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "በሚመላለሱ",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "መላአክት",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "ዘንድ",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "ልጄ",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "ሆይ፣፤",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "እማልድፃለሁ።፡፡",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "በኔ",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "አማልድሃለሁ፡፡",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "በኪየሩሳሌም\".",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ብርሀነ",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "መሰኮትህ",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "በብአተ",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "እማልድዛለሁ፡፡",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "-.",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "እቼ",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "?",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "(ኒሯቻዐ፣",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "ሠሮዕቶት",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ጥጮሕትዓግ",
+      "why": "Tesseract confidence 45 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በ የስኔ ጎልጎታ | ጨረቃ ውስጥ በሚመላለሱ ብርሃናዊያን መላአክት",
+          "c": "black"
+        },
+        {
+          "t": "- ቃል ኪዳን - ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ |",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳዴ",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፣፤",
+          "c": "red"
+        },
+        {
+          "t": "በእሳት ውስጥ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "በሚመላለሱ እሳታዊያን መላእክት",
+          "c": "black"
+        },
+        {
+          "t": "ቃልኪዳን",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ከንድ እማልድፃለሁ።፡፡ .",
+          "c": "black"
+        },
+        {
+          "t": "| ልጁ ወዳጄ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": ". በሰማይ ተድላ መንበርህና የእግርህ መረገጫ በሆነ በምድር",
+          "c": "black"
+        },
+        {
+          "t": "| ቃል በኔ ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": ". - አማልድሃለሁ፡፡ --",
+          "c": "black"
+        },
+        {
+          "t": "ልጅ ወዳጄ ሆይ፤ .",
+          "c": "red"
+        },
+        {
+          "t": "በኪየሩሳሌም\". ሰማያዊት ሀገርህ ብርሀነ መሰኮትህ ባተገለጠበት ደብረ ታቦር",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ተገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "በንድ አማልድሃለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "| ልጄ ወዳጄ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "በደብረ ዘይተ በብአተ",
+          "c": "black"
+        },
+        {
+          "t": "”",
+          "c": "red"
+        },
+        {
+          "t": "- መንግስትህ",
+          "c": "black"
+        },
+        {
+          "t": "-",
+          "c": "red"
+        },
+        {
+          "t": "በደብረፅዮንም",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ተገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ እማልድዛለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "| |",
+          "c": "red"
+        },
+        {
+          "t": "-.",
+          "c": "black"
+        },
+        {
+          "t": "እቼ ? (ኒሯቻዐ፣",
+          "c": "red"
+        },
+        {
+          "t": "፡ ሠሮዕቶት ጥጮሕትዓግ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

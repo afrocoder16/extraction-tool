@@ -1,0 +1,146 @@
+{
+  "page": 181,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 90 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "አቀርበዋለሁ:",
+      "why": "Tesseract confidence 28 — check against the scan"
+    },
+    {
+      "text": "የሞት",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ወደ",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ጊዜ.",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "አፄ",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "እሆነዋለሁ።",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "ያልተፈተሰለና",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "ዕፁብ",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "አለብሰዋለሁ፡።፡",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "አቀዳጀዋለሁ",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "እጎ.",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "ማጣ",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": "ሥል",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "ለጣል",
+      "why": "Tesseract confidence 50 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፲፳",
+      "spans": [
+        {
+          "t": "- የስኔ ጎልጎታ",
+          "c": "black"
+        },
+        {
+          "t": "ከባህርይ አባቴ ከአብ ከባህርይ ሕይወቴ ከመንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": "ፊት አቀርበዋለሁ: የታመመዉንም በስምሽ የጎበኘ ታሞ በአልጋላይ በተኛ ጊዜ አጎበኘዋለሁ፡፡ ከዚህ ከሚያልፈው ዓለም ወደማያልፈው ዓለም በሞት በተለየ ጊቤም መሪር የሆነ የሞት ጽዋን ስላጠጣዉም፡: ወደ መንግስተ - ሰማያት እስኪገባ ድረስ አልለየዉም ርኩሳን መናፍስትም በተከራከሩት ጊዜ. አፄ ጠባቂ እሆነዋለሁ በችግሩም ጊዜ ረዳት እሆነዋለሁ።",
+          "c": "black"
+        },
+        {
+          "t": "ዳግመኛም",
+          "c": "red"
+        },
+        {
+          "t": "-",
+          "c": "black"
+        },
+        {
+          "t": "- በስምሽ",
+          "c": "red"
+        },
+        {
+          "t": ". . ሰታረዘ (ለተራቆተ) ላለበሰ በሰው እጅ ያልተፈተሰለና ያልተሰራ ኅብሩ ዕፁብ ድንቅ የሆነ የሕይወት ልብስ አለብሰዋለሁ፡።፡ . የማይጠፋ የማይጠወልግ የሕይወት .",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ስክሲልም",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "አቀዳጀዋለሁ",
+          "c": "black"
+        },
+        {
+          "t": "ስለአንቺም",
+          "c": "red"
+        },
+        {
+          "t": "| ብሎ እጎ. ማጣ ሥል ለጣል ያ ጠብ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

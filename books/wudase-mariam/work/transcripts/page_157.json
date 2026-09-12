@@ -1,0 +1,158 @@
+{
+  "page": 157,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 88 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "የሰኔ",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "[ንድ",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "ወዳጃ",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "ጥዑማት",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "አውራጃ",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "አማልድዛሃለሁ፡፡",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "ልጁ",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "አለማልድሃለሁ፡፡",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "ወዳጄ",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "-”",
+      "why": "Tesseract confidence 59 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ኗ የሰኔ ጎልጎታ",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ",
+          "c": "red"
+        },
+        {
+          "t": "ምን ምን ሲቀርብህ የማይችል አንተን በሳሙ ከንፈሮቼ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "[ንድ አማልድዛለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": ". ልጄዴ",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ወዳጃ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "ከክንተ ጋርቃል ለቃል በተነጋገረ ስንደበቴ፤ ሱራፌል ኪሩቤል ድምፅህን ሰምተው ዐንተው ለመቆም የማይቻላቸው ጥዑማት ቃላትህን በሰሙ ጆሮቼ ሰላሳ ሶስት ዓመት ወደ አውራጃ ከአንተ ጋራ በተመላለሱ አግሮቼ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ አማልድዛሃለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጁ ወዳጄ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ!",
+          "c": "red"
+        },
+        {
+          "t": "ልብሱ አሳት | ክዳኑ አሳት አየተባልክ የምትመሰገን አንተ፤ እሳተ መለኮት ስትሆን በጨርቅ ተጠቅልለህ በተጣልክበት ዋሻ (በረት)",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "[ንድ አለማልድሃለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "መልስከ ምክርህ በሆነ",
+          "c": "black"
+        },
+        {
+          "t": "ቅዱስ ሚካኤል",
+          "c": "red"
+        },
+        {
+          "t": "ስንተን",
+          "c": "black"
+        },
+        {
+          "t": "-”",
+          "c": "red"
+        },
+        {
+          "t": "በክብር",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

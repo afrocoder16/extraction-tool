@@ -1,0 +1,242 @@
+{
+  "page": 167,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 24 of 95 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "‹3ጻ",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": "ገ1ንድ",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "ሆይ፣፤",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": ".:",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "ዕማሳለፍ",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "ላ.",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "እሳት",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "ዘንድ",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "ልጄ",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "በሌለበት",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "መንበርህ",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "፤",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "1",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "'-",
+      "why": "Tesseract confidence 20 — check against the scan"
+    },
+    {
+      "text": "በተባሉ",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "ጻማልድፃለሁ፡፡",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "'-",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "ለጠላት",
+      "why": "Tesseract confidence 37 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፲፳",
+      "spans": [
+        {
+          "t": "የሰኔ ጎለጎታ . | ‹3ጻ ሰማይ በማረግህ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ገ1ንድ | |",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳዴ- .ዑ. ሆይ፣፤ .:",
+          "c": "red"
+        },
+        {
+          "t": "ይህንን አለም ዕማሳለፍ",
+          "c": "black"
+        },
+        {
+          "t": "ላ.",
+          "c": "red"
+        },
+        {
+          "t": "ዳግመኛ በመምጣትህ እሳት በሚጋርድህ ፍፁም - በሆነ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "በአርያም ማደሪያህ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ አማልድዛለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "| ልጄ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ወዳጁ ሆይ፤ .",
+          "c": "red"
+        },
+        {
+          "t": "በማይሻረው መንግስትህ በማያልፈው ዘመንህ ጉድለት በሌለበት የደስታ ወንዝ ዝቅ ከፍ አፅንኖ በሌለበት",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "መንበርህ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "| ዘንድ ፤",
+          "c": "black"
+        },
+        {
+          "t": "| ልጄ ወዳጄ",
+          "c": "red"
+        },
+        {
+          "t": "1",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "'- ጴቃና ሴቃ በተባሉ ስሞችህ",
+          "c": "black"
+        },
+        {
+          "t": "| ቃል - ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ ጻማልድፃለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ . ወዳጄ ሆይ፤ '-",
+          "c": "red"
+        },
+        {
+          "t": "ጠላትን",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "በሚያቸንፍ 1ጺያኤል ለጠላት በማይጠቃ በታዳኤል -",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

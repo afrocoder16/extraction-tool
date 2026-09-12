@@ -1,0 +1,94 @@
+{
+  "page": 151,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 82 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": ":ሀገር",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "ረፃዛብና",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "ነሉ",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "ለሚተማመኑ፣",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "የብርሃን",
+      "why": "Tesseract confidence 20 — check against the scan"
+    },
+    {
+      "text": "ዛያ",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "አታርቅብኝ፡-",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "ልጄ",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": "ስ",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "ሐዮሮዮጠጩ",
+      "why": "Tesseract confidence 29 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፲",
+      "spans": [
+        {
+          "t": "የሰኔ ጎልጎታ :ሀገር ወደሀገር መሰደዴን ስለአንተም የደረሰብኝን ጭንቅና መከራ ረፃዛብና ጥም አስብ፤ የምለምንህም ለደጋጎች ስጻድቃን ብቻ አይደለም፤ በዚህ ዓለም ነሉ ስሜን ለሚጠሩ መታሰቢያዬን ሰሚያደርጉ በአማላጅነቴ ለሚተማመኑ፣ ኃጥአንም ነው እንጂ፤ አቤቱ ጸሎቴንና ልመናዬን አስተውል፤ ከአንተም ዘንድ የምሻውን የቃሌን ልመና ትሰማኝ ዘንድ የልቦናዬንም ሀሳብ ትፈጽምልኝ",
+          "c": "black"
+        },
+        {
+          "t": "በዚች እለት",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "በዚችም ሰአት",
+          "c": "red"
+        },
+        {
+          "t": "አስራ ሁለት የብርሃን መላእክትን ሁለት የይቅርታ መላአክትን፤ ዛያ ዓራት የምህረት መላእክትን ከኔ ጋር ቁመው የልቦናዬን ይፈጽሙልኝ ዘንድ ላክልኝ ካንተ ዘንድ የምሻውን ቸርነትህን አታርቅብኝ፡- .",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ ሆይ",
+          "c": "red"
+        },
+        {
+          "t": "አለም ሳይፈጠር ፥ነ ስ ሐዮሮዮጠጩ ግ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

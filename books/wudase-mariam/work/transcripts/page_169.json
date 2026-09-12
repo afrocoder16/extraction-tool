@@ -1,0 +1,246 @@
+{
+  "page": 169,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 27 of 108 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "..",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "ጎልጎታ",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": ":",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "ከበድ",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "እማልድዛለሁ፡፡",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ዲ",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": ":",
+      "why": "Tesseract confidence 21 — check against the scan"
+    },
+    {
+      "text": "ልዴወጃሟሆይ፣",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "ቅዋንዋተ",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": ".0",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "ዘድ",
+      "why": "Tesseract confidence 28 — check against the scan"
+    },
+    {
+      "text": "አማልድዛለሁ፡፡",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "የተከዘጉ",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "ይወገድ",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "፡.",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": "እማልድነዛለሁ፡፡",
+      "why": "Tesseract confidence 36 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": ".. ፲፪ የሰኔ ጎልጎታ |",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ወዳጄ ሆይ፣ :",
+          "c": "red"
+        },
+        {
+          "t": "ለመናገር በማይቻል",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": ". በክሱት በኀቡዕ ስምህ ስምህ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል",
+          "c": "red"
+        },
+        {
+          "t": "ለመተርጎም",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": ". በማይቻል - | ከበድ እማልድዛለሁ፡፡ .",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "ዲ አዴራ :",
+          "c": "black"
+        },
+        {
+          "t": "ልዴወጃሟሆይ፣",
+          "c": "red"
+        },
+        {
+          "t": "ሮዳስ በተባሉ - ሳዶር በአምስቱ አላዶር ቅዋንዋተ ዳናት . መስቀል",
+          "c": "black"
+        },
+        {
+          "t": "ቃል .0 ኪዳን .- - -",
+          "c": "red"
+        },
+        {
+          "t": "ዘድ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": ". አማልድዛለሁ፡፡ .",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳዴ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": ". የልቦናዬን ትፈፅምልኝ ዘንድ የተከዘጉ በሮች ተከፍተው የሞት ስልጣን ይወገድ ዘንድ የርኩሳን መናፍስት ስልጣን ተሸሮ የጭለማ ኃይል ከሁሉ ቦታ እንደሰም ቀልጦ እንደ ውዛ ፈሶ ይቀር ዘንድ . ጣዖታት ተደምስሰው የጣዖታትም ቦታና . . . ይጠፉ አዳራሽ",
+          "c": "black"
+        },
+        {
+          "t": "በዚህ | ጸሎት",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ ተመዝብረውና",
+          "c": "black"
+        },
+        {
+          "t": "፡.",
+          "c": "red"
+        },
+        {
+          "t": "እማልድነዛለሁ፡፡ የሚተማመትትን",
+          "c": "black"
+        },
+        {
+          "t": "| |",
+          "c": "red"
+        },
+        {
+          "t": "ተቀጥቅጠው",
+          "c": "black"
+        },
+        {
+          "t": "ዳግመኛም",
+          "c": "red"
+        },
+        {
+          "t": "ከሀጢት |",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

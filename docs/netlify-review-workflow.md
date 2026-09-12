@@ -125,9 +125,10 @@ save the transcript first.
 The sidebar provides filters for flagged and unreviewed pages and displays the
 number of completed content pages.
 
-Some pages currently say **Not transcribed yet**. Those pages cannot be
-proofread until the extraction engine produces their transcript; this is not a
-Netlify error.
+All 129 content pages now have editable text. Pages that originally had no
+transcript were filled with clearly marked Tesseract drafts so the proofreader
+can work on them in the same interface. These drafts are starting points, not
+trusted transcriptions, and every word must be checked against the scan.
 
 ## Where edits are stored
 
@@ -199,9 +200,11 @@ sections, or approvals are missing. The assembled local book file is:
 D:\projects\Tsion app\extract-tool\books\wudase-mariam\out\wudase_mariam.json
 ```
 
-At the time this hosted reviewer was created, that file was not production
-ready because 55 content pages still lacked canonical transcripts. Proofreading
-the existing pages does not automatically transcribe those missing pages.
+The assembled file is not production ready. The former 55-page transcript gap
+has been filled with editable Tesseract drafts, but those drafts require human
+correction and approval. Verification flags them deliberately until that work
+is complete; the section-detection and other page-level flags must also be
+resolved.
 
 ## Updating the hosted baseline
 
@@ -295,9 +298,12 @@ sessions.
 
 ### A page has an image but no text
 
-If it says **Not transcribed yet**, run the local OCR/transcription stage for
-that page, verify it, commit the new transcript, and push it to update Netlify.
-The hosted application does not call the OCR API.
+All currently identified content pages should now show either a human/AI
+transcript or a clearly marked Tesseract draft. If **Not transcribed yet** still
+appears after Netlify finishes the latest deployment, force-refresh the page.
+If it remains, verify that the page's JSON exists under
+`books/wudase-mariam/work/transcripts/`, rebuild, and inspect the Netlify deploy
+log. The hosted application does not call the OCR API.
 
 ## Reference documentation
 

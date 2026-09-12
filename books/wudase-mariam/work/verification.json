@@ -1715,65 +1715,232 @@
     {
       "page": 122,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "3 uncertain word(s) to check: |, ., -ፓ",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.333,
+        "mask_red_ratio": 0.245,
+        "tesseract_lines": 2,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 3,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 3 of 8 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 123,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "18 uncertain word(s) to check: ., ብርዛክኑን, ይምረን, አግሮቻችንን (+14 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.125,
+        "mask_red_ratio": 0.164,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 18,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 76 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 125,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "18 uncertain word(s) to check: ., ተፈቅዶልሻል፤, .-, \" (+14 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.075,
+        "mask_red_ratio": 0.091,
+        "tesseract_lines": 16,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 18,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 95 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 127,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "4 ASCII digits (Ethiopic numerals expected)",
+        "15 uncertain word(s) to check: 2=ሯ, አንቀጸ, ., .- (+11 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 4,
+        "model_red_ratio": 0.028,
+        "mask_red_ratio": 0.043,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 15,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 15 of 96 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 129,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "5 ASCII digits (Ethiopic numerals expected)",
+        "19 uncertain word(s) to check: 10፪፪8, ወጣሽ፡:, -, ያለመገናኘት (+15 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 5,
+        "model_red_ratio": 0.2,
+        "mask_red_ratio": 0.232,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 19,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 19 of 84 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 131,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "14 uncertain word(s) to check: ሯ፳፳, ብርፃዛን, እነዚህ, ይሸሽፍናሱ፡፡ (+10 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.119,
+        "mask_red_ratio": 0.164,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 14,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 82 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 132,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "3 ASCII digits (Ethiopic numerals expected)",
+        "4 uncertain word(s) to check: ሠ., ይፓፕያገ, 1፲17/, .",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 3,
+        "model_red_ratio": 0.579,
+        "mask_red_ratio": 0.537,
+        "tesseract_lines": 5,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 4,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 4 of 8 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 133,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "3 ASCII digits (Ethiopic numerals expected)",
+        "15 uncertain word(s) to check: ቿ5, ብርሃን, አርሱን, አባቱን (+11 more)"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 3,
+        "model_red_ratio": 0.217,
+        "mask_red_ratio": 0.252,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 15,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 15 of 77 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 135,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "11 uncertain word(s) to check: መላአክት, አያሉ፡፡, .-, በማኅፀንሽም (+7 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.252,
+        "mask_red_ratio": 0.315,
+        "tesseract_lines": 13,
+        "model_blocks": 2,
+        "text_agreement": 1.0,
+        "uncertain_words": 11,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 67 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 137,
@@ -1803,79 +1970,280 @@
     {
       "page": 139,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "18 uncertain word(s) to check: ፳ሀ, -, አላት፤, . (+14 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.343,
+        "mask_red_ratio": 0.395,
+        "tesseract_lines": 20,
+        "model_blocks": 3,
+        "text_agreement": 1.0,
+        "uncertain_words": 18,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 87 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 141,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "20 uncertain word(s) to check: ምስጋና, ይገባሻል፡፡, ይገባሻል፣, . (+16 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.087,
+        "mask_red_ratio": 0.112,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 20,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 20 of 93 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 143,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "9 ASCII digits (Ethiopic numerals expected)",
+        "30 uncertain word(s) to check: 6፳, -, እ, ' (+26 more)"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 9,
+        "model_red_ratio": 0.152,
+        "mask_red_ratio": 0.015,
+        "tesseract_lines": 13,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 30,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 30 of 64 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 147,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "8 uncertain word(s) to check: በክብ, ክብራ, የኢየሱስ, ልጄ (+4 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.445,
+        "mask_red_ratio": 0.475,
+        "tesseract_lines": 18,
+        "model_blocks": 2,
+        "text_agreement": 1.0,
+        "uncertain_words": 8,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 8 of 73 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 149,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "14 uncertain word(s) to check: ፤, አትችልም፤, ከጥልቀቂታቸው, በእአፍኝህ (+10 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.038,
+        "mask_red_ratio": 0.06,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 14,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 87 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 150,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.0,
+        "mask_red_ratio": 0.001,
+        "tesseract_lines": 1,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 0 of 6 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 151,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "11 uncertain word(s) to check: :ሀገር, ረፃዛብና, ነሉ, ለሚተማመኑ፣ (+7 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.061,
+        "mask_red_ratio": 0.084,
+        "tesseract_lines": 20,
+        "model_blocks": 1,
+        "text_agreement": 0.998,
+        "uncertain_words": 11,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 82 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 153,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "4 ASCII digits (Ethiopic numerals expected)",
+        "22 uncertain word(s) to check: የሰጌ, አባትህ, ›, .- (+18 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 4,
+        "model_red_ratio": 0.423,
+        "mask_red_ratio": 0.46,
+        "tesseract_lines": 21,
+        "model_blocks": 3,
+        "text_agreement": 1.0,
+        "uncertain_words": 22,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 22 of 102 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 154,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "15 ASCII digits (Ethiopic numerals expected)",
+        "11 uncertain word(s) to check: ሂኒጸሪ።ዴ, 6(5665ሪ/, 6, ዘ (+7 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 15,
+        "model_red_ratio": 0.233,
+        "mask_red_ratio": 0.31,
+        "tesseract_lines": 3,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 11,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 20 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 155,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "21 uncertain word(s) to check: ድፎ, ልጁ, ዓመት, ፡ (+17 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.26,
+        "mask_red_ratio": 0.292,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 21,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 21 of 90 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 157,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "11 uncertain word(s) to check: የሰኔ, [ንድ, ., ወዳጃ (+7 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.208,
+        "mask_red_ratio": 0.255,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 11,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 88 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 159,
@@ -1906,114 +2274,412 @@
     {
       "page": 161,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "14 uncertain word(s) to check: ፲, .ዑ, [ጠኙ, ለለምንሃለሁ፡፡ (+10 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.254,
+        "mask_red_ratio": 0.283,
+        "tesseract_lines": 20,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 14,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 92 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 162,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "4 uncertain word(s) to check: ልላዴ, ተራርትጥናፃና, ኮረብተጥት, ፖይ",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.214,
+        "mask_red_ratio": 0.226,
+        "tesseract_lines": 5,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 4,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 4 of 11 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 163,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "25 uncertain word(s) to check: ጨረቃ, በሚመላለሱ, መላአክት, - (+21 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.306,
+        "mask_red_ratio": 0.34,
+        "tesseract_lines": 24,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 25,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 25 of 98 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 164,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "7 uncertain word(s) to check: ፣, ሸ፳8/'ጋ-, ጻዴ, ሳመመስረት (+3 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.25,
+        "mask_red_ratio": 0.149,
+        "tesseract_lines": 3,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 7,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 7 of 9 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 165,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "3 ASCII digits (Ethiopic numerals expected)",
+        "25 uncertain word(s) to check: ., ዮርዳኖስ, -, .ፈ9 (+21 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 3,
+        "model_red_ratio": 0.328,
+        "mask_red_ratio": 0.338,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 25,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 25 of 120 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 167,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "4 ASCII digits (Ethiopic numerals expected)",
+        "24 uncertain word(s) to check: ‹3ጻ, ገ1ንድ, |, ሆይ፣፤ (+20 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 4,
+        "model_red_ratio": 0.282,
+        "mask_red_ratio": 0.293,
+        "tesseract_lines": 20,
+        "model_blocks": 1,
+        "text_agreement": 0.996,
+        "uncertain_words": 24,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 24 of 95 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 168,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "3 uncertain word(s) to check: ፤, ., ኣኋማልድሃዛለለሁ፡፡",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.379,
+        "mask_red_ratio": 0.361,
+        "tesseract_lines": 3,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 3,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 3 of 11 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 169,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "27 uncertain word(s) to check: .., ጎልጎታ, :, . (+23 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.165,
+        "mask_red_ratio": 0.207,
+        "tesseract_lines": 16,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 27,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 27 of 108 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 171,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "21 uncertain word(s) to check: ጎጎጎታ, ህያዊ, ', . (+17 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.129,
+        "mask_red_ratio": 0.159,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 21,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 21 of 101 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 173,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "3 ASCII digits (Ethiopic numerals expected)",
+        "29 uncertain word(s) to check: -, ወትእአልፊት, ., . (+25 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 3,
+        "model_red_ratio": 0.151,
+        "mask_red_ratio": 0.161,
+        "tesseract_lines": 16,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 29,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 29 of 120 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 175,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "18 uncertain word(s) to check: ፲2, ., \"ን, ትፈቅጃቫለሽ? (+14 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.161,
+        "mask_red_ratio": 0.199,
+        "tesseract_lines": 14,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 18,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 88 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 176,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "5 uncertain word(s) to check: -, 4, የብርዛን, . (+1 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.019,
+        "mask_red_ratio": 0.004,
+        "tesseract_lines": 7,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 5,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 5 of 17 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 177,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "22 uncertain word(s) to check: -, .-, -, - (+18 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.07,
+        "mask_red_ratio": 0.082,
+        "tesseract_lines": 17,
+        "model_blocks": 1,
+        "text_agreement": 0.997,
+        "uncertain_words": 22,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 22 of 87 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 179,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "15 uncertain word(s) to check: የሰኔ, ጻህፍት, ለጻፈ, ሳጻፈ (+11 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.064,
+        "mask_red_ratio": 0.081,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 15,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 15 of 80 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 181,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "18 uncertain word(s) to check: አቀርበዋለሁ:, የሞት, ወደ, ጊዜ. (+14 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.133,
+        "mask_red_ratio": 0.161,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 0.997,
+        "uncertain_words": 18,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 90 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 182,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "6 ASCII digits (Ethiopic numerals expected)",
+        "5 uncertain word(s) to check: ያየኒ.(5, (፪(፪፳, ርረሮ(1፪, 1088 (+1 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 6,
+        "model_red_ratio": 0.032,
+        "mask_red_ratio": 0.003,
+        "tesseract_lines": 6,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 5,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 5 of 14 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 183,
@@ -2044,93 +2710,335 @@
     {
       "page": 184,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "4 uncertain word(s) to check: ., ፥, -, \"",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.136,
+        "mask_red_ratio": 0.012,
+        "tesseract_lines": 4,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 4,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 4 of 11 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 185,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "12 uncertain word(s) to check: ., .-, ', . (+8 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.078,
+        "mask_red_ratio": 0.129,
+        "tesseract_lines": 16,
+        "model_blocks": 1,
+        "text_agreement": 0.998,
+        "uncertain_words": 12,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 12 of 77 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 186,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "5 uncertain word(s) to check: ዘ, /ዕራሥ, ፀ“ያ፻7, (ሀዕሀጋጋ/ያ (+1 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.0,
+        "mask_red_ratio": 0.0,
+        "tesseract_lines": 3,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 5,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 5 of 11 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 187,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "7 ASCII digits (Ethiopic numerals expected)",
+        "30 uncertain word(s) to check: -, .:, ነ, )] (+26 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 7,
+        "model_red_ratio": 0.063,
+        "mask_red_ratio": 0.036,
+        "tesseract_lines": 20,
+        "model_blocks": 1,
+        "text_agreement": 0.997,
+        "uncertain_words": 30,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 35 of 99 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 189,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "21 uncertain word(s) to check: -, ., .-, . (+17 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.046,
+        "mask_red_ratio": 0.056,
+        "tesseract_lines": 22,
+        "model_blocks": 1,
+        "text_agreement": 0.997,
+        "uncertain_words": 21,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 21 of 91 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 191,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "3 ASCII digits (Ethiopic numerals expected)",
+        "30 uncertain word(s) to check: -ትጋር, አይቆሙም፡፡, -\"ነ, [| (+26 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 3,
+        "model_red_ratio": 0.13,
+        "mask_red_ratio": 0.134,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 0.997,
+        "uncertain_words": 30,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 31 of 92 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 193,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "12 uncertain word(s) to check: በሸጠኙን, እንደፄሄደ፤, በአገኛተትም, ዘጠኙ (+8 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.063,
+        "mask_red_ratio": 0.078,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 0.997,
+        "uncertain_words": 12,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 12 of 86 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 194,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 0,
+        "model_red_ratio": 0.0,
+        "mask_red_ratio": 0.004,
+        "tesseract_lines": 2,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 0,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 0 of 6 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 195,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "30 uncertain word(s) to check: --, .ዌቨርሰዋለሁ፤-, .., ፒቲ (+26 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.204,
+        "mask_red_ratio": 0.274,
+        "tesseract_lines": 18,
+        "model_blocks": 1,
+        "text_agreement": 0.997,
+        "uncertain_words": 30,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 37 of 107 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 196,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "5 ASCII digits (Ethiopic numerals expected)",
+        "6 uncertain word(s) to check: 011(./ቤዕነኒ/, ዘረሪሠጋሠጉጡጉያ, ሠራጮራ)ሰሴ፦።:, 1[1፤ (+2 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 5,
+        "model_red_ratio": 0.108,
+        "mask_red_ratio": 0.176,
+        "tesseract_lines": 3,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 6,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 6 of 9 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 197,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "3 ASCII digits (Ethiopic numerals expected)",
+        "17 uncertain word(s) to check: -, 88, ., የያዘ (+13 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 3,
+        "model_red_ratio": 0.271,
+        "mask_red_ratio": 0.307,
+        "tesseract_lines": 21,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 17,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 17 of 100 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 198,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "red coverage over-marked: model 0.30 vs mask 0.06",
+        "8 uncertain word(s) to check: =, <, 2=ወ።ወ, እሪ (+4 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.296,
+        "mask_red_ratio": 0.055,
+        "tesseract_lines": 4,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 8,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 8 of 17 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 199,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "6 ASCII digits (Ethiopic numerals expected)",
+        "18 uncertain word(s) to check: ., ., 88, - (+14 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 6,
+        "model_red_ratio": 0.233,
+        "mask_red_ratio": 0.256,
+        "tesseract_lines": 21,
+        "model_blocks": 4,
+        "text_agreement": 0.997,
+        "uncertain_words": 18,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 103 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 201,
@@ -2161,44 +3069,157 @@
     {
       "page": 202,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "9 uncertain word(s) to check: ነ, .., 3ጻዳ.ያ, ር (+5 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.034,
+        "mask_red_ratio": 0.11,
+        "tesseract_lines": 3,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 9,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 9 of 16 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 203,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "5 ASCII digits (Ethiopic numerals expected)",
+        "22 uncertain word(s) to check: ', ., ., :፣ (+18 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 5,
+        "model_red_ratio": 0.195,
+        "mask_red_ratio": 0.217,
+        "tesseract_lines": 13,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 22,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 22 of 97 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 204,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "3 ASCII digits (Ethiopic numerals expected)",
+        "5 uncertain word(s) to check: -.14, ፥, ዘሪ“, የው (+1 more)",
+        "TEXT CUT OFF at top of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 3,
+        "model_red_ratio": 0.042,
+        "mask_red_ratio": 0.007,
+        "tesseract_lines": 6,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 5,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 5 of 14 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 205,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "24 uncertain word(s) to check: ፪, ., ., ገባሁልሽ:: (+20 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.235,
+        "mask_red_ratio": 0.234,
+        "tesseract_lines": 19,
+        "model_blocks": 1,
+        "text_agreement": 0.998,
+        "uncertain_words": 24,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 24 of 102 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 207,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "1 ASCII digits (Ethiopic numerals expected)",
+        "8 uncertain word(s) to check: ሰአንተ, አሜን፡, ., ከክጸዋጋን (+4 more)"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 1,
+        "model_red_ratio": 0.154,
+        "mask_red_ratio": 0.163,
+        "tesseract_lines": 10,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 8,
+        "clipped_lines": 0,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 8 of 46 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 209,
       "review_flags": [
-        "no transcript"
+        "DRAFT transcript — every word still needs checking against the scan",
+        "2 ASCII digits (Ethiopic numerals expected)",
+        "22 uncertain word(s) to check: ፻፪., የኅሊና-ጸሎት, ቆመሽ, ከንዋመ (+18 more)",
+        "TEXT CUT OFF at bottom of page — 1 line(s) missing"
       ],
-      "checks": {}
+      "checks": {
+        "missing_review_fields": [],
+        "draft_transcript": true,
+        "latin_chars": 0,
+        "ascii_digits": 2,
+        "model_red_ratio": 0.049,
+        "mask_red_ratio": 0.054,
+        "tesseract_lines": 20,
+        "model_blocks": 1,
+        "text_agreement": 1.0,
+        "uncertain_words": 22,
+        "clipped_lines": 1,
+        "corrections_total": 0,
+        "corrections_undecided": 0,
+        "unusable": false,
+        "model_notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 22 of 94 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text."
+      }
     },
     {
       "page": 211,

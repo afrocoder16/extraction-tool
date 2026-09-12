@@ -1,0 +1,202 @@
+{
+  "page": 191,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 31 of 92 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "-ትጋር",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "አይቆሙም፡፡",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "-\"ነ",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "[|",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": "ሰአት",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "፡",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "'-::",
+      "why": "Tesseract confidence 31 — check against the scan"
+    },
+    {
+      "text": "አጌና",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "አባ",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "መንሪስ፡",
+      "why": "Tesseract confidence 21 — check against the scan"
+    },
+    {
+      "text": "ጳሪትሊጦስ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "።=ሮሱ",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "ሊቃነ",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "መላእክትም",
+      "why": "Tesseract confidence 27 — check against the scan"
+    },
+    {
+      "text": "<ላቸዉን",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "(”",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "::::-",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": "ጸሎት",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "-.-",
+      "why": "Tesseract confidence 31 — check against the scan"
+    },
+    {
+      "text": "የያበቨ",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "እንቀበለው",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "['",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "አንወርዳለን፤",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "1ህረ",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "መንበረ",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "።=ንግስቴም",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "/",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "=2ሰራዊት",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "=ስ",
+      "why": "Tesseract confidence 56 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፳፻",
+      "spans": [
+        {
+          "t": "የሰጌ ጎልጎታ -ትጋር - አይቆሙም፡፡ ሊቀርቡትም እኔ በዚያ አስፈሪ -\"ነ",
+          "c": "black"
+        },
+        {
+          "t": "[|",
+          "c": "red"
+        },
+        {
+          "t": "ሰአት እረዳት አሆነዋለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "፡ '-:: አጌና የባህርይ አባ አብ የባህርይ የአዉነት መንሪስ፡ ጳሪትሊጦስ",
+          "c": "red"
+        },
+        {
+          "t": "።=ሮሱ እንመጣለን አስራ ሁለቱ ሊቃነ መላእክትም ከዝርግፍ ወርቅ ጋር የወርቅ <ላቸዉን ይዘው ይመጣሉ፡፡ ቀስተ ደመና 4መሰለ በናርዱ ሽቱ መብረቅም በመሰለ",
+          "c": "black"
+        },
+        {
+          "t": "(”",
+          "c": "red"
+        },
+        {
+          "t": "።አሳት ሰረገላ ሆነን",
+          "c": "black"
+        },
+        {
+          "t": "ይህትን ::::- ጸሎት | -.-",
+          "c": "red"
+        },
+        {
+          "t": "የያበቨ ሓው እንቀበለው ዘንድ አስከ አምስተኛው ጎማይ",
+          "c": "black"
+        },
+        {
+          "t": "['",
+          "c": "red"
+        },
+        {
+          "t": "ድረስ አንወርዳለን፤ በደረቴ አቅፌ 1ህረ",
+          "c": "black"
+        },
+        {
+          "t": "፡ ,",
+          "c": "red"
+        },
+        {
+          "t": "እሳትን አሻግረዋለሁ፡፡ ወደ መንበረ ።=ንግስቴም",
+          "c": "black"
+        },
+        {
+          "t": "/",
+          "c": "red"
+        },
+        {
+          "t": "አቀርበዋለሁ፡፡ መንፈሳዊያን =2ሰራዊት መላእክት አለቆችም በአዩት ጊዜ =ስ ይላቸዋል፡፡ ይህቺን ጸሎት በንጽህና .- ጻየጸለየ የያዛትን ሰው በክንፋቸው",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "page": 133,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 15 of 77 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ቿ5",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "ብርሃን",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "አርሱን",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "አባቱን",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "ይገባሻል፡.",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "፲5.",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "በኪኢቶጵያዊው",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "'-",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "ከክወዳጅዋ..........................2ጋር",
+      "why": "Tesseract confidence 38 — check against the scan"
+    }
+  ],
+  "clipped": [],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቿ5 አንቀጸ ብርሃን አርሱን አባቱን .",
+          "c": "black"
+        },
+        {
+          "t": "መንፈስ ቅዱስንም",
+          "c": "red"
+        },
+        {
+          "t": "በማመን በቀናች ሀይማኖት ያጸናን ዘንድ ይቅርታውንና ምህረቱን ይሰጠን ዘንድ በምህረቱ ብዛት ኃጢአታችንን ያስተሰርይልን ዘንድ የሁሉን.",
+          "c": "black"
+        },
+        {
+          "t": "- ጌታ",
+          "c": "red"
+        },
+        {
+          "t": "የወለድሽው ሆይ ምስጋና ይገባሻል፡. ዛሬም ዘወትርም ለዘላለምም ምስጋናና",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "ክብር",
+          "c": "black"
+        },
+        {
+          "t": "ለአብ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ለወልድ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ለመንፈስ",
+          "c": "red"
+        },
+        {
+          "t": "'",
+          "c": "black"
+        },
+        {
+          "t": "ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": "ይገባል አሜን፡፡ .-",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ልጅሽ - .",
+          "c": "red"
+        },
+        {
+          "t": "ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡ ፲5. በቅዱስ ኤፍሬምና በኪኢቶጵያዊው ቀዱስ ያሬድ ላይ ያደረ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክን የወለደች የእመቤታችን ድንግል ማሪያም",
+          "c": "red"
+        },
+        {
+          "t": "ልመናዋ ክብሯ '- የልጅዋም ቸርነት . ከክወዳጅዋ..........................2ጋር ይኑር አሜን፡፡ [",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

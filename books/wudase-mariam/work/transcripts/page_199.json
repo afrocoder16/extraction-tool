@@ -1,0 +1,232 @@
+{
+  "page": 199,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 103 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": ".",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "88",
+      "why": "Tesseract confidence 28 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "\"",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "በቕፄኖስ",
+      "why": "Tesseract confidence 31 — check against the scan"
+    },
+    {
+      "text": "1ማቱሳላ",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ዉሣ",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "እንዳላጠፋት",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "1ኛህ",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "‹2ላሳሌም",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "ስለወዳጄ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "|",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፳፪",
+      "spans": [
+        {
+          "t": "የሰኔ ጎልጎታ . ህያራቱ ካህናት ሰማይ",
+          "c": "black"
+        },
+        {
+          "t": ". ቃል ኪዳን ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": ". አልፍ ሆነው በቀኝ በሚቆሙ ሆነው በግራ በሚቆሙ. እልፍ ማው",
+          "c": "black"
+        },
+        {
+          "t": "1.",
+          "c": "red"
+        },
+        {
+          "t": "በሚቆሙ በኃላዬ በሚቀሙ መላእክት አልፍ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል",
+          "c": "red"
+        },
+        {
+          "t": "88 ሆነው.",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "|",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": "በእልፍ አእላፍት ብኩ የብኩ በሚሆኑ ትጉኃን መልአክት-",
+          "c": "black"
+        },
+        {
+          "t": "ቃል",
+          "c": "red"
+        },
+        {
+          "t": "- -",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": "የፍጥረት ተቀዳሚ \"ሆነው በክዳም በልጆቹም በአቤልና ;ሴት",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "በቃይናን በመሳልኤል",
+          "c": "black"
+        },
+        {
+          "t": "..' ቃል \" ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": ". |",
+          "c": "black"
+        },
+        {
+          "t": "ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": "በሄኖክና በቕፄኖስ በያሬድና 1ማቱሳላ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን - ገባሁልሽ፡፡",
+          "c": "red"
+        },
+        {
+          "t": "ዳግመኛ በንፍር ዉሣ እንዳላጠፋት ኪዳነ ወምድር በሰጠሁት በባሪያዬ 1ኛህ",
+          "c": "black"
+        },
+        {
+          "t": ".. ቃል ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": "የትፅዛዜ - ተቀዳሚ በኩር በሆነ በሴም ‹2ላሳሌም በሆነ በመልከ ጻዲቅ ካህን",
+          "c": "black"
+        },
+        {
+          "t": "' ኪዳን ገባሁልሽ፡፡",
+          "c": "red"
+        },
+        {
+          "t": "- ስለወዳጄ ስሰ አብርሀም",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

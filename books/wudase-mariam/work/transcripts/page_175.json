@@ -1,0 +1,178 @@
+{
+  "page": 175,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 88 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "፲2",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": "\"ን",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "ትፈቅጃቫለሽ?",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "ሁሱ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "የምትሺውንም",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "የሌለባት",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "(",
+      "why": "Tesseract confidence 20 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": ",",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "ሲደርስ",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "ተወልደሃልና",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "እፄ",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "እናትህ",
+      "why": "Tesseract confidence 57 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፲2 . የሰኔ ጎልጎታ | | \"ን ላደርግልሽ ትፈቅጃቫለሽ? እነሆ ሁሱ የምትሺውንም ኣፈፅምልሻለሁና፡፡ መርገመ ሰወዳጂ ስጋ እንዲህ የሌለባት ብርክት ስትል",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም .",
+          "c": "red"
+        },
+        {
+          "t": "መርገመ መሰለሰችለት፡፡",
+          "c": "black"
+        },
+        {
+          "t": "(",
+          "c": "red"
+        },
+        {
+          "t": "ለልጂ ነፍስ",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ ኢየሱስ ክርስቶስ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "ተስፋዬ አምባ መጠጊያዬ አንተ ነህ ኋምነቴም በአንተ ላይ ነው፡፡ ገና በአናቴ ሳለሁ አንተ ጠበቅከኝ ኣጸናኸኝም ለሁል ጊቤም መታሰቢያዬና ኣለኝታዬ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "አንተ ሃህ በኋለኛውም ዘመን",
+          "c": "black"
+        },
+        {
+          "t": "ፈቃድ",
+          "c": "red"
+        },
+        {
+          "t": "ትንቢቱ በሚሆን",
+          "c": "black"
+        },
+        {
+          "t": "በመንፈስ በአባትህም",
+          "c": "red"
+        },
+        {
+          "t": "ሲፈጸም",
+          "c": "black"
+        },
+        {
+          "t": ".. -",
+          "c": "red"
+        },
+        {
+          "t": "ሰአቱ",
+          "c": "black"
+        },
+        {
+          "t": "ቅዱስም , ፈቃድ .",
+          "c": "red"
+        },
+        {
+          "t": "| ሲደርስ",
+          "c": "black"
+        },
+        {
+          "t": "ፈቃድ",
+          "c": "red"
+        },
+        {
+          "t": "ማሕያዊ",
+          "c": "black"
+        },
+        {
+          "t": ".- በአንተ",
+          "c": "red"
+        },
+        {
+          "t": "ከአኔ ተወልደሃልና ዛሬ ጸሎቴንና ልመናዬን ስማኝ የአንደበቴንም ቃል አድምጥ እፄ ወሳጅ እናትህ የምነግርህንም",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

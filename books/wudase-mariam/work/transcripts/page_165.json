@@ -1,0 +1,342 @@
+{
+  "page": 165,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 25 of 120 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": ".",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "ዮርዳኖስ",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": ".ፈ9",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "(-",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "---.",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "እአማልድሃለሁ፡፡",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "ወዳጄ",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "ሆይ፣፤",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "አማልድሃለሁ:፡:",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "-.",
+      "why": "Tesseract confidence 22 — check against the scan"
+    },
+    {
+      "text": "8",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "እማልድሃለሁ፡፡",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "'\"",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": "አማልድፃለሁ፡፡.",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ልጄ",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "ወዳደ",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 49 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": ". ፲ የሰኔ ጎልጎታ . በማእከለ ዮርዳኖስ",
+          "c": "black"
+        },
+        {
+          "t": "በቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": "-",
+          "c": "black"
+        },
+        {
+          "t": ".ፈ9 መንፈስና",
+          "c": "red"
+        },
+        {
+          "t": "(- ከአንተም ዘንድ በወጣው",
+          "c": "black"
+        },
+        {
+          "t": "ቃል",
+          "c": "red"
+        },
+        {
+          "t": "---.",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ተገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "| ዘንድ እአማልድሃለሁ፡፡ | |",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ወዳጄ",
+          "c": "red"
+        },
+        {
+          "t": ".-",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፣፤",
+          "c": "red"
+        },
+        {
+          "t": ". በተቸነከሩ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "እጆችህና በቅዱስ ስጋህና በክቡር ደምህ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "| ዘንድ አማልድሃለሁ:፡:",
+          "c": "black"
+        },
+        {
+          "t": "| ልጄ ወጃ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "በተቀበልከው",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "መከራና ሞትህ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ሽ -. ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ 8",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "ሶስት ሌሊት ሶስት መአልት በከርሰ መቃብር በአደርክበት |",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "በንድ እማልድሃለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ወዳጄ ሆይ፤ .",
+          "c": "red"
+        },
+        {
+          "t": "አዳምን ከነልጆቹ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "| ለማውጣት",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "በአካለ ነፍስ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ወደ ሲኦል - በመውረደህ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል .",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን (9",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "በንድ",
+          "c": "black"
+        },
+        {
+          "t": "'\"",
+          "c": "red"
+        },
+        {
+          "t": "አማልድፃለሁ፡፡.",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳደ",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ! .፣",
+          "c": "red"
+        },
+        {
+          "t": "ሙስና | , መቃብርህን",
+          "c": "black"
+        },
+        {
+          "t": ",",
+          "c": "red"
+        },
+        {
+          "t": ". - . አጥፍተህ በሶስተኛው ቀን- ከሙታን",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}
