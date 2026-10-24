@@ -136,6 +136,13 @@
     .chip.flag { color: var(--warn); border-color: #f3d3a1; background: var(--warn-soft); }
     .chip.blank { color: #9aa1ac; }
     .chip.red { color: var(--accent); border-color: #e6c3c9; background: var(--accent-soft); }
+    .chip.unsure { color: #2457a6; border-color: #c4d5f2; background: #eef4fd; }
+    .chip.draft { color: var(--warn); border-color: #f3d3a1; background: #fff; }
+    .draftbar {
+      display: flex; align-items: center; gap: 8px; margin-bottom: 10px; padding: 8px 10px;
+      border: 1px solid #f3d3a1; background: var(--warn-soft); color: var(--warn); border-radius: 8px; font-size: 12.5px;
+    }
+    .draftbar .spacer { flex: 1; }
 
     .sidebar-foot {
       border-top: 1px solid var(--line);
@@ -761,11 +768,12 @@
     </div>
 
     <div class="reviewbar">
+      <button class="btn approve" id="approveNextBtn" title="Save, approve and open the next page (Ctrl+Enter)">&check; Approve &amp; next</button>
       <button class="btn approve" id="approveBtn">&check; Approve</button>
       <button class="btn flagbtn" id="flagBtn">&#9873; Needs fix</button>
       <input class="note" id="noteInput" placeholder="Note for this page (optional)…">
       <span style="color:var(--muted);font-size:12px">
-        <kbd>←</kbd><kbd>→</kbd> page &middot; <kbd>A</kbd> approve &middot; <kbd>F</kbd> flag
+        <kbd>Ctrl</kbd>+<kbd>Enter</kbd> approve &amp; next &middot; <kbd>←</kbd><kbd>→</kbd> page &middot; <kbd>A</kbd> approve &middot; <kbd>F</kbd> flag
       </span>
     </div>
   </main>
@@ -785,6 +793,7 @@ const state = {
   imageExtension: "png",
   pages: [],          // [{page, is_blank, red_ink_ratio, ...}]
   flags: {},          // page -> [flag strings]
+  checks: {},         // page -> verification checks (uncertain_words, ...)
   transcripts: {},    // page -> transcript | null (null = fetched, absent)
   current: null,
   view: "original",
@@ -936,7 +945,10 @@ async function boot() {
   // verification.json only exists once the verify stage has run.
   try {
     const v = await getJSON(`${state.base}/work/verification.json`);
-    for (const r of v.reports || []) state.flags[r.page] = r.review_flags || [];
+    for (const r of v.reports || []) {
+      state.flags[r.page] = r.review_flags || [];
+      state.checks[r.page] = r.checks || {};
+    }
   } catch { /* not verified yet — no flags to show */ }
 
   // Decisions saved on disk by serve.py win over this browser's localStorage.
@@ -1000,6 +1012,9 @@ function renderList() {
     else if (p.is_illustration) chips.push('<span class="chip blank">picture</span>');
     else if (p.red_ink_ratio > 0) chips.push(`<span class="chip red">${Math.round(p.red_ink_ratio * 100)}% red</span>`);
     if ((state.flags[p.page] || []).length) chips.push('<span class="chip flag">&#9873;</span>');
+    const unsure = state.checks[p.page]?.uncertain_words;
+    if (unsure) chips.push(`<span class="chip unsure" title="${unsure} uncertain reading(s)">? ${unsure}</span>`);
+    if (readDraft(p.page)) chips.push('<span class="chip draft" title="Unsaved draft in this browser">&#9998;</span>');
     const st = statusOf(p.page);
     if (st === "approved") chips.push('<span class="chip ok">&check;</span>');
     if (st === "needs_fix") chips.push('<span class="chip flag">fix</span>');
@@ -1031,6 +1046,7 @@ async function selectPage(page) {
   if (state.current != null && state.current !== page && dirty.has(state.current)) {
     if (!confirm(`Page ${state.current} has unsaved edits. Leave without saving?`)) return;
     dirty.delete(state.current);
+    clearDraft(state.current);
     delete state.transcripts[state.current];  // drop the edited copy, re-fetch clean
   }
   state.current = page;
@@ -1158,6 +1174,7 @@ async function renderText(page) {
   el("historyBtn").addEventListener("click", () => loadHistory(page));
   wireEditor(page);
   setSaveState(dirty.has(page) ? "unsaved" : "");
+  offerDraft(page);
 }
 
 /* ---------------- Ethiopic character palette ---------------- */
@@ -1414,6 +1431,55 @@ function setSaveState(kind, msg) {
 function markPageDirty(page) {
   dirty.add(page);
   setSaveState("unsaved");
+  scheduleDraft(page);
+}
+
+/* Unsaved edits are mirrored into this browser so a closed tab or crash loses nothing. */
+const draftKey = (page) => `extraction-draft:${state.bookId}:${page}`;
+
+function readDraft(page) {
+  try { return JSON.parse(localStorage.getItem(draftKey(page))); } catch { return null; }
+}
+
+function clearDraft(page) {
+  try { localStorage.removeItem(draftKey(page)); } catch { /* storage unavailable */ }
+}
+
+let draftTimer = null;
+function scheduleDraft(page) {
+  clearTimeout(draftTimer);
+  draftTimer = setTimeout(() => {
+    if (state.current !== page || !dirty.has(page)) return;
+    try {
+      const hadDraft = readDraft(page);
+      localStorage.setItem(draftKey(page), JSON.stringify(
+        { drafted_at: new Date().toISOString(), transcript: collectTranscript(page) }));
+      if (!hadDraft) renderList();
+    } catch { /* storage full or blocked: the Save button still works */ }
+  }, 700);
+}
+
+function offerDraft(page) {
+  const draft = readDraft(page);
+  if (!draft || dirty.has(page)) return;
+  const bar = document.createElement("div");
+  bar.className = "draftbar";
+  bar.innerHTML = `<span>Unsaved edits from ${escapeHtml(new Date(draft.drafted_at).toLocaleString())} are
+    kept in this browser.</span><span class="spacer"></span>
+    <button class="mini" data-act="restore">Restore</button><button class="mini" data-act="discard">Discard</button>`;
+  bar.addEventListener("click", (e) => {
+    const act = e.target.dataset.act;
+    if (act === "discard") { clearDraft(page); bar.remove(); renderList(); }
+    if (act === "restore") {
+      // The draft keeps the save time it started from, so a newer save by
+      // someone else is still caught as a conflict when this is saved.
+      state.transcripts[page] = draft.transcript;
+      markPageDirty(page);  // before rendering, so the bar is not offered again
+      renderText(page);
+      setSaveState("unsaved", "draft restored — press Save to keep it");
+    }
+  });
+  el("textPane").prepend(bar);
 }
 
 /**
@@ -1530,6 +1596,9 @@ async function saveTranscript(page) {
       updateProgress();
     }
     dirty.delete(page);
+    clearTimeout(draftTimer);
+    clearDraft(page);
+    renderList();
     if (state.current === page && el("lastSavedText")) el("lastSavedText").textContent = saved.saved_by
       ? `Last saved by ${saved.saved_by} · ${new Date(saved.saved_at).toLocaleString()}` : "Saved just now";
     setSaveState("saved");
@@ -1814,33 +1883,40 @@ el("imagePane").addEventListener("wheel", (e) => {
 
 /* ---------------- review actions ---------------- */
 
-async function setStatus(status) {
-  if (state.current == null) return;
+async function setStatus(status, force = false) {
+  if (state.current == null) return false;
   const page = state.current;
-  if (dirty.has(page) && !(await saveTranscript(page))) return;
-  if (state.current !== page) return;
+  if (dirty.has(page) && !(await saveTranscript(page))) return false;
+  if (state.current !== page) return false;
   const cur = state.review[page] || {};
-  // Pressing the same button again clears the decision.
-  cur.status = cur.status === status ? null : status;
+  // Pressing the same button again clears the decision (unless forced).
+  cur.status = !force && cur.status === status ? null : status;
   cur.note = el("noteInput").value.trim();
   if (cur.status === "approved" && state.hosting !== "netlify") {
     const transcript = state.transcripts[page];
     if (!transcript?._revision || !transcript?._evidence_revision) {
       alert("Reload this page before approving it.");
-      return;
+      return false;
     }
     cur.transcript_sha256 = transcript._revision;
     cur.evidence_sha256 = transcript._evidence_revision;
   }
   state.review[page] = cur;
-  if (!(await saveReview(page))) return;
-  if (state.current !== page) return;
+  if (!(await saveReview(page))) return false;
+  if (state.current !== page) return true;
   el("approveBtn").classList.toggle("on", cur.status === "approved");
   el("flagBtn").classList.toggle("on", cur.status === "needs_fix");
   renderList();
   updateProgress();
+  return true;
 }
 
+/** Save (if edited), approve, and open the next page in the list. */
+async function approveAndNext() {
+  if (await setStatus("approved", true)) step(1);
+}
+
+el("approveNextBtn").addEventListener("click", approveAndNext);
 el("approveBtn").addEventListener("click", () => setStatus("approved"));
 el("flagBtn").addEventListener("click", () => setStatus("needs_fix"));
 
@@ -1929,6 +2005,11 @@ document.addEventListener("keydown", (e) => {
   if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {
     e.preventDefault();
     if (state.current != null) saveTranscript(state.current);
+    return;
+  }
+  if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
+    e.preventDefault();
+    approveAndNext();
     return;
   }
   // Single-letter shortcuts must not fire while typing Amharic into a block.
