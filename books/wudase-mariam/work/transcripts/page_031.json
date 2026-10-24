@@ -1,31 +1,27 @@
 {
   "page": 31,
-  "notes": "The page ends mid-refrain after 'ቅድስት ሆይ'.",
-  "corrections": [],
+  "page_header": "፲፭ የማክሰኞ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፳  የማክሰኞ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "ዓለምን ሁሉ የፈጠረ ጌታን የወለድሽ ሆይ ደስ ይበልሽ። ",
+          "t": "ይበልሽ። ዓለምን ሁሉ የፈጠረ ጌታን የወስድሽ ሆይ ደስ ይበልሽ። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        88,
+        489,
+        2152,
+        941
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -40,28 +36,86 @@
           "c": "red"
         },
         {
-          "t": " ተማጽነን ዘንድ ወደ አንቺ እናንጋጥጣለን። ",
+          "t": " ትለምኝልን ዘንድ ወደ አንቺ እናንጋጥጣለን። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        94,
+        908,
+        2213,
+        2244
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፰",
+      "verse_num_am": "፲",
       "spans": [
         {
-          "t": "ድንግል ሆይ ቅድስት ሆይ",
+          "t": "ድንግል. ሆይ ቅድስት ሆይ",
           "c": "red"
         },
         {
-          "t": " ጌታን የወለድሽ ሆይ እኛን ለማዳን ድንቅ ምሥጢር (ተዋሕዶ) በአንቺ ቢደረግ ንጉሥን ወልደሽልናልና ፍጥረታትን በልዩ ልዩ መልክ የፈጠረ የእርሱን የገናንነቱን ነገር ፈጽመን መናገር አይቻልምና ዝም እንበል። ቅድስት ሆይ ለምኝልን።",
+          "t": " ጌታን የወስድሽ ሆይ እኛን ለማዳን ድንቅ ምሥጢር (ተዋህዶ) በአንቺ ቢደረግ ንጉሥን ወልደሽልናልና ፍጥረታትን በልዩ ልዩ መልክ የፈጠረ የእርሱን የገናንነቱን ነገር ፈጽመን መናገር አይቻልምና ዝም እንበል። ",
           "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ",
+          "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        117,
+        2234,
+        2197,
+        3262
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e20a66856c681a310d89cf11912034da2f0f42f68fd5204806e2f09c52f81b91",
+      "source_sha256": "092e9f5ccc3235d9602b3a2e41d2300590f977f7154370cbf3dc6ca35c94d307",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_031.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 86.941,
+      "created_at": "2026-10-23T23:25:21.974114+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "68d8dd40f2fc876c07594ef9f27ce4760da233760816cc89832d8f9210e9bef6",
+      "image": "092e9f5ccc3235d9602b3a2e41d2300590f977f7154370cbf3dc6ca35c94d307",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 8,
+    "red_located": 8
+  },
+  "_legacy": "transcripts-legacy/page_031.json"
 }

@@ -1,0 +1,238 @@
+{
+  "page": 201,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 30 of 121 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": ".",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "ያአቆብም",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": ".-.",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "ገባሁልሽ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "':-",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ትዕዛዝ",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "ገባሁልሽ",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "ውፃዛ",
+      "why": "Tesseract confidence 31 — check against the scan"
+    },
+    {
+      "text": "ወተት",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "-.",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "-.",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": "ትእዛቤንና",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "ሄሮድስ",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "የይ",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ወጠብሟባግእሕአ።",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": "ህባናት",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "(9",
+      "why": "Tesseract confidence 55 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": ". ፳2 - የሰኔ ጎልጎታ ሁለት ነገድ ከፍዬ ስለ አከበርኩት ስለ ያአቆብም",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን . ገባሁልሽ .-.",
+          "c": "red"
+        },
+        {
+          "t": "- በይሁዳና በፋሪስ በዮሴፍና ብኒያም በሌዊና ይሳኮር",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "- በአስራ ሁለቱ ነገደ አስራኤል ቁጥር",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን . ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": "ንፁሀን ቅዱሳን በሚሆኑ .",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ገባሁልሽ፡፡ |",
+          "c": "red"
+        },
+        {
+          "t": "':- ባህፍተ ትዕዛዝ በሆኑ በፄኖክና በኤሊያስ",
+          "c": "black"
+        },
+        {
+          "t": "| . ቃል",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": "'- ቨጠኝ ወር ከአምስት . - ቀን በተቀመጥኩባት ንጽህት በሆነች ማህጸንሽ",
+          "c": "black"
+        },
+        {
+          "t": ". ቃል ኪዳን . ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": ". ጣፋጭነቱ ከመአር ከስኳር የሚጥመው ንጽህነቱ ከኤዶም ምንጭ ውፃዛ ንጣቱ ከበረዶና ከወተት የበለጠዉን ወተት መግበው . ባሳደጉኝ ጡቶችሽ",
+          "c": "black"
+        },
+        {
+          "t": "| ቃል . ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ገባሁልሽ -. -.",
+          "c": "red"
+        },
+        {
+          "t": "ትእዛቤንና ሕጌን ባስተማሩ አስራ አምስቱ - ፃቢያት ሄሮድስ ባስገደላቸው አስራ አራት . . አልፍ",
+          "c": "black"
+        },
+        {
+          "t": "የይ",
+          "c": "red"
+        },
+        {
+          "t": ". የቤተልሔም ወጠብሟባግእሕአ።",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ህባናት",
+          "c": "black"
+        },
+        {
+          "t": "ቃል . (9 ኪዳን",
+          "c": "red"
+        }
+      ]
+    }
+  ]
+}

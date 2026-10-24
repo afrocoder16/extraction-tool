@@ -1,103 +1,89 @@
 {
   "page": 131,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 82 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "ሯ፳፳",
-      "why": "Tesseract confidence 38 — check against the scan"
-    },
-    {
-      "text": "ብርፃዛን",
-      "why": "Tesseract confidence 41 — check against the scan"
-    },
-    {
-      "text": "እነዚህ",
-      "why": "Tesseract confidence 23 — check against the scan"
-    },
-    {
-      "text": "ይሸሽፍናሱ፡፡",
-      "why": "Tesseract confidence 30 — check against the scan"
-    },
-    {
-      "text": "መስቀል",
-      "why": "Tesseract confidence 59 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "'”",
-      "why": "Tesseract confidence 59 — check against the scan"
-    },
-    {
-      "text": "'",
-      "why": "Tesseract confidence 41 — check against the scan"
-    },
-    {
-      "text": "አከላቃጠለሽም፡፡",
-      "why": "Tesseract confidence 66 — check against the scan"
-    },
-    {
-      "text": "እጸ",
-      "why": "Tesseract confidence 64 — check against the scan"
-    },
-    {
-      "text": "አላቃጠለሸሽም፡፡",
-      "why": "Tesseract confidence 58 — check against the scan"
-    },
-    {
-      "text": "ስለመሆኑም",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": "ሆን፡፡",
-      "why": "Tesseract confidence 43 — check against the scan"
-    },
-    {
-      "text": "ነሽ",
-      "why": "Tesseract confidence 57 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "ፌፔ አንቀጸ ብርሃን",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ሯ፳፳ አንቀጸ ብርፃዛን አለሽ፤ እነዚህ ፊታቸውን ይሸሽፍናሱ፡፡ አግሮቻቸዉም -",
+          "t": "አለሽ፤ እነዚህ ፊታቸውን ይሸፍናሉ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        499,
+        2298,
+        656
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግሮቻቸዉም ",
           "c": "black"
         },
         {
-          "t": "የትአምርተ መስቀል . '”",
+          "t": "የትእምርተ መስቀል",
           "c": "red"
-        },
+        }
+      ],
+      "bbox": [
+        171,
+        666,
+        2353,
+        815
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
         {
-          "t": "አምሳያዎች ናቸው",
+          "t": "አምሳያዎች ናቸው ",
           "c": "black"
         },
         {
-          "t": "ከልጅሽ",
+          "t": "ከልጅሽ መለኮት",
           "c": "red"
-        },
+        }
+      ],
+      "bbox": [
+        171,
+        815,
+        2298,
+        976
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
         {
-          "t": "'",
+          "t": "የሚወጣው እሳት ይድኑ ዘንድ አንቺ",
           "c": "black"
-        },
+        }
+      ],
+      "bbox": [
+        171,
+        976,
+        2298,
+        1136
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
         {
-          "t": "መለኮት",
-          "c": "red"
-        },
-        {
-          "t": "የሚወጣው አሳት ይድኑ ዘንድ አንቺ ግን",
+          "t": "ግን ",
           "c": "black"
         },
         {
@@ -105,34 +91,277 @@
           "c": "red"
         },
         {
-          "t": "ማደሪያ ሆንሽ፡፡",
+          "t": " ማደሪያ ሆንሽ። ",
           "c": "black"
         },
         {
           "t": "የመለኮት",
           "c": "red"
-        },
+        }
+      ],
+      "bbox": [
+        171,
+        1136,
+        2298,
+        1295
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
         {
-          "t": "ባህሪይም አከላቃጠለሽም፡፡ የአሳት ነበልባልን ተሽከምሽ፡፡",
-          "c": "black"
-        },
-        {
-          "t": "የመለኮት",
-          "c": "red"
-        },
-        {
-          "t": "ባህርይ አላቃጠለሽም፡፡ ሙሴ እንጨትነቷ በእሳት . ሳይቃጠል ያያት ዕፅ ጳጦስን መሰልሽ፡፡ ሁለንተናው ፍፁም አሳት የሆነ የኃይላተ ጌታ እንደ እጸ ጳጦስ አላቃጠለሸሽም፡፡ ለክርስቲያን ወገኖች በአውነት መመኪያ የሆንሽ አንቺ ነሽ",
-          "c": "black"
-        },
-        {
-          "t": "የአምላክ ልጆ",
-          "c": "red"
-        },
-        {
-          "t": "ካንቺ ሰው ስለመሆኑም ባንቺ ከምድር ወደ አርያም የቀረብን ሆን፡፡ በጸሎት ለሚያምኑ ምህረትን የምታሰጪ ሆይ ለነፍሳችን ህይወትን የምትለምኝ ነሽ",
+          "t": "ባህሪይም አላቃጠለሽም። የእሳት",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        171,
+        1295,
+        2298,
+        1455
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ነበልባልን ተሸከምሽ። ",
+          "c": "black"
+        },
+        {
+          "t": "የመለኮት",
+          "c": "red"
+        },
+        {
+          "t": " ባህርይ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        1455,
+        2298,
+        1614
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አላቃጠለሽም። ሙሴ እንጨትነቷ በእሳት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        1614,
+        2298,
+        1774
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሳይቃጠል ያያት ዕፅ ጳጦስን መሰልሽ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        1774,
+        2298,
+        1935
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሁለንተናው ፍፁም እሳት የሆነ የኃይላት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        1935,
+        2298,
+        2094
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታ እንደ እጸ ጳጦስ አላቃጠለሽም።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        2094,
+        2298,
+        2254
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለክርስቲያን ወገኖች በእውነት መመኪያ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        2254,
+        2298,
+        2414
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የሆንሽ አንቺ ነሽ ",
+          "c": "black"
+        },
+        {
+          "t": "የአምላክ ልጅ",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        171,
+        2414,
+        2298,
+        2575
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ካንቺ ሰው ስለመሆኑም ባንቺ ከምድር",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        2575,
+        2298,
+        2735
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ወደ አርያም የቀረብን ሆን። በጸሎት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        2735,
+        2298,
+        2894
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለሚያምኑ ምህረትን የምታሰጪ ሆይ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        2894,
+        2298,
+        3054
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለነፍሳችን ህይወትን የምትለምኝ ነሽ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        3054,
+        2298,
+        3215
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "dd82eef72fff77b99710ca441942b833776045adde4e6aa70db1d890659d7157",
+      "source_sha256": "7c8a990a10110cb48f415d85b3f926be1774e669219bcfdf3582e534c33a0f0e",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_131.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 141.78,
+      "created_at": "2026-10-24T00:35:37.262839+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "81355fcb41048177a132f0a8cf8affc596ea003e337b301e7253ed333af8560d",
+      "image": "7c8a990a10110cb48f415d85b3f926be1774e669219bcfdf3582e534c33a0f0e",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 6,
+    "red_located": 6
+  },
+  "_legacy": "transcripts-legacy/page_131.json"
 }

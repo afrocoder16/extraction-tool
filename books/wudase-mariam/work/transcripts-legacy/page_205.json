@@ -1,0 +1,202 @@
+{
+  "page": 205,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 24 of 102 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "፪",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "ገባሁልሽ::",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": ".;::",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "በእየሩሳሴም",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "ከእለታት",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "መርጩ",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ትንሳዔንም",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "በገለጽኩባት",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": "(-",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "ደምግባትሽ፤",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "፡",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "አፍናቴ",
+      "why": "Tesseract confidence 28 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "ሆይ፤",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "1",
+      "why": "Tesseract confidence 54 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፲",
+      "spans": [
+        {
+          "t": "የሰኔ ጎልጎታ ፪ ለማሳለፍ በታላቅ ምስጋና በምመጣበት",
+          "c": "black"
+        },
+        {
+          "t": "| ቃል ኪዳን ገባሁልሽ፡፡",
+          "c": "red"
+        },
+        {
+          "t": "ክብር በሆነ ደሜ ቅዱስ በሆነ ስጋዬ.",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": ". .- ገባሁልሽ::",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": ".;::",
+          "c": "red"
+        },
+        {
+          "t": "ሰማያዊት በሆነች በእየሩሳሴም ሀገሬ በክብር በምስጋና በተጌጠች በፅዮን",
+          "c": "black"
+        },
+        {
+          "t": "ቃል - ኪዳን ገባሁልሽ፡፡",
+          "c": "red"
+        },
+        {
+          "t": "በሆነች - በቅድስት - ቤተክርስቲያን ከእለታት መርጩ በተወሰድኩባት በተጠመቅሁባት ለሰው ልጅ ደህንነትን የምታስገኝ ትንሳዔንም በገለጽኩባት በሰንበተ ክርስቲያን",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን . ገባሁልሽ - (- .",
+          "c": "red"
+        },
+        {
+          "t": "በደብረ ዘይት በተቀደሰውም -በጽዮን ደብረ መንግስቴ በመቃብሬም ቦታ በጎልጎታ ንጹህ ብሩህ በሆነ ደምግባትሽ፤ ንጹሐት ክቡራት በሆኑ ልብሶችሽ በነዚህ",
+          "c": "black"
+        },
+        {
+          "t": "፡ . ቃል ኪዳን ገባሁልሽ፡፡ አፍናቴ . ድንግል",
+          "c": "red"
+        },
+        {
+          "t": "-",
+          "c": "black"
+        },
+        {
+          "t": "ማሪያም",
+          "c": "red"
+        },
+        {
+          "t": ". .",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": ". የስጠሁሽን",
+          "c": "black"
+        },
+        {
+          "t": "ቃል . ኪዳን .. 1",
+          "c": "red"
+        },
+        {
+          "t": "አማንየ ብየ.",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

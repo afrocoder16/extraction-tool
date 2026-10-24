@@ -1,50 +1,63 @@
 {
   "page": 182,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 5 of 14 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "ያየኒ.(5",
-      "why": "Tesseract confidence 30 — check against the scan"
-    },
-    {
-      "text": "(፪(፪፳",
-      "why": "Tesseract confidence 36 — check against the scan"
-    },
-    {
-      "text": "ርረሮ(1፪",
-      "why": "Tesseract confidence 58 — check against the scan"
-    },
-    {
-      "text": "1088",
-      "why": "Tesseract confidence 36 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 58 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "top",
-      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ኤ",
-          "c": "red"
-        },
-        {
-          "t": "ያየኒ.(5 (፪(፪፳ ርረሮ(1፪ 1088 . ያይደለ ሰማያዊ የሆነ የሕይወት እንጀራ | - .",
+          "t": "በለጠች ብዒ በጥራስ ባጣ ቃኔራቿ ያይደለ ሰማያዊ የሆነ የሕይወት እንጆራ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        200,
+        0,
+        2337,
+        239
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "93918eb9980dbc5fdc52d4c345f9cf727c2679edff9582d638951e4029307bd0",
+      "source_sha256": "172827f1f5dcef2aab0c014849ca108be7282b085647fbe887706629a118e93b",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_182.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 26.757,
+      "created_at": "2026-10-24T01:12:55.148045+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "fafa0ca0f780c7f2899ce04bcdbee412c60faf62237620ed3bee7cfaddabc54f",
+      "image": "172827f1f5dcef2aab0c014849ca108be7282b085647fbe887706629a118e93b",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_182.json"
 }

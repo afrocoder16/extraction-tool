@@ -1,0 +1,73 @@
+{
+  "page": 211,
+  "notes": "The running header carries a worn single-glyph page numeral that is not transcribed. The printing varies between 'ው' and 'ዉ' in verb endings (ጣይዉ, አሳዉሪው, አሳጥሪዉ); these are transcribed exactly as printed and are not raised as corrections. The last line runs into the bottom edge; the page ends after 'አድኝኝ'.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [
+    {
+      "printed": "እንቺ",
+      "suggested": "አንቺ",
+      "reason": "እ should be አ — the second-person feminine pronoun, printed 'አንቺ' elsewhere in this book"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የኅሊና ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፮",
+      "spans": [
+        {
+          "t": "ድንግል ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ተዓምራታዊ ኃይልን ማድረግ የሚቻልሽ የዓለም ንግሥት እንቺ ነሽና ሊያጠፋኝ የሚያሴረውን ጠላት አጣድፈሽ ከጥፋት ገደል ጣይዉ። ተከታትሎ አድኖ ሊያጠቃኝ የሚፈልገውን ጠላት ፈጥነሽ ደርሰሽ ኀይሉን አሳዉሪው እጁን ሽባ አድርጊው እግሩንም አሳጥሪዉ አሜን።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፯",
+      "spans": [
+        {
+          "t": "እመቤቴ ማሪያም ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " የኔን የኃጥኡን አገልጋይሽን ልመና ተቀብለሽ ተስነካክዬ እንዳልወድቅ ደግፈኝ። የልጅሽን ጠል ምህረት በላዬ አርከፍክፊ። በልጅሽ የሕይወት መጽሐፍ ስሜን ጻፊ። የጠላቴን አንገቱን ቅሰፊ።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፰",
+      "spans": [
+        {
+          "t": "እመቤቴ ማሪያም ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " በቅድስናሽ በንጽህናሽ ነፍሴን ሰውነቴን ቀድሻት። በኃይል ከማገፉኝ ተንኮለኛ ጠላት አድኝኝ",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Final line runs into the bottom edge."
+    }
+  ],
+  "uncertain": []
+}

@@ -623,6 +623,10 @@
       color: #1d232a;
     }
 
+    .legacy { margin-top: 14px; border-top: 1px dashed var(--line); padding-top: 8px; }
+    .legacy summary { cursor: pointer; color: var(--muted); font-size: 12.5px; }
+    .legacy-block { opacity: .85; margin: 8px 0; }
+
     @media (max-width: 1100px) {
       .panes { grid-template-columns: 1fr; grid-template-rows: 45% 55%; }
       .textpane { border-left: 0; border-top: 1px solid var(--line); }
@@ -1013,13 +1017,34 @@ async function renderText(page) {
       <button class="btn" id="saveBtn">Save <span style="opacity:.6">⌃S</span></button>
     </div>`;
 
-  pane.innerHTML = flagHtml + renderClipped(clipped) + note + toolbar +
+  const header = t.page_header?.trim()
+    ? `<div class="flagbar"><div class="flagpill">Running header (not part of the text): ${escapeHtml(t.page_header)}</div></div>` : "";
+
+  pane.innerHTML = flagHtml + renderClipped(clipped) + note + header + toolbar +
     renderSuggestions(corrections) + renderUncertain(uncertain) +
     (blocks || `<div class="notice">No blocks on this page.</div>`) +
-    `<button class="mini" id="addFirst" style="margin-top:4px">+ add block</button>`;
+    `<button class="mini" id="addFirst" style="margin-top:4px">+ add block</button>` +
+    `<details class="legacy" id="legacyBox"><summary>Previous extraction (read-only, for comparison)</summary>
+       <div id="legacyBody" class="notice">Loading…</div></details>`;
   pane.scrollTop = 0;
+  el("legacyBox").addEventListener("toggle", () => loadLegacy(page), { once: true });
   wireEditor(page);
   setSaveState(dirty.has(page) ? "unsaved" : "");
+}
+
+/** Show the transcript that was replaced by the current OCR baseline. */
+async function loadLegacy(page) {
+  const body = el("legacyBody");
+  try {
+    const old = await getJSON(`/work/transcripts-legacy/page_${pad(page)}.json`);
+    body.className = "";
+    body.innerHTML = (old.blocks || []).map((b) =>
+      `<div class="ethiopic legacy-block">${b.verse_num_am ? `<b>${escapeHtml(b.verse_num_am)}</b> ` : ""}${
+        (b.spans || []).map((s) => `<span class="${s.c === "red" ? "red" : "blk"}">${escapeHtml(s.t)}</span>`).join("")}</div>`
+    ).join("") + `<div style="color:var(--muted);font-size:11.5px">Source: ${escapeHtml(old._source || "earlier transcript")}</div>`;
+  } catch {
+    body.textContent = "No previous extraction for this page.";
+  }
 }
 
 /* ---------------- spelling suggestions ---------------- */

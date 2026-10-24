@@ -1,123 +1,41 @@
 {
   "page": 197,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 17 of 100 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "-",
-      "why": "Tesseract confidence 56 — check against the scan"
-    },
-    {
-      "text": "88",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": "የያዘ",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": "ዘወተር",
-      "why": "Tesseract confidence 67 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 55 — check against the scan"
-    },
-    {
-      "text": "አመቤታችንም",
-      "why": "Tesseract confidence 50 — check against the scan"
-    },
-    {
-      "text": "ሆይ፣",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 68 — check against the scan"
-    },
-    {
-      "text": "መልሶ\"",
-      "why": "Tesseract confidence 33 — check against the scan"
-    },
-    {
-      "text": "ሆይ፣፤፣",
-      "why": "Tesseract confidence 51 — check against the scan"
-    },
-    {
-      "text": "አላት፡",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 36 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": "ኣሮርሮሥራ.ን",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": "በኣዓንዮነት",
-      "why": "Tesseract confidence 45 — check against the scan"
-    },
-    {
-      "text": "ቅዴስ",
-      "why": "Tesseract confidence 57 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፳፮ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "- 88 - የሰኔ ጎልጎታ",
-          "c": "black"
-        },
-        {
           "t": "ይህቺን መጽሐፍ",
           "c": "red"
         },
         {
-          "t": ". በንጽህና- የያዘ ሰው የሰራዊተ መላእክት አለቆች ዘወተር አየመጡ ይጎበኙታል፡፡",
+          "t": " በንጽህና የያዘ ሰው የሰራዊተ መላእክት አለቆች ዘወትር እየመጡ ይጎበኙታል። ",
           "c": "black"
         },
         {
-          "t": "አናቴ ማርያም ሆይ",
+          "t": "እናቴ ማርያም",
           "c": "red"
         },
         {
-          "t": ". በሰማይና በምድር ይህን ሁሉ አስራት (ተስፋ) ሰጠሁሽ፤ ብሩክጉ መርገመ ሥጋ መርገመ ነፍስ የሌለባት አመቤታችንም",
+          "t": " ሆይ በሰማይና በምድር ይህን ሁሉ አስራት (ተስፋ) ሰጠሁሽ፤ ብሩክት መርገመ ሥጋ መርገመ ነፍስ የሌለባት እመቤታችንም ",
           "c": "black"
         },
         {
-          "t": "ልጁ ወዳጄ ሆይ፣",
+          "t": "ልጆ ወዳጆ ሆይ፤",
           "c": "red"
         },
         {
-          "t": ". የምትለኝን ሁሉ አውነት ነውን? አለችው ጌታም መልሶ\"",
+          "t": " የምትለኝን ሁሉ እውነት ነውን? አለችው ጌታም መልሶ ",
           "c": "black"
         },
         {
-          "t": "አናቴ ማርያም ሆይ፣፤፣ በአግዚአብሔር አባቴ በክርሰቶስ",
+          "t": "እናቴ ማርያም ሆይ፤ በእግዚአብሔር አባቴ በክርስቶስ",
           "c": "red"
         },
         {
-          "t": "ስሜ በአውነት መንፈስ በጳራቅሊጦስ አውነት አንደሆነ ቃል ኪዳን ገባሁልሽ አላት፡ መልአከ ምክሬ በሆነ",
+          "t": " ስሜ በእውነት መንፈስ በጳራቅሊጦስ እውነት እንደሆነ ቃል ኪዳን ገባሁልሽ አላት። መልአከ ምክሬ በሆነ ",
           "c": "black"
         },
         {
@@ -125,15 +43,7 @@
           "c": "red"
         },
         {
-          "t": "የመወለዴን ቬና በአበሰረ",
-          "c": "black"
-        },
-        {
-          "t": ".",
-          "c": "red"
-        },
-        {
-          "t": "|",
+          "t": " የመወለዴን ዜና በአበሰረ ",
           "c": "black"
         },
         {
@@ -141,34 +51,74 @@
           "c": "red"
         },
         {
-          "t": "ክንፋቸው ስድስት በሆነ ምሱአነ አእይንት በሆኑ . . መንበሬን በሚሸከሙ አራቱ |",
+          "t": " ክንፋቸው ስድስት በሆነ ምሉአነ አእይንት በሆኑ መንበሬን በሚሸከሙ አራቱ እንሰሳት ",
           "c": "black"
         },
         {
-          "t": "(ኪሩቤል) ቃል ኪዳን",
+          "t": "(ኪሩቤል) ቃል",
           "c": "red"
         },
         {
-          "t": "ገባሁለሸ | ኣሮርሮሥራ.ን በኣዓንዮነት",
+          "t": " ኪዳን ገባሁልሽ አናናሬን በአንድነት ",
           "c": "black"
         },
         {
-          "t": "| ቅዴስ",
+          "t": "ቅዱስ ቅዱስ ቅዱስ",
           "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ቅድስ ቅዷአ",
-          "c": "red"
-        },
-        {
-          "t": "1",
-          "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        267,
+        483,
+        2402,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ከዖን",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "cd79caf83fa6e177c2c8c7c6d332e72fefd54fcc97497122f9cbb12cc15cdcdb",
+      "source_sha256": "556abff24d30400724f644ec39cfb7b23ee00cd1f5f7b9b9332651a92c746c4d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_197.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.506,
+      "created_at": "2026-10-24T01:25:21.754056+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "c6ef7f39cb294813977fb48b32359e493fa3a05178836ad4961004f52fb8cc38",
+      "image": "556abff24d30400724f644ec39cfb7b23ee00cd1f5f7b9b9332651a92c746c4d",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 11,
+    "red_located": 10
+  },
+  "_legacy": "transcripts-legacy/page_197.json"
 }

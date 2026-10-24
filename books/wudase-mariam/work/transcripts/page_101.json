@@ -1,58 +1,141 @@
 {
   "page": 101,
-  "notes": "The running header visibly prints a lone ፯ before አንቀጸ ብርሃን; it is retained without supplying a missing tens numeral. The first verse block continues verse ፪ from page 99.",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "ከንቲባም",
-      "why": "The left side of the word is degraded and the visible reading is semantically anomalous; no letters were supplied from context."
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Verse ፬ continues below the fully visible red line ending 'የአምላክ'; the following text is sliced off by the bottom edge."
-    }
-  ],
+  "page_header": "፶ አንቀጸ ብርሃን",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "፯  አንቀጸ ብርሃን", "c": "black" }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "ከፍጥረት ሁሉ ይልቅ የተከበርሽ ሆይ፤ ", "c": "black" },
-        { "t": "አብ", "c": "red" },
-        { "t": " የወደደሽ ወልድ ያደረብሽ ", "c": "black" },
-        { "t": "መንፈስ ቅዱስ", "c": "red" },
-        { "t": " ያረፈብሽ (የጸለለብሽ) ተባልሽ። በምድር ላይ ከፍተኛ አርያምን የሆንሽ ከሰማያት በላይ ያለ የአርያም የልዑል ስፍራ ምትክ አንቺ ነሽ። ቅዱሳን ነቢያት ካህናት ነገሥታት ያንቺ ምሳሌ አድርገው በውስጧ የኪዳን የሕግ ጽላት ያለባት ቅድስተ ቅዱሳን ከተለየ የተለየችውን ሠሩ ", "c": "black" },
-        { "t": "ቅድስት ሆይ፤ ልጅሽ", "c": "red" },
-        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
-      ]
+        {
+          "t": "ከፍጥረት ሁሉ ይልቅ የተከበርሽ ሆይ፤ ",
+          "c": "black"
+        },
+        {
+          "t": "አብ የወደደሽ ወልድ ያደረብሽ መንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " ያረፈብሽ (የጸለለብሽ) ተባልሽ። በምድር ላይ ከፍተኛ አርያምን የሆንሽ ከሰማያት በላይ ያለ የአርያም የልዑል ስፍራ ምትክ አንቺ ነሽ። ቅዱሳን ነቢያት ካህናት ነገስታች ያንቺ ምሳሌ አድርገው በውስጧ የኪዳን የሕግ ጽላት ያለባት ቅድስት' ቅዱሳን ከተለዩ የተለየችውን ሰሩ ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ፤ ልጅሽ",
+          "c": "red"
+        },
+        {
+          "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        286,
+        434,
+        2448,
+        2234
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፫",
       "spans": [
-        { "t": "የአምላክ ልጅ", "c": "red" },
-        { "t": " ካንቺ ሰው ስለመሆኑ ከንቲባም ከምድር ወደ አርያም ወደ መንግሥተ ሰማያት የቀረብን ሆን፤ ", "c": "black" },
-        { "t": "በአንቺና በልጅሽ", "c": "red" },
-        { "t": " ስም የቀረብን ሆን።", "c": "black" }
-      ]
+        {
+          "t": "የአምላክ ልጅ",
+          "c": "red"
+        },
+        {
+          "t": " ካንቺ ሰው ስለመሆኑ ስላንቺም ከምድር ወደ አርያም ወደ ",
+          "c": "black"
+        },
+        {
+          "t": "መንግስተ",
+          "c": "red"
+        },
+        {
+          "t": " ሰማያት የቀረብን ሆን፤ ",
+          "c": "black"
+        },
+        {
+          "t": "በአንቺና በልጅሽ",
+          "c": "red"
+        },
+        {
+          "t": " ስም የቀረብን ሆን።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        312,
+        2267,
+        2448,
+        2938
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፬",
       "spans": [
-        { "t": "አሥሩ ቃላት", "c": "red" },
-        { "t": " በጣቶቹ የተፃፉ ", "c": "black" },
-        { "t": "የፍጥረት ሁሉ ጌታ የሆነ የአምላክ", "c": "red" }
-      ]
+        {
+          "t": "አሥሩ ቃላት",
+          "c": "red"
+        },
+        {
+          "t": " በጣቶቹ የተፃፉ ",
+          "c": "black"
+        },
+        {
+          "t": "የፍጥረት ሁሉ ጌታ ያዉም የአምላክ",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        304,
+        2933,
+        2448,
+        3280
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "eaa98b2a5327f77818a2690014251aad05dc6707d1a0dcf29a10c9704b1216cb",
+      "source_sha256": "92538748fcf98ec0cee5a1ae26b5cb0aefb2d85a0e0fe32df73afb03e42f045b",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_101.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.919,
+      "created_at": "2026-10-24T00:14:51.266989+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "028d9fe1124cea3abf6c05e99959e55c2ba4682c1168941c4d8f5da8331249f5",
+      "image": "92538748fcf98ec0cee5a1ae26b5cb0aefb2d85a0e0fe32df73afb03e42f045b",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 9,
+    "red_located": 9
+  },
+  "_legacy": "transcripts-legacy/page_101.json"
 }

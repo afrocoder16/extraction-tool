@@ -1,0 +1,70 @@
+{
+  "page": 202,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 9 of 16 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ነ",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": "3ጻዳ.ያ",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "ር",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "፡",
+      "why": "Tesseract confidence 27 — check against the scan"
+    },
+    {
+      "text": "ዲሒ:",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "ያ",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 21 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 29 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ነ .. 3ጻዳ.ያ ር",
+          "c": "black"
+        },
+        {
+          "t": "፡",
+          "c": "red"
+        },
+        {
+          "t": "ዲሒ: ያ . በሰበኩ ሐዋርያት ስለኔ ሲሱ ነፍሳቸዉን | .. |",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

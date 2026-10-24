@@ -1,215 +1,87 @@
 {
   "page": 153,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 22 of 102 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "የሰጌ",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "አባትህ",
-      "why": "Tesseract confidence 29 — check against the scan"
-    },
-    {
-      "text": "›",
-      "why": "Tesseract confidence 29 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 23 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": "ከማልድዛለሁ።፡፡:",
-      "why": "Tesseract confidence 41 — check against the scan"
-    },
-    {
-      "text": "'",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": "ልጄ",
-      "why": "Tesseract confidence 48 — check against the scan"
-    },
-    {
-      "text": ":",
-      "why": "Tesseract confidence 21 — check against the scan"
-    },
-    {
-      "text": "909.",
-      "why": "Tesseract confidence 55 — check against the scan"
-    },
-    {
-      "text": ".ቁ.",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 31 — check against the scan"
-    },
-    {
-      "text": "ቨንድ",
-      "why": "Tesseract confidence 52 — check against the scan"
-    },
-    {
-      "text": ",",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": "]",
-      "why": "Tesseract confidence 66 — check against the scan"
-    },
-    {
-      "text": "ከስንተጋር",
-      "why": "Tesseract confidence 51 — check against the scan"
-    },
-    {
-      "text": "በአብና።",
-      "why": "Tesseract confidence 60 — check against the scan"
-    },
-    {
-      "text": "ትገባልኝ",
-      "why": "Tesseract confidence 68 — check against the scan"
-    },
-    {
-      "text": "አማልድዛለሁ፡፡",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": "[[ጠኝ",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "ካኣዷፍጦአኃኋ:",
-      "why": "Tesseract confidence 23 — check against the scan"
-    },
-    {
-      "text": "በ,መሐ፡ኝኳ",
-      "why": "Tesseract confidence 25 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፬ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "8 የሰጌ ጎልጎታ |",
+          "t": "በእግዚአብሔር ",
           "c": "black"
         },
         {
-          "t": "በእግዚአብሔር አብ በባህርይ አባትህ › ቃልኪዳን",
+          "t": "አብ",
           "c": "red"
         },
         {
-          "t": ".-",
+          "t": " በባህርይ አባትህ ",
           "c": "black"
         },
         {
-          "t": "ተገባልኝ ዘንድ .-",
-          "c": "red"
-        },
-        {
-          "t": "ከማልድዛለሁ።፡፡:",
-          "c": "black"
-        },
-        {
-          "t": "' ልጄ",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ወዳጄ ሆይ .",
-          "c": "red"
-        },
-        {
-          "t": "ስማይና ምድር ተራሮችና ኮረብቶች፤ ሰውና መላእክት ጨለማና",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "ከዋክብት ሳይፈጠሩ ቀንና ለሊት ሳይለዩ በነበረ",
-          "c": "black"
-        },
-        {
-          "t": ": በአግዚአብሔር",
-          "c": "red"
-        },
-        {
-          "t": ".",
-          "c": "black"
-        },
-        {
-          "t": "909. .ቁ.",
-          "c": "red"
-        },
-        {
-          "t": "ስምህ",
-          "c": "black"
-        },
-        {
-          "t": "ቃል ኪዳን",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ትገባልኝ .-",
-          "c": "red"
-        },
-        {
-          "t": "ቨንድ | አማልድሃለሁ፡፡ ,",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "ልጄ ወዳጄ ሆይ፤ የአብ የባህርይ",
+          "t": "ቃልኪዳን ተገባልኝ ዘንድ እማልድሃለሁ።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        241,
+        512,
+        2399,
+        820
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ህይወቱ የሆነ",
+          "t": "ልጆ ወዳጆ ሆይ",
           "c": "red"
         },
         {
-          "t": "]",
+          "t": " ሰማይና ምድር ተራሮችና ኮረብቶች፤ ሰውና መላእክት ፀሃይ ጨለማና ከዋክብት ሳይፈጠሩ ቀንና ለሊት ሳይለዩ በነበረ ",
           "c": "black"
         },
         {
-          "t": "ከአብ .",
+          "t": "በእግዚአብሔር",
           "c": "red"
         },
         {
-          "t": "በተገኘ የአንተም",
+          "t": " ስምህ ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": " ዘንድ እማልድሃለሁ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        254,
+        827,
+        2353,
+        1704
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ",
+          "c": "black"
+        },
+        {
+          "t": "ወዳጆ ሆይ፤ የአብ የባህርይ ህይወቱ የሆነ ከአብ",
+          "c": "red"
+        },
+        {
+          "t": " በተገኘ የአንተም ",
           "c": "black"
         },
         {
@@ -217,34 +89,99 @@
           "c": "red"
         },
         {
-          "t": "በሆነ ከስንተጋር በተካከለ",
+          "t": " በሆነ ከአንተጋር በተካከለ ",
           "c": "black"
         },
         {
-          "t": "በጳራቅሊጦስ መንፈስ ቅዱስ",
+          "t": "በጻራቅሊጦስ መንፈስ ቅዱስ",
           "c": "red"
         },
         {
-          "t": "| ከኮከብ መውጣት በፊት ከአንተ ጋር በነበረ ስሁንም ባለ ለበለዓለምም በሚኖር",
+          "t": " ከኮከብ መውጣት በፊት ከአንተ ጋር በነበረ አሁንም ባለ ለዘለዓለምም በሚኖር ",
           "c": "black"
         },
         {
-          "t": "በአብና። በመንፈስ ቅዱስ ቃል ኪዳን ትገባልኝ ዘንድ",
+          "t": "በአብና በመንፈስ ቅዱስ ቃል ኪዳን ትገባልኝ ዘንድ",
           "c": "red"
         },
         {
-          "t": "አማልድዛለሁ፡፡ |",
-          "c": "black"
-        },
-        {
-          "t": "ልጁ ወዳጄ ሆይ፤",
-          "c": "red"
-        },
-        {
-          "t": "| ሰማይ ምድር ሊወስኑህ የማይቻላቸው አንተን [[ጠኝ ካኣዷፍጦአኃኋ: በ,መሐ፡ኝኳ",
+          "t": " እማልድሃለሁ።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        254,
+        1724,
+        2363,
+        2904
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ሰማይ ምድር ሲወስኑህ የማይቻላቸው አንተን ዘጠኝ ወር ካኔምስት ቀን በታሻካመችህ ማህፀነ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        270,
+        2917,
+        2366,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "በእግዚአብሔር እብ በባህርይ እባትህ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "432e76070156941494472ef8f25c271edac2857fbe27a2f9312d6e85db38aeed",
+      "source_sha256": "4e77d80521f33ee46eaf88d5871fb0ef962d45167b1727305f2b182eab995ab5",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_153.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 98.565,
+      "created_at": "2026-10-24T00:49:34.371956+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "8043250ca62c69fd9787ddf359528fd1c17c8467173a89ae50003b54528a6817",
+      "image": "4e77d80521f33ee46eaf88d5871fb0ef962d45167b1727305f2b182eab995ab5",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 13,
+    "red_located": 12
+  },
+  "_legacy": "transcripts-legacy/page_153.json"
 }

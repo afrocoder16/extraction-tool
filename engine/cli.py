@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import sys
 from pathlib import Path
@@ -31,7 +32,7 @@ from .console import configure_utf8_stdio
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BOOKS_DIR = REPO_ROOT / "books"
 
-STAGES = ["render", "split", "layout", "audit", "ocr", "verify", "build"]
+STAGES = ["render", "split", "layout", "audit", "ocr", "colour", "adopt", "verify", "build"]
 
 
 def parse_pages(spec: str, total: int) -> list[int]:
@@ -203,6 +204,26 @@ def main(argv: list[str] | None = None) -> int:
             from . import transcribe
             transcribe.transcribe_pages(pages, bk.work, bk.effort, args.force,
                                         model=bk.model, page_images=bk.page_images)
+
+    # --- colour / adopt (dots only; run explicitly, never part of `all`) ----
+    dots_settings = bk.config.get("ocr", {}).get("dots", {})
+    if args.stage == "colour":
+        from .dots_colour import read_red
+        endpoint = args.base_url or os.environ.get("DOTS_BASE_URL") or dots_settings.get("base_url")
+        if not endpoint:
+            parser.error("set DOTS_BASE_URL or --base-url to the running dots server (ending in /v1)")
+        model = args.model or dots_settings.get("model", "dots-studio/dots.mocr")
+        print(f"[colour] {len(pages)} pages")
+        for page in pages:
+            result = read_red(bk, page, endpoint, model, force=args.force)
+            print(f"  page {page}: {len(result['regions'])} red regions", flush=True)
+        return 0
+    if args.stage == "adopt":
+        from .dots_colour import adopt
+        print(f"[adopt] {len(pages)} pages")
+        summary = adopt(bk, pages, dots_settings.get("ignore_text", []))
+        print(json.dumps(summary, ensure_ascii=False))
+        return 2 if summary["missing_candidate"] or summary["missing_red"] else 0
 
     # --- verify -----------------------------------------------------------
     if run_all or args.stage == "verify":

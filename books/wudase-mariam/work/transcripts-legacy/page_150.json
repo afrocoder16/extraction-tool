@@ -1,0 +1,25 @@
+{
+  "page": 150,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 0 of 6 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከኔ መወለድህን አስብ አቤቱ ከክንተ ጋር",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

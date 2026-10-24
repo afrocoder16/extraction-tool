@@ -1,0 +1,63 @@
+{
+  "page": 217,
+  "notes": "Last text page of the book — the የኅሊና ጸሎት ends here and a black diamond rule closes it. The running header carries a printed page numeral that is a single worn glyph (፹ or ፻); it is left out of the title rather than guessed, since it is pagination, not liturgical text. 'ባለሟልነት' (favour/standing) — confirmed against page 213, where the same word is printed clearly.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የኅሊና ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ተገኝተሽ አረጋጊኝ እኔ በራሴ ደካማና ትሩፋት የመጽናናት ኃይል የለኝምና።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፫",
+      "spans": [
+        {
+          "t": "እመቤቴ ድንግል ማሪያም ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " የኔን አወዳደቅ የሚመኙ ሁሉ እነርሳቸው የወደቁ ይሁኑ ጉስቁልናዬን የሚወዱ ራሳቸው ይጎሳቆሉ እኔ አገልጋይሽ ግን ከፍ ከፍ ልበል በንቀት የሚመለከቱኝ ሁሉ እነሱ የተናቁ ይሁኑ። ለኔ ክብር ባለሟልነት ብልጽግና ይደረግልኝ ለነሱ ግን ኃሳር ",
+          "c": "black"
+        },
+        {
+          "t": "ከእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ይታዘዝባቸው ለኔ ግን በረከት ረድኤት ይብዛልኝ። ",
+          "c": "black"
+        },
+        {
+          "t": "ለአብ ለወልድ ለመንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " ምስጋና ይገባል ለዘላለሙ አሜን።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "ornament",
+      "verse_num_am": "",
+      "spans": []
+    }
+  ]
+}

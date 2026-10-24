@@ -1,35 +1,99 @@
 {
   "page": 77,
-  "notes": "This page starts the Saturday section.",
-  "corrections": [],
-  "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "The final sentence is cut off after 'ስለዚህ ማርያም'; its continuation is not visible at the bottom edge."
-    }
-  ],
+  "page_header": "፴፰ የቅዳሜ ዉዳሴ ጸሎት",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "፶፭  የቅዳሜ ውዳሴ ጸሎት", "c": "black" }
-      ]
-    },
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "ማኅየዊ የሚያድኑን ለሆኑ ", "c": "black" },
-        { "t": "ሥላሴ", "c": "red" },
-        { "t": " ስግደትን (መስገድን) የምታስተምሪላቸው ሰፊ መጋረጃ አንቺ ነሽ። ሙሴ ያየውን የእሳት ዓምድ የተሸከምሽ አንቺ ነሽ። ይኸውም መጥቶ በማኅፀንሽ ያደረው ", "c": "black" },
-        { "t": "የእግዚአብሔር", "c": "red" },
-        { "t": " ልጅነው። ሰማይና ምድር ለፈጠረ ጌታ ማደሪያ ሆንሽ። ዘጠኝ ወር በማኅፀንሽ ተሸከምሽው። ሰማይና ምድር ለማይወስኑት የታመንሽ አንቺ ነሽ። ከምድር ወደሰማይ ለማረግ መሰላል ሆንሽ። ብርሃንሽ ከፀሐይ ብርሃን ይበልጣል። ቅዱሳን በፍጹም ደስታ ያዩት ኮከብ ካንቺ የተወለደ ምሥራቅ አንቺ ነሽ። ይኸውም በጣርና በምጥ ተወልድ ዘንድ በሔዋን የፈረደባት ነው። አንቺ ", "c": "black" },
-        { "t": "ማርያም", "c": "red" },
-        { "t": " ግን ጸጋን የተመላሽ ሆይ ደስ ይበልሽ የሚል ቃልን ሰማሽና መጥቶ ያዳነን የፍጥረት ሁሉ ገዥ የሆነ ንጉሥን ወለድሽልን። መሐሪ ነው። ሰውንም ወዳጅ ነው። ስለዚህ ", "c": "black" },
-        { "t": "ማርያም", "c": "red" }
-      ]
+        {
+          "t": "ማሕየዊ የሚያድኑን ለሆኑ ",
+          "c": "black"
+        },
+        {
+          "t": "ሥላሴ",
+          "c": "red"
+        },
+        {
+          "t": " ሰጊድን (መስገድን) የምታስተምሪላቸው ሰፊ መጋረጃ አንቺ ነሽ። ሙሴ ያየውን የእሳት ዓምድ የተሸከምሽ አንቺ ነሽ። ይኸውም መጥቶ በማኅፀንሽ ያደረው ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ልጅነው። ሰማይና ምድር ለፈጠረ ጌታ ማደሪያ ሆንሽ። ዘጠኝ ወር በማህፀንሽ ተሸከምሽው። ሰማይና ምድር ለማይወስኑት የታመንሽ አንቺ ነሽ። ከምድር ወደሰማይ ለማረግ መሰላል ሆንሽ። ብርሃንሽ ከፀሐይ ብርሃን ይበልጣል። ቅዱሳን በፍጹም ደስታ ያዩት ኮከብ ካንቺ የተወልደ ምሥራቅ አንቺ ነሽ። ይኸውም በጣርና በምጥ ትወልድ ዘንድ በሄዋን የፈረደባት ነው። አንቺ ",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም",
+          "c": "red"
+        },
+        {
+          "t": " ግን ጸጋን የተመላሽ ሆይ ደስ ይበልሽ የሚል ቃልን ሰማሽና መጥቶ ያዳነን የፍጥረት ሁሉ ገዥ የሆነ ንጉሥን ",
+          "c": "black"
+        },
+        {
+          "t": "ወለድሽልን።",
+          "c": "red"
+        },
+        {
+          "t": " መሐሪ ነው፣ ሰውንም ወዳጅ ነው። ስለዚህ ",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        351,
+        316,
+        2436,
+        3213
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7d825875fb3884d4188fe20e1719a19602538e39070ff5d549bd82b9e22f42cf",
+      "source_sha256": "7cf221b8d4da2409b0bb0c38bc400052b036e233cd962be7aa7f0db0cde0ac57",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_077.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 88.658,
+      "created_at": "2026-10-23T23:57:46.601905+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "c412857cb02495459ea0ea5036efc4e3dd4b138ed99736caf5653b8241031e76",
+      "image": "7cf221b8d4da2409b0bb0c38bc400052b036e233cd962be7aa7f0db0cde0ac57",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_077.json"
 }

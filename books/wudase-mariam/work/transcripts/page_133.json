@@ -1,78 +1,13 @@
 {
   "page": 133,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 15 of 77 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "ቿ5",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": "ብርሃን",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": "አርሱን",
-      "why": "Tesseract confidence 70 — check against the scan"
-    },
-    {
-      "text": "አባቱን",
-      "why": "Tesseract confidence 70 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 59 — check against the scan"
-    },
-    {
-      "text": "ይገባሻል፡.",
-      "why": "Tesseract confidence 64 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": "'",
-      "why": "Tesseract confidence 51 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 60 — check against the scan"
-    },
-    {
-      "text": "፲5.",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "በኪኢቶጵያዊው",
-      "why": "Tesseract confidence 60 — check against the scan"
-    },
-    {
-      "text": "'-",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "ከክወዳጅዋ..........................2ጋር",
-      "why": "Tesseract confidence 38 — check against the scan"
-    }
-  ],
-  "clipped": [],
+  "page_header": "፳፮ አንቀጸ ብርሃን",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ቿ5 አንቀጸ ብርሃን አርሱን አባቱን .",
+          "t": "እርሱን አባቱን ",
           "c": "black"
         },
         {
@@ -80,63 +15,40 @@
           "c": "red"
         },
         {
-          "t": "በማመን በቀናች ሀይማኖት ያጸናን ዘንድ ይቅርታውንና ምህረቱን ይሰጠን ዘንድ በምህረቱ ብዛት ኃጢአታችንን ያስተሰርይልን ዘንድ የሁሉን.",
+          "t": " በማመን በቀናች ሀይማኖት ያጸናን ዘንድ ይቅርታውንና ምህረቱን ይሰጠን ዘንድ በምህረቱ ብዛት ኃጢአታችንን ያስተሰርይልን ዘንድ የሁሉን ጌታ የወለድሽው ሆይ ምስጋና ይገባሻል። ዛሬም ዘወትርም ለዘላለምም ምስጋናና ክብር ",
           "c": "black"
         },
         {
-          "t": "- ጌታ",
+          "t": "ለአብ ለወልድ ለመንፈስ ቅዱስ",
           "c": "red"
         },
         {
-          "t": "የወለድሽው ሆይ ምስጋና ይገባሻል፡. ዛሬም ዘወትርም ለዘላለምም ምስጋናና",
+          "t": " ይገባል አሜን። ",
           "c": "black"
         },
         {
-          "t": ".",
+          "t": "ቅድስት ሆይ ልጅሽ",
           "c": "red"
         },
         {
-          "t": "ክብር",
+          "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።",
           "c": "black"
-        },
+        }
+      ],
+      "bbox": [
+        215,
+        476,
+        2415,
+        2064
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፭",
+      "spans": [
         {
-          "t": "ለአብ",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ለወልድ",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ለመንፈስ",
-          "c": "red"
-        },
-        {
-          "t": "'",
-          "c": "black"
-        },
-        {
-          "t": "ቅዱስ",
-          "c": "red"
-        },
-        {
-          "t": "ይገባል አሜን፡፡ .-",
-          "c": "black"
-        },
-        {
-          "t": "ቅድስት ሆይ ልጅሽ - .",
-          "c": "red"
-        },
-        {
-          "t": "ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡ ፲5. በቅዱስ ኤፍሬምና በኪኢቶጵያዊው ቀዱስ ያሬድ ላይ ያደረ",
+          "t": "በቅዱስ ኤፍሬምና በኢቶጽያዊው ቅዱስ ያሬድ ላይ ያደረ ",
           "c": "black"
         },
         {
@@ -144,10 +56,57 @@
           "c": "red"
         },
         {
-          "t": "ልመናዋ ክብሯ '- የልጅዋም ቸርነት . ከክወዳጅዋ..........................2ጋር ይኑር አሜን፡፡ [",
+          "t": " ልመናዋ ክብሯ የልጅዋም ቸርነት ከወዳጅዋ................ጋር ለዘላለም ይኑር አሜን።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        215,
+        2244,
+        2415,
+        3197
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "a252cd4757534c129a9427fab78f2bd17bb26d6d959fa624ec80959fb5a399f6",
+      "source_sha256": "6d9c1d8d702b416036dd0cb60115dfaa2662d4edcd425551224df5392d999db4",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_133.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 75.589,
+      "created_at": "2026-10-24T00:37:17.519614+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "fb7d879001bfc7825698dfc4d1ddd473f16bf8945bbd17270ff023f48e62287c",
+      "image": "6d9c1d8d702b416036dd0cb60115dfaa2662d4edcd425551224df5392d999db4",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_133.json"
 }

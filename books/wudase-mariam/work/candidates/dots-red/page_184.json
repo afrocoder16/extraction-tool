@@ -1,0 +1,30 @@
+{
+  "page": 184,
+  "key": {
+    "mask": "f64cca5a91a96c103138b14debe0b2cb5426e5bf97f2fe28ec81f2481327c03b",
+    "image": "230ac60582b9714b0787298c4580e49e5af4882135eb02ce9048211f9c54de78",
+    "version": "red-crop-v1",
+    "model": "dots-studio/dots.mocr"
+  },
+  "regions": [
+    {
+      "bbox": [
+        192,
+        0,
+        338,
+        27
+      ],
+      "text": ""
+    },
+    {
+      "bbox": [
+        190,
+        118,
+        324,
+        190
+      ],
+      "text": "011"
+    }
+  ],
+  "created_at": "2026-10-24T02:48:23.971960+00:00"
+}

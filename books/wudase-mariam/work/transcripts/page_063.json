@@ -1,20 +1,9 @@
 {
   "page": 63,
-  "notes": "The LAST line is cut off by the bottom edge and is not transcribed; the readable text stops after 'ዳግመኛም'.",
-  "corrections": [],
+  "page_header": "፴፭ የሐሙስ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፴፭  የሐሙስ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
@@ -22,14 +11,21 @@
           "c": "red"
         },
         {
-          "t": " ከእርስዋ ተወልዷልና የይቅርታውን ብዛት መርምረን እንወቅ (እንፈልግ) መጥቶ አድኖናልና። ",
+          "t": " ከእርስዋ ተወልዷልና የይቅርታውን ብዛት መርምረን እንወቅ (እንገፈልግ) መጥቶ አድኖናልና። ",
           "c": "black"
         },
         {
-          "t": "ቅድስት ሆይ ለምኝልን።",
+          "t": "ቅድስት ሆይ ልምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        76,
+        494,
+        2233,
+        1134
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -40,7 +36,7 @@
           "c": "red"
         },
         {
-          "t": " የባሕርይህን ፍሬ በዙፋንህ አኖራለው ብሎ ለዳዊት በእውነት ማለ አይጸጸትም። ጻድቅ እርሱ ዳዊት ክርስቶስ በሥጋ ከእርሱ እንዲወለድ ባመነ ጊዜ ",
+          "t": " የባሕርይህን ፍሬ በዙፋንህ አኖራለው ብሎ ለዳዊት በእውነት ማለ እይጸጸትም። ጸድቅ እርሱ ዳዊት ክርስቶስ በሥጋ ከእርሱ እንዲወለድ ቢመነ ጊዜ ",
           "c": "black"
         },
         {
@@ -48,18 +44,62 @@
           "c": "red"
         },
         {
-          "t": " ቃል ማደሪያ ፈልጎ ያገኝ ዘንድ ወደደ ይህንንም በታላቅ ትጋት ፈጸመ። ከዚህም በኋላ እነሆ በኤፍራታ ሰማነው ብሎ በመንፈስ ቅዱስ አሰምቶ ተናገረ። ይህቺውም ",
-          "c": "black"
-        },
-        {
-          "t": "አማኑኤል",
-          "c": "red"
-        },
-        {
-          "t": " እኛን ለማዳን በሥጋ ይወልድባት ዘንድ የመረጣት የያዕቆብ አምላክ ማደሪያ ናት። ዳግመኛም ከነቢያት አንዱ ሚክያስ አንቺ የኤፍራታ ክፋል የሆንሽ ቤተልሔም ከይሁዳ",
+          "t": " ቃል ማደሪያ ፈልጎ ያገኝ ዘንድ ወደደ ይህንንም በታላቅ ትጋት ፈጸመ። ከዚህም በኋላ እነሆ በኤፍራታ ሰማነው ብሎ በመንፈስ ቅዱስ አሰምቶ ተናገረ። ይህቺውም አማኑኤል እኛን ለማዳን በሥጋ ይወልድባት ዘንድ የመረጣት የያዕቆብ አምላክ ማደሪያ ናት። ዳግመኛም ከነቢያት አንዱ ሚክያስ አንቺ የኤፍራታ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        88,
+        1164,
+        2238,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "አማርኛ አማርኛ አማርኛ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "42cb28980e030abb994fd01f3abd20ab253db4c0b585a323455e131274f5e6e2",
+      "source_sha256": "98b2d50d2912209af98685f64a883c0e0417a0998415a84eb9a63c9421aa4ac9",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_063.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 81.361,
+      "created_at": "2026-10-23T23:47:45.523595+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "a696d20b000aeff18d9fc50b2cd1e0db23220ae29bb663e036f4452ffb03ec72",
+      "image": "98b2d50d2912209af98685f64a883c0e0417a0998415a84eb9a63c9421aa4ac9",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_063.json"
 }

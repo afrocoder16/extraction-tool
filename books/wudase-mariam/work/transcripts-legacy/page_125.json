@@ -1,0 +1,146 @@
+{
+  "page": 125,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 95 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": ".",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": "ተፈቅዶልሻል፤",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "\"",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": "-.-",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "፲፻፻.",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "ዕፅ'-",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "ነሽ፤-",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "ፅፀ",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "ህይወት",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "ዓለም",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "ፅፅ",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "በዓለም",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "ትንቢት.የቱናፃረልሽ",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "ጊጫዐካጻጩጨጩ",
+      "why": "Tesseract confidence 60 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንቀጸ ብርፃን |",
+          "c": "black"
+        },
+        {
+          "t": "ከመንፈስ ቅዱስ .",
+          "c": "red"
+        },
+        {
+          "t": "ተፈቅዶልሻል፤ ለሰዎች ልጆች የዘላለም ህይወት ድልድይ ትሆኝ በንድ፡ የአለም ሁሉ",
+          "c": "black"
+        },
+        {
+          "t": "መድኃኒት .- - - \" ሆይ",
+          "c": "red"
+        },
+        {
+          "t": "ለምእመናን ወገኖችሽ መድኃኒታቸው ይቅርታውን ልትባይ ይገባሻል፡፡ ያድለን",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ",
+          "c": "black"
+        },
+        {
+          "t": ". .-",
+          "c": "red"
+        },
+        {
+          "t": "ለምኝልን፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ",
+          "c": "red"
+        },
+        {
+          "t": ". -.-",
+          "c": "black"
+        },
+        {
+          "t": "ልጅሽ .-",
+          "c": "red"
+        },
+        {
+          "t": ". ፲፻፻. አንቺ የተባረክሽ ዕፅ ነሸ የሕይወትና የደሕንነት ዕፅ'- ነሽ፤- በገነት ዉስጥ ባለው ፅፀ ህይወት ፈንታ በቪህ ዓለም የሕይወት ፅፅ ሆንሽ ፍሬሽም የሕይወት ፍሬ ነው፡፡ በሚወዱት (በሚያውቁት) በዓለም ሰዎች ዘንድ የሚሸት መልካም . መዓዛ ያለው አበባ ካንቺ ታቦ፡ የኸውም ከርቤ፤ ሚዓ፤ ስልኪ የተባሉ ሽቶዎች - ዳዊት በልብሶችሽ ትንቢት.የቱናፃረልሽ ላይ, አሉ ብሎ ነው፡፡ በበገና አባትሽ ነብዩ ጊጫዐካጻጩጨጩ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

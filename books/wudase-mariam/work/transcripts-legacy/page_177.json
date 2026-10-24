@@ -1,0 +1,162 @@
+{
+  "page": 177,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 22 of 87 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "-",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "ልብስ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ለተራበ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "የህይወት",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "እንጀራ",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "አብላው",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "የህይወት“ዉፃሃ",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "ከጠጣው፡፡",
+      "why": "Tesseract confidence 25 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "በምትለይበት",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "አጽናናው",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "ያዘነውንና",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "የተከሸዉንም",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "አስደስተው።፡፡",
+      "why": "Tesseract confidence 52 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፲፪",
+      "spans": [
+        {
+          "t": "- የሰኔ ጎልጎታ | .-",
+          "c": "black"
+        },
+        {
+          "t": "አቤቱ",
+          "c": "red"
+        },
+        {
+          "t": "-",
+          "c": "black"
+        },
+        {
+          "t": "- ስለኔ",
+          "c": "red"
+        },
+        {
+          "t": "የታረዘውን ያለበሰ በሰው እጅ ያልተሰራ እዑብ ድንቅ የሆነዉን የማይጠፋውን -የማያረጀውን እውነተኛውን ልብስ አልብሰው፡፡ .",
+          "c": "black"
+        },
+        {
+          "t": "አቤቱ ስለእኔ",
+          "c": "red"
+        },
+        {
+          "t": "- ስም",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "በሽተኞችን የጎበኘ (የጠየቀ) በቸርነትህና ጎብኘው አቤቱ ብሎ ለተራበ ያበላዉን የህይወት እንጀራ አብላው - ሰማያዊ - በሆነ -ማእድህ ለተጠማ ያጠጣዉንም በኤዶም ገነት . ከሚፈሰው-",
+          "c": "black"
+        },
+        {
+          "t": "አቤቱ ስለኔ",
+          "c": "red"
+        },
+        {
+          "t": "የአዘነዉን",
+          "c": "black"
+        },
+        {
+          "t": "ስም",
+          "c": "red"
+        },
+        {
+          "t": "የህይወት“ዉፃሃ ያረጋጋ ከጠጣው፡፡ ነፍሱ - . ከስጋው . በምትለይበት ጊዜ አጽናናው ያዘነውንና . የተከሸዉንም ላስደሰተና - ላጽናና ስለ ስሜ ብለህ አስደስተው።፡፡ አድል ፈንታዉንም በቪህ ዓሰም ሣሉ አንተን በምግባር በሀይማኖት ደስ ካሰኙህ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

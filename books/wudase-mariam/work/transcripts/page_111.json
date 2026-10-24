@@ -1,27 +1,9 @@
 {
   "page": 111,
-  "notes": "This page continues verse ፯ from the partial scan on page 110. ባለሟልነትን confirmed against page 213, where the same word prints clearly.",
-  "corrections": [],
-  "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "The next stanza begins at the bottom edge, but its first line is sliced through and omitted."
-    }
-  ],
+  "page_header": "፺፭ አንቀጸ ብርሃን",
   "blocks": [
     {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፸፪  አንቀጸ ብርሃን",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
@@ -41,7 +23,7 @@
           "c": "red"
         },
         {
-          "t": " ዘንድ ባለሟልነትን አገኘሽ እነሆ ትጸንሻለሽ ልጅም ትወልጃለሽ ስሙንም ",
+          "t": " ዘንድ ባለሟልነትን አገኘሽ እንሆ ተጸንሻለሽ ልጅም ትወልጃለሽ ስሙንም ",
           "c": "black"
         },
         {
@@ -49,23 +31,15 @@
           "c": "red"
         },
         {
-          "t": " ትይዋለሽ እርሱም ታላቅ ነው፤ የልዑል ",
+          "t": " ትይዋለሽ እርሱም ",
           "c": "black"
         },
         {
-          "t": "እግዚአብሔር ልጅ",
+          "t": "ታላቅ ነው፤ የልዑል እግዚአብሔር ልጅ ይባላል፤ እግዚአብሔር አምላክ የአባቱን",
           "c": "red"
         },
         {
-          "t": " ይባላል፤ ",
-          "c": "black"
-        },
-        {
-          "t": "እግዚአብሔር አምላክ",
-          "c": "red"
-        },
-        {
-          "t": " የአባቱን የዳዊትን ዙፋን ይሰጠዋል ለዘላለሙ የያዕቆብን ወገን ይገዛል ለመንግሥቱም ፍጻሜ የለውም። ",
+          "t": " የዳዊትን ዙፋን ይሰጠዋል ለዘላለሙ የያዕቆብን ወገን ይገዛል ለመንግስቱም ፍጻሜ የለዉም። ",
           "c": "black"
         },
         {
@@ -73,18 +47,82 @@
           "c": "red"
         },
         {
-          "t": " ያድርብሻል የልዑል ኃይልም ይጸልልሻል። ካንቺ የሚወለደውም ቅዱስ ነው፤ ",
+          "t": " ያድርብሻል የልዑል ኃይልም ይጸልልሻል። ካንቺ የሚወለደዉም ቅዱስ ነው፤ ",
           "c": "black"
         },
         {
-          "t": "ቅድስት ሆይ",
+          "t": "ቅድስት",
           "c": "red"
         },
         {
-          "t": " ካንቺ የተወለደው ይቅርታውን ያድለን ዘንድ ለምኝልን።",
+          "t": " ሆይ ካንቺ የተወለደው ይቅርታዉን ያድለን ዘንድ ለምኝልን።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        141,
+        576,
+        2280,
+        3038
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቿ የንዱኔር ኣየረሻር ካቱለፆ ይቱለፆሻ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        267,
+        3228,
+        2272,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "04529b980e79c3693674794de99b0ba3d790d8f364f53b462d952deab6b88230",
+      "source_sha256": "5e55add9b188274cf8320ce32324a6dfc389e75b2193f1badda9cee987c18f10",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_111.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.946,
+      "created_at": "2026-10-24T00:21:55.687153+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "afb9447f6429c1c11e1f62acb97ae0989c87d6dc68bc7184fb0d4a6d6fcaf0e5",
+      "image": "5e55add9b188274cf8320ce32324a6dfc389e75b2193f1badda9cee987c18f10",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 7,
+    "red_located": 7
+  },
+  "_legacy": "transcripts-legacy/page_111.json"
 }

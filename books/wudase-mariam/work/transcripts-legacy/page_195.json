@@ -1,0 +1,250 @@
+{
+  "page": 195,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 37 of 107 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "--",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": ".ዌቨርሰዋለሁ፤-",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": "ፒቲ",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "‹'7ድ",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "አቀርበዋለሁ፡፡",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "ይቅርታ.",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "-ሳዓለም",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "ጸሎት",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "እንቅጥቅጥ",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "ሓይቀርቡም፡፡",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "“ንጽሁ",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "አሱን",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "\"",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "አባርካለሁ፡፡",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "ህይማኖት",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "መ=ንገዱን",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "ላይ",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "እኔ",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "እአሰማለሁ፤",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "ኋሓቡም",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "'",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "#ይ-",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 69 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፳፳",
+      "spans": [
+        {
+          "t": "የሰኔ. ጎለጎታ -- ሰዓት ደብረ መቅደሴን - | .ዌቨርሰዋለሁ፤-",
+          "c": "black"
+        },
+        {
+          "t": ".. ከባህርይ አባቴ",
+          "c": "red"
+        },
+        {
+          "t": "ፒቲ",
+          "c": "black"
+        },
+        {
+          "t": "' ከአብ ከባህርይ ሕይወቴ ከመንፈስ ቅዱስም",
+          "c": "red"
+        },
+        {
+          "t": "‹'7ድ አቀርበዋለሁ፡፡ =ርነት",
+          "c": "black"
+        },
+        {
+          "t": "ይህች መጽሀፍ",
+          "c": "red"
+        },
+        {
+          "t": "ምህረት . ጥጋብ 'ካሰችበት ተድላ ቦታ ደስታ ይቅርታ. እስከ -ሳዓለም ድረስ ይሆናል በእውነት",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "- ነግድ",
+          "c": "black"
+        },
+        {
+          "t": "ጸሎት",
+          "c": "red"
+        },
+        {
+          "t": "እንቅጥቅጥ በተደገመችበትና",
+          "c": "black"
+        },
+        {
+          "t": "- '",
+          "c": "red"
+        },
+        {
+          "t": "በያይነቱ በተነበበችበት በሽታ ሁሉ ቦታ ሓይቀርቡም፡፡",
+          "c": "black"
+        },
+        {
+          "t": ". ይህቺ - የጸሎት መጽሐፍ",
+          "c": "red"
+        },
+        {
+          "t": ".. | “ንጽሁ ለያዛት አሱን -ልጆቹን ገንበቡን",
+          "c": "black"
+        },
+        {
+          "t": "\"",
+          "c": "red"
+        },
+        {
+          "t": "አባርካለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "በዚች",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "መጽሀፍ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "አምኖ",
+          "c": "red"
+        },
+        {
+          "t": "በንጹህ ልቦና በቅን ህይማኖት ያለ ኾርጥር በማየ ጸሎቱ የተጠመዋ የጠጣ መ=ንገዱን የጠረገ በቤቱ መድረክ ላይ - እኔ ጸሎቱን እአሰማለሁ፤ አንደ ኋሓቡም",
+          "c": "black"
+        },
+        {
+          "t": "'",
+          "c": "red"
+        },
+        {
+          "t": "ፈቃድ",
+          "c": "black"
+        },
+        {
+          "t": "| ሚካኤልና",
+          "c": "red"
+        },
+        {
+          "t": ". #ይ- . በጠ ።። ጠ ቓ#ያ፡፡ ቁ |'ፋሖፋ እግፃና ከገማ.",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

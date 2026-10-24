@@ -1,0 +1,202 @@
+{
+  "page": 159,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 13 of 93 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "፡",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "1",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "አማልድሃዛለሁፁሁ፡፡",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "[ንድ",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "አማልድዛፃለሁ፡፡",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "ወዳጄ",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": "ሆይ፤",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ከንድ",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "አማልድሃዛለሁፁ፡፡፡",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "ሽን",
+      "why": "Tesseract confidence 21 — check against the scan"
+    },
+    {
+      "text": "ፋንህን",
+      "why": "Tesseract confidence 22 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፡ የሰኔ (ምስራች) በነገረኝ",
+          "c": "black"
+        },
+        {
+          "t": "በቅዱስ ገብርኤል",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "[ንድ",
+          "c": "black"
+        },
+        {
+          "t": "1",
+          "c": "red"
+        },
+        {
+          "t": "አማልድሃዛለሁፁሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳዴ ሆይ!",
+          "c": "red"
+        },
+        {
+          "t": "በምጥ የተያቡትን ሴቶች ማህዐን ይፈታ ዘንድ ስልጣን በሰጠኸው",
+          "c": "black"
+        },
+        {
+          "t": "በቅዱስ ሩፋኤል ቃል",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "[ንድ አማልድዛፃለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ .-",
+          "c": "red"
+        },
+        {
+          "t": "የሰላምና የደህንነት መልአክ በሆነ",
+          "c": "black"
+        },
+        {
+          "t": "በዑራኤል",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "መልአክ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "| በንድ አማልድሃለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ . ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": ". ያዘኑትን የሚያረጋጋ በሰዳካኤል መልአክ ጻድቅና ትሁት በሆነ በስላትያል መሳእአክ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": "ከንድ አማልድሃዛለሁፁ፡፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ ሽን ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "ፋንህን በሚስከሙ ዐርባዕቱ አንሰሳ ኪሩቤል",
+          "c": "black"
+        },
+        {
+          "t": "ቅዱስ ቅዱስ ቅዱስ አግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": "ስያሱ አኗኗርህን በማመስገን",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "መንበርህን በሚያጥኑ",
+          "c": "black"
+        },
+        {
+          "t": "ሃያ ዐራቱ ካህናተ ሰማይ (ሱራፌል) ቃል",
+          "c": "red"
+        }
+      ]
+    }
+  ]
+}

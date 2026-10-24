@@ -1,6 +1,67 @@
 {
   "page": 50,
-  "notes": "Only a short continuation fragment is present. The Latin website address is a digitization watermark, not printed prayer-book text, and is not transcribed.",
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ወደ እርስዋ ገብቶ የወጣ የለም። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        337,
+        0,
+        2490,
+        298
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
   "corrections": [],
-  "blocks": []
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d1f8966d0672b8cff0ed307779271442f567ccac612bbcf38a6e13c17658a754",
+      "source_sha256": "dfeea06775e5f8cabc190ed51be81b7fec528387a5ada43637bda505c78ca1b8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_050.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 24.787,
+      "created_at": "2026-10-23T23:38:22.493051+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "0a1f9e636fadcce74085c5f48b7038f44f6042aeaaac5edfa54cc58c1e8be444",
+      "image": "dfeea06775e5f8cabc190ed51be81b7fec528387a5ada43637bda505c78ca1b8",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 2,
+    "red_located": 2
+  },
+  "_legacy": "transcripts-legacy/page_050.json"
 }

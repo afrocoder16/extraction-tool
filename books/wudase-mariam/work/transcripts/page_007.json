@@ -1,36 +1,17 @@
 {
   "page": 7,
-  "notes": "Second block starts the የሃይማኖት ጸሎት (the Creed). A stray ':' appears at the start of the line after 'እናምናለን፤' and is treated as a wrapped punctuation mark, not text. The page ends mid-sentence; 'በእርሱ' continues on the next page.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [
-    {
-      "printed": "የማተካከል",
-      "suggested": "የሚተካከል",
-      "reason": "ማ should be ሚ — the Creed reads 'ከአብ ጋር የሚተካከል' (equal with the Father)",
-      "applied": true
-    }
-  ],
+  "page_header": "፫ የዘወትር ጸሎት",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፫  የዘወትር ጸሎት",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "አንቺ የተባረክሽ ነሽና የማኅፀንሽም ፍሬ የተባረከ ነው። ፀጋን የተመላሽ ድንግል ሆይ ደስ ይበልሽ ",
+          "t": "አንቺ የተባረክሽ ነሽና የማኅፀንሽም ፍሬ የተባረከ ነው። ፀጋን የተመላሽ ድንግል ሆይ ደስ ",
           "c": "black"
         },
         {
-          "t": "እግዚአብሔር",
+          "t": "ይበልሽ እግዚአብሔር",
           "c": "red"
         },
         {
@@ -45,7 +26,14 @@
           "t": " ዘንድ ይቅርታን ለምኝልን ኃጢአታችንን ያስተሰርይልን ዘንድ አሜን።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        106,
+        493,
+        2207,
+        1511
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "title",
@@ -55,11 +43,18 @@
           "t": "የሃይማኖት ጸሎት።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        722,
+        1655,
+        1865,
+        1806
+      ],
+      "layout_category": "Section-header"
     },
     {
       "type": "verse",
-      "verse_num_am": "፩",
+      "verse_num_am": "፭",
       "spans": [
         {
           "t": "ሁሉን የፈጠረ አንድ አምላክ በሚሆን በእግዚአብሔር አብ",
@@ -82,10 +77,57 @@
           "c": "red"
         },
         {
-          "t": " እናምናለን፤ ከብርሃን የተገኘ ብርሃን ከእውነተኛ አምላክ የተገኘ እውነተኛ አምላክ የተወለደ እንጂ ያልተፈጠረ በባሕርዩ ከአብ ጋር የሚተካከል ሁሉ በእርሱ",
+          "t": " እናምናለን፡ : ከብርሃን የተገኘ ብርሃን ከእውነተኛ አምላክ የተገኘ እውነተኛ አምላክ የተወለደ እንጂ ያልተፈጠረ በባሕርዩ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        115,
+        1910,
+        2212,
+        3199
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7a4c64bbc714ae67ff3f7e12eded5968f9cf916813e5b6377fb3db106d17fc87",
+      "source_sha256": "62e94939dbc832f60365fda1a5aa08b8734cd77ba3ff4f08b461f916aae0e6e1",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_007.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.641,
+      "created_at": "2026-10-23T23:08:12.150498+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "4ac101998bd199cfd7cdde2153ea3d0fd26be2f2a98e19d44ce3e90c9192a0c9",
+      "image": "62e94939dbc832f60365fda1a5aa08b8734cd77ba3ff4f08b461f916aae0e6e1",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 8,
+    "red_located": 8
+  },
+  "_legacy": "transcripts-legacy/page_007.json"
 }

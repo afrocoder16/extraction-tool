@@ -1,20 +1,7 @@
 {
   "page": 89,
-  "notes": "This page starts the Sunday seventh part with an ornament and red section heading. The repeated wording 'ስሙን መጀመሪያ ስሙን' is clear enough to transcribe but syntactically unusual, so it has not been normalized.",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "በይሁዳ",
-      "why": "The compact middle glyphs are difficult to distinguish; this is the best direct reading from the scan."
-    }
-  ],
-  "clipped": [],
+  "page_header": "",
   "blocks": [
-    {
-      "type": "ornament",
-      "verse_num_am": "",
-      "spans": []
-    },
     {
       "type": "title",
       "verse_num_am": "",
@@ -23,7 +10,14 @@
           "t": "በሰንበተ ክርስቲያን እሑድ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        468,
+        529,
+        2350,
+        969
+      ],
+      "layout_category": "Section-header"
     },
     {
       "type": "title",
@@ -33,14 +27,21 @@
           "t": "ሰባተኛ ክፍል።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        1034,
+        1115,
+        1795,
+        1241
+      ],
+      "layout_category": "Section-header"
     },
     {
       "type": "verse",
       "verse_num_am": "፩",
       "spans": [
         {
-          "t": "ከሴቶች ይልቅ ተለይተሽ የተባረክሽ ሆይ የተወደድሽ ተባልሽ። ከተለዩ የተለየች በውስጧም የኪዳን የሕግ ጽላት ያለባት የምትባይ ሁለተኛ ክፍል አንቺ ነሽ ኪዳንም ",
+          "t": "ከሴቶሽ ይልቅ ተለይተሽ የተባረክሽ ሆይ የተወደድሽ ተባልሽ። ከተለዩ የተለየች በውስጧም የኪዳን የሕግ ጽላት ያለባት የምትባይ ሁሉተኛ ክፍል አንቺ ነሽ ጪዳንም ",
           "c": "black"
         },
         {
@@ -48,22 +49,69 @@
           "c": "red"
         },
         {
-          "t": " ጣቶች የተጻፉ ዐሥሩ ቃላት ናቸው። ያለመለወጥ ካንቺ ሰው የሆነ ",
+          "t": " ጣቶሽ የተጻፉ ዓሥሩ ቃላት ናቸው። ያለመለወጥ ",
           "c": "black"
         },
         {
-          "t": "መድኃኒታችን ኢየሱስ ክርስቶስ",
+          "t": "ካንቺ ሰው የሆነ መድኃኒታችን ኢየሱስ ክርስቶስ",
           "c": "red"
         },
         {
-          "t": " ደግሞ ስሙን መጀመሪያ ስሙን አስቀድሞ በይሁዳ ነገረን ለአዲስ ኪዳንም አስታራቂ ሆነ። በከበረ ደሙ ፈሳሽነት ወይም መፍሰስ ያመኑትንና ንጹሓን የሆኑትን ወገኖች አነጻቸው። ",
+          "t": " ደገኛ ስሙን መጀመሪያ ስሙን አስቀድሞ በየውጣ ነገረን፣ ለአዲስ ጪዳንም አስታራቂ ሆነ። በከበረ ደሙ ፈሳሽነት ወይም መፍሰስ ያመኑትንና ንጹሓን የሆኑትን ወገኖች አነጻቸው። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        384,
+        1393,
+        2446,
+        3259
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "27269b6bac82c1ea248975e6bbb1313da8c1db42e620fd09fbb1cab88dceffcb",
+      "source_sha256": "274eaa6cd8742a9471212c095cd1b31409e9c02eac64237fa18340f1e3cdf2fd",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_089.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.607,
+      "created_at": "2026-10-24T00:06:07.324592+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "0d30be83e25a2a946c0e6c788e0792d896c60a0dfdbfbf438b8f1cc8d780ffee",
+      "image": "274eaa6cd8742a9471212c095cd1b31409e9c02eac64237fa18340f1e3cdf2fd",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 9,
+    "red_located": 9
+  },
+  "_legacy": "transcripts-legacy/page_089.json"
 }

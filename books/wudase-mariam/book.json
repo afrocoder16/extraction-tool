@@ -19,7 +19,11 @@
       "timeout": 900,
       "retries": 2,
       "max_pixels": 3211264,
-      "max_completion_tokens": 8192
+      "max_completion_tokens": 8192,
+      "ignore_text": [
+        "zenadebretsion\\.org",
+        "White is not always light"
+      ]
     },
     "tesseract_lang": "amh",
     "model": "claude-opus-5",

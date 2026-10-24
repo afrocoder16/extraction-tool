@@ -1,98 +1,71 @@
 {
   "page": 149,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 14 of 87 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "፤",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "አትችልም፤",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": "ከጥልቀቂታቸው",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": "በእአፍኝህ",
-      "why": "Tesseract confidence 56 — check against the scan"
-    },
-    {
-      "text": "አፄ",
-      "why": "Tesseract confidence 47 — check against the scan"
-    },
-    {
-      "text": "ወር.",
-      "why": "Tesseract confidence 33 — check against the scan"
-    },
-    {
-      "text": "ተሸክሜዛለሁና፡፡",
-      "why": "Tesseract confidence 52 — check against the scan"
-    },
-    {
-      "text": "ሄሮድስ",
-      "why": "Tesseract confidence 46 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 39 — check against the scan"
-    },
-    {
-      "text": "ከክንዱ",
-      "why": "Tesseract confidence 48 — check against the scan"
-    },
-    {
-      "text": ":-",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "ማህዐጌኔን",
-      "why": "Tesseract confidence 22 — check against the scan"
-    },
-    {
-      "text": "ከክከጠኝ",
-      "why": "Tesseract confidence 45 — check against the scan"
-    },
-    {
-      "text": "እ",
-      "why": "Tesseract confidence 51 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፪ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "-፪ የሰኔ ጎልጎታ ፤ የአለም ዳርቻዎች አይወስኑህም . ምድር ልትሸከምህ አትችልም፤ ቀላያት አብርህትም ከጥልቀቂታቸው የተነሳ የክረምት ማአበልም፤ በእአፍኝህ አይመሉም ኃይላት መላአክትም ቢሆኑ ወደ አንተ ሊቀርቡ አይችሉም አቤቱ አፄ እናትህን ገረድህ የምሆን በማህዐኔ ዘጠኝ ወር. ከአምስት ቀን ተሸክሜዛለሁና፡፡ ጡቶቼንም አራት አመት እየጠባህ አድገሀልና አለምንሀለሁ አማለድሀለሁ፡ : ሄሮድስ በምቀኝነት ሊገድልህ በፈለገ ጊዜ አንተን በጀርባዬ አዝዬ አራት .- ዓመት ከክንዱ ሀገር ወደ አንዱ ሀገር ተሰድጃለሁና አቤቱ |",
+          "t": "የአለም ዳርቻዎች አይወስኑህም ምድር ልትሸከምህ አትችልም፤ ቀላያት አብርህትም ከጥልቀታቸው የተነሳ የክረምት ማእበልም፤ በእፍኝህ አይመሉም ኃይላት መላእክትም ቢሆኑ ወደ አንተ ሊቀርቡ አይችሉም አቤቱ እኔ እናትህን ገረድህ የምሆን በማህፀኔ ዘጠኝ ወር ከአምስት ቀን ተሸክሜሃለሁና። ጡቶቼንም አራት አመት እየጠባህ አድገሀልና እለምንሀለሁ እማለድሀለሁ፡ ፡ ሄሮድስ በምቀኝነት ሊገድልህ በፈለገ ጊዜ አንተን በጀርባዬ አዝዬ አራት ዓመት ከአንዱ ሀገር ወደ አንዱ ሀገር ተሰድጃለሁና አቤቱ ",
           "c": "black"
         },
         {
-          "t": "አምላኬ",
+          "t": "ጌታዬና አምላኬ ኢየሱስ ክርስቶስ",
           "c": "red"
         },
         {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ኢየሱስ ክርስቶስ",
-          "c": "red"
-        },
-        {
-          "t": "ሆይ ጸሎቴንና ልመናዬን :- ስማኝ አቤቱ ማህዐጌኔን ስለም አድርገህ ከክከጠኝ ወር ከአምስት ቀን የተሸከምኩህን እ በወሕሮሮ በብሮዮዬ ጠራት በቢተልሒም",
+          "t": " ሆይ ጸሎቴንና ልመናዬን ስማኝ አቤቱ ማህፀኔን አለም አድርገህ ዘጠኝ ወር ከአምስት ቀን የተሸከምኩህን አቤቱ በቁርና በብርድ ወራት በቤተልቃም",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        252,
+        470,
+        2392,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "56dd634d922b1d078e02bf17b8f6dbb2a7ceda7e5205518f8310500a18c93105",
+      "source_sha256": "d253479a741eb63814c9d65c5f1d9d173df81bbd9901f6c955638cfa0581e7e8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_149.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.554,
+      "created_at": "2026-10-24T00:46:09.208860+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "28ff242f46d1fffc790546ba1f7e8becd26e62578d3a14507bacaf2015672754",
+      "image": "d253479a741eb63814c9d65c5f1d9d173df81bbd9901f6c955638cfa0581e7e8",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 2,
+    "red_located": 2
+  },
+  "_legacy": "transcripts-legacy/page_149.json"
 }

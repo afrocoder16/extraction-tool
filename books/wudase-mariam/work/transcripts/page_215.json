@@ -1,32 +1,27 @@
 {
   "page": 215,
-  "notes": "The running header carries a worn single-glyph page numeral that is not transcribed. 'ባለሟልነትን' (favour/standing) — confirmed against page 213, where the same word is printed clearly. 'የምስራዉን' reads as printed; 'የምሠራውን' (what I do) would fit the sense. The last line runs into the bottom edge and is not transcribed; the page ends after 'ንጹሃን'.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [],
+  "page_header": "፯ የኅሊና ጸሎት",
   "blocks": [
     {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "የኅሊና ጸሎት",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
           "t": "ባለሟልነትን የተጎናጸፍሽ ነሽና በተንኮልና በክፉ በምቀኝነት በሚያሴሩብኝ ጠላቶቼ ላይ ቁጣና መዓት ይውረድባቸው እንደጉም በነው እንደጢስ ተነው ይጥፉ በቆፈሩት ጉድጓድ ይውደቁ።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        151,
+        476,
+        2348,
+        1316
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፲፩",
+      "verse_num_am": "፲፭",
       "spans": [
         {
           "t": "ወላዲተ አምላክ ማሪያም ሆይ፤",
@@ -41,36 +36,78 @@
           "c": "red"
         },
         {
-          "t": " አንቺን እመቤቴን በጸሎት እንዳመሰግን የሚያነቃ መንፈስ ኅሊና አሳድሪብኝ፤ ስራና ወንድምን ወዳድ አድርጊኝ የምስራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጪኝ፤ ኃጥያት እንዳልሰራ ተቆጣጠሪኝ ከችግር ከመከራ ሰውሪኝ።",
+          "t": " አንቺን እመቤቴን በጸሎት እንዳመሰግን የሚያነቃ መንፈስ ኅሊና አሳድሪብኝ፤ ስራና ወንድምን ወዳድ አድርጊኝ የምሰራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጭኝ፤ ኃጥያት እንዳልሰራ ተቆጣጠሪኝ ከችግር ከመከራ ሰዉሪኝ።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        135,
+        1334,
+        2343,
+        2678
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፲፪",
+      "verse_num_am": "፲፮",
       "spans": [
         {
           "t": "እመቤቴ ድንግል ማሪያም ሆይ፤",
           "c": "red"
         },
         {
-          "t": " ለጸሎት እጄን ወደ አንቺ በዘረጋሁ ጊዜ ስለኔ ለመጸለይ ቅዱሳን እጆችሽን ንጹሃን",
+          "t": " ለጸሎት እጆን ወደ አንቺ በዘረጋሁ ጊዜ ስለኔ ለመጸለይ ቅዱሳን እጆችሽን ንጹሃን ወዳድ አድርጊኝ የምሰራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጭኝ፤",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        128,
+        2706,
+        2327,
+        3300
+      ],
+      "layout_category": "Text"
     }
   ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Final line runs into the bottom edge."
-    }
-  ],
-  "uncertain": [
-    {
-      "text": "የምስራዉን",
-      "why": "may be የምሠራውን (what I do)"
-    }
-  ]
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "91581fcb20b0d047a2eac2c4bd8a04d16f329eeda917e703731e4f68983a3cf2",
+      "source_sha256": "20d25b70fa4097883424fc4d206998367a2b7cdf24746d4f6c259931c8c85abb",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_215.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 91.322,
+      "created_at": "2026-10-24T01:39:02.502266+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "0a0930bab715503e690977f250631d0d3dbc48a3251456d55f27d8390f0f8acb",
+      "image": "20d25b70fa4097883424fc4d206998367a2b7cdf24746d4f6c259931c8c85abb",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 3,
+    "red_located": 3
+  },
+  "_legacy": "transcripts-legacy/page_215.json"
 }

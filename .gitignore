@@ -4,6 +4,9 @@
 books/*/work/*
 !books/*/work/transcripts/
 !books/*/work/transcripts/*.json
+!books/*/work/transcripts-legacy/
+!books/*/work/review-exports/
+!books/*/work/review-exports/*
 !books/*/work/review.json
 !books/*/work/page_stats.json
 !books/*/work/verification.json

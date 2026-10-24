@@ -1,44 +1,96 @@
 {
   "page": 117,
-  "notes": "The opening text continues the stanza from page 115; the page later begins verse ፮.",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "ነቢዩ",
-      "why": "The second letter is tightly inked and could be read as ብ rather than ቢ; this is the best scan-only reading."
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Verse ፮ continues after the fully visible phrase ending '(ይኸውም) በቀኙ ካሉ ጻድቃን ጋር'; the next line is sliced by the bottom edge and omitted."
-    }
-  ],
+  "page_header": "፶፷ አንቀጸ ብርሃን",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "፸፭  አንቀጸ ብርሃን", "c": "black" }
-      ]
+        {
+          "t": "አንድነት ሆነ) አሉ። ካንቺ የነሳውን የኛን ሥጋ ለብሰ ባዩት ጊዜ ሰውን ምንኛ ወደደው ብለው ሰገዱለት ነብዩ ዳዊትም እንዲህ በሎ ተናገረ ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " በሰማይና በማደሪያው ቦታ ሆኖ በምድር ወደሚኖሩት ሁሉ ተመለከተ። የሰውንም ልጅ ሁሉ አየ፤ ንጉሥ ውበትሽን ወደደ። ዘለአለም ማረፊያዬ ይህቺ ናት መርጫታለሁና በእርሷ አድራለሁ አለ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ልጅሽ",
+          "c": "red"
+        },
+        {
+          "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        203,
+        514,
+        2272,
+        2244
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "",
+      "verse_num_am": "፱",
       "spans": [
-        { "t": "አንድነት ሆነ) አሉ። ካንቺ የነሳውን የኛን ሥጋ ለብሶ ባዩት ጊዜ ሰውን ምንኛ ወደደው ብለው ሰገዱለት ነቢዩ ዳዊትም እንዲህ ብሎ ተናገረ ", "c": "black" },
-        { "t": "እግዚአብሔር", "c": "red" },
-        { "t": " በሰማይና በማደሪያው ቦታ ሆኖ በምድር ወደሚኖሩት ሁሉ ተመለከተ። የሰውንም ልጅ ሁሉ አየ። ንጉሥ ውበትሽን ወደደ። ዘለዓለም ማረፊያዬ ይህቺ ናት መርጫታለሁና በእርሷ አድራለሁ አለ። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ልጅሽ", "c": "red" },
-        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "፮",
-      "spans": [
-        { "t": "የተለየሽና ደግ የሆንሽ የተመሰገንሽና የተባረክሽ የከበርሽና ከፍ ከፍ ያልሽ ሆይ፤ የሕይወት ሕብስት ባለበት በወርቅ መሶብ መሰልንሽ። የሕይወት ሕብስትም (ይኸውም) በቀኙ ካሉ ጻድቃን ጋር", "c": "black" }
-      ]
+        {
+          "t": "የተለየሽና ደግ የሆንሽ የተመሰገንሽና የተባረክሽ የከበርሽና ከፍ ከፍ ያልሽ ሆይ፤ የህይወት ህብስት ባለበት በወርቅ መሰብ መሰልንሽ። የህይወት ህብስትም (ይኸዉም) በቀኙ ካሉ ጻድቃን ጋር እርሱን ለሚያምን በሃይማኖትና ፈቁየኛ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        190,
+        2380,
+        2252,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "4f13ef88afd88e20ae5820f68a4aeea962719efc7e8b10b561dd01c8c4323ecb",
+      "source_sha256": "5d876de03029adf8d0c5d4fbcdb10409e4d6b3d1ec8b0ccc82ba6ace5f39f79f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_117.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.538,
+      "created_at": "2026-10-24T00:25:59.959112+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "bce675a42575866bf501a605034d2e751031bac942896224c010124ebaedd5b4",
+      "image": "5d876de03029adf8d0c5d4fbcdb10409e4d6b3d1ec8b0ccc82ba6ace5f39f79f",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 2,
+    "red_located": 2
+  },
+  "_legacy": "transcripts-legacy/page_117.json"
 }

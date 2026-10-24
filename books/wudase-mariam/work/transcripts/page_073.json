@@ -1,32 +1,7 @@
 {
   "page": 73,
-  "notes": "",
-  "corrections": [
-    {
-      "printed": "እንሰግድለትን",
-      "suggested": "እንሰግድለታለን",
-      "reason": "The printed form appears to omit አለ in the phrase meaning ‘we worship him,’ immediately before እናመሰግነው.",
-      "applied": true
-    }
-  ],
-  "uncertain": [
-    {
-      "text": "በመኻል",
-      "why": "The middle glyph appears to be ኻ, but its small interior detail is faint and may instead be ካ."
-    }
-  ],
-  "clipped": [],
+  "page_header": "፴፭ የዓርብ ውዳሴ ማርያም",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፶፫  የዓርብ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
     {
       "type": "prayer",
       "verse_num_am": "",
@@ -44,18 +19,25 @@
           "c": "red"
         },
         {
-          "t": " ያደረብሽ (የከተመብሽ) ረቂቅ ከተማ ነሽ። በኪሩቤልና በሱራፌል ላይ የሚኖረውን ጌታን በመኻል እጅሽ ይዘሽዋልና። በቸርነቱ ብዛት ሥጋዊ ፍጥረትን ሁሉ የሚመግብ እርሱ ጡትሽን ይዞ ጠባ። ይኸውም ሁሉን የሚያድን አምላካችን ነው። ለዘለዓለሙ ይጠብቀናል። እንሰግድለታለን እናመሰግነው ዘንድ እርሱ ፈጥሮናልና። ",
+          "t": " ያደረብሽ (የከተመብሽ) ረቂቅ ከተማ ነሽ። በኪሩቤልና በሱራፌል ላይ የሚኖረውን ጌታን በመኻል እጅሽ ይዘሽዋልና። በቸርነቱ ብዛት ሥጋዊ ፍጥረትን ሁሉ የሚመግብ እርሱ ጡትሽን ይዞ ጠባ። ይኸውም ሁሉን የሚያድን አምላካችን ነው። ለዘለዓለሙ ይጠብቀናል። እንሰግድለትን እናመስግነው ዘንድ እርሱ ፈጥሮናልና። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        400,
+        322,
+        2446,
+        1876
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፪",
+      "verse_num_am": "፭",
       "spans": [
         {
           "t": "ድንግል ማርያም",
@@ -69,7 +51,54 @@
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        411,
+        1894,
+        2446,
+        2984
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "8eba6f56bd53da31609a3b4595c07ef16a172167053070cd2ab0a7e7f7a384f3",
+      "source_sha256": "46c6e9c67c4bfc9f0fae864046d5c4b7ddf947fd2b32d1191e797812fca231b9",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_073.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 81.48,
+      "created_at": "2026-10-23T23:54:53.298093+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "af8125e9624c82fd06209cd0923e880f957f83122008ade1b5bc5d40876aad24",
+      "image": "46c6e9c67c4bfc9f0fae864046d5c4b7ddf947fd2b32d1191e797812fca231b9",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_073.json"
 }

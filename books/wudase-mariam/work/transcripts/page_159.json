@@ -1,83 +1,100 @@
 {
   "page": 159,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 13 of 93 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "፡",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": "1",
-      "why": "Tesseract confidence 47 — check against the scan"
-    },
-    {
-      "text": "አማልድሃዛለሁፁሁ፡፡",
-      "why": "Tesseract confidence 39 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 68 — check against the scan"
-    },
-    {
-      "text": "[ንድ",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": "አማልድዛፃለሁ፡፡",
-      "why": "Tesseract confidence 23 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": "ወዳጄ",
-      "why": "Tesseract confidence 24 — check against the scan"
-    },
-    {
-      "text": "ሆይ፤",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": "ከንድ",
-      "why": "Tesseract confidence 67 — check against the scan"
-    },
-    {
-      "text": "አማልድሃዛለሁፁ፡፡፡",
-      "why": "Tesseract confidence 59 — check against the scan"
-    },
-    {
-      "text": "ሽን",
-      "why": "Tesseract confidence 21 — check against the scan"
-    },
-    {
-      "text": "ፋንህን",
-      "why": "Tesseract confidence 22 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፯ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፡ የሰኔ (ምስራች) በነገረኝ",
+          "t": "(ምስራች) በነገረኝበቅዱስ ",
           "c": "black"
         },
         {
-          "t": "በቅዱስ ገብርኤል",
+          "t": "ገብርኤል ቃል ኪዳን ትገባልኝ",
           "c": "red"
         },
         {
-          "t": "|",
+          "t": " ዘንድ እማልድሃለሁ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        465,
+        2225,
+        763
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " በምጥ የተያዙትን ሴቶች ማህፀን ይፈታ ዘንድ ስልጣን በሰጠኸው ",
+          "c": "black"
+        },
+        {
+          "t": "በቅዱስ ሩፋኤል ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": " ዘንድ እማልድሃለሁ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        779,
+        2256,
+        1383
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " የሰላምና የደህንነት መልአክ በሆነ ",
+          "c": "black"
+        },
+        {
+          "t": "በዑራኤል መልአክ ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": " ዘንድ እማልድሃለሁ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        171,
+        1400,
+        2256,
+        1846
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ያዘኑትን የሚያረጋጋ በሰዳካኤል መልአክ ጌድቅና ትሁት በሆነ በስላትያል መላእክ ",
           "c": "black"
         },
         {
@@ -85,118 +102,90 @@
           "c": "red"
         },
         {
-          "t": "[ንድ",
+          "t": " ዘንድ እማልድሃለሁ።",
           "c": "black"
-        },
+        }
+      ],
+      "bbox": [
+        171,
+        1863,
+        2256,
+        2470
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
         {
-          "t": "1",
+          "t": "ልጆ ወዳጆ ሆይ፤",
           "c": "red"
         },
         {
-          "t": "አማልድሃዛለሁፁሁ፡፡",
+          "t": " ዙፋንህን በሚሽከሙ ዐርባዕቱ እንሰሳ ኪሩቤል ",
           "c": "black"
         },
         {
-          "t": "ልጄ ወዳዴ ሆይ!",
+          "t": "ቅዱስ ቅዱስ ቅዱስ እግዚአብሔር",
           "c": "red"
         },
         {
-          "t": "በምጥ የተያቡትን ሴቶች ማህዐን ይፈታ ዘንድ ስልጣን በሰጠኸው",
+          "t": " እያሉ አኗኗርህን በማመስገን መንበርህን በሚያጥኑ ሃያ ",
           "c": "black"
         },
         {
-          "t": "በቅዱስ ሩፋኤል ቃል",
-          "c": "red"
-        },
-        {
-          "t": ".",
-          "c": "black"
-        },
-        {
-          "t": "ኪዳን ትገባልኝ",
-          "c": "red"
-        },
-        {
-          "t": "[ንድ አማልድዛፃለሁ፡፡",
-          "c": "black"
-        },
-        {
-          "t": "ልጄ ወዳጄ .-",
-          "c": "red"
-        },
-        {
-          "t": "የሰላምና የደህንነት መልአክ በሆነ",
-          "c": "black"
-        },
-        {
-          "t": "በዑራኤል",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "መልአክ",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ቃል ኪዳን ትገባልኝ",
-          "c": "red"
-        },
-        {
-          "t": "| በንድ አማልድሃለሁ፡፡",
-          "c": "black"
-        },
-        {
-          "t": "ልጄ ወዳጄ . ሆይ፤",
-          "c": "red"
-        },
-        {
-          "t": ". ያዘኑትን የሚያረጋጋ በሰዳካኤል መልአክ ጻድቅና ትሁት በሆነ በስላትያል መሳእአክ",
-          "c": "black"
-        },
-        {
-          "t": "ቃል ኪዳን ትገባልኝ",
-          "c": "red"
-        },
-        {
-          "t": "ከንድ አማልድሃዛለሁፁ፡፡፡",
-          "c": "black"
-        },
-        {
-          "t": "ልጄ ወዳጄ ሽን ሆይ፤",
-          "c": "red"
-        },
-        {
-          "t": "ፋንህን በሚስከሙ ዐርባዕቱ አንሰሳ ኪሩቤል",
-          "c": "black"
-        },
-        {
-          "t": "ቅዱስ ቅዱስ ቅዱስ አግዚአብሔር",
-          "c": "red"
-        },
-        {
-          "t": "ስያሱ አኗኗርህን በማመስገን",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "መንበርህን በሚያጥኑ",
-          "c": "black"
-        },
-        {
-          "t": "ሃያ ዐራቱ ካህናተ ሰማይ (ሱራፌል) ቃል",
+          "t": "ዐራቱ ካህናተ ሰማይ (ሱራፌል) ቃል",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        171,
+        2486,
+        2256,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "5efbdc6f1f5bc2a035ab6733241ace63f0032c6adceb34a1db0798e61665d6a4",
+      "source_sha256": "adebb854507440d5670cae3d7175c8d040b72539119e9b19f159da38a4db6819",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_159.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 97.539,
+      "created_at": "2026-10-24T00:54:41.328457+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "be397eedcadaf9c9d9d0f3c7ecae74d14bd25fe9c7ccd38da2b8dc55e7dbaed8",
+      "image": "adebb854507440d5670cae3d7175c8d040b72539119e9b19f159da38a4db6819",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 15,
+    "red_located": 15
+  },
+  "_legacy": "transcripts-legacy/page_159.json"
 }

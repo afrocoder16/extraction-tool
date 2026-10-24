@@ -1,0 +1,113 @@
+{
+  "page": 79,
+  "notes": "This page contains the Saturday sixth-part heading and an ornament border. A white English digitization overlay crossing the ornament is not printed book text and is omitted.",
+  "corrections": [
+    {
+      "printed": "የተቀደሽ",
+      "suggested": "የተቀደስሽ",
+      "reason": "The printed form appears to omit ስ from the phrase meaning ‘you who are sanctified.’",
+      "applied": true
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "በመኻል",
+      "why": "The small interior detail of ኻ is faint and may instead be ካ."
+    },
+    {
+      "text": "እየጮኹ",
+      "why": "The middle glyphs are faint near the bottom of the scan; this is the best visual reading."
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "The final line is sliced by the bottom edge; only its upper portion is visible and it appears to begin 'ጋር'. The line is omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፶፮  የቅዳሜ ውዳሴ ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሆይ የተባረክሽ ነሽ። የማኅፀንሽም ፍሬ የተባረከ ነው። ጸጋን የተመላሽ ሆይ ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ካንቺ ጋር ነውና ደስ ይበልሽ እያልን መልአኩ ",
+          "c": "black"
+        },
+        {
+          "t": "ገብርኤል",
+          "c": "red"
+        },
+        {
+          "t": " እንዳመሰገነሽ እናመሰግንሻለን። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "ornament",
+      "verse_num_am": "",
+      "spans": []
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቅዳሜ የሚጸለይ አምላክን የወለደች የአመቤታችን የድንግል ማርያም ምስጋና",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስድስተኛ ክፍል",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፩",
+      "spans": [
+        {
+          "t": "ንጽሕት ነሽ ብርህትም ነሽ፡፡ ጌታን በመኻል እጅሽ የያዝሽው ሆይ በሁሉ የተቀደሽ ነሽ፡፡ ፍጥረት ሁሉ ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን",
+          "c": "red"
+        },
+        {
+          "t": " ብለው እየጮኹ ካንቺ ጋር ደስ ይላቸዋል::",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

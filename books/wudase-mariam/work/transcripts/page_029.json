@@ -1,46 +1,42 @@
 {
   "page": 29,
-  "notes": "The page ends mid-sentence after 'ደስ'.",
-  "corrections": [],
+  "page_header": "፲ የማክሰኞ ውዳሴ ማርያም",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፲፱  የማክሰኞ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
     {
       "type": "verse",
       "verse_num_am": "፬",
       "spans": [
         {
-          "t": "ሙሴ በነደ እሳት ሳትቃጠል ያያት ዕፅ አንቺ ነሽ ይኸውም መጥቶ በማኅፀንሽ ያደረው ",
+          "t": "ሙሴ በነደ እሳት ሳትቃጠል ያያት ዕፅ አንቺ ንሽ ይኸውም መጥቶ በማኅፀንሽ ያደረው ",
           "c": "black"
         },
         {
-          "t": "የእግዚአብሔር ልጅ",
+          "t": "የእግዚአብሔር",
           "c": "red"
         },
         {
-          "t": " ነው የመለኮቱ እሳትነት ሥጋሽን አላቃጠለውም። ",
+          "t": " ልጅ ነው የመለኮቱ እሳትነት ሥጋሽን አላቃጠለውም። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        493,
+        450,
+        2524,
+        1197
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፭",
       "spans": [
         {
-          "t": "ዘር ያልተዘራባት እርሻ አንቺ ነሽ የሕይወት ፍሬ ከአንቺ ወጣ። ዮሴፍ የዋጃትና የከበረ ዕንቁን ያገኘባት ሣጥን አንቺ ነሽ ይኸውም ",
+          "t": "ዘር ያልተዘራባት እርሻ አንቺ ነሽ የሕይወት ፍሬ ከአንቺ ወጣ። ዮሴፍ የዋጃትና የከበረ ዕንቁን ያገኘባትሣጥን አንቺ ነሽ ይኸውም ",
           "c": "black"
         },
         {
@@ -55,7 +51,14 @@
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        476,
+        1206,
+        2516,
+        2218
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -70,7 +73,7 @@
           "c": "red"
         },
         {
-          "t": " ደስ ይበልሽ። የነቢያት ዜናቸው ንጽሕት ሆይ ደስ ይበልሽ። ",
+          "t": " ደስ ይበልሽ። የነቢያት ዜናቸው ንጽሕት ሆይ ደስ ይበልሽ ",
           "c": "black"
         },
         {
@@ -78,10 +81,57 @@
           "c": "red"
         },
         {
-          "t": " ከአንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና ደስ ይበልሽ። የዓለም የሰው ሁሉ ደስታ የሆነ የመልአኩን ቃል ተቀብለሻልና ደስ ይበልሽ። ",
+          "t": " ከአንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና ደስ ይበልሽ። የዓለም የሰው ሁሉ ደስታ የሆነየመልአኩን ቃል ተቀብለሻልና ደስ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        467,
+        2252,
+        2506,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "29fe6f6160cf7dd5349cc76df0d8c3d89045cf71c3c0043a532d056aaeaf7d67",
+      "source_sha256": "395aaab7e492e310700df31ce4e0744f6915a6f9b35cf49ba347a9aed52f54ef",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_029.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 91.305,
+      "created_at": "2026-10-23T23:23:55.010568+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "22fc7b2929f8e0b0c0f1e1533e04ae8f9d0ea8c2d8b284f5d9655b84f9c1699f",
+      "image": "395aaab7e492e310700df31ce4e0744f6915a6f9b35cf49ba347a9aed52f54ef",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 8,
+    "red_located": 8
+  },
+  "_legacy": "transcripts-legacy/page_029.json"
 }

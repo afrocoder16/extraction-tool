@@ -1,57 +1,44 @@
 {
   "page": 25,
-  "notes": "This page carries the end of the Monday section and the start of the Tuesday section (title: 'ማክሰኞ የሚጸለይ...'), separated by an ornament border. 'አመሰገንሁ' at the end of verse ፲ reads as printed; 'አመሰገንህ' (we praised you) would fit the surrounding second-person forms better, but the final glyph is not clear enough to raise as a correction. The page ends mid-sentence after 'እኛን'.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [],
+  "page_header": "፲፪ የሰኞ ውዳሴ ማርያም",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፲፯  የሰኞ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
     {
       "type": "verse",
       "verse_num_am": "፲",
       "spans": [
         {
-          "t": "በዚህ ዓለም ለሚኖሩ ሰዎች ሁሉ የምታበራ እውነተኛ ብርሃን ስለሰው ፍቅር ወደ ዓለም የመጣህ። ፍጥረት ሁሉ በመምጣትህ ደስ አለው አዳምን ከስህተት አድነኸዋልና ሔዋንንም ከሞት ጻዕረኝነት ነፃ አድርገኻታልና የምንወለድበትን መንፈስ (ረቂቁን ልደት) ሰጠኸን ከመላእክት ጋርም አመሰገንህ። ",
+          "t": "በዚህ ዓለም ለሚኖሩ ሰዎች ሁሉ የምታበራ እውነትኛ ብርሃን ስለሰው ፍቅር ወደ ዓለም የመጣህ። ፍጥረት ሁሉ በመምጣትህ ደስ አለው አዳምን ከስህተት አድነኸዋልና ሔዋንንም ከምት ጻዕረኝነት ነፃ አድርገኻታልና የምንወለድበትን መንፈስ (ረቂቁን ልደት) ሰጠኸን ከመላእክት ጋርም አመሰገንህ። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        402,
+        476,
+        2514,
+        1796
+      ],
+      "layout_category": "Text"
     },
     {
-      "type": "ornament",
-      "verse_num_am": "",
-      "spans": []
-    },
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "ማክሰኞ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና",
-          "c": "red"
-        }
-      ]
-    },
-    {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ሁለተኛ ክፍል",
+          "t": "ማክሰኞ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና ሁለተኛ ክፍል",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        402,
+        2254,
+        2508,
+        2825
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -62,22 +49,57 @@
           "c": "red"
         },
         {
-          "t": " ዘውድ የድኅነታችን መጀመሪያ የንጽሕናችንም መሠረት እኛን ስለማዳን ሰው የሆነ የእግዚአብሔርን",
+          "t": " ዘውድ የድኅነታችን መጀመሪያ የንጽሕናችንም መሠረት እኛን",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        394,
+        2997,
+        2498,
+        3277
+      ],
+      "layout_category": "Text"
     }
   ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Page ends mid-sentence after 'እኛን'."
-    }
-  ],
-  "uncertain": [
-    {
-      "text": "አመሰገንሁ",
-      "why": "አመሰገንህ would fit the surrounding second-person forms"
-    }
-  ]
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "0a4a3b46957c5896d96425c13b175dbee09b7ccadd3566ad7ed672326574b8ac",
+      "source_sha256": "bbaedebb1438ae58c1a82c3e6f33e7b603daf80cd624bb17098c00a78e8bcc0d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_025.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.882,
+      "created_at": "2026-10-23T23:21:04.373422+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "5fee3f75191779d76807c54e255eb8900209054151d2cf1f73c87613c51936a4",
+      "image": "bbaedebb1438ae58c1a82c3e6f33e7b603daf80cd624bb17098c00a78e8bcc0d",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 6,
+    "red_located": 6
+  },
+  "_legacy": "transcripts-legacy/page_025.json"
 }

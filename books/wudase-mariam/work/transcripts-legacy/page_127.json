@@ -1,0 +1,94 @@
+{
+  "page": 127,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 15 of 96 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "2=ሯ",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "አንቀጸ",
+      "why": "Tesseract confidence 21 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "አኅተትየ",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ነሽ",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "መንገድሽ",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "አለሽ፡፡",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "አለሽ፡፥፡",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "ጋር",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "አለሽ.",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "88",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "፲9.-",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "መቅደስ",
+      "why": "Tesseract confidence 57 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "2=ሯ አንቀጸ ብርዛን . .- ዕጣን መክዛ ነው አለ አኅተትየ መርዓት (ሙሽራዬ ሆይ) የታጠርሽ ተክል ነሽ መንገድሽ የታጠረች ተክል የታተመች ጉድጓድ ናት፡፡ ከሽቱ ቅመም ጋር ሽቱ አለሽ፡፡ ቆዕ የሚባል ሸቶ ናርዶስ የሚባል ሸቶ ጋር አለሽ፡፥፡ ናርዶስ የሚባል ሽቶ መጽርይ የሚባል ሽቶ ጋር አለሽ. ቀጺመታት ቀናንሞስ የሚባል ሽቶች አደጋ ሽቶች ጋራ አሱሽ ከሽቶች ሁሉ ከሚበልጡ ከርቤና ዐልው የተባሉ ሽቶች ከነዚህ ሁሉ ሽቶች ጋር አሉሽ፡፡ የገነት - ፈሳሸ ሆይ ፤ከደጋ የሚፈስ የሕይወት ውዛ መገናኛ ነሽ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ልጅሽ 88",
+          "c": "red"
+        },
+        {
+          "t": "ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡ ፲9.- ሳይተክሏትና ውፃ ሳያጠጧት የሰመለመች የአሮን በትር በቤተ መቅደስ . ነበረች ለካህናት ዝግጁ ያደረጋት ነበረች::",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

@@ -1,202 +1,79 @@
 {
   "page": 191,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 31 of 92 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "-ትጋር",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "አይቆሙም፡፡",
-      "why": "Tesseract confidence 55 — check against the scan"
-    },
-    {
-      "text": "-\"ነ",
-      "why": "Tesseract confidence 34 — check against the scan"
-    },
-    {
-      "text": "[|",
-      "why": "Tesseract confidence 29 — check against the scan"
-    },
-    {
-      "text": "ሰአት",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": "፡",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "'-::",
-      "why": "Tesseract confidence 31 — check against the scan"
-    },
-    {
-      "text": "አጌና",
-      "why": "Tesseract confidence 47 — check against the scan"
-    },
-    {
-      "text": "አባ",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": "መንሪስ፡",
-      "why": "Tesseract confidence 21 — check against the scan"
-    },
-    {
-      "text": "ጳሪትሊጦስ",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "።=ሮሱ",
-      "why": "Tesseract confidence 38 — check against the scan"
-    },
-    {
-      "text": "ሊቃነ",
-      "why": "Tesseract confidence 64 — check against the scan"
-    },
-    {
-      "text": "መላእክትም",
-      "why": "Tesseract confidence 27 — check against the scan"
-    },
-    {
-      "text": "<ላቸዉን",
-      "why": "Tesseract confidence 32 — check against the scan"
-    },
-    {
-      "text": "(”",
-      "why": "Tesseract confidence 51 — check against the scan"
-    },
-    {
-      "text": "::::-",
-      "why": "Tesseract confidence 23 — check against the scan"
-    },
-    {
-      "text": "ጸሎት",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": "|",
-      "why": "Tesseract confidence 60 — check against the scan"
-    },
-    {
-      "text": "-.-",
-      "why": "Tesseract confidence 31 — check against the scan"
-    },
-    {
-      "text": "የያበቨ",
-      "why": "Tesseract confidence 30 — check against the scan"
-    },
-    {
-      "text": "እንቀበለው",
-      "why": "Tesseract confidence 42 — check against the scan"
-    },
-    {
-      "text": "['",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": "አንወርዳለን፤",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": "1ህረ",
-      "why": "Tesseract confidence 67 — check against the scan"
-    },
-    {
-      "text": "መንበረ",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": "።=ንግስቴም",
-      "why": "Tesseract confidence 38 — check against the scan"
-    },
-    {
-      "text": "/",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": "=2ሰራዊት",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "=ስ",
-      "why": "Tesseract confidence 56 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፳፫ የሰኔ ጎልጎታ",
   "blocks": [
     {
-      "type": "verse",
-      "verse_num_am": "፳፻",
+      "type": "prayer",
+      "verse_num_am": "",
       "spans": [
         {
-          "t": "የሰጌ ጎልጎታ -ትጋር - አይቆሙም፡፡ ሊቀርቡትም እኔ በዚያ አስፈሪ -\"ነ",
+          "t": "ከሱጋር አይቆሙም። ሊቀርቡትም አይችሉም።ዳግመኛም እኔ በዚያ አስፈሪ በሆነ ሰአት እረዳት አሆነዋለሁ። ",
           "c": "black"
         },
         {
-          "t": "[|",
+          "t": "እኔና የባህርይ አባቴ አብ የባህርይ ሕይወቴ የእዉነት መንፈስ ጳራቅሊጦስ",
           "c": "red"
         },
         {
-          "t": "ሰአት እረዳት አሆነዋለሁ፡፡",
+          "t": " ወደ እርሱ እንመጣለን አስራ ሁለቱ ሊቃነ መላእክትም ከዝርግፍ ወርቅ ጋር የወርቅ ጥላቸዉን ይዘው ይመጣሉ። ቀስተ ደመና በመሰለ በናርዱ ሽቱ መብረቅም በመሰለ የእሳት ሰረገላ ሆነን ",
           "c": "black"
         },
         {
-          "t": "፡ '-:: አጌና የባህርይ አባ አብ የባህርይ የአዉነት መንሪስ፡ ጳሪትሊጦስ",
+          "t": "ይህችን ጸሎት",
           "c": "red"
         },
         {
-          "t": "።=ሮሱ እንመጣለን አስራ ሁለቱ ሊቃነ መላእክትም ከዝርግፍ ወርቅ ጋር የወርቅ <ላቸዉን ይዘው ይመጣሉ፡፡ ቀስተ ደመና 4መሰለ በናርዱ ሽቱ መብረቅም በመሰለ",
-          "c": "black"
-        },
-        {
-          "t": "(”",
-          "c": "red"
-        },
-        {
-          "t": "።አሳት ሰረገላ ሆነን",
-          "c": "black"
-        },
-        {
-          "t": "ይህትን ::::- ጸሎት | -.-",
-          "c": "red"
-        },
-        {
-          "t": "የያበቨ ሓው እንቀበለው ዘንድ አስከ አምስተኛው ጎማይ",
-          "c": "black"
-        },
-        {
-          "t": "['",
-          "c": "red"
-        },
-        {
-          "t": "ድረስ አንወርዳለን፤ በደረቴ አቅፌ 1ህረ",
-          "c": "black"
-        },
-        {
-          "t": "፡ ,",
-          "c": "red"
-        },
-        {
-          "t": "እሳትን አሻግረዋለሁ፡፡ ወደ መንበረ ።=ንግስቴም",
-          "c": "black"
-        },
-        {
-          "t": "/",
-          "c": "red"
-        },
-        {
-          "t": "አቀርበዋለሁ፡፡ መንፈሳዊያን =2ሰራዊት መላእክት አለቆችም በአዩት ጊዜ =ስ ይላቸዋል፡፡ ይህቺን ጸሎት በንጽህና .- ጻየጸለየ የያዛትን ሰው በክንፋቸው",
+          "t": " የያዘ ሰው እንቀበለው ዘንድ እስከ አምስተኛው ሰማይ ድረስ እንወርዳለን፤ በደረቴ አቅፌ ባህረ እሳትን አሻግረዋለሁ። ወደ መንበረ መንግስቴም አቀርበዋለሁ። መንፈሳዊያን የሰራዊት መላእክት አለቆችም በአዩት ጊዜ ደስ ይላቸዋል። ይህቺን ጸሎት በንጽህና እየጸለየ የያዛትን ሰው በክንፋቸው",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        128,
+        483,
+        2239,
+        3256
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "92c715b0de17188a7fcfb96e439adcf9a09bde69a643d269ed01e980048b2ba7",
+      "source_sha256": "741bcb9ea4770b72203b53c63d83c4e0ebe8015a4e13559e115d9f13a6494568",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_191.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.851,
+      "created_at": "2026-10-24T01:20:27.924671+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "8e49d54f52b557522a4181f91d3716faf45c5f3fe5ac024ebf4485f71fad87f5",
+      "image": "741bcb9ea4770b72203b53c63d83c4e0ebe8015a4e13559e115d9f13a6494568",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 4,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_191.json"
 }

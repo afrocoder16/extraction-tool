@@ -1,6 +1,63 @@
 {
   "page": 70,
-  "notes": "Only a short continuation fragment is present. The FIRST line is cut off by the top edge and is not transcribed. The Latin website address is a digitization watermark and is omitted. The readable text ends mid-sentence after 'ከአሳቦች'.",
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከድቂቀ አዳምም ትበልጫለሽ። ከአሳቦች",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        335,
+        72,
+        2449,
+        223
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
   "corrections": [],
-  "blocks": []
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f91ab56ee962b46ecb66c32e10a718b54957592d4e6531d7736b1b9ae7c65fcf",
+      "source_sha256": "f113b4521c4640f344f4c1476dc966b510e298e7af5dbcd462a1761ff8a2b12c",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_070.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 23.122,
+      "created_at": "2026-10-23T23:52:06.093957+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "70a3e5aedb6898f19b41bb7d1aa38d360d777a890369ae50d4980ff04f41c937",
+      "image": "f113b4521c4640f344f4c1476dc966b510e298e7af5dbcd462a1761ff8a2b12c",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_070.json"
 }

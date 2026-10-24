@@ -1,0 +1,110 @@
+{
+  "page": 11,
+  "notes": "'፫ ጊዜ በል' inside verse ፫ is a rubric (an instruction to the reader to say it three times), printed in red inline with the prayer. The last line of the page is cut off by the bottom edge — it begins 'እሰግዳለሁ' and continues on the next page; it is not transcribed here.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [
+    {
+      "printed": "ከቻር",
+      "suggested": "ከቸር",
+      "reason": "ቻ should be ቸ — the phrase is 'ቸር አባትህ' (your gracious Father)",
+      "applied": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፭  የዘወትር ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ኃጢአት በሚሠረይባት በአንዲት ጥምቀትም እናምናለን የሙታንንም መነሣት ተስፋ እናደርጋለን የሚመጣውንም ሕይወት ለዘላለሙ።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፪",
+      "spans": [
+        {
+          "t": "አሸናፌ እግዚአብሔር ቅዱስ ቅዱስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " ተብለህ ትመሰገናለህ። ምስጋናህም በሰማይ በምድር የመላ ነው። ",
+          "c": "black"
+        },
+        {
+          "t": "ክርስቶስ",
+          "c": "red"
+        },
+        {
+          "t": " ሆይ ላንተ እንሰግድልሃለን ሰማያዊ ከሆነ ከቸር ",
+          "c": "black"
+        },
+        {
+          "t": "አባትህ",
+          "c": "red"
+        },
+        {
+          "t": " ጋር አዳኝ ከሆነ ",
+          "c": "black"
+        },
+        {
+          "t": "ከመንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " ጋራ እንሰግድልሃለን ወደዚህ ዓለም መጥተህ አድነኸናልና።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፫",
+      "spans": [
+        {
+          "t": "ለአብ ለወልድ ለመንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " አንዲት ስግደት እሰግዳለሁ ",
+          "c": "black"
+        },
+        {
+          "t": "፫ ጊዜ በል",
+          "c": "red"
+        },
+        {
+          "t": " አንድ ሲሆን ሦስት ሦስት ሲሆኑ አንድ በአካል ሦስት ሲሆኑ በመለኮት አንድ ለሚሆኑ እሰግዳለሁ ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክን ለወለደች ለእመቤታችን ለድንግል ማርያም ",
+          "c": "red"
+        },
+        {
+          "t": "እሰግዳለሁ፤ዓለምን ለማዳን ሲል",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Final line cut off; begins 'እሰግዳለሁ'."
+    }
+  ],
+  "uncertain": []
+}

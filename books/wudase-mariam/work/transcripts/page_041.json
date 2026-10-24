@@ -1,18 +1,7 @@
 {
   "page": 41,
-  "notes": "The page ends mid-sentence after 'የወለድሽልን'.",
-  "corrections": [],
+  "page_header": "፳ የረቡዕ ውዳሴ ማርያም",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፳፭  የረቡዕ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
     {
       "type": "verse",
       "verse_num_am": "፪",
@@ -22,10 +11,17 @@
           "c": "red"
         },
         {
-          "t": " የወለድሽ እመቤታችን ሆይ ትውልድ ሁሉ አንቺን ብቻ ያመሰግኑሻል።",
+          "t": " የወለድሽ እመቤታችን ሆይ ትውልድ ሁሉ አንችን ብቻ ያመሰግኑሻል።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        413,
+        486,
+        2483,
+        926
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -36,7 +32,7 @@
           "c": "red"
         },
         {
-          "t": " ሀገር (ከተማ) ሆይ ነቢያት ድንቅ ድንቅ ነገርን ተናገሩልሽ። ደስ የተሰኙ የጻድቃን ማደሪያ ሆነሻልና የምድር ነገሥታት ሁሉ በብርሃንሽ ይሄዳሉ። ሕዝቡም ሠራዊቶቻቸውም በብርሃንሽ ይሄዳሉ። ",
+          "t": " ሀገር (ከተማ) ሆይ ነቢያት ድንቅ ድንቅ ነገርን ተናገሩልሽ፤ ደስ የተሰኙ የጻድቃን ማደሪያ ሆነሻልና የምድር ነገሥታት ሁሉ በብርሃንሽ ይሄዳሉ። ሕዝቡም ሠራዊቶቻቸውም በብርሃንሽ ይሄዳሉ፤ ",
           "c": "black"
         },
         {
@@ -44,21 +40,28 @@
           "c": "red"
         },
         {
-          "t": " ትውልድ ሁሉ ያመሰግኑሻል ካንቺ ለተወለደውም ይሰግዱለታል ያገኑታልም። ",
+          "t": " ትውልድ ሁሉ ያመሰግኑሻል። ካንቺ ለተወለደውም ይሰግዱለታል ያገኑታልም። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        376,
+        962,
+        2474,
+        2416
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፬",
       "spans": [
         {
-          "t": "የዝናብ ውኃ የታየብሽ የእውነት ደመና አንቺ ነሽ። አብ የልጁ ምልክት አደረገሽ መንፈስ ቅዱስ አደረብሽ የልዑል ኃይል ጋረደሽ። ",
+          "t": "የዝናብ ውሃ የታየብሽ የእውነት ደመና አንቺ ነሽ። አብ የልጁ ምልክት አደረገሽ መንፈስ ቅዱስ አደረብሽ የልዑል ኃይል ጋረደሽ፤ ",
           "c": "black"
         },
         {
@@ -66,10 +69,57 @@
           "c": "red"
         },
         {
-          "t": " ለዘለዓለም የሚኖር የአብን ልጅ ቃልን የወለድሽልን መጥቶም ከኃጢአት አዳነን።",
+          "t": " ለዘለዓለም የሚኖር የአብን ልጅ ቃልን የወለድሽልን መጥቶም ከኃወኔት ኣየነን።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        351,
+        2398,
+        2441,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "ae56750423c0f57146550087d2628693057a54741f8c11de2f61093f69d043ab",
+      "source_sha256": "e72be5a0af9f321aa765d32e60965f9d671ce2906e6ff3b5de21b95db645fc9f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_041.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 86.938,
+      "created_at": "2026-10-23T23:32:28.362375+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "d6a9b563e6286f6c2503135fbaff4d54db3c71240bb26e0259a26e4ea2f481e3",
+      "image": "e72be5a0af9f321aa765d32e60965f9d671ce2906e6ff3b5de21b95db645fc9f",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_041.json"
 }

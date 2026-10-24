@@ -1,0 +1,83 @@
+{
+  "page": 25,
+  "notes": "This page carries the end of the Monday section and the start of the Tuesday section (title: 'ማክሰኞ የሚጸለይ...'), separated by an ornament border. 'አመሰገንሁ' at the end of verse ፲ reads as printed; 'አመሰገንህ' (we praised you) would fit the surrounding second-person forms better, but the final glyph is not clear enough to raise as a correction. The page ends mid-sentence after 'እኛን'.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፲፯  የሰኞ ውዳሴ ማርያም",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲",
+      "spans": [
+        {
+          "t": "በዚህ ዓለም ለሚኖሩ ሰዎች ሁሉ የምታበራ እውነተኛ ብርሃን ስለሰው ፍቅር ወደ ዓለም የመጣህ። ፍጥረት ሁሉ በመምጣትህ ደስ አለው አዳምን ከስህተት አድነኸዋልና ሔዋንንም ከሞት ጻዕረኝነት ነፃ አድርገኻታልና የምንወለድበትን መንፈስ (ረቂቁን ልደት) ሰጠኸን ከመላእክት ጋርም አመሰገንህ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "ornament",
+      "verse_num_am": "",
+      "spans": []
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ማክሰኞ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሁለተኛ ክፍል",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፩",
+      "spans": [
+        {
+          "t": "የመመኪያችን",
+          "c": "red"
+        },
+        {
+          "t": " ዘውድ የድኅነታችን መጀመሪያ የንጽሕናችንም መሠረት እኛን ስለማዳን ሰው የሆነ የእግዚአብሔርን",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Page ends mid-sentence after 'እኛን'."
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "አመሰገንሁ",
+      "why": "አመሰገንህ would fit the surrounding second-person forms"
+    }
+  ]
+}

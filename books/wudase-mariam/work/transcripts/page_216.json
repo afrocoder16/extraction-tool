@@ -1,25 +1,63 @@
 {
   "page": 216,
-  "notes": "Partial page: two lines, and the FIRST is cut off by the top edge — only the bottom strokes of its glyphs survive, so it is not transcribed. It continues 'ቅዱሳን እጆችሽን ንጹሃን' from page 215 and appears to begin 'ጣቶችሽን ወደ ልጅሽ ዘርጊ', but that is inference, not reading. The second line is clear and runs on into page 217 ('...በአጠገቤ ተገኝተሽ አረጋጊኝ'). No red ink on this page — the audit's trace red reading here is scanner speckle.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [],
+  "page_header": "",
   "blocks": [
     {
-      "type": "verse",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ጭንቀቴንና መከራዬን ለማቃለል በአጠገቤ",
+          "t": "ጣጥጥበገ ወጺ ልድበ ክርጊ እገበ኿ዉን ጭንቄንና መከራዬን ለማቃለል በአጠገቤ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        124,
+        0,
+        2330,
+        255
+      ],
+      "layout_category": "Text"
     }
   ],
-  "clipped": [
-    {
-      "edge": "top",
-      "note": "First line cut off by the top edge."
-    }
-  ],
-  "uncertain": []
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "9cd1ff27a9fb97f7431494f64a224712c6bd93456dd2f9c65b77d3ee9e9ccbee",
+      "source_sha256": "22cc18d3747a4e24432c69f35e2210a0a960f891273460750371486d4a51356c",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_216.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 26.727,
+      "created_at": "2026-10-24T01:39:29.234737+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "49c2b804d48148c1c823e9a1a12e86cd041f4b06305f44cb6420fa98de07a025",
+      "image": "22cc18d3747a4e24432c69f35e2210a0a960f891273460750371486d4a51356c",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_216.json"
 }

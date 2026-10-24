@@ -1,22 +1,23 @@
 {
   "page": 69,
-  "notes": "This page starts the Friday section. A faint English digitization watermark is not transcribed. The LAST line is cut off by the bottom edge and is omitted; verse ፫ stops after 'ከመላእክት'.",
-  "corrections": [],
+  "page_header": "",
   "blocks": [
-    {
-      "type": "ornament",
-      "verse_num_am": "",
-      "spans": []
-    },
     {
       "type": "title",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ዓርብ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና",
+          "t": "ዓርብ የሚፀለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        322,
+        635,
+        2433,
+        941
+      ],
+      "layout_category": "Section-header"
     },
     {
       "type": "title",
@@ -26,53 +27,109 @@
           "t": "አምስተኛ ክፍል",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        961,
+        1133,
+        1795,
+        1262
+      ],
+      "layout_category": "Section-header"
     },
     {
       "type": "verse",
       "verse_num_am": "፩",
       "spans": [
         {
-          "t": "ከሴቶች ተለይተሽ የተባረክሽ ነሽ። የማኅፀንሽም ፍሬ የተባረክ ነው ያለርኩሰት አምላክን የወለድሽ ድንግል ",
-          "c": "black"
-        },
-        {
-          "t": "ማርያም",
-          "c": "red"
-        },
-        {
-          "t": " ሆይ እውነተኛ ፀሐይ ከአንቺ ወጣልን (ጌታ ተወለደልን) በክንፈ ረድኤቱም አቀረበን። እርሱ ፈጥሮናልና። ",
+          "t": "ከሴቶሽ ተለይተሽ የተባረክሽ ነሽ። የሠኅፀንሽም ፍሬ የተባረክ ነው ያለርኵሰት አምላክን የወለድሽ ድንግል ማርያም ሆይ እውነተኛ ፀሐይ ከአንቺ ወጣልን (ጌታ ተወለደልን) በክንፈ ረድኤቱም አቀረበን። እርሱ ፈጥሮናልና። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        322,
+        1398,
+        2461,
+        2511
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፪",
       "spans": [
         {
-          "t": "አምላክን የወለድሽ እመቤታችን ሆይ",
-          "c": "red"
-        },
-        {
-          "t": " የብርሃን እናት ነሽና አንቺን ብቻሽን በክብር በምስጋና እናገንሻለን።",
+          "t": "አምላክን የወለድሽ እመቤታችን ሆይ የብርሃን እናት ነሽና አንችን ብቻሽን በክብር በምስጋና እናገንሻለን።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        348,
+        2550,
+        2451,
+        3014
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፫",
       "spans": [
         {
-          "t": "የተባረክሽ አንቺ ከመላእክት ከመላእክት ትበልጫለሽ ካያቀቀ ኣደምም ትበልመላሽ ከድቂቀ አዳምም ትበልጫለሽ፡፡ ከአሳቦች",
+          "t": "የተባረክሽ አንቺ ከመላእክት ትባልጫለሽ ከያቂቂ ኣዴምም ትባልጫለሽ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        348,
+        3046,
+        2451,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "bfefe30cd9259ff1ea0f967c1fbd25d63ee931ca26344995adb7068733a92266",
+      "source_sha256": "935fc35ffb64071027425b86cc8287a01bc011a96f5d04aa5be8b6765a1d1a8d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_069.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.562,
+      "created_at": "2026-10-23T23:51:42.965894+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "db1e96cb6220b984da23a4a41efe029fb4458728ec8f744e45d48cb97a3dec2d",
+      "image": "935fc35ffb64071027425b86cc8287a01bc011a96f5d04aa5be8b6765a1d1a8d",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 4,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_069.json"
 }

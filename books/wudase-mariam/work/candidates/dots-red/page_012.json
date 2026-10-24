@@ -1,0 +1,21 @@
+{
+  "page": 12,
+  "key": {
+    "mask": "0a18db220cf5b0b3cfe71bd0f6c621e9a2a20c6b58887a6a654c85407357b0de",
+    "image": "6c52302673f8d5490cd238aadc669dabefb1418a8f451bcd336abb16b0f1bc88",
+    "version": "red-crop-v1",
+    "model": "dots-studio/dots.mocr"
+  },
+  "regions": [
+    {
+      "bbox": [
+        74,
+        84,
+        940,
+        205
+      ],
+      "text": "ኢየሱስ ክርስቶስ"
+    }
+  ],
+  "created_at": "2026-10-24T02:24:24.191005+00:00"
+}

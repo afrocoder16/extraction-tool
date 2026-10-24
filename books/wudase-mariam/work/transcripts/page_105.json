@@ -1,39 +1,92 @@
 {
   "page": 105,
-  "notes": "The prayer text is a continuation of verse ፭ from page 103.",
+  "page_header": "፺ አንቀጸ ብርሃን",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የሚያውቅ ሳይኖር ከሰማይ ወረደ ብለን እናምናለን። በማህፀንሽ አደረና ዘጠኝ ወር ተሸክመሽው ሰማያት ደስ ተሰኙ፤ ምድርም ደስ ተሰኘች፤ ",
+          "c": "black"
+        },
+        {
+          "t": "በልጅሽ መወለድ መላእክት",
+          "c": "red"
+        },
+        {
+          "t": " ምስራች ተናገሩ። የሰማይ ጭፍሮችም መላእክትም ምስጋና በሰማይ ",
+          "c": "black"
+        },
+        {
+          "t": "ለእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ይሁን በምድርም ላይ ሰላም በሰዉም እርሱ በሚፈቅደው እያሉ አመሰገኑ። እረኞችም በቤተልሔም ካዩትና ከሰሙት የተነሳ አደነቁ፤ የጥበብ ሰዎች ብልሆች ሰዎች ",
+          "c": "black"
+        },
+        {
+          "t": "ለልጅሽ",
+          "c": "red"
+        },
+        {
+          "t": " ሊሰግዱና አንቺን ሊያገለግሉ ኮከብን አይተው ከሩቅ አገር መጡ። ከምስራቅ ጀምሮ መርቶ እስከ ቤተልሔም ያደረሳቸው ያ ኮከብ አንቺ ከሕፃንሽ ጋር ባለሽበት ቦታ ላይ ቆመ። እነዚያ ብልሆች ሰዎች አይተው በታላቅ ደስታ ደስ ተሰኙ ወደ እርሱ ማይ እፀንኝ የፀር የፀረ ያመጋቢ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        307,
+        503,
+        2483,
+        3300
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
   "corrections": [],
   "uncertain": [
     {
-      "text": "ከምሥራቅ",
-      "why": "The ሥ/ስ glyph is softened by the scan; ከምሥራቅ is the best visible reading."
+      "text": "39 አካፅ39 እC 0ልዥ0ት 0+ ሉ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "The verse continues after the fully visible line ending 'ወደ እርሱ'; the next line is sliced by the bottom edge and omitted."
-    }
-  ],
-  "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "፷፱  አንቀጸ ብርሃን", "c": "black" }
-      ]
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7c078167bc813dc27db6d50ad3a3b4cec9db71320ae66cef9e795835c33eaeb0",
+      "source_sha256": "569dfe1b68eb48c514b29db6fb1b8186d491e4162246828db936f11b542a675e",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_105.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.152,
+      "created_at": "2026-10-24T00:17:34.850465+00:00",
+      "derivative_input": false
     },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "የሚያውቅ ሳይኖር ከሰማይ ወረደ ብለን እናምናለን። በማህፀንሽ አደረና ዘጠኝ ወር ተሸክመሽው ሰማያት ደስ ተሰኙ፤ ምድርም ደስ ተሰኘች፤ ", "c": "black" },
-        { "t": "በልጅሽ መወለድ መላእክት", "c": "red" },
-        { "t": " ምስራች ተናገሩ። የሰማይ ጭፍሮችም መላእክትም ምስጋና በሰማይ ", "c": "black" },
-        { "t": "ለእግዚአብሔር", "c": "red" },
-        { "t": " ይሁን በምድርም ላይ ሰላም በሰውም እርሱ በሚፈቅደው እያሉ አመሰገኑ። እረኞችም በቤተልሔም ካዩትና ከሰሙት የተነሳ አደነቁ፤ የጥበብ ሰዎች ብልሆች ሰዎች ", "c": "black" },
-        { "t": "ለልጅሽ", "c": "red" },
-        { "t": " ሊሰግዱና አንቺን ሊያገለግሉ ኮከብን አይተው ከሩቅ አገር መጡ። ከምሥራቅ ጀምሮ መርቶ እስከ ቤተልሔም ያደረሳቸው ያ ኮከብ አንቺ ከሕፃንሽ ጋር ባለሽበት ቦታ ላይ ቆመ። እነዚያ ብልሆች ሰዎች አይተው በታላቅ ደስታ ደስ ተሰኙ። ወደ እርሱ", "c": "black" }
-      ]
-    }
-  ]
+    "red": {
+      "mask": "7ea6a249d3a696e0fc9b358fc3bd8233bd01e9e96ef9f5041ed242be2c17d86c",
+      "image": "569dfe1b68eb48c514b29db6fb1b8186d491e4162246828db936f11b542a675e",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_105.json"
 }

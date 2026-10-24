@@ -1,0 +1,104 @@
+{
+  "page": 147,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 8 of 73 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "በክብ",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ክብራ",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "የኢየሱስ",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ልጄ",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ወዳጄ",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "ጌታዬ",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "ንጉጫ",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "በግዕቨ",
+      "why": "Tesseract confidence 47 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የሰኔ ጎልጎታ",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንድ አምላክ በሚሆን በክብ በወልድ በመንፈስ ቅዱስ ስም በአውነት አናምናለን፡፡",
+          "c": "red"
+        },
+        {
+          "t": "ልመናዋ ክብራ የልጅዋ ፐርነት ከሁላችን ጋር ይኑር ለ[ላለሙ አሜን፡፡ አምላክን የወለደች በውስጥ በአፍኣ ንጽሕት የምትሆን",
+          "c": "black"
+        },
+        {
+          "t": "የብርሃን አናቱ አመቤታችን አግዝአትነ- ማሪያም",
+          "c": "red"
+        },
+        {
+          "t": "በሰኔ ሐያ አንድ ቀን በጎልጎታ ይኸውም",
+          "c": "black"
+        },
+        {
+          "t": "የጌታችን የመድሃኒታችን የኢየሱስ ክርስቶስ",
+          "c": "red"
+        },
+        {
+          "t": "መካነ መቃብር በሚሆን እንዲህ ስጉል የጸለየችው ጻሎት ይኽ ነው፡፡ |",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ ጌታዬ አምላኬና ንጉጫ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ኢየሱስ ክርስቶስ ሆይ፤ ሰውን",
+          "c": "red"
+        },
+        {
+          "t": "ለማዳን ስተል በፈቃድህ ከኔ ተወልድህ ጡቶቼንም ጠብተህ በግዕቨ ሕባናት ብታድግ ሰማይና",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

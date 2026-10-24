@@ -1,14 +1,7 @@
 {
   "page": 3,
-  "notes": "Opening page of የዘወትር ጸሎት. A stray dash-like mark appears between 'ስምህን' and 'እናመስግናለን' and is treated as a scan artefact, not printed text. The page ends mid-sentence; 'የጌቶች ጌታ' continues on the next page. Note the print alternates 'እክድሃለው' and 'እክድሃለሁ' within one paragraph — both transcribed as printed.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [],
+  "page_header": "",
   "blocks": [
-    {
-      "type": "ornament",
-      "verse_num_am": "",
-      "spans": []
-    },
     {
       "type": "title",
       "verse_num_am": "",
@@ -17,21 +10,35 @@
           "t": "የዘወትር ጸሎት።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        756,
+        444,
+        1693,
+        583
+      ],
+      "layout_category": "Section-header"
     },
     {
-      "type": "instruction",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "በጌታዬ በኢየሱስ ክርስቶስ ትእምርተ",
+          "t": "በጌታዬ በኢየሱስ ክርስቶስ",
           "c": "red"
         },
         {
-          "t": " መስቀል ፊቴን እና መላ ሰውነቴን ሦስት ጊዜ አማትባለው።",
+          "t": " ትእምርተ መስቀል ፊቴን እና መሳ ሰውነቴን ሦስት ጊዜ አማትባለው።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        122,
+        725,
+        2101,
+        1131
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -50,7 +57,7 @@
           "c": "red"
         },
         {
-          "t": " እያመንኩና እየተማፀንኩ ጠላቴ ሰይጣንን እክድሃለው። በዚች በእናቴ በቤተ ክርስቲያን ፊት ቁሜ እክድሃለው። ለዚህም ምስክሬ ",
+          "t": " እያመንኩና እየተማፀንኩ ጠላቴ ስይጣንን እክድሃለው። በዚች በእናቴ በቤተ ክርስቲያን ፊት ቁሜ እክድሃለው። ለዚህም ምስክሬ ",
           "c": "black"
         },
         {
@@ -61,7 +68,14 @@
           "t": " ናት በዚህም ዓለም በወዲያኛውም ዓለም እሷን አምባ መጠጊያ አድርጌ እክድሃለሁ።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        112,
+        1156,
+        2104,
+        2392
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -79,14 +93,54 @@
           "t": "የጌቶች ጌታ",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        119,
+        2411,
+        2108,
+        3256
+      ],
+      "layout_category": "Text"
     }
   ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
   "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Page ends mid-sentence after 'የጌቶች ጌታ'."
-    }
-  ]
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "0211290a4dcf3058211ec302298844b9a11e48f758f078f4646a2a0470b42981",
+      "source_sha256": "bc5eb46046f59514f342b457b69c828a56c433b6ae09e07ce1cfa5832ddd43a4",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_003.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 90.029,
+      "created_at": "2026-10-23T23:02:18.509326+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "e4431a0500fe68c099e20ebe8122b1cf946656d119c6c325a9460ecbb76a9279",
+      "image": "bc5eb46046f59514f342b457b69c828a56c433b6ae09e07ce1cfa5832ddd43a4",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 11,
+    "red_located": 11
+  },
+  "_legacy": "transcripts-legacy/page_003.json"
 }

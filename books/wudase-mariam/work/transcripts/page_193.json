@@ -1,122 +1,87 @@
 {
   "page": 193,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 12 of 86 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "በሸጠኙን",
-      "why": "Tesseract confidence 60 — check against the scan"
-    },
-    {
-      "text": "እንደፄሄደ፤",
-      "why": "Tesseract confidence 24 — check against the scan"
-    },
-    {
-      "text": "በአገኛተትም",
-      "why": "Tesseract confidence 46 — check against the scan"
-    },
-    {
-      "text": "ዘጠኙ",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "የጠፋችዉ",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": "ዓድቃን",
-      "why": "Tesseract confidence 46 — check against the scan"
-    },
-    {
-      "text": "እንደሚደረግ፤",
-      "why": "Tesseract confidence 47 — check against the scan"
-    },
-    {
-      "text": "ኃጥእ",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": ":",
-      "why": "Tesseract confidence 32 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 23 — check against the scan"
-    },
-    {
-      "text": "ክዝከ",
-      "why": "Tesseract confidence 30 — check against the scan"
-    },
-    {
-      "text": "ከማ‹የልፈውጡው",
-      "why": "Tesseract confidence 44 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "34 የሰኔ ጎልጎታ",
   "blocks": [
     {
-      "type": "verse",
-      "verse_num_am": "፳፪",
+      "type": "prayer",
+      "verse_num_am": "",
       "spans": [
         {
-          "t": "የሰኔ ጎልጎታ መላእክት ይቀበሉታል፡፡ በቅዱስ ወንጌል የተነገረዉን አልሰማሽምን? መቶ በጎች ያሉት ሰው ከመቶ አንዲቷ ብትጠፋበት ዘጠና - በሸጠኙን በዱር ትቶ የጠፋችዉን በግ ሊፈልግ እንደፄሄደ፤ በአገኛተትም ጊቤ በትከሻው ተሸክሞ ካልጠፉት ከዘጠና ዘጠኙ በጎች ይልቅ ጠፍታ በተገኘችው በግ ደስ አንደሚሰው ባልንጀሮቹንና ጎረቤቶቹንም ጠርቶ የጠፋችዉ በጌ ተገኝታለችና ደስ ይበላችሁ ይላቸዋል፡፡",
+          "t": "መላእክት ይቀበሉታል። በቅዱስ ወንጌል የተነገረዉን አልሰሚሽምን? መቶ በጎች ያሉት ሰው ከመቶ አንዲቷ ብትጠፋበት ዘጠና ዘጠኙን በዱር ትቶ የጠፋችዉን በግ ሊፈልግ እንደሄደ፤ በአገኛትም ጊዜ በትከሻው ተሸክሞ ካልጠፉት ከዘጠና ዘጠኙ በጎች ይልቅ ጠፍታ በተገኘችው በግ ደስ እንደሚለው ባልንጀሮቹንና ጎረቤቶቹንም ጠርቶ የጠፋችዉ በጌ ተገኝታለችና ደስ ይበላችሁ ይላቸዋል። ",
           "c": "black"
         },
         {
-          "t": "አውነት እውነት",
+          "t": "እውነት እውነት",
           "c": "red"
         },
         {
-          "t": ".",
+          "t": " እላችኃለሁ ንስሃን ከማይሹ ፃድቃን ይልቅ ንስሃን በሚገባ ",
           "c": "black"
         },
         {
-          "t": ". |",
+          "t": "አንድ ኃጥእ ሰው በሰማይ",
           "c": "red"
         },
         {
-          "t": "ንስሃን ከማይሹ ዓድቃን ይልቅ ንስፃን በሚገባ",
+          "t": " ታላቅ ደስታ እንደሚደረግ፤ ",
           "c": "black"
         },
         {
-          "t": "|",
+          "t": "ሁለተኛም ይህቺ መጽሐፍ",
           "c": "red"
         },
         {
-          "t": "ደስታ አንድ , እንደሚደረግ፤ ኃጥእ ሰው",
-          "c": "black"
-        },
-        {
-          "t": "ሁለተኛም",
-          "c": "red"
-        },
-        {
-          "t": "በሰማይ :",
-          "c": "black"
-        },
-        {
-          "t": "ይህቺ",
-          "c": "red"
-        },
-        {
-          "t": "ታላቅ |",
-          "c": "black"
-        },
-        {
-          "t": "መጽሐፍ",
-          "c": "red"
-        },
-        {
-          "t": "በሚደግማትና በሚይዛት | ሰው ሰማያዊያን መላእክት ሰራዊት ደስ .- ይሰኛሉ፤ ክዝከ ከማ‹የልፈውጡው ዓለም",
+          "t": " በሚደግማትና በሚይዛት ሰው ሰማያዊያን መላእክት ሰራዊት ደስ ይሰኛሉ፤ ከዚህ ከሚያልፈው ዓለም ወደ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        203,
+        499,
+        2366,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "64a3931734c26c456f3610f9c65ec63b3797159a59c2f3e755cd425099851716",
+      "source_sha256": "66f21ba4bc86ee72c3ab673c5080156239aaae8462fe7ec5fc9331fe289d8add",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_193.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.521,
+      "created_at": "2026-10-24T01:21:48.476133+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "2649ea455e201919ae16ca6c7c7c0d3c3f9da6156a5b3bccb8d0dbce50ab60d6",
+      "image": "66f21ba4bc86ee72c3ab673c5080156239aaae8462fe7ec5fc9331fe289d8add",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 4,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_193.json"
 }

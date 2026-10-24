@@ -1,49 +1,89 @@
 {
   "page": 61,
-  "notes": "The page ends mid-sentence after 'ወልዳላቸዋለችና'; the following line is cut off by the bottom edge and is not transcribed.",
-  "corrections": [],
+  "page_header": "፴ የሐሙስ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፴፬  የሐሙስ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "ለተቀበለው መዳኛችን ለሆነ ሞቱም ከርቤ አመጡለት። ቸር ሰውን ወዳጅ የሆነ አንድ እርሱ ብቻ ነው። ",
+          "t": "ለተቀበለው መዳኛችን ለሆነ ሞቱም ከርቤ አመጡለት። ዸር ሰውን ወዳጅ የሆነ አንድ እርሱ ብቻ ነው። ",
           "c": "black"
         },
         {
-          "t": "ቅድስት ሆይ ለምኝልን።",
+          "t": "ቅድስት ሆይ ልምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        338,
+        519,
+        2495,
+        1164
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፭",
       "spans": [
         {
-          "t": "ከአዳም ጎን አንዲት ዐፅም ማንሣት ምን ይደንቅ? ከእርሱ ሴትን ፈጠረ የሰው ፍጥረትንም ሁሉ ፈጠረ። ጌታ የአብ ቃል ተሰጠ። ከልዩ ድንግልም ሰው ሆነና ",
-          "c": "black"
-        },
-        {
-          "t": "አማኑኤል",
-          "c": "red"
-        },
-        {
-          "t": " ተባለ ስለዚህ ሁል ጊዜ እርስዋን እንለምን፤ ከተወደደ ልጅዋ ታማልደን ዘንድ። በቅዱሳንና በሊቃነ ጳጳሳት ሁሉ ዘንድ ቸር ናት ደጅ የሚጠኑትን ወልዳላቸዋለችና ለነቢያትም ትንቢት የተናገሩለትን ወልዳላቸዋለችና ለሐዋርያትም እስከ ዓለም ዳርቻ በስሙ ያስተማሩለትን ወልዳላቸዋለችና ሰማዕታትና ምዕመናንም የተጋደሉለትን የጥበበቡን ጸጋ ብዛት የማይታወቅ",
+          "t": "ከአዳም ጎን አንዲት ዐፅም ማንሣት ምን ይደንቅ? ከእርሱ ሴትን ፈጠረ የሰው ፍጥረትንም ሁሉ ፈጠረ። ጌታ የአብ ቃል ተሰጠ። ከልዩ ድንግልም ሰው ሆነና አማኑኤል ተባለ ስለዚህ ሁል ጊዜ እርስዋን እንለምን፣ ከተወደደ ልጅዋ ታማልደን ዘንድ። በቅዱሳንና በሲቃነ ጳጳሳት ሁሉ ዘንድ ዸር ናት ደጅ የሚጠኑትን ወልዳላቸዋለችና ለነቢያትም ትንቢት የተናገሩለትን ወልዳላቸዋለችና ለሐዋርያትም እስከ ዓለም ዳርቻ በስሙ ያስተማሩለትን ወልዳላቸዋለችና ስማዕታትና ምዕመናንም ይቁጋያሉለትን",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        315,
+        1187,
+        2495,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "አማርኛ እግዚእ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "a893724cb6a8002b4ea1bd79cbef0068a8dca85a1f111054f5649c75d67e9dd3",
+      "source_sha256": "949c411701a00f4c4b696de59668325f84ce3af5a0a9e21265d33035beca6434",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_061.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 83.051,
+      "created_at": "2026-10-23T23:46:24.138385+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "a5a6cdea88271b78bb7b739e1ee6f9f2f1a662a39cc72b299bd6589ff3f5e189",
+      "image": "949c411701a00f4c4b696de59668325f84ce3af5a0a9e21265d33035beca6434",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 3,
+    "red_located": 2
+  },
+  "_legacy": "transcripts-legacy/page_061.json"
 }

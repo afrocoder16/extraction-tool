@@ -1,0 +1,92 @@
+{
+  "page": 3,
+  "notes": "Opening page of የዘወትር ጸሎት. A stray dash-like mark appears between 'ስምህን' and 'እናመስግናለን' and is treated as a scan artefact, not printed text. The page ends mid-sentence; 'የጌቶች ጌታ' continues on the next page. Note the print alternates 'እክድሃለው' and 'እክድሃለሁ' within one paragraph — both transcribed as printed.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "ornament",
+      "verse_num_am": "",
+      "spans": []
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የዘወትር ጸሎት።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "instruction",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በጌታዬ በኢየሱስ ክርስቶስ ትእምርተ",
+          "c": "red"
+        },
+        {
+          "t": " መስቀል ፊቴን እና መላ ሰውነቴን ሦስት ጊዜ አማትባለው።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፩",
+      "spans": [
+        {
+          "t": "አንድ አምላክ በሚሆን በአብ በወልድ በመንፈስ ቅዱስ ስም",
+          "c": "red"
+        },
+        {
+          "t": " ንጹሕ ልዩ ክቡር ጽሩይ በሆኑ በሦስትነት ወይም ",
+          "c": "black"
+        },
+        {
+          "t": "በሥላሴ",
+          "c": "red"
+        },
+        {
+          "t": " እያመንኩና እየተማፀንኩ ጠላቴ ሰይጣንን እክድሃለው። በዚች በእናቴ በቤተ ክርስቲያን ፊት ቁሜ እክድሃለው። ለዚህም ምስክሬ ",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም",
+          "c": "red"
+        },
+        {
+          "t": " ናት በዚህም ዓለም በወዲያኛውም ዓለም እሷን አምባ መጠጊያ አድርጌ እክድሃለሁ።",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፪",
+      "spans": [
+        {
+          "t": "አቤቱ እናመስግንሃለን። አቤቱ እናከብርሃለን አቤቱ እንገዛልሃለን።",
+          "c": "red"
+        },
+        {
+          "t": " አቤቱ ቅዱስ ስምህን እናመስግናለን። ጉልበት ሁሉ የሚሰግድልህ አቤቱ እንሰግድልሃለን አንደበትም ሁሉ ላንተ ይገዛል የአምላኮች አምላክ ",
+          "c": "black"
+        },
+        {
+          "t": "የጌቶች ጌታ",
+          "c": "red"
+        }
+      ]
+    }
+  ],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Page ends mid-sentence after 'የጌቶች ጌታ'."
+    }
+  ]
+}

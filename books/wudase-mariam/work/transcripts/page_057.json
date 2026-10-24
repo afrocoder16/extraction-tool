@@ -1,35 +1,108 @@
 {
   "page": 57,
-  "notes": "The page ends mid-sentence after 'እርሱን'.",
-  "corrections": [],
+  "page_header": "፳፳ የሐሙስ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "፴፪  የሐሙስ ውዳሴ ማርያም", "c": "black" }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "ስለዚህ አምላክን የወለደች እንደሆነች ታወቀች። ", "c": "black" },
-        { "t": "የእግዚአብሔር", "c": "red" },
-        { "t": " የጥበቡ ስፋት ምን ይጠልቅ? በጻዕር በምጥ በልብ ጋር ትወልድ ዘንድ የፈረደባት ማኅፀን የሕይወት መገኛ ሆነች ከባሕርያችን እርግማንን የሚያጠፋልንን ያለ ወንድ ዘር ወለደችልን። ስለዚህም ሰውን የምትወድ ሆይ ክብር ላንተ ይገባል ቸርና የሰውነታችን መድኃኒትም ነህ እያልን እናመስግነው። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "ስለዚህ አምላክን የወለደች እንደሆነች ታወቀች። ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " የጥበቡ ስፋት ምን ይጠልቅ? በጻእር በምጥ በልብ ጋር ትወልድ ዘንድ የፈረደባት ማኅፀን የሕይወት መገኛ ሆነች ከባሕርያችን እርግማንን የሚያጠፋልንን ያለ ወንድ ዘር ወለደችልን። ስለዚህም ሰውን የምትወድ ሆይ ክብር ላንተ ይገባል፤ ቸርና የሰውነታችን መድኃኒትም ነህ እያልን እናመስግነው። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ልምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        420,
+        447,
+        2480,
+        2162
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፬",
       "spans": [
-        { "t": "ያለ ወንድ ዘር አምላክን የወለደች ድንግል የማኅፀኗ ሥራ ምን ይደንቅ? ለዮሴፍ የታየው መልአኩ ከእርሷ በመንፈስ ቅዱስ የሚወለደው ያለ መለወጥ ሰው የሚሆነው ", "c": "black" },
-        { "t": "የእግዚአብሔር", "c": "red" },
-        { "t": " ቃል ነው ብሎ መስክሯልና። ", "c": "black" },
-        { "t": "ማርያም", "c": "red" },
-        { "t": " የዚህ ደስታ ዕፅፍ የሆነ እርሱን", "c": "black" }
-      ]
+        {
+          "t": "ያለ ወንድ ዘር አምላክን የወለደች ድንግል የማኅፀንዋ ሥራ ምን ይደንቅ? ለዮሴፍ የታየው መልአኩ ከእርሷ በመንፈስ ቅዱስ የሚወለደው ያለ መስወጥ ሰው የሚሆነው ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ቃል ነው ብሎ መስክሯልና። ",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም",
+          "c": "red"
+        },
+        {
+          "t": " የዚህ ደስታ ዕፅፍ የሆነ እርሱን",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        410,
+        2198,
+        2480,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "fae18a28e5a0bdf83f78f9b662b0c0280ba00b1722c12daec8a2d06f71f67b78",
+      "source_sha256": "e467484fa63e85509f2600a9148f866670541bd20f5171796a2b60533c6224b5",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_057.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.293,
+      "created_at": "2026-10-23T23:43:40.533279+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "4a75bed5ab4a01b6bfc4ae87981daeb0a1c264e259809b7350f71735ac602bcb",
+      "image": "e467484fa63e85509f2600a9148f866670541bd20f5171796a2b60533c6224b5",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_057.json"
 }

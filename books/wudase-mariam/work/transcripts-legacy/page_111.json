@@ -1,0 +1,90 @@
+{
+  "page": 111,
+  "notes": "This page continues verse ፯ from the partial scan on page 110. ባለሟልነትን confirmed against page 213, where the same word prints clearly.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "The next stanza begins at the bottom edge, but its first line is sliced through and omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፸፪  አንቀጸ ብርሃን",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አለሽ ጸጋን ያገኘሽ፤ ሆይ ደስ ይበልሽ ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ካንቺ ጋር ነው ከሴቶች ይልቅ የተባረክሽ ነሽ የሁሉ ገዥ በሆነ ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ዘንድ ባለሟልነትን አገኘሽ እነሆ ትጸንሻለሽ ልጅም ትወልጃለሽ ስሙንም ",
+          "c": "black"
+        },
+        {
+          "t": "ኢየሱስ",
+          "c": "red"
+        },
+        {
+          "t": " ትይዋለሽ እርሱም ታላቅ ነው፤ የልዑል ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር ልጅ",
+          "c": "red"
+        },
+        {
+          "t": " ይባላል፤ ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር አምላክ",
+          "c": "red"
+        },
+        {
+          "t": " የአባቱን የዳዊትን ዙፋን ይሰጠዋል ለዘላለሙ የያዕቆብን ወገን ይገዛል ለመንግሥቱም ፍጻሜ የለውም። ",
+          "c": "black"
+        },
+        {
+          "t": "መንፈስ",
+          "c": "red"
+        },
+        {
+          "t": " ያድርብሻል የልዑል ኃይልም ይጸልልሻል። ካንቺ የሚወለደውም ቅዱስ ነው፤ ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ",
+          "c": "red"
+        },
+        {
+          "t": " ካንቺ የተወለደው ይቅርታውን ያድለን ዘንድ ለምኝልን።",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

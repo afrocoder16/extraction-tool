@@ -1,39 +1,23 @@
 {
   "page": 99,
-  "notes": "This page ends the Sunday prayer and starts አንቀጸ ብርሃን after an ornament. The closing line visibly contains a printed run of eight ASCII hyphens, which is retained.",
-  "corrections": [],
-  "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Verse ፪ continues below the visible red phrase ending 'ማርያም ሆይ፤'; the following line is sliced by the bottom edge and omitted."
-    }
-  ],
+  "page_header": "፱፱ የእሁድ ዉዳሴ ጸሎት",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፷፮  የእሁድ ውዳሴ ጸሎት",
-          "c": "black"
-        }
-      ]
-    },
     {
       "type": "verse",
       "verse_num_am": "፲፩",
       "spans": [
         {
-          "t": "ልመናዋ ክብሯ የልጇም ቸርነት ከልጇ ከወዳጇ ከ--------ጋር ለዘለዓለሙ ይኑር አሜን።",
+          "t": "፣ ልመናዋ ክብሯ የልጇም ቸርነት ከልጇ ከወዳጇ ከ--------ጋር ለዘለዓለሙ ይኑር አሜን።",
           "c": "black"
         }
-      ]
-    },
-    {
-      "type": "ornament",
-      "verse_num_am": "",
-      "spans": []
+      ],
+      "bbox": [
+        115,
+        388,
+        2205,
+        812
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "title",
@@ -43,7 +27,14 @@
           "t": "አንቀጸ ብርሃን",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        629,
+        1262,
+        1456,
+        1393
+      ],
+      "layout_category": "Section-header"
     },
     {
       "type": "verse",
@@ -73,7 +64,14 @@
           "t": " ምስጋና አገልግሎት ይገባል።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        115,
+        1567,
+        2205,
+        2182
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -84,14 +82,65 @@
           "c": "red"
         },
         {
-          "t": " ብፅዕት ነሽ የተመሰገንሽና የተባረክሽ ነሽ የከበርሽና ከፍ ከፍ ያልሽ ነሽ የብርሃን መውጫ የሕይወት መሰላል ",
+          "t": " ብፅዕት ነሽ የተመሰገንሽና የተባረክሽ ነሽ የከበርሽና ከፍ ከፍ ያልሽ ነሽ የብርሃን መውጫ የህይወት መሰላል ",
           "c": "black"
         },
         {
-          "t": "አምላክን የወለድሽ እመቤታችን ድንግል ማርያም ሆይ፤ ከተለዩ የተለየሽ የመለኮት ማደሪያ ነሽ፧",
+          "t": "አምላክን የወለድሽ እመቤታችን ድንግል ማሪያም ሆይ ፣ ከተለዩ የተለያሽ የመለከት ማደሪያ ነሽ",
           "c": "red"
+        },
+        {
+          "t": " ፤",
+          "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        107,
+        2369,
+        2205,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "06902d3601282ec1ef717d987579edde8c63106abd313308d05844f5cc244d44",
+      "source_sha256": "05c6487a475d5e7e25d2d01da1443d614ed46ad416788b01a88d69386fb51b7e",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_099.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.912,
+      "created_at": "2026-10-24T00:13:25.321241+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "bd2899a38ebf6ffd63f05ec0c53f714d76e00246b431d9cc09cff6fe74d373ba",
+      "image": "05c6487a475d5e7e25d2d01da1443d614ed46ad416788b01a88d69386fb51b7e",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 9,
+    "red_located": 9
+  },
+  "_legacy": "transcripts-legacy/page_099.json"
 }

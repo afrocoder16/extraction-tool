@@ -1,47 +1,13 @@
 {
   "page": 79,
-  "notes": "This page contains the Saturday sixth-part heading and an ornament border. A white English digitization overlay crossing the ornament is not printed book text and is omitted.",
-  "corrections": [
-    {
-      "printed": "የተቀደሽ",
-      "suggested": "የተቀደስሽ",
-      "reason": "The printed form appears to omit ስ from the phrase meaning ‘you who are sanctified.’",
-      "applied": true
-    }
-  ],
-  "uncertain": [
-    {
-      "text": "በመኻል",
-      "why": "The small interior detail of ኻ is faint and may instead be ካ."
-    },
-    {
-      "text": "እየጮኹ",
-      "why": "The middle glyphs are faint near the bottom of the scan; this is the best visual reading."
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "The final line is sliced by the bottom edge; only its upper portion is visible and it appears to begin 'ጋር'. The line is omitted."
-    }
-  ],
+  "page_header": "፴፱ የቅዳሜ ዉዳሴ ጸሎት",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፶፮  የቅዳሜ ውዳሴ ጸሎት",
-          "c": "black"
-        }
-      ]
-    },
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ሆይ የተባረክሽ ነሽ። የማኅፀንሽም ፍሬ የተባረከ ነው። ጸጋን የተመላሽ ሆይ ",
+          "t": "ሆይ የተባረክሽ ነሽ፣ የማኅፀንሽም ፍሬ የተባረከ ነው። ጸጋን የተመላሽ ሆይ ",
           "c": "black"
         },
         {
@@ -64,22 +30,31 @@
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        59,
+        357,
+        2202,
+        1234
+      ],
+      "layout_category": "Text"
     },
     {
-      "type": "ornament",
-      "verse_num_am": "",
-      "spans": []
-    },
-    {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ቅዳሜ የሚጸለይ አምላክን የወለደች የአመቤታችን የድንግል ማርያም ምስጋና",
+          "t": "ቅዳሜ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        59,
+        1819,
+        2174,
+        2107
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "title",
@@ -89,14 +64,21 @@
           "t": "ስድስተኛ ክፍል",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        706,
+        2261,
+        1522,
+        2388
+      ],
+      "layout_category": "Section-header"
     },
     {
       "type": "verse",
       "verse_num_am": "፩",
       "spans": [
         {
-          "t": "ንጽሕት ነሽ ብርህትም ነሽ፡፡ ጌታን በመኻል እጅሽ የያዝሽው ሆይ በሁሉ የተቀደሽ ነሽ፡፡ ፍጥረት ሁሉ ",
+          "t": "ንጽሕት ነሽ ብርህትም ነሽ። ጌታን በመኻል እጅሽ የያዝሽው ሆይ በሁሉ የተቀደሽ ነሽ። ፍጥረት ሁሉ ",
           "c": "black"
         },
         {
@@ -104,10 +86,57 @@
           "c": "red"
         },
         {
-          "t": " ብለው እየጮኹ ካንቺ ጋር ደስ ይላቸዋል::",
+          "t": " ብለው እየጮኹ ካንቺ ጋር ደስ ይላቸዋል።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        67,
+        2573,
+        2202,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "16f50ad0ebc5f54ddda7d52eaf6a64017b2fa5d6984393891de09bc217e2f3aa",
+      "source_sha256": "cb6a45d173b2b9f03fa0c79f80ed57692bb3ae603508a91ba0863cc9efb2e9f8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_079.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.357,
+      "created_at": "2026-10-23T23:59:06.982571+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "b9ae9ac4c87f53bcaf556753e97f0d8b746a40108705c6e177f09a5c628cff98",
+      "image": "cb6a45d173b2b9f03fa0c79f80ed57692bb3ae603508a91ba0863cc9efb2e9f8",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 9,
+    "red_located": 9
+  },
+  "_legacy": "transcripts-legacy/page_079.json"
 }

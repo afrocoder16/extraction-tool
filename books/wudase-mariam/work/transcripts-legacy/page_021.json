@@ -1,0 +1,112 @@
+{
+  "page": 21,
+  "notes": "Header numeral read as ፲፭ (page 15 of the printed book); small and worn, worth a second look. 'ተወልዳልና' in the last verse may be printed for the standard 'ተወልዷልና', but the glyph is not clear enough to raise as a correction.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፲፭  የሰኞ ውዳሴ ማርያም",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፬",
+      "spans": [
+        {
+          "t": "ነቢዩ ኢሳያስ በመንፈስ ቅዱስ ",
+          "c": "black"
+        },
+        {
+          "t": "የዐማኑኤልን",
+          "c": "red"
+        },
+        {
+          "t": " ምሥጢር አየ ስለዚህም ሕፃን ተወለደልን ወልድም ተሰጠን ብሎ አሰምቶ ተናገረ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፭",
+      "spans": [
+        {
+          "t": "ሰው ሆይ ፈጽመህ ደስ ይበልህ ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ዓለሙን ወዶታልና አንድ ልጁንም የሚያምንበት ሁሉ እስከ ዘለዓለም ፈጽሞ ይድን ዘንድ አሳልፎ ሰጥቷልና ልዑል ክንዱን ሰደደልን። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፮",
+      "spans": [
+        {
+          "t": "የነበረው የሚኖረው የመጣው ዳግመኛ የሚመጣውም ቃል ",
+          "c": "black"
+        },
+        {
+          "t": "ኢየሱስ ክርስቶስ",
+          "c": "red"
+        },
+        {
+          "t": " ያለመለወጥ ፍጹም ሰው ሆነ። አንዱ ወልድ በሥራው ሁሉ አልተለየም ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ቃል መለኮት አንድ ነው እንጂ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፯",
+      "spans": [
+        {
+          "t": "የነቢያት ሀገራቸው ቤተልሔም ሆይ ደስ ይበልሽ ሁለተኛው አዳም ",
+          "c": "black"
+        },
+        {
+          "t": "ክርስቶስ",
+          "c": "red"
+        },
+        {
+          "t": " በአንቺ ዘንድ ተወልዳልና።",
+          "c": "black"
+        }
+      ]
+    }
+  ],
+  "uncertain": [],
+  "clipped": []
+}

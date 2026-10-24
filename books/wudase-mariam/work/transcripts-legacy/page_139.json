@@ -1,0 +1,234 @@
+{
+  "page": 139,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 87 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "፳ሀ",
+      "why": "Tesseract confidence 54 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "አላት፤",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "የልዑል",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "ቅዱስ",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "መልአኩን",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "አኔ",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "አለቸው።",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 27 — check against the scan"
+    },
+    {
+      "text": "ወላዲተ",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "ነሽና",
+      "why": "Tesseract confidence 46 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 37 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፳ሀ ይዊድስዋ መላእክት - አላት፤",
+          "c": "black"
+        },
+        {
+          "t": "መንፈስ",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": "ይጠብቅሻል",
+          "c": "black"
+        },
+        {
+          "t": "የልዑል .. ኃይልም ያድርብሻል",
+          "c": "red"
+        },
+        {
+          "t": "ይህ የሚወለደው",
+          "c": "black"
+        },
+        {
+          "t": "ከሦስቱ",
+          "c": "red"
+        },
+        {
+          "t": "| |",
+          "c": "black"
+        },
+        {
+          "t": "ቅዱስ አንዱ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": "ነው እነሆ ኤልሣቤጥ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ካንቺ ወገን የምትሆን ከሸመገለች ካረጀች ፀነሰች ልጅም አገኘች እነሆ ይህ ስድስት ወር ሆነ መካን ሲሏት",
+          "c": "black"
+        },
+        {
+          "t": "ለእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": "የሚሳነው ነገር የለምና፡::",
+          "c": "black"
+        },
+        {
+          "t": "ማርያምም መልአኩን",
+          "c": "red"
+        },
+        {
+          "t": ".- ስንደ ቃልህ ይደረግልኝ አኔ",
+          "c": "black"
+        },
+        {
+          "t": "ለእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": "ባሪያው ነኝ አለቸው።",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፻. መልአኩ ገብርኤል ማርያም",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": ".-",
+          "c": "black"
+        },
+        {
+          "t": "ድንግል",
+          "c": "red"
+        },
+        {
+          "t": "ላንቺ ክብር ምስጋና ይገባሻል | አላት፡።፡ .",
+          "c": "black"
+        },
+        {
+          "t": "ወላዲተ አምላክ",
+          "c": "red"
+        },
+        {
+          "t": "ምስጋና '",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት",
+          "c": "red"
+        },
+        {
+          "t": "ነሽና ምስጋና",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "ይገባሻል፣",
+          "c": "black"
+        },
+        {
+          "t": "የመለኮት ማደሪያ",
+          "c": "red"
+        },
+        {
+          "t": ". ነሽና | ምስጋና ይገባሻል፣ የተሸለምሽ ድንኳን",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

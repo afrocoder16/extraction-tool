@@ -1,0 +1,75 @@
+{
+  "page": 9,
+  "notes": "Creed continues. The last line runs into the bottom edge of the scan: 'ሐዋርያት በሥራት በአንዲት ኅብረት' is my best reading, but the final word is clipped and should be checked against the book — 'በሥራት' may be 'በሥርዓት'. The page ends mid-sentence.",
+  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
+  "corrections": [
+    {
+      "printed": "ተሰሣ",
+      "suggested": "ተነሣ",
+      "reason": "ሰ should be ነ — the Creed reads 'ከሙታን ተለይቶ ተነሣ' (rose from the dead)",
+      "applied": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፬  የዘወትር ጸሎት",
+          "c": "black"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ያለርሱ ምንም ምን የሆነ የለም ስለኛ ስለሰዎች እኛን ለማዳን ከሰማይ ወረደ ",
+          "c": "black"
+        },
+        {
+          "t": "በመንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " ግብር ",
+          "c": "black"
+        },
+        {
+          "t": "ከቅድስት ድንግል ማርያም",
+          "c": "red"
+        },
+        {
+          "t": " ፍጹም ሰው ሆነ፤ ደግሞ ስለኛ ተሰቀለ በጴንጤናዊው በጲላጦስ ዘመን እርሱ መከራን ተቀበለ ሞተ ተቀበረ በሦስተኛውም ቀን ከሙታን ተለይቶ ተነሣ፤ በቅዱሳት መጻሕፍት እንደተጻፈ በክብር በምስጋና ወደሰማይ ዐረገ። በአባቱም ቀኝ ተቀመጠ፤ ዳግመኛም በሕያዋንና በሙታን ለመፍረድ በምስጋና ይመጣል። ለመንግሥቱም ፍጻሜ የለውም። ",
+          "c": "black"
+        },
+        {
+          "t": "በመንፈስ ቅዱስም",
+          "c": "red"
+        },
+        {
+          "t": " እናምናለን እርሱም ጌታ ሕይወትን የሚሰጥ ",
+          "c": "black"
+        },
+        {
+          "t": "ከአብ",
+          "c": "red"
+        },
+        {
+          "t": " የሠረፀ ",
+          "c": "black"
+        },
+        {
+          "t": "ከአብ ከወልድ",
+          "c": "red"
+        },
+        {
+          "t": " ጋራ በእንድነት እንሰግድለታለን እናመሰግነዋለን እርሱም በነቢያት አድሮ የተናገረ ነው። ከሁሉም በላይ በምትሆን ሐዋርያት በሥሯት በአንዲት ከብርት ቤተክርስቲያን እናምናለን ።",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

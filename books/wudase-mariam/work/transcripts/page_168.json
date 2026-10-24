@@ -1,62 +1,88 @@
 {
   "page": 168,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 3 of 11 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "፤",
-      "why": "Tesseract confidence 32 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 48 — check against the scan"
-    },
-    {
-      "text": "ኣኋማልድሃዛለለሁ፡፡",
-      "why": "Tesseract confidence 51 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "top",
-      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "| ስምህ",
+          "t": "ስምህ ",
           "c": "black"
         },
         {
-          "t": "፤ ቃል",
+          "t": "ቃል ኢዳን ትገባልኝ",
           "c": "red"
         },
         {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ኪዳን",
-          "c": "red"
-        },
-        {
-          "t": ".",
-          "c": "black"
-        },
-        {
-          "t": "ትገባልኝ",
-          "c": "red"
-        },
-        {
-          "t": "ዘንድ ኣኋማልድሃዛለለሁ፡፡ 6",
+          "t": " ዘንድ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        190,
+        29,
+        2350,
+        182
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እማልድሃለለሁ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        190,
+        192,
+        1111,
+        329
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "13c1ef123a5fb2471752d2efbd76983b19fc1f86907c526ae076d48ae11901f0",
+      "source_sha256": "a0be8ca5e6be46f2c8c4769aecd23124089130a758a48f46d67bde088c82e36f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_168.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 27.831,
+      "created_at": "2026-10-24T01:02:08.690048+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "144bc4a94650a3c3d91892bdbc8475fd7345f36d84cc0b4a0d2a65199afecd19",
+      "image": "a0be8ca5e6be46f2c8c4769aecd23124089130a758a48f46d67bde088c82e36f",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 1,
+    "red_located": 1
+  },
+  "_legacy": "transcripts-legacy/page_168.json"
 }

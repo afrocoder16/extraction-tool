@@ -1,111 +1,21 @@
 {
   "page": 175,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 18 of 88 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "፲2",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 25 — check against the scan"
-    },
-    {
-      "text": "\"ን",
-      "why": "Tesseract confidence 34 — check against the scan"
-    },
-    {
-      "text": "ትፈቅጃቫለሽ?",
-      "why": "Tesseract confidence 68 — check against the scan"
-    },
-    {
-      "text": "ሁሱ",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "የምትሺውንም",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": "የሌለባት",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 68 — check against the scan"
-    },
-    {
-      "text": "(",
-      "why": "Tesseract confidence 20 — check against the scan"
-    },
-    {
-      "text": "..",
-      "why": "Tesseract confidence 47 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 44 — check against the scan"
-    },
-    {
-      "text": ",",
-      "why": "Tesseract confidence 30 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": "ሲደርስ",
-      "why": "Tesseract confidence 51 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 37 — check against the scan"
-    },
-    {
-      "text": "ተወልደሃልና",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": "እፄ",
-      "why": "Tesseract confidence 50 — check against the scan"
-    },
-    {
-      "text": "እናትህ",
-      "why": "Tesseract confidence 57 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፲፭ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፲2 . የሰኔ ጎልጎታ | | \"ን ላደርግልሽ ትፈቅጃቫለሽ? እነሆ ሁሱ የምትሺውንም ኣፈፅምልሻለሁና፡፡ መርገመ ሰወዳጂ ስጋ እንዲህ የሌለባት ብርክት ስትል",
+          "t": "ምን ላደርግልሽ ትፈቅጃለሽ? እነሆ የስመንሽውን ሁሉ የምትሺውንም እፈፅምልሻለሁና። ብርክት መርገመ ነፍስ መርገመ ስጋ የሌለባት ",
           "c": "black"
         },
         {
-          "t": "ማርያም .",
+          "t": "ማርያም",
           "c": "red"
         },
         {
-          "t": "መርገመ መሰለሰችለት፡፡",
-          "c": "black"
-        },
-        {
-          "t": "(",
-          "c": "red"
-        },
-        {
-          "t": "ለልጂ ነፍስ",
+          "t": " ለልጇ ለወዳጇ እንዲህ ስትል መለሰችለት። ",
           "c": "black"
         },
         {
@@ -113,66 +23,86 @@
           "c": "red"
         },
         {
-          "t": "ተስፋዬ አምባ መጠጊያዬ አንተ ነህ ኋምነቴም በአንተ ላይ ነው፡፡ ገና በአናቴ ሳለሁ አንተ ጠበቅከኝ ኣጸናኸኝም ለሁል ጊቤም መታሰቢያዬና ኣለኝታዬ",
+          "t": " ተስፋዬ አምባ መጠጊያዬ አንተ ነህ እምነቴም በአንተ ላይ ነው። ገና በእናቴ ማህፀን ሳለሁ አንተ ጠበቅከኝ አጸናኸኝም ለሁል ጊዜም መታሰቢያዬና አለኝታዬ አንተ ሃህ በኋለኛውም ዘመን ትንቢቱ ሲፈጸም ",
           "c": "black"
         },
         {
-          "t": "|",
+          "t": "ሰአቱ ሲደርስ በእንተ ፈቃድ በአባትህም",
           "c": "red"
         },
         {
-          "t": "አንተ ሃህ በኋለኛውም ዘመን",
+          "t": " ፈቃድ ማሕያዊ በሚሆን ",
           "c": "black"
         },
         {
-          "t": "ፈቃድ",
+          "t": "በመንፈስ ቅዱስም ፈቃድ",
           "c": "red"
         },
         {
-          "t": "ትንቢቱ በሚሆን",
+          "t": " ከእኔ ተወልደሃልና ዛሬ ጸሎቴንና፡ ልመናዬን ስማኝ የአንደበቴንም ቃል አድምጥ እኔ ",
           "c": "black"
         },
         {
-          "t": "በመንፈስ በአባትህም",
+          "t": "ወላጅ እናትህ ማሪያም",
           "c": "red"
         },
         {
-          "t": "ሲፈጸም",
-          "c": "black"
-        },
-        {
-          "t": ".. -",
-          "c": "red"
-        },
-        {
-          "t": "ሰአቱ",
-          "c": "black"
-        },
-        {
-          "t": "ቅዱስም , ፈቃድ .",
-          "c": "red"
-        },
-        {
-          "t": "| ሲደርስ",
-          "c": "black"
-        },
-        {
-          "t": "ፈቃድ",
-          "c": "red"
-        },
-        {
-          "t": "ማሕያዊ",
-          "c": "black"
-        },
-        {
-          "t": ".- በአንተ",
-          "c": "red"
-        },
-        {
-          "t": "ከአኔ ተወልደሃልና ዛሬ ጸሎቴንና ልመናዬን ስማኝ የአንደበቴንም ቃል አድምጥ እፄ ወሳጅ እናትህ የምነግርህንም",
+          "t": " የምነግርህንም",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        135,
+        517,
+        2413,
+        3266
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "፲, ፲, ፲",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "95b2ac56d837c166228bd335e05d88fa9dda395cada1164a4a8241f1bd5bc1eb",
+      "source_sha256": "bf5715574e04523b1565d300de25140cdd3abd545592abf846888d1da6316ef5",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_175.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 78.253,
+      "created_at": "2026-10-24T01:07:51.130698+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "20cf5d48588384cfe4f47e3ab3c4fb22f2e2e844e70db0bccf2d3acb19fa4cb0",
+      "image": "bf5715574e04523b1565d300de25140cdd3abd545592abf846888d1da6316ef5",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 7,
+    "red_located": 6
+  },
+  "_legacy": "transcripts-legacy/page_175.json"
 }

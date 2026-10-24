@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
 # Run from the host's SSH terminal. No paid inference API is used.
-# Starts the official vLLM image, checks sample pages, then processes the book.
+# Starts the official vLLM image (or reuses it if already running), checks three
+# sample pages, then processes the book.
+#   bash scripts/start-local-dots.sh [books/<book-folder>]   (default: books/wudase-mariam)
 set -euo pipefail
 repo_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root"
+book_dir="${1:-books/wudase-mariam}"
+book_dir="${book_dir%/}"
+[[ -f "$book_dir/book.json" ]] || { echo "No book.json in $book_dir"; exit 2; }
 mkdir -p .local-runtime
 exec > >(tee -a .local-runtime/setup.log) 2>&1
 
@@ -25,21 +30,31 @@ if ! "${docker_cmd[@]}" info >/dev/null 2>&1; then
     exit 2
   }
 fi
-python3 - <<'PY'
-import json,pathlib
+# Checks the rendered source and picks first/middle/last content pages as samples.
+sample_pages="$(BOOK_DIR="$book_dir" python3 - <<'PY'
+import json,os,pathlib,sys
 from engine.book import load
 from engine.provenance import source_problems
-p=pathlib.Path('books/wudase-mariam/work/source_manifest.json')
+root=pathlib.Path(os.environ['BOOK_DIR'])
+p=root/'work'/'source_manifest.json'
 if not p.exists():
- raise SystemExit('Render the source PDF before starting OCR.')
+ raise SystemExit('Render the source PDF before starting OCR (python -m engine %s --stage render).' % root)
 m=json.loads(p.read_text())
 if len(m.get('rendered',{})) != m.get('pages'):
  raise SystemExit('Page rendering is still incomplete. Wait for it to finish.')
-issues=source_problems(load(pathlib.Path('books/wudase-mariam')),m['pages'])
+issues=source_problems(load(root),m['pages'])
 if issues:
  raise SystemExit('Source verification failed: '+'; '.join(issues[:5]))
-print('Prepared source pages:',m['pages'])
+stats_path=root/'work'/'page_stats.json'
+stats=json.loads(stats_path.read_text()) if stats_path.exists() else {}
+content=sorted(int(k) for k,v in stats.items() if not v.get('is_blank') and not v.get('is_illustration'))
+if not content:
+ raise SystemExit('Run the colour split first (python -m engine %s --stage split).' % root)
+print('Prepared source pages:',m['pages'],file=sys.stderr)
+print(','.join(str(content[i]) for i in sorted({0,len(content)//2,len(content)-1})))
 PY
+)"
+sample_pages="${DOTS_SAMPLE_PAGES:-$sample_pages}"
 
 container_name=extraction-dots-mocr
 runtime_image="${DOTS_VLLM_IMAGE:-vllm/vllm-openai:v0.17.1}"
@@ -68,14 +83,6 @@ if (( needed_tokens > max_model_len )); then
   exit 2
 fi
 
-# vLLM refuses to start unless this fraction of the GPU is free (desktop apps count).
-read -r gpu_total_mib gpu_free_mib < <(nvidia-smi --query-gpu=memory.total,memory.free --format=csv,noheader,nounits | head -1 | tr -d ',')
-if ! awk -v t="$gpu_total_mib" -v f="$gpu_free_mib" -v u="$gpu_memory_utilization" 'BEGIN { exit !(f >= t * u * 0.96) }'; then
-  echo "Only ${gpu_free_mib} MiB of ${gpu_total_mib} MiB GPU memory is free; DOTS_GPU_MEMORY_UTILIZATION=$gpu_memory_utilization needs more."
-  echo 'Close GPU-using apps (see nvidia-smi) and rerun.'
-  exit 2
-fi
-
 log_dir="$repo_root/.local-runtime"
 save_server_log() {
   local file="$log_dir/dots-server-$(date +%Y%m%d-%H%M%S).log"
@@ -83,14 +90,25 @@ save_server_log() {
   echo "Full server log saved to $file"
   grep -E 'OutOfMemoryError|Error:|ValueError|CUDA error' "$file" | grep -v '^\s*File ' | tail -5 || true
 }
+server_running=0
 if "${docker_cmd[@]}" container inspect "$container_name" >/dev/null 2>&1; then
   if [[ "$("${docker_cmd[@]}" inspect --format '{{.State.Running}}' "$container_name")" == true ]]; then
-    echo "Container $container_name is already running. Stop it first: ${docker_cmd[*]} stop $container_name"
-    exit 2
+    echo "Reusing the running $container_name server (to change its settings: ${docker_cmd[*]} stop $container_name)."
+    server_running=1
+  else
+    echo "Removing the stopped container $container_name (the model cache volume is kept). Its last error:"
+    save_server_log
+    "${docker_cmd[@]}" rm "$container_name" >/dev/null
   fi
-  echo "Removing the stopped container $container_name (the model cache volume is kept). Its last error:"
-  save_server_log
-  "${docker_cmd[@]}" rm "$container_name" >/dev/null
+fi
+
+if (( server_running == 0 )); then
+# vLLM refuses to start unless this fraction of the GPU is free (desktop apps count).
+read -r gpu_total_mib gpu_free_mib < <(nvidia-smi --query-gpu=memory.total,memory.free --format=csv,noheader,nounits | head -1 | tr -d ',')
+if ! awk -v t="$gpu_total_mib" -v f="$gpu_free_mib" -v u="$gpu_memory_utilization" 'BEGIN { exit !(f >= t * u * 0.96) }'; then
+  echo "Only ${gpu_free_mib} MiB of ${gpu_total_mib} MiB GPU memory is free; DOTS_GPU_MEMORY_UTILIZATION=$gpu_memory_utilization needs more."
+  echo 'Close GPU-using apps (see nvidia-smi) and rerun.'
+  exit 2
 fi
 
 offload_args=(--cpu-offload-gb "$cpu_offload_gb")
@@ -136,19 +154,20 @@ if (( ready == 0 )); then
   echo "Model did not become ready. Inspect: ${docker_cmd[*]} logs $container_name"
   exit 2
 fi
+fi  # server_running == 0
 
 run_ocr() {
   "${docker_cmd[@]}" exec --user "$(id -u):$(id -g)" \
     -e "DOTS_MAX_PIXELS=$max_pixels" -e "DOTS_MAX_COMPLETION_TOKENS=$max_completion_tokens" \
     -e "DOTS_MODEL_REVISION=$model_revision" \
     --workdir /workspace/extraction-tool "$container_name" \
-    python3 -m engine books/wudase-mariam --stage ocr --provider dots \
+    python3 -m engine "$book_dir" --stage ocr --provider dots \
       --base-url http://127.0.0.1:8000/v1 --model "$model_id" "$@"
 }
-echo 'Running three sample pages. Invalid or truncated responses stop this script.'
-run_ocr --pages 3,21,129
+echo "Running sample pages $sample_pages. Invalid or truncated responses stop this script."
+run_ocr --pages "$sample_pages"
 echo 'Producing candidates for all content pages. Every page still requires accuracy/colour review.'
 run_ocr
-echo 'Local OCR candidate run finished. Results: books/wudase-mariam/work/candidates/dots/'
+echo "Local OCR candidate run finished. Results: $book_dir/work/candidates/dots/"
 echo 'This is candidate generation, not a verified final edition.'
 echo "The model is still running. To free GPU memory: ${docker_cmd[*]} stop $container_name"

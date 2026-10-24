@@ -1,206 +1,112 @@
 {
   "page": 171,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 21 of 101 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "ጎጎጎታ",
-      "why": "Tesseract confidence 25 — check against the scan"
-    },
-    {
-      "text": "ህያዊ",
-      "why": "Tesseract confidence 25 — check against the scan"
-    },
-    {
-      "text": "'",
-      "why": "Tesseract confidence 37 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 29 — check against the scan"
-    },
-    {
-      "text": "ወዳጁ",
-      "why": "Tesseract confidence 30 — check against the scan"
-    },
-    {
-      "text": "ኣጓመናዬን",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": "አለምንፃለሁ፡፡",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "እማልድፃሃለሁ፡፡",
-      "why": "Tesseract confidence 29 — check against the scan"
-    },
-    {
-      "text": "የብርፃን",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": "እመቤታችን",
-      "why": "Tesseract confidence 68 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 42 — check against the scan"
-    },
-    {
-      "text": "»",
-      "why": "Tesseract confidence 46 — check against the scan"
-    },
-    {
-      "text": "ተሰነጣጠቁ",
-      "why": "Tesseract confidence 55 — check against the scan"
-    },
-    {
-      "text": "መቃብራትና",
-      "why": "Tesseract confidence 55 — check against the scan"
-    },
-    {
-      "text": "ተከፈቱ፡።",
-      "why": "Tesseract confidence 47 — check against the scan"
-    },
-    {
-      "text": "በቪህ",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "ጋር",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": "..",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 28 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፲፫ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "የሰኔ ጎጎጎታ .- ህያዊ በሚሆን - በአንተ ስልጣን \"ሀጠያትን ስር ቆራርጦ የሚጥል ነፍስን ገስጋ የሚለይ ስሁል ነበልባላዊ በሆነ",
+          "t": "ማህያዊ በሚሆን በአንተ ስልጣን የሀጠያትን ስር ቆራርጦ የሚጥል ነፍስን ከስጋ የሚለይ ስሁል ነበልባላዊ በሆነ ",
           "c": "black"
         },
         {
-          "t": "መንፈስ ቅዱስ",
+          "t": "መንፈስ ቅዱስ ቃል",
           "c": "red"
         },
         {
-          "t": "'",
-          "c": "black"
-        },
-        {
-          "t": "ቃል",
-          "c": "red"
-        },
-        {
-          "t": "የተፈተኑና ነፃ “ወጡ ይሆኑ ዘንድ አማልድሃዛለሁ፡፡",
-          "c": "black"
-        },
-        {
-          "t": "ልጁ",
-          "c": "red"
-        },
-        {
-          "t": ".",
-          "c": "black"
-        },
-        {
-          "t": "ወዳጁ",
-          "c": "red"
-        },
-        {
-          "t": "-",
-          "c": "black"
-        },
-        {
-          "t": "ሆይ፤",
-          "c": "red"
-        },
-        {
-          "t": "ጸሎቴንና ኣጓመናዬን ሰምተህ ወደጌ ትመጣ ዘንድ አለምንፃለሁ፡፡ እማልድፃሃለሁ፡፡ ከመዓር ክወተት ይልቅ",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "ስሟ ጣፋጭ የሆነ አምላክን የወለደች",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "የብርፃን",
-          "c": "black"
-        },
-        {
-          "t": "አናቱ -",
-          "c": "red"
-        },
-        {
-          "t": "-.",
-          "c": "black"
-        },
-        {
-          "t": "እመቤታችን . ' ማርያም",
-          "c": "red"
-        },
-        {
-          "t": ". » አንደዚህ *ብላ በፀለየች ጊዜ ምድር ተነዋወጠች ድንጋዮች (አለቶች) ተሰነጣጠቁ መቃብራትና , የተዘጉ በሮችም ተከፈቱ፡። በቪህ ጊዜ ዘጠና - ዘጠኙ መላእክት ከአለቆቻቸው ጋር ከሰማይ",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "ወርደው በግራ-በቀኝ ቆሙ",
-          "c": "black"
-        },
-        {
-          "t": "ጌታ . ኢየሱስ ክርስቶስም ..",
-          "c": "red"
-        },
-        {
-          "t": "ከፀሀይና",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "ከጨረቃ ሰባት አጅ . አብርቶ አራቱ",
+          "t": " የተፈተኑና ነፃ የወጡ ይሆኑ ዘንድ እማልድሃለሁ።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        221,
+        494,
+        2303,
+        1252
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ",
+          "c": "black"
+        },
+        {
+          "t": "ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ጸሎቴንና ልመናዬን ሰምተህ ወደኔ ትመጣ ዘንድ እለምንሃለሁ። እማልድሃለሁ። ከመዓር ከወተት ይልቅ ስሟ ጣፋጭ የሆነ አምላክን የወለደች የብርሃን ",
+          "c": "black"
+        },
+        {
+          "t": "እናቱ እመቤታችን ማርያም",
+          "c": "red"
+        },
+        {
+          "t": " እንደዚህ ብላ በፀለየች ጊዜ ምድር ተነዋወጠች ድንጋዮች (አለቶች) ተሰነጣጠቁ መቃብራትና የተዘጉ በሮችም ተከፈቱ። በዚህ ጊዜ ዘጠና ዘጠኙ ነገደ መላእክት ከአለቆቻቸው ጋር ከሰማይ ወርደው በግራ በቀኝ ቆሙ ጌታ ",
+          "c": "black"
+        },
+        {
+          "t": "ኢየሱስ ክርስቶስም",
+          "c": "red"
+        },
+        {
+          "t": " ከፀሀይና ከጨረቃ ሰባት እጅ አብርቶ አራቱ ብርሃናት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        221,
+        1270,
+        2303,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "6f8ef79939a0426cfac0abc16f805cdcbf2e640c885cd51aae6be4c4d1602da7",
+      "source_sha256": "f47c5b1569a33bdcecd0c51c1c5bb87815ddd2c40afbb179e2e4af06d1728508",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_171.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 88.391,
+      "created_at": "2026-10-24T01:05:04.651833+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "be1605204d2e3ab71efa0a9b015f07d07ce2c99146d57acb5376bcbbd22685f9",
+      "image": "f47c5b1569a33bdcecd0c51c1c5bb87815ddd2c40afbb179e2e4af06d1728508",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_171.json"
 }

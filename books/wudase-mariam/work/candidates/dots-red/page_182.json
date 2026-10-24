@@ -1,0 +1,21 @@
+{
+  "page": 182,
+  "key": {
+    "mask": "fafa0ca0f780c7f2899ce04bcdbee412c60faf62237620ed3bee7cfaddabc54f",
+    "image": "172827f1f5dcef2aab0c014849ca108be7282b085647fbe887706629a118e93b",
+    "version": "red-crop-v1",
+    "model": "dots-studio/dots.mocr"
+  },
+  "regions": [
+    {
+      "bbox": [
+        462,
+        0,
+        551,
+        76
+      ],
+      "text": ""
+    }
+  ],
+  "created_at": "2026-10-24T02:47:32.955964+00:00"
+}

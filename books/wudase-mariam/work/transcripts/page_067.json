@@ -1,33 +1,108 @@
 {
   "page": 67,
-  "notes": "",
-  "corrections": [],
+  "page_header": "፴ የሐሙስ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "፴፯  የሐሙስ ውዳሴ ማርያም", "c": "black" }
-      ]
+        {
+          "t": "ከዚህ በኋላ ለዘለዓለም ጽድቅ ሆኖ ተቆጠረለት። ሰማዕታት የዚችን ዓለም ጣዕም በዕውነት ናቁ ደማቸውንም ስለ ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " አፈሰሱ። ስለ መንግሥተ ሰማያትም መራራ ሞትን ታገሱ። እንደ ይቅርታህ ብዛት ይቅር በለን። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        70,
+        516,
+        2213,
+        1661
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "",
+      "verse_num_am": "፳",
       "spans": [
-        { "t": "ከዚህ በኋላ ለዘለዓለም ጽድቅ ሆኖ ተቆጠረለት። ሰማዕታት የዚችን ዓለም ጣዕም በእውነት ናቁ ደማቸውንም ስለ ", "c": "black" },
-        { "t": "እግዚአብሔር", "c": "red" },
-        { "t": " አፈሰሱ። ስለ መንግሥተ ሰማያትም መራራ ሞትን ታገሱ። እንደ ይቅርታህ ብዛት ይቅር በለን። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "፰",
-      "spans": [
-        { "t": "ከቅድስት ሥላሴ", "c": "red" },
-        { "t": " አንዱ ወልድ መዋረዳችንን አይቶ ከሰማየ ሰማያት ወርዶ ባሕርዩን ዝቅ አደረገና መጥቶ በድንግል ማኅፀን አደረ። ከብቻዋ ከኃጢአት በቀርም እንደኛ ሰው ሆነ፤ ነቢያት ትንቢት እንደተናገሩለት በቤተልሔም ተወለደ። ፈጽሞ አዳነን ወገኖቹም አደረገን። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "ከቅድስት ሥላሴ",
+          "c": "red"
+        },
+        {
+          "t": " አንዱ ወልድ መዋረዳችንን አይቶ ከሰማየ ሰማያት ወርዶ ባሕርዩን ዝቅ አደረገና መጥቶ በድንግል ማኅፀን አደረ። ከብቻዋ ከኃጢአት በቀርም እንደኛ ሰው ሆነ፤ ነቢያት ትንቢት እንደተናገሩለት በቤተልሔም ተወለደ። ፈጽሞ አዳነን ወገኖቹም አደረገን። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት",
+          "c": "red"
+        },
+        {
+          "t": " ሆይ ",
+          "c": "black"
+        },
+        {
+          "t": "ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        70,
+        1679,
+        2223,
+        3162
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "9aa067bd8125e2b599b5c5923012d374616c44a7ac9141d37d9e51be82542755",
+      "source_sha256": "1eeb3f942b98b2c18171942d3d83e2cf851d616366b1de7d183a8fc4a3435a0f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_067.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 73.649,
+      "created_at": "2026-10-23T23:50:20.381145+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "76d28a6d9992b0357e3e3d1df2493539441ab8c46869a04c0b1098f3b5015405",
+      "image": "1eeb3f942b98b2c18171942d3d83e2cf851d616366b1de7d183a8fc4a3435a0f",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 6,
+    "red_located": 6
+  },
+  "_legacy": "transcripts-legacy/page_067.json"
 }

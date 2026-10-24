@@ -1,94 +1,93 @@
 {
   "page": 127,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 15 of 96 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "2=ሯ",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": "አንቀጸ",
-      "why": "Tesseract confidence 21 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 35 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 64 — check against the scan"
-    },
-    {
-      "text": "አኅተትየ",
-      "why": "Tesseract confidence 51 — check against the scan"
-    },
-    {
-      "text": "ነሽ",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": "መንገድሽ",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": "አለሽ፡፡",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": "አለሽ፡፥፡",
-      "why": "Tesseract confidence 66 — check against the scan"
-    },
-    {
-      "text": "ጋር",
-      "why": "Tesseract confidence 57 — check against the scan"
-    },
-    {
-      "text": "አለሽ.",
-      "why": "Tesseract confidence 65 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 52 — check against the scan"
-    },
-    {
-      "text": "88",
-      "why": "Tesseract confidence 39 — check against the scan"
-    },
-    {
-      "text": "፲9.-",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": "መቅደስ",
-      "why": "Tesseract confidence 57 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፳፫ አንቀጸ ብርሃን",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "2=ሯ አንቀጸ ብርዛን . .- ዕጣን መክዛ ነው አለ አኅተትየ መርዓት (ሙሽራዬ ሆይ) የታጠርሽ ተክል ነሽ መንገድሽ የታጠረች ተክል የታተመች ጉድጓድ ናት፡፡ ከሽቱ ቅመም ጋር ሽቱ አለሽ፡፡ ቆዕ የሚባል ሸቶ ናርዶስ የሚባል ሸቶ ጋር አለሽ፡፥፡ ናርዶስ የሚባል ሽቶ መጽርይ የሚባል ሽቶ ጋር አለሽ. ቀጺመታት ቀናንሞስ የሚባል ሽቶች አደጋ ሽቶች ጋራ አሱሽ ከሽቶች ሁሉ ከሚበልጡ ከርቤና ዐልው የተባሉ ሽቶች ከነዚህ ሁሉ ሽቶች ጋር አሉሽ፡፡ የገነት - ፈሳሸ ሆይ ፤ከደጋ የሚፈስ የሕይወት ውዛ መገናኛ ነሽ",
+          "t": "ዕጣን መአዛ ነው አለ እኅትየ መርዓት (ሙሽራዬ ሆይ) የታጠርሽ ተክል ነሽ መንገድሽ የታጠረች ተክል የታተመች ጉድጓድ ናት። ከሽቱ ቅመም ጋር ሽቱ አለሽ። ቆዕ የሚባል ሽቶ ናርዶስ የሚባል ሽቶ ጋር አለሽ። ናርዶስ የሚባል ሽቶ መጽርይ የሚባል ሽቶ ጋር አለሽ ቀጺመታት ቀናንሞስ የሚባል ሽቶች አደጋ ሽቶች ጋራ አሉሽ ከሽቶች ሁሉ ከሚበልጡ ከርቤና ዐልው የተባሉ ሽቶች ከነዚህ ሁሉ ሽቶች ጋር አሉሽ። የገነት ፈሳሽ ሆይ ፤ከደጋ የሚፈስ የሕይወት ውሃ መገናኛ ነሽ ",
           "c": "black"
         },
         {
-          "t": "ቅድስት ሆይ ልጅሽ 88",
+          "t": "ቅድስት ሆይ ልጅሽ",
           "c": "red"
         },
         {
-          "t": "ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡ ፲9.- ሳይተክሏትና ውፃ ሳያጠጧት የሰመለመች የአሮን በትር በቤተ መቅደስ . ነበረች ለካህናት ዝግጁ ያደረጋት ነበረች::",
+          "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        285,
+        493,
+        2368,
+        2707
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፬",
+      "spans": [
+        {
+          "t": "ሳይተክሏትና ውሃ ሳያጠጧት የስመለመች የአሮን በትር በቤተ መቅደስ ነበረች ለካህናት ዝግጁ ያደረጋት ነበረች።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        285,
+        2871,
+        2368,
+        3285
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "# በ በ በ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e9ae460cc7c337b2c2a95f61d8e8370c4ef505f068555ead4473beab8fe39ca0",
+      "source_sha256": "aeddeda81e4397cf00c30f27519e1add513fd4bd6fe12d943f87778ee465a34a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_127.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.027,
+      "created_at": "2026-10-24T00:33:15.427591+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "6dcfa1bd1f407273559c9eb27514e77ec04a8ddf585b52ef861bfd126f1b7005",
+      "image": "aeddeda81e4397cf00c30f27519e1add513fd4bd6fe12d943f87778ee465a34a",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 3,
+    "red_located": 2
+  },
+  "_legacy": "transcripts-legacy/page_127.json"
 }

@@ -1,0 +1,77 @@
+{
+  "page": 207,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 8 of 46 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ሰአንተ",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "አሜን፡",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "ከክጸዋጋን",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "አሜን፡፡",
+      "why": "Tesseract confidence 46 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 66 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 53 — check against the scan"
+    }
+  ],
+  "clipped": [],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "| ቋ፪ የሰኔ ጎለጎታ ' |",
+          "c": "black"
+        },
+        {
+          "t": "ከመንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": "ጋር ክብር ዕንዕ፤ ሰአንተ . ይገባል፤ ዛሬም በወትርም እስከ ዘላለሙ ድረስ አሜን፡ . . - |",
+          "c": "black"
+        },
+        {
+          "t": "| አመቤቴ ማሪያም",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "በቪህ ቃል ኪዳንሽ ከተንኮለኞች ሰዎች›እጅ ከክጸዋጋን አጋንንትም መከራ እኔን አገልጋይሽን አድኝኝ አሜን፡፡ . 0 .- - |",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

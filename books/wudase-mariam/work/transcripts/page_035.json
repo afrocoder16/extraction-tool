@@ -1,52 +1,55 @@
 {
   "page": 35,
-  "notes": "The page ends mid-sentence after 'እኛን'.",
-  "corrections": [],
+  "page_header": "፲፯ የማክሰኞ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፳፪  የማክሰኞ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "፲፩",
-      "spans": [
-        {
-          "t": "የድንግልን ገናንነቷን ሊናገሩት አይቻልም ጌታ መርጧታልና የሚቀርበው በሌለ ብርሃን ውስጥ የሚኖር እርሱ መጥቶ አደረባት ዘጠኝ ወር በማኅፀኗ አደረ የማይታይና የማይመረመር (ታይቶ የማይታወቅ) እርሱን በድንግልና ወለደችው። ",
+          "t": "በሌለ ብርሃን ውስጥ የሚኖር እርሱ መጥቶ አደረባት ዘጠኝ ወር በማኅፀንዋ አደረ የማይታይና የማይመረመር (ታይቶ የማይታወቅ) እርሱን በድንግልና ወለደችው። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        91,
+        509,
+        2181,
+        1332
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፲፪",
       "spans": [
         {
-          "t": "ነቢዩ ዳንኤል ያየው ያለ እጅ ከረጅም ተራራ የተፈነቀለው ያ ድንጋይ ከአብ ዘንድ የወጣው ቃል ነውና መጥቶ ያለ ወንድ ዘር ከድንግል ተወልዶ አዳነን። ",
+          "t": "ነቢዩ ዳንኤል ያየው ያስ እጅ ክረጅም ተራራ የተፈነቀለው ያ ደንጊያ ከአብ ዘንድ የወጣው ቃል ነውና መጥቶ ያስ ወንድ ዘር ከድንግል ተወልዶ አዳነን። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        83,
+        1377,
+        2174,
+        2198
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፲፫",
       "spans": [
         {
-          "t": "እንደ ንጹሕ ጽዋ ሆንሽ የሃይማኖትም መገኛ ነሽ የቀናች የቅዱሳን አባቶቻችን ሃይማኖታቸው ነሽ። አምላክን የወለድሽና በድንግልና የታተምሽ ንጽሕት ሆይ የአብን ቃል ወለድሽልን ",
+          "t": "እንደ ንጹሕ ጫፍ ሆንሽ የሃይማኖትም መገኛ ነሽ የቀናች የቅዱሳን አባቶቻችን ሃይማኖታቸው ነሽ። አምላክን የወለድሽና በድንግልና የታተምሽ ንጽሕት ሆይ የአብን ቃል ወለድሽልን ",
           "c": "black"
         },
         {
@@ -54,14 +57,57 @@
           "c": "red"
         },
         {
-          "t": " እኛን ለማዳን መጣ። ",
+          "t": " እኛን",
           "c": "black"
-        },
-        {
-          "t": "ቅድስት ሆይ ለምኝልን።",
-          "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        76,
+        2246,
+        2174,
+        3248
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d3585712070f10c0286118922e08a8993df7dee0505431a50e3530e67e424d99",
+      "source_sha256": "c3b2ea0acbc8961ccb56906e5d322b802fd6b50cbcc2e01aa83c24b8a021687a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_035.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.57,
+      "created_at": "2026-10-23T23:28:12.133518+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "6c77fa06f816d832fe42b3d1061c7307bcef7f48c97f45d8904158d6e04d33bc",
+      "image": "c3b2ea0acbc8961ccb56906e5d322b802fd6b50cbcc2e01aa83c24b8a021687a",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 3,
+    "red_located": 3
+  },
+  "_legacy": "transcripts-legacy/page_035.json"
 }

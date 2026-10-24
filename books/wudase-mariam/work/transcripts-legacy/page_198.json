@@ -1,0 +1,78 @@
+{
+  "page": 198,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 8 of 17 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "=",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "<",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "2=ወ።ወ",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "እሪ",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ሙ",
+      "why": "Tesseract confidence 20 — check against the scan"
+    },
+    {
+      "text": "»",
+      "why": "Tesseract confidence 64 — check against the scan"
+    },
+    {
+      "text": "እያመሰገኑ",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "[",
+      "why": "Tesseract confidence 55 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "# = < 2=ወ።ወ እሪ = ሙ »",
+          "c": "red"
+        },
+        {
+          "t": "እያሉ እያመሰገኑ",
+          "c": "black"
+        },
+        {
+          "t": "ዱ",
+          "c": "red"
+        },
+        {
+          "t": "መንበሬን",
+          "c": "black"
+        },
+        {
+          "t": "ዷ",
+          "c": "red"
+        },
+        {
+          "t": "በሚያጥኑ | [ |",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

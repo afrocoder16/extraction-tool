@@ -1,39 +1,34 @@
 {
   "page": 217,
-  "notes": "Last text page of the book — the የኅሊና ጸሎት ends here and a black diamond rule closes it. The running header carries a printed page numeral that is a single worn glyph (፹ or ፻); it is left out of the title rather than guessed, since it is pagination, not liturgical text. 'ባለሟልነት' (favour/standing) — confirmed against page 213, where the same word is printed clearly.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [],
+  "page_header": "፳ የኅሊና ጸሎት",
   "blocks": [
     {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "የኅሊና ጸሎት",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
           "t": "ተገኝተሽ አረጋጊኝ እኔ በራሴ ደካማና ትሩፋት የመጽናናት ኃይል የለኝምና።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        268,
+        476,
+        2410,
+        779
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፲፫",
+      "verse_num_am": "፲፯",
       "spans": [
         {
           "t": "እመቤቴ ድንግል ማሪያም ሆይ፤",
           "c": "red"
         },
         {
-          "t": " የኔን አወዳደቅ የሚመኙ ሁሉ እነርሳቸው የወደቁ ይሁኑ ጉስቁልናዬን የሚወዱ ራሳቸው ይጎሳቆሉ እኔ አገልጋይሽ ግን ከፍ ከፍ ልበል በንቀት የሚመለከቱኝ ሁሉ እነሱ የተናቁ ይሁኑ። ለኔ ክብር ባለሟልነት ብልጽግና ይደረግልኝ ለነሱ ግን ኃሳር ",
+          "t": " የኔን አወዳደቅ የሚመኙ ሁሉ እነርሳቸው የወደቁ ይሁኑ ጉስቁልናይን የሚወዱ ራሳቸው ይጎሳቆሉ እኔ አገልጋይሽ ግን ከፍ ከፍ ልበል በንቀት የሚመለከቱኝ ሁሉ እነሱ የተናቁ ይሁኑ። ለኔ ክብር ባለሟልነት ብልጽግና ይደረግልኝ ለነሱ ግን ኃሳር ",
           "c": "black"
         },
         {
@@ -41,9 +36,22 @@
           "c": "red"
         },
         {
-          "t": " ይታዘዝባቸው ለኔ ግን በረከት ረድኤት ይብዛልኝ። ",
+          "t": " ይታዘዝባቸው ለኔ ግን በረከት ረድኤት ይብዛልኝ።",
           "c": "black"
-        },
+        }
+      ],
+      "bbox": [
+        268,
+        814,
+        2410,
+        2277
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
         {
           "t": "ለአብ ለወልድ ለመንፈስ ቅዱስ",
           "c": "red"
@@ -52,12 +60,54 @@
           "t": " ምስጋና ይገባል ለዘላለሙ አሜን።",
           "c": "black"
         }
-      ]
-    },
-    {
-      "type": "ornament",
-      "verse_num_am": "",
-      "spans": []
+      ],
+      "bbox": [
+        268,
+        2311,
+        2410,
+        2598
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7b580787b6864193e466401837069c1e9bcf6bb9b1cd09bd496ebcff68213de5",
+      "source_sha256": "e34f497244ebeda149960463d9b00009cbfe868d5a96826faa1662447386f708",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_217.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 78.646,
+      "created_at": "2026-10-24T01:40:47.905128+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "b8110be3658b75f5938d5d10a0ed425e3d592f811f48c5bb2f957a78f172902d",
+      "image": "e34f497244ebeda149960463d9b00009cbfe868d5a96826faa1662447386f708",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 3,
+    "red_located": 3
+  },
+  "_legacy": "transcripts-legacy/page_217.json"
 }

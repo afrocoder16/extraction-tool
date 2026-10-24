@@ -1,22 +1,10 @@
 {
   "page": 21,
-  "notes": "Header numeral read as ፲፭ (page 15 of the printed book); small and worn, worth a second look. 'ተወልዳልና' in the last verse may be printed for the standard 'ተወልዷልና', but the glyph is not clear enough to raise as a correction.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [],
+  "page_header": "፲ የሰኞ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፲፭  የሰኞ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
       "type": "verse",
-      "verse_num_am": "፬",
+      "verse_num_am": "፭",
       "spans": [
         {
           "t": "ነቢዩ ኢሳያስ በመንፈስ ቅዱስ ",
@@ -27,18 +15,25 @@
           "c": "red"
         },
         {
-          "t": " ምሥጢር አየ ስለዚህም ሕፃን ተወለደልን ወልድም ተሰጠን ብሎ አሰምቶ ተናገረ። ",
+          "t": " ምሥጢር አየ ስለዚህም ሕፃን ተወስደልን ወልድም ተሰጠን ብሎ አሰምቶ ተናገረ። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        498,
+        514,
+        2501,
+        1172
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፭",
+      "verse_num_am": "፮",
       "spans": [
         {
           "t": "ሰው ሆይ ፈጽመህ ደስ ይበልህ ",
@@ -56,11 +51,18 @@
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        491,
+        1205,
+        2498,
+        2015
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፮",
+      "verse_num_am": "፯",
       "spans": [
         {
           "t": "የነበረው የሚኖረው የመጣው ዳግመኛ የሚመጣውም ቃል ",
@@ -86,11 +88,18 @@
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        485,
+        2038,
+        2495,
+        2855
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፯",
+      "verse_num_am": "፰",
       "spans": [
         {
           "t": "የነቢያት ሀገራቸው ቤተልሔም ሆይ ደስ ይበልሽ ሁለተኛው አዳም ",
@@ -101,12 +110,57 @@
           "c": "red"
         },
         {
-          "t": " በአንቺ ዘንድ ተወልዳልና።",
+          "t": " በአንቺ ዘንድ ተወልዷልና።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        481,
+        2869,
+        2488,
+        3300
+      ],
+      "layout_category": "Text"
     }
   ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
   "uncertain": [],
-  "clipped": []
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "37fdd51397bc3c78cdd960bf5059d2cdbb80977275c896a9732b9872311da5b5",
+      "source_sha256": "8c3e4e584b949929387f0ca10083a364b03047af676705872a742845a86d0c3c",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_021.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 94.434,
+      "created_at": "2026-10-23T23:03:52.966038+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "98ff997a8ac5a9fbe49328ca62d93c1915686a8b7decf50616517f4d336a6ca5",
+      "image": "8c3e4e584b949929387f0ca10083a364b03047af676705872a742845a86d0c3c",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 10,
+    "red_located": 10
+  },
+  "_legacy": "transcripts-legacy/page_021.json"
 }

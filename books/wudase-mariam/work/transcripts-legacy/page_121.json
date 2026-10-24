@@ -1,0 +1,150 @@
+{
+  "page": 121,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 17 of 96 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": ".0",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "የእውነተኛው",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ንታ",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "ክርስቶስ",
+      "why": "Tesseract confidence 27 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "ሆነ፡፡",
+      "why": "Tesseract confidence 49 — check against the scan"
+    },
+    {
+      "text": "ሕይወት",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "አለ፡፡",
+      "why": "Tesseract confidence 44 — check against the scan"
+    },
+    {
+      "text": "አረጋዊ፤",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "\"",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 39 — check against the scan"
+    },
+    {
+      "text": "#ፍጥጣጥ",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": "ዐኳርኮ፡፡",
+      "why": "Tesseract confidence 39 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቿ አንቀጸ .0 .-",
+          "c": "black"
+        },
+        {
+          "t": "ጌታ የባሕርይ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "አምላክ - ከሆነ",
+          "c": "red"
+        },
+        {
+          "t": "የተገኘ የእውነተኛው የሁሉ ንታ የተወለደ አንጂ የተፈጠረ ያይደለ በህልውና . በአኗኗር ከአባቱ ጋር የተካከለ በሰማይና በምድር ያለው ሁሉ በእርሱ የተፈጠረ እኛን ሰዎችን ስለማዳን የወረደ",
+          "c": "black"
+        },
+        {
+          "t": ".. ክርስቶስ",
+          "c": "red"
+        },
+        {
+          "t": "- |",
+          "c": "black"
+        },
+        {
+          "t": "ከቅድስት . ድንግል ማሪያም :",
+          "c": "red"
+        },
+        {
+          "t": "ፈፅሞ ሰው",
+          "c": "black"
+        },
+        {
+          "t": ",",
+          "c": "red"
+        },
+        {
+          "t": "ሆነ፡፡ በመምጣቱም አበራልን ፍጹም ደስታንም አበሰረን (ነገረን) ወደ አባቱም' ስቀረበን (አስታረቀን) ወደ ሕይወት - ጎዳናም መራን የዘላለም ህይወትንም - ሰጠን፡፡ ነቢዩ ኢሳያስ አርሱን በማመን ከህጉ የተነሳ በትንቢት . እያደነቀ ህግህ በምድር ላይ ብርሃን ነው አለ፡፡ አረጋዊ፤",
+          "c": "black"
+        },
+        {
+          "t": "\"",
+          "c": "red"
+        },
+        {
+          "t": "ካህንና",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔርን",
+          "c": "red"
+        },
+        {
+          "t": "ትአዛዝ የጠበቀ ጻዲቅና ንጽህ ዘካሪያስ .- #ፍጥጣጥ 5 ዐኳርኮ፡፡ ጋጣር ገሮጮጦ",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

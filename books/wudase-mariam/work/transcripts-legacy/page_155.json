@@ -1,0 +1,226 @@
+{
+  "page": 155,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 21 of 90 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ድፎ",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "ልጁ",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "ዓመት",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "፡",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "አማልድዛለሁ፡፡",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "ልጁ",
+      "why": "Tesseract confidence 48 — check against the scan"
+    },
+    {
+      "text": "ሆይ፤",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "አለ",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "ብቡኃት",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": "እየተንቀጠቀጡ",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "ኣካንተን",
+      "why": "Tesseract confidence 42 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "አማልድዛለሁ፡፡",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "ሄሮድስ",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": "1.ቭተን",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "ተግባልኝ",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "ስማልድፃዛለሁ፡፡",
+      "why": "Tesseract confidence 31 — check against the scan"
+    },
+    {
+      "text": "ሆይ፤",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ኣያልኩሳስብ",
+      "why": "Tesseract confidence 70 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ድፎ ጎልጎታ",
+          "c": "black"
+        },
+        {
+          "t": "ልጁ ወዳጄ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ሆይ፤!",
+          "c": "red"
+        },
+        {
+          "t": "አራት ዓመት",
+          "c": "black"
+        },
+        {
+          "t": ". በ -",
+          "c": "red"
+        },
+        {
+          "t": "አየጠጣህ (እየተመገብህ) ባሳደኩህ ሁለቱ",
+          "c": "black"
+        },
+        {
+          "t": "፡",
+          "c": "red"
+        },
+        {
+          "t": "ጡቶቼ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ ዘንድ",
+          "c": "red"
+        },
+        {
+          "t": "አማልድዛለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጁ ወዳጄ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "አለ ብቡኃት ስዕይንቲሆሙ በተባሱ ዐወርተ መንበርህ ኪሩቤል በፍርሀትና በርዓድ እየተንቀጠቀጡ መንበርህን በሚሸከሙ ኣካንተን",
+          "c": "black"
+        },
+        {
+          "t": "..",
+          "c": "red"
+        },
+        {
+          "t": "ባዘለችህ ጀርባዬ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ ዘንድ",
+          "c": "red"
+        },
+        {
+          "t": "አማልድዛለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "ልጄ ወዳጄ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": "ከርጉም ሄሮድስ ፊት 1.ቭተን ወደ ግብዕ አካባቢ እስክንደርስ ድረስ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "በደረሰብኝ ርሃብና ጥም",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ተግባልኝ ዘንድ",
+          "c": "red"
+        },
+        {
+          "t": "ስማልድፃዛለሁ፡፡",
+          "c": "black"
+        },
+        {
+          "t": "| ልጄ ወዳጄ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": ". ስንተን",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ይገድሱሃል ኣያልኩሳስብ ከክይኖቼ መንታ መንታ ሁነው እየፈሰሱ በክብርት ስጋህ ላይ በወረዱት",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "እንባዎቼ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        }
+      ]
+    }
+  ]
+}

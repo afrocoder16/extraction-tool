@@ -1,0 +1,86 @@
+{
+  "page": 154,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 20 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ሂኒጸሪ።ዴ",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "6(5665ሪ/",
+      "why": "Tesseract confidence 52 — check against the scan"
+    },
+    {
+      "text": "6",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "ዘ",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "፪5626(በ፡ኑ",
+      "why": "Tesseract confidence 34 — check against the scan"
+    },
+    {
+      "text": "ጋ",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "5።",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "ፄ5ጫ።",
+      "why": "Tesseract confidence 40 — check against the scan"
+    },
+    {
+      "text": "በጋ",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": "..",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "አማልድሃለሁ፡፡:",
+      "why": "Tesseract confidence 29 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሂኒጸሪ።ዴ 6(5665ሪ/ 6 586 ዘ ፪5626(በ፡ኑ ሺ ጋ ጽ 5። ፄ5ጫ። በጋ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ኪዳን ትገባልኝ ..",
+          "c": "red"
+        },
+        {
+          "t": "በንድ አማልድሃለሁ፡፡: |",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

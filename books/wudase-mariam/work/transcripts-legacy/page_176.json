@@ -1,0 +1,70 @@
+{
+  "page": 176,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 5 of 17 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "-",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": "4",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "የብርዛን",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 26 — check against the scan"
+    },
+    {
+      "text": "?.",
+      "why": "Tesseract confidence 64 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሁሉ መታሰቢያየን ለሚደርጉ - በስሜም ቤተክርስቲያንን",
+          "c": "black"
+        },
+        {
+          "t": "4",
+          "c": "red"
+        },
+        {
+          "t": "ለሚሰሩ አንተ የብርዛን ማህደር አዘጋጅላቸው፡፡ |",
+          "c": "black"
+        },
+        {
+          "t": "፥",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": "?.",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

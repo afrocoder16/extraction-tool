@@ -1,32 +1,113 @@
 {
   "page": 33,
-  "notes": "The LAST line is cut off by the bottom edge—only the upper part of the opening of verse ፲፩ survives, so it is not transcribed.",
-  "corrections": [],
+  "page_header": "፲፮ የማክሰኞ ውዳሴ ማርያም",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "፳፩  የማክሰኞ ውዳሴ ማርያም", "c": "black" }
-      ]
-    },
     {
       "type": "verse",
       "verse_num_am": "፱",
       "spans": [
-        { "t": "ወደ ደብረሲና የወረደ ለሙሴ ሕግን የሰጠ የተራራውን እራስ በጽጋግ በጢስ በጨለማና በነፋስ የሸፈነ ፈርተው የቆሙትንም በነጋሪቶች ድምፅ የገሠፀ የአብ አካላዊ ቃል ነው። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "ወደ ደብረሲና የወረደ ለሙሴ ሕግን የሰጠ የተራራውን እራስ በጽጋግ በጢስ በጨለማና በነፋስ የሽፈነ ፈርተው የቆሙትንም በነጋሪቶች ድምፅ የገሠፀ የአብ አካልዊ ቃል ነው። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        416,
+        462,
+        2511,
+        1372
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፲",
       "spans": [
-        { "t": "በትሕትና የተናገርሽ ተራራ ሆይ ይኸውም ወደ አንቺ የወረደው ነው። ሰውን የወደደ እርሱ ያለመለወጥ ባንቺ ሰው ሆነ። እንደ እኛ በሚናገር ሥጋ ፍጹም ሆኖ ", "c": "black" },
-        { "t": "አምላክ በመንፈስ ቅዱስ", "c": "red" },
-        { "t": " በማኅፀንሽ አደረና ፍጹም ሰው ሆነ። አዳምን ያድነው ዘንድ ኃጢአቱንም ያስተሠርይለት ዘንድ በሰማያት (በሰማያዊ መዓርግ) ያኖረው ዘንድ በቸርነቱና በይቅርታው ብዛት ወደ ቀድሞው ቦታው ይመልሰው ዘንድ። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "በትሕትና የተናገርሽ ተራራ ሆይ ይኸውም ወደ አንቺ የወረደው ነው። ሰውን የወደደ እርሱ ያለመለወጥ ባንቺ ሰው ሆነ። እንደ እኛ በሚናገር ሥጋፍጹም ሆኖ ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክ በመንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " በማህፀኗ አደረና ፍጹም ሰውሆነ። አዳምን ያድነው ዘንድ ኃጢአቱንም ያስተሠርይለት ዘንድ በሰማያት (በሰማያዊ መዓረግ) ያኖረው ዘንድ በቸርነቱና በይቅርታው ብዛት ወደ ቀድሞው ቦታው ይመልሰው ዘንድ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        416,
+        1386,
+        2498,
+        3102
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፲፩",
+      "spans": [
+        {
+          "t": "የድንግልን ገናንነቷን ሊናገሩት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        545,
+        3115,
+        2491,
+        3259
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "1a473f7bfcc2805c9c12bba28d4ccce9871b3735f60328e9556bfc601f33e2ad",
+      "source_sha256": "2edecd49383bfe3cc1225daaff98c8608280c77f0542353eafb88b8e8921cd7f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_033.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 89.543,
+      "created_at": "2026-10-23T23:26:51.540909+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "99738fe0a19c5eb03427e39b085117c6f3ebb3d30199c7afcfaac0e781cc00dd",
+      "image": "2edecd49383bfe3cc1225daaff98c8608280c77f0542353eafb88b8e8921cd7f",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_033.json"
 }

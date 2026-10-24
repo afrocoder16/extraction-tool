@@ -1,48 +1,130 @@
 {
   "page": 119,
-  "notes": "The opening text continues verse ፮ from page 117. Verse ፰ begins near the bottom; only its first line is fully visible.",
-  "corrections": [],
-  "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Verse ፰ continues after the fully visible red line 'ከሁሉ ጌታ የተገኘ የሁሉ ጌታ'; the next red line is sliced by the bottom edge and omitted."
-    }
-  ],
+  "page_header": "፶፱ አንቀጸ ብርሃን",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "፸፮  አንቀጸ ብርሃን", "c": "black" }
-      ]
+        {
+          "t": "በሆነ ልብ ከእርሱ ለሚበላም ሁሉ ሕይወትን ለሚሰጥ ከሰማይ የወረደ ነው፤ ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ",
+          "c": "red"
+        },
+        {
+          "t": " ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        273,
+        467,
+        2334,
+        1087
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "",
+      "verse_num_am": "፲",
       "spans": [
-        { "t": "በሆነ ልብ ከእርሱ ለሚበላም ሁሉ ሕይወትን ለሚሰጥ ከሰማይ የወረደ ነው። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ልጅሽ", "c": "red" },
-        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
-      ]
+        {
+          "t": "የብልሃተኛ እጅ ያልሰራት በውስጧም መብራት የሚያበሩባት የወርቅ መቅረዝ አንቺ ነሽ፤ ራሱ ",
+          "c": "black"
+        },
+        {
+          "t": "የአብ ብርሃን",
+          "c": "red"
+        },
+        {
+          "t": " ያበራባት እንጂ። ከብርሃን የተገኘ ብርሃን ወደ አንቺ መጥቶ አደረ፤ በአምላክነቱም በዓለም ሁሉ አበራ። ጨለማን ከሰዎች ላይ አራቀ፤ እኔ የዓለም ብርሃን ነኝ። በብርሃኔ እመኑ። ብርሃን ሳለላችሁ ተመላለሱ ብሎ በሚያድን ቃሉ አዳነን። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ልጅሽ",
+          "c": "red"
+        },
+        {
+          "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        288,
+        1206,
+        2360,
+        2938
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፯",
+      "verse_num_am": "፲፩",
       "spans": [
-        { "t": "የብልሃተኛ እጅ ያልሰራት በውስጧም መብራት የሚያበሩባት የወርቅ መቅረዝ አንቺ ነሽ፤ ራሱ ", "c": "black" },
-        { "t": "የአብ ብርሃን", "c": "red" },
-        { "t": " ያበራባት እንጂ። ከብርሃን የተገኘ ብርሃን ወደ አንቺ መጥቶ አደረ። በአምሳልነቱም በዓለም ሁሉ አበራ። ጨለማን ከሰዎች ላይ አራቀ። እኔ የዓለም ብርሃን ነኝ። በብርሃኔ እመኑ። ብርሃን ሳለላችሁ ተመላለሱ ብሎ በሚያድን ቃሉ አዳነን። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ልጅሽ", "c": "red" },
-        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "፰",
-      "spans": [
-        { "t": "ከሁሉ ጌታ የተገኘ የሁሉ ጌታ", "c": "red" }
-      ]
+        {
+          "t": "ከሁሉ ጌታ የተገኘ የሁሉ ጌታ",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        415,
+        3086,
+        2368,
+        3235
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ልዕል",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    },
+    {
+      "text": "1 ነጻሬ 2 ነጻኙ 3 ነጻኝ 4 ነጻኔ 5 ነጻሮ 6 ነጻሼ 7 ነጻሼ 8 ነጻሼ 9 ነጻሼ 10 ነጻሼ 11 ነጻሼ 12 ነጻሼ 13 ነጻሼ 14 ነጻሼ 15 ነጻሼ 16 ነጻሼ 17 ነጻሼ 18 ነጻሼ 19 ነጻሼ 20 ነጻሼ 21 ነጻሼ 22 ነጻሼ 23 ነጻሼ 24 ነጻሼ 25 ነጻሼ 26 ነጻሼ 27 ነ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "729b09497edc4cb6bb2cbf4663538a6d0845becc898bea455872b3b7335545f8",
+      "source_sha256": "c8d86332f66e9b7ffdda54781dd2e15c1112bf0439114842da9fb6224a425bdf",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_119.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.111,
+      "created_at": "2026-10-24T00:27:22.093865+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "c512872e3801d074257bd03960d5459f95b7ffc2bd3817b30ee0a13f69dc8215",
+      "image": "c8d86332f66e9b7ffdda54781dd2e15c1112bf0439114842da9fb6224a425bdf",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 6,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_119.json"
 }

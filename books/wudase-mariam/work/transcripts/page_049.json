@@ -1,20 +1,9 @@
 {
   "page": 49,
-  "notes": "The page ends mid-sentence after 'በቀር'.",
-  "corrections": [],
+  "page_header": "፳፬ የረቡዕ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፳፱  የረቡዕ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
@@ -26,15 +15,15 @@
           "c": "red"
         },
         {
-          "t": " እኛን ለማዳን ልዩ ከሆነች ድንግል ሰው ሆኗልና። ኑ ይህን ድንቅ እዩ። ስለ ተገለጠልን ምሥጢር ምስጋና አቅርቡ። ሰው የማይሆን ሰው ሆኗልና። ቃል ተዋሕዷልና ጥንት የሌለው ሥጋ ጥንታዊ ቀዳማዊ ሆነ። ዘመን የማይቆጠርለት መለኮት ዘመን ተቆጠረለት። የማይታወቅ ተገለጠ የማይታይ ታየ ",
+          "t": " እኛን ለማዳን ልዩ ክሆነች ድንግል ሰው ሆኗዋልና። ኑ ይህን ድንቅ እዩ። ስለ ተገለጠልን ምስጢር ምስጋና አቅርቡ። ሰው የማይሆን ሰው ሆኗልና። ቃል ተዋህዷልና ጥንት የሌለው ሥጋ ጥንታዊ ቀዳማዊ ሆነ ዘመን የማይቆጠርለት መለኮት ዘመን ተቆጠረለት። የማይታወቅ ተገለጠ የማይታይ ታየ የሕያው ",
           "c": "black"
         },
         {
-          "t": "የሕያው የእግዚአብሔር ልጅ",
+          "t": "የእግዚአብሔር",
           "c": "red"
         },
         {
-          "t": " በእርግጥ ሰው ሆነ። ትላንት የነበረው ዛሬም ያለው መቼም የሚኖረው ",
+          "t": " ልጅ በእርግጥ ሰው ሆነ። ትላንት የነበረው ዛሬም ያለው መቼም የሚኖረው ",
           "c": "black"
         },
         {
@@ -42,28 +31,78 @@
           "c": "red"
         },
         {
-          "t": " እንሰግድለት እናመስግነው ከአብ አንድ ባሕርይ ነው። ",
+          "t": " እንሰግድለት እናመስግነው ዘንድ አንድ ባሕርይ ነው። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        312,
+        514,
+        2482,
+        2822
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፰",
+      "verse_num_am": "፳",
       "spans": [
         {
-          "t": "ነቢዩ ሕዝቅኤል ስለ እርስዋ መሰከረ ድንቅ በሆነ ታላቅ ቁልፍ የተዘጋች ደጅ ምሥራቅ አየሁ አለ ከኃያላን ጌታ በቀር ወደ እርስዋ ገብቶ የወጣ የለም። ",
+          "t": "ነቢዩ ሕዝቅኤል ስለ እርስዋ መሰከረ ድንቅ በሆነ ታላቅ ቁልፍ የተዘጋች ደጅ ምሥራቅ አየሁ አለ ከኃያላን ጌታ በቀር",
           "c": "black"
-        },
-        {
-          "t": "ቅድስት ሆይ ለምኝልን።",
-          "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        335,
+        2833,
+        2493,
+        3275
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "09b8b1318b0bbfc1103dbd9163e1249c0fed502de41b28fb66e78e532756b2c0",
+      "source_sha256": "daf793ac25ad5b3cdf8c136b67db144847058fe5f7e35792df9189239ee7d1b8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_049.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 83.975,
+      "created_at": "2026-10-23T23:37:57.701247+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "190a048898d2ae81cb29971de661aab3e943f9587f344493521ba9f75db81378",
+      "image": "daf793ac25ad5b3cdf8c136b67db144847058fe5f7e35792df9189239ee7d1b8",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 6,
+    "red_located": 6
+  },
+  "_legacy": "transcripts-legacy/page_049.json"
 }

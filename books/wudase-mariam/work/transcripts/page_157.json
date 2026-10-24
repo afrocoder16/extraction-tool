@@ -1,75 +1,17 @@
 {
   "page": 157,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 88 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "የሰኔ",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": "[ንድ",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 42 — check against the scan"
-    },
-    {
-      "text": "ወዳጃ",
-      "why": "Tesseract confidence 45 — check against the scan"
-    },
-    {
-      "text": "ጥዑማት",
-      "why": "Tesseract confidence 56 — check against the scan"
-    },
-    {
-      "text": "አውራጃ",
-      "why": "Tesseract confidence 38 — check against the scan"
-    },
-    {
-      "text": "አማልድዛሃለሁ፡፡",
-      "why": "Tesseract confidence 37 — check against the scan"
-    },
-    {
-      "text": "ልጁ",
-      "why": "Tesseract confidence 66 — check against the scan"
-    },
-    {
-      "text": "አለማልድሃለሁ፡፡",
-      "why": "Tesseract confidence 37 — check against the scan"
-    },
-    {
-      "text": "ወዳጄ",
-      "why": "Tesseract confidence 43 — check against the scan"
-    },
-    {
-      "text": "-”",
-      "why": "Tesseract confidence 59 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፮ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ኗ የሰኔ ጎልጎታ",
-          "c": "black"
-        },
-        {
-          "t": "ልጄ ወዳጄ",
+          "t": "ልጆ ወዳጆ ሆይ፤",
           "c": "red"
         },
         {
-          "t": "ምን ምን ሲቀርብህ የማይችል አንተን በሳሙ ከንፈሮቼ",
+          "t": " ምን ምን ሊቀርብህ የማይችል አንተን በሳሙ ከንፈሮቼ ",
           "c": "black"
         },
         {
@@ -77,82 +19,140 @@
           "c": "red"
         },
         {
-          "t": "[ንድ አማልድዛለሁ፡፡",
-          "c": "black"
-        },
-        {
-          "t": ". ልጄዴ",
-          "c": "red"
-        },
-        {
-          "t": ".",
-          "c": "black"
-        },
-        {
-          "t": "ወዳጃ ሆይ፤",
-          "c": "red"
-        },
-        {
-          "t": "ከክንተ ጋርቃል ለቃል በተነጋገረ ስንደበቴ፤ ሱራፌል ኪሩቤል ድምፅህን ሰምተው ዐንተው ለመቆም የማይቻላቸው ጥዑማት ቃላትህን በሰሙ ጆሮቼ ሰላሳ ሶስት ዓመት ወደ አውራጃ ከአንተ ጋራ በተመላለሱ አግሮቼ",
-          "c": "black"
-        },
-        {
-          "t": "ቃል ኪዳን ትገባልኝ",
-          "c": "red"
-        },
-        {
-          "t": "ዘንድ አማልድዛሃለሁ፡፡",
-          "c": "black"
-        },
-        {
-          "t": "ልጁ ወዳጄ",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ሆይ!",
-          "c": "red"
-        },
-        {
-          "t": "ልብሱ አሳት | ክዳኑ አሳት አየተባልክ የምትመሰገን አንተ፤ እሳተ መለኮት ስትሆን በጨርቅ ተጠቅልለህ በተጣልክበት ዋሻ (በረት)",
-          "c": "black"
-        },
-        {
-          "t": "ቃል ኪዳን ትገባልኝ",
-          "c": "red"
-        },
-        {
-          "t": "[ንድ አለማልድሃለሁ፡፡",
-          "c": "black"
-        },
-        {
-          "t": "ልጄ ወዳጄ ሆይ፤",
-          "c": "red"
-        },
-        {
-          "t": "መልስከ ምክርህ በሆነ",
-          "c": "black"
-        },
-        {
-          "t": "ቅዱስ ሚካኤል",
-          "c": "red"
-        },
-        {
-          "t": "ስንተን",
-          "c": "black"
-        },
-        {
-          "t": "-”",
-          "c": "red"
-        },
-        {
-          "t": "በክብር",
+          "t": " ዘንድ እማልድሃለሁ።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        315,
+        509,
+        2387,
+        946
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ከአንተ ጋርቃል ለቃል በተነጋገረ አንደበቴ፤ ሱራፌል ኪሩቤል ድምፅህን ሰምተው ፀንተው ለመቆም የማይቻላቸው ጥዑማት ቃላትህን በሰሙ ጆሮቼ ሰላሳ ሶስት ዓመት ከአውራጃ ወደ አውራጃ ከአንተ ጋራ በተመላለሱ እግሮቼ ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": " ዘንድ እማልድሃለሁ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        315,
+        972,
+        2392,
+        2182
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤ ልብሱ እሳት ክዳኑ እሳት እየተባልክ የምትመሰገን አንተ፤ እሳተ መለኮት ስትሆን በጨርቅ ተጠቅልለህ በተጣልክበት ዋሻ (በረት) ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": " ዘንድ እማልድሃለሁ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        315,
+        2203,
+        2387,
+        2960
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " መልአከ ምክርህ ",
+          "c": "black"
+        },
+        {
+          "t": "በሆነ ቅዱስ ሚካኤል አንተን",
+          "c": "red"
+        },
+        {
+          "t": " በክብር",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        315,
+        2987,
+        2363,
+        3275
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "00dc012085b891d8deeb5bcf0957f3ec1b0e3239da980a41c9c87526660396c1",
+      "source_sha256": "25e5d55932ffacb1128acafce0eb55fce3ec3a33e1c14c8d9957752f7965ed13",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_157.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 92.168,
+      "created_at": "2026-10-24T00:53:03.765457+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "e1cce246a4d5d7e353b3498791b9e786f1b378a416d8af57bce9320f9bb5e514",
+      "image": "25e5d55932ffacb1128acafce0eb55fce3ec3a33e1c14c8d9957752f7965ed13",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 10,
+    "red_located": 10
+  },
+  "_legacy": "transcripts-legacy/page_157.json"
 }

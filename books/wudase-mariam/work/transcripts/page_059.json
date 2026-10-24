@@ -1,33 +1,100 @@
 {
   "page": 59,
-  "notes": "The page ends mid-sentence after 'በፈቃዱ'.",
-  "corrections": [],
+  "page_header": "፳፱ የሐሙስ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "፴፫  የሐሙስ ውዳሴ ማርያም", "c": "black" }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "ወለደችው። መልአኩ ልጅ ትወልጃለሽ ስሙም ", "c": "black" },
-        { "t": "አማኑኤል", "c": "red" },
-        { "t": " ይባላል አላት። ትርጓሜውም ", "c": "black" },
-        { "t": "እግዚአብሔር", "c": "red" },
-        { "t": " ከእኛ ጋር ሆነ ማለት ነው። ዳግመኛ ወገኖቹን ከኃጢአታቸው የሚያድናቸው ", "c": "black" },
-        { "t": "ኢየሱስ", "c": "red" },
-        { "t": " ይባላል። በችሎታው (በኃይሉ) ያድነን ዘንድ ኃጢአታችንንም ያስተሠርይልን ዘንድ ለዘለዓለም ክብር ይግባውና ሰው የሆነ እርሱን ", "c": "black" },
-        { "t": "አምላክ", "c": "red" },
-        { "t": " እንደሆነ በተረዳ ነገር አውቀነዋልና። ልዩ ከሆነች ድንግል ", "c": "black" },
-        { "t": "ማርያም", "c": "red" },
-        { "t": " ይህ የአምላክ መወለድ ምን ይደንቅ ቃልን ወሰነችው። ልደቱንም ዘር አልቀደመውም። በመወለዱም ድንግልናዋን አልለወጠውም። ቃል ከአብ ያለ ድካም ወጣ። ከድንግልም ያለ ሕማም ተወለደ። ሰብአ ሰገል ሰገዱለት ", "c": "black" },
-        { "t": "አምላክ", "c": "red" },
-        { "t": " ነውና ዕጣን አመጡለት ንጉሥም ነውና ወርቅ አመጡለት ስለእኛ በፈቃዱ", "c": "black" }
-      ]
+        {
+          "t": "ወለደችው። መልአኩ ልጅ ትወልጃለሽ ስሙም አማኑኤል ይባላል አላት። ትርጓሜውም ",
+          "c": "black"
+        },
+        {
+          "t": "እግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ከእኛ ጋር ሆነ ማለት ነው። ዳግመኛ ወገኖቹን ከኃጢአታቸው የሚያድናቸው ",
+          "c": "black"
+        },
+        {
+          "t": "ኢየሱስ",
+          "c": "red"
+        },
+        {
+          "t": " ይባላል። በችሎታው (በኃይሉ) ያድነን ዘንድ ኃጢአታችንንም ያስተሠርይልን ዘንድ ለዘለዓለም ክብር ይግባውና ሰው የሆነ እርሱን ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክ",
+          "c": "red"
+        },
+        {
+          "t": " እንደሆነ በተረዳ ነገር አውቀነዋልና። ልዩ ከሆነች ድንግል ማርያም ይህ የአምላክ መወለድ ምን ይደንቅ ቃልን ወሰነችው። ልደቱንም ዘር አልቀደመውም። በመወልዱም ድንግልናዋን አልለወጠውም። ቃል ከአብ ያለ ድካም ወጣ። ከድንግልም ያለ ሕማም ተወለደ። ሰብአ ሰገል ሰገዱለት ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክ",
+          "c": "red"
+        },
+        {
+          "t": " ነውና ዕጣን አመጡለት ንጉሥም ነውና ወርቅ አመጡለት ስለእኛ በፈቃዱ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        59,
+        429,
+        2148,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "አማርኛ አማርኛ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "c003104efc0c417d69ecd2c7cb4668ae0bdcadacafee1bbac3b8f6518ed96e0f",
+      "source_sha256": "31cd1d5665cf2cb4bb2e60e9ecf7315065f691fbec6e5c775db9c7937b5c578c",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_059.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.498,
+      "created_at": "2026-10-23T23:45:01.058718+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "dc364f2136b05c501250bd223f56eeeee9a52610aa13630011e74317fdd9c2e7",
+      "image": "31cd1d5665cf2cb4bb2e60e9ecf7315065f691fbec6e5c775db9c7937b5c578c",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_059.json"
 }

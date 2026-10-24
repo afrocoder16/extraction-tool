@@ -1,48 +1,121 @@
 {
   "page": 93,
-  "notes": "The first unnumbered block continues the stanza begun on the preceding page.",
-  "corrections": [],
-  "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Verse ፮ continues beyond the bottom edge after the visible word 'የልቦናችንን'; the following line is not visible."
-    }
-  ],
+  "page_header": "፵፮ የእሁድ ዉዳሴ ጸሎት",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "፷፫  የእሁድ ውዳሴ ጸሎት", "c": "black" }
-      ]
-    },
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "ሰው የሆነው ቃል ኃጢአታችንን የሚያስተሠርይልንና አበሳችንን የሚደመስስልን ሆነ። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "ሰው የሆነው ቃል ኃጢአታችንን የሚያስተሠርይልንና አበሳችንን የሚደመስስልን ሆነ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        283,
+        303,
+        2417,
+        910
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፭",
       "spans": [
-        { "t": "የተሠወረ መና ያለብሽ የንጹሕ ወርቅ መሶብ አንቺ ነሽ መናም ከሰማይ የወረደውና ለዓለም ሁሉ ሕይወትን የሚያድለው ኅብስት ነው። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "የተሠወረ መና ያለብሽ የንጹሕ ወርቅ መሶብ አንቺ ነሽ መናም ከሰማይ የወረደውና ለዓለም ሁሉ ሕይወትን የሚያድለው ኅብስት ነው። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        299,
+        1000,
+        2431,
+        1742
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፮",
       "spans": [
-        { "t": "ሁል ጊዜ ብርሃንነት ያለውን ፋና የተሸከምሽ የወርቅ መቅረዝ አንቺ ነሽ ይኸውም ፋና የዓለም ብርሃን ነው። ጥንት ከሌለው ብርሃን የተገኘ ብርሃን ነው። ከእውነተኛ ", "c": "black" },
-        { "t": "አምላክ", "c": "red" },
-        { "t": " የተገኘ ", "c": "black" },
-        { "t": "እውነተኛ አምላክ", "c": "red" },
-        { "t": " ነው። ያለ መለወጥ ከአንቺ ሰው የሆነው ነው። በመምጣቱም (ሰው በመሆኑም) በጨለማና በሞት ጥላ ውስጥ ለምንኖር ለእኛ አበራልን በልዩ ጥበቡ ምሥጢር በሥጋዌ የልቦናችንን", "c": "black" }
-      ]
+        {
+          "t": "ሁል ጊዜ ብርሃንነት ያለውን ፋና የተሸከምሽ የወርቅ መቅረዝ አንቺ ነሽ ይኸውም ፋና የዓለም ብርሃን ነው። ጥንት ከሌለው ብርሃን የተገኘ ብርሃን ",
+          "c": "black"
+        },
+        {
+          "t": "ነው። ከእውነተኛ አምላክ",
+          "c": "red"
+        },
+        {
+          "t": " የተገኘ እውነተኛ ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክ",
+          "c": "red"
+        },
+        {
+          "t": " ነው። ያለ መለወጥ ከአንቺ ሰው የሆነው ነው። በመምጣቱም (ሰው በመሆኑም) በጨለማና በሞት ጥላ ውስጥ ለምንኖር ለእኛ አበራልን በልዩ የጥበቡ ምሥጢር በሥጋዌ የልቦናችንን",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        319,
+        1830,
+        2464,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f3dcba3b263bd2e313a06e1fbd1f586a5e3181e644aecca00d864539999cc48d",
+      "source_sha256": "cd2333cd463629fbe51b66b75b73838bb51509a54bbd822ed2316cd3433394f1",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_093.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 87.076,
+      "created_at": "2026-10-24T00:09:03.696398+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "4660e61369bcd51182e5d0f2a185eae556489efbe377004d29159536d25dcf26",
+      "image": "cd2333cd463629fbe51b66b75b73838bb51509a54bbd822ed2316cd3433394f1",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 6,
+    "red_located": 6
+  },
+  "_legacy": "transcripts-legacy/page_093.json"
 }

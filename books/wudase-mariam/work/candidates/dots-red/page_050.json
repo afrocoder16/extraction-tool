@@ -1,0 +1,30 @@
+{
+  "page": 50,
+  "key": {
+    "mask": "0a1f9e636fadcce74085c5f48b7038f44f6042aeaaac5edfa54cc58c1e8be444",
+    "image": "dfeea06775e5f8cabc190ed51be81b7fec528387a5ada43637bda505c78ca1b8",
+    "version": "red-crop-v1",
+    "model": "dots-studio/dots.mocr"
+  },
+  "regions": [
+    {
+      "bbox": [
+        2076,
+        0,
+        2501,
+        117
+      ],
+      "text": "ቅድስት"
+    },
+    {
+      "bbox": [
+        337,
+        159,
+        1203,
+        296
+      ],
+      "text": "ሆይ ለምኝልን::"
+    }
+  ],
+  "created_at": "2026-10-24T02:29:01.345362+00:00"
+}

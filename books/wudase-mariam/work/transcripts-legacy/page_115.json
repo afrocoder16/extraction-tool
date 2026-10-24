@@ -1,0 +1,45 @@
+{
+  "page": 115,
+  "notes": "This page continues the stanza from page 113.",
+  "corrections": [
+    {
+      "printed": "ሲጠቡ",
+      "suggested": "ሲጠባ",
+      "reason": "The singular child is the subject of the suckling clause; the printed final ቡ appears to be a misprint for ባ."
+    }
+  ],
+  "uncertain": [
+    {
+      "text": "ሲጠቡ",
+      "why": "The final vowel order is small and closely inked; it appears to be the printed ቡ, but is flagged because ባ would fit the singular construction."
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "The stanza continues after the fully visible line ending '(በጎል) ውስጥ አንቺን ከሕፃንሽ ጋር'; the next line is sliced by the bottom edge and omitted."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "፸፬  አንቀጸ ብርሃን", "c": "black" }
+      ]
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "",
+      "spans": [
+        { "t": "ሰራዊትና የሰማይ ጭፍሮች በመፍራትና በመንቀጥቀጥ በፊትሽ ቆሙ። በዚህም ዓለም ኪሩቤልና ሱራፌል በሰማይ ካለው ምስጋናቸው ወይም ከቀድሞ ምስጋናቸው ወገን ባልሆነ በሌላ (በአዲስ) ምስጋና አመሰገኑሽ ፍጥረትን ሁሉ ሰብስቦ የያዘና ፍጥረትን ሁሉ የሚመግብ ጌታቸው በብብትሽ (በክንድሽ) ተቀምጦ ጡትሽን እንደ ሕፃን ሲጠቡ ባዩ ጊዜ በአርያም ፈለጉና በዚህ ዓለም እንደ ቀድሞው ", "c": "black" },
+        { "t": "በአባቱና ከመንፈስ ቅዱስ", "c": "red" },
+        { "t": " ጋር አገኙት። ", "c": "black" },
+        { "t": "የጌታ", "c": "red" },
+        { "t": " ትሕትናውን ባዩ ጊዜም ዓይኖቻቸውን ወደ ላይ ወደ አርያም ከፍ ከፍ አደረጉ። ክንፋቸውንም ዘርግተው ", "c": "black" },
+        { "t": "ለሁሉ ጌታ", "c": "red" },
+        { "t": " ላንተ በሰማይ ምስጋና ይገባሃል። እያሉ ጌታቸውን አመሰገኑ ዳግመኛም በዋሻ (በጎል) ውስጥ አንቺን ከሕፃንሽ ጋር", "c": "black" }
+      ]
+    }
+  ]
+}

@@ -1,24 +1,13 @@
 {
   "page": 27,
-  "notes": "",
-  "corrections": [],
+  "page_header": "፫ የማክሰኞ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፲፰  የማክሰኞ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "ቃል በወለደችልን። በድንግል ",
+          "t": "ቃል በወለደችልን· በድንግል ",
           "c": "black"
         },
         {
@@ -26,7 +15,7 @@
           "c": "red"
         },
         {
-          "t": " ተገለጠልን። ሰው ከሆነ በኋላም ፍጹም ",
+          "t": " ተገኘልን። ሰው ከሆነ በኋላም ፍጹም ",
           "c": "black"
         },
         {
@@ -34,14 +23,21 @@
           "c": "red"
         },
         {
-          "t": " ነው ስለዚህም በድንግልና ወለደችው። ድንቅ የሆነ የመውለዷ ችሎታ የማይመረመር ሊነገር የማይቻል ነው። ",
+          "t": " ነው ስለዚህምበድንግልና ወለደችው። ድንቅ የሆነ የመውለድዋ ችሎታ የማይመረመር ሲነገር የማይቻል ነው። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        59,
+        416,
+        2165,
+        1450
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -59,7 +55,14 @@
           "t": " ፈቃድ መጥቶ አዳነን።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        59,
+        1639,
+        2152,
+        1943
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -90,14 +93,57 @@
           "c": "red"
         },
         {
-          "t": " መላእክት ሲወጡባት ሲወርዱባት ያያት መሰላል አንቺ ነሽ። ",
+          "t": " መላእክት ሲወጡባት ሲወርዱባት ያያት መሰላል አንቺ ነሽ።",
           "c": "black"
-        },
-        {
-          "t": "ቅድስት ሆይ ለምኝልን።",
-          "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        46,
+        2131,
+        2155,
+        3253
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "4bd0db91e247cff12c6c0f60adeb4b676572fc30a44c4938ed0a2daab8f12696",
+      "source_sha256": "a8eb2ce39985d4a5185d35a5f0287e689c0a0e043b97c23a7e97e9eafa0f13e9",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_027.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.282,
+      "created_at": "2026-10-23T23:22:23.682470+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "b549c555c5c15d053b06fb1a3b89955f27bc460ef718bfd137abcd382da57c8c",
+      "image": "a8eb2ce39985d4a5185d35a5f0287e689c0a0e043b97c23a7e97e9eafa0f13e9",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 7,
+    "red_located": 7
+  },
+  "_legacy": "transcripts-legacy/page_027.json"
 }

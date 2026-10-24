@@ -1,0 +1,21 @@
+{
+  "page": 110,
+  "key": {
+    "mask": "09b4f0b44b26fb4b50a7e8b86ad32b3052429ce21ff092a343ede6f7dcb07be0",
+    "image": "2b05eab2a110fd2cd1d367badfcc0912ffb1e7625ee77c9b301b9b3602b54c3a",
+    "version": "red-crop-v1",
+    "model": "dots-studio/dots.mocr"
+  },
+  "regions": [
+    {
+      "bbox": [
+        775,
+        104,
+        1276,
+        222
+      ],
+      "text": "ገብርኩል"
+    }
+  ],
+  "created_at": "2026-10-24T02:36:34.950782+00:00"
+}

@@ -1,49 +1,120 @@
 {
   "page": 109,
-  "notes": "The first verse block continues verse ፮ from page 107.",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "እይም",
-      "why": "The first vowel form in this short word is faint; እይም is the best visible reading."
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Verse ፯ continues below the fully visible red phrase 'ጌታ ፊት'; the following line is sliced by the bottom edge and omitted."
-    }
-  ],
+  "page_header": "፶ አንቀጸ ብርሃን",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "፸፩  አንቀጸ ብርሃን", "c": "black" }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "ምግብሽን ያመጡ ነበር። ", "c": "black" },
-        { "t": "መላእክት", "c": "red" },
-        { "t": " እየጎበኙሽ እንዲህ አሥራ ሁለት አመት ኖርሽ መጠጥሽም የሕይወት መጠጥ ነበር፤ ምግብሽም የሰማይ ሕብስት ነበር፤ አባትሽ ዳዊት በመሰንቆ አመሰገነ በትንቢት መንፈስም ", "c": "black" },
-        { "t": "መንፈስ ቅዱስ", "c": "red" },
-        { "t": " በገና እየደረደረ እንዲህ ብሎ ዘመረ ልጄ ሆይ፤ ስሚ እይም ጆሮሽንም አዘንብይ፤ ሕዝብሽንና የአባትሽንም ቤት እርሺ ንጉሡም ውበትሽን ይወዳል፤ እርሱም ጌታሽ ነውና ለእርሱም ስገጂ ትሰግጃለሽ ", "c": "black" },
-        { "t": "ቅድስት ሆይ ልጅሽ", "c": "red" },
-        { "t": " ይቅርታውን ያድለን ዘንድ ለምኝልን።", "c": "black" }
-      ]
+        {
+          "t": "ምግብሽና ያመጡ ነበር። ",
+          "c": "black"
+        },
+        {
+          "t": "መላእክት",
+          "c": "red"
+        },
+        {
+          "t": " እየጎበኙሽ እንዲህ አስራ ሁለት አመት ኖርሽ መጠጥሽም የሕይወት መጠጥ ነበር፤ ምግብሽም የሰማይ ሕብስት ነበር፤ አባትሽ ዳዊት በመሰንቆ አመሰገነ በትንቢት መንፈስም ",
+          "c": "black"
+        },
+        {
+          "t": "መንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " በገና እየደረደረ እንዲህ ብሎ ዘመረ ልጆ ሆይ፤ ስሚ እይም ዦሮሽንም አዘንብይ፤ ሕዝብሽንና የአባትሽንም ቤት እርሽ ንጉሱም ውበትሽን ይወዳል፤ እርሱም ጌታሽ ነውና ለእርሱም ስገጂ ትሰግጃለሽ ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ልጅሽ",
+          "c": "red"
+        },
+        {
+          "t": " ይቅርታዉን ያድለን ዘንድ ለምኝልን።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        296,
+        570,
+        2436,
+        2698
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፯",
       "spans": [
-        { "t": "ከንጹሐን ካልበደሉ ", "c": "black" },
-        { "t": "መላእክት", "c": "red" },
-        { "t": " ወገን የሆነና በደል የሌለበት በሁሉ ", "c": "black" },
-        { "t": "ጌታ ፊት", "c": "red" }
-      ]
+        {
+          "t": "ከንጹሐን ካልበደሉ ",
+          "c": "black"
+        },
+        {
+          "t": "መላእክት",
+          "c": "red"
+        },
+        {
+          "t": " ወገን የሆነና በደል የሌለበት በሁሉ ",
+          "c": "black"
+        },
+        {
+          "t": "ጌታ ፊት",
+          "c": "red"
+        },
+        {
+          "t": " የማቆም ካይ ገጋቼ መልእኔት መገን ይይነ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        302,
+        2889,
+        2441,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "cb735b1658e940447ed3273894f36c036b0aa062a22a68d8b9d09bd56e20a266",
+      "source_sha256": "5c89bcbfcf994d0d2ade7017b6f54bb6413e9e5712be105a8c9cbb0296ff466f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_109.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 77.829,
+      "created_at": "2026-10-24T00:20:13.036240+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "6fff071b99d70619222a0bc9d5dd38971d9e99df247685d7829dfa09c2fbedf2",
+      "image": "5c89bcbfcf994d0d2ade7017b6f54bb6413e9e5712be105a8c9cbb0296ff466f",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_109.json"
 }

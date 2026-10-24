@@ -1,118 +1,114 @@
 {
   "page": 179,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 15 of 80 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "የሰኔ",
-      "why": "Tesseract confidence 33 — check against the scan"
-    },
-    {
-      "text": "ጻህፍት",
-      "why": "Tesseract confidence 24 — check against the scan"
-    },
-    {
-      "text": "ለጻፈ",
-      "why": "Tesseract confidence 37 — check against the scan"
-    },
-    {
-      "text": "ሳጻፈ",
-      "why": "Tesseract confidence 46 — check against the scan"
-    },
-    {
-      "text": "ረጻኳለየ",
-      "why": "Tesseract confidence 48 — check against the scan"
-    },
-    {
-      "text": "ክስምደ",
-      "why": "Tesseract confidence 44 — check against the scan"
-    },
-    {
-      "text": "ኣኋብ",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "ክፈሰው፡፡",
-      "why": "Tesseract confidence 60 — check against the scan"
-    },
-    {
-      "text": "አለምንዛለሁ",
-      "why": "Tesseract confidence 64 — check against the scan"
-    },
-    {
-      "text": "ባምመሰገንበት",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": "የሚያመሰግነውንና",
-      "why": "Tesseract confidence 43 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 40 — check against the scan"
-    },
-    {
-      "text": "በአንቺ",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": "አዘጋጅለታለሁ፡፡",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "በመንግሥተ",
-      "why": "Tesseract confidence 70 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፲፯ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "2 የሰኔ ጎልጎታ",
+          "t": "አቤቱ ",
           "c": "black"
         },
         {
-          "t": "አቤቱ ምስጋናዬን",
+          "t": "ምስጋናዬን",
           "c": "red"
         },
         {
-          "t": "| | የሚናገሩትን ጻህፍት ለጻፈ ሳጻፈ ስምም ረጻኳለየ ሰማያዊ በሆነ ክስምደ ብርሃን ገሙን ጻፈው በጸሎቱም - ተማምና =ህን መጸሐፍ በአንገቱ ላነገተ በሰው ኣኋብ ያልታሰበዉን አይን ያላየውን ጆሮ ያልሰማዉን መልካሙን ዋጋ ክፈሰው፡፡",
+          "t": " የሚናገሩትን መጻህፍት ለጻፈ ላጻፈ በኔ ስምም ለጸለየ ሰማያዊ በሆነ አምደ ብርሃን ስሙን ጻፈው በጸሎቱም ተማምኖ ይህን· መጻሐፍ በአንገቱ ላነገተ በሰው ልብ ያልታሰበዉን አይን ያላየውን ጆሮ ያልሰማዉን መልካሙን ዋጋ ክፈለው።",
           "c": "black"
-        },
+        }
+      ],
+      "bbox": [
+        233,
+        476,
+        2334,
+        1580
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
         {
           "t": "አቤቱ በስሜ",
           "c": "red"
         },
         {
-          "t": "የሚያምኑ ሁሉ ከሲኦል =ት ነባ የወጡ ይሆኑ ዘንድ አለምንዛለሁ ስስቦ መታሰቢያዬን ሳደረገ (ዝክሬን ላዘከረ) በበዓሌም ቀን ባምመሰገንበት ምስጋና የሚያመሰግነውንና የሚዘምረዉን አቤቱ ዝማሬ መሳእክትን ጳሰማው፡፡ .",
-          "c": "black"
-        },
-        {
-          "t": "ጌታችንም",
-          "c": "red"
-        },
-        {
-          "t": "ይሁን እንደወደድሽ ይደረግልሽ",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "አላት በአንቺ ስም ቤተ ክርስቲያን ሳሳነፀ፤ የብርሀን ቦታ አዘጋጅለታለሁ፡፡ በመንግሥተ ንጹሕ ማደሪያ",
+          "t": " የሚያምኑ ሁሉ ከሲአል ሞት ነፃ የወጡ ይሆኑ ዘንድ እለምንሃለሁ እማልድሃለሁ አስቦ መታሰቢያዬን ላደረገ (ዝክሬን ላዘከረ) በበዓሌም ቀን በምመሰገንበት ምስጋና የሚያመሰግነውንና የሚዘምረዉን አቤቱ ዝማሬ መላእክትን አሰማው።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        233,
+        1598,
+        2347,
+        2686
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችንም ይሁን እንደወደድሽ ይደረግልሽ አላት በአንቺ ስም ቤተ ክርስቲያን ላሳነፀ፤ የብርሀን ቦታ አዘጋጅለታለሁ። በመንግሥተ ሰማያትም ንጹሕ ማደሪያ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        233,
+        2694,
+        2347,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ንታችን90",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "dbc6b75894ae1b1b131f2c4a4b094b362919607927306cda103b051dca00003c",
+      "source_sha256": "c22614bd5224a2070503ff30e4ca01f7d322750e03a4ad440866c9bcdb35f70b",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_179.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.77,
+      "created_at": "2026-10-24T01:11:09.638461+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "c7d215eb9d23c8a49100b8b5226dc38caece647bd604200e72e7d4d23a9b9636",
+      "image": "c22614bd5224a2070503ff30e4ca01f7d322750e03a4ad440866c9bcdb35f70b",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 3,
+    "red_located": 2
+  },
+  "_legacy": "transcripts-legacy/page_179.json"
 }

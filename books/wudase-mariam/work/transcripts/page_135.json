@@ -1,161 +1,67 @@
 {
   "page": 135,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 67 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "መላአክት",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": "አያሉ፡፡",
-      "why": "Tesseract confidence 59 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 70 — check against the scan"
-    },
-    {
-      "text": "በማኅፀንሽም",
-      "why": "Tesseract confidence 43 — check against the scan"
-    },
-    {
-      "text": "አንዴት",
-      "why": "Tesseract confidence 31 — check against the scan"
-    },
-    {
-      "text": "ከድሃ",
-      "why": "Tesseract confidence 70 — check against the scan"
-    },
-    {
-      "text": "ባሕርይ",
-      "why": "Tesseract confidence 60 — check against the scan"
-    },
-    {
-      "text": "አብ",
-      "why": "Tesseract confidence 43 — check against the scan"
-    },
-    {
-      "text": "ከገር",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "ዘንድ፡።",
-      "why": "Tesseract confidence 62 — check against the scan"
-    },
-    {
-      "text": "የቪህች-",
-      "why": "Tesseract confidence 36 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "",
   "blocks": [
     {
       "type": "title",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ይዌድስዋ መላአክት",
+          "t": "ይዔድስዋ መላእክት",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        644,
+        789,
+        1808,
+        953
+      ],
+      "layout_category": "Section-header"
     },
     {
-      "type": "prayer",
-      "verse_num_am": "",
+      "type": "verse",
+      "verse_num_am": "፩",
       "spans": [
         {
-          "t": "8. መላእክት",
+          "t": "መላእክት ማርያምን",
           "c": "red"
         },
         {
-          "t": "|",
+          "t": " በመንጦላዕት ውስጥ ያመሰግኗታል፤ ሐዳስ ጣዕዋ ላንቺ ምስጋና ይገባሻል እያሉ። ",
           "c": "black"
         },
         {
-          "t": "ማርያምን",
+          "t": "መልእክ ማርያምን ቃልን",
           "c": "red"
         },
         {
-          "t": "በመንጦላዕት ላንቺ ውስጥ ምስጋና ያመሰግኗታል፤ ይገባሻል አያሉ፡፡ -",
+          "t": " ተቀበይው አላት ካንቺ ዘንድ ይመጣልና በማኅፀንሽም ያድራል። እንዴት ከድሃ ቤት አደረ እንደ ምስኪን ከሰማያት ወርዶ የርስዋን ባሕርይ ባሕርይ አድርጎ ተወለደ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        182,
+        1295,
+        2363,
+        2629
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፪",
+      "spans": [
+        {
+          "t": "በ፯ኛው ወር ",
           "c": "black"
         },
         {
-          "t": "መልአክ",
+          "t": "ገብርኤል መልእክ ከእግዚአብሔር አብ",
           "c": "red"
         },
         {
-          "t": "ጣዕዋ",
-          "c": "black"
-        },
-        {
-          "t": "ማርያምን",
-          "c": "red"
-        },
-        {
-          "t": ".-",
-          "c": "black"
-        },
-        {
-          "t": "ቃልን",
-          "c": "red"
-        },
-        {
-          "t": "- ተቀበይው አላት ካንቺ በንድ ይመጣልና በማኅፀንሽም ያድራል፡፡ አንዴት ከድሃ ቤት አደረ አንደ ምስኪን ከሰማያት ወርዶ የርስዋን ባሕርይ ባሕርይ አድርጎ ተወለደ?",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "፪. ወር",
-          "c": "black"
-        },
-        {
-          "t": "ገብርኤል መልአክ",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "ከእግዚአብሔር",
-          "c": "red"
-        },
-        {
-          "t": "|",
-          "c": "black"
-        },
-        {
-          "t": "አብ",
-          "c": "red"
-        },
-        {
-          "t": "ዘንድ",
-          "c": "black"
-        },
-        {
-          "t": ".",
-          "c": "red"
-        },
-        {
-          "t": "ተሳከ",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": "ካንዲት - ከገር ናዝሬት ገሊላ ከምትባል ለዮሴፍ አጮኛ ከሆነች",
+          "t": " ዘንድ ተላከ ካንዲት አገር ናዝሬት ገሊላ ከምትባል ለዮሴፍ እጮኛ ከሆነች ",
           "c": "black"
         },
         {
@@ -163,14 +69,57 @@
           "c": "red"
         },
         {
-          "t": "- ዘንድ፡። የቪህች-",
+          "t": " ዘንድ። የዚህች",
           "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        182,
+        2642,
+        2363,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "1489e26106ba734587b2c10fcac3a6b979d3b209f81fda0805dfd76f128b0a10",
+      "source_sha256": "653c0aed93cb870fa7743f7093ad2a2badd082005c6c63c07212468709c41f9d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_135.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 65.906,
+      "created_at": "2026-10-24T00:38:23.452378+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "79c536785648489c2dfcdcbfbe3918606d2c2ffd083f69b6f5229794506bf258",
+      "image": "653c0aed93cb870fa7743f7093ad2a2badd082005c6c63c07212468709c41f9d",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 7,
+    "red_located": 7
+  },
+  "_legacy": "transcripts-legacy/page_135.json"
 }

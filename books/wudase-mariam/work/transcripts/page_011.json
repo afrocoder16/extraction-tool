@@ -1,42 +1,30 @@
 {
   "page": 11,
-  "notes": "'፫ ጊዜ በል' inside verse ፫ is a rubric (an instruction to the reader to say it three times), printed in red inline with the prayer. The last line of the page is cut off by the bottom edge — it begins 'እሰግዳለሁ' and continues on the next page; it is not transcribed here.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [
-    {
-      "printed": "ከቻር",
-      "suggested": "ከቸር",
-      "reason": "ቻ should be ቸ — the phrase is 'ቸር አባትህ' (your gracious Father)",
-      "applied": true
-    }
-  ],
+  "page_header": "፭ የዘወትር ጸሎት",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፭  የዘወትር ጸሎት",
+          "t": "በሚሠረይባት በአንዲት ጥምቀትም እናምናለን የሙታንንም መነሣት ተስፋ እናደርጋለን የሚመጣውንም ሕይወት ለዘላለሙ።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        76,
+        565,
+        2168,
+        1172
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "",
+      "verse_num_am": "፮",
       "spans": [
         {
-          "t": "ኃጢአት በሚሠረይባት በአንዲት ጥምቀትም እናምናለን የሙታንንም መነሣት ተስፋ እናደርጋለን የሚመጣውንም ሕይወት ለዘላለሙ።",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "፪",
-      "spans": [
-        {
-          "t": "አሸናፌ እግዚአብሔር ቅዱስ ቅዱስ ቅዱስ",
+          "t": "አሸናፊ እግዚአብሔር ቅዱስ ቅዱስ ቅዱስ",
           "c": "red"
         },
         {
@@ -67,44 +55,100 @@
           "t": " ጋራ እንሰግድልሃለን ወደዚህ ዓለም መጥተህ አድነኸናልና።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        76,
+        1182,
+        2168,
+        2267
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፫",
+      "verse_num_am": "፯",
       "spans": [
         {
           "t": "ለአብ ለወልድ ለመንፈስ ቅዱስ",
           "c": "red"
         },
         {
-          "t": " አንዲት ስግደት እሰግዳለሁ ",
+          "t": " አንዲት ስግደት እሰግዳለሁ ፫ ጊዜ በል አንድ ሲሆን ሦስት ሦስት ሲሆኑ አንድ በአካል ሦስት ሲሆኑ በመለኮት አንድ ለሚሆኑ እሰግዳለሁ ",
           "c": "black"
         },
         {
-          "t": "፫ ጊዜ በል",
+          "t": "አምላክን ለወለደች ለእመቤታችን ለድንግል",
           "c": "red"
         },
         {
-          "t": " አንድ ሲሆን ሦስት ሦስት ሲሆኑ አንድ በአካል ሦስት ሲሆኑ በመለኮት አንድ ለሚሆኑ እሰግዳለሁ ",
-          "c": "black"
-        },
-        {
-          "t": "አምላክን ለወለደች ለእመቤታችን ለድንግል ማርያም ",
-          "c": "red"
-        },
-        {
-          "t": "እሰግዳለሁ፤ዓለምን ለማዳን ሲል",
+          "t": " ማርያም",
           "c": "black"
         }
-      ]
-    }
-  ],
-  "clipped": [
+      ],
+      "bbox": [
+        76,
+        2277,
+        2168,
+        3197
+      ],
+      "layout_category": "Text"
+    },
     {
-      "edge": "bottom",
-      "note": "Final line cut off; begins 'እሰግዳለሁ'."
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ኝ ሰማይልዙ ፣ ዓለምን ለማይን ሲለ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        76,
+        3228,
+        2152,
+        3300
+      ],
+      "layout_category": "Text"
     }
   ],
-  "uncertain": []
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "659a28c93362b2187e1ebc07d65f05f3c83c4fdca3328dbe0208e98b171720e3",
+      "source_sha256": "3af1ac727a22c3d871bce7b9b28ac249a5b925c1c996f36872cc88237903092e",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_011.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 95.271,
+      "created_at": "2026-10-23T23:11:36.124891+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "b8542c3ad96dcfc744d2d48d4abb6d87aec06b704546a1e53eb382815b82613d",
+      "image": "3af1ac727a22c3d871bce7b9b28ac249a5b925c1c996f36872cc88237903092e",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 9,
+    "red_located": 9
+  },
+  "_legacy": "transcripts-legacy/page_011.json"
 }

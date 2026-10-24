@@ -1,36 +1,96 @@
 {
   "page": 87,
-  "notes": "",
-  "corrections": [],
-  "uncertain": [],
-  "clipped": [],
+  "page_header": "፵፫ የእሁድ ዉዳሴ ጸሎት",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "፷  የእሁድ ውዳሴ ጸሎት", "c": "black" }
-      ]
-    },
     {
       "type": "verse",
       "verse_num_am": "፲",
       "spans": [
-        { "t": "የተባረክሽና ንጽሕት የሆንሽ አዳራሽ ሆይ እነሆ ", "c": "black" },
-        { "t": "ጌታ", "c": "red" },
-        { "t": " የፈጠረውን ዓለም ሁሉ በይቅርታው ብዛት ያድን ዘንድ ካንቺ ወጣ (ተወለደ) ፈጽመን እናመሰግነው። ቸርና ሰውን ወዳጅ ነውና። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "የተባረክሽና ንጽሕት የሆንሽ አዳራሽ ሆይ እነሆ ጌታ የፈጠረውን ዓለም ሁሉ በይቅርታው ብዛት ያድን ዘንድ ካንቺ ወጣ (ተወለደ) ፈጽመን እናመስግነው። ቸርና ሰውን ወዳጅ ነውና። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        106,
+        398,
+        2379,
+        1378
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፲፩",
       "spans": [
-        { "t": "ያለርኩሰት ", "c": "black" },
-        { "t": "ድንግል", "c": "red" },
-        { "t": " የሆንሽ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ። የዓለም ሁሉ መክበሪያ ንጽሕት ጽዋ ነሽ። የማትጠፊ ፋና ነሽ የማትፈርሽ መቅደስ ነሽ። የቅዱሳን መደገፊያቸው (መጠጊያቸው) የማትለወጪ የሃይማኖት በትር ነሽ። ቸር አዳኛችን ወደ ሆነ ልጅሽ ለምኝልን ፈጽሞ ይቅር ይለንና ይምረን ዘንድ ኃጢአታችንንም ያስተሠርይልን ዘንድ። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "ያለርኩሰት ",
+          "c": "black"
+        },
+        {
+          "t": "ድንግል",
+          "c": "red"
+        },
+        {
+          "t": " የሆንሽ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ፤ የዓለም ሁሉ መክበሪያ ንጽሕት ጽዋ ነሽ። የማትጠፊ ፋና ነሽ የማትፈርሽ መቅደስ ነሽ። የቅዱሳን መደገፊያቸው (መጠጊያቸው) የማትለወጪ የሃይማኖት በትር ነሽ፣ ቸር አዳኛችን ወደ ሆነ ልጅሽ ለምኝልን ፈጽሞ ይቅር ይለንና ይምረን ዘንድ ኃጢአታችንንም ያስተሠርይልን ዘንድ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        115,
+        1406,
+        2396,
+        3086
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f297efa8473fc4ed0c1ce940d92c17da71d94f94e56b3ba4d32da42e4dbf21ce",
+      "source_sha256": "6c4df31701f2981a8c2a84fc9b1c78780bae691d008f3092f7e50a5cb9504767",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_087.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 77.453,
+      "created_at": "2026-10-24T00:04:47.690555+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "79adfae4b3168b399a86c9c6865923c6da3e8762379bf519868a5b337df1eb27",
+      "image": "6c4df31701f2981a8c2a84fc9b1c78780bae691d008f3092f7e50a5cb9504767",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 4,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_087.json"
 }

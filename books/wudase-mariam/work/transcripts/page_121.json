@@ -1,150 +1,96 @@
 {
   "page": 121,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 17 of 96 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": ".0",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 39 — check against the scan"
-    },
-    {
-      "text": "የእውነተኛው",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": "ንታ",
-      "why": "Tesseract confidence 48 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": "..",
-      "why": "Tesseract confidence 40 — check against the scan"
-    },
-    {
-      "text": "ክርስቶስ",
-      "why": "Tesseract confidence 27 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 70 — check against the scan"
-    },
-    {
-      "text": "ሆነ፡፡",
-      "why": "Tesseract confidence 49 — check against the scan"
-    },
-    {
-      "text": "ሕይወት",
-      "why": "Tesseract confidence 41 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": "አለ፡፡",
-      "why": "Tesseract confidence 44 — check against the scan"
-    },
-    {
-      "text": "አረጋዊ፤",
-      "why": "Tesseract confidence 69 — check against the scan"
-    },
-    {
-      "text": "\"",
-      "why": "Tesseract confidence 39 — check against the scan"
-    },
-    {
-      "text": ".-",
-      "why": "Tesseract confidence 39 — check against the scan"
-    },
-    {
-      "text": "#ፍጥጣጥ",
-      "why": "Tesseract confidence 23 — check against the scan"
-    },
-    {
-      "text": "ዐኳርኮ፡፡",
-      "why": "Tesseract confidence 39 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፰ አንቀጸ ብርሃን",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "ቿ አንቀጸ .0 .-",
-          "c": "black"
-        },
-        {
-          "t": "ጌታ የባሕርይ",
+          "t": "ጌታ የባሕርይ አምላክ ከሆነ",
           "c": "red"
         },
         {
-          "t": "|",
+          "t": " የተገኘ የእውነተኛው የሁሉ ጌታ የተወለደ እንጂ የተፈጠረ ያይደለ በህልውና በአኗኗር ከአባቱ ጋር የተካከለ በሰማይና በምድር ያለው ሁሉ በእርሱ የተፈጠረ እኛን ሰዎችን ስለማዳን የወረደ ",
           "c": "black"
         },
         {
-          "t": "አምላክ - ከሆነ",
+          "t": "ክርስቶስ ከቅድስት ድንግል ማሪያም",
           "c": "red"
         },
         {
-          "t": "የተገኘ የእውነተኛው የሁሉ ንታ የተወለደ አንጂ የተፈጠረ ያይደለ በህልውና . በአኗኗር ከአባቱ ጋር የተካከለ በሰማይና በምድር ያለው ሁሉ በእርሱ የተፈጠረ እኛን ሰዎችን ስለማዳን የወረደ",
-          "c": "black"
-        },
-        {
-          "t": ".. ክርስቶስ",
-          "c": "red"
-        },
-        {
-          "t": "- |",
-          "c": "black"
-        },
-        {
-          "t": "ከቅድስት . ድንግል ማሪያም :",
-          "c": "red"
-        },
-        {
-          "t": "ፈፅሞ ሰው",
-          "c": "black"
-        },
-        {
-          "t": ",",
-          "c": "red"
-        },
-        {
-          "t": "ሆነ፡፡ በመምጣቱም አበራልን ፍጹም ደስታንም አበሰረን (ነገረን) ወደ አባቱም' ስቀረበን (አስታረቀን) ወደ ሕይወት - ጎዳናም መራን የዘላለም ህይወትንም - ሰጠን፡፡ ነቢዩ ኢሳያስ አርሱን በማመን ከህጉ የተነሳ በትንቢት . እያደነቀ ህግህ በምድር ላይ ብርሃን ነው አለ፡፡ አረጋዊ፤",
-          "c": "black"
-        },
-        {
-          "t": "\"",
-          "c": "red"
-        },
-        {
-          "t": "ካህንና",
+          "t": " ፈፅሞ ሳው ሆነ። በመምጣቱም አበራልን ፍጹም ደስታንም አበሰረን (ነገረን) ወደ አባቱም አቀረበን (አስታረቀን) ወደ ሕይወት ጎዳናም መራን የዘላለም ህይወትንም ሰጠን። ነቢዩ ኢሳያስ እርሱን በማመን ከህጉ የተነሳ በትንቢት እያደነቀ ህግህ በምድር ላይ ብርሃን ነው አለ። አረጋዊ፤ ካህንና ",
           "c": "black"
         },
         {
           "t": "የእግዚአብሔርን",
           "c": "red"
-        },
+        }
+      ],
+      "bbox": [
+        122,
+        512,
+        2311,
+        3020
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
         {
-          "t": "ትአዛዝ የጠበቀ ጻዲቅና ንጽህ ዘካሪያስ .- #ፍጥጣጥ 5 ዐኳርኮ፡፡ ጋጣር ገሮጮጦ",
+          "t": "ትእዛዝ የጠበቀ ጌዲቅና ንጹህ ዘካሪያስ ፈፅሞ አያነቀ። መናገርም ኾመረና",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        138,
+        3036,
+        2311,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "b70ffb31393c4f31b3329271c40fe5769371aaa7faa0e0534757fb3834c252db",
+      "source_sha256": "ab22934ab51d948ed5908fd9a7c1ec0f23d1294d4a81a0dd03a0e538ad850a99",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_121.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.824,
+      "created_at": "2026-10-24T00:28:44.947662+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "b5cb0c6c2f9a6f8b213fcf8d7a6d9dab40a172d993d451a6d5befa0443fb17bb",
+      "image": "ab22934ab51d948ed5908fd9a7c1ec0f23d1294d4a81a0dd03a0e538ad850a99",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 4,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_121.json"
 }

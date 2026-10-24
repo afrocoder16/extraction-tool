@@ -1,58 +1,150 @@
 {
   "page": 95,
-  "notes": "The first unnumbered block continues the stanza begun on the preceding page.",
-  "corrections": [],
-  "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Verse ፱ continues beyond the bottom edge after the visible word 'አምላካችንን'; the following line is not visible."
-    }
-  ],
+  "page_header": "፿፯ የዘወትር ጸሎት",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "፷፬  የዘወትር ጸሎት", "c": "black" }
-      ]
-    },
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "እግር ወደ ሰላም መንገድ አቀናልን። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "እግር ወደ ሰሳም መንገድ አቀናልን። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        102,
+        332,
+        2225,
+        640
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፯",
+      "verse_num_am": "፯፬",
       "spans": [
-        { "t": "ብሩክ ከቤተ መቅደስ ይዞሽ የወጣ እሳትነት ያለውን ፍሕም የተሸከምሽ የወርቅ ማዕጠንት አንቺ ነሽ ፍሕም የተባለውም ኃጢአትን የሚያስተሠርይና በደልን የሚደመስስ ነው። ይኸውም ካንቺ ሰው የሆነና ራሱን የተወደደ መሥዋዕት አድርጎ ያቀረበ ", "c": "black" },
-        { "t": "የእግዚአብሔር", "c": "red" },
-        { "t": " ቃል ነው። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "ብሩክ ከቤተ መቅደስ ይዞሽ የወጣ እሳትነት ያለውን ፍህም የተሸከምሽ የወርቅ ማዕጠንት አንቺ ነሽ ፍሕም የተባለውም ኃጢአትን የሚያስተሠርይና በደልን የሚደመስስ ነው። ይኸውም ካንቺ ሰው የሆነና ራሱን የተወደደ መሥዋዕት አድርጎ ያሳረገ ",
+          "c": "black"
+        },
+        {
+          "t": "የእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": " ቃል ነው። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        102,
+        714,
+        2239,
+        1917
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፰",
+      "verse_num_am": "፯፬",
       "spans": [
-        { "t": "የእግዚአብሔርን", "c": "red" },
-        { "t": " ቃል የወለድሽልን መልካሟ ርግብ ", "c": "black" },
-        { "t": "ማርያም ሆይ", "c": "red" },
-        { "t": " ደስ ይበልሽ። ከእሴይ ሥር የወጣሽ መዐዛሽ ያማረ አበባ አንቺ ነሽ። ", "c": "black" },
-        { "t": "ቅድስት ሆይ ለምኝልን።", "c": "red" }
-      ]
+        {
+          "t": "የእግዚአብሔርን",
+          "c": "red"
+        },
+        {
+          "t": " ቃል የወስድሽልን መልካሟ ርግብ ",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም ሆይ",
+          "c": "red"
+        },
+        {
+          "t": " ደሽ ይበልሽ። ከዕሴይ ሥር የወጣሽ መዐዛሽ ያማረ አበባ አንቺ ነሽ። ",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስት ሆይ ለምኝልን።",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        120,
+        1992,
+        2283,
+        2757
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፱",
+      "verse_num_am": "፱፬",
       "spans": [
-        { "t": "ሳይተክሏትና ውኃ ሳያጠጧት የለመለመች የአሮን በትር ነበረች ያለ ዘር ሰው ሆኖ ያዳነን ", "c": "black" },
-        { "t": "እውነተኛ አምላካችንን", "c": "red" }
-      ]
+        {
+          "t": "ሳይተክሏትና ውሃ ሳያጠጧት የለመለመች የአሮን በትር ነበረች ያለ ዘር ሰው ሆኖ ያዳነን እውነተኛ ",
+          "c": "black"
+        },
+        {
+          "t": "አምላክችንን",
+          "c": "red"
+        }
+      ],
+      "bbox": [
+        127,
+        2827,
+        2295,
+        3284
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d9bc11acbff7dcbee1f0b166d400364014a32823cd04f487c37b6cfdc6a333a9",
+      "source_sha256": "dc09d66a839b2c3f70be5ed468d669f2cf51655df043ecb5357c9805a5ed358a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_095.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 91.391,
+      "created_at": "2026-10-24T00:10:35.116088+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "040400a2310e6c1b4de8a95bf9fa44b980d7506afa0e5927fccd9470c3af3f0e",
+      "image": "dc09d66a839b2c3f70be5ed468d669f2cf51655df043ecb5357c9805a5ed358a",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 8,
+    "red_located": 8
+  },
+  "_legacy": "transcripts-legacy/page_095.json"
 }

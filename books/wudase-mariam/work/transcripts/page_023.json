@@ -1,28 +1,17 @@
 {
   "page": 23,
-  "notes": "Three suspected misprints are listed as suggestions rather than corrected in place. The third (ንጉሠ) is doubtful: ንጉሠ is the Ge'ez construct form used before a following noun (as in ንጉሠ ነገሥት), so before ክርስቶስን it may well be correct as printed — worth keeping. The running-header numeral read as ፲፮ but is small and worn. The page ends mid-refrain; ለምኝልን። is partly cut off at the bottom edge.",
-  "_source": "transcribed directly in-conversation by Claude (no API key was set); the transcribe.py stage will regenerate this file once ANTHROPIC_API_KEY is available",
+  "page_header": "፲፩ የሰኞ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፲፮  የሰኞ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "የቀድሞውን ሰው አዳምን ከምድር (ከሲኦል) ወደ ገነት ይመልሰው ዘንድ፤ አዳም ሆይ መሬት ነበርክና ወደ መሬት ትመለሳለህ ብሎ የፈረደበትንም የሞት ፍርድ ያጠፋለት ዘንድ፤ ብዙ ኃጢአት ባለቻበት ",
+          "t": "የቀድሞውን ሰው አዳምን ከምድር (ከሲኦል) ወደ ገነት ይመልሰው ዘንድ፤ አዳም ሆይ መሬት ነበርክና ወደ መሬት ትመለሳለህ ብሎ የፈረደበትንም የሞት ፍርድ ያጠፋለት ዘንድ፤ ብዙ ኃጢአት ባለችበት ",
           "c": "black"
         },
         {
-          "t": "የእግዚአብሔር",
+          "t": "የእዚአብሔር",
           "c": "red"
         },
         {
@@ -33,7 +22,14 @@
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        67,
+        485,
+        2091,
+        1532
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
@@ -52,7 +48,7 @@
           "c": "black"
         },
         {
-          "t": "ክርስቶስን",
+          "t": "ክስርቶስን",
           "c": "red"
         },
         {
@@ -68,37 +64,66 @@
           "c": "black"
         },
         {
-          "t": "ቅድስት ሆይ ለምኝልን።",
+          "t": "ቅድስት ሆይ",
           "c": "red"
+        },
+        {
+          "t": " ለመኝለን።",
+          "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        67,
+        1540,
+        2100,
+        3300
+      ],
+      "layout_category": "Text"
     }
   ],
-  "corrections": [
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
     {
-      "printed": "የእዚአብሔር",
-      "suggested": "የእግዚአብሔር",
-      "reason": "missing ግ",
-      "applied": true
-    },
-    {
-      "printed": "ክስርቶስን",
-      "suggested": "ክርስቶስን",
-      "reason": "ስ and ር transposed",
-      "applied": true
-    },
-    {
-      "printed": "ንጉሠ",
-      "suggested": "ንጉሥ",
-      "reason": "ሠ should be ሥ — but see note, this may be correct as printed",
-      "applied": true
+      "text": "ለመኹለን...",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],
-  "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Page ends mid-refrain; 'ለምኝልን።' is partly cut off at the bottom edge."
-    }
-  ]
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "055379dcf78a881bd233aff0331e0210be4cea5a7d2b3e07163415ead6400f35",
+      "source_sha256": "396d4312180cdc3a1843f4cca3278caea8074066e9a8830d7d2d84df33d7f3ae",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_023.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.635,
+      "created_at": "2026-10-23T23:19:39.464877+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "eab34e8b7c52315c1068459ec43133ed1ac8651fb6ae1808c49275d2f6c13a63",
+      "image": "396d4312180cdc3a1843f4cca3278caea8074066e9a8830d7d2d84df33d7f3ae",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 7,
+    "red_located": 6
+  },
+  "_legacy": "transcripts-legacy/page_023.json"
 }

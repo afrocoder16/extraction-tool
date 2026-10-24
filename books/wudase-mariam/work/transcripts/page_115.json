@@ -1,45 +1,87 @@
 {
   "page": 115,
-  "notes": "This page continues the stanza from page 113.",
-  "corrections": [
-    {
-      "printed": "ሲጠቡ",
-      "suggested": "ሲጠባ",
-      "reason": "The singular child is the subject of the suckling clause; the printed final ቡ appears to be a misprint for ባ."
-    }
-  ],
-  "uncertain": [
-    {
-      "text": "ሲጠቡ",
-      "why": "The final vowel order is small and closely inked; it appears to be the printed ቡ, but is flagged because ባ would fit the singular construction."
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "The stanza continues after the fully visible line ending '(በጎል) ውስጥ አንቺን ከሕፃንሽ ጋር'; the next line is sliced by the bottom edge and omitted."
-    }
-  ],
+  "page_header": "፶፯ አንቀጸ ብርሃን",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
-        { "t": "፸፬  አንቀጸ ብርሃን", "c": "black" }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        { "t": "ሰራዊትና የሰማይ ጭፍሮች በመፍራትና በመንቀጥቀጥ በፊትሽ ቆሙ። በዚህም ዓለም ኪሩቤልና ሱራፌል በሰማይ ካለው ምስጋናቸው ወይም ከቀድሞ ምስጋናቸው ወገን ባልሆነ በሌላ (በአዲስ) ምስጋና አመሰገኑሽ ፍጥረትን ሁሉ ሰብስቦ የያዘና ፍጥረትን ሁሉ የሚመግብ ጌታቸው በብብትሽ (በክንድሽ) ተቀምጦ ጡትሽን እንደ ሕፃን ሲጠቡ ባዩ ጊዜ በአርያም ፈለጉና በዚህ ዓለም እንደ ቀድሞው ", "c": "black" },
-        { "t": "በአባቱና ከመንፈስ ቅዱስ", "c": "red" },
-        { "t": " ጋር አገኙት። ", "c": "black" },
-        { "t": "የጌታ", "c": "red" },
-        { "t": " ትሕትናውን ባዩ ጊዜም ዓይኖቻቸውን ወደ ላይ ወደ አርያም ከፍ ከፍ አደረጉ። ክንፋቸውንም ዘርግተው ", "c": "black" },
-        { "t": "ለሁሉ ጌታ", "c": "red" },
-        { "t": " ላንተ በሰማይ ምስጋና ይገባሃል። እያሉ ጌታቸውን አመሰገኑ ዳግመኛም በዋሻ (በጎል) ውስጥ አንቺን ከሕፃንሽ ጋር", "c": "black" }
-      ]
+        {
+          "t": "ሰራዊትና የሰማይ ጭፍሮች በመፍራትና በመንቀጥቀጥ በፊትሽ ቆሙ። በዚህም ዓለም ኪሩቤልና ሱራፌል በሰማይ ካለው ምስጋናቸው ወይም ከቀድሞ ምስጋናቸው ወገን ባልሆነ በሌላ (በአዲስ) ምስጋና አመሰገኑሽ ፍጥረትን ሁሉ ሰብስቦ የያዘና ፍጥረትን ሁሉ የሚመግብ ጌታቸው በብትሽ (በክንድሽ) ተቀምጦ ጡትሽን እንደ ህፃን ሲጠቡ ባዩ ጊዜ በአሪም ፈለጉና በዚህ ዓለም እንደ ",
+          "c": "black"
+        },
+        {
+          "t": "ቀድሞው በአባቱና ከመንፈስ ቅዱስ",
+          "c": "red"
+        },
+        {
+          "t": " ጋር አገኙት። ",
+          "c": "black"
+        },
+        {
+          "t": "የጌታ",
+          "c": "red"
+        },
+        {
+          "t": " ትህትናውን ባዩ ጊዜም ዓይኖቻቸውን ወደ ላይ ወደ አርያም ከፍ ከፍ አደረጉ። ክንፋቸዉንም ዘርግተው ",
+          "c": "black"
+        },
+        {
+          "t": "ለሁሉ ጌታ",
+          "c": "red"
+        },
+        {
+          "t": " ላንተ በሰማይ ምስጋና ይገባሃል። እያሉ ጌታቸውን አመሰገኑ ዳግመኛም በዋሻ (በጎል) ውስጥ አንቺን ከህፃንሽ ጋር እይቀው በሙዴር ላይ ፕለም ፎቅር",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        265,
+        468,
+        2368,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "714e567c0d7c68f6b0c2b1b0ce1773046ca672a4518c83e4249a6082a45ec401",
+      "source_sha256": "24ec7a0ed78f335e16c6a6f2b86b8d28b808bde81015672ce689f02dcb90e493",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_115.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.108,
+      "created_at": "2026-10-24T00:24:37.395954+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "9e2635032d15c3c82d1aa17388cfca6e660327f1f3ac3ecfa9e9b3f0191b1e95",
+      "image": "24ec7a0ed78f335e16c6a6f2b86b8d28b808bde81015672ce689f02dcb90e493",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 4,
+    "red_located": 4
+  },
+  "_legacy": "transcripts-legacy/page_115.json"
 }

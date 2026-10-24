@@ -1,0 +1,176 @@
+{
+  "page": 135,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 11 of 67 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "መላአክት",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "አያሉ፡፡",
+      "why": "Tesseract confidence 59 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "በማኅፀንሽም",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "አንዴት",
+      "why": "Tesseract confidence 31 — check against the scan"
+    },
+    {
+      "text": "ከድሃ",
+      "why": "Tesseract confidence 70 — check against the scan"
+    },
+    {
+      "text": "ባሕርይ",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "አብ",
+      "why": "Tesseract confidence 43 — check against the scan"
+    },
+    {
+      "text": "ከገር",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "ዘንድ፡።",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "የቪህች-",
+      "why": "Tesseract confidence 36 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ይዌድስዋ መላአክት",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "8. መላእክት",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ማርያምን",
+          "c": "red"
+        },
+        {
+          "t": "በመንጦላዕት ላንቺ ውስጥ ምስጋና ያመሰግኗታል፤ ይገባሻል አያሉ፡፡ -",
+          "c": "black"
+        },
+        {
+          "t": "መልአክ",
+          "c": "red"
+        },
+        {
+          "t": "ጣዕዋ",
+          "c": "black"
+        },
+        {
+          "t": "ማርያምን",
+          "c": "red"
+        },
+        {
+          "t": ".-",
+          "c": "black"
+        },
+        {
+          "t": "ቃልን",
+          "c": "red"
+        },
+        {
+          "t": "- ተቀበይው አላት ካንቺ በንድ ይመጣልና በማኅፀንሽም ያድራል፡፡ አንዴት ከድሃ ቤት አደረ አንደ ምስኪን ከሰማያት ወርዶ የርስዋን ባሕርይ ባሕርይ አድርጎ ተወለደ?",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "፪. ወር",
+          "c": "black"
+        },
+        {
+          "t": "ገብርኤል መልአክ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ከእግዚአብሔር",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "አብ",
+          "c": "red"
+        },
+        {
+          "t": "ዘንድ",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "ተሳከ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ካንዲት - ከገር ናዝሬት ገሊላ ከምትባል ለዮሴፍ አጮኛ ከሆነች",
+          "c": "black"
+        },
+        {
+          "t": "ከድንግል",
+          "c": "red"
+        },
+        {
+          "t": "- ዘንድ፡። የቪህች-",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        }
+      ]
+    }
+  ]
+}

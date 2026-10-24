@@ -1,0 +1,122 @@
+{
+  "page": 193,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 12 of 86 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "በሸጠኙን",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": "እንደፄሄደ፤",
+      "why": "Tesseract confidence 24 — check against the scan"
+    },
+    {
+      "text": "በአገኛተትም",
+      "why": "Tesseract confidence 46 — check against the scan"
+    },
+    {
+      "text": "ዘጠኙ",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": "የጠፋችዉ",
+      "why": "Tesseract confidence 53 — check against the scan"
+    },
+    {
+      "text": "ዓድቃን",
+      "why": "Tesseract confidence 46 — check against the scan"
+    },
+    {
+      "text": "እንደሚደረግ፤",
+      "why": "Tesseract confidence 47 — check against the scan"
+    },
+    {
+      "text": "ኃጥእ",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": ":",
+      "why": "Tesseract confidence 32 — check against the scan"
+    },
+    {
+      "text": ".-",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": "ክዝከ",
+      "why": "Tesseract confidence 30 — check against the scan"
+    },
+    {
+      "text": "ከማ‹የልፈውጡው",
+      "why": "Tesseract confidence 44 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "verse",
+      "verse_num_am": "፳፪",
+      "spans": [
+        {
+          "t": "የሰኔ ጎልጎታ መላእክት ይቀበሉታል፡፡ በቅዱስ ወንጌል የተነገረዉን አልሰማሽምን? መቶ በጎች ያሉት ሰው ከመቶ አንዲቷ ብትጠፋበት ዘጠና - በሸጠኙን በዱር ትቶ የጠፋችዉን በግ ሊፈልግ እንደፄሄደ፤ በአገኛተትም ጊቤ በትከሻው ተሸክሞ ካልጠፉት ከዘጠና ዘጠኙ በጎች ይልቅ ጠፍታ በተገኘችው በግ ደስ አንደሚሰው ባልንጀሮቹንና ጎረቤቶቹንም ጠርቶ የጠፋችዉ በጌ ተገኝታለችና ደስ ይበላችሁ ይላቸዋል፡፡",
+          "c": "black"
+        },
+        {
+          "t": "አውነት እውነት",
+          "c": "red"
+        },
+        {
+          "t": ".",
+          "c": "black"
+        },
+        {
+          "t": ". |",
+          "c": "red"
+        },
+        {
+          "t": "ንስሃን ከማይሹ ዓድቃን ይልቅ ንስፃን በሚገባ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ደስታ አንድ , እንደሚደረግ፤ ኃጥእ ሰው",
+          "c": "black"
+        },
+        {
+          "t": "ሁለተኛም",
+          "c": "red"
+        },
+        {
+          "t": "በሰማይ :",
+          "c": "black"
+        },
+        {
+          "t": "ይህቺ",
+          "c": "red"
+        },
+        {
+          "t": "ታላቅ |",
+          "c": "black"
+        },
+        {
+          "t": "መጽሐፍ",
+          "c": "red"
+        },
+        {
+          "t": "በሚደግማትና በሚይዛት | ሰው ሰማያዊያን መላእክት ሰራዊት ደስ .- ይሰኛሉ፤ ክዝከ ከማ‹የልፈውጡው ዓለም",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

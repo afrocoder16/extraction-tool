@@ -1,0 +1,162 @@
+{
+  "page": 141,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 20 of 93 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ምስጋና",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "ይገባሻል፡፡",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "ይገባሻል፣",
+      "why": "Tesseract confidence 62 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "የተሸለሙ",
+      "why": "Tesseract confidence 38 — check against the scan"
+    },
+    {
+      "text": "የብርሃን",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "ከፀሐይ",
+      "why": "Tesseract confidence 23 — check against the scan"
+    },
+    {
+      "text": "እጅ",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "-",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "1",
+      "why": "Tesseract confidence 58 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 65 — check against the scan"
+    },
+    {
+      "text": "ላንቺ",
+      "why": "Tesseract confidence 69 — check against the scan"
+    },
+    {
+      "text": "ምስጋና",
+      "why": "Tesseract confidence 29 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 41 — check against the scan"
+    },
+    {
+      "text": "ይገባሻል፤",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "|",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": "...",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 67 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሮ ይዌድስዋ መላእክት አኅት የሕዝቡ ሁሉ እናት ነሽና ምስጋና ይገባሻል፤ የሁሉ",
+          "c": "black"
+        },
+        {
+          "t": "አመቤት ማርያም",
+          "c": "red"
+        },
+        {
+          "t": "| ምስጋና ይጋባሻል፤ የሁሉ ፍቅረኛ |",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም",
+          "c": "red"
+        },
+        {
+          "t": "| ምስጋና ይገባሻል፡፡",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ልዑል ማደሪያው ትሆኝ ዝንድ መርጦሻልና ምስጋና ይገባሻል፣ በወርቅ የተሸለምሽ . የርግብ ክንፍ በብር ያጌጥሽ ምስጋና ይገባሻል፤ ጎኖችበ በወርቅ አመልማሎ የተሸለሙ ላንቺ ምስጋና - ይገባሻል፤ የምሥራቅ ደጃፍ የብርሃን እናቱ ላንቺ . ምስጋና ይገባሻል፣ ከፀሐይ ሰባት እጅ . የምታበሪ ክብርሽ” ከአድባራቱ ሁሉ - ከፍ ከፍ ያለ ላንቺ ምስጋና ይገባሻል፣",
+          "c": "black"
+        },
+        {
+          "t": "ማርያም ሆይ",
+          "c": "red"
+        },
+        {
+          "t": "ከተመረጡ የተመረጥሽ",
+          "c": "black"
+        },
+        {
+          "t": "1",
+          "c": "red"
+        },
+        {
+          "t": ". ከተከበሩ የተከበርሽ ላንቺ ምስጋና . ይገባሻል፤",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "ከጌታችን ከመድኃኒታችን |",
+          "c": "black"
+        },
+        {
+          "t": "ከኢየሱስ ክርስቶስ ...",
+          "c": "red"
+        },
+        {
+          "t": ". ከንድ ለምኝልን",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

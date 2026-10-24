@@ -28,6 +28,12 @@ await build({
 
 await cp(assets, join(dist, "work"), { recursive: true });
 await cp(join(work, "transcripts"), join(dist, "work", "transcripts"), { recursive: true });
+// Transcripts replaced by a newer OCR baseline, shown read-only for comparison.
+try {
+  await cp(join(work, "transcripts-legacy"), join(dist, "work", "transcripts-legacy"), { recursive: true });
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
 for (const name of ["page_stats.json", "verification.json", "review.json"]) {
   try {
     await cp(join(work, name), join(dist, "work", name));
@@ -54,6 +60,9 @@ await writeFile(join(dist, "_headers"), `/*
   Cache-Control: public, max-age=31536000, immutable
 
 /work/transcripts/*
+  Cache-Control: no-store
+
+/work/transcripts-legacy/*
   Cache-Control: no-store
 
 /work/page_stats.json

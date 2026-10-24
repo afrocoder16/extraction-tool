@@ -1,0 +1,174 @@
+{
+  "page": 197,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 17 of 100 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "-",
+      "why": "Tesseract confidence 56 — check against the scan"
+    },
+    {
+      "text": "88",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "የያዘ",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "ዘወተር",
+      "why": "Tesseract confidence 67 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 55 — check against the scan"
+    },
+    {
+      "text": "አመቤታችንም",
+      "why": "Tesseract confidence 50 — check against the scan"
+    },
+    {
+      "text": "ሆይ፣",
+      "why": "Tesseract confidence 63 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 68 — check against the scan"
+    },
+    {
+      "text": "መልሶ\"",
+      "why": "Tesseract confidence 33 — check against the scan"
+    },
+    {
+      "text": "ሆይ፣፤፣",
+      "why": "Tesseract confidence 51 — check against the scan"
+    },
+    {
+      "text": "አላት፡",
+      "why": "Tesseract confidence 57 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 36 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 61 — check against the scan"
+    },
+    {
+      "text": "ኣሮርሮሥራ.ን",
+      "why": "Tesseract confidence 35 — check against the scan"
+    },
+    {
+      "text": "በኣዓንዮነት",
+      "why": "Tesseract confidence 45 — check against the scan"
+    },
+    {
+      "text": "ቅዴስ",
+      "why": "Tesseract confidence 57 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "bottom",
+      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "- 88 - የሰኔ ጎልጎታ",
+          "c": "black"
+        },
+        {
+          "t": "ይህቺን መጽሐፍ",
+          "c": "red"
+        },
+        {
+          "t": ". በንጽህና- የያዘ ሰው የሰራዊተ መላእክት አለቆች ዘወተር አየመጡ ይጎበኙታል፡፡",
+          "c": "black"
+        },
+        {
+          "t": "አናቴ ማርያም ሆይ",
+          "c": "red"
+        },
+        {
+          "t": ". በሰማይና በምድር ይህን ሁሉ አስራት (ተስፋ) ሰጠሁሽ፤ ብሩክጉ መርገመ ሥጋ መርገመ ነፍስ የሌለባት አመቤታችንም",
+          "c": "black"
+        },
+        {
+          "t": "ልጁ ወዳጄ ሆይ፣",
+          "c": "red"
+        },
+        {
+          "t": ". የምትለኝን ሁሉ አውነት ነውን? አለችው ጌታም መልሶ\"",
+          "c": "black"
+        },
+        {
+          "t": "አናቴ ማርያም ሆይ፣፤፣ በአግዚአብሔር አባቴ በክርሰቶስ",
+          "c": "red"
+        },
+        {
+          "t": "ስሜ በአውነት መንፈስ በጳራቅሊጦስ አውነት አንደሆነ ቃል ኪዳን ገባሁልሽ አላት፡ መልአከ ምክሬ በሆነ",
+          "c": "black"
+        },
+        {
+          "t": "በሚካኤል",
+          "c": "red"
+        },
+        {
+          "t": "የመወለዴን ቬና በአበሰረ",
+          "c": "black"
+        },
+        {
+          "t": ".",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ገብርኤል ቃል ኪዳን ገባሁልሽ",
+          "c": "red"
+        },
+        {
+          "t": "ክንፋቸው ስድስት በሆነ ምሱአነ አእይንት በሆኑ . . መንበሬን በሚሸከሙ አራቱ |",
+          "c": "black"
+        },
+        {
+          "t": "(ኪሩቤል) ቃል ኪዳን",
+          "c": "red"
+        },
+        {
+          "t": "ገባሁለሸ | ኣሮርሮሥራ.ን በኣዓንዮነት",
+          "c": "black"
+        },
+        {
+          "t": "| ቅዴስ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        },
+        {
+          "t": "ቅድስ ቅዷአ",
+          "c": "red"
+        },
+        {
+          "t": "1",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

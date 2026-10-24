@@ -1,28 +1,17 @@
 {
   "page": 65,
-  "notes": "The page ends mid-sentence after 'ጊዜ'.",
-  "corrections": [],
+  "page_header": "፴፪ የሐሙስ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፴፮  የሐሙስ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "ነገሥታት መሳፍንት አገር አታንሺም ወገኖቼ እስራኤልን የሚጠብቃቸው ንጉሥ ካንቺ ይወጣልና፤ ከዛሬ ጀምሮ እስከ ዘለዓለም ድረስ ከቸር አባቱና ከመንፈስ ቅዱስ ጋር ምስጋና ስለተገባው ስለ ",
+          "t": "ነገሥታት መሳፍንት አገር አታንሺም ወገኖቼ እሥራኤልን የሚጠብቃቸው ንጉሥ ካንቺ ይወጣልና፤ ከዛሬ ጀምሮ እስከ ዘለዓለም ድረስ ከቸር አባቱና ከመንፈስ ቅዱስ ጋር ምስጋና ስለተገባው ስለ ",
           "c": "black"
         },
         {
-          "t": "ክርስቶስ",
+          "t": "ክርሽቶስ",
           "c": "red"
         },
         {
@@ -33,17 +22,71 @@
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        348,
+        467,
+        2498,
+        1954
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
       "verse_num_am": "፯",
       "spans": [
         {
-          "t": "ለእስራኤል የነገሠ ዳዊት ጠላቶቹ በተነሡበት ጊዜ ከቤተልሔም ምንጭ ውኃ ይጠጣ ዘንድ ወደደ የጭፍሮቹ አለቆች ፈጥነው ተነሡና በጠላቶቹ ከተማ ተዋግተው ሊጠጣ የወደደውን አመጡለት። ጻድቅ ዳዊት ግን ጨክነው ሰውነታቸውን ስለ እርሱ ለጦርነት ለሞት አሳልፈው እንደ ሰጡ ባየ ጊዜ ያን ውኃ አፈሰሰ ከእርሱም አልጠጣም",
+          "t": "ለእስራኤል የነገሠ ዳዊት ጠላቶቹ በተነሡበት ጊዜ ከቤተልሔም ምንጭ ውኃ ይጠጣ ዘንድ ወደደ የጭፍሮቹ አለቆች ፈጥነው ተነሡና በጠላቶቹ ክተማ ተዋግተው ሊጠጣ የወደደውን አመጡለት። ጻድቅ ዳዊት ግን ጨክነው ሰውነታቸውን ስለ እርሱ ለጦርነት ለሞት አሳልፈው እንደ ሰጡ ባየ ጊዜ",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        348,
+        1974,
+        2498,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e97b20b867356be42535f1a5b7b24802ccaebd0220432acfd6531a621f780200",
+      "source_sha256": "350cb45c0d34633f7ed07b4e15d853758a15362b7dbebed84acac04f2e09d0aa",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_065.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 81.158,
+      "created_at": "2026-10-23T23:49:06.706626+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "0669d611b3bb88fa393ed328eca9ab9cecd6afdf21291332197b51cf49b2aca2",
+      "image": "350cb45c0d34633f7ed07b4e15d853758a15362b7dbebed84acac04f2e09d0aa",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 3,
+    "red_located": 3
+  },
+  "_legacy": "transcripts-legacy/page_065.json"
 }

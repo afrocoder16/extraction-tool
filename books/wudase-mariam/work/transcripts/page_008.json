@@ -1,25 +1,63 @@
 {
   "page": 8,
-  "notes": "Partial page: only two lines of text, and the FIRST line is cut off by the top edge of the scan — only the lower half of its glyphs survives, so it is NOT transcribed here. It needs to be read from the physical book. This is Creed text, so guessing at it would be worse than leaving the gap visible. The second line is clear and is transcribed. No red ink on this page.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [],
+  "page_header": "",
   "blocks": [
     {
-      "type": "verse",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
           "t": "የሆነ በሰማይም ካለው በምድርም ካለው",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        119,
+        0,
+        2205,
+        205
+      ],
+      "layout_category": "Text"
     }
   ],
-  "clipped": [
-    {
-      "edge": "top",
-      "note": "First line cut off by the top edge — only the lower half of the glyphs survives."
-    }
-  ],
-  "uncertain": []
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "86c910f3a3622e32a9d2cdc8589ee779470ddef0876adb2dd475a92b11d0b5c3",
+      "source_sha256": "84f87a1604fcfa7be73c4b382992a48464ef7dc46fc9561a4890816b530ad473",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_008.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 22.728,
+      "created_at": "2026-10-23T23:08:34.882389+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "84f87a1604fcfa7be73c4b382992a48464ef7dc46fc9561a4890816b530ad473",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_008.json"
 }

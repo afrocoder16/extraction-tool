@@ -1,46 +1,44 @@
 {
   "page": 39,
-  "notes": "This page carries the end of the Tuesday section and the start of the Wednesday section, separated by an ornament border.",
-  "corrections": [],
+  "page_header": "፲፱ የማክሰኞ ውዳሴ ማርያም",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፳፬  የማክሰኞ ውዳሴ ማርያም",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "ንጉሥ (የክብር ባለቤት) ይህ ነው። በይቅርታው ብዛት የዓለምን ኃጢአት ያስተሰርይ ዘንድ የመጣው ይህ ነው ይላሉ። ",
+          "t": "ንጉሥ (የክብር ባለቤት) ይህ ነው፤ በይቅርታው ብዛት የዓለምን ኃጢአት ያስተሰርይ ዘንድ የመጣው ይህ ነው ይላሉ። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        76,
+        476,
+        2174,
+        1084
+      ],
+      "layout_category": "Text"
     },
     {
-      "type": "ornament",
-      "verse_num_am": "",
-      "spans": []
-    },
-    {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
           "t": "ረቡዕ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        91,
+        1532,
+        2186,
+        1824
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "title",
@@ -50,14 +48,21 @@
           "t": "ሦስተኛ ክፍል",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        834,
+        1992,
+        1569,
+        2120
+      ],
+      "layout_category": "Section-header"
     },
     {
       "type": "verse",
       "verse_num_am": "፩",
       "spans": [
         {
-          "t": "የምድር ሁለተኛ የሆንሽ ሰማይ ሆይ የሰማያት ሠራዊት (መላእክት) ንጽሕት ነሽ ይላሉ። ድንግል ",
+          "t": "የምድር ሁለተኛ የሆንሽ ሰማይ ሆይ የሰማያት ሠራዊት (መላእክት) ንዕድ ነሽ ይላሉ። ድንግል ",
           "c": "black"
         },
         {
@@ -65,14 +70,57 @@
           "c": "red"
         },
         {
-          "t": " የምሥራቅ ደጅ ናት። ሙሽራዋ ንጹሕ የሆነ ንጽሕት የሠርግ ቤት ናት። አብ በሰማይ አይቶ እንዳንቺ ያለ አላገኘምና አንድ ልጁን ላከው በአንቺም ሰው ሆነ። ",
+          "t": " የምስራቅ ደጅ ናት። ሙሽራዋ ንጹሕ የሆነ ንጽሕት የሠርግ ቤት ናት። አብ በሰማይ አይቶ እንዳንቺ ያለ አላገኘምና አንድ ልጁን ላከው በአንችም ሰው ሆነ።",
           "c": "black"
-        },
-        {
-          "t": "ቅድስት ሆይ ለምኝልን።",
-          "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        86,
+        2229,
+        2186,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "8499feb985f88fdb5fe1a34e9445170865a72aab8633fb9f5f85c628c6114630",
+      "source_sha256": "516a13888a997afcee50036aedc797c541070c6d2f310c2ef3823873925471bd",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_039.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.626,
+      "created_at": "2026-10-23T23:31:01.392671+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "69efe5571b493e1f997607e256f4c07f5c1f76dc88f647299605b9c0c3497d93",
+      "image": "516a13888a997afcee50036aedc797c541070c6d2f310c2ef3823873925471bd",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 5,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_039.json"
 }

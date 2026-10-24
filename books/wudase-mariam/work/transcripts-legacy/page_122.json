@@ -1,0 +1,62 @@
+{
+  "page": 122,
+  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 3 of 8 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
+  "_source": "tesseract on cleaned layers (draft, needs human correction)",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "|",
+      "why": "Tesseract confidence 60 — check against the scan"
+    },
+    {
+      "text": ".",
+      "why": "Tesseract confidence 37 — check against the scan"
+    },
+    {
+      "text": "-ፓ",
+      "why": "Tesseract confidence 44 — check against the scan"
+    }
+  ],
+  "clipped": [
+    {
+      "edge": "top",
+      "note": "First line sits against the top edge of the scan — it is probably sliced and words may be missing."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እንዲህ",
+          "c": "black"
+        },
+        {
+          "t": "|",
+          "c": "red"
+        },
+        {
+          "t": "አለ፤",
+          "c": "black"
+        },
+        {
+          "t": "አምላካችን",
+          "c": "red"
+        },
+        {
+          "t": "በይቅርታዉና",
+          "c": "black"
+        },
+        {
+          "t": ". -ፓ",
+          "c": "red"
+        },
+        {
+          "t": "|",
+          "c": "black"
+        }
+      ]
+    }
+  ]
+}

@@ -1,41 +1,13 @@
 {
   "page": 17,
-  "notes": "The main text is the Magnificat. Below it the book prints a cross-reference footnote ('ማመሳከሪያ') in smaller type, using Latin letters and Arabic numerals — 'ሉቃስ ም.1 ቁ.47-55' and the verse number '48'. These are genuinely printed on the page, so they are transcribed as-is; the verifier's Latin-character and ASCII-digit checks will flag this page for that reason and the flag is expected here, not an error. The footnote runs off the bottom edge — verse 49 onward is cut off and not transcribed.",
-  "_source": "transcribed in-conversation by Claude against the scan and the red-mask overlay",
-  "corrections": [],
+  "page_header": "፳ የዘወትር ጸሎት",
   "blocks": [
     {
-      "type": "title",
+      "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": "፰  የዘወትር ጸሎት",
-          "c": "black"
-        }
-      ]
-    },
-    {
-      "type": "verse",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "አምላክን በድንግልና የወለደች የእመቤታችን የማርያም ጸሎት ፤ ሉቃ ፩ ፡ ፵፮ ፡ ፶፬። ",
-          "c": "black"
-        },
-        {
-          "t": "ማርያምም",
-          "c": "red"
-        },
-        {
-          "t": " አለች ነፍሴ ",
-          "c": "black"
-        },
-        {
-          "t": "እግዚአብሔርን",
-          "c": "red"
-        },
-        {
-          "t": " ታላቅ ታደርገዋለች መንፈሴም በመድኃኒቴ ",
+          "t": "ታሳቅ ታደርገዋለች መንፈሴም በመድኃኒቴ ",
           "c": "black"
         },
         {
@@ -43,25 +15,142 @@
           "c": "red"
         },
         {
-          "t": " ደስ ይላታል። የባሪያይቱን መዋረድ አይቷልና። እነሆ ከዛሬ ጀምሮ ትውልድ ሁሉ ያመሰግኑኛል። እርሱ ብርቱ የሚሆን ታላቅ ሥራን በእኔ አድርጎልና ",
+          "t": " ደስ ይላታል። የባሪያይቱን መዋረድ አይቷልና። እነሆ ከዛሬ ጀምሮ ትውልድ ሁሉ ያመሰግኑኛል። እርሱ ብርቱ የሚሆን ታሳቅ ሥራን በእኔ አድርጓልና ስሙም ",
           "c": "black"
         },
         {
-          "t": "ስሙም ቅዱስ",
+          "t": "ቅዱስ",
           "c": "red"
         },
         {
           "t": " ነው ለሚፈሩትም ምሕረቱ ለልጅ ልጅ ነው ኃይልን በክንዱ አደረገ። በልባቸው አሳብ የሚኮሩ ትዕቢተኞችን በታተናቸው ብርቱዎችንም ከዙፋናቸው አዋረዳቸው። የተራቡትንም በቸርነቱ አጠገባቸው ባለጠጎችንም ባዶ እጃቸውን ሰደዳቸው ምሕረቱን እንዲያስብ እስራኤል ባርያውን ተቀበለ። ለአባቶቻችን ለአብርሃምና ለዘሩም እስከ ዘለዓለም ድረስ እንደተናገረው።",
           "c": "black"
         }
-      ]
-    }
-  ],
-  "clipped": [
+      ],
+      "bbox": [
+        429,
+        480,
+        2509,
+        2811
+      ],
+      "layout_category": "Text"
+    },
     {
-      "edge": "bottom",
-      "note": "Footnote continues past the bottom edge (verse 49 onward)."
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ማመሳከሪያ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1094,
+        2866,
+        1454,
+        2951
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሉቃስ ም.1 ቁ.47-55",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        916,
+        2964,
+        1628,
+        3054
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "instruction",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "48 የባሪያይቱን ውርደት ተመልክቶአልና። እነሆም፥ ከዛሬ ጀምሮ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        298,
+        3066,
+        2248,
+        3164
+      ],
+      "layout_category": "Footnote"
+    },
+    {
+      "type": "instruction",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ትውልድ ሁሉ ብፅዕት ይሉኛል፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        789,
+        3171,
+        1751,
+        3266
+      ],
+      "layout_category": "Footnote"
     }
   ],
-  "uncertain": []
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "e, የዖ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    },
+    {
+      "text": "ስመ፩",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "57748107ba7ddc4add53b4cbfc51c0569e51913bc9909708a8131d2478151367",
+      "source_sha256": "c3154791882e873e666f0f45b1aa86c87faeca82bb88b51f9f5708e9862f9767",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_017.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 99.059,
+      "created_at": "2026-10-23T23:16:46.414235+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "cdd389407250532274d8940b61d284da67cb4b35a3bd58553de0d3abff5ca453",
+      "image": "c3154791882e873e666f0f45b1aa86c87faeca82bb88b51f9f5708e9862f9767",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 4,
+    "red_located": 2
+  },
+  "_legacy": "transcripts-legacy/page_017.json"
 }

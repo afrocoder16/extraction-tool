@@ -1,25 +1,7 @@
 {
   "page": 97,
-  "notes": "The first unnumbered block continues the stanza begun on the preceding page.",
-  "corrections": [],
-  "uncertain": [],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "The final refrain is split across the bottom edge. 'ቅድስት ሆይ' is visible; the following clipped line, apparently beginning 'ለምኝልን', is omitted."
-    }
-  ],
+  "page_header": "፵፯ የእሁድ ዉዳሴ ጸሎት",
   "blocks": [
-    {
-      "type": "title",
-      "verse_num_am": "",
-      "spans": [
-        {
-          "t": "፷፭  የእሁድ ውዳሴ ጸሎት",
-          "c": "black"
-        }
-      ]
-    },
     {
       "type": "prayer",
       "verse_num_am": "",
@@ -36,29 +18,109 @@
           "t": "ቅድስት ሆይ ለምኝልን።",
           "c": "red"
         }
-      ]
+      ],
+      "bbox": [
+        359,
+        404,
+        2444,
+        694
+      ],
+      "layout_category": "Text"
     },
     {
       "type": "verse",
-      "verse_num_am": "፲",
+      "verse_num_am": "፲፫",
       "spans": [
         {
-          "t": "ጸጋን የተመላሽ ሆይ ከቅዱሳን ሁሉ ይልቅ ትለምኝልን ዘንድ ለአንቺ ይገባል። አንቺ ከሊቃነ ጳጳሳት ትበልጫለሽ ከነቢያትም ከመምህራንም ትበልጫለሽ። ከሱራፌልና ከኪሩቤል ግርማ የሚበልጥ የመወደድ ግርማ አለሽ። በእውነት የባሕርያችን መመኪያ አንቺ ነሽ። በሰውነታችንም ሕይወትን የምትለምኝ ነሽ። ወደ ",
+          "t": "ጸጋን የተመላሽ ሆይ ከቅዱሳን ሁሉ ይልቅ ትለምኝልን ዘንድ ላንቺ ይገባል። አንቺ ከሊቃነ ጳጳሳት ትበልጫለሽ ከነቢያትም ከመምህራንም ትበልጫለሽ። ከሱራፌልና ከኪሩቤል ግርማ የሚበልጥ የመወደድ ግርማ አለሽ። በእውነት የባሕርያችን መመኪያ አንቺ ነሽ። ለሰውነታችንም ሕይወትን የምትለምኝ ነሽ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        351,
+        836,
+        2444,
+        2162
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ወደ ",
           "c": "black"
         },
         {
-          "t": "ጌታችንና መድኃኒታችን ኢየሱስ ክርስቶስ",
+          "t": "ጌታችንና መድኃኒታችን ኢየሱስ ክርስቶስ ለምኝልን",
           "c": "red"
         },
         {
-          "t": " ለምኝልን። እርሱን በማመን በቀናች ሃይማኖት ያጸናን ዘንድ ይቅርታውንና ምሕረቱን ይሰጠን ዘንድ በቸርነቱ ብዛት ኃጢአታችንን ያስተሠርይልን ዘንድ። ",
+          "t": " ፤ እርሱን በማመን በቀናች ሃይማኖት ያጸናን ዘንድ ይቅርታውንና ምሕረቱን ይሰጠን ዘንድ በቸርነቱ ብዛት ኃጢአታችንን ያስተሠርይልን ዘንድ። ",
           "c": "black"
         },
         {
           "t": "ቅድስት ሆይ",
           "c": "red"
+        },
+        {
+          "t": " ለምኝልን",
+          "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        345,
+        2346,
+        2444,
+        3300
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [
+    {
+      "text": "ለመኽለ",
+      "why": "red ink on the scan that was not found in this text; check spelling and colour"
+    }
+  ],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d1ea58d44a57d45241b30326a85d3ed7e57d173934d01119f676fddf316a13b2",
+      "source_sha256": "e63cf0ddc7ffd082739845f52331bfb5ebf814771ada2b0ecd0ad58348b70437",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_097.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.249,
+      "created_at": "2026-10-24T00:11:59.388096+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "6a53eb4f205712bd24dc1216fcebaa9a76c36ac82adabb04aeac80b688d3da96",
+      "image": "e63cf0ddc7ffd082739845f52331bfb5ebf814771ada2b0ecd0ad58348b70437",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 6,
+    "red_located": 5
+  },
+  "_legacy": "transcripts-legacy/page_097.json"
 }

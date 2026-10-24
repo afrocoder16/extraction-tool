@@ -1,246 +1,133 @@
 {
   "page": 169,
-  "notes": "DRAFT — Tesseract reading of the cleaned page layers, not a checked transcription. 27 of 108 words scored below 70 confidence and are listed as uncertain. Expect glyph-level slips throughout; every word needs reading against the scan. Colour and verse numerals are derived from pixels and are more reliable than the text.",
-  "_source": "tesseract on cleaned layers (draft, needs human correction)",
-  "corrections": [],
-  "uncertain": [
-    {
-      "text": "..",
-      "why": "Tesseract confidence 36 — check against the scan"
-    },
-    {
-      "text": "ጎልጎታ",
-      "why": "Tesseract confidence 67 — check against the scan"
-    },
-    {
-      "text": ":",
-      "why": "Tesseract confidence 68 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 64 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 64 — check against the scan"
-    },
-    {
-      "text": "ከበድ",
-      "why": "Tesseract confidence 41 — check against the scan"
-    },
-    {
-      "text": "እማልድዛለሁ፡፡",
-      "why": "Tesseract confidence 47 — check against the scan"
-    },
-    {
-      "text": "ዲ",
-      "why": "Tesseract confidence 38 — check against the scan"
-    },
-    {
-      "text": ":",
-      "why": "Tesseract confidence 21 — check against the scan"
-    },
-    {
-      "text": "ልዴወጃሟሆይ፣",
-      "why": "Tesseract confidence 41 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 58 — check against the scan"
-    },
-    {
-      "text": "ቅዋንዋተ",
-      "why": "Tesseract confidence 26 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 64 — check against the scan"
-    },
-    {
-      "text": ".0",
-      "why": "Tesseract confidence 24 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 63 — check against the scan"
-    },
-    {
-      "text": "-",
-      "why": "Tesseract confidence 58 — check against the scan"
-    },
-    {
-      "text": "ዘድ",
-      "why": "Tesseract confidence 28 — check against the scan"
-    },
-    {
-      "text": "አማልድዛለሁ፡፡",
-      "why": "Tesseract confidence 48 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 53 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 36 — check against the scan"
-    },
-    {
-      "text": "የተከዘጉ",
-      "why": "Tesseract confidence 39 — check against the scan"
-    },
-    {
-      "text": "ይወገድ",
-      "why": "Tesseract confidence 50 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 61 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 26 — check against the scan"
-    },
-    {
-      "text": ".",
-      "why": "Tesseract confidence 68 — check against the scan"
-    },
-    {
-      "text": "፡.",
-      "why": "Tesseract confidence 29 — check against the scan"
-    },
-    {
-      "text": "እማልድነዛለሁ፡፡",
-      "why": "Tesseract confidence 36 — check against the scan"
-    }
-  ],
-  "clipped": [
-    {
-      "edge": "bottom",
-      "note": "Last line runs into the bottom edge of the scan — it is probably sliced and words may be missing."
-    }
-  ],
+  "page_header": "፲፪ የሰኔ ጎልጎታ",
   "blocks": [
     {
       "type": "prayer",
       "verse_num_am": "",
       "spans": [
         {
-          "t": ".. ፲፪ የሰኔ ጎልጎታ |",
-          "c": "black"
-        },
-        {
-          "t": "ልጄ",
+          "t": "ልጆ ወዳጆ ሆይ፤",
           "c": "red"
         },
         {
-          "t": "|",
+          "t": " ለመናገር በማይቻል በንቡዕ ስምህ ለመተርጎም በማይቻል በክሱት ስምህ ",
           "c": "black"
         },
         {
-          "t": "ወዳጄ ሆይ፣ :",
+          "t": "ቃል ኪዳን ትገባልኝ",
           "c": "red"
         },
         {
-          "t": "ለመናገር በማይቻል",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": ". በክሱት በኀቡዕ ስምህ ስምህ",
-          "c": "black"
-        },
-        {
-          "t": "ቃል",
-          "c": "red"
-        },
-        {
-          "t": "ለመተርጎም",
-          "c": "black"
-        },
-        {
-          "t": "ኪዳን ትገባልኝ",
-          "c": "red"
-        },
-        {
-          "t": ". በማይቻል - | ከበድ እማልድዛለሁ፡፡ .",
-          "c": "black"
-        },
-        {
-          "t": ".",
-          "c": "red"
-        },
-        {
-          "t": "ዲ አዴራ :",
-          "c": "black"
-        },
-        {
-          "t": "ልዴወጃሟሆይ፣",
-          "c": "red"
-        },
-        {
-          "t": "ሮዳስ በተባሉ - ሳዶር በአምስቱ አላዶር ቅዋንዋተ ዳናት . መስቀል",
-          "c": "black"
-        },
-        {
-          "t": "ቃል .0 ኪዳን .- - -",
-          "c": "red"
-        },
-        {
-          "t": "ዘድ",
-          "c": "black"
-        },
-        {
-          "t": "|",
-          "c": "red"
-        },
-        {
-          "t": ". አማልድዛለሁ፡፡ .",
-          "c": "black"
-        },
-        {
-          "t": "ልጄ ወዳዴ ሆይ፤",
-          "c": "red"
-        },
-        {
-          "t": ". የልቦናዬን ትፈፅምልኝ ዘንድ የተከዘጉ በሮች ተከፍተው የሞት ስልጣን ይወገድ ዘንድ የርኩሳን መናፍስት ስልጣን ተሸሮ የጭለማ ኃይል ከሁሉ ቦታ እንደሰም ቀልጦ እንደ ውዛ ፈሶ ይቀር ዘንድ . ጣዖታት ተደምስሰው የጣዖታትም ቦታና . . . ይጠፉ አዳራሽ",
-          "c": "black"
-        },
-        {
-          "t": "በዚህ | ጸሎት",
-          "c": "red"
-        },
-        {
-          "t": "ዘንድ ተመዝብረውና",
-          "c": "black"
-        },
-        {
-          "t": "፡.",
-          "c": "red"
-        },
-        {
-          "t": "እማልድነዛለሁ፡፡ የሚተማመትትን",
-          "c": "black"
-        },
-        {
-          "t": "| |",
-          "c": "red"
-        },
-        {
-          "t": "ተቀጥቅጠው",
-          "c": "black"
-        },
-        {
-          "t": "ዳግመኛም",
-          "c": "red"
-        },
-        {
-          "t": "ከሀጢት |",
+          "t": " ዘንድ እማልድሃለሁ።",
           "c": "black"
         }
-      ]
+      ],
+      "bbox": [
+        298,
+        465,
+        2379,
+        1087
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ሳዶር አላዶር ዳናት አዴራ ሮዳስ በተባሉ በአምስቱ ቅንዋተ መስቀል ",
+          "c": "black"
+        },
+        {
+          "t": "ቃል ኪዳን ትገባልኝ",
+          "c": "red"
+        },
+        {
+          "t": " ዘንድ እማልድሃለሁ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        307,
+        1077,
+        2392,
+        1707
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ልጆ ወዳጆ ሆይ፤",
+          "c": "red"
+        },
+        {
+          "t": " ከኔጋር ቆመህ የልቦናዬን ትፈፅምልኝ ዘንድ የተዘጉ በሮች ተከፍተው የሞት ስልጣን ይወገድ ዘንድ የርኩሳን መናፍስት ስልጣን ተሸሮ የጭለማ ኃይል ከሁሉ ቦታ እንደሰም ቀልጦ እንደ ውሃ ፈሶ ይቀር ዘንድ ጣዖታት ተደምስሰው የጣዖታትም ቦታና አዳራሽ ተመዝብረውና ተቀጥቅጠው ይጠፉ ዘንድ እማልድሃለሁ። ",
+          "c": "black"
+        },
+        {
+          "t": "ዳግመኛም በዚህ ጸሎት",
+          "c": "red"
+        },
+        {
+          "t": " የሚተማመኑትን ከሀጢት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        315,
+        1714,
+        2426,
+        3275
+      ],
+      "layout_category": "Text"
     }
-  ]
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "220c1b14b10be5a9ab622de878dc3fb8cc6e7ded9c6ec593d5b7fd621ab521ba",
+      "source_sha256": "882676b19f87eacebfd2dfc1c90f7848f0aff2d039f023a1ece133de88d57864",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_169.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 87.517,
+      "created_at": "2026-10-24T01:03:36.234307+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "33d46f8ff46a24eb19a62e3c7674df0c91fe55069c8da8bb8e4f112d26eaa480",
+      "image": "882676b19f87eacebfd2dfc1c90f7848f0aff2d039f023a1ece133de88d57864",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 7,
+    "red_located": 7
+  },
+  "_legacy": "transcripts-legacy/page_169.json"
 }
