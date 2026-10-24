@@ -261,6 +261,27 @@
     .block.linked { box-shadow: 0 0 0 2px #f5b301; }
     .block.flash { animation: flash 1s ease; }
     @keyframes flash { from { background: #fff3c4; } to { background: var(--panel); } }
+    /* ---------- Ethiopic character palette ---------- */
+    .fidel {
+      position: sticky; bottom: 0; z-index: 5; margin: 10px -4px 0;
+      background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+      box-shadow: 0 -4px 16px rgba(16, 24, 40, .10); padding: 8px 10px 10px;
+    }
+    .fidel[hidden] { display: none; }
+    .fidel-head { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 11.5px; margin-bottom: 6px; }
+    .fidel-head .spacer { flex: 1; }
+    .fidel-row { display: flex; flex-wrap: wrap; gap: 3px; margin-bottom: 6px; }
+    .fidel-row.forms { min-height: 34px; padding: 4px; background: var(--accent-soft); border-radius: 7px; }
+    .fidel button.ch {
+      min-width: 30px; height: 30px; padding: 0 5px; border: 1px solid var(--line); border-radius: 6px;
+      background: #fff; cursor: pointer; color: var(--text);
+      font: 18px "Nyala", "Noto Sans Ethiopic", "Abyssinica SIL", serif;
+    }
+    .fidel button.ch:hover { border-color: var(--accent); background: var(--accent-soft); }
+    .fidel button.ch.base-on { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+    .fidel .sep { width: 1px; background: var(--line); margin: 0 4px; }
+    .fidel .bases { max-height: 116px; overflow: auto; }
+
     .unsurebox .row[data-bbox] { cursor: pointer; }
     .unsurebox .row[data-bbox]:hover .unsure-word { text-decoration: underline; }
 
@@ -1109,9 +1130,9 @@ async function renderText(page) {
     ? `<div class="flagbar"><div class="flagpill">Note: ${escapeHtml(t.notes)}</div></div>` : "";
 
   const toolbar = `<div class="edit-toolbar">
-      <button class="mini mark-red" id="markRed">Mark red</button>
-      <button class="mini mark-black" id="markBlack">Mark black</button>
-      <span style="color:var(--muted);font-size:11.5px">select text, then mark</span>
+      <button class="mini mark-red" id="markRed" title="Select text, then mark it red">Mark red</button>
+      <button class="mini mark-black" id="markBlack" title="Select text, then mark it black">Mark black</button>
+      <button class="mini" id="fidelBtn" title="Ethiopic letters, numerals and punctuation">ፊደል</button>
       <span class="spacer" style="flex:1"></span>
       <span class="savestate" id="saveState"></span>
       <button class="mini" id="revertBtn" title="Restore the original extraction">Revert</button>
@@ -1131,12 +1152,88 @@ async function renderText(page) {
     (blocks || `<div class="notice">No blocks on this page.</div>`) +
     `<button class="mini" id="addFirst" style="margin-top:4px">+ add block</button>` +
     `<details class="legacy" id="legacyBox"><summary>Previous extraction (read-only, for comparison)</summary>
-       <div id="legacyBody" class="notice">Loading…</div></details>`;
+       <div id="legacyBody" class="notice">Loading…</div></details>` + renderFidel();
   pane.scrollTop = 0;
   el("legacyBox").addEventListener("toggle", () => loadLegacy(page), { once: true });
   el("historyBtn").addEventListener("click", () => loadHistory(page));
   wireEditor(page);
   setSaveState(dirty.has(page) ? "unsaved" : "");
+}
+
+/* ---------------- Ethiopic character palette ---------------- */
+
+const FIDEL_QUICK = [
+  ..."፡።፣፤፥፦፧",
+  "|", ..."፩፪፫፬፭፮፯፰፱፲፳፴፵፶፷፸፹፺፻፼",
+  "|", ..."ሀሐኀ", "|", ..."ሰሠ", "|", ..."አዐ", "|", ..."ጸፀ", "|", ..."ቀቐ", "|", ..."ከኸ",
+];
+
+/** Each consonant's forms: a row of up to 8 assigned code points from U+1200. */
+function fidelRow(baseCode) {
+  const forms = [];
+  for (let c = baseCode; c < baseCode + 8; c++) {
+    const ch = String.fromCodePoint(c);
+    if (/\p{L}/u.test(ch)) forms.push(ch);
+  }
+  return forms;
+}
+
+const FIDEL_BASES = [];
+for (let c = 0x1200; c < 0x1358; c += 8) if (fidelRow(c).length) FIDEL_BASES.push(c);
+
+function renderFidel() {
+  const button = (ch) => ch === "|" ? `<span class="sep"></span>`
+    : `<button class="ch" data-ch="${ch}" tabindex="-1">${ch}</button>`;
+  const base = state.fidelBase ?? 0x1200;
+  return `<div class="fidel" id="fidel"${state.fidelOpen ? "" : " hidden"}>
+      <div class="fidel-head">Click to insert at the cursor<span class="spacer"></span>
+        <button class="mini" id="fidelClose" tabindex="-1">close</button></div>
+      <div class="fidel-row">${FIDEL_QUICK.map(button).join("")}</div>
+      <div class="fidel-row forms" id="fidelForms">${fidelRow(base).map(button).join("")}</div>
+      <div class="fidel-row bases">${FIDEL_BASES.map((c) =>
+        `<button class="ch${c === base ? " base-on" : ""}" data-base="${c}" tabindex="-1">${String.fromCodePoint(c)}</button>`).join("")}</div>
+    </div>`;
+}
+
+// The caret inside the last-focused text block, so a palette click can insert there.
+let fidelRange = null;
+document.addEventListener("selectionchange", () => {
+  const sel = window.getSelection();
+  if (sel?.rangeCount && sel.anchorNode?.parentElement?.closest('[data-role="text"]')) {
+    fidelRange = sel.getRangeAt(0).cloneRange();
+  }
+});
+
+function wireFidel(page) {
+  const box = el("fidel");
+  const toggle = (open) => { state.fidelOpen = open; box.hidden = !open; };
+  el("fidelBtn")?.addEventListener("click", () => toggle(box.hidden));
+  el("fidelClose")?.addEventListener("click", () => toggle(false));
+  // mousedown would move focus out of the text and lose the caret.
+  box.addEventListener("mousedown", (e) => { if (e.target.closest("button")) e.preventDefault(); });
+  box.addEventListener("click", (e) => {
+    const b = e.target.closest("button.ch");
+    if (!b) return;
+    if (b.dataset.base) {
+      state.fidelBase = Number(b.dataset.base);
+      box.querySelectorAll(".base-on").forEach((x) => x.classList.remove("base-on"));
+      b.classList.add("base-on");
+      el("fidelForms").innerHTML = fidelRow(state.fidelBase).map((ch) =>
+        `<button class="ch" data-ch="${ch}" tabindex="-1">${ch}</button>`).join("");
+      return;
+    }
+    const host = fidelRange?.startContainer.parentElement?.closest('[data-role="text"]');
+    if (!host || !el("textPane").contains(host)) {
+      setSaveState("error", "click in the text where the letter should go");
+      return;
+    }
+    host.focus();
+    const sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(fidelRange);
+    document.execCommand("insertText", false, b.dataset.ch);
+    markPageDirty(page);
+  });
 }
 
 /** List who saved this page and when (every hosted save is kept as a version). */
@@ -1491,6 +1588,7 @@ function wireEditor(page) {
   });
 
   wireScanLink();
+  wireFidel(page);
 
   el("markRed")?.addEventListener("click", () => markSelection("red"));
   el("markBlack")?.addEventListener("click", () => markSelection("black"));
