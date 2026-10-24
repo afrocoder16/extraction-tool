@@ -1,20 +1,27 @@
-export const BOOK_ID = "wudase_mariam";
-export const MAX_PAGE = 218;
+import BOOKS from "./books.mjs";
+
 export const MAX_BODY_BYTES = 8 * 1024 * 1024;
 
 const BLOCK_TYPES = new Set(["title", "verse", "prayer", "instruction", "ornament"]);
 const REVIEW_STATUSES = new Set([null, "approved", "needs_fix"]);
 
-export function parsePage(value) {
+/** The published book named in a URL, or an error; ids never reach storage unchecked. */
+export function parseBook(value, books = BOOKS) {
+  const book = books.find((b) => b.book_id === String(value));
+  if (!book) throw new Error("unknown book");
+  return book;
+}
+
+export function parsePage(value, maxPage) {
   if (!/^\d{1,4}$/.test(String(value))) throw new Error("page must be a number");
   const page = Number(value);
-  if (!Number.isInteger(page) || page < 1 || page > MAX_PAGE) {
-    throw new Error(`page must be between 1 and ${MAX_PAGE}`);
+  if (!Number.isInteger(page) || page < 1 || page > maxPage) {
+    throw new Error(`page must be between 1 and ${maxPage}`);
   }
   return page;
 }
 
-export function validateReview(payload) {
+export function validateReview(payload, maxPage) {
   if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
     throw new Error("expected a JSON object");
   }
@@ -24,7 +31,7 @@ export function validateReview(payload) {
 
   const entries = {};
   for (const [pageKey, raw] of Object.entries(payload.entries)) {
-    const page = parsePage(pageKey);
+    const page = parsePage(pageKey, maxPage);
     if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
       throw new Error(`review entry ${page} must be an object`);
     }
@@ -45,8 +52,8 @@ function validateList(value, field) {
   return value;
 }
 
-export function validateTranscript(payload, pageValue) {
-  const page = parsePage(pageValue);
+export function validateTranscript(payload, pageValue, maxPage) {
+  const page = parsePage(pageValue, maxPage);
   if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
     throw new Error("expected a JSON object");
   }

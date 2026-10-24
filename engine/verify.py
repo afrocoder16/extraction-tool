@@ -133,9 +133,10 @@ def verify_page(page: int, work: Path) -> dict:
 
     source = str(transcript.get("_source", ""))
     is_draft = "draft" in source.lower() or "tesseract on cleaned layers" in source.lower()
+    # Recorded, not flagged: every OCR page starts as a draft and the human
+    # approval (bound to this exact revision) is what clears it. A permanent
+    # flag here would block a fully approved book from ever building.
     checks["draft_transcript"] = is_draft
-    if is_draft:
-        flags.append("DRAFT transcript — every word still needs checking against the scan")
 
     full = transcript_text(transcript)
     normalized = normalize(full)
@@ -158,7 +159,9 @@ def verify_page(page: int, work: Path) -> dict:
     checks["mask_red_ratio"] = round(mask_ratio, 3) if mask_ratio is not None else None
     if mask_ratio is None:
         flags.append("missing colour-mask evidence; run split before verification")
-    if not (work / "layout" / f"page_{page:03d}.json").is_file():
+    # dots.mocr pages take their colour from red-mask crops, not word layout.
+    colour_from_mask = bool((transcript.get("_provenance") or {}).get("red"))
+    if not colour_from_mask and not (work / "layout" / f"page_{page:03d}.json").is_file():
         flags.append("missing word-layout evidence; run layout before verification")
     if not (work / "page_images" / f"page_{page:03d}.png").is_file():
         flags.append("missing original page image")

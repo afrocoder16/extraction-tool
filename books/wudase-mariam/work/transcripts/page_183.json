@@ -67,12 +67,7 @@
   ],
   "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
   "corrections": [],
-  "uncertain": [
-    {
-      "text": "0/ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡ ፡",
-      "why": "red ink on the scan that was not found in this text; check spelling and colour"
-    }
-  ],
+  "uncertain": [],
   "clipped": [],
   "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
   "_provenance": {

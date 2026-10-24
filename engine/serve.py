@@ -1,13 +1,17 @@
-"""Review server: serves the UI for one book and saves corrections back to disk.
+"""Review server: serves the UI for local books and saves corrections back to disk.
 
-A browser cannot write files, so proofreading needs a small server behind the UI:
+A browser cannot write files, so proofreading needs a small server behind the UI.
+URLs match the hosted (Netlify) site so one UI serves both:
 
-    GET  /                          the review UI
-    GET  /work/<path>               masks, overlays, page images, stats
-    GET  /api/book                  book identity and section table
-    GET  /api/review                saved approve/flag decisions
-    POST /api/review                replace them
-    POST /api/transcript/<page>     overwrite one page's transcript
+    GET  /                                    the review UI (library, or ?book=<id>)
+    GET  /books.json                          every local book
+    GET  /books/<id>/book.json                book identity and section table
+    GET  /books/<id>/work/<path>              masks, overlays, page images, stats
+    GET  /api/books/<id>/review               saved approve/flag decisions
+    POST /api/books/<id>/review               merge decisions
+    GET  /api/books/<id>/transcript/<page>    one page's transcript
+    POST /api/books/<id>/transcript/<page>    overwrite it
+    GET  /api/books/<id>/history/<page>       earlier saved versions
 
 Before the first edit of any page the untouched transcript is copied to
 `page_NNN.original.json`. Corrections to a liturgical text must always be
@@ -15,12 +19,14 @@ revertible and diffable against what the extractor originally produced.
 
 Bound to 127.0.0.1 — it writes files, so it must not be reachable off-machine.
 
-    python -m engine.serve books/wudase-mariam
+    python -m engine.serve                       # every folder under books/
+    python -m engine.serve books/wudase-mariam   # just these books
 """
 
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timezone
 import json
 import re
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -32,6 +38,7 @@ from . import review_store
 
 MAX_BODY = 8 * 1024 * 1024
 PAGE_RE = re.compile(r"^\d{1,4}$")
+ROOT = Path(__file__).resolve().parent.parent
 UI_FILE = Path(__file__).resolve().parent / "review.html"
 
 CONTENT_TYPES = {
@@ -45,9 +52,10 @@ CONTENT_TYPES = {
 
 
 class ReviewHandler(BaseHTTPRequestHandler):
-    """Serves one book. Every path is resolved inside that book's folder."""
+    """Serves several books. Every path is resolved inside its own book's folder."""
 
-    bk: book_mod.Book  # injected in main()
+    books: dict[str, book_mod.Book] = {}  # book_id -> Book, injected in main()
+    bk: book_mod.Book  # the book addressed by the current request
 
     # --- helpers ---------------------------------------------------------
 
@@ -102,46 +110,58 @@ class ReviewHandler(BaseHTTPRequestHandler):
             self.send_response(204)
             self.end_headers()
             return
-        if route == "/api/book":
-            self._send_json({
-                "book_id": self.bk.book_id,
-                "title_am": self.bk.title_am,
-                "title_en": self.bk.title_en,
-                "sections": [
-                    {k: s.get(k) for k in ("section_id", "order", "title_am", "title_en")}
-                    for s in self.bk.sections
-                ],
-            })
+        if route == "/books.json":
+            self._send_json([self._summary(b) for b in self.books.values()])  # type: ignore[arg-type]
             return
-        if route == "/api/review":
+        match = re.fullmatch(r"/(api/)?books/([a-z0-9_]+)(/.*)", route)
+        if not match or match[2] not in self.books:
+            self._send(b"not found", "text/plain", 404)
+            return
+        self.bk = self.books[match[2]]
+        rest = match[3]
+        if match[1]:
+            self._api_get(rest)
+            return
+        if rest == "/book.json":
+            self._send_json({**self._summary(self.bk), "hosting": "local", "image_extension": "png",
+                             "sections": [{k: s.get(k) for k in ("section_id", "order", "title_am", "title_en")}
+                                          for s in self.bk.sections]})
+            return
+        if rest.startswith("/work/"):
+            # Browser-size copies are review aids, never original-image evidence.
+            image = re.fullmatch(r"/work/(page_images|debug)/(page_\d{3,})\.png", rest)
+            if image and not (self.bk.work / image[1] / (image[2] + ".png")).exists():
+                assets = ROOT / "netlify" / "review-assets" / self.bk.book_id / "work"
+                self._serve_file(assets / image[1] / (image[2] + ".webp"), assets)
+                return
+            self._serve_file(self.bk.work / rest[len("/work/"):])
+            return
+
+        self._send(b"not found", "text/plain", 404)
+
+    def _api_get(self, rest: str) -> None:
+        if rest == "/review":
             if self.bk.review_file.exists():
                 self._send_json(json.loads(self.bk.review_file.read_text(encoding="utf-8")))
             else:
                 self._send_json({"entries": {}})
             return
-        if route.startswith("/api/transcript/"):
-            page = route.rsplit("/", 1)[-1]
-            if not PAGE_RE.fullmatch(page) or int(page) < 1:
-                self._send_json({"error": "invalid page"}, 400)
-                return
-            try:
-                self._send_json(review_store.load_transcript(self.bk.work, int(page)))
-            except FileNotFoundError:
-                self._send_json({"error": "no transcript"}, 404)
+        match = re.fullmatch(r"/(transcript|history)/(\d{1,4})", rest)
+        if not match or int(match[2]) < 1:
+            self._send_json({"error": "unknown endpoint"}, 404)
             return
-        if route.startswith("/work/"):
-            # Browser-size copies are review aids, never original-image evidence.
-            match = re.fullmatch(r"/work/(page_images|debug)/(page_\d{3,})\.png", route)
-            if match and self.bk.book_id == "wudase_mariam":
-                original = self.bk.work / match[1] / (match[2] + ".png")
-                assets = Path(__file__).resolve().parent.parent / "netlify" / "review-assets" / "work"
-                if not original.exists():
-                    self._serve_file(assets / match[1] / (match[2] + ".webp"), assets)
-                    return
-            self._serve_file(self.bk.work / route[len("/work/"):])
+        page = int(match[2])
+        if match[1] == "history":
+            folder = self.bk.work / "history" / str(page)
+            versions = sorted((f.stat().st_mtime for f in folder.glob("*.json")), reverse=True) if folder.is_dir() else []
+            self._send_json({"page": page, "versions": [
+                {"saved_at": datetime.fromtimestamp(t, timezone.utc).isoformat(), "saved_by": "local"}
+                for t in versions[:50]]})
             return
-
-        self._send(b"not found", "text/plain", 404)
+        try:
+            self._send_json(review_store.load_transcript(self.bk.work, page))
+        except FileNotFoundError:
+            self._send_json({"error": "no transcript"}, 404)
 
     def do_POST(self) -> None:  # noqa: N802
         route = self.path.split("?")[0]
@@ -149,13 +169,22 @@ class ReviewHandler(BaseHTTPRequestHandler):
         if body is None:
             self._send_json({"error": "invalid or oversized JSON body"}, 400)
             return
-        if route == "/api/review":
+        match = re.fullmatch(r"/api/books/([a-z0-9_]+)/(review|transcript/(\d{1,4}))", route)
+        if not match or match[1] not in self.books:
+            self._send_json({"error": "unknown endpoint"}, 404)
+            return
+        self.bk = self.books[match[1]]
+        if match[2] == "review":
             self._save_review(body)
-            return
-        if route.startswith("/api/transcript/"):
-            self._save_transcript(route.rsplit("/", 1)[-1], body)
-            return
-        self._send_json({"error": "unknown endpoint"}, 404)
+        else:
+            self._save_transcript(match[3], body)
+
+    @staticmethod
+    def _summary(bk: book_mod.Book) -> dict:
+        stats = json.loads(bk.stats_file.read_text(encoding="utf-8")) if bk.stats_file.exists() else {}
+        return {"book_id": bk.book_id, "title_am": bk.title_am, "title_en": bk.title_en,
+                "total_pages": len(stats),
+                "text_pages": sum(1 for v in stats.values() if not v.get("is_blank") and not v.get("is_illustration"))}
 
     # --- handlers --------------------------------------------------------
 
@@ -191,6 +220,8 @@ class ReviewHandler(BaseHTTPRequestHandler):
             self._send_json({"error": "invalid transcript review fields"}, 400)
             return
 
+        for field in ("_saved_at", "_saved_by", "_base_saved_at"):
+            body.pop(field, None)
         try:
             saved = review_store.save_transcript(self.bk.work, int(page_str), body)
             self._send_json({"ok": True, "transcript": saved})
@@ -219,17 +250,19 @@ class ReviewHandler(BaseHTTPRequestHandler):
 def main(argv: list[str] | None = None) -> int:
     configure_utf8_stdio()
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("book", type=Path, help="path to a book folder")
+    parser.add_argument("books", type=Path, nargs="*", help="book folders (default: every folder under books/)")
     parser.add_argument("--port", type=int, default=8000)
     args = parser.parse_args(argv)
 
-    bk = book_mod.load(args.book)
-    ReviewHandler.bk = bk  # type: ignore[attr-defined]
+    folders = args.books or sorted(p.parent for p in (ROOT / "books").glob("*/book.json"))
+    ReviewHandler.books = {bk.book_id: bk for bk in map(book_mod.load, folders)}
+    if not ReviewHandler.books:
+        parser.error("no books found")
 
     server = ThreadingHTTPServer(("127.0.0.1", args.port), ReviewHandler)
-    print(f"Book:      {bk.title_am} ({bk.book_id})")
-    print(f"Review UI: http://127.0.0.1:{args.port}/")
-    print(f"Edits save to {bk.dir('transcripts')} — Ctrl+C to stop.")
+    for bk in ReviewHandler.books.values():
+        print(f"Book:      {bk.title_am} ({bk.book_id}) — edits save to {bk.dir('transcripts')}")
+    print(f"Review UI: http://127.0.0.1:{args.port}/   (Ctrl+C to stop)")
     try:
         server.serve_forever()
     except KeyboardInterrupt:

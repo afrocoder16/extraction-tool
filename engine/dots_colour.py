@@ -161,6 +161,13 @@ def _spans(text: str, red: list[tuple[int, int]]) -> list[dict]:
     return spans
 
 
+def _ornament_reading(text: str) -> bool:
+    """A red border or flourish read as text: punctuation runs or a stutter like 'በ በ በ'."""
+    tokens = text.split()
+    stutter = len(tokens) >= 3 and len(set(tokens)) == 1 and len(LETTER.findall(tokens[0])) <= 2
+    return len(LETTER.findall(text)) < 2 or len(text) > 200 or stutter
+
+
 def build_transcript(page: int, candidate: dict, red: dict, ignore: list[str]) -> dict:
     cells = []
     header = ""
@@ -192,7 +199,7 @@ def build_transcript(page: int, candidate: dict, red: dict, ignore: list[str]) -
         hit = locate(cells[owner]["text"], reading, expected, found.get(owner, []))
         if hit:
             found.setdefault(owner, []).append(hit)
-        else:
+        elif not _ornament_reading(reading):
             uncertain.append({"text": reading.strip("። "), "why": "red ink on the scan that was not found in this text; check spelling and colour"})
 
     blocks = []

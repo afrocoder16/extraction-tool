@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 from engine import book as book_mod
-from engine.dots_colour import _spans, build_transcript, clean_text, locate
+from engine.dots_colour import _ornament_reading, _spans, build_transcript, clean_text, locate
 from engine.import_review import import_export
 
 
@@ -41,6 +41,14 @@ class Spans(unittest.TestCase):
         text = "ቅድስት ሆይ ለምኝልን"
         spans = _spans(text, [(0, 5), (6, 8), (9, 15)])
         self.assertEqual(spans, [{"t": text, "c": "red"}])
+
+
+class OrnamentReading(unittest.TestCase):
+    def test_flourishes_are_not_reported_but_short_words_are(self):
+        for junk in ("ዐወ ዐወ ዐወ", "፲, ፲, ፲", "0/ ፡ ፡ ፡ ፡"):
+            self.assertTrue(_ornament_reading(junk), junk)
+        for word in ("ቃል", "ልዕል", "ቅዱስ ቅዱስ ቅዱስ"):
+            self.assertFalse(_ornament_reading(word), word)
 
 
 class BuildTranscript(unittest.TestCase):

@@ -1,4 +1,4 @@
-import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -6,11 +6,37 @@ import { build } from "esbuild";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "netlify-dist");
-const work = join(root, "books", "wudase-mariam", "work");
-const assets = join(root, "netlify", "review-assets", "work");
+
+async function copyIfPresent(from, to) {
+  try {
+    await cp(from, to, { recursive: true });
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+}
+
+// Every book folder whose book.json says "publish": true becomes part of the site.
+const books = [];
+for (const entry of await readdir(join(root, "books"), { withFileTypes: true })) {
+  if (!entry.isDirectory()) continue;
+  const folder = join(root, "books", entry.name);
+  let config;
+  try {
+    config = JSON.parse(await readFile(join(folder, "book.json"), "utf8"));
+  } catch (error) {
+    if (error.code === "ENOENT") continue;
+    throw error;
+  }
+  if (config.publish !== true) continue;
+  if (!/^[a-z0-9_]+$/.test(config.book_id || "")) throw new Error(`invalid book_id in ${entry.name}`);
+  const stats = JSON.parse(await readFile(join(folder, "work", "page_stats.json"), "utf8"));
+  books.push({ folder, config, stats });
+}
+if (!books.length) throw new Error("no book.json has \"publish\": true");
+books.sort((a, b) => a.config.book_id.localeCompare(b.config.book_id));
 
 await rm(dist, { recursive: true, force: true });
-await mkdir(join(dist, "work"), { recursive: true });
+await mkdir(dist, { recursive: true });
 
 let html = await readFile(join(root, "engine", "review.html"), "utf8");
 html = html.replace("</body>", '  <script type="module" src="/review-auth.js"></script>\n</body>');
@@ -26,26 +52,66 @@ await build({
   minify: true,
 });
 
-await cp(assets, join(dist, "work"), { recursive: true });
-await cp(join(work, "transcripts"), join(dist, "work", "transcripts"), { recursive: true });
-// Transcripts replaced by a newer OCR baseline, shown read-only for comparison.
-try {
-  await cp(join(work, "transcripts-legacy"), join(dist, "work", "transcripts-legacy"), { recursive: true });
-} catch (error) {
-  if (error.code !== "ENOENT") throw error;
-}
-for (const name of ["page_stats.json", "verification.json", "review.json"]) {
-  try {
-    await cp(join(work, name), join(dist, "work", name));
-  } catch (error) {
-    if (error.code !== "ENOENT") throw error;
+const index = [];
+const registry = [];
+let headers = "";
+for (const { folder, config, stats } of books) {
+  const id = config.book_id;
+  const out = join(dist, "books", id);
+  const work = join(folder, "work");
+  await mkdir(join(out, "work"), { recursive: true });
+  await cp(join(root, "netlify", "review-assets", id, "work"), join(out, "work"), { recursive: true });
+  await cp(join(work, "transcripts"), join(out, "work", "transcripts"), { recursive: true });
+  // Transcripts replaced by a newer OCR baseline, shown read-only for comparison.
+  await copyIfPresent(join(work, "transcripts-legacy"), join(out, "work", "transcripts-legacy"));
+  for (const name of ["page_stats.json", "verification.json", "review.json"]) {
+    await copyIfPresent(join(work, name), join(out, "work", name));
   }
+  await writeFile(join(out, "book.json"),
+    JSON.stringify({ ...config, hosting: "netlify", image_extension: "webp" }, null, 2), "utf8");
+
+  const pages = Object.values(stats);
+  const maxPage = Math.max(...Object.keys(stats).map(Number));
+  index.push({
+    book_id: id,
+    title_am: config.title_am || "",
+    title_en: config.title_en || "",
+    total_pages: pages.length,
+    text_pages: pages.filter((p) => !p.is_blank && !p.is_illustration).length,
+  });
+  registry.push({ book_id: id, max_page: maxPage });
+  headers += `
+/books/${id}/work/page_images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/books/${id}/work/debug/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/books/${id}/work/transcripts/*
+  Cache-Control: no-store
+
+/books/${id}/work/transcripts-legacy/*
+  Cache-Control: no-store
+
+/books/${id}/work/page_stats.json
+  Cache-Control: no-store
+
+/books/${id}/work/verification.json
+  Cache-Control: no-store
+
+/books/${id}/work/review.json
+  Cache-Control: no-store
+
+/books/${id}/book.json
+  Cache-Control: no-store
+`;
 }
 
-const book = JSON.parse(await readFile(join(root, "books", "wudase-mariam", "book.json"), "utf8"));
-book.hosting = "netlify";
-book.image_extension = "webp";
-await writeFile(join(dist, "book.json"), JSON.stringify(book, null, 2), "utf8");
+await writeFile(join(dist, "books.json"), JSON.stringify(index, null, 2), "utf8");
+// Functions are bundled after this build step, so they see the current registry.
+await writeFile(join(root, "netlify", "lib", "books.mjs"),
+  "// Generated by scripts/build_netlify_site.mjs from every published book.json.\n" +
+  `export default ${JSON.stringify(registry, null, 2)};\n`, "utf8");
 
 await writeFile(join(dist, "_headers"), `/*
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
@@ -53,32 +119,11 @@ await writeFile(join(dist, "_headers"), `/*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
 
-/work/page_images/*
-  Cache-Control: public, max-age=31536000, immutable
-
-/work/debug/*
-  Cache-Control: public, max-age=31536000, immutable
-
-/work/transcripts/*
-  Cache-Control: no-store
-
-/work/transcripts-legacy/*
-  Cache-Control: no-store
-
-/work/page_stats.json
-  Cache-Control: no-store
-
-/work/verification.json
-  Cache-Control: no-store
-
-/work/review.json
-  Cache-Control: no-store
-
-/book.json
+/books.json
   Cache-Control: no-store
 
 /index.html
   Cache-Control: no-store
-`, "utf8");
+${headers}`, "utf8");
 
-console.log(`Built ${dist}`);
+console.log(`Built ${dist} with ${books.length} book(s): ${books.map((b) => b.config.book_id).join(", ")}`);

@@ -47,7 +47,7 @@ function message(error) {
 
 function showLogin() {
   const cover = card(
-    "Wudase Mariam Review",
+    "EOTC Book Review",
     "Sign in with the email address that received the Netlify invitation.",
     `<form id="loginForm">
       <label>Email<input name="email" type="email" autocomplete="email" required></label>

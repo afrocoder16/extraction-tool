@@ -1,7 +1,9 @@
 """Create compact WebP copies of the page images used by the hosted reviewer.
 
+    python scripts/build_review_assets.py [books/<book-folder>]
+
 The 300-DPI PNG files remain local extraction artifacts.  Netlify receives a
-smaller, still-readable set under ``netlify/review-assets``.
+smaller, still-readable set under ``netlify/review-assets/<book_id>/work``.
 """
 
 from __future__ import annotations
@@ -9,17 +11,18 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
+import json
+
 import cv2
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BOOK_WORK = ROOT / "books" / "wudase-mariam" / "work"
-ASSET_ROOT = ROOT / "netlify" / "review-assets" / "work"
 
 
-def convert_folder(name: str, max_edge: int, quality: int, force: bool) -> tuple[int, int]:
-    source_dir = BOOK_WORK / name
-    target_dir = ASSET_ROOT / name
+def convert_folder(book_work: Path, asset_root: Path, name: str, max_edge: int, quality: int,
+                   force: bool) -> tuple[int, int]:
+    source_dir = book_work / name
+    target_dir = asset_root / name
     target_dir.mkdir(parents=True, exist_ok=True)
 
     converted = skipped = 0
@@ -54,7 +57,8 @@ def convert_folder(name: str, max_edge: int, quality: int, force: bool) -> tuple
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("book", nargs="?", type=Path, default=ROOT / "books" / "wudase-mariam")
     parser.add_argument("--max-edge", type=int, default=1800)
     parser.add_argument("--quality", type=int, default=86)
     parser.add_argument("--force", action="store_true")
@@ -65,14 +69,17 @@ def main() -> int:
     if not 1 <= args.quality <= 100:
         parser.error("--quality must be between 1 and 100")
 
+    book_id = json.loads((args.book / "book.json").read_text(encoding="utf-8"))["book_id"]
+    asset_root = ROOT / "netlify" / "review-assets" / book_id / "work"
     total_converted = total_skipped = 0
     for folder in ("page_images", "debug"):
-        converted, skipped = convert_folder(folder, args.max_edge, args.quality, args.force)
+        converted, skipped = convert_folder(args.book / "work", asset_root, folder,
+                                            args.max_edge, args.quality, args.force)
         total_converted += converted
         total_skipped += skipped
         print(f"{folder}: {converted} converted, {skipped} current", flush=True)
 
-    size_mb = sum(p.stat().st_size for p in ASSET_ROOT.rglob("*.webp")) / (1024 * 1024)
+    size_mb = sum(p.stat().st_size for p in asset_root.rglob("*.webp")) / (1024 * 1024)
     print(f"Review assets: {size_mb:.1f} MiB ({total_converted} converted, {total_skipped} current)")
     return 0
 

@@ -40,8 +40,20 @@ Stop the GPU server when finished: `sudo docker stop extraction-dots-mocr`.
 | `ignore_text` | Regex patterns for watermark/publisher text to drop |
 | `max_pixels`, `max_completion_tokens`, `timeout` | Must match the launcher's server settings |
 
-## Not yet multi-book
+## Publishing a book to the editor
 
-The hosted editor still serves one book (`BOOK_ID` in `netlify/lib/validation.mjs`, paths in
-`scripts/build_netlify_site.mjs`). Before the second book goes live, the editor needs a
-book picker and per-book routes; storage keys are already prefixed by book id.
+- Set `"publish": true` in its `book.json`. Unpublished books are still visible in the
+  local editor (`.venv/bin/python -m engine.serve`) for checking first.
+- Make its compact scans: `.venv/bin/python scripts/build_review_assets.py <book>` →
+  `netlify/review-assets/<book_id>/`.
+- The site opens on a library of all published books; `?book=<book_id>` opens one directly.
+  `npm run build` regenerates `netlify/lib/books.mjs`, the list the server accepts.
+
+## Who did what
+
+- Every hosted save stores the editor's email and time, and keeps the full version under
+  `<book_id>/versions/page_NNN/<time>` in Netlify Blobs. The editor shows "Last saved by …"
+  and a **history** list per page.
+- Every approve / needs-fix decision stores `decided_by` and `decided_at`.
+- A save is refused if someone else saved the same page after you opened it, so two
+  proofreaders can never silently overwrite each other.
