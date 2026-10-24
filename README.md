@@ -1,5 +1,10 @@
 # Scanned-book extraction engine
 
+**Current development:** dots.mocr is now the default OCR provider. See
+[dots setup and current status](docs/DOTS-USAGE.md) for the candidate workflow,
+runtime requirements, and remaining work. Older Claude-specific instructions
+below describe the previous default; Claude now requires `--provider claude`.
+
 Turns scanned photographs of printed liturgical books into structured JSON that
 preserves **red ink**, which in Ethiopian Orthodox prayer books is semantic: it
 marks divine names and the congregation's responses. Losing it loses the prayer's

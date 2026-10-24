@@ -1,0 +1,347 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b1e647d0de34aa83",
+    "object": "chat.completion",
+    "created": 1792802461,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [293, 185, 1125, 263], \"category\": \"Page-header\", \"text\": \"፸ ይዌድስዋ መላእክት\"}, {\"bbox\": [176, 315, 1475, 505], \"category\": \"Text\", \"text\": \"እናት የሕዝቡ ሁሉ እናት ነሽና ምስጋና\\nይገባሻል፣ የሁሉ እመቤት ማርያም\"}, {\"bbox\": [176, 517, 1475, 704], \"category\": \"Text\", \"text\": \"ምስጋና ይጋባሻል፣ የሁሉ ፍቅረኛ\\nማርያም ምስጋና ይገባሻል፡፡ ልዑል\"}, {\"bbox\": [176, 718, 1475, 1111], \"category\": \"Text\", \"text\": \"ማደሪያው ትሆኝ ዘንድ መርጦሻልና\\nምስጋና ይገባሻል፣ በወርቅ የተሸለምሽ\\nየርግብ ክንፍ በብር ያጌጥሽ ምስጋና\\nይገባሻል፣ ጎኖችሽ በወርቅ አመልማሎ\"}, {\"bbox\": [176, 1121, 1475, 1311], \"category\": \"Text\", \"text\": \"የተሸለሙ ላንቺ ምስጋፍ ይገባሻል፣\\nየምሥራቅ ደጃፍ የብርሃን እናቱ ላንቺ\"}, {\"bbox\": [176, 1325, 1475, 1514], \"category\": \"Text\", \"text\": \"ምስጋና ይገባሻል፣ ከፀሐይ ሰባት እጅ\\nየምታበሪ ክብርሽ ከአድባራቱ ሁሉ\"}, {\"bbox\": [176, 1528, 1475, 1715], \"category\": \"Text\", \"text\": \"ከፍ ከፍ ያለ ላንቺ ምስጋና ይገባሻል፣\\nማርያም ሆይ ከተመረጡ የተመረጥሽ\"}, {\"bbox\": [176, 1731, 1475, 1921], \"category\": \"Text\", \"text\": \"ከተከበሩ የተከበርሽ ላንቺ ምስጋና\\nይገባሻል፤ ከጌታችን ከመድኃኒታችን\"}, {\"bbox\": [176, 1931, 1475, 2016], \"category\": \"Text\", \"text\": \"ከኢየሱስ ክርስቶስ ዘንድ ለምኝልን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4986,
+      "completion_tokens": 823,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፸ ይዌድስዋ መላእክት",
+      "bbox": [
+        476.4987244897959,
+        302.82738095238096,
+        1829.5599489795918,
+        430.5059523809524
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "እናት የሕዝቡ ሁሉ እናት ነሽና ምስጋና\nይገባሻል፣ የሁሉ እመቤት ማርያም",
+      "bbox": [
+        286.2244897959184,
+        515.625,
+        2398.7563775510203,
+        826.6369047619048
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ምስጋና ይጋባሻል፣ የሁሉ ፍቅረኛ\nማርያም ምስጋና ይገባሻል፡፡ ልዑል",
+      "bbox": [
+        286.2244897959184,
+        846.2797619047619,
+        2398.7563775510203,
+        1152.3809523809523
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ማደሪያው ትሆኝ ዘንድ መርጦሻልና\nምስጋና ይገባሻል፣ በወርቅ የተሸለምሽ\nየርግብ ክንፍ በብር ያጌጥሽ ምስጋና\nይገባሻል፣ ጎኖችሽ በወርቅ አመልማሎ",
+      "bbox": [
+        286.2244897959184,
+        1175.297619047619,
+        2398.7563775510203,
+        1818.6011904761904
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "የተሸለሙ ላንቺ ምስጋፍ ይገባሻል፣\nየምሥራቅ ደጃፍ የብርሃን እናቱ ላንቺ",
+      "bbox": [
+        286.2244897959184,
+        1834.970238095238,
+        2398.7563775510203,
+        2145.9821428571427
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "ምስጋና ይገባሻል፣ ከፀሐይ ሰባት እጅ\nየምታበሪ ክብርሽ ከአድባራቱ ሁሉ",
+      "bbox": [
+        286.2244897959184,
+        2168.8988095238096,
+        2398.7563775510203,
+        2478.2738095238096
+      ]
+    },
+    {
+      "order": 6,
+      "category": "Text",
+      "text": "ከፍ ከፍ ያለ ላንቺ ምስጋና ይገባሻል፣\nማርያም ሆይ ከተመረጡ የተመረጥሽ",
+      "bbox": [
+        286.2244897959184,
+        2501.190476190476,
+        2398.7563775510203,
+        2807.2916666666665
+      ]
+    },
+    {
+      "order": 7,
+      "category": "Text",
+      "text": "ከተከበሩ የተከበርሽ ላንቺ ምስጋና\nይገባሻል፤ ከጌታችን ከመድኃኒታችን",
+      "bbox": [
+        286.2244897959184,
+        2833.4821428571427,
+        2398.7563775510203,
+        3144.4940476190477
+      ]
+    },
+    {
+      "order": 8,
+      "category": "Text",
+      "text": "ከኢየሱስ ክርስቶስ ዘንድ ለምኝልን",
+      "bbox": [
+        286.2244897959184,
+        3160.8630952380954,
+        2398.7563775510203,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 141,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፸ ይዌድስዋ መላእክት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          476.4987244897959,
+          302.82738095238096,
+          1829.5599489795918,
+          430.5059523809524
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እናት የሕዝቡ ሁሉ እናት ነሽና ምስጋና\nይገባሻል፣ የሁሉ እመቤት ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          515.625,
+          2398.7563775510203,
+          826.6369047619048
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ምስጋና ይጋባሻል፣ የሁሉ ፍቅረኛ\nማርያም ምስጋና ይገባሻል፡፡ ልዑል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          846.2797619047619,
+          2398.7563775510203,
+          1152.3809523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ማደሪያው ትሆኝ ዘንድ መርጦሻልና\nምስጋና ይገባሻል፣ በወርቅ የተሸለምሽ\nየርግብ ክንፍ በብር ያጌጥሽ ምስጋና\nይገባሻል፣ ጎኖችሽ በወርቅ አመልማሎ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          1175.297619047619,
+          2398.7563775510203,
+          1818.6011904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የተሸለሙ ላንቺ ምስጋፍ ይገባሻል፣\nየምሥራቅ ደጃፍ የብርሃን እናቱ ላንቺ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          1834.970238095238,
+          2398.7563775510203,
+          2145.9821428571427
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ምስጋና ይገባሻል፣ ከፀሐይ ሰባት እጅ\nየምታበሪ ክብርሽ ከአድባራቱ ሁሉ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          2168.8988095238096,
+          2398.7563775510203,
+          2478.2738095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከፍ ከፍ ያለ ላንቺ ምስጋና ይገባሻል፣\nማርያም ሆይ ከተመረጡ የተመረጥሽ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          2501.190476190476,
+          2398.7563775510203,
+          2807.2916666666665
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከተከበሩ የተከበርሽ ላንቺ ምስጋና\nይገባሻል፤ ከጌታችን ከመድኃኒታችን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          2833.4821428571427,
+          2398.7563775510203,
+          3144.4940476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከኢየሱስ ክርስቶስ ዘንድ ለምኝልን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          3160.8630952380954,
+          2398.7563775510203,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "4c379450bf7ab817a60287ba2b74c9c86fbf91ab3a1338203b5c33b2d2a75788",
+      "source_sha256": "f06e22ff7395361dc9d0d848b96999cf2715d6f0ff109c19926e4a8839fccb80",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_141.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 105.44,
+      "created_at": "2026-10-24T00:42:45.437839+00:00",
+      "derivative_input": false
+    }
+  }
+}

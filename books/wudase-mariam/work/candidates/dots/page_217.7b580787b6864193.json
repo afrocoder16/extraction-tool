@@ -1,0 +1,208 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bf97f1262b17c2ec",
+    "object": "chat.completion",
+    "created": 1792805971,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [283, 157, 946, 233], \"category\": \"Page-header\", \"text\": \"፳ የኅሊና ጸሎት\"}, {\"bbox\": [165, 291, 1482, 476], \"category\": \"Text\", \"text\": \"ተገኝተሽ አረጋጊኝ እኔ በራሴ ደካማና\\nትሩፋት የመጽናናት ኃይል የለኝምና፡፡\"}, {\"bbox\": [165, 497, 1482, 1391], \"category\": \"Text\", \"text\": \"፲፯ እመቤቴ ድንግል ማሪያም ሆይ፤\\nየኔን አወዳደቅ የሚመኙ ሁሉ እነርሳቸው\\nየወደቁ ይሁኑ ጉስቁልናይን የሚወዱ\\nራሳቸው ይጎሳቆሉ እኔ አገልጋይሽ ግን\\nከፍ ከፍ ልበል በንቀት የሚመለከቱኝ\\nሁሉ እነሱ የተናቁ ይሁኑ፡፡ ለኔ ክብር\\nባለሟልነት ብልጽግና ይደረግልኝ ለነሱ\\nግን ኃሳር ከእግዚአብሔር ይታዘዝባቸው\\nለኔ ግን በረከት ረድኤት ይብዛልኝ፡፡\"}, {\"bbox\": [165, 1412, 1482, 1587], \"category\": \"Text\", \"text\": \"ለአብ ለወልድ ለመንፈስ ቅዱስ ምስጋና\\nይገባል ለዘላለሙ አሜን፡፡\"}, {\"bbox\": [283, 1826, 1354, 1876], \"category\": \"Picture\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4750,
+      "completion_tokens": 587,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳ የኅሊና ጸሎት",
+      "bbox": [
+        460.2359693877551,
+        256.9940476190476,
+        1538.4566326530612,
+        381.3988095238095
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ተገኝተሽ አረጋጊኝ እኔ በራሴ ደካማና\nትሩፋት የመጽናናት ኃይል የለኝምና፡፡",
+      "bbox": [
+        268.3354591836735,
+        476.3392857142857,
+        2410.140306122449,
+        779.1666666666666
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፯ እመቤቴ ድንግል ማሪያም ሆይ፤\nየኔን አወዳደቅ የሚመኙ ሁሉ እነርሳቸው\nየወደቁ ይሁኑ ጉስቁልናይን የሚወዱ\nራሳቸው ይጎሳቆሉ እኔ አገልጋይሽ ግን\nከፍ ከፍ ልበል በንቀት የሚመለከቱኝ\nሁሉ እነሱ የተናቁ ይሁኑ፡፡ ለኔ ክብር\nባለሟልነት ብልጽግና ይደረግልኝ ለነሱ\nግን ኃሳር ከእግዚአብሔር ይታዘዝባቸው\nለኔ ግን በረከት ረድኤት ይብዛልኝ፡፡",
+      "bbox": [
+        268.3354591836735,
+        813.5416666666666,
+        2410.140306122449,
+        2276.934523809524
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ለአብ ለወልድ ለመንፈስ ቅዱስ ምስጋና\nይገባል ለዘላለሙ አሜን፡፡",
+      "bbox": [
+        268.3354591836735,
+        2311.309523809524,
+        2410.140306122449,
+        2597.7678571428573
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        460.2359693877551,
+        2988.9880952380954,
+        2201.9770408163267,
+        3070.8333333333335
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 217,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳ የኅሊና ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          460.2359693877551,
+          256.9940476190476,
+          1538.4566326530612,
+          381.3988095238095
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ተገኝተሽ አረጋጊኝ እኔ በራሴ ደካማና\nትሩፋት የመጽናናት ኃይል የለኝምና፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          268.3354591836735,
+          476.3392857142857,
+          2410.140306122449,
+          779.1666666666666
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፯ እመቤቴ ድንግል ማሪያም ሆይ፤\nየኔን አወዳደቅ የሚመኙ ሁሉ እነርሳቸው\nየወደቁ ይሁኑ ጉስቁልናይን የሚወዱ\nራሳቸው ይጎሳቆሉ እኔ አገልጋይሽ ግን\nከፍ ከፍ ልበል በንቀት የሚመለከቱኝ\nሁሉ እነሱ የተናቁ ይሁኑ፡፡ ለኔ ክብር\nባለሟልነት ብልጽግና ይደረግልኝ ለነሱ\nግን ኃሳር ከእግዚአብሔር ይታዘዝባቸው\nለኔ ግን በረከት ረድኤት ይብዛልኝ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          268.3354591836735,
+          813.5416666666666,
+          2410.140306122449,
+          2276.934523809524
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ለአብ ለወልድ ለመንፈስ ቅዱስ ምስጋና\nይገባል ለዘላለሙ አሜን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          268.3354591836735,
+          2311.309523809524,
+          2410.140306122449,
+          2597.7678571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7b580787b6864193e466401837069c1e9bcf6bb9b1cd09bd496ebcff68213de5",
+      "source_sha256": "e34f497244ebeda149960463d9b00009cbfe868d5a96826faa1662447386f708",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_217.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 78.646,
+      "created_at": "2026-10-24T01:40:47.905128+00:00",
+      "derivative_input": false
+    }
+  }
+}

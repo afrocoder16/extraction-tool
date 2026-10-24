@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-ba0a9fdea43977f1",
+    "object": "chat.completion",
+    "created": 1792805122,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [172, 36, 1471, 118], \"category\": \"Title\", \"text\": \"እያሉ እያመሰገኑ መንበሬን በሚያጥኑ\"}, {\"bbox\": [468, 204, 1143, 268], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4270,
+      "completion_tokens": 107,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Title",
+      "text": "እያሉ እያመሰገኑ መንበሬን በሚያጥኑ",
+      "bbox": [
+        279.71938775510205,
+        58.92857142857143,
+        2392.251275510204,
+        193.1547619047619
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        761.0969387755102,
+        333.92857142857144,
+        1858.8329081632653,
+        438.6904761904762
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 198,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እያሉ እያመሰገኑ መንበሬን በሚያጥኑ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          279.71938775510205,
+          58.92857142857143,
+          2392.251275510204,
+          193.1547619047619
+        ],
+        "layout_category": "Title",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          761.0969387755102,
+          333.92857142857144,
+          1858.8329081632653,
+          438.6904761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "0665d0ba2dbf364d02e9b2be250e9ef508eb6bc2ad42b6a00c2502c99e061e92",
+      "source_sha256": "fcb5da5f1ee7ce6d6bc6834b383b00cf34caddceb197cf37e3d5d2b0353a31d8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_198.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 22.875,
+      "created_at": "2026-10-24T01:25:44.634461+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bde3579815f1a297",
+    "object": "chat.completion",
+    "created": 1792802567,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [257, 161, 1087, 261], \"category\": \"Page-header\", \"text\": \"፸፩ ይዌድስዋ መላእክት\"}, {\"bbox\": [135, 282, 1434, 901], \"category\": \"Text\", \"text\": \"መላእክቶቹ ጋር በመጣ ጊዜ ጌድቅንን\\nበቀኙ ኃጥአንን በግራው ባቆመ ጊዜ እኛን\\nከሰማዕት እንጢፋኖስ ከመጥምቁ ዮሐንስ\\nእና ከሁሉ ቅዱሳን ከሰማዕታት ጋር\\nያቆመን ዘንድ ለምኝልን ለዓስመ ዓለም\\nአሜን፤ ለዘለዓለሙ ይቅር ይበለን።\"}, {\"bbox\": [261, 1256, 1323, 1304], \"category\": \"Picture\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4462,
+      "completion_tokens": 299,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፸፩ ይዌድስዋ መላእክት",
+      "bbox": [
+        417.952806122449,
+        263.5416666666667,
+        1767.7614795918366,
+        427.23214285714283
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "መላእክቶቹ ጋር በመጣ ጊዜ ጌድቅንን\nበቀኙ ኃጥአንን በግራው ባቆመ ጊዜ እኛን\nከሰማዕት እንጢፋኖስ ከመጥምቁ ዮሐንስ\nእና ከሁሉ ቅዱሳን ከሰማዕታት ጋር\nያቆመን ዘንድ ለምኝልን ለዓስመ ዓለም\nአሜን፤ ለዘለዓለሙ ይቅር ይበለን።",
+      "bbox": [
+        219.54719387755102,
+        461.60714285714283,
+        2332.079081632653,
+        1474.8511904761904
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        424.4579081632653,
+        2055.9523809523807,
+        2151.5625,
+        2134.5238095238096
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 143,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፸፩ ይዌድስዋ መላእክት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          417.952806122449,
+          263.5416666666667,
+          1767.7614795918366,
+          427.23214285714283
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "መላእክቶቹ ጋር በመጣ ጊዜ ጌድቅንን\nበቀኙ ኃጥአንን በግራው ባቆመ ጊዜ እኛን\nከሰማዕት እንጢፋኖስ ከመጥምቁ ዮሐንስ\nእና ከሁሉ ቅዱሳን ከሰማዕታት ጋር\nያቆመን ዘንድ ለምኝልን ለዓስመ ዓለም\nአሜን፤ ለዘለዓለሙ ይቅር ይበለን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          219.54719387755102,
+          461.60714285714283,
+          2332.079081632653,
+          1474.8511904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "5e30ae57b99ce4d903f547c723d004747bd3d4d218aad908b481b570e60cc366",
+      "source_sha256": "b1800435b4c0210e1fa5038b11cc0e0dba1ed324a9cf4c46193d8edda7e7063e",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_143.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 45.677,
+      "created_at": "2026-10-24T00:43:31.133477+00:00",
+      "derivative_input": false
+    }
+  }
+}

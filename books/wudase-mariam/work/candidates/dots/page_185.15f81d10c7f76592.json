@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b1b7869960245ccd",
+    "object": "chat.completion",
+    "created": 1792804483,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [217, 187, 865, 268], \"category\": \"Page-header\", \"text\": \"፳ የሰኔ ጎልጎታ\"}, {\"bbox\": [97, 321, 1437, 513], \"category\": \"Text\", \"text\": \"ሰዎችና በሰማያዊያን መላእክት ዘንድ\\nከፍ ያለ ግርማሞገስ ያገኛል፡፡\"}, {\"bbox\": [97, 527, 1437, 1342], \"category\": \"Text\", \"text\": \"ይህቺ መጽሀፍ ካለችበት ቦታ እስከ\\nዘላለም ድረስ ምህረት ዸርነት ተድላ\\nደስታ ጥጋብ ይሁን ስምሽ በተጠራበት\\nስዕልሽም ባለበት መታሰቢያሽም\\nበተደረገበት በስምሽ በሚጸለይበት ቦታ\\nሁሉ እኩያን አጋንንት አይቀርቡም\\nበረቂቅ ሰዉን የሚያሰቃዩ ጸሊማን ዛር\\nውላጆችም ይርቃሉ፡፡\"}, {\"bbox\": [97, 1361, 1437, 2016], \"category\": \"Text\", \"text\": \"ይህቺን መጽሀፍ በክብር ይዞ ለሚጸልይ\\nየጨለማ ኃይል አይጋርደዉም ርኩሳን\\nመናፍስትም የቀትር አጋንንትም\\nሊቀርቡት አይችሉም በሌሊት በህልም\\nየሚያስደነግጡ በመአልት በእሸህ\\nመውጋት ቢሆን በእንቅፋት የሚመስሉ\\nበንጋኛ መጋዜን በ፦መተ በ፪መተ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4759,
+      "completion_tokens": 596,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳ የሰኔ ጎልጎታ",
+      "bbox": [
+        352.9017857142857,
+        306.1011904761905,
+        1406.7283163265306,
+        438.6904761904762
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ሰዎችና በሰማያዊያን መላእክት ዘንድ\nከፍ ያለ ግርማሞገስ ያገኛል፡፡",
+      "bbox": [
+        157.7487244897959,
+        525.4464285714286,
+        2336.9579081632655,
+        839.7321428571429
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ይህቺ መጽሀፍ ካለችበት ቦታ እስከ\nዘላለም ድረስ ምህረት ዸርነት ተድላ\nደስታ ጥጋብ ይሁን ስምሽ በተጠራበት\nስዕልሽም ባለበት መታሰቢያሽም\nበተደረገበት በስምሽ በሚጸለይበት ቦታ\nሁሉ እኩያን አጋንንት አይቀርቡም\nበረቂቅ ሰዉን የሚያሰቃዩ ጸሊማን ዛር\nውላጆችም ይርቃሉ፡፡",
+      "bbox": [
+        157.7487244897959,
+        862.6488095238095,
+        2336.9579081632655,
+        2196.7261904761904
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ይህቺን መጽሀፍ በክብር ይዞ ለሚጸልይ\nየጨለማ ኃይል አይጋርደዉም ርኩሳን\nመናፍስትም የቀትር አጋንንትም\nሊቀርቡት አይችሉም በሌሊት በህልም\nየሚያስደነግጡ በመአልት በእሸህ\nመውጋት ቢሆን በእንቅፋት የሚመስሉ\nበንጋኛ መጋዜን በ፦መተ በ፪መተ",
+      "bbox": [
+        157.7487244897959,
+        2227.8273809523807,
+        2336.9579081632655,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 185,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          352.9017857142857,
+          306.1011904761905,
+          1406.7283163265306,
+          438.6904761904762
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሰዎችና በሰማያዊያን መላእክት ዘንድ\nከፍ ያለ ግርማሞገስ ያገኛል፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          157.7487244897959,
+          525.4464285714286,
+          2336.9579081632655,
+          839.7321428571429
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ይህቺ መጽሀፍ ካለችበት ቦታ እስከ\nዘላለም ድረስ ምህረት ዸርነት ተድላ\nደስታ ጥጋብ ይሁን ስምሽ በተጠራበት\nስዕልሽም ባለበት መታሰቢያሽም\nበተደረገበት በስምሽ በሚጸለይበት ቦታ\nሁሉ እኩያን አጋንንት አይቀርቡም\nበረቂቅ ሰዉን የሚያሰቃዩ ጸሊማን ዛር\nውላጆችም ይርቃሉ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          157.7487244897959,
+          862.6488095238095,
+          2336.9579081632655,
+          2196.7261904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ይህቺን መጽሀፍ በክብር ይዞ ለሚጸልይ\nየጨለማ ኃይል አይጋርደዉም ርኩሳን\nመናፍስትም የቀትር አጋንንትም\nሊቀርቡት አይችሉም በሌሊት በህልም\nየሚያስደነግጡ በመአልት በእሸህ\nመውጋት ቢሆን በእንቅፋት የሚመስሉ\nበንጋኛ መጋዜን በ፦መተ በ፪መተ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          157.7487244897959,
+          2227.8273809523807,
+          2336.9579081632655,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "15f81d10c7f765927a7b429bb7c1f71f3e4b58f9cdf92e0ba5b571f849613210",
+      "source_sha256": "f4f9745c9cf2ecb0df4f7ca27fffc6d7f09da8a53b5850a8b4ef3d1bbe26d8a1",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_185.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.115,
+      "created_at": "2026-10-24T01:16:01.001188+00:00",
+      "derivative_input": false
+    }
+  }
+}

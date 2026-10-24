@@ -1,0 +1,238 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9701f1c38e676765",
+    "object": "chat.completion",
+    "created": 1792799422,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [201, 174, 1496, 255], \"category\": \"Picture\"}, {\"bbox\": [198, 388, 1496, 575], \"category\": \"Section-header\", \"text\": \"ዓርብ የሚፀለይ አምላክን የወለደች\\nየእመቤታችን የድንግል ማርያም ምስጋና\"}, {\"bbox\": [591, 692, 1104, 771], \"category\": \"Section-header\", \"text\": \"አምስተኛ ክፍል\"}, {\"bbox\": [198, 854, 1513, 1534], \"category\": \"Text\", \"text\": \"፩ ከሴቶሽ ተለይተሽ የተባረክሽ ነሽ:: የሠኅፀንሽም ፍሬ የተባረክ ነው ያለርኵሰት አምላክን የወለድሽ ድንግል ማርያም ሆይ እውነተኛ ፀሐይ ከአንቺ ወጣልን (ጌታ ተወለደልን) በክንፈ ረድኤቱም አቀረበን:: እርሱ ፈጥሮናልና:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [214, 1558, 1507, 1841], \"category\": \"Text\", \"text\": \"፪ አምላክን የወለድሽ እመቤታችን ሆይ የብርሃን እናት ነሽና አንችን ብቻሽን በክብር በምስጋና እናገንሻለን::\"}, {\"bbox\": [214, 1861, 1507, 2016], \"category\": \"Text\", \"text\": \"፫ የተባረክሽ አንቺ ከመላእክት ትባልጫለሽ ከያቂቂ ኣዴምም ትባልጫለሽ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4785,
+      "completion_tokens": 622,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        326.8813775510204,
+        284.82142857142856,
+        2432.908163265306,
+        417.4107142857143
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Section-header",
+      "text": "ዓርብ የሚፀለይ አምላክን የወለደች\nየእመቤታችን የድንግል ማርያም ምስጋና",
+      "bbox": [
+        322.0025510204082,
+        635.1190476190476,
+        2432.908163265306,
+        941.2202380952381
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Section-header",
+      "text": "አምስተኛ ክፍል",
+      "bbox": [
+        961.1288265306123,
+        1132.7380952380952,
+        1795.408163265306,
+        1262.0535714285713
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፩ ከሴቶሽ ተለይተሽ የተባረክሽ ነሽ:: የሠኅፀንሽም ፍሬ የተባረክ ነው ያለርኵሰት አምላክን የወለድሽ ድንግል ማርያም ሆይ እውነተኛ ፀሐይ ከአንቺ ወጣልን (ጌታ ተወለደልን) በክንፈ ረድኤቱም አቀረበን:: እርሱ ፈጥሮናልና:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        322.0025510204082,
+        1397.9166666666667,
+        2460.5548469387754,
+        2511.0119047619046
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "፪ አምላክን የወለድሽ እመቤታችን ሆይ የብርሃን እናት ነሽና አንችን ብቻሽን በክብር በምስጋና እናገንሻለን::",
+      "bbox": [
+        348.0229591836735,
+        2550.2976190476193,
+        2450.797193877551,
+        3013.5416666666665
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "፫ የተባረክሽ አንቺ ከመላእክት ትባልጫለሽ ከያቂቂ ኣዴምም ትባልጫለሽ",
+      "bbox": [
+        348.0229591836735,
+        3046.279761904762,
+        2450.797193877551,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 69,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ዓርብ የሚፀለይ አምላክን የወለደች\nየእመቤታችን የድንግል ማርያም ምስጋና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          322.0025510204082,
+          635.1190476190476,
+          2432.908163265306,
+          941.2202380952381
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አምስተኛ ክፍል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          961.1288265306123,
+          1132.7380952380952,
+          1795.408163265306,
+          1262.0535714285713
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ ከሴቶሽ ተለይተሽ የተባረክሽ ነሽ:: የሠኅፀንሽም ፍሬ የተባረክ ነው ያለርኵሰት አምላክን የወለድሽ ድንግል ማርያም ሆይ እውነተኛ ፀሐይ ከአንቺ ወጣልን (ጌታ ተወለደልን) በክንፈ ረድኤቱም አቀረበን:: እርሱ ፈጥሮናልና:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          322.0025510204082,
+          1397.9166666666667,
+          2460.5548469387754,
+          2511.0119047619046
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ አምላክን የወለድሽ እመቤታችን ሆይ የብርሃን እናት ነሽና አንችን ብቻሽን በክብር በምስጋና እናገንሻለን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          348.0229591836735,
+          2550.2976190476193,
+          2450.797193877551,
+          3013.5416666666665
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ የተባረክሽ አንቺ ከመላእክት ትባልጫለሽ ከያቂቂ ኣዴምም ትባልጫለሽ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          348.0229591836735,
+          3046.279761904762,
+          2450.797193877551,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "bfefe30cd9259ff1ea0f967c1fbd25d63ee931ca26344995adb7068733a92266",
+      "source_sha256": "935fc35ffb64071027425b86cc8287a01bc011a96f5d04aa5be8b6765a1d1a8d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_069.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.562,
+      "created_at": "2026-10-23T23:51:42.965894+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b6ab6b1ee42090ae",
+    "object": "chat.completion",
+    "created": 1792798774,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [285, 386, 1547, 568], \"category\": \"Text\", \"text\": \"ሐሙስ የሚጸለይ አምላክን የወለደች\\nየእመቤታችን የድንግል ማርያም ምስጋና\"}, {\"bbox\": [693, 651, 1184, 732], \"category\": \"Text\", \"text\": \"ዐራተኛ ክፍል::\"}, {\"bbox\": [265, 841, 1547, 1801], \"category\": \"Text\", \"text\": \"፩ ርኩሰት የሌለባት ድንግል ማርያም ሙሴ በበረሃ በነደ እሳት ጫፎቿ ሳይቃጠሉ ያያት ዕፅን ትመስላለች፤ የአብ ቃል በርስዋ ሰው ሆኗልና፣ እሳተ መለኮቱ (የመለኮቱ ባሕርይ) አላቃጠላትምና ከወለደችውም በኋላ ድንግልናዋ አልተለወጠምና ሰውም ቢሆን መለኮቱ አልተለወጠም፡፡ በዕውነት አምላክ ነውና በዕውነት አምላክ የሆነ ሕርሱ መጥቶ አዳነን፡፡ ቅድስት ሆይ ልምኝልን፡፡\"}, {\"bbox\": [265, 1812, 1547, 2016], \"category\": \"Text\", \"text\": \"፪ አምላክን የወለድሽ እመቤታችን ሆይ ሁሳችን እናገንሻልን፡፡ ይቅርታሽ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4728,
+      "completion_tokens": 565,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "ሐሙስ የሚጸለይ አምላክን የወለደች\nየእመቤታችን የድንግል ማርያም ምስጋና",
+      "bbox": [
+        463.48852040816325,
+        631.8452380952381,
+        2515.848214285714,
+        929.7619047619048
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ዐራተኛ ክፍል::",
+      "bbox": [
+        1127.0089285714287,
+        1065.625,
+        1925.5102040816328,
+        1198.2142857142858
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፩ ርኩሰት የሌለባት ድንግል ማርያም ሙሴ በበረሃ በነደ እሳት ጫፎቿ ሳይቃጠሉ ያያት ዕፅን ትመስላለች፤ የአብ ቃል በርስዋ ሰው ሆኗልና፣ እሳተ መለኮቱ (የመለኮቱ ባሕርይ) አላቃጠላትምና ከወለደችውም በኋላ ድንግልናዋ አልተለወጠምና ሰውም ቢሆን መለኮቱ አልተለወጠም፡፡ በዕውነት አምላክ ነውና በዕውነት አምላክ የሆነ ሕርሱ መጥቶ አዳነን፡፡ ቅድስት ሆይ ልምኝልን፡፡",
+      "bbox": [
+        430.9630102040816,
+        1376.6369047619048,
+        2515.848214285714,
+        2948.065476190476
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፪ አምላክን የወለድሽ እመቤታችን ሆይ ሁሳችን እናገንሻልን፡፡ ይቅርታሽ",
+      "bbox": [
+        430.9630102040816,
+        2966.0714285714284,
+        2515.848214285714,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 53,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሐሙስ የሚጸለይ አምላክን የወለደች\nየእመቤታችን የድንግል ማርያም ምስጋና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          463.48852040816325,
+          631.8452380952381,
+          2515.848214285714,
+          929.7619047619048
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ዐራተኛ ክፍል::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          1127.0089285714287,
+          1065.625,
+          1925.5102040816328,
+          1198.2142857142858
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ ርኩሰት የሌለባት ድንግል ማርያም ሙሴ በበረሃ በነደ እሳት ጫፎቿ ሳይቃጠሉ ያያት ዕፅን ትመስላለች፤ የአብ ቃል በርስዋ ሰው ሆኗልና፣ እሳተ መለኮቱ (የመለኮቱ ባሕርይ) አላቃጠላትምና ከወለደችውም በኋላ ድንግልናዋ አልተለወጠምና ሰውም ቢሆን መለኮቱ አልተለወጠም፡፡ በዕውነት አምላክ ነውና በዕውነት አምላክ የሆነ ሕርሱ መጥቶ አዳነን፡፡ ቅድስት ሆይ ልምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          430.9630102040816,
+          1376.6369047619048,
+          2515.848214285714,
+          2948.065476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ አምላክን የወለድሽ እመቤታችን ሆይ ሁሳችን እናገንሻልን፡፡ ይቅርታሽ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          430.9630102040816,
+          2966.0714285714284,
+          2515.848214285714,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e8784d748a2266917165e13c9e97a1365de977cccaa79e5dc67ab971bd5e749f",
+      "source_sha256": "50200295ce72ec26edd22b3eee6a66d52abd72ea97f419f52924fc8312172431",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_053.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 76.387,
+      "created_at": "2026-10-23T23:40:48.670842+00:00",
+      "derivative_input": false
+    }
+  }
+}

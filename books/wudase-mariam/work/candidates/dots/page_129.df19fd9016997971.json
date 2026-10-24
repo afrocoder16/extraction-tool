@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bd5281a3fbc9c8ae",
+    "object": "chat.completion",
+    "created": 1792796635,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [207, 188, 892, 261], \"category\": \"Page-header\", \"text\": \"፺ አንቀጸ ብርሃን\"}, {\"bbox\": [85, 315, 1402, 1371], \"category\": \"Text\", \"text\": \"እርሱዋ በቤተ መቅደስ ኖርሽ ከቤተ\\nመቅደስም በክብር በታላቅ ደስታ ወጣሽ፡፡\\nበዕውነት የህይወት ፍሬ የሆነ ጌታችን\\nመድኃኒታችን ኢየሱስ ክርስቶስም\\nካንቺ ተገኘ ቅድስት ሆይ ከመልአኩ\\nእንደተረዳሽው ከወንድ ያለመገናኘት\\nልጅን አገኘሽ መልአኩ መንፈስ ቅዱስ\\nመጥቶ ያድርብሻል የልዑል ኃይልም\\nይጸልልብሻል ብሎ ነግሮሽ ነበርና፡፡\\nቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን\\nዘንድ ለምኝልን፡፡\"}, {\"bbox\": [83, 1443, 1394, 2016], \"category\": \"Text\", \"text\": \"፲፭. ጸጋን የተሞላሽና የደስታ\\nመገኛ ሆይ፤ በልጅሽ ስም ላመን\\nለእኛ ለወንዶችና ለሴቶች አገልጋዮችሽ\\nትለምኝልን ዘንድ ይገባሻል፡፡ ይልቁንም\\nጉይኖቻቸው ብዙዎች ከሆኑ ከኪሩቤልና\\nክንፎቻቸው ስድስት ከሆኑ ከሱራፌል\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4760,
+      "completion_tokens": 597,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፺ አንቀጸ ብርሃን",
+      "bbox": [
+        336.6390306122449,
+        307.73809523809524,
+        1450.6377551020407,
+        427.23214285714283
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "እርሱዋ በቤተ መቅደስ ኖርሽ ከቤተ\nመቅደስም በክብር በታላቅ ደስታ ወጣሽ፡፡\nበዕውነት የህይወት ፍሬ የሆነ ጌታችን\nመድኃኒታችን ኢየሱስ ክርስቶስም\nካንቺ ተገኘ ቅድስት ሆይ ከመልአኩ\nእንደተረዳሽው ከወንድ ያለመገናኘት\nልጅን አገኘሽ መልአኩ መንፈስ ቅዱስ\nመጥቶ ያድርብሻል የልዑል ኃይልም\nይጸልልብሻል ብሎ ነግሮሽ ነበርና፡፡\nቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን\nዘንድ ለምኝልን፡፡",
+      "bbox": [
+        138.23341836734693,
+        515.625,
+        2280.0382653061224,
+        2244.1964285714284
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፭. ጸጋን የተሞላሽና የደስታ\nመገኛ ሆይ፤ በልጅሽ ስም ላመን\nለእኛ ለወንዶችና ለሴቶች አገልጋዮችሽ\nትለምኝልን ዘንድ ይገባሻል፡፡ ይልቁንም\nጉይኖቻቸው ብዙዎች ከሆኑ ከኪሩቤልና\nክንፎቻቸው ስድስት ከሆኑ ከሱራፌል",
+      "bbox": [
+        134.98086734693877,
+        2362.0535714285716,
+        2267.0280612244896,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 129,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፺ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          336.6390306122449,
+          307.73809523809524,
+          1450.6377551020407,
+          427.23214285714283
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እርሱዋ በቤተ መቅደስ ኖርሽ ከቤተ\nመቅደስም በክብር በታላቅ ደስታ ወጣሽ፡፡\nበዕውነት የህይወት ፍሬ የሆነ ጌታችን\nመድኃኒታችን ኢየሱስ ክርስቶስም\nካንቺ ተገኘ ቅድስት ሆይ ከመልአኩ\nእንደተረዳሽው ከወንድ ያለመገናኘት\nልጅን አገኘሽ መልአኩ መንፈስ ቅዱስ\nመጥቶ ያድርብሻል የልዑል ኃይልም\nይጸልልብሻል ብሎ ነግሮሽ ነበርና፡፡\nቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን\nዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          138.23341836734693,
+          515.625,
+          2280.0382653061224,
+          2244.1964285714284
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፭. ጸጋን የተሞላሽና የደስታ\nመገኛ ሆይ፤ በልጅሽ ስም ላመን\nለእኛ ለወንዶችና ለሴቶች አገልጋዮችሽ\nትለምኝልን ዘንድ ይገባሻል፡፡ ይልቁንም\nጉይኖቻቸው ብዙዎች ከሆኑ ከኪሩቤልና\nክንፎቻቸው ስድስት ከሆኑ ከሱራፌል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          134.98086734693877,
+          2362.0535714285716,
+          2267.0280612244896,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "df19fd9016997971b432c1eb818f032ad49eb7f4dbc21edc732ba9b37659603a",
+      "source_sha256": "4b494ec05cded151759d3969f1f831132efc6321eb8782830c1453af452e6c4a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_129.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.966,
+      "created_at": "2026-10-23T23:05:12.963520+00:00",
+      "derivative_input": false
+    }
+  }
+}

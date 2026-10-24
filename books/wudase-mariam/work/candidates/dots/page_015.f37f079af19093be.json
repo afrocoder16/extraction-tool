@@ -1,0 +1,257 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9a0da91cf5ee95e3",
+    "object": "chat.completion",
+    "created": 1792797206,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [172, 228, 215, 287], \"category\": \"Page-header\", \"text\": \"፯\"}, {\"bbox\": [459, 215, 912, 287], \"category\": \"Page-header\", \"text\": \"የዘወትር ጸሎት\"}, {\"bbox\": [43, 343, 1305, 1259], \"category\": \"Text\", \"text\": \"ኅብስት ላበላን ይህንንም ጽዋ ላጠጣን፣\\nምግባችንንና ልብሳችንንም ላዘጋጀልን፣\\nኃጢአታችንንም ሁሉ ለታገሠልን፣\\nክቡር ደሙን ቅዱስ ሥጋውን ለሰጠን፣\\nእስከዚችም ሰዓት ላደረሰን ለእሱ ለልዑል\\nእግዚአብሔር ፍፁም ምስጋና ይገባል፣\\nለወለደችው ለድንግል ምስጋና ይገባል፣\\nለክቡር መስቀሉም ምስጋና ይገባል፡፡\\nየእግዚአብሔር ስሙ ፈጽሞ ይመሰገን\\nዘንድ ዘወትር በየጊዜያቱና በየሰዓቱ\\nምስጋና ይገባል፡፡\"}, {\"bbox\": [43, 1265, 1307, 1761], \"category\": \"Text\", \"text\": \"፱ እናታችን ማርያም ሆይ ሰላም ላንቺ ይሁን እያልን እንሰግድልሻለን እንማልድሻለን ከክፉ አውሬ ታድኝን ዘንድ ተማጽነንብሻል ስለ እናትሽ ስለ ሐና ብለሽ ስለ አባትሽ ስለ ኢያቄም ብለሽ ድንግል ማኅበራችንን ዛሬ ባርኪልን፡፡\"}, {\"bbox\": [43, 1761, 1307, 1933], \"category\": \"Text\", \"text\": \"፲ አምላክን በድንግልና የወለደች የእመቤታችን የማርያም ጸሎት ፤ ሉቃ\"}, {\"bbox\": [43, 1938, 522, 2016], \"category\": \"Text\", \"text\": \"፩ : ፻፻ : ፺፺፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4962,
+      "completion_tokens": 799,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፯",
+      "bbox": [
+        279.71938775510205,
+        373.2142857142857,
+        349.64923469387753,
+        469.7916666666667
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Page-header",
+      "text": "የዘወትር ጸሎት",
+      "bbox": [
+        746.4604591836735,
+        351.9345238095238,
+        1483.1632653061224,
+        469.7916666666667
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ኅብስት ላበላን ይህንንም ጽዋ ላጠጣን፣\nምግባችንንና ልብሳችንንም ላዘጋጀልን፣\nኃጢአታችንንም ሁሉ ለታገሠልን፣\nክቡር ደሙን ቅዱስ ሥጋውን ለሰጠን፣\nእስከዚችም ሰዓት ላደረሰን ለእሱ ለልዑል\nእግዚአብሔር ፍፁም ምስጋና ይገባል፣\nለወለደችው ለድንግል ምስጋና ይገባል፣\nለክቡር መስቀሉም ምስጋና ይገባል፡፡\nየእግዚአብሔር ስሙ ፈጽሞ ይመሰገን\nዘንድ ዘወትር በየጊዜያቱና በየሰዓቱ\nምስጋና ይገባል፡፡",
+      "bbox": [
+        69.92984693877551,
+        561.4583333333334,
+        2122.2895408163267,
+        2060.8630952380954
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፱ እናታችን ማርያም ሆይ ሰላም ላንቺ ይሁን እያልን እንሰግድልሻለን እንማልድሻለን ከክፉ አውሬ ታድኝን ዘንድ ተማጽነንብሻል ስለ እናትሽ ስለ ሐና ብለሽ ስለ አባትሽ ስለ ኢያቄም ብለሽ ድንግል ማኅበራችንን ዛሬ ባርኪልን፡፡",
+      "bbox": [
+        69.92984693877551,
+        2070.684523809524,
+        2125.5420918367345,
+        2882.589285714286
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "፲ አምላክን በድንግልና የወለደች የእመቤታችን የማርያም ጸሎት ፤ ሉቃ",
+      "bbox": [
+        69.92984693877551,
+        2882.589285714286,
+        2125.5420918367345,
+        3164.1369047619046
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "፩ : ፻፻ : ፺፺፡፡",
+      "bbox": [
+        69.92984693877551,
+        3172.3214285714284,
+        848.9158163265306,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 15,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          279.71938775510205,
+          373.2142857142857,
+          349.64923469387753,
+          469.7916666666667
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የዘወትር ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          746.4604591836735,
+          351.9345238095238,
+          1483.1632653061224,
+          469.7916666666667
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ኅብስት ላበላን ይህንንም ጽዋ ላጠጣን፣\nምግባችንንና ልብሳችንንም ላዘጋጀልን፣\nኃጢአታችንንም ሁሉ ለታገሠልን፣\nክቡር ደሙን ቅዱስ ሥጋውን ለሰጠን፣\nእስከዚችም ሰዓት ላደረሰን ለእሱ ለልዑል\nእግዚአብሔር ፍፁም ምስጋና ይገባል፣\nለወለደችው ለድንግል ምስጋና ይገባል፣\nለክቡር መስቀሉም ምስጋና ይገባል፡፡\nየእግዚአብሔር ስሙ ፈጽሞ ይመሰገን\nዘንድ ዘወትር በየጊዜያቱና በየሰዓቱ\nምስጋና ይገባል፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          69.92984693877551,
+          561.4583333333334,
+          2122.2895408163267,
+          2060.8630952380954
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱ እናታችን ማርያም ሆይ ሰላም ላንቺ ይሁን እያልን እንሰግድልሻለን እንማልድሻለን ከክፉ አውሬ ታድኝን ዘንድ ተማጽነንብሻል ስለ እናትሽ ስለ ሐና ብለሽ ስለ አባትሽ ስለ ኢያቄም ብለሽ ድንግል ማኅበራችንን ዛሬ ባርኪልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          69.92984693877551,
+          2070.684523809524,
+          2125.5420918367345,
+          2882.589285714286
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ አምላክን በድንግልና የወለደች የእመቤታችን የማርያም ጸሎት ፤ ሉቃ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          69.92984693877551,
+          2882.589285714286,
+          2125.5420918367345,
+          3164.1369047619046
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ : ፻፻ : ፺፺፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          69.92984693877551,
+          3172.3214285714284,
+          848.9158163265306,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f37f079af19093be840a1993c53c4a92ee1a8b16789034b54c5704105f19ef15",
+      "source_sha256": "8119ee4df9211a6762b03f85ae9883e9c5c946df06357f006fc1b0971f1ebdcc",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_015.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 103.298,
+      "created_at": "2026-10-23T23:15:07.334869+00:00",
+      "derivative_input": false
+    }
+  }
+}

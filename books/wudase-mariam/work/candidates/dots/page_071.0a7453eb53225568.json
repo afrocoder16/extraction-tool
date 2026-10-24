@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a79cf78648180620",
+    "object": "chat.completion",
+    "created": 1792799527,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [177, 133, 1113, 206], \"category\": \"Page-header\", \"text\": \"፴፭ የዓርብ ውዳሴ ማርያም\"}, {\"bbox\": [45, 254, 1347, 1231], \"category\": \"Text\", \"text\": \"ሁሉ ትበልጫልሽ ገናንነትሽን መናገር የሚቻለው ማነው አንቺን የሚመስል የለምና። ማርያም ሆይ መላእክት ያገኑሻል ሱራፌልም ያመሰግኑሻል። በኪሩቤልና በሱራፌል ላይ አድሮ የሚኖር ጌታ መጥቶ በማኅፀንሽ አድሮአልና። ሰውን የሚወድ ወደ እርሱ አቀረበን፣ ክብር ምስጋና ያስው እርሱ የእኛን ሞት ተቀብሎ የእርሱን ሕይወት ለእኛ ሰጠን። ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [33, 1239, 1337, 2003], \"category\": \"Text\", \"text\": \"፬ የደናግል መመኪያቸው አምላክን የወለድሽ ድንግል ማርያም ሆይ የተባረክሽ ነሽ የማኅፀንሽም ፍሬ የተባረከ ነው። ከዓለም በፊት የነበረ እርሱ ሰው ሆኖዋልና ከአንቺ ተወለደ ሥጋችንን ነሣ (ተዋሐደ) መንፈስ ቅዱስንም ሰጠን። በቸርነቱ ብዛት መሳዮቹ አደረገን ጸጋንና ክብርን ከተቀበሉ ብዙ ሴቶች\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4814,
+      "completion_tokens": 651,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴፭ የዓርብ ውዳሴ ማርያም",
+      "bbox": [
+        287.85076530612247,
+        217.70833333333334,
+        1810.044642857143,
+        337.20238095238096
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ሁሉ ትበልጫልሽ ገናንነትሽን መናገር የሚቻለው ማነው አንቺን የሚመስል የለምና። ማርያም ሆይ መላእክት ያገኑሻል ሱራፌልም ያመሰግኑሻል። በኪሩቤልና በሱራፌል ላይ አድሮ የሚኖር ጌታ መጥቶ በማኅፀንሽ አድሮአልና። ሰውን የሚወድ ወደ እርሱ አቀረበን፣ ክብር ምስጋና ያስው እርሱ የእኛን ሞት ተቀብሎ የእርሱን ሕይወት ለእኛ ሰጠን። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        73.18239795918367,
+        415.7738095238095,
+        2190.593112244898,
+        2015.029761904762
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፬ የደናግል መመኪያቸው አምላክን የወለድሽ ድንግል ማርያም ሆይ የተባረክሽ ነሽ የማኅፀንሽም ፍሬ የተባረከ ነው። ከዓለም በፊት የነበረ እርሱ ሰው ሆኖዋልና ከአንቺ ተወለደ ሥጋችንን ነሣ (ተዋሐደ) መንፈስ ቅዱስንም ሰጠን። በቸርነቱ ብዛት መሳዮቹ አደረገን ጸጋንና ክብርን ከተቀበሉ ብዙ ሴቶች",
+      "bbox": [
+        53.66709183673469,
+        2028.125,
+        2174.3303571428573,
+        3278.720238095238
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 71,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴፭ የዓርብ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          287.85076530612247,
+          217.70833333333334,
+          1810.044642857143,
+          337.20238095238096
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሁሉ ትበልጫልሽ ገናንነትሽን መናገር የሚቻለው ማነው አንቺን የሚመስል የለምና። ማርያም ሆይ መላእክት ያገኑሻል ሱራፌልም ያመሰግኑሻል። በኪሩቤልና በሱራፌል ላይ አድሮ የሚኖር ጌታ መጥቶ በማኅፀንሽ አድሮአልና። ሰውን የሚወድ ወደ እርሱ አቀረበን፣ ክብር ምስጋና ያስው እርሱ የእኛን ሞት ተቀብሎ የእርሱን ሕይወት ለእኛ ሰጠን። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          73.18239795918367,
+          415.7738095238095,
+          2190.593112244898,
+          2015.029761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬ የደናግል መመኪያቸው አምላክን የወለድሽ ድንግል ማርያም ሆይ የተባረክሽ ነሽ የማኅፀንሽም ፍሬ የተባረከ ነው። ከዓለም በፊት የነበረ እርሱ ሰው ሆኖዋልና ከአንቺ ተወለደ ሥጋችንን ነሣ (ተዋሐደ) መንፈስ ቅዱስንም ሰጠን። በቸርነቱ ብዛት መሳዮቹ አደረገን ጸጋንና ክብርን ከተቀበሉ ብዙ ሴቶች",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          53.66709183673469,
+          2028.125,
+          2174.3303571428573,
+          3278.720238095238
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "0a7453eb5322556833d2acc57452494c567bbe8ac32ab7448beb6e4a5a307eab",
+      "source_sha256": "3891de2708d14a5efcd034d112bc776f48ee8b84fe10bdc804797004026be491",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_071.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.674,
+      "created_at": "2026-10-23T23:53:31.793334+00:00",
+      "derivative_input": false
+    }
+  }
+}

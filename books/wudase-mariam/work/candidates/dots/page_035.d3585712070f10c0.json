@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8887e201c9180202",
+    "object": "chat.completion",
+    "created": 1792798013,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [184, 181, 1174, 257], \"category\": \"Page-header\", \"text\": \"፲፯ የማክሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [56, 311, 1341, 814], \"category\": \"Text\", \"text\": \"በሌለ ብርሃን ውስጥ የሚኖር እርሱ\\nመጥቶ አደረባት ዘጠኝ ወር በማኅፀንዋ\\nአደረ የማይታይና የማይመረመር\\n(ታይቶ የማይታወቅ) እርሱን በድንግልና\\nወለደችው:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [51, 841, 1337, 1343], \"category\": \"Text\", \"text\": \"፲፪ ነቢዩ ዳንኤል ያየው ያስ እጅ\\nክረጅም ተራራ የተፈነቀለው ያ ደንጊያ\\nከአብ ዘንድ የወጣው ቃል ነውና መጥቶ\\nያስ ወንድ ዘር ከድንግል ተወልዶ አዳነን::\\nቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [47, 1372, 1337, 1984], \"category\": \"Text\", \"text\": \"፲፫ እንደ ንጹሕ ጫፍ ሆንሽ\\nየሃይማኖትም መገኛ ነሽ የቀናች\\nየቅዱሳን አባቶቻችን ሃይማኖታቸው\\nነሽ:: አምላክን የወለድሽና በድንግልና\\nየታተምሽ ንጽሕት ሆይ የአብን ቃል\\nወለድሽልን ኢየሱስ ክርስቶስ እኛን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4768,
+      "completion_tokens": 605,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፯ የማክሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        299.234693877551,
+        296.2797619047619,
+        1909.2474489795918,
+        420.6845238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "በሌለ ብርሃን ውስጥ የሚኖር እርሱ\nመጥቶ አደረባት ዘጠኝ ወር በማኅፀንዋ\nአደረ የማይታይና የማይመረመር\n(ታይቶ የማይታወቅ) እርሱን በድንግልና\nወለደችው:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        91.07142857142857,
+        509.07738095238096,
+        2180.8354591836733,
+        1332.4404761904761
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፪ ነቢዩ ዳንኤል ያየው ያስ እጅ\nክረጅም ተራራ የተፈነቀለው ያ ደንጊያ\nከአብ ዘንድ የወጣው ቃል ነውና መጥቶ\nያስ ወንድ ዘር ከድንግል ተወልዶ አዳነን::\nቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        82.94005102040816,
+        1376.6369047619048,
+        2174.3303571428573,
+        2198.3630952380954
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፲፫ እንደ ንጹሕ ጫፍ ሆንሽ\nየሃይማኖትም መገኛ ነሽ የቀናች\nየቅዱሳን አባቶቻችን ሃይማኖታቸው\nነሽ:: አምላክን የወለድሽና በድንግልና\nየታተምሽ ንጽሕት ሆይ የአብን ቃል\nወለድሽልን ኢየሱስ ክርስቶስ እኛን",
+      "bbox": [
+        76.43494897959184,
+        2245.8333333333335,
+        2174.3303571428573,
+        3247.6190476190477
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 35,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፯ የማክሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          299.234693877551,
+          296.2797619047619,
+          1909.2474489795918,
+          420.6845238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በሌለ ብርሃን ውስጥ የሚኖር እርሱ\nመጥቶ አደረባት ዘጠኝ ወር በማኅፀንዋ\nአደረ የማይታይና የማይመረመር\n(ታይቶ የማይታወቅ) እርሱን በድንግልና\nወለደችው:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          91.07142857142857,
+          509.07738095238096,
+          2180.8354591836733,
+          1332.4404761904761
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፪ ነቢዩ ዳንኤል ያየው ያስ እጅ\nክረጅም ተራራ የተፈነቀለው ያ ደንጊያ\nከአብ ዘንድ የወጣው ቃል ነውና መጥቶ\nያስ ወንድ ዘር ከድንግል ተወልዶ አዳነን::\nቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          82.94005102040816,
+          1376.6369047619048,
+          2174.3303571428573,
+          2198.3630952380954
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፫ እንደ ንጹሕ ጫፍ ሆንሽ\nየሃይማኖትም መገኛ ነሽ የቀናች\nየቅዱሳን አባቶቻችን ሃይማኖታቸው\nነሽ:: አምላክን የወለድሽና በድንግልና\nየታተምሽ ንጽሕት ሆይ የአብን ቃል\nወለድሽልን ኢየሱስ ክርስቶስ እኛን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          76.43494897959184,
+          2245.8333333333335,
+          2174.3303571428573,
+          3247.6190476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d3585712070f10c0286118922e08a8993df7dee0505431a50e3530e67e424d99",
+      "source_sha256": "c3b2ea0acbc8961ccb56906e5d322b802fd6b50cbcc2e01aa83c24b8a021687a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_035.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.57,
+      "created_at": "2026-10-23T23:28:12.133518+00:00",
+      "derivative_input": false
+    }
+  }
+}

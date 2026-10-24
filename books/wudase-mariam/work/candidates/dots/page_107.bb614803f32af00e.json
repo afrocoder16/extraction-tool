@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-906eb6c42f4ba324",
+    "object": "chat.completion",
+    "created": 1792801056,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [193, 212, 863, 281], \"category\": \"Page-header\", \"text\": \"፶ አንቀጸ ብርሃን\"}, {\"bbox\": [65, 331, 1356, 1306], \"category\": \"Text\", \"text\": \"ላይ ወድቀው ሰገዱለት፡፡ ሳጥናቸዉንም ከፈቱና ወርቅ እጣን ከርቤን እጅ መንሻ አድረገው አገቡለት፡፡ የወገኖችህን ልመናቸዉንና መስዋእታቸዉን ትቀበል ዘንድ ኃጢአታቸዉንም ታስተሰርይላቸው ዘንድ የመጣህ አምላካችን ሆይ ፣ እጅ መንሻ አገባንልህ ለከበረ ስምህም ካንተ የተገኘዉን ዕጣን አቀረብንልህ አሉት፡፡ ቅድስት ሆይ ፤ ልጅሽ ይቅርታን ያድለን ዘንድ ለምኝልን፡፡\"}, {\"bbox\": [71, 1416, 1363, 2004], \"category\": \"Text\", \"text\": \"፯. ከንጹሐን ይልቅ ንጽህት የሆንሽ አንቺ ነሽ ከማይነቅዝ እንጨት እንደተሰራ በወርቅ እንደተጌጠና ዋጋው ብዙ በሆነ በሚያበራ እንቁ እንደተለበጠ ። ታቦት በቤተ መቅደስ ውስጥ የኖርሽ የተመረጥሽ ድንግል ነሽ፡፡ እንዲህ ሆነሽ በቤተ መቅደስ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4762,
+      "completion_tokens": 599,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፶ አንቀጸ ብርሃን",
+      "bbox": [
+        313.87117346938777,
+        347.0238095238095,
+        1403.4757653061224,
+        459.9702380952381
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ላይ ወድቀው ሰገዱለት፡፡ ሳጥናቸዉንም ከፈቱና ወርቅ እጣን ከርቤን እጅ መንሻ አድረገው አገቡለት፡፡ የወገኖችህን ልመናቸዉንና መስዋእታቸዉን ትቀበል ዘንድ ኃጢአታቸዉንም ታስተሰርይላቸው ዘንድ የመጣህ አምላካችን ሆይ ፣ እጅ መንሻ አገባንልህ ለከበረ ስምህም ካንተ የተገኘዉን ዕጣን አቀረብንልህ አሉት፡፡ ቅድስት ሆይ ፤ ልጅሽ ይቅርታን ያድለን ዘንድ ለምኝልን፡፡",
+      "bbox": [
+        105.7079081632653,
+        541.8154761904761,
+        2205.2295918367345,
+        2137.7976190476193
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፯. ከንጹሐን ይልቅ ንጽህት የሆንሽ አንቺ ነሽ ከማይነቅዝ እንጨት እንደተሰራ በወርቅ እንደተጌጠና ዋጋው ብዙ በሆነ በሚያበራ እንቁ እንደተለበጠ ። ታቦት በቤተ መቅደስ ውስጥ የኖርሽ የተመረጥሽ ድንግል ነሽ፡፡ እንዲህ ሆነሽ በቤተ መቅደስ",
+      "bbox": [
+        115.46556122448979,
+        2317.8571428571427,
+        2216.6135204081634,
+        3280.3571428571427
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 107,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፶ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          313.87117346938777,
+          347.0238095238095,
+          1403.4757653061224,
+          459.9702380952381
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ላይ ወድቀው ሰገዱለት፡፡ ሳጥናቸዉንም ከፈቱና ወርቅ እጣን ከርቤን እጅ መንሻ አድረገው አገቡለት፡፡ የወገኖችህን ልመናቸዉንና መስዋእታቸዉን ትቀበል ዘንድ ኃጢአታቸዉንም ታስተሰርይላቸው ዘንድ የመጣህ አምላካችን ሆይ ፣ እጅ መንሻ አገባንልህ ለከበረ ስምህም ካንተ የተገኘዉን ዕጣን አቀረብንልህ አሉት፡፡ ቅድስት ሆይ ፤ ልጅሽ ይቅርታን ያድለን ዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          105.7079081632653,
+          541.8154761904761,
+          2205.2295918367345,
+          2137.7976190476193
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯. ከንጹሐን ይልቅ ንጽህት የሆንሽ አንቺ ነሽ ከማይነቅዝ እንጨት እንደተሰራ በወርቅ እንደተጌጠና ዋጋው ብዙ በሆነ በሚያበራ እንቁ እንደተለበጠ ። ታቦት በቤተ መቅደስ ውስጥ የኖርሽ የተመረጥሽ ድንግል ነሽ፡፡ እንዲህ ሆነሽ በቤተ መቅደስ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          115.46556122448979,
+          2317.8571428571427,
+          2216.6135204081634,
+          3280.3571428571427
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "bb614803f32af00ebe968a6808ffc3065b587ffe5608bb483733558e6d7f4ab7",
+      "source_sha256": "70262b881e420cccd514591ba72309122092f962c5fc9d216ffddfbe2da1fc15",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_107.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.312,
+      "created_at": "2026-10-24T00:18:55.185644+00:00",
+      "derivative_input": false
+    }
+  }
+}

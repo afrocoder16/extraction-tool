@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9b3b19d4d224e2e1",
+    "object": "chat.completion",
+    "created": 1792801213,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [186, 56, 1496, 142], \"category\": \"Text\", \"text\": \"መላኩ ገብርኤል አበሰረሽ እንዲህም\"}, {\"bbox\": [507, 231, 1183, 295], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4268,
+      "completion_tokens": 105,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "መላኩ ገብርኤል አበሰረሽ እንዲህም",
+      "bbox": [
+        302.48724489795916,
+        91.66666666666667,
+        2432.908163265306,
+        232.4404761904762
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        824.5216836734694,
+        378.125,
+        1923.8839285714287,
+        482.88690476190476
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 110,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "መላኩ ገብርኤል አበሰረሽ እንዲህም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          302.48724489795916,
+          91.66666666666667,
+          2432.908163265306,
+          232.4404761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          824.5216836734694,
+          378.125,
+          1923.8839285714287,
+          482.88690476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "9a19141e72b6bef9c3014cd2b75ff4b20eabdabe2daa80326680c90acad02621",
+      "source_sha256": "2b05eab2a110fd2cd1d367badfcc0912ffb1e7625ee77c9b301b9b3602b54c3a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_110.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 22.672,
+      "created_at": "2026-10-24T00:20:35.714248+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b128feef28da13c4",
+    "object": "chat.completion",
+    "created": 1792801479,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [245, 193, 903, 265], \"category\": \"Page-header\", \"text\": \"፶፷ አንቀጸ ብርሃን\"}, {\"bbox\": [125, 314, 1397, 1371], \"category\": \"Text\", \"text\": \"አንድነት ሆነ) አሉ፡፡ ካንቺ የነሳውን\\nየኛን ሥጋ ለብሰ ባዩት ጊዜ ሰውን ምንኛ\\nወደደው ብለው ሰገዱለት ነብዩ ዳዊትም\\nእንዲህ በሎ ተናገረ እግዚአብሔር\\nበሰማይና በማደሪያው ቦታ ሆኖ በምድር\\nወደሚኖሩት ሁሉ ተመለከተ፡፡ የሰውንም\\nልጅ ሁሉ አየ፤ ንጉሥ ውበትሽን\\nወደደ፡፡ ዘለአለም ማረፊያዬ ይህቺ ናት\\nመርጫታለሁና በእርሷ አድራለሁ አለ፡፡\\nቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን\\nዘንድ ለምኝልን፡፡\"}, {\"bbox\": [117, 1454, 1385, 2016], \"category\": \"Text\", \"text\": \"፱. የተለየሽና ደግ የሆንሽ የተመሰገንሽና የተባረክሽ የከበርሽና ከፍ ከፍ ያልሽ ሆይ፤ የህይወት ህብስት ባለበት በወርቅ መሰብ መሰልንሽ፡፡ የህይወት ህብስትም (ይኸዉም) በቀኙ ካሉ ጻድቃን ጋር እርሱን ለሚያምን በሃይማኖትና ፈቁየኛ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4781,
+      "completion_tokens": 618,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፶፷ አንቀጸ ብርሃን",
+      "bbox": [
+        398.4375,
+        315.92261904761904,
+        1468.5267857142858,
+        433.7797619047619
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "አንድነት ሆነ) አሉ፡፡ ካንቺ የነሳውን\nየኛን ሥጋ ለብሰ ባዩት ጊዜ ሰውን ምንኛ\nወደደው ብለው ሰገዱለት ነብዩ ዳዊትም\nእንዲህ በሎ ተናገረ እግዚአብሔር\nበሰማይና በማደሪያው ቦታ ሆኖ በምድር\nወደሚኖሩት ሁሉ ተመለከተ፡፡ የሰውንም\nልጅ ሁሉ አየ፤ ንጉሥ ውበትሽን\nወደደ፡፡ ዘለአለም ማረፊያዬ ይህቺ ናት\nመርጫታለሁና በእርሷ አድራለሁ አለ፡፡\nቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን\nዘንድ ለምኝልን፡፡",
+      "bbox": [
+        203.2844387755102,
+        513.9880952380952,
+        2271.906887755102,
+        2244.1964285714284
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፱. የተለየሽና ደግ የሆንሽ የተመሰገንሽና የተባረክሽ የከበርሽና ከፍ ከፍ ያልሽ ሆይ፤ የህይወት ህብስት ባለበት በወርቅ መሰብ መሰልንሽ፡፡ የህይወት ህብስትም (ይኸዉም) በቀኙ ካሉ ጻድቃን ጋር እርሱን ለሚያምን በሃይማኖትና ፈቁየኛ",
+      "bbox": [
+        190.27423469387756,
+        2380.059523809524,
+        2252.391581632653,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 117,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፶፷ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          398.4375,
+          315.92261904761904,
+          1468.5267857142858,
+          433.7797619047619
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አንድነት ሆነ) አሉ፡፡ ካንቺ የነሳውን\nየኛን ሥጋ ለብሰ ባዩት ጊዜ ሰውን ምንኛ\nወደደው ብለው ሰገዱለት ነብዩ ዳዊትም\nእንዲህ በሎ ተናገረ እግዚአብሔር\nበሰማይና በማደሪያው ቦታ ሆኖ በምድር\nወደሚኖሩት ሁሉ ተመለከተ፡፡ የሰውንም\nልጅ ሁሉ አየ፤ ንጉሥ ውበትሽን\nወደደ፡፡ ዘለአለም ማረፊያዬ ይህቺ ናት\nመርጫታለሁና በእርሷ አድራለሁ አለ፡፡\nቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን\nዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          203.2844387755102,
+          513.9880952380952,
+          2271.906887755102,
+          2244.1964285714284
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱. የተለየሽና ደግ የሆንሽ የተመሰገንሽና የተባረክሽ የከበርሽና ከፍ ከፍ ያልሽ ሆይ፤ የህይወት ህብስት ባለበት በወርቅ መሰብ መሰልንሽ፡፡ የህይወት ህብስትም (ይኸዉም) በቀኙ ካሉ ጻድቃን ጋር እርሱን ለሚያምን በሃይማኖትና ፈቁየኛ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          190.27423469387756,
+          2380.059523809524,
+          2252.391581632653,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "4f13ef88afd88e20ae5820f68a4aeea962719efc7e8b10b561dd01c8c4323ecb",
+      "source_sha256": "5d876de03029adf8d0c5d4fbcdb10409e4d6b3d1ec8b0ccc82ba6ace5f39f79f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_117.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.538,
+      "created_at": "2026-10-24T00:25:59.959112+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b2cde678a08a46be",
+    "object": "chat.completion",
+    "created": 1792800031,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [177, 105, 1066, 185], \"category\": \"Page-header\", \"text\": \"፸፩ የቅዳሜ ዉዳሴ ጸሎት\"}, {\"bbox\": [51, 237, 1347, 904], \"category\": \"Text\", \"text\": \"፭ ከዳዊት ሥር የተገኘሽ ባሕርይ (ዘር) አንቺ ነሽ መድኃኒታችን ኢየሱስ ክርስቶስን በሥጋ ወልደሽልናልና፡፡ ከአብ የተወለደ ከዓለም በፊት የነበረ አንዱ ቃል ራሱን (ባሕርዩን) ሰወረ ካንቺም የተገዥን (ሰውን) አርአያ ነሣ፡፡ ቅድስት ሆይ ለምኝልን፡፡\"}, {\"bbox\": [51, 911, 1347, 1478], \"category\": \"Text\", \"text\": \"፮ አምላክን ያለርኵሰት የወለድሽው ሆይ የምድር ሁለተኛ ሰማይን ሆንሽ፣ እውነተኛ ፀሐይ ካንቺ ወጥቶልናልና፡፡ እንደነቢያት ትንቢትም ያለዘርና ያለመለወጥ ወደልሽው፡፡ ቅድስት ሆይ ለምኝልን፡፡\"}, {\"bbox\": [51, 1489, 1352, 2016], \"category\": \"Text\", \"text\": \"፯ ከተለዩ የተለየች የተባልሽ የኪዳን ጽላት ያለብሽ የተሰወረ መና ያለበት የወርቅ መሶብ ያለብሽ ደብተራ ድንኺን አንቺ ነሽ፡፡ ይኸውም መና የተባለው መጥቶ በድንግል ማርያም ማኅፀን የፆርወ ዖንግዛት ማርያም ነው፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4841,
+      "completion_tokens": 678,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፸፩ የቅዳሜ ዉዳሴ ጸሎት",
+      "bbox": [
+        287.85076530612247,
+        171.875,
+        1733.609693877551,
+        302.82738095238096
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፭ ከዳዊት ሥር የተገኘሽ ባሕርይ (ዘር) አንቺ ነሽ መድኃኒታችን ኢየሱስ ክርስቶስን በሥጋ ወልደሽልናልና፡፡ ከአብ የተወለደ ከዓለም በፊት የነበረ አንዱ ቃል ራሱን (ባሕርዩን) ሰወረ ካንቺም የተገዥን (ሰውን) አርአያ ነሣ፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        82.94005102040816,
+        387.94642857142856,
+        2190.593112244898,
+        1479.7619047619048
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፮ አምላክን ያለርኵሰት የወለድሽው ሆይ የምድር ሁለተኛ ሰማይን ሆንሽ፣ እውነተኛ ፀሐይ ካንቺ ወጥቶልናልና፡፡ እንደነቢያት ትንቢትም ያለዘርና ያለመለወጥ ወደልሽው፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        82.94005102040816,
+        1491.220238095238,
+        2190.593112244898,
+        2419.345238095238
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፯ ከተለዩ የተለየች የተባልሽ የኪዳን ጽላት ያለብሽ የተሰወረ መና ያለበት የወርቅ መሶብ ያለብሽ ደብተራ ድንኺን አንቺ ነሽ፡፡ ይኸውም መና የተባለው መጥቶ በድንግል ማርያም ማኅፀን የፆርወ ዖንግዛት ማርያም ነው፡፡",
+      "bbox": [
+        82.94005102040816,
+        2437.3511904761904,
+        2198.7244897959185,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 83,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፸፩ የቅዳሜ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          287.85076530612247,
+          171.875,
+          1733.609693877551,
+          302.82738095238096
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ ከዳዊት ሥር የተገኘሽ ባሕርይ (ዘር) አንቺ ነሽ መድኃኒታችን ኢየሱስ ክርስቶስን በሥጋ ወልደሽልናልና፡፡ ከአብ የተወለደ ከዓለም በፊት የነበረ አንዱ ቃል ራሱን (ባሕርዩን) ሰወረ ካንቺም የተገዥን (ሰውን) አርአያ ነሣ፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          82.94005102040816,
+          387.94642857142856,
+          2190.593112244898,
+          1479.7619047619048
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ አምላክን ያለርኵሰት የወለድሽው ሆይ የምድር ሁለተኛ ሰማይን ሆንሽ፣ እውነተኛ ፀሐይ ካንቺ ወጥቶልናልና፡፡ እንደነቢያት ትንቢትም ያለዘርና ያለመለወጥ ወደልሽው፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          82.94005102040816,
+          1491.220238095238,
+          2190.593112244898,
+          2419.345238095238
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ ከተለዩ የተለየች የተባልሽ የኪዳን ጽላት ያለብሽ የተሰወረ መና ያለበት የወርቅ መሶብ ያለብሽ ደብተራ ድንኺን አንቺ ነሽ፡፡ ይኸውም መና የተባለው መጥቶ በድንግል ማርያም ማኅፀን የፆርወ ዖንግዛት ማርያም ነው፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          82.94005102040816,
+          2437.3511904761904,
+          2198.7244897959185,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e68899780e846710b9ccf946bc668200605bbdd945cba9724c75f6ff45959381",
+      "source_sha256": "92b74a500badfc660133042fbe46a8a7e3cec531d62ffc8e10ada0ef4d35a3e7",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_083.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 89.088,
+      "created_at": "2026-10-24T00:01:58.997613+00:00",
+      "derivative_input": false
+    }
+  }
+}

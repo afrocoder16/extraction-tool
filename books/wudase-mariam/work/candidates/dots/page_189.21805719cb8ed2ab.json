@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b5916fdca2dd84b8",
+    "object": "chat.completion",
+    "created": 1792804668,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [292, 166, 915, 241], \"category\": \"Page-header\", \"text\": \"፳፪ የሰኔ ጎልጎታ\"}, {\"bbox\": [177, 286, 1493, 1985], \"category\": \"Text\", \"text\": \"ይህች መጽሀፍ በምትደገምበት ቦታ ሁሉ እህልን የሚሰልቡ ሰላቢዎች (ሟርተኞች) መድሀኒተኞች የሌሊትና የቀን የዱር አራዊቶች የሚታየዉም የማይታየዉም በረዶ ኩብኩባ አንበጣም ቢሆን ሊቀርቡ አይችሉም፡፡ በሬም ላምም ቢሆን ቢታመም ይህችን ፀሎት ቢደግሙላቸዉ ክፉ በሽታ አይነካቸዉም ይህቺን መጽሐፍ በንጽህና ለሚይዛት ሁሉ ከደዌዉ አድነዋለሁ ከሚያስጨንቅ ችግርም እሰውረዋለሁ፡፡ ደዌዉም ለህይወትና ለጤናም ቢሆን እኔ ፈጥኜ አነሳዋለሁ፡፡ ኃጢትም ቢኖርበት ይሰረይለታል፡፡ ደዌው ለሞት የታዘዘ ቢሆን እኔ አስቀድሜ መላእክተ ብርሃንን እልካለሁ ነፍሱንም በክብር ተቀብለው ወደ እኔ ያመጧታል፡፡ ከሦስተኛው ሰማይም በደረሰ ጊዜ መናፍስት ርኩሳን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4764,
+      "completion_tokens": 601,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፪ የሰኔ ጎልጎታ",
+      "bbox": [
+        474.8724489795918,
+        271.7261904761905,
+        1488.0420918367347,
+        394.4940476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ይህች መጽሀፍ በምትደገምበት ቦታ ሁሉ እህልን የሚሰልቡ ሰላቢዎች (ሟርተኞች) መድሀኒተኞች የሌሊትና የቀን የዱር አራዊቶች የሚታየዉም የማይታየዉም በረዶ ኩብኩባ አንበጣም ቢሆን ሊቀርቡ አይችሉም፡፡ በሬም ላምም ቢሆን ቢታመም ይህችን ፀሎት ቢደግሙላቸዉ ክፉ በሽታ አይነካቸዉም ይህቺን መጽሐፍ በንጽህና ለሚይዛት ሁሉ ከደዌዉ አድነዋለሁ ከሚያስጨንቅ ችግርም እሰውረዋለሁ፡፡ ደዌዉም ለህይወትና ለጤናም ቢሆን እኔ ፈጥኜ አነሳዋለሁ፡፡ ኃጢትም ቢኖርበት ይሰረይለታል፡፡ ደዌው ለሞት የታዘዘ ቢሆን እኔ አስቀድሜ መላእክተ ብርሃንን እልካለሁ ነፍሱንም በክብር ተቀብለው ወደ እኔ ያመጧታል፡፡ ከሦስተኛው ሰማይም በደረሰ ጊዜ መናፍስት ርኩሳን",
+      "bbox": [
+        287.85076530612247,
+        468.1547619047619,
+        2428.029336734694,
+        3249.2559523809523
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 189,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፪ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          474.8724489795918,
+          271.7261904761905,
+          1488.0420918367347,
+          394.4940476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ይህች መጽሀፍ በምትደገምበት ቦታ ሁሉ እህልን የሚሰልቡ ሰላቢዎች (ሟርተኞች) መድሀኒተኞች የሌሊትና የቀን የዱር አራዊቶች የሚታየዉም የማይታየዉም በረዶ ኩብኩባ አንበጣም ቢሆን ሊቀርቡ አይችሉም፡፡ በሬም ላምም ቢሆን ቢታመም ይህችን ፀሎት ቢደግሙላቸዉ ክፉ በሽታ አይነካቸዉም ይህቺን መጽሐፍ በንጽህና ለሚይዛት ሁሉ ከደዌዉ አድነዋለሁ ከሚያስጨንቅ ችግርም እሰውረዋለሁ፡፡ ደዌዉም ለህይወትና ለጤናም ቢሆን እኔ ፈጥኜ አነሳዋለሁ፡፡ ኃጢትም ቢኖርበት ይሰረይለታል፡፡ ደዌው ለሞት የታዘዘ ቢሆን እኔ አስቀድሜ መላእክተ ብርሃንን እልካለሁ ነፍሱንም በክብር ተቀብለው ወደ እኔ ያመጧታል፡፡ ከሦስተኛው ሰማይም በደረሰ ጊዜ መናፍስት ርኩሳን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          287.85076530612247,
+          468.1547619047619,
+          2428.029336734694,
+          3249.2559523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "21805719cb8ed2ab9f29851197fac4f4c756b5a2c60c6dfd96db93f1cc293fed",
+      "source_sha256": "340866ac6e1f6b98e96ac7adbb477b7443ea7c178eafb50c7ff529caaad7da50",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_189.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.617,
+      "created_at": "2026-10-24T01:19:07.045196+00:00",
+      "derivative_input": false
+    }
+  }
+}

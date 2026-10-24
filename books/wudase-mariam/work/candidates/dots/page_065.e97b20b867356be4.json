@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b4405c4b31c4457c",
+    "object": "chat.completion",
+    "created": 1792799267,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [335, 162, 1344, 234], \"category\": \"Page-header\", \"text\": \"፴፪ የሐሙስ ውዳሴ ማርያም\"}, {\"bbox\": [214, 285, 1536, 1194], \"category\": \"Text\", \"text\": \"ነገሥታት መሳፍንት አገር አታንሺም ወገኖቼ እሥራኤልን የሚጠብቃቸው ንጉሥ ካንቺ ይወጣልና፤ ከዛሬ ጀምሮ እስከ ዘለዓለም ድረስ ከቸር አባቱና ከመንፈስ ቅዱስ ጋር ምስጋና ስለተገባው ስለ ክርሽቶስ ባንድ መንፈስ ቅዱስ ትንቢት የተናገሩት የነዚህ የሚክያስና የዳዊት ነገር ምን ይረቅ? ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [214, 1206, 1536, 2016], \"category\": \"Text\", \"text\": \"፯ ለእስራኤል የነገሠ ዳዊት ጠላቶቹ በተነሡበት ጊዜ ከቤተልሔም ምንጭ ውኃ ይጠጣ ዘንድ ወደደ የጭፍሮቹ አለቆች ፈጥነው ተነሡና በጠላቶቹ ክተማ ተዋግተው ሊጠጣ የወደደውን አመጡለት። ጻድቅ ዳዊት ግን ጨክነው ሰውነታቸውን ስለ እርሱ ለጦርነት ለሞት አሳልፈው እንደ ሰጡ ባየ ጊዜ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4771,
+      "completion_tokens": 608,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴፪ የሐሙስ ውዳሴ ማርያም",
+      "bbox": [
+        544.8022959183673,
+        265.17857142857144,
+        2185.714285714286,
+        383.0357142857143
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ነገሥታት መሳፍንት አገር አታንሺም ወገኖቼ እሥራኤልን የሚጠብቃቸው ንጉሥ ካንቺ ይወጣልና፤ ከዛሬ ጀምሮ እስከ ዘለዓለም ድረስ ከቸር አባቱና ከመንፈስ ቅዱስ ጋር ምስጋና ስለተገባው ስለ ክርሽቶስ ባንድ መንፈስ ቅዱስ ትንቢት የተናገሩት የነዚህ የሚክያስና የዳዊት ነገር ምን ይረቅ? ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        348.0229591836735,
+        466.51785714285717,
+        2497.9591836734694,
+        1954.4642857142858
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፯ ለእስራኤል የነገሠ ዳዊት ጠላቶቹ በተነሡበት ጊዜ ከቤተልሔም ምንጭ ውኃ ይጠጣ ዘንድ ወደደ የጭፍሮቹ አለቆች ፈጥነው ተነሡና በጠላቶቹ ክተማ ተዋግተው ሊጠጣ የወደደውን አመጡለት። ጻድቅ ዳዊት ግን ጨክነው ሰውነታቸውን ስለ እርሱ ለጦርነት ለሞት አሳልፈው እንደ ሰጡ ባየ ጊዜ",
+      "bbox": [
+        348.0229591836735,
+        1974.107142857143,
+        2497.9591836734694,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 65,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴፪ የሐሙስ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          544.8022959183673,
+          265.17857142857144,
+          2185.714285714286,
+          383.0357142857143
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ነገሥታት መሳፍንት አገር አታንሺም ወገኖቼ እሥራኤልን የሚጠብቃቸው ንጉሥ ካንቺ ይወጣልና፤ ከዛሬ ጀምሮ እስከ ዘለዓለም ድረስ ከቸር አባቱና ከመንፈስ ቅዱስ ጋር ምስጋና ስለተገባው ስለ ክርሽቶስ ባንድ መንፈስ ቅዱስ ትንቢት የተናገሩት የነዚህ የሚክያስና የዳዊት ነገር ምን ይረቅ? ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          348.0229591836735,
+          466.51785714285717,
+          2497.9591836734694,
+          1954.4642857142858
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ ለእስራኤል የነገሠ ዳዊት ጠላቶቹ በተነሡበት ጊዜ ከቤተልሔም ምንጭ ውኃ ይጠጣ ዘንድ ወደደ የጭፍሮቹ አለቆች ፈጥነው ተነሡና በጠላቶቹ ክተማ ተዋግተው ሊጠጣ የወደደውን አመጡለት። ጻድቅ ዳዊት ግን ጨክነው ሰውነታቸውን ስለ እርሱ ለጦርነት ለሞት አሳልፈው እንደ ሰጡ ባየ ጊዜ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          348.0229591836735,
+          1974.107142857143,
+          2497.9591836734694,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e97b20b867356be42535f1a5b7b24802ccaebd0220432acfd6531a621f780200",
+      "source_sha256": "350cb45c0d34633f7ed07b4e15d853758a15362b7dbebed84acac04f2e09d0aa",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_065.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 81.158,
+      "created_at": "2026-10-23T23:49:06.706626+00:00",
+      "derivative_input": false
+    }
+  }
+}

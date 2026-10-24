@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9f0ebc2f415a6cef",
+    "object": "chat.completion",
+    "created": 1792801725,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [85, 47, 1421, 134], \"category\": \"Title\", \"text\": \"እንዲህ አስ፧ አምላካችን በይቅርታወና\"}, {\"bbox\": [436, 247, 1127, 315], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4272,
+      "completion_tokens": 109,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Title",
+      "text": "እንዲህ አስ፧ አምላካችን በይቅርታወና",
+      "bbox": [
+        138.23341836734693,
+        76.93452380952381,
+        2310.9375,
+        219.3452380952381
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        709.0561224489796,
+        404.3154761904762,
+        1832.8125,
+        515.625
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 122,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እንዲህ አስ፧ አምላካችን በይቅርታወና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          138.23341836734693,
+          76.93452380952381,
+          2310.9375,
+          219.3452380952381
+        ],
+        "layout_category": "Title",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          709.0561224489796,
+          404.3154761904762,
+          1832.8125,
+          515.625
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "8aec1d2186efc706779d8bd01fe80e9a9483ef298a1083922bc719b388dc8900",
+      "source_sha256": "242961c94e460ee67054867a1307813d3513d7d0b73eddc6913f5ca4252d5295",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_122.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 23.273,
+      "created_at": "2026-10-24T00:29:08.228934+00:00",
+      "derivative_input": false
+    }
+  }
+}

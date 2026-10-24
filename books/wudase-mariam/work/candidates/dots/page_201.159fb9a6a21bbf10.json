@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8eb1842774141ac0",
+    "object": "chat.completion",
+    "created": 1792805227,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [246, 136, 894, 215], \"category\": \"Page-header\", \"text\": \"፳፷ የሰኔ ጎልጎታ\"}, {\"bbox\": [127, 264, 1491, 2016], \"category\": \"Text\", \"text\": \"ሁለት ነገድ ከፍዬ ስለ አከበርኩት ስለ ያእቆብም ቃል ኪዳን ገባሁልሽ በይሁዳና በፋሪስ በዮሴፍና ብኒያም በሌዊና ይሳኮር በአስራ ሁለቱ ነገደ እስራኤል ቁጥር ቃል ኪዳን ገባሁልሽ ንፁሀን ቅዱሳን በሚሆኑ በቀደሙ አባቶች ቃል ኪዳን ገባሁልሽ፡፡ ፃህፍተ ትዕዛዝ በሆኑ በሄኖክና በኤሊያስ ቃል ኪዳን ገባሁልሽ ዘጠኝ ወር ከአምስት ቀን በተቀመጥኩባት ንጽህት በሆነች ማህጸንሽ ቃል ኪዳን ገባሁልሽ ጣፋጭነቱ ከመአር ከስኳር የሚጥመው ንጹህነቱ ከኤዶም ምንጭ ውሃ ንጣቱ ከበረዶና ከወተት የበለጠዉን ወተት መግበው ባሳደጉኝ ጡቶችሽ ቃል ኪዳን ገባሁልሽ ትእዛዜንና ሕጌን ባስተማሩ አስራ አምስቱ ነቢያት ሄሮድስ ባስገደላቸው አስራ አራት እልፍ የቤተልሔም ህፃናት ቃል ኪዳን በበላልኝ ይወንገልን መንግስት ኣልም\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4821,
+      "completion_tokens": 658,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፷ የሰኔ ጎልጎታ",
+      "bbox": [
+        400.0637755102041,
+        222.61904761904762,
+        1453.890306122449,
+        351.9345238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ሁለት ነገድ ከፍዬ ስለ አከበርኩት ስለ ያእቆብም ቃል ኪዳን ገባሁልሽ በይሁዳና በፋሪስ በዮሴፍና ብኒያም በሌዊና ይሳኮር በአስራ ሁለቱ ነገደ እስራኤል ቁጥር ቃል ኪዳን ገባሁልሽ ንፁሀን ቅዱሳን በሚሆኑ በቀደሙ አባቶች ቃል ኪዳን ገባሁልሽ፡፡ ፃህፍተ ትዕዛዝ በሆኑ በሄኖክና በኤሊያስ ቃል ኪዳን ገባሁልሽ ዘጠኝ ወር ከአምስት ቀን በተቀመጥኩባት ንጽህት በሆነች ማህጸንሽ ቃል ኪዳን ገባሁልሽ ጣፋጭነቱ ከመአር ከስኳር የሚጥመው ንጹህነቱ ከኤዶም ምንጭ ውሃ ንጣቱ ከበረዶና ከወተት የበለጠዉን ወተት መግበው ባሳደጉኝ ጡቶችሽ ቃል ኪዳን ገባሁልሽ ትእዛዜንና ሕጌን ባስተማሩ አስራ አምስቱ ነቢያት ሄሮድስ ባስገደላቸው አስራ አራት እልፍ የቤተልሔም ህፃናት ቃል ኪዳን በበላልኝ ይወንገልን መንግስት ኣልም",
+      "bbox": [
+        206.53698979591837,
+        432.14285714285717,
+        2424.776785714286,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 201,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፷ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          400.0637755102041,
+          222.61904761904762,
+          1453.890306122449,
+          351.9345238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሁለት ነገድ ከፍዬ ስለ አከበርኩት ስለ ያእቆብም ቃል ኪዳን ገባሁልሽ በይሁዳና በፋሪስ በዮሴፍና ብኒያም በሌዊና ይሳኮር በአስራ ሁለቱ ነገደ እስራኤል ቁጥር ቃል ኪዳን ገባሁልሽ ንፁሀን ቅዱሳን በሚሆኑ በቀደሙ አባቶች ቃል ኪዳን ገባሁልሽ፡፡ ፃህፍተ ትዕዛዝ በሆኑ በሄኖክና በኤሊያስ ቃል ኪዳን ገባሁልሽ ዘጠኝ ወር ከአምስት ቀን በተቀመጥኩባት ንጽህት በሆነች ማህጸንሽ ቃል ኪዳን ገባሁልሽ ጣፋጭነቱ ከመአር ከስኳር የሚጥመው ንጹህነቱ ከኤዶም ምንጭ ውሃ ንጣቱ ከበረዶና ከወተት የበለጠዉን ወተት መግበው ባሳደጉኝ ጡቶችሽ ቃል ኪዳን ገባሁልሽ ትእዛዜንና ሕጌን ባስተማሩ አስራ አምስቱ ነቢያት ሄሮድስ ባስገደላቸው አስራ አራት እልፍ የቤተልሔም ህፃናት ቃል ኪዳን በበላልኝ ይወንገልን መንግስት ኣልም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          206.53698979591837,
+          432.14285714285717,
+          2424.776785714286,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "159fb9a6a21bbf10cdf671200fa830d6d144fb673152059d3f69dd0224eec5e0",
+      "source_sha256": "f41c6ab805fed25e5343d11563bc54943dd308bd0fdccafaa7a4e35d8994d45a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_201.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 87.015,
+      "created_at": "2026-10-24T01:28:32.463650+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -731,11 +731,12 @@ function loadReview() {
 
 let reviewSaveChain = Promise.resolve();
 
-function saveReview() {
+function saveReview(page = state.current) {
   // localStorage is the offline fallback; the review server persists to work/review.json
   // so decisions survive a different browser or machine.
   localStorage.setItem(reviewStoreKey(), JSON.stringify(state.review));
-  const body = JSON.stringify({ entries: state.review });
+  const entries = state.hosting === "netlify" ? state.review : { [page]: state.review[page] };
+  const body = JSON.stringify({ entries });
   // Serialize writes so rapid page decisions cannot arrive out of order and
   // replace a newer review with an older snapshot.
   reviewSaveChain = reviewSaveChain
@@ -747,8 +748,17 @@ function saveReview() {
         body,
       });
       if (!res.ok) throw new Error(await res.text());
+      return true;
     })
-    .catch((err) => console.error("Could not persist review decisions", err));
+    .catch(async (err) => {
+      console.error("Could not persist review decisions", err);
+      try { state.review = (await getJSON("/api/review")).entries || {}; } catch {}
+      renderList();
+      updateProgress();
+      alert("The review decision was not saved. " + err.message);
+      return false;
+    });
+  return reviewSaveChain;
 }
 
 function escapeHtml(v) {
@@ -1249,13 +1259,22 @@ async function saveTranscript(page) {
       body: JSON.stringify(payload),
     });
     if (!res.ok) throw new Error(await res.text());
-    state.transcripts[page] = payload;
+    const saved = await res.json();
+    state.transcripts[page] = saved.transcript || payload;
+    if (saved.transcript && saved.transcript._revision !== payload._revision && state.review[page]?.status === "approved") {
+      state.review[page].status = null;
+      el("approveBtn").classList.remove("on");
+      renderList();
+      updateProgress();
+    }
     dirty.delete(page);
     setSaveState("saved");
     setTimeout(() => { if (!dirty.has(page)) setSaveState(""); }, 2200);
+    return true;
   } catch (err) {
     setSaveState("error", "save failed — is the review server running?");
     console.error(err);
+    return false;
   }
 }
 
@@ -1432,14 +1451,27 @@ el("imagePane").addEventListener("wheel", (e) => {
 
 /* ---------------- review actions ---------------- */
 
-function setStatus(status) {
+async function setStatus(status) {
   if (state.current == null) return;
-  const cur = state.review[state.current] || {};
+  const page = state.current;
+  if (dirty.has(page) && !(await saveTranscript(page))) return;
+  if (state.current !== page) return;
+  const cur = state.review[page] || {};
   // Pressing the same button again clears the decision.
   cur.status = cur.status === status ? null : status;
   cur.note = el("noteInput").value.trim();
-  state.review[state.current] = cur;
-  saveReview();
+  if (cur.status === "approved" && state.hosting !== "netlify") {
+    const transcript = state.transcripts[page];
+    if (!transcript?._revision || !transcript?._evidence_revision) {
+      alert("Reload this page before approving it.");
+      return;
+    }
+    cur.transcript_sha256 = transcript._revision;
+    cur.evidence_sha256 = transcript._evidence_revision;
+  }
+  state.review[page] = cur;
+  if (!(await saveReview(page))) return;
+  if (state.current !== page) return;
   el("approveBtn").classList.toggle("on", cur.status === "approved");
   el("flagBtn").classList.toggle("on", cur.status === "needs_fix");
   renderList();

@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a122686d39c33783",
+    "object": "chat.completion",
+    "created": 1792803701,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [117, 18, 1445, 111], \"category\": \"Text\", \"text\": \"ስምህ ቃል ኢዳን ትገባልኝ ዘንድ\"}, {\"bbox\": [117, 117, 683, 201], \"category\": \"Text\", \"text\": \"እማልድሃለለሁ።\"}, {\"bbox\": [503, 283, 1193, 351], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4312,
+      "completion_tokens": 149,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "ስምህ ቃል ኢዳን ትገባልኝ ዘንድ",
+      "bbox": [
+        190.27423469387756,
+        29.464285714285715,
+        2349.968112244898,
+        181.69642857142858
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "እማልድሃለለሁ።",
+      "bbox": [
+        190.27423469387756,
+        191.51785714285714,
+        1110.7461734693877,
+        329.01785714285717
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        818.016581632653,
+        463.2440476190476,
+        1940.1466836734694,
+        574.5535714285714
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 168,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ስምህ ቃል ኢዳን ትገባልኝ ዘንድ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          190.27423469387756,
+          29.464285714285715,
+          2349.968112244898,
+          181.69642857142858
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እማልድሃለለሁ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          190.27423469387756,
+          191.51785714285714,
+          1110.7461734693877,
+          329.01785714285717
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          818.016581632653,
+          463.2440476190476,
+          1940.1466836734694,
+          574.5535714285714
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "13c1ef123a5fb2471752d2efbd76983b19fc1f86907c526ae076d48ae11901f0",
+      "source_sha256": "a0be8ca5e6be46f2c8c4769aecd23124089130a758a48f46d67bde088c82e36f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_168.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 27.831,
+      "created_at": "2026-10-24T01:02:08.690048+00:00",
+      "derivative_input": false
+    }
+  }
+}

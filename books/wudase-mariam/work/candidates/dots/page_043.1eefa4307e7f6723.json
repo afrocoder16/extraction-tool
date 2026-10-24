@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9e79110ecd3c0f78",
+    "object": "chat.completion",
+    "created": 1792798350,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [185, 203, 1092, 272], \"category\": \"Page-header\", \"text\": \"፳፩ የረቡዕ ውዳሴ ማርያም\"}, {\"bbox\": [57, 325, 1334, 1002], \"category\": \"Text\", \"text\": \"ደስ የተሰኘህ ሆነህ ምሥራችን የተናገርክ\\nመልአኩ ገብርኤል ሆይ የተሰጠህ ክብር\\nታላቅ ነው ወደእኛ የመጣ የጌታን\\nልደት ነገርከን ለድንግል ማርያም ጸጋን\\nየተመላሽ ሆይ እግዚአብሔር ካንቺ ጋር\\nነውና ደስ ይበልሽ ብለህ አበሰርካት፡፡\\nቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [57, 1011, 1334, 1492], \"category\": \"Text\", \"text\": \"፭ ጸጋን አገኘሽ መንፈስ ቅዱስ አደረብሽ\\nየልዑል ኃይልም ጋረደሽ (ጸለለብሽ)\\nማርያም ሆይ በእውነት ቅዱሱን ወለድሽ\\nዓለምን ሁሉ የሚያድን መጥቶ አዳነን።\\nቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [63, 1505, 1336, 1981], \"category\": \"Text\", \"text\": \"፮ አንደበታችን የድንግልን ሥራ\\nያመስግናል፡፡ ጌታችንና መድኃኒታችን\\nኢየሱስ ክርስቶስ በዳዊት አገር ከእርስዋ\\nስለተወለደ አምላክን የወለደች ማርያምን\\nዛሬ እናመስግናት አሕዛብ ኑ ማርያምን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4808,
+      "completion_tokens": 645,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፩ የረቡዕ ውዳሴ ማርያም",
+      "bbox": [
+        300.8609693877551,
+        332.2916666666667,
+        1775.892857142857,
+        445.23809523809524
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ደስ የተሰኘህ ሆነህ ምሥራችን የተናገርክ\nመልአኩ ገብርኤል ሆይ የተሰጠህ ክብር\nታላቅ ነው ወደእኛ የመጣ የጌታን\nልደት ነገርከን ለድንግል ማርያም ጸጋን\nየተመላሽ ሆይ እግዚአብሔር ካንቺ ጋር\nነውና ደስ ይበልሽ ብለህ አበሰርካት፡፡\nቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        92.69770408163265,
+        531.9940476190476,
+        2169.451530612245,
+        1640.1785714285713
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፭ ጸጋን አገኘሽ መንፈስ ቅዱስ አደረብሽ\nየልዑል ኃይልም ጋረደሽ (ጸለለብሽ)\nማርያም ሆይ በእውነት ቅዱሱን ወለድሽ\nዓለምን ሁሉ የሚያድን መጥቶ አዳነን።\nቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        92.69770408163265,
+        1654.9107142857142,
+        2169.451530612245,
+        2442.2619047619046
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፮ አንደበታችን የድንግልን ሥራ\nያመስግናል፡፡ ጌታችንና መድኃኒታችን\nኢየሱስ ክርስቶስ በዳዊት አገር ከእርስዋ\nስለተወለደ አምላክን የወለደች ማርያምን\nዛሬ እናመስግናት አሕዛብ ኑ ማርያምን",
+      "bbox": [
+        102.45535714285714,
+        2463.5416666666665,
+        2172.704081632653,
+        3242.7083333333335
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 43,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፩ የረቡዕ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          300.8609693877551,
+          332.2916666666667,
+          1775.892857142857,
+          445.23809523809524
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ደስ የተሰኘህ ሆነህ ምሥራችን የተናገርክ\nመልአኩ ገብርኤል ሆይ የተሰጠህ ክብር\nታላቅ ነው ወደእኛ የመጣ የጌታን\nልደት ነገርከን ለድንግል ማርያም ጸጋን\nየተመላሽ ሆይ እግዚአብሔር ካንቺ ጋር\nነውና ደስ ይበልሽ ብለህ አበሰርካት፡፡\nቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          92.69770408163265,
+          531.9940476190476,
+          2169.451530612245,
+          1640.1785714285713
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ ጸጋን አገኘሽ መንፈስ ቅዱስ አደረብሽ\nየልዑል ኃይልም ጋረደሽ (ጸለለብሽ)\nማርያም ሆይ በእውነት ቅዱሱን ወለድሽ\nዓለምን ሁሉ የሚያድን መጥቶ አዳነን።\nቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          92.69770408163265,
+          1654.9107142857142,
+          2169.451530612245,
+          2442.2619047619046
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ አንደበታችን የድንግልን ሥራ\nያመስግናል፡፡ ጌታችንና መድኃኒታችን\nኢየሱስ ክርስቶስ በዳዊት አገር ከእርስዋ\nስለተወለደ አምላክን የወለደች ማርያምን\nዛሬ እናመስግናት አሕዛብ ኑ ማርያምን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          102.45535714285714,
+          2463.5416666666665,
+          2172.704081632653,
+          3242.7083333333335
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "1eefa4307e7f6723e1baad886a3e7f3eab4ceabbe82fe128248a152250a7c3cf",
+      "source_sha256": "2fd41af2ea668283bfb7c6f3cc0441ac7203f7418f0e17aa1338cfc6ba98fb83",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_043.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.022,
+      "created_at": "2026-10-23T23:33:53.407789+00:00",
+      "derivative_input": false
+    }
+  }
+}

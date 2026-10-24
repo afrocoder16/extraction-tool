@@ -1,0 +1,227 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8ec668dd15a3daf0",
+    "object": "chat.completion",
+    "created": 1792802999,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [223, 165, 843, 236], \"category\": \"Page-header\", \"text\": \"፭ የሰኔ ጎልጎታ\"}, {\"bbox\": [101, 283, 1382, 661], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ አራት ዓመት ወተታቸውን እየጠጣህ (እየተመገብህ) ባሳደኩህ ሁለቱ ጡቶቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [101, 655, 1385, 1218], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ እለ ብዙኃት ሕዕይንቲሆሙ በተባሉ ፀወርተ መንበርህ ኪሩቤል በፍርሀትና በርዓድ እየተንቀጠቀጡ መንበርህን በሚሸከሙ ሕንተን ባዘለችህ ጀርባዬ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [101, 1213, 1391, 1588], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ከርጉም ሄሮድስ ፊት ሸሽተን ወደ ግብፅ አካባቢ እስክንደርስ ድረስ በደረሰብኝ ርሃብና ጥም ቃል ኪዳን ትግባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [113, 1594, 1397, 2016], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ እንተን ይገድሉሃል እያልኩሳስብ ከአይኖቼ መንታ መንታ ሁነው እየፈሰሱ በክብርት ስጋህ ላይ በወረዱት እንባዎቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4881,
+      "completion_tokens": 718,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፭ የሰኔ ጎልጎታ",
+      "bbox": [
+        362.6594387755102,
+        270.0892857142857,
+        1370.9502551020407,
+        386.3095238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ አራት ዓመት ወተታቸውን እየጠጣህ (እየተመገብህ) ባሳደኩህ ሁለቱ ጡቶቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        164.25382653061226,
+        463.2440476190476,
+        2247.512755102041,
+        1081.9940476190477
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ እለ ብዙኃት ሕዕይንቲሆሙ በተባሉ ፀወርተ መንበርህ ኪሩቤል በፍርሀትና በርዓድ እየተንቀጠቀጡ መንበርህን በሚሸከሙ ሕንተን ባዘለችህ ጀርባዬ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        164.25382653061226,
+        1072.172619047619,
+        2252.391581632653,
+        1993.75
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ከርጉም ሄሮድስ ፊት ሸሽተን ወደ ግብፅ አካባቢ እስክንደርስ ድረስ በደረሰብኝ ርሃብና ጥም ቃል ኪዳን ትግባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        164.25382653061226,
+        1985.5654761904761,
+        2262.1492346938776,
+        2599.404761904762
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ እንተን ይገድሉሃል እያልኩሳስብ ከአይኖቼ መንታ መንታ ሁነው እየፈሰሱ በክብርት ስጋህ ላይ በወረዱት እንባዎቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        183.76913265306123,
+        2609.2261904761904,
+        2271.906887755102,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 155,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          362.6594387755102,
+          270.0892857142857,
+          1370.9502551020407,
+          386.3095238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ አራት ዓመት ወተታቸውን እየጠጣህ (እየተመገብህ) ባሳደኩህ ሁለቱ ጡቶቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          164.25382653061226,
+          463.2440476190476,
+          2247.512755102041,
+          1081.9940476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ እለ ብዙኃት ሕዕይንቲሆሙ በተባሉ ፀወርተ መንበርህ ኪሩቤል በፍርሀትና በርዓድ እየተንቀጠቀጡ መንበርህን በሚሸከሙ ሕንተን ባዘለችህ ጀርባዬ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          164.25382653061226,
+          1072.172619047619,
+          2252.391581632653,
+          1993.75
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ከርጉም ሄሮድስ ፊት ሸሽተን ወደ ግብፅ አካባቢ እስክንደርስ ድረስ በደረሰብኝ ርሃብና ጥም ቃል ኪዳን ትግባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          164.25382653061226,
+          1985.5654761904761,
+          2262.1492346938776,
+          2599.404761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ እንተን ይገድሉሃል እያልኩሳስብ ከአይኖቼ መንታ መንታ ሁነው እየፈሰሱ በክብርት ስጋህ ላይ በወረዱት እንባዎቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          183.76913265306123,
+          2609.2261904761904,
+          2271.906887755102,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "dcc2db740bf6239ab0d8756783a46550a0c3fe5034f27363d7c5d72e46c9e053",
+      "source_sha256": "a393f51112110d926febbe6ef3701e69c96876d1d26bde132505951c601439eb",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_155.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 93.544,
+      "created_at": "2026-10-24T00:51:31.572573+00:00",
+      "derivative_input": false
+    }
+  }
+}

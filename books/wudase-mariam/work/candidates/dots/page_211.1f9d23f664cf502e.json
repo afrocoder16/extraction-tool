@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-84aaadd74bd7aaca",
+    "object": "chat.completion",
+    "created": 1792805681,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [245, 186, 906, 262], \"category\": \"Page-header\", \"text\": \"፫ የኅሊና ጸሎት\"}, {\"bbox\": [117, 321, 1437, 1116], \"category\": \"Text\", \"text\": \"፭ ድንግል ሆይ፤ ተዓምራታዊ ኃይልን ማድረግ የሚቻልሽ የዓለም ንግስት ሕንቺ ነሽና ሊያጠፋኝ የሚያሴረውን ጠላት አጣድፈሽ ከጥፋት ገደል ጣይዉ፡፡ ተከታትሎ አድኖ ሊያጠቃኝ የሚፈልገውን ጠላት ፈጥነሽ ደርሰሽ አይኑን አሳዉሪው እጁን ሽባ አድርጊው ሕግሩንም አሳጥሪዉ አሜን፡፡\"}, {\"bbox\": [124, 1135, 1441, 1726], \"category\": \"Text\", \"text\": \"፮ እመቤቴ ማሪያም ሆይ፤ የኔን የቃጥኡን አገልጋይሽን ልመና ተቀብለሽ ተሰነካክዬ እንዳልወድቅ ደግፊኝ፡፡ የልጅሽን ጠለ ምህረት በላዬ አርከፍክፊ፡፡ በልጅሽ የሕይወት መጽሐፍ ስሜን ጸፊ፡፡ የጠላቴን አንገቱን ቅሰፊ፡፡\"}, {\"bbox\": [124, 1737, 1444, 2016], \"category\": \"Text\", \"text\": \"፯ እመቤቴ ማሪያም ሆይ፤ በቅድስናሽ በንጽህናሽ ነፍሴን ሰውነቴን ቀድሻት፡፡ በኃይል ከማገፉኝ ተንኮለኛ ጠላት አድኝኝ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4807,
+      "completion_tokens": 644,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፫ የኅሊና ጸሎት",
+      "bbox": [
+        398.4375,
+        304.4642857142857,
+        1473.405612244898,
+        428.8690476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፭ ድንግል ሆይ፤ ተዓምራታዊ ኃይልን ማድረግ የሚቻልሽ የዓለም ንግስት ሕንቺ ነሽና ሊያጠፋኝ የሚያሴረውን ጠላት አጣድፈሽ ከጥፋት ገደል ጣይዉ፡፡ ተከታትሎ አድኖ ሊያጠቃኝ የሚፈልገውን ጠላት ፈጥነሽ ደርሰሽ አይኑን አሳዉሪው እጁን ሽባ አድርጊው ሕግሩንም አሳጥሪዉ አሜን፡፡",
+      "bbox": [
+        190.27423469387756,
+        525.4464285714286,
+        2336.9579081632655,
+        1826.7857142857142
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፮ እመቤቴ ማሪያም ሆይ፤ የኔን የቃጥኡን አገልጋይሽን ልመና ተቀብለሽ ተሰነካክዬ እንዳልወድቅ ደግፊኝ፡፡ የልጅሽን ጠለ ምህረት በላዬ አርከፍክፊ፡፡ በልጅሽ የሕይወት መጽሐፍ ስሜን ጸፊ፡፡ የጠላቴን አንገቱን ቅሰፊ፡፡",
+      "bbox": [
+        201.65816326530611,
+        1857.8869047619048,
+        2343.4630102040815,
+        2825.2976190476193
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፯ እመቤቴ ማሪያም ሆይ፤ በቅድስናሽ በንጽህናሽ ነፍሴን ሰውነቴን ቀድሻት፡፡ በኃይል ከማገፉኝ ተንኮለኛ ጠላት አድኝኝ",
+      "bbox": [
+        201.65816326530611,
+        2843.3035714285716,
+        2348.341836734694,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 211,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ የኅሊና ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          398.4375,
+          304.4642857142857,
+          1473.405612244898,
+          428.8690476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ ድንግል ሆይ፤ ተዓምራታዊ ኃይልን ማድረግ የሚቻልሽ የዓለም ንግስት ሕንቺ ነሽና ሊያጠፋኝ የሚያሴረውን ጠላት አጣድፈሽ ከጥፋት ገደል ጣይዉ፡፡ ተከታትሎ አድኖ ሊያጠቃኝ የሚፈልገውን ጠላት ፈጥነሽ ደርሰሽ አይኑን አሳዉሪው እጁን ሽባ አድርጊው ሕግሩንም አሳጥሪዉ አሜን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          190.27423469387756,
+          525.4464285714286,
+          2336.9579081632655,
+          1826.7857142857142
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ እመቤቴ ማሪያም ሆይ፤ የኔን የቃጥኡን አገልጋይሽን ልመና ተቀብለሽ ተሰነካክዬ እንዳልወድቅ ደግፊኝ፡፡ የልጅሽን ጠለ ምህረት በላዬ አርከፍክፊ፡፡ በልጅሽ የሕይወት መጽሐፍ ስሜን ጸፊ፡፡ የጠላቴን አንገቱን ቅሰፊ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          201.65816326530611,
+          1857.8869047619048,
+          2343.4630102040815,
+          2825.2976190476193
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ እመቤቴ ማሪያም ሆይ፤ በቅድስናሽ በንጽህናሽ ነፍሴን ሰውነቴን ቀድሻት፡፡ በኃይል ከማገፉኝ ተንኮለኛ ጠላት አድኝኝ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          201.65816326530611,
+          2843.3035714285716,
+          2348.341836734694,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "1f9d23f664cf502e747f6243d8368dc9d169860fe7d57697256323bf9c94001a",
+      "source_sha256": "c2eb3f41f6901a437ec3849737d8249d7dc2ab4e4d2789b14ffeb2da975a9041",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_211.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.191,
+      "created_at": "2026-10-24T01:36:04.676841+00:00",
+      "derivative_input": false
+    }
+  }
+}

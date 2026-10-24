@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a466c84ff7f60f6d",
+    "object": "chat.completion",
+    "created": 1792799779,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [335, 65, 1205, 137], \"category\": \"Page-header\", \"text\": \"፴፰ የቅዳሜ ዉዳሴ ጸሎት\"}, {\"bbox\": [216, 193, 1498, 1963], \"category\": \"Text\", \"text\": \"ማሕየዊ የሚያድኑን ለሆኑ ሥላሴ\\nሰጊድን (መስገድን) የምታስተምሪላቸው\\nሰፊ መጋረጃ አንቺ ነሽ፡፡ ሙሴ ያየውን\\nየእሳት ዓምድ የተሸከምሽ አንቺ ነሽ፡፡\\nይኸውም መጥቶ በማኅፀንሽ ያደረው\\nየእግዚአብሔር ልጅነው፡፡ ሰማይና ምድር\\nለፈጠረ ጌታ ማደሪያ ሆንሽ፡፡ ዘጠኝ ወር\\nበማህፀንሽ ተሸከምሽው፡፡ ሰማይና ምድር\\nለማይወስኑት የታመንሽ አንቺ ነሽ፡፡\\nከምድር ወደሰማይ ለማረግ መሰላል\\nሆንሽ፡፡ ብርሃንሽ ከፀሐይ ብርሃን\\nይበልጣል፡፡ ቅዱሳን በፍጹም ደስታ\\nያዩት ኮከብ ካንቺ የተወልደ ምሥራቅ\\nአንቺ ነሽ፡፡ ይኸውም በጣርና በምጥ\\nትወልድ ዘንድ በሄዋን የፈረደባት ነው፡፡\\nአንቺ ማርያም ግን ጸጋን የተመላሽ\\nሆይ ደስ ይበልሽ የሚል ቃልን ሰማሽና\\nመጥቶ ያዳነን የፍጥረት ሁሉ ገዥ የሆነ\\nንጉሥን ወለድሽልን፡፡ መሐሪ ነው፣\\nሰውንም ወዳጅ ነው፡፡ ስለዚህ ማርያም\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4838,
+      "completion_tokens": 675,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴፰ የቅዳሜ ዉዳሴ ጸሎት",
+      "bbox": [
+        544.8022959183673,
+        106.39880952380952,
+        1959.6619897959183,
+        224.25595238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ማሕየዊ የሚያድኑን ለሆኑ ሥላሴ\nሰጊድን (መስገድን) የምታስተምሪላቸው\nሰፊ መጋረጃ አንቺ ነሽ፡፡ ሙሴ ያየውን\nየእሳት ዓምድ የተሸከምሽ አንቺ ነሽ፡፡\nይኸውም መጥቶ በማኅፀንሽ ያደረው\nየእግዚአብሔር ልጅነው፡፡ ሰማይና ምድር\nለፈጠረ ጌታ ማደሪያ ሆንሽ፡፡ ዘጠኝ ወር\nበማህፀንሽ ተሸከምሽው፡፡ ሰማይና ምድር\nለማይወስኑት የታመንሽ አንቺ ነሽ፡፡\nከምድር ወደሰማይ ለማረግ መሰላል\nሆንሽ፡፡ ብርሃንሽ ከፀሐይ ብርሃን\nይበልጣል፡፡ ቅዱሳን በፍጹም ደስታ\nያዩት ኮከብ ካንቺ የተወልደ ምሥራቅ\nአንቺ ነሽ፡፡ ይኸውም በጣርና በምጥ\nትወልድ ዘንድ በሄዋን የፈረደባት ነው፡፡\nአንቺ ማርያም ግን ጸጋን የተመላሽ\nሆይ ደስ ይበልሽ የሚል ቃልን ሰማሽና\nመጥቶ ያዳነን የፍጥረት ሁሉ ገዥ የሆነ\nንጉሥን ወለድሽልን፡፡ መሐሪ ነው፣\nሰውንም ወዳጅ ነው፡፡ ስለዚህ ማርያም",
+      "bbox": [
+        351.2755102040816,
+        315.92261904761904,
+        2436.160714285714,
+        3213.2440476190477
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 77,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴፰ የቅዳሜ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          544.8022959183673,
+          106.39880952380952,
+          1959.6619897959183,
+          224.25595238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ማሕየዊ የሚያድኑን ለሆኑ ሥላሴ\nሰጊድን (መስገድን) የምታስተምሪላቸው\nሰፊ መጋረጃ አንቺ ነሽ፡፡ ሙሴ ያየውን\nየእሳት ዓምድ የተሸከምሽ አንቺ ነሽ፡፡\nይኸውም መጥቶ በማኅፀንሽ ያደረው\nየእግዚአብሔር ልጅነው፡፡ ሰማይና ምድር\nለፈጠረ ጌታ ማደሪያ ሆንሽ፡፡ ዘጠኝ ወር\nበማህፀንሽ ተሸከምሽው፡፡ ሰማይና ምድር\nለማይወስኑት የታመንሽ አንቺ ነሽ፡፡\nከምድር ወደሰማይ ለማረግ መሰላል\nሆንሽ፡፡ ብርሃንሽ ከፀሐይ ብርሃን\nይበልጣል፡፡ ቅዱሳን በፍጹም ደስታ\nያዩት ኮከብ ካንቺ የተወልደ ምሥራቅ\nአንቺ ነሽ፡፡ ይኸውም በጣርና በምጥ\nትወልድ ዘንድ በሄዋን የፈረደባት ነው፡፡\nአንቺ ማርያም ግን ጸጋን የተመላሽ\nሆይ ደስ ይበልሽ የሚል ቃልን ሰማሽና\nመጥቶ ያዳነን የፍጥረት ሁሉ ገዥ የሆነ\nንጉሥን ወለድሽልን፡፡ መሐሪ ነው፣\nሰውንም ወዳጅ ነው፡፡ ስለዚህ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          351.2755102040816,
+          315.92261904761904,
+          2436.160714285714,
+          3213.2440476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7d825875fb3884d4188fe20e1719a19602538e39070ff5d549bd82b9e22f42cf",
+      "source_sha256": "7cf221b8d4da2409b0bb0c38bc400052b036e233cd962be7aa7f0db0cde0ac57",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_077.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 88.658,
+      "created_at": "2026-10-23T23:57:46.601905+00:00",
+      "derivative_input": false
+    }
+  }
+}

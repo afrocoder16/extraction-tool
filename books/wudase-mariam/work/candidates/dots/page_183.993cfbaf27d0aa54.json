@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-89c5a50f8a8e8e51",
+    "object": "chat.completion",
+    "created": 1792804376,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [228, 178, 864, 257], \"category\": \"Page-header\", \"text\": \"፲፱ የሰኔ ጎልጎታ\"}, {\"bbox\": [105, 312, 1431, 1118], \"category\": \"Text\", \"text\": \"ሕበላዋለሁ፡፡ ለተጠማ ያጠጣ ከመዓር ከስኳር የሚጣፍጥ ከወተት እጅግ ነጭ የሆነ ከኤዶም ገነት ከሚፈሰው የሕይወት ዉሃ አጠጣዋለሁ በስምሽ ያዘነዉን ላረጋጋ ሃዘንና ችግር በደረሰበት ጊዜ እኔ ሕረጋጋዋለሁ በልቡ ያዘነዉን የተከዘዉን ላስደሰተ ስለስምሽ ብዬ በሰማያዊ አባቴ ፌት ደስ አሰኘዋለሁ፡፡\"}, {\"bbox\": [113, 1124, 1431, 2016], \"category\": \"Text\", \"text\": \"የምስጋናሽንም መጸሀፍ ለጻፈ ያላጻፈ እኔ በሕይወት መጸሐፍ ስሙን እፅፈዋለሁ፡፡ ስለአንቺ መብራት ዘይት እጣንም ሰቤተክርስቲያን መብኣ የሰጠ እኔ ከፀሃይ ከጨረቃ ይልቅ ሰባት እጅ የሚያበራ መብራት በመንግስተ ሰማያት ሕበራለታለሁ፡፡ ንፁህ መዓዛ እጣንም ለሰጠ መዓዛዉን ሽታዉን እንደመላዕክት መዓዛ ኣያርጋዋለሁ ሳት ወይም ወንድ ልጁን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4788,
+      "completion_tokens": 625,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፱ የሰኔ ጎልጎታ",
+      "bbox": [
+        370.7908163265306,
+        291.3690476190476,
+        1405.1020408163265,
+        420.6845238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ሕበላዋለሁ፡፡ ለተጠማ ያጠጣ ከመዓር ከስኳር የሚጣፍጥ ከወተት እጅግ ነጭ የሆነ ከኤዶም ገነት ከሚፈሰው የሕይወት ዉሃ አጠጣዋለሁ በስምሽ ያዘነዉን ላረጋጋ ሃዘንና ችግር በደረሰበት ጊዜ እኔ ሕረጋጋዋለሁ በልቡ ያዘነዉን የተከዘዉን ላስደሰተ ስለስምሽ ብዬ በሰማያዊ አባቴ ፌት ደስ አሰኘዋለሁ፡፡",
+      "bbox": [
+        170.75892857142858,
+        510.7142857142857,
+        2327.200255102041,
+        1830.0595238095239
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "የምስጋናሽንም መጸሀፍ ለጻፈ ያላጻፈ እኔ በሕይወት መጸሐፍ ስሙን እፅፈዋለሁ፡፡ ስለአንቺ መብራት ዘይት እጣንም ሰቤተክርስቲያን መብኣ የሰጠ እኔ ከፀሃይ ከጨረቃ ይልቅ ሰባት እጅ የሚያበራ መብራት በመንግስተ ሰማያት ሕበራለታለሁ፡፡ ንፁህ መዓዛ እጣንም ለሰጠ መዓዛዉን ሽታዉን እንደመላዕክት መዓዛ ኣያርጋዋለሁ ሳት ወይም ወንድ ልጁን",
+      "bbox": [
+        183.76913265306123,
+        1839.8809523809523,
+        2327.200255102041,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 183,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፱ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          370.7908163265306,
+          291.3690476190476,
+          1405.1020408163265,
+          420.6845238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሕበላዋለሁ፡፡ ለተጠማ ያጠጣ ከመዓር ከስኳር የሚጣፍጥ ከወተት እጅግ ነጭ የሆነ ከኤዶም ገነት ከሚፈሰው የሕይወት ዉሃ አጠጣዋለሁ በስምሽ ያዘነዉን ላረጋጋ ሃዘንና ችግር በደረሰበት ጊዜ እኔ ሕረጋጋዋለሁ በልቡ ያዘነዉን የተከዘዉን ላስደሰተ ስለስምሽ ብዬ በሰማያዊ አባቴ ፌት ደስ አሰኘዋለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          170.75892857142858,
+          510.7142857142857,
+          2327.200255102041,
+          1830.0595238095239
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የምስጋናሽንም መጸሀፍ ለጻፈ ያላጻፈ እኔ በሕይወት መጸሐፍ ስሙን እፅፈዋለሁ፡፡ ስለአንቺ መብራት ዘይት እጣንም ሰቤተክርስቲያን መብኣ የሰጠ እኔ ከፀሃይ ከጨረቃ ይልቅ ሰባት እጅ የሚያበራ መብራት በመንግስተ ሰማያት ሕበራለታለሁ፡፡ ንፁህ መዓዛ እጣንም ለሰጠ መዓዛዉን ሽታዉን እንደመላዕክት መዓዛ ኣያርጋዋለሁ ሳት ወይም ወንድ ልጁን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          183.76913265306123,
+          1839.8809523809523,
+          2327.200255102041,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "993cfbaf27d0aa5460ea01efe6891470ccb18c7d221954e78f4db1d771a5b33d",
+      "source_sha256": "6132f44d3035666784a44b759de93a4e658fe81d54b9c09ba7f22ad68cf86932",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_183.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.794,
+      "created_at": "2026-10-24T01:14:17.965572+00:00",
+      "derivative_input": false
+    }
+  }
+}

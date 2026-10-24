@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8cb7e8bb68ffbec3",
+    "object": "chat.completion",
+    "created": 1792803818,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [263, 164, 877, 245], \"category\": \"Page-header\", \"text\": \"፲፫ የሰኔ ጎልጎታ\"}, {\"bbox\": [136, 302, 1416, 765], \"category\": \"Text\", \"text\": \"ማህያዊ በሚሆን በአንተ ስልጣን የሀጠያትን ስር ቆራርጦ የሚጥል ነፍስን ከስጋ የሚለይ ስሁል ነበልባላዊ በሆነ መንፈስ ቅዱስ ቃል የተፈተኑና ነፃ የወጡ ይሆኑ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [136, 776, 1416, 2016], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ጸሎቴንና ልመናዬን ሰምተህ ወደኔ ትመጣ ዘንድ እለምንሃለሁ፡፡ እማልድሃለሁ፡፡ ከመዓር ከወተት ይልቅ ስሟ ጣፋጭ የሆነ አምላክን የወለደች የብርሃን እናቱ እመቤታችን ማርያም እንደዚህ ብላ በፀለየች ጊዜ ምድር ተነዋወጠች ድንጋዮች (አለቶች) ተሰነጣጠቁ መቃብራትና የተዘጉ በሮችም ተከፈቱ፡፡ በዚህ ጊዜ ዘጠና ዘጠኙ ነገደ መላእክት ከአለቆቻቸው ጋር ከሰማይ ወርደው በግራ በቀኝ ቆሙ ጌታ ኢየሱስ ክርስቶስም ከፀሀይና ከጨረቃ ሰባት እጅ አብርቶ አራቱ ብርሃናት\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4835,
+      "completion_tokens": 672,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፫ የሰኔ ጎልጎታ",
+      "bbox": [
+        427.7104591836735,
+        268.45238095238096,
+        1426.2436224489795,
+        401.0416666666667
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ማህያዊ በሚሆን በአንተ ስልጣን የሀጠያትን ስር ቆራርጦ የሚጥል ነፍስን ከስጋ የሚለይ ስሁል ነበልባላዊ በሆነ መንፈስ ቅዱስ ቃል የተፈተኑና ነፃ የወጡ ይሆኑ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        221.1734693877551,
+        494.3452380952381,
+        2302.8061224489797,
+        1252.232142857143
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ጸሎቴንና ልመናዬን ሰምተህ ወደኔ ትመጣ ዘንድ እለምንሃለሁ፡፡ እማልድሃለሁ፡፡ ከመዓር ከወተት ይልቅ ስሟ ጣፋጭ የሆነ አምላክን የወለደች የብርሃን እናቱ እመቤታችን ማርያም እንደዚህ ብላ በፀለየች ጊዜ ምድር ተነዋወጠች ድንጋዮች (አለቶች) ተሰነጣጠቁ መቃብራትና የተዘጉ በሮችም ተከፈቱ፡፡ በዚህ ጊዜ ዘጠና ዘጠኙ ነገደ መላእክት ከአለቆቻቸው ጋር ከሰማይ ወርደው በግራ በቀኝ ቆሙ ጌታ ኢየሱስ ክርስቶስም ከፀሀይና ከጨረቃ ሰባት እጅ አብርቶ አራቱ ብርሃናት",
+      "bbox": [
+        221.1734693877551,
+        1270.2380952380952,
+        2302.8061224489797,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 171,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፫ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          427.7104591836735,
+          268.45238095238096,
+          1426.2436224489795,
+          401.0416666666667
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ማህያዊ በሚሆን በአንተ ስልጣን የሀጠያትን ስር ቆራርጦ የሚጥል ነፍስን ከስጋ የሚለይ ስሁል ነበልባላዊ በሆነ መንፈስ ቅዱስ ቃል የተፈተኑና ነፃ የወጡ ይሆኑ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          221.1734693877551,
+          494.3452380952381,
+          2302.8061224489797,
+          1252.232142857143
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ጸሎቴንና ልመናዬን ሰምተህ ወደኔ ትመጣ ዘንድ እለምንሃለሁ፡፡ እማልድሃለሁ፡፡ ከመዓር ከወተት ይልቅ ስሟ ጣፋጭ የሆነ አምላክን የወለደች የብርሃን እናቱ እመቤታችን ማርያም እንደዚህ ብላ በፀለየች ጊዜ ምድር ተነዋወጠች ድንጋዮች (አለቶች) ተሰነጣጠቁ መቃብራትና የተዘጉ በሮችም ተከፈቱ፡፡ በዚህ ጊዜ ዘጠና ዘጠኙ ነገደ መላእክት ከአለቆቻቸው ጋር ከሰማይ ወርደው በግራ በቀኝ ቆሙ ጌታ ኢየሱስ ክርስቶስም ከፀሀይና ከጨረቃ ሰባት እጅ አብርቶ አራቱ ብርሃናት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          221.1734693877551,
+          1270.2380952380952,
+          2302.8061224489797,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "6f8ef79939a0426cfac0abc16f805cdcbf2e640c885cd51aae6be4c4d1602da7",
+      "source_sha256": "f47c5b1569a33bdcecd0c51c1c5bb87815ddd2c40afbb179e2e4af06d1728508",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_171.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 88.391,
+      "created_at": "2026-10-24T01:05:04.651833+00:00",
+      "derivative_input": false
+    }
+  }
+}

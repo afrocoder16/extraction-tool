@@ -1,0 +1,257 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b65d24d325bc3867",
+    "object": "chat.completion",
+    "created": 1792803394,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [247, 166, 876, 243], \"category\": \"Page-header\", \"text\": \"፱ የሰኔ ጎልጎታ\"}, {\"bbox\": [118, 301, 1425, 577], \"category\": \"Text\", \"text\": \"በጨረቃ ውስጥ በሚመላለሱ ብርሃናዊያን መላእክት ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [121, 586, 1428, 1261], \"category\": \"Text\", \"text\": \"ልጄ ወዳጄ ሆይ፤ በእሳት ውስጥ በሚመላለሱ እሳታዊያን መላእክት ቃልኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\\nልጄ ወዳጄ ሆይ፤ በሰማይ ተድላ መንበርህና የእግርህ መረገጫ በሆነ በምድር ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [125, 1276, 1437, 1655], \"category\": \"Text\", \"text\": \"ልጄ ወዳጄ ሆይ፤ በኢየሩሳሌም ሰማያዊት ሀገርህ ብርሀነ መለኮትህ በተገለጠበት ደብረ ታቦር ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [131, 1662, 1437, 1947], \"category\": \"Text\", \"text\": \"ልጄ ወዳጄ ሆይ፤ በደብረ ዘይት በብአተ መንግስትህ በደብረፅዮንም ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [211, 1953, 1437, 2016], \"category\": \"Text\", \"text\": \"ለጀ ወዳጀ ሆይ፤ ሥርዓት ጥምቀትን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4854,
+      "completion_tokens": 691,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፱ የሰኔ ጎልጎታ",
+      "bbox": [
+        401.6900510204082,
+        271.7261904761905,
+        1424.6173469387754,
+        397.76785714285717
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "በጨረቃ ውስጥ በሚመላለሱ ብርሃናዊያን መላእክት ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        191.90051020408163,
+        492.7083333333333,
+        2317.4426020408164,
+        944.4940476190476
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጄ ወዳጄ ሆይ፤ በእሳት ውስጥ በሚመላለሱ እሳታዊያን መላእክት ቃልኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\nልጄ ወዳጄ ሆይ፤ በሰማይ ተድላ መንበርህና የእግርህ መረገጫ በሆነ በምድር ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        196.77933673469389,
+        959.2261904761905,
+        2322.3214285714284,
+        2064.1369047619046
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጄ ወዳጄ ሆይ፤ በኢየሩሳሌም ሰማያዊት ሀገርህ ብርሀነ መለኮትህ በተገለጠበት ደብረ ታቦር ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        203.2844387755102,
+        2088.690476190476,
+        2336.9579081632655,
+        2709.0773809523807
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ልጄ ወዳጄ ሆይ፤ በደብረ ዘይት በብአተ መንግስትህ በደብረፅዮንም ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        213.0420918367347,
+        2720.535714285714,
+        2336.9579081632655,
+        3187.0535714285716
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "ለጀ ወዳጀ ሆይ፤ ሥርዓት ጥምቀትን",
+      "bbox": [
+        343.1441326530612,
+        3196.875,
+        2336.9579081632655,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 163,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          401.6900510204082,
+          271.7261904761905,
+          1424.6173469387754,
+          397.76785714285717
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በጨረቃ ውስጥ በሚመላለሱ ብርሃናዊያን መላእክት ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          191.90051020408163,
+          492.7083333333333,
+          2317.4426020408164,
+          944.4940476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጄ ወዳጄ ሆይ፤ በእሳት ውስጥ በሚመላለሱ እሳታዊያን መላእክት ቃልኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\nልጄ ወዳጄ ሆይ፤ በሰማይ ተድላ መንበርህና የእግርህ መረገጫ በሆነ በምድር ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          196.77933673469389,
+          959.2261904761905,
+          2322.3214285714284,
+          2064.1369047619046
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጄ ወዳጄ ሆይ፤ በኢየሩሳሌም ሰማያዊት ሀገርህ ብርሀነ መለኮትህ በተገለጠበት ደብረ ታቦር ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          203.2844387755102,
+          2088.690476190476,
+          2336.9579081632655,
+          2709.0773809523807
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጄ ወዳጄ ሆይ፤ በደብረ ዘይት በብአተ መንግስትህ በደብረፅዮንም ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          213.0420918367347,
+          2720.535714285714,
+          2336.9579081632655,
+          3187.0535714285716
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ለጀ ወዳጀ ሆይ፤ ሥርዓት ጥምቀትን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          343.1441326530612,
+          3196.875,
+          2336.9579081632655,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "073fb829c669915502cf86935dc94d8192e0b600be62515b01d4b40cf76dc349",
+      "source_sha256": "849451b9a71ae6a857b0f9e3f5d48509c61d7371e58869e7ba44134548c3219c",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_163.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 90.524,
+      "created_at": "2026-10-24T00:58:02.786223+00:00",
+      "derivative_input": false
+    }
+  }
+}

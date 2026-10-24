@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bf7b02101bdb9b78",
+    "object": "chat.completion",
+    "created": 1792796808,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [193, 170, 945, 247], \"category\": \"Page-header\", \"text\": \"፫ የዘወትር ጸሎት\"}, {\"bbox\": [65, 301, 1357, 923], \"category\": \"Text\", \"text\": \"አንቺ የተባረክሽ ነሽና የማኅፀንሽም ፍሬ\\nየተባረከ ነው:: ፀጋን የተመላሽ ድንግል\\nሆይ ደስ ይበልሽ እግዚአብሔር ካንቺ\\nጋር ነውና ከተወደደው ልጅሽ ከጌታችን\\nከመድኃኒታችን ከኢየሱስ ክርስቶስ\\nዘንድ ይቅርታን ለምኝልን ኃጢአታችንን\\nያስተሰርይልን ዘንድ አሜን፡፡\"}, {\"bbox\": [444, 1011, 1147, 1103], \"category\": \"Section-header\", \"text\": \"የሃይማኖት ጸሎት፡፡\"}, {\"bbox\": [71, 1167, 1360, 1954], \"category\": \"Text\", \"text\": \"፭ ሁሉን የፈጠረ አንድ አምላክ\\nበሚሆን በእግዚአብሔር አብ እናምናለን፡፡\\nሰማይንና ምድርን የፈጠረ የሚታየውንና\\nየማይታየውን ዓለም ሳይፈጠር ከርሱ ጋር\\nበነበረ አንድ የአብ ልጅ በሚሆን በአንድ\\nጌታ በኢየሱስ ክርስቶስ እናምናለን፡\\n: ከብርሃን የተገኘ ብርሃን ከእውነተኛ\\nአምላክ የተገኘ እውነተኛ አምላክ\\nየተወለደ እንጂ ያልተፈጠረ በባሕርዩ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4812,
+      "completion_tokens": 649,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፫ የዘወትር ጸሎት",
+      "bbox": [
+        313.87117346938777,
+        278.2738095238095,
+        1536.830357142857,
+        404.3154761904762
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "አንቺ የተባረክሽ ነሽና የማኅፀንሽም ፍሬ\nየተባረከ ነው:: ፀጋን የተመላሽ ድንግል\nሆይ ደስ ይበልሽ እግዚአብሔር ካንቺ\nጋር ነውና ከተወደደው ልጅሽ ከጌታችን\nከመድኃኒታችን ከኢየሱስ ክርስቶስ\nዘንድ ይቅርታን ለምኝልን ኃጢአታችንን\nያስተሰርይልን ዘንድ አሜን፡፡",
+      "bbox": [
+        105.7079081632653,
+        492.7083333333333,
+        2206.855867346939,
+        1510.8630952380952
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Section-header",
+      "text": "የሃይማኖት ጸሎት፡፡",
+      "bbox": [
+        722.0663265306123,
+        1654.9107142857142,
+        1865.3380102040817,
+        1805.5059523809523
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፭ ሁሉን የፈጠረ አንድ አምላክ\nበሚሆን በእግዚአብሔር አብ እናምናለን፡፡\nሰማይንና ምድርን የፈጠረ የሚታየውንና\nየማይታየውን ዓለም ሳይፈጠር ከርሱ ጋር\nበነበረ አንድ የአብ ልጅ በሚሆን በአንድ\nጌታ በኢየሱስ ክርስቶስ እናምናለን፡\n: ከብርሃን የተገኘ ብርሃን ከእውነተኛ\nአምላክ የተገኘ እውነተኛ አምላክ\nየተወለደ እንጂ ያልተፈጠረ በባሕርዩ",
+      "bbox": [
+        115.46556122448979,
+        1910.267857142857,
+        2211.734693877551,
+        3198.5119047619046
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 7,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ የዘወትር ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          313.87117346938777,
+          278.2738095238095,
+          1536.830357142857,
+          404.3154761904762
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አንቺ የተባረክሽ ነሽና የማኅፀንሽም ፍሬ\nየተባረከ ነው:: ፀጋን የተመላሽ ድንግል\nሆይ ደስ ይበልሽ እግዚአብሔር ካንቺ\nጋር ነውና ከተወደደው ልጅሽ ከጌታችን\nከመድኃኒታችን ከኢየሱስ ክርስቶስ\nዘንድ ይቅርታን ለምኝልን ኃጢአታችንን\nያስተሰርይልን ዘንድ አሜን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          105.7079081632653,
+          492.7083333333333,
+          2206.855867346939,
+          1510.8630952380952
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የሃይማኖት ጸሎት፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          722.0663265306123,
+          1654.9107142857142,
+          1865.3380102040817,
+          1805.5059523809523
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ ሁሉን የፈጠረ አንድ አምላክ\nበሚሆን በእግዚአብሔር አብ እናምናለን፡፡\nሰማይንና ምድርን የፈጠረ የሚታየውንና\nየማይታየውን ዓለም ሳይፈጠር ከርሱ ጋር\nበነበረ አንድ የአብ ልጅ በሚሆን በአንድ\nጌታ በኢየሱስ ክርስቶስ እናምናለን፡\n: ከብርሃን የተገኘ ብርሃን ከእውነተኛ\nአምላክ የተገኘ እውነተኛ አምላክ\nየተወለደ እንጂ ያልተፈጠረ በባሕርዩ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          115.46556122448979,
+          1910.267857142857,
+          2211.734693877551,
+          3198.5119047619046
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7a4c64bbc714ae67ff3f7e12eded5968f9cf916813e5b6377fb3db106d17fc87",
+      "source_sha256": "62e94939dbc832f60365fda1a5aa08b8734cd77ba3ff4f08b461f916aae0e6e1",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_007.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.641,
+      "created_at": "2026-10-23T23:08:12.150498+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b1161fed654ff680",
+    "object": "chat.completion",
+    "created": 1792799103,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [344, 181, 1355, 274], \"category\": \"Page-header\", \"text\": \"፴ የሐሙስ ውዳሴ ማርያም\"}, {\"bbox\": [208, 317, 1534, 711], \"category\": \"Text\", \"text\": \"ለተቀበለው መዳኛችን ለሆነ ሞቱም ከርቤ አመጡለት፡፡ ዸር ሰውን ወዳጅ የሆነ አንድ እርሱ ብቻ ነው ፡፡ ቅድስት ሆይ ልምኝልን።\"}, {\"bbox\": [194, 725, 1534, 2016], \"category\": \"Text\", \"text\": \"፭ ከአዳም ጎን አንዲት ዐፅም ማንሣት ምን ይደንቅ? ከእርሱ ሴትን ፈጠረ የሰው ፍጥረትንም ሁሉ ፈጠረ፡፡ ጌታ የአብ ቃል ተሰጠ፡፡ ከልዩ ድንግልም ሰው ሆነና አማኑኤል ተባለ ስለዚህ ሁል ጊዜ እርስዋን እንለምን፣ ከተወደደ ልጅዋ ታማልደን ዘንድ፡፡ በቅዱሳንና በሲቃነ ጳጳሳት ሁሉ ዘንድ ዸር ናት ደጅ የሚጠኑትን ወልዳላቸዋለችና ለነቢያትም ትንቢት የተናገሩለትን ወልዳላቸዋለችና ለሐዋርያትም እስከ ዓለም ዳርቻ በስሙ ያስተማሩለትን ወልዳላቸዋለችና ስማዕታትና ምዕመናንም ይቁጋያሉለትን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4787,
+      "completion_tokens": 624,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴ የሐሙስ ውዳሴ ማርያም",
+      "bbox": [
+        559.4387755102041,
+        296.2797619047619,
+        2203.6033163265306,
+        448.51190476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ለተቀበለው መዳኛችን ለሆነ ሞቱም ከርቤ አመጡለት፡፡ ዸር ሰውን ወዳጅ የሆነ አንድ እርሱ ብቻ ነው ፡፡ ቅድስት ሆይ ልምኝልን።",
+      "bbox": [
+        338.265306122449,
+        518.8988095238095,
+        2494.706632653061,
+        1163.8392857142858
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፭ ከአዳም ጎን አንዲት ዐፅም ማንሣት ምን ይደንቅ? ከእርሱ ሴትን ፈጠረ የሰው ፍጥረትንም ሁሉ ፈጠረ፡፡ ጌታ የአብ ቃል ተሰጠ፡፡ ከልዩ ድንግልም ሰው ሆነና አማኑኤል ተባለ ስለዚህ ሁል ጊዜ እርስዋን እንለምን፣ ከተወደደ ልጅዋ ታማልደን ዘንድ፡፡ በቅዱሳንና በሲቃነ ጳጳሳት ሁሉ ዘንድ ዸር ናት ደጅ የሚጠኑትን ወልዳላቸዋለችና ለነቢያትም ትንቢት የተናገሩለትን ወልዳላቸዋለችና ለሐዋርያትም እስከ ዓለም ዳርቻ በስሙ ያስተማሩለትን ወልዳላቸዋለችና ስማዕታትና ምዕመናንም ይቁጋያሉለትን",
+      "bbox": [
+        315.4974489795918,
+        1186.7559523809523,
+        2494.706632653061,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 61,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴ የሐሙስ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          559.4387755102041,
+          296.2797619047619,
+          2203.6033163265306,
+          448.51190476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ለተቀበለው መዳኛችን ለሆነ ሞቱም ከርቤ አመጡለት፡፡ ዸር ሰውን ወዳጅ የሆነ አንድ እርሱ ብቻ ነው ፡፡ ቅድስት ሆይ ልምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          338.265306122449,
+          518.8988095238095,
+          2494.706632653061,
+          1163.8392857142858
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ ከአዳም ጎን አንዲት ዐፅም ማንሣት ምን ይደንቅ? ከእርሱ ሴትን ፈጠረ የሰው ፍጥረትንም ሁሉ ፈጠረ፡፡ ጌታ የአብ ቃል ተሰጠ፡፡ ከልዩ ድንግልም ሰው ሆነና አማኑኤል ተባለ ስለዚህ ሁል ጊዜ እርስዋን እንለምን፣ ከተወደደ ልጅዋ ታማልደን ዘንድ፡፡ በቅዱሳንና በሲቃነ ጳጳሳት ሁሉ ዘንድ ዸር ናት ደጅ የሚጠኑትን ወልዳላቸዋለችና ለነቢያትም ትንቢት የተናገሩለትን ወልዳላቸዋለችና ለሐዋርያትም እስከ ዓለም ዳርቻ በስሙ ያስተማሩለትን ወልዳላቸዋለችና ስማዕታትና ምዕመናንም ይቁጋያሉለትን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          315.4974489795918,
+          1186.7559523809523,
+          2494.706632653061,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "a893724cb6a8002b4ea1bd79cbef0068a8dca85a1f111054f5649c75d67e9dd3",
+      "source_sha256": "949c411701a00f4c4b696de59668325f84ce3af5a0a9e21265d33035beca6434",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_061.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 83.051,
+      "created_at": "2026-10-23T23:46:24.138385+00:00",
+      "derivative_input": false
+    }
+  }
+}

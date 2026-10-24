@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-92a5b540bfb424c1",
+    "object": "chat.completion",
+    "created": 1792803366,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [166, 0, 1476, 166], \"category\": \"Text\", \"text\": \"ልጴ ወዳጴ ሆይ፤ ተራሮችና ኮረብቶች\\nከመፈጠራቸው አስቀድሞ በፀሐይና\"}, {\"bbox\": [418, 259, 1094, 324], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4300,
+      "completion_tokens": 137,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "ልጴ ወዳጴ ሆይ፤ ተራሮችና ኮረብቶች\nከመፈጠራቸው አስቀድሞ በፀሐይና",
+      "bbox": [
+        269.96173469387753,
+        0.0,
+        2400.3826530612246,
+        271.7261904761905
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        679.7831632653061,
+        423.9583333333333,
+        1779.1454081632653,
+        530.3571428571429
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 162,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጴ ወዳጴ ሆይ፤ ተራሮችና ኮረብቶች\nከመፈጠራቸው አስቀድሞ በፀሐይና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          269.96173469387753,
+          0.0,
+          2400.3826530612246,
+          271.7261904761905
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          679.7831632653061,
+          423.9583333333333,
+          1779.1454081632653,
+          530.3571428571429
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "11a309c296a76132b67d790525c645cfb7ade2b16a86f03abf0c102f812e2dd9",
+      "source_sha256": "357a82397b582a88db17dc435dcdf43bf306af3628b2e4be001a28c4b5d2ecd4",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_162.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 26.606,
+      "created_at": "2026-10-24T00:56:32.234262+00:00",
+      "derivative_input": false
+    }
+  }
+}

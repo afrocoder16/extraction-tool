@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b3690173e32e3839",
+    "object": "chat.completion",
+    "created": 1792800120,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [356, 103, 1221, 184], \"category\": \"Page-header\", \"text\": \"፵፪ የእሁድ ዉዳሴ ጸሎት\"}, {\"bbox\": [247, 236, 1522, 798], \"category\": \"Text\", \"text\": \"የአብ ቃል በርስዋ ሰው ሆነ መጥቶ\\nያዳነን የባሕርይ ንጉሥን በዓለም ውስጥ\\nየወደችው የሚናገር በግ የክርስቶስ እናቱ\\nገነት ደስ ይላታል ለዘለዓለም የሚኖር\\nየአብ ልጅ እርሱ መጥቶ ከኃጢአት\\nኢድኖናልና፡፡ ቅድስት ሆይ ለምኝልን፡፡\"}, {\"bbox\": [251, 795, 1532, 1366], \"category\": \"Text\", \"text\": \"፳ የንጉስ ክርስቶስ እናቱን ተባልሽ\\nእርሱን ከወለድሽ በኋላም በድንግልና\\nኖርሽ፡፡ ድንቅ በሆነ ምሥጢርም\\n(ተዋህዶ) አማኑኤልን ወለድሽው\\nስለዚህም ባለመለወጥ አጸናሽ፡፡ ቅድስት\\nሆይ ለምኝልን፡፡\"}, {\"bbox\": [256, 1358, 1541, 2016], \"category\": \"Text\", \"text\": \"፱ እግዚአብሔር በላይዋ ተቀምጦባት\\nያዕቆብ ያያት መሰላል አንቺ ነሽ በሁሉ\\nበኩል የማይመረመር እርሱን ተፈትሖ\\nበሌለበት ማኅፀንሽ ተሸክመሽዋልና፡፡\\nእኛን ስለማዳን ካንቺ ሰው በሆነ በጌታችን\\nበኢየሱስ ክርስቶስ ዘንድ አማላጅ\\nሆንሽን፡፡ቅድስት ሆይ ለምኝልን፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4859,
+      "completion_tokens": 696,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፵፪ የእሁድ ዉዳሴ ጸሎት",
+      "bbox": [
+        578.954081632653,
+        168.60119047619048,
+        1985.6823979591836,
+        301.1904761904762
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "የአብ ቃል በርስዋ ሰው ሆነ መጥቶ\nያዳነን የባሕርይ ንጉሥን በዓለም ውስጥ\nየወደችው የሚናገር በግ የክርስቶስ እናቱ\nገነት ደስ ይላታል ለዘለዓለም የሚኖር\nየአብ ልጅ እርሱ መጥቶ ከኃጢአት\nኢድኖናልና፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        401.6900510204082,
+        386.3095238095238,
+        2475.191326530612,
+        1306.25
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፳ የንጉስ ክርስቶስ እናቱን ተባልሽ\nእርሱን ከወለድሽ በኋላም በድንግልና\nኖርሽ፡፡ ድንቅ በሆነ ምሥጢርም\n(ተዋህዶ) አማኑኤልን ወለድሽው\nስለዚህም ባለመለወጥ አጸናሽ፡፡ ቅድስት\nሆይ ለምኝልን፡፡",
+      "bbox": [
+        408.1951530612245,
+        1301.3392857142858,
+        2491.454081632653,
+        2236.0119047619046
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፱ እግዚአብሔር በላይዋ ተቀምጦባት\nያዕቆብ ያያት መሰላል አንቺ ነሽ በሁሉ\nበኩል የማይመረመር እርሱን ተፈትሖ\nበሌለበት ማኅፀንሽ ተሸክመሽዋልና፡፡\nእኛን ስለማዳን ካንቺ ሰው በሆነ በጌታችን\nበኢየሱስ ክርስቶስ ዘንድ አማላጅ\nሆንሽን፡፡ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        416.3265306122449,
+        2222.9166666666665,
+        2506.0905612244896,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 85,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፵፪ የእሁድ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          578.954081632653,
+          168.60119047619048,
+          1985.6823979591836,
+          301.1904761904762
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የአብ ቃል በርስዋ ሰው ሆነ መጥቶ\nያዳነን የባሕርይ ንጉሥን በዓለም ውስጥ\nየወደችው የሚናገር በግ የክርስቶስ እናቱ\nገነት ደስ ይላታል ለዘለዓለም የሚኖር\nየአብ ልጅ እርሱ መጥቶ ከኃጢአት\nኢድኖናልና፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          401.6900510204082,
+          386.3095238095238,
+          2475.191326530612,
+          1306.25
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳ የንጉስ ክርስቶስ እናቱን ተባልሽ\nእርሱን ከወለድሽ በኋላም በድንግልና\nኖርሽ፡፡ ድንቅ በሆነ ምሥጢርም\n(ተዋህዶ) አማኑኤልን ወለድሽው\nስለዚህም ባለመለወጥ አጸናሽ፡፡ ቅድስት\nሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          408.1951530612245,
+          1301.3392857142858,
+          2491.454081632653,
+          2236.0119047619046
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱ እግዚአብሔር በላይዋ ተቀምጦባት\nያዕቆብ ያያት መሰላል አንቺ ነሽ በሁሉ\nበኩል የማይመረመር እርሱን ተፈትሖ\nበሌለበት ማኅፀንሽ ተሸክመሽዋልና፡፡\nእኛን ስለማዳን ካንቺ ሰው በሆነ በጌታችን\nበኢየሱስ ክርስቶስ ዘንድ አማላጅ\nሆንሽን፡፡ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          416.3265306122449,
+          2222.9166666666665,
+          2506.0905612244896,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "1548f4f37a6c56ce84de25963c0a77a54526ec6cdca3509d69acc129b7270eef",
+      "source_sha256": "4c451f2ddef477aa45f2b4992a39318ee204c0d54d0da5d82bf4fdd3506a38c8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_085.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 91.188,
+      "created_at": "2026-10-24T00:03:30.212905+00:00",
+      "derivative_input": false
+    }
+  }
+}

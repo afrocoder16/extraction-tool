@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9894cb7afcb42764",
+    "object": "chat.completion",
+    "created": 1792802164,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [253, 161, 944, 231], \"category\": \"Page-header\", \"text\": \"፳፮ አንቀጸ ብርሃን\"}, {\"bbox\": [132, 291, 1485, 1261], \"category\": \"Text\", \"text\": \"እርሱን አባቱን መንፈስ ቅዱስንም በማመን በቀናች ሀይማኖት ያጸናን ዘንድ ይቅርታውንና ምህረቱን ይሰጠን ዘንድ በምህረቱ ብዛት ኃጢአታችንን ያስተሰርይልን ዘንድ የሁሉን ጌታ የወለድሽው ሆይ ምስጋና ይገባሻል፡፡ ዛሬም ዘወትርም ለዘላለምም ምስጋናና ክብር ለአብ ለወልድ ለመንፈስ ቅዱስ ይገባል አሜን፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡\"}, {\"bbox\": [132, 1371, 1485, 1953], \"category\": \"Text\", \"text\": \"፲፭. በቅዱስ ኤፍሬምና በኢቶጽያዊው ቅዱስ ያሬድ ላይ ያደረ አምላክን የወለደች የእመቤታችን ድንግል ማሪያም ልመናዋ ክብሯ የልጅዋም ቸርነት ከወዳጅዋ................ጋር ለዘላለም ይኑር አሜን፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4721,
+      "completion_tokens": 558,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፮ አንቀጸ ብርሃን",
+      "bbox": [
+        411.44770408163265,
+        263.5416666666667,
+        1535.204081632653,
+        378.125
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "እርሱን አባቱን መንፈስ ቅዱስንም በማመን በቀናች ሀይማኖት ያጸናን ዘንድ ይቅርታውንና ምህረቱን ይሰጠን ዘንድ በምህረቱ ብዛት ኃጢአታችንን ያስተሰርይልን ዘንድ የሁሉን ጌታ የወለድሽው ሆይ ምስጋና ይገባሻል፡፡ ዛሬም ዘወትርም ለዘላለምም ምስጋናና ክብር ለአብ ለወልድ ለመንፈስ ቅዱስ ይገባል አሜን፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+      "bbox": [
+        214.66836734693877,
+        476.3392857142857,
+        2415.019132653061,
+        2064.1369047619046
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፭. በቅዱስ ኤፍሬምና በኢቶጽያዊው ቅዱስ ያሬድ ላይ ያደረ አምላክን የወለደች የእመቤታችን ድንግል ማሪያም ልመናዋ ክብሯ የልጅዋም ቸርነት ከወዳጅዋ................ጋር ለዘላለም ይኑር አሜን፡፡",
+      "bbox": [
+        214.66836734693877,
+        2244.1964285714284,
+        2415.019132653061,
+        3196.875
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 133,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፮ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          411.44770408163265,
+          263.5416666666667,
+          1535.204081632653,
+          378.125
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እርሱን አባቱን መንፈስ ቅዱስንም በማመን በቀናች ሀይማኖት ያጸናን ዘንድ ይቅርታውንና ምህረቱን ይሰጠን ዘንድ በምህረቱ ብዛት ኃጢአታችንን ያስተሰርይልን ዘንድ የሁሉን ጌታ የወለድሽው ሆይ ምስጋና ይገባሻል፡፡ ዛሬም ዘወትርም ለዘላለምም ምስጋናና ክብር ለአብ ለወልድ ለመንፈስ ቅዱስ ይገባል አሜን፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          214.66836734693877,
+          476.3392857142857,
+          2415.019132653061,
+          2064.1369047619046
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፭. በቅዱስ ኤፍሬምና በኢቶጽያዊው ቅዱስ ያሬድ ላይ ያደረ አምላክን የወለደች የእመቤታችን ድንግል ማሪያም ልመናዋ ክብሯ የልጅዋም ቸርነት ከወዳጅዋ................ጋር ለዘላለም ይኑር አሜን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          214.66836734693877,
+          2244.1964285714284,
+          2415.019132653061,
+          3196.875
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "a252cd4757534c129a9427fab78f2bd17bb26d6d959fa624ec80959fb5a399f6",
+      "source_sha256": "6d9c1d8d702b416036dd0cb60115dfaa2662d4edcd425551224df5392d999db4",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_133.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 75.589,
+      "created_at": "2026-10-24T00:37:17.519614+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bdc3fe2a007bdbe8",
+    "object": "chat.completion",
+    "created": 1792796916,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [353, 225, 393, 283], \"category\": \"Page-header\", \"text\": \"፬\"}, {\"bbox\": [647, 211, 1106, 291], \"category\": \"Page-header\", \"text\": \"የዘወትር ጸሎት\"}, {\"bbox\": [204, 336, 1513, 2016], \"category\": \"Text\", \"text\": \"ያለርሱ ምንም ምን የሆነ የለም ስለኛ\\nስለሰዎች እኛን ለማዳን ከሰማይ ወረደ\\nበመንፈስ ቅዱስ ግብር ከቅድስት ድንግል\\nማርያም ፍጹም ሰው ሆነ፣ ደግሞ ስለኛ\\nተሰቀለ በጴንጤናዊው በጲላጦስ ዘመን\\nእርሱ መከራን ተቀበለ ሞተ ተቀበረ\\nበሦስተኛውም ቀን ከሙታን ተለይቶ\\nተሰሣ፣ በቅዱሳት መጻሕፍት እንደተጻፈ\\nበክብር በምስጋና ወደሰማይ ዐረገ፡፡\\nበአባቱም ቀኝ ተቀመጠ፣ ዳግመኛም\\nበሕያዋንና በሙታን ለመፍረድ\\nበምስጋና ይመጣል፡፡ ለመንግሥቱም\\nፍጻሜ የለውም፡፡ በመንፈስ ቅዱስም\\nእናምናለን እርሱም ጌታ ሕይወትን\\nየሚሰጥ ከአብ የሠረፀ ከአብ ከወልድ\\nጋራ በአንድነት እንሰግድለታለን\\nእናመሰግነዋለን እርሱም በነቢያት አድሮ\\nየተናገረ ነው፡፡ ከሁሉም በላይ በምትሆን\\nሐዋርያት በሠሯት በአንዴት ክብርቅ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4817,
+      "completion_tokens": 654,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፬",
+      "bbox": [
+        574.0752551020408,
+        368.30357142857144,
+        639.1262755102041,
+        463.2440476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Page-header",
+      "text": "የዘወትር ጸሎት",
+      "bbox": [
+        1052.2002551020407,
+        345.38690476190476,
+        1798.6607142857142,
+        476.3392857142857
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ያለርሱ ምንም ምን የሆነ የለም ስለኛ\nስለሰዎች እኛን ለማዳን ከሰማይ ወረደ\nበመንፈስ ቅዱስ ግብር ከቅድስት ድንግል\nማርያም ፍጹም ሰው ሆነ፣ ደግሞ ስለኛ\nተሰቀለ በጴንጤናዊው በጲላጦስ ዘመን\nእርሱ መከራን ተቀበለ ሞተ ተቀበረ\nበሦስተኛውም ቀን ከሙታን ተለይቶ\nተሰሣ፣ በቅዱሳት መጻሕፍት እንደተጻፈ\nበክብር በምስጋና ወደሰማይ ዐረገ፡፡\nበአባቱም ቀኝ ተቀመጠ፣ ዳግመኛም\nበሕያዋንና በሙታን ለመፍረድ\nበምስጋና ይመጣል፡፡ ለመንግሥቱም\nፍጻሜ የለውም፡፡ በመንፈስ ቅዱስም\nእናምናለን እርሱም ጌታ ሕይወትን\nየሚሰጥ ከአብ የሠረፀ ከአብ ከወልድ\nጋራ በአንድነት እንሰግድለታለን\nእናመሰግነዋለን እርሱም በነቢያት አድሮ\nየተናገረ ነው፡፡ ከሁሉም በላይ በምትሆን\nሐዋርያት በሠሯት በአንዴት ክብርቅ",
+      "bbox": [
+        331.76020408163265,
+        550.0,
+        2460.5548469387754,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 9,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          574.0752551020408,
+          368.30357142857144,
+          639.1262755102041,
+          463.2440476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የዘወትር ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          1052.2002551020407,
+          345.38690476190476,
+          1798.6607142857142,
+          476.3392857142857
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ያለርሱ ምንም ምን የሆነ የለም ስለኛ\nስለሰዎች እኛን ለማዳን ከሰማይ ወረደ\nበመንፈስ ቅዱስ ግብር ከቅድስት ድንግል\nማርያም ፍጹም ሰው ሆነ፣ ደግሞ ስለኛ\nተሰቀለ በጴንጤናዊው በጲላጦስ ዘመን\nእርሱ መከራን ተቀበለ ሞተ ተቀበረ\nበሦስተኛውም ቀን ከሙታን ተለይቶ\nተሰሣ፣ በቅዱሳት መጻሕፍት እንደተጻፈ\nበክብር በምስጋና ወደሰማይ ዐረገ፡፡\nበአባቱም ቀኝ ተቀመጠ፣ ዳግመኛም\nበሕያዋንና በሙታን ለመፍረድ\nበምስጋና ይመጣል፡፡ ለመንግሥቱም\nፍጻሜ የለውም፡፡ በመንፈስ ቅዱስም\nእናምናለን እርሱም ጌታ ሕይወትን\nየሚሰጥ ከአብ የሠረፀ ከአብ ከወልድ\nጋራ በአንድነት እንሰግድለታለን\nእናመሰግነዋለን እርሱም በነቢያት አድሮ\nየተናገረ ነው፡፡ ከሁሉም በላይ በምትሆን\nሐዋርያት በሠሯት በአንዴት ክብርቅ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          331.76020408163265,
+          550.0,
+          2460.5548469387754,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e4e02763cdc5482a8b9147ac26ad5ce2b6029a55cc2dacc6e780d57e94153ce4",
+      "source_sha256": "16965ca446d14ba26842edbaddaf1035ae5a9cb94ed8a1c3c6031e6b0bacb29d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_009.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.932,
+      "created_at": "2026-10-23T23:10:00.831680+00:00",
+      "derivative_input": false
+    }
+  }
+}

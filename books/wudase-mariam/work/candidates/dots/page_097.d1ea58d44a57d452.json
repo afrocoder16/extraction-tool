@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a17eee47ac472d2f",
+    "object": "chat.completion",
+    "created": 1792800637,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [337, 115, 1221, 187], \"category\": \"Page-header\", \"text\": \"፵፯ የእሁድ ዉዳሴ ጸሎት\"}, {\"bbox\": [221, 247, 1503, 424], \"category\": \"Text\", \"text\": \"ክርስቶስን የወለድሽልን ሆይ አንቺ እንደርሷ ነሽ:: ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [216, 511, 1503, 1321], \"category\": \"Text\", \"text\": \"፲፫ ጸጋን የተመላሽ ሆይ ከቅዱሳን ሁሉ ይልቅ ትለምኝልን ዘንድ ላንቺ ይገባል። አንቺ ከሊቃነ ጳጳሳት ትበልጫለሽ ከነቢያትም ከመምህራንም ትበልጫለሽ። ከሱራፌልና ከኪሩቤል ግርማ የሚበልጥ የመወደድ ግርማ አለሽ። በእውነት የባሕርያችን መመኪያ አንቺ ነሽ። ለሰውነታችንም ሕይወትን የምትለምኝ ነሽ::\"}, {\"bbox\": [212, 1433, 1503, 2016], \"category\": \"Text\", \"text\": \"ወደ ጌታችንና መድኃኒታችን ኢየሱስ ክርስቶስ ለምኝልን ፤ እርሱን በማመን በቀናች ሃይማኖት ያጸናን ዘንድ ይቅርታውንና ምሕረቱን ይሰጠን ዘንድ በቸርነቱ ብዛት ኃጢአታችንን ያስተሠርይልን ዘንድ። ቅድስት ሆይ ለምኝልን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4798,
+      "completion_tokens": 635,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፵፯ የእሁድ ዉዳሴ ጸሎት",
+      "bbox": [
+        548.0548469387755,
+        188.24404761904762,
+        1985.6823979591836,
+        306.1011904761905
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ክርስቶስን የወለድሽልን ሆይ አንቺ እንደርሷ ነሽ:: ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        359.40688775510205,
+        404.3154761904762,
+        2444.2920918367345,
+        694.047619047619
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፫ ጸጋን የተመላሽ ሆይ ከቅዱሳን ሁሉ ይልቅ ትለምኝልን ዘንድ ላንቺ ይገባል። አንቺ ከሊቃነ ጳጳሳት ትበልጫለሽ ከነቢያትም ከመምህራንም ትበልጫለሽ። ከሱራፌልና ከኪሩቤል ግርማ የሚበልጥ የመወደድ ግርማ አለሽ። በእውነት የባሕርያችን መመኪያ አንቺ ነሽ። ለሰውነታችንም ሕይወትን የምትለምኝ ነሽ::",
+      "bbox": [
+        351.2755102040816,
+        836.4583333333334,
+        2444.2920918367345,
+        2162.3511904761904
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ወደ ጌታችንና መድኃኒታችን ኢየሱስ ክርስቶስ ለምኝልን ፤ እርሱን በማመን በቀናች ሃይማኖት ያጸናን ዘንድ ይቅርታውንና ምሕረቱን ይሰጠን ዘንድ በቸርነቱ ብዛት ኃጢአታችንን ያስተሠርይልን ዘንድ። ቅድስት ሆይ ለምኝልን",
+      "bbox": [
+        344.7704081632653,
+        2345.684523809524,
+        2444.2920918367345,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 97,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፵፯ የእሁድ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          548.0548469387755,
+          188.24404761904762,
+          1985.6823979591836,
+          306.1011904761905
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ክርስቶስን የወለድሽልን ሆይ አንቺ እንደርሷ ነሽ:: ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          359.40688775510205,
+          404.3154761904762,
+          2444.2920918367345,
+          694.047619047619
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፫ ጸጋን የተመላሽ ሆይ ከቅዱሳን ሁሉ ይልቅ ትለምኝልን ዘንድ ላንቺ ይገባል። አንቺ ከሊቃነ ጳጳሳት ትበልጫለሽ ከነቢያትም ከመምህራንም ትበልጫለሽ። ከሱራፌልና ከኪሩቤል ግርማ የሚበልጥ የመወደድ ግርማ አለሽ። በእውነት የባሕርያችን መመኪያ አንቺ ነሽ። ለሰውነታችንም ሕይወትን የምትለምኝ ነሽ::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          351.2755102040816,
+          836.4583333333334,
+          2444.2920918367345,
+          2162.3511904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ወደ ጌታችንና መድኃኒታችን ኢየሱስ ክርስቶስ ለምኝልን ፤ እርሱን በማመን በቀናች ሃይማኖት ያጸናን ዘንድ ይቅርታውንና ምሕረቱን ይሰጠን ዘንድ በቸርነቱ ብዛት ኃጢአታችንን ያስተሠርይልን ዘንድ። ቅድስት ሆይ ለምኝልን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          344.7704081632653,
+          2345.684523809524,
+          2444.2920918367345,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d1ea58d44a57d45241b30326a85d3ed7e57d173934d01119f676fddf316a13b2",
+      "source_sha256": "e63cf0ddc7ffd082739845f52331bfb5ebf814771ada2b0ecd0ad58348b70437",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_097.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.249,
+      "created_at": "2026-10-24T00:11:59.388096+00:00",
+      "derivative_input": false
+    }
+  }
+}

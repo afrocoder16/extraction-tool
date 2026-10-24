@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9acd42d3aa7d5419",
+    "object": "chat.completion",
+    "created": 1792798938,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [378, 151, 1345, 222], \"category\": \"Page-header\", \"text\": \"፳፳ የሐሙስ ውዳሴ ማርያም\"}, {\"bbox\": [258, 273, 1525, 1321], \"category\": \"Text\", \"text\": \"ስለዚህ አምላክን የወለደች እንደሆነች ታወቀች። የእግዚአብሔር የጥበቡ ስፋት ምን ይጠልቅ? በጻእር በምጥ በልብ ጋር ትወልድ ዘንድ የፈረደባት ማኅፀን የሕይወት መገኛ ሆነች ከባሕርያችን እርግማንን የሚያጠፋልንን ያለ ወንድ ዘር ወለደችልን። ስለዚህም ሰውን የምትወድ ሆይ ክብር ላንተ ይገባል፤ ቸርና የሰውነታችን መድኃኒትም ነህ እያልን እናመስግነው። ቅድስት ሆይ ልምኝልን።\"}, {\"bbox\": [252, 1343, 1525, 2016], \"category\": \"Text\", \"text\": \"፬ ያለ ወንድ ዘር አምላክን የወለደች ድንግል የማኅፀንዋ ሥራ ምን ይደንቅ? ለዮሴፍ የታየው መልአኩ ከእርሷ በመንፈስ ቅዱስ የሚወለደው ያለ መስወጥ ሰው የሚሆነው የእግዚአብሔር ቃል ነው ብሎ መስክሯልና። ማርያም የዚህ ደስታ ዕፅፍ የሆነ እርሱን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4798,
+      "completion_tokens": 635,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፳ የሐሙስ ውዳሴ ማርያም",
+      "bbox": [
+        614.7321428571429,
+        247.17261904761904,
+        2187.3405612244896,
+        363.39285714285717
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ስለዚህ አምላክን የወለደች እንደሆነች ታወቀች። የእግዚአብሔር የጥበቡ ስፋት ምን ይጠልቅ? በጻእር በምጥ በልብ ጋር ትወልድ ዘንድ የፈረደባት ማኅፀን የሕይወት መገኛ ሆነች ከባሕርያችን እርግማንን የሚያጠፋልንን ያለ ወንድ ዘር ወለደችልን። ስለዚህም ሰውን የምትወድ ሆይ ክብር ላንተ ይገባል፤ ቸርና የሰውነታችን መድኃኒትም ነህ እያልን እናመስግነው። ቅድስት ሆይ ልምኝልን።",
+      "bbox": [
+        419.5790816326531,
+        446.875,
+        2480.0701530612246,
+        2162.3511904761904
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፬ ያለ ወንድ ዘር አምላክን የወለደች ድንግል የማኅፀንዋ ሥራ ምን ይደንቅ? ለዮሴፍ የታየው መልአኩ ከእርሷ በመንፈስ ቅዱስ የሚወለደው ያለ መስወጥ ሰው የሚሆነው የእግዚአብሔር ቃል ነው ብሎ መስክሯልና። ማርያም የዚህ ደስታ ዕፅፍ የሆነ እርሱን",
+      "bbox": [
+        409.82142857142856,
+        2198.3630952380954,
+        2480.0701530612246,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 57,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፳ የሐሙስ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          614.7321428571429,
+          247.17261904761904,
+          2187.3405612244896,
+          363.39285714285717
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ስለዚህ አምላክን የወለደች እንደሆነች ታወቀች። የእግዚአብሔር የጥበቡ ስፋት ምን ይጠልቅ? በጻእር በምጥ በልብ ጋር ትወልድ ዘንድ የፈረደባት ማኅፀን የሕይወት መገኛ ሆነች ከባሕርያችን እርግማንን የሚያጠፋልንን ያለ ወንድ ዘር ወለደችልን። ስለዚህም ሰውን የምትወድ ሆይ ክብር ላንተ ይገባል፤ ቸርና የሰውነታችን መድኃኒትም ነህ እያልን እናመስግነው። ቅድስት ሆይ ልምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          419.5790816326531,
+          446.875,
+          2480.0701530612246,
+          2162.3511904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬ ያለ ወንድ ዘር አምላክን የወለደች ድንግል የማኅፀንዋ ሥራ ምን ይደንቅ? ለዮሴፍ የታየው መልአኩ ከእርሷ በመንፈስ ቅዱስ የሚወለደው ያለ መስወጥ ሰው የሚሆነው የእግዚአብሔር ቃል ነው ብሎ መስክሯልና። ማርያም የዚህ ደስታ ዕፅፍ የሆነ እርሱን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          409.82142857142856,
+          2198.3630952380954,
+          2480.0701530612246,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "fae18a28e5a0bdf83f78f9b662b0c0280ba00b1722c12daec8a2d06f71f67b78",
+      "source_sha256": "e467484fa63e85509f2600a9148f866670541bd20f5171796a2b60533c6224b5",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_057.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.293,
+      "created_at": "2026-10-23T23:43:40.533279+00:00",
+      "derivative_input": false
+    }
+  }
+}

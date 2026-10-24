@@ -1,0 +1,230 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-92c2cb1a9ed8ad1e",
+    "object": "chat.completion",
+    "created": 1792797581,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [367, 159, 1255, 237], \"category\": \"Page-header\", \"text\": \"፲፪ የሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [247, 291, 1546, 1097], \"category\": \"Text\", \"text\": \"፲ በዚህ ዓለም ለሚኖሩ ሰዎች ሁሉ የምታበራ እውነትኛ ብርሃን ስለሰው ፍቅር ወደ ዓለም የመጣህ፡፡ ፍጥረት ሁሉ በመምጣትህ ደስ አለው አዳምን ከስህተት አድነኸዋልና ሔዋንንም ከምት ጻዕረኝነት ነፃ አድርገኻታልና የምንወለድበትን መንፈስ (ረቂቁን ልደት) ሰጠኸን ከመላእክት ጋርም አመሰገንህ፡፡ ቅድስት ሆይ ለምኝልን፡፡\"}, {\"bbox\": [265, 1235, 317, 1285], \"category\": \"Picture\"}, {\"bbox\": [321, 1235, 1473, 1295], \"category\": \"Picture\"}, {\"bbox\": [1478, 1235, 1531, 1295], \"category\": \"Picture\"}, {\"bbox\": [247, 1377, 1542, 1726], \"category\": \"Text\", \"text\": \"ማክሰኞ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና ሁለተኛ ክፍል\"}, {\"bbox\": [242, 1831, 1536, 2002], \"category\": \"Text\", \"text\": \"፩ የመመኪያችን ዘውድ የድኅነታችን መጀመሪያ የንጽሕናችንም መሠረት እኛን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4805,
+      "completion_tokens": 642,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፪ የሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        596.843112244898,
+        260.26785714285717,
+        2040.9757653061224,
+        387.94642857142856
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፲ በዚህ ዓለም ለሚኖሩ ሰዎች ሁሉ የምታበራ እውነትኛ ብርሃን ስለሰው ፍቅር ወደ ዓለም የመጣህ፡፡ ፍጥረት ሁሉ በመምጣትህ ደስ አለው አዳምን ከስህተት አድነኸዋልና ሔዋንንም ከምት ጻዕረኝነት ነፃ አድርገኻታልና የምንወለድበትን መንፈስ (ረቂቁን ልደት) ሰጠኸን ከመላእክት ጋርም አመሰገንህ፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        401.6900510204082,
+        476.3392857142857,
+        2514.2219387755104,
+        1795.6845238095239
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        430.9630102040816,
+        2021.577380952381,
+        515.5293367346939,
+        2103.4226190476193
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        522.0344387755102,
+        2021.577380952381,
+        2395.503826530612,
+        2119.7916666666665
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        2403.6352040816328,
+        2021.577380952381,
+        2489.827806122449,
+        2119.7916666666665
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "ማክሰኞ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና ሁለተኛ ክፍል",
+      "bbox": [
+        401.6900510204082,
+        2254.0178571428573,
+        2507.716836734694,
+        2825.2976190476193
+      ]
+    },
+    {
+      "order": 6,
+      "category": "Text",
+      "text": "፩ የመመኪያችን ዘውድ የድኅነታችን መጀመሪያ የንጽሕናችንም መሠረት እኛን",
+      "bbox": [
+        393.55867346938777,
+        2997.1726190476193,
+        2497.9591836734694,
+        3277.0833333333335
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 25,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፪ የሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          596.843112244898,
+          260.26785714285717,
+          2040.9757653061224,
+          387.94642857142856
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ በዚህ ዓለም ለሚኖሩ ሰዎች ሁሉ የምታበራ እውነትኛ ብርሃን ስለሰው ፍቅር ወደ ዓለም የመጣህ፡፡ ፍጥረት ሁሉ በመምጣትህ ደስ አለው አዳምን ከስህተት አድነኸዋልና ሔዋንንም ከምት ጻዕረኝነት ነፃ አድርገኻታልና የምንወለድበትን መንፈስ (ረቂቁን ልደት) ሰጠኸን ከመላእክት ጋርም አመሰገንህ፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          401.6900510204082,
+          476.3392857142857,
+          2514.2219387755104,
+          1795.6845238095239
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ማክሰኞ የሚጸለይ አምላክን የወለደች የእመቤታችን የድንግል ማርያም ምስጋና ሁለተኛ ክፍል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          401.6900510204082,
+          2254.0178571428573,
+          2507.716836734694,
+          2825.2976190476193
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ የመመኪያችን ዘውድ የድኅነታችን መጀመሪያ የንጽሕናችንም መሠረት እኛን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          393.55867346938777,
+          2997.1726190476193,
+          2497.9591836734694,
+          3277.0833333333335
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      5,
+      6
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "0a4a3b46957c5896d96425c13b175dbee09b7ccadd3566ad7ed672326574b8ac",
+      "source_sha256": "bbaedebb1438ae58c1a82c3e6f33e7b603daf80cd624bb17098c00a78e8bcc0d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_025.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.882,
+      "created_at": "2026-10-23T23:21:04.373422+00:00",
+      "derivative_input": false
+    }
+  }
+}

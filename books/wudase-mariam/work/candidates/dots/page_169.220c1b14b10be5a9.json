@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-abda5341d2917bdc",
+    "object": "chat.completion",
+    "created": 1792803730,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [295, 165, 913, 237], \"category\": \"Page-header\", \"text\": \"፲፪ የሰኔ ጎልጎታ\"}, {\"bbox\": [183, 284, 1463, 664], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ለመናገር በማይቻል በንቡዕ ስምህ ለመተርጎም በማይቻል በክሱት ስምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [189, 658, 1471, 1043], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ሳዶር አላዶር ዳናት አዴራ ሮዳስ በተባሉ በአምስቱ ቅንዋተ መስቀል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [194, 1047, 1492, 2001], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ከኔጋር ቆመህ የልቦናዬን ትፈፅምልኝ ዘንድ የተዘጉ በሮች ተከፍተው የሞት ስልጣን ይወገድ ዘንድ የርኩሳን መናፍስት ስልጣን ተሸሮ የጭለማ ኃይል ከሁሉ ቦታ እንደሰም ቀልጦ እንደ ውሃ ፈሶ ይቀር ዘንድ ጣዖታት ተደምስሰው የጣዖታትም ቦታና አዳራሽ ተመዝብረውና ተቀጥቅጠው ይጠፉ ዘንድ እማልድሃለሁ፡፡ ዳግመኛም በዚህ ጸሎት የሚተማመኑትን ከሀጢት\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4828,
+      "completion_tokens": 665,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፪ የሰኔ ጎልጎታ",
+      "bbox": [
+        479.7512755102041,
+        270.0892857142857,
+        1484.7895408163265,
+        387.94642857142856
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ለመናገር በማይቻል በንቡዕ ስምህ ለመተርጎም በማይቻል በክሱት ስምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        297.6084183673469,
+        464.8809523809524,
+        2379.2410714285716,
+        1086.904761904762
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ሳዶር አላዶር ዳናት አዴራ ሮዳስ በተባሉ በአምስቱ ቅንዋተ መስቀል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        307.36607142857144,
+        1077.0833333333333,
+        2392.251275510204,
+        1707.2916666666667
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ከኔጋር ቆመህ የልቦናዬን ትፈፅምልኝ ዘንድ የተዘጉ በሮች ተከፍተው የሞት ስልጣን ይወገድ ዘንድ የርኩሳን መናፍስት ስልጣን ተሸሮ የጭለማ ኃይል ከሁሉ ቦታ እንደሰም ቀልጦ እንደ ውሃ ፈሶ ይቀር ዘንድ ጣዖታት ተደምስሰው የጣዖታትም ቦታና አዳራሽ ተመዝብረውና ተቀጥቅጠው ይጠፉ ዘንድ እማልድሃለሁ፡፡ ዳግመኛም በዚህ ጸሎት የሚተማመኑትን ከሀጢት",
+      "bbox": [
+        315.4974489795918,
+        1713.8392857142858,
+        2426.4030612244896,
+        3275.4464285714284
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 169,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፪ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          479.7512755102041,
+          270.0892857142857,
+          1484.7895408163265,
+          387.94642857142856
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ለመናገር በማይቻል በንቡዕ ስምህ ለመተርጎም በማይቻል በክሱት ስምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          297.6084183673469,
+          464.8809523809524,
+          2379.2410714285716,
+          1086.904761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ሳዶር አላዶር ዳናት አዴራ ሮዳስ በተባሉ በአምስቱ ቅንዋተ መስቀል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          307.36607142857144,
+          1077.0833333333333,
+          2392.251275510204,
+          1707.2916666666667
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ከኔጋር ቆመህ የልቦናዬን ትፈፅምልኝ ዘንድ የተዘጉ በሮች ተከፍተው የሞት ስልጣን ይወገድ ዘንድ የርኩሳን መናፍስት ስልጣን ተሸሮ የጭለማ ኃይል ከሁሉ ቦታ እንደሰም ቀልጦ እንደ ውሃ ፈሶ ይቀር ዘንድ ጣዖታት ተደምስሰው የጣዖታትም ቦታና አዳራሽ ተመዝብረውና ተቀጥቅጠው ይጠፉ ዘንድ እማልድሃለሁ፡፡ ዳግመኛም በዚህ ጸሎት የሚተማመኑትን ከሀጢት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          315.4974489795918,
+          1713.8392857142858,
+          2426.4030612244896,
+          3275.4464285714284
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "220c1b14b10be5a9ab622de878dc3fb8cc6e7ded9c6ec593d5b7fd621ab521ba",
+      "source_sha256": "882676b19f87eacebfd2dfc1c90f7848f0aff2d039f023a1ece133de88d57864",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_169.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 87.517,
+      "created_at": "2026-10-24T01:03:36.234307+00:00",
+      "derivative_input": false
+    }
+  }
+}

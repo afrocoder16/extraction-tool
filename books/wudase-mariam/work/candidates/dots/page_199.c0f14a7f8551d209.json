@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9ee6664e751971e9",
+    "object": "chat.completion",
+    "created": 1792805146,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [217, 114, 845, 195], \"category\": \"Page-header\", \"text\": \"፳፯ የሰኔ ጎልጎታ\"}, {\"bbox\": [78, 243, 1395, 1988], \"category\": \"Text\", \"text\": \"በሀያራቱ ካህናት ሰማይ ቃል ኪዳን\\nጣሁልሽ እልፍ ሆነው በቀኝ በሚቆሙ\\nእልፍ ሆነው በግራ በሚቆሙ እልፍ\\nሆነው በኃላዬ በሚቆሙ እልፍ ሆነው\\nበፊቴ በሚቆሙ መላእክት ቃል ኪዳን\\nጣሁልሽ በእልፍ አእላፍት ብዙ የብዙ\\nብዙ በሚሆኑ ትጉኃን መልአክት ቃል\\nኪዳን ገባሁልሽ የፍጥረት ተቀዳሚ\\nበሆነው በአዳም በልጆቹም በአቤልና\\nበሴት በቃይናን በመላልኤል ቃል ኪዳን\\nጣሁልሽ በሄኖክና በሄኖስ በያሬድና\\nበማቱሳላ ቃል ኪዳን ገባሁልሽ፡፡ ዳግመኛ\\nምድርን በንፍር ዉሣ እንዳላጠፋት ኪዳነ\\nሰማይ ወምድር በሰጠሁት በባሪያዬ\\nበኖህ ቃል ኪዳን ገባሁልሽ የትዕዛዜ\\nጠባቂ ተቀዳሚ በኩር በሆነ በሴም\\nምሳሌም በሆነ በመልከ ጌዲቅ ካህን ቃል\\nኪዳን ገባሁልሽ፡፡ ስለወዳጆ ስለ አብርሀም\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4768,
+      "completion_tokens": 605,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፯ የሰኔ ጎልጎታ",
+      "bbox": [
+        352.9017857142857,
+        186.60714285714286,
+        1374.202806122449,
+        319.19642857142856
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "በሀያራቱ ካህናት ሰማይ ቃል ኪዳን\nጣሁልሽ እልፍ ሆነው በቀኝ በሚቆሙ\nእልፍ ሆነው በግራ በሚቆሙ እልፍ\nሆነው በኃላዬ በሚቆሙ እልፍ ሆነው\nበፊቴ በሚቆሙ መላእክት ቃል ኪዳን\nጣሁልሽ በእልፍ አእላፍት ብዙ የብዙ\nብዙ በሚሆኑ ትጉኃን መልአክት ቃል\nኪዳን ገባሁልሽ የፍጥረት ተቀዳሚ\nበሆነው በአዳም በልጆቹም በአቤልና\nበሴት በቃይናን በመላልኤል ቃል ኪዳን\nጣሁልሽ በሄኖክና በሄኖስ በያሬድና\nበማቱሳላ ቃል ኪዳን ገባሁልሽ፡፡ ዳግመኛ\nምድርን በንፍር ዉሣ እንዳላጠፋት ኪዳነ\nሰማይ ወምድር በሰጠሁት በባሪያዬ\nበኖህ ቃል ኪዳን ገባሁልሽ የትዕዛዜ\nጠባቂ ተቀዳሚ በኩር በሆነ በሴም\nምሳሌም በሆነ በመልከ ጌዲቅ ካህን ቃል\nኪዳን ገባሁልሽ፡፡ ስለወዳጆ ስለ አብርሀም",
+      "bbox": [
+        126.84948979591837,
+        397.76785714285717,
+        2268.654336734694,
+        3254.1666666666665
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 199,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፯ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          352.9017857142857,
+          186.60714285714286,
+          1374.202806122449,
+          319.19642857142856
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በሀያራቱ ካህናት ሰማይ ቃል ኪዳን\nጣሁልሽ እልፍ ሆነው በቀኝ በሚቆሙ\nእልፍ ሆነው በግራ በሚቆሙ እልፍ\nሆነው በኃላዬ በሚቆሙ እልፍ ሆነው\nበፊቴ በሚቆሙ መላእክት ቃል ኪዳን\nጣሁልሽ በእልፍ አእላፍት ብዙ የብዙ\nብዙ በሚሆኑ ትጉኃን መልአክት ቃል\nኪዳን ገባሁልሽ የፍጥረት ተቀዳሚ\nበሆነው በአዳም በልጆቹም በአቤልና\nበሴት በቃይናን በመላልኤል ቃል ኪዳን\nጣሁልሽ በሄኖክና በሄኖስ በያሬድና\nበማቱሳላ ቃል ኪዳን ገባሁልሽ፡፡ ዳግመኛ\nምድርን በንፍር ዉሣ እንዳላጠፋት ኪዳነ\nሰማይ ወምድር በሰጠሁት በባሪያዬ\nበኖህ ቃል ኪዳን ገባሁልሽ የትዕዛዜ\nጠባቂ ተቀዳሚ በኩር በሆነ በሴም\nምሳሌም በሆነ በመልከ ጌዲቅ ካህን ቃል\nኪዳን ገባሁልሽ፡፡ ስለወዳጆ ስለ አብርሀም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          126.84948979591837,
+          397.76785714285717,
+          2268.654336734694,
+          3254.1666666666665
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "c0f14a7f8551d209953b0ce65378835cc4226495965c46969f8e7581d13f58bf",
+      "source_sha256": "28f17a73a0934514809475f4a5c8d0b77c217e5d4384e00a4907ed6eb5e66917",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_199.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.76,
+      "created_at": "2026-10-24T01:27:05.423521+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b69283762661a58a",
+    "object": "chat.completion",
+    "created": 1792805040,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [277, 163, 906, 241], \"category\": \"Page-header\", \"text\": \"፳፮ የሰኔ ጎልጎታ\"}, {\"bbox\": [164, 295, 1477, 2016], \"category\": \"Text\", \"text\": \"ይህቺን መጽሐፍ በንጽህና የያዘ ሰው የሰራዊተ መላእክት አለቆች ዘወትር እየመጡ ይጎበኙታል:: እናቴ ማርያም ሆይ በሰማይና በምድር ይህን ሁሉ አስራት (ተስፋ) ሰጠሁሽ፤ ብሩክት መርገመ ሥጋ መርገመ ነፍስ የሌለባት እመቤታችንም ልጆ ወዳጆ ሆይ፤ የምትለኝን ሁሉ እውነት ነውን? አለችው ጌታም መልሶ እናቴ ማርያም ሆይ፤ በእግዚአብሔር አባቴ በክርስቶስ ስሜ በእውነት መንፈስ በጳራቅሊጦስ እውነት እንደሆነ ቃል ኪዳን ገባሁልሽ አላት:: መልአከ ምክሬ በሆነ በሚካኤል የመወለዴን ዜና በአበሰረ ገብርኤል ቃል ኪዳን ገባሁልሽ ክንፋቸው ስድስት በሆነ ምሉአነ አእይንት በሆኑ መንበሬን በሚሸከሙ አራቱ እንሰሳት (ኪሩቤል) ቃል ኪዳን ገባሁልሽ አናናሬን በአንድነት ቅዱስ ቅዱስ ቅዱስ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4785,
+      "completion_tokens": 622,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፮ የሰኔ ጎልጎታ",
+      "bbox": [
+        450.4783163265306,
+        266.8154761904762,
+        1473.405612244898,
+        394.4940476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ይህቺን መጽሐፍ በንጽህና የያዘ ሰው የሰራዊተ መላእክት አለቆች ዘወትር እየመጡ ይጎበኙታል:: እናቴ ማርያም ሆይ በሰማይና በምድር ይህን ሁሉ አስራት (ተስፋ) ሰጠሁሽ፤ ብሩክት መርገመ ሥጋ መርገመ ነፍስ የሌለባት እመቤታችንም ልጆ ወዳጆ ሆይ፤ የምትለኝን ሁሉ እውነት ነውን? አለችው ጌታም መልሶ እናቴ ማርያም ሆይ፤ በእግዚአብሔር አባቴ በክርስቶስ ስሜ በእውነት መንፈስ በጳራቅሊጦስ እውነት እንደሆነ ቃል ኪዳን ገባሁልሽ አላት:: መልአከ ምክሬ በሆነ በሚካኤል የመወለዴን ዜና በአበሰረ ገብርኤል ቃል ኪዳን ገባሁልሽ ክንፋቸው ስድስት በሆነ ምሉአነ አእይንት በሆኑ መንበሬን በሚሸከሙ አራቱ እንሰሳት (ኪሩቤል) ቃል ኪዳን ገባሁልሽ አናናሬን በአንድነት ቅዱስ ቅዱስ ቅዱስ",
+      "bbox": [
+        266.7091836734694,
+        482.88690476190476,
+        2402.0089285714284,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 197,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፮ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          450.4783163265306,
+          266.8154761904762,
+          1473.405612244898,
+          394.4940476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ይህቺን መጽሐፍ በንጽህና የያዘ ሰው የሰራዊተ መላእክት አለቆች ዘወትር እየመጡ ይጎበኙታል:: እናቴ ማርያም ሆይ በሰማይና በምድር ይህን ሁሉ አስራት (ተስፋ) ሰጠሁሽ፤ ብሩክት መርገመ ሥጋ መርገመ ነፍስ የሌለባት እመቤታችንም ልጆ ወዳጆ ሆይ፤ የምትለኝን ሁሉ እውነት ነውን? አለችው ጌታም መልሶ እናቴ ማርያም ሆይ፤ በእግዚአብሔር አባቴ በክርስቶስ ስሜ በእውነት መንፈስ በጳራቅሊጦስ እውነት እንደሆነ ቃል ኪዳን ገባሁልሽ አላት:: መልአከ ምክሬ በሆነ በሚካኤል የመወለዴን ዜና በአበሰረ ገብርኤል ቃል ኪዳን ገባሁልሽ ክንፋቸው ስድስት በሆነ ምሉአነ አእይንት በሆኑ መንበሬን በሚሸከሙ አራቱ እንሰሳት (ኪሩቤል) ቃል ኪዳን ገባሁልሽ አናናሬን በአንድነት ቅዱስ ቅዱስ ቅዱስ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          266.7091836734694,
+          482.88690476190476,
+          2402.0089285714284,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "cd79caf83fa6e177c2c8c7c6d332e72fefd54fcc97497122f9cbb12cc15cdcdb",
+      "source_sha256": "556abff24d30400724f644ec39cfb7b23ee00cd1f5f7b9b9332651a92c746c4d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_197.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.506,
+      "created_at": "2026-10-24T01:25:21.754056+00:00",
+      "derivative_input": false
+    }
+  }
+}

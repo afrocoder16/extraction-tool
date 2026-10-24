@@ -1,0 +1,178 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-811d09360b018bd3",
+    "object": "chat.completion",
+    "created": 1792800289,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [236, 136, 1494, 218], \"category\": \"Picture\"}, {\"bbox\": [288, 323, 1445, 592], \"category\": \"Section-header\", \"text\": \"በሰንበተ ክርስቲያን እሑድ የሚጸለይ\\nአምላክን የወለደች የእመቤታችን\\nየድንግል ማርያም ምስጋና\"}, {\"bbox\": [636, 681, 1104, 758], \"category\": \"Section-header\", \"text\": \"ሰባተኛ ክፍል::\"}, {\"bbox\": [236, 851, 1504, 1991], \"category\": \"Text\", \"text\": \"፩ ከሴቶሽ ይልቅ ተለይተሽ የተባረክሽ ሆይ የተወደድሽ ተባልሽ:: ከተለዩ የተለየች በውስጧም የኪዳን የሕግ ጽላት ያለባት የምትባይ ሁሉተኛ ክፍል አንቺ ነሽ ጪዳንም በእግዚአብሔር ጣቶሽ የተጻፉ ዓሥሩ ቃላት ናቸው:: ያለመለወጥ ካንቺ ሰው የሆነ መድኃኒታችን ኢየሱስ ክርስቶስ ደገኛ ስሙን መጀመሪያ ስሙን አስቀድሞ በየውጣ ነገረን፣ ለአዲስ ጪዳንም አስታራቂ ሆነ:: በከበረ ደሙ ፈሳሽነት ወይም መፍሰስ ያመኑትንና ንጹሓን የሆኑትን ወገኖች አነጻቸው:: ቅድስት ሆይ ለምኝልን::\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4757,
+      "completion_tokens": 594,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        383.80102040816325,
+        222.61904761904762,
+        2429.655612244898,
+        356.8452380952381
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Section-header",
+      "text": "በሰንበተ ክርስቲያን እሑድ የሚጸለይ\nአምላክን የወለደች የእመቤታችን\nየድንግል ማርያም ምስጋና",
+      "bbox": [
+        468.3673469387755,
+        528.7202380952381,
+        2349.968112244898,
+        969.047619047619
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Section-header",
+      "text": "ሰባተኛ ክፍል::",
+      "bbox": [
+        1034.311224489796,
+        1114.732142857143,
+        1795.408163265306,
+        1240.7738095238096
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፩ ከሴቶሽ ይልቅ ተለይተሽ የተባረክሽ ሆይ የተወደድሽ ተባልሽ:: ከተለዩ የተለየች በውስጧም የኪዳን የሕግ ጽላት ያለባት የምትባይ ሁሉተኛ ክፍል አንቺ ነሽ ጪዳንም በእግዚአብሔር ጣቶሽ የተጻፉ ዓሥሩ ቃላት ናቸው:: ያለመለወጥ ካንቺ ሰው የሆነ መድኃኒታችን ኢየሱስ ክርስቶስ ደገኛ ስሙን መጀመሪያ ስሙን አስቀድሞ በየውጣ ነገረን፣ ለአዲስ ጪዳንም አስታራቂ ሆነ:: በከበረ ደሙ ፈሳሽነት ወይም መፍሰስ ያመኑትንና ንጹሓን የሆኑትን ወገኖች አነጻቸው:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        383.80102040816325,
+        1393.0059523809523,
+        2445.918367346939,
+        3259.0773809523807
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 89,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በሰንበተ ክርስቲያን እሑድ የሚጸለይ\nአምላክን የወለደች የእመቤታችን\nየድንግል ማርያም ምስጋና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          468.3673469387755,
+          528.7202380952381,
+          2349.968112244898,
+          969.047619047619
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሰባተኛ ክፍል::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          1034.311224489796,
+          1114.732142857143,
+          1795.408163265306,
+          1240.7738095238096
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ ከሴቶሽ ይልቅ ተለይተሽ የተባረክሽ ሆይ የተወደድሽ ተባልሽ:: ከተለዩ የተለየች በውስጧም የኪዳን የሕግ ጽላት ያለባት የምትባይ ሁሉተኛ ክፍል አንቺ ነሽ ጪዳንም በእግዚአብሔር ጣቶሽ የተጻፉ ዓሥሩ ቃላት ናቸው:: ያለመለወጥ ካንቺ ሰው የሆነ መድኃኒታችን ኢየሱስ ክርስቶስ ደገኛ ስሙን መጀመሪያ ስሙን አስቀድሞ በየውጣ ነገረን፣ ለአዲስ ጪዳንም አስታራቂ ሆነ:: በከበረ ደሙ ፈሳሽነት ወይም መፍሰስ ያመኑትንና ንጹሓን የሆኑትን ወገኖች አነጻቸው:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          383.80102040816325,
+          1393.0059523809523,
+          2445.918367346939,
+          3259.0773809523807
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "27269b6bac82c1ea248975e6bbb1313da8c1db42e620fd09fbb1cab88dceffcb",
+      "source_sha256": "274eaa6cd8742a9471212c095cd1b31409e9c02eac64237fa18340f1e3cdf2fd",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_089.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.607,
+      "created_at": "2026-10-24T00:06:07.324592+00:00",
+      "derivative_input": false
+    }
+  }
+}

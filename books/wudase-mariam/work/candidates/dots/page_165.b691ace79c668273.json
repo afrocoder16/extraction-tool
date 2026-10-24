@@ -1,0 +1,287 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-aa2e06a5c744cf04",
+    "object": "chat.completion",
+    "created": 1792803514,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [315, 183, 927, 258], \"category\": \"Page-header\", \"text\": \"፲ የሰኔ ጎልጎታ\"}, {\"bbox\": [197, 303, 1461, 577], \"category\": \"Text\", \"text\": \"በማእከለ ዮርዳኖስ በቅዱስ መንፈስና ከአንተም ዘንድ በወጣው ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [197, 587, 1466, 861], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ በተቸነከሩ እጆችህና እግሮችህ በቅዱስ ስጋህና በክቡር ደምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [197, 868, 1466, 1143], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ለሰው ልጅ ስትል በተቀበልከው መከራና ሞትህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [197, 1152, 1466, 1427], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ሶስት ሌሊት ሶስት መአልት በከርሰ መቃብር በአደርክበት ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [205, 1437, 1466, 1804], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ አዳምን ከነልጆቹ ለማውጣት በአካለ ነፍስ ወደ ሲአል በመውረድህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [205, 1814, 1466, 1997], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ሙስና መቃብርህን አጥፍተህ በሶስተኛው ቀን ከሙታን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4937,
+      "completion_tokens": 774,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲ የሰኔ ጎልጎታ",
+      "bbox": [
+        512.2767857142857,
+        299.55357142857144,
+        1507.5573979591836,
+        422.32142857142856
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "በማእከለ ዮርዳኖስ በቅዱስ መንፈስና ከአንተም ዘንድ በወጣው ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        320.3762755102041,
+        495.98214285714283,
+        2375.9885204081634,
+        944.4940476190476
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ በተቸነከሩ እጆችህና እግሮችህ በቅዱስ ስጋህና በክቡር ደምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        320.3762755102041,
+        960.8630952380952,
+        2384.1198979591836,
+        1409.375
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ለሰው ልጅ ስትል በተቀበልከው መከራና ሞትህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        320.3762755102041,
+        1420.8333333333333,
+        2384.1198979591836,
+        1870.982142857143
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ሶስት ሌሊት ሶስት መአልት በከርሰ መቃብር በአደርክበት ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        320.3762755102041,
+        1885.7142857142858,
+        2384.1198979591836,
+        2335.8630952380954
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ አዳምን ከነልጆቹ ለማውጣት በአካለ ነፍስ ወደ ሲአል በመውረድህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        333.38647959183675,
+        2352.2321428571427,
+        2384.1198979591836,
+        2952.9761904761904
+      ]
+    },
+    {
+      "order": 6,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ሙስና መቃብርህን አጥፍተህ በሶስተኛው ቀን ከሙታን",
+      "bbox": [
+        333.38647959183675,
+        2969.345238095238,
+        2384.1198979591836,
+        3268.8988095238096
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 165,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          512.2767857142857,
+          299.55357142857144,
+          1507.5573979591836,
+          422.32142857142856
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በማእከለ ዮርዳኖስ በቅዱስ መንፈስና ከአንተም ዘንድ በወጣው ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          320.3762755102041,
+          495.98214285714283,
+          2375.9885204081634,
+          944.4940476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ በተቸነከሩ እጆችህና እግሮችህ በቅዱስ ስጋህና በክቡር ደምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          320.3762755102041,
+          960.8630952380952,
+          2384.1198979591836,
+          1409.375
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ለሰው ልጅ ስትል በተቀበልከው መከራና ሞትህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          320.3762755102041,
+          1420.8333333333333,
+          2384.1198979591836,
+          1870.982142857143
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ሶስት ሌሊት ሶስት መአልት በከርሰ መቃብር በአደርክበት ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          320.3762755102041,
+          1885.7142857142858,
+          2384.1198979591836,
+          2335.8630952380954
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ አዳምን ከነልጆቹ ለማውጣት በአካለ ነፍስ ወደ ሲአል በመውረድህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          333.38647959183675,
+          2352.2321428571427,
+          2384.1198979591836,
+          2952.9761904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ሙስና መቃብርህን አጥፍተህ በሶስተኛው ቀን ከሙታን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          333.38647959183675,
+          2969.345238095238,
+          2384.1198979591836,
+          3268.8988095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "b691ace79c668273ceb0ba69c56ff783ec8dbf2c7025c649cf54a0566917cc78",
+      "source_sha256": "6bb25dd6a5b76129811e4c4d0f9725d450b3fd18241fe6af5f1b6582c3d57cf1",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_165.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 100.017,
+      "created_at": "2026-10-24T01:00:12.337414+00:00",
+      "derivative_input": false
+    }
+  }
+}

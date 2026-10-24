@@ -1,0 +1,257 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8de5a1ba641be3cc",
+    "object": "chat.completion",
+    "created": 1792802877,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [268, 195, 311, 255], \"category\": \"Page-header\", \"text\": \"፬\"}, {\"bbox\": [515, 191, 892, 266], \"category\": \"Page-header\", \"text\": \"የሰኔ ጎልጎታ\"}, {\"bbox\": [148, 313, 1475, 501], \"category\": \"Text\", \"text\": \"በእግዚአብሔር አብ በባህርይ አባትህ ቃልኪዳን ተገባልኝ ዘንድ እማልድሃለሁ።\"}, {\"bbox\": [156, 505, 1447, 1041], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ ሰማይና ምድር ተራሮችና ኮረብቶች፤ ሰውና መላእክት ፀሃይ ጨለማና ከዋክብት ሳይፈጠሩ ቀንና ለሊት ሳይለዩ በነበረ በእግዚአብሔር ስምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ።\"}, {\"bbox\": [156, 1053, 1453, 1774], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ የአብ የባህርይ ህይወቱ የሆነ ከአብ በተገኘ የአንተም የባሕርይ ህይወትህ በሆነ ከአንተጋር በተካከለ በጻራቅሊጦስ መንፈስ ቅዱስ ከኮከብ መውጣት በፊት ከአንተ ጋር በነበረ አሁንም ባለ ለዘለዓለምም በሚኖር በአብና በመንፈስ ቅዱስ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ።\"}, {\"bbox\": [166, 1782, 1455, 2016], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ሰማይ ምድር ሲወስኑህ የማይቻላቸው አንተን ዘጠኝ ወር ካኔምስት ቀን በታሻካመችህ ማህፀነ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4924,
+      "completion_tokens": 761,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፬",
+      "bbox": [
+        435.84183673469386,
+        319.19642857142856,
+        505.7716836734694,
+        417.4107142857143
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Page-header",
+      "text": "የሰኔ ጎልጎታ",
+      "bbox": [
+        837.531887755102,
+        312.6488095238095,
+        1450.6377551020407,
+        435.4166666666667
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "በእግዚአብሔር አብ በባህርይ አባትህ ቃልኪዳን ተገባልኝ ዘንድ እማልድሃለሁ።",
+      "bbox": [
+        240.6887755102041,
+        512.3511904761905,
+        2398.7563775510203,
+        820.0892857142857
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ ሰማይና ምድር ተራሮችና ኮረብቶች፤ ሰውና መላእክት ፀሃይ ጨለማና ከዋክብት ሳይፈጠሩ ቀንና ለሊት ሳይለዩ በነበረ በእግዚአብሔር ስምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ።",
+      "bbox": [
+        253.69897959183675,
+        826.6369047619048,
+        2353.220663265306,
+        1704.017857142857
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ የአብ የባህርይ ህይወቱ የሆነ ከአብ በተገኘ የአንተም የባሕርይ ህይወትህ በሆነ ከአንተጋር በተካከለ በጻራቅሊጦስ መንፈስ ቅዱስ ከኮከብ መውጣት በፊት ከአንተ ጋር በነበረ አሁንም ባለ ለዘለዓለምም በሚኖር በአብና በመንፈስ ቅዱስ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ።",
+      "bbox": [
+        253.69897959183675,
+        1723.6607142857142,
+        2362.9783163265306,
+        2903.8690476190477
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ሰማይ ምድር ሲወስኑህ የማይቻላቸው አንተን ዘጠኝ ወር ካኔምስት ቀን በታሻካመችህ ማህፀነ",
+      "bbox": [
+        269.96173469387753,
+        2916.964285714286,
+        2366.230867346939,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 153,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          435.84183673469386,
+          319.19642857142856,
+          505.7716836734694,
+          417.4107142857143
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          837.531887755102,
+          312.6488095238095,
+          1450.6377551020407,
+          435.4166666666667
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በእግዚአብሔር አብ በባህርይ አባትህ ቃልኪዳን ተገባልኝ ዘንድ እማልድሃለሁ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          240.6887755102041,
+          512.3511904761905,
+          2398.7563775510203,
+          820.0892857142857
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ ሰማይና ምድር ተራሮችና ኮረብቶች፤ ሰውና መላእክት ፀሃይ ጨለማና ከዋክብት ሳይፈጠሩ ቀንና ለሊት ሳይለዩ በነበረ በእግዚአብሔር ስምህ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          253.69897959183675,
+          826.6369047619048,
+          2353.220663265306,
+          1704.017857142857
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ የአብ የባህርይ ህይወቱ የሆነ ከአብ በተገኘ የአንተም የባሕርይ ህይወትህ በሆነ ከአንተጋር በተካከለ በጻራቅሊጦስ መንፈስ ቅዱስ ከኮከብ መውጣት በፊት ከአንተ ጋር በነበረ አሁንም ባለ ለዘለዓለምም በሚኖር በአብና በመንፈስ ቅዱስ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          253.69897959183675,
+          1723.6607142857142,
+          2362.9783163265306,
+          2903.8690476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ሰማይ ምድር ሲወስኑህ የማይቻላቸው አንተን ዘጠኝ ወር ካኔምስት ቀን በታሻካመችህ ማህፀነ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          269.96173469387753,
+          2916.964285714286,
+          2366.230867346939,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "432e76070156941494472ef8f25c271edac2857fbe27a2f9312d6e85db38aeed",
+      "source_sha256": "4e77d80521f33ee46eaf88d5871fb0ef962d45167b1727305f2b182eab995ab5",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_153.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 98.565,
+      "created_at": "2026-10-24T00:49:34.371956+00:00",
+      "derivative_input": false
+    }
+  }
+}

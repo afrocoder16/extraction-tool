@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-98b02ec6edf84e1e",
+    "object": "chat.completion",
+    "created": 1792798704,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [194, 191, 1137, 271], \"category\": \"Page-header\", \"text\": \"፳፭ የረቡዕ ውዳሴ ማርያም\"}, {\"bbox\": [65, 314, 1401, 1742], \"category\": \"Text\", \"text\": \"፱ ኖኅትም ደጅም መድኃኒታችንን\\nየወለደች ድንግል ናት። እርሱን ከወለደች\\nበኋላ እንደ ቀድሞ በድንግልና ኖራለችና።\\nመጥቶ ምሕረት ከሌለው ጠላት እጅ\\nያዳነን ጌታን የወለጅሽ ሆይ የማኅፅንሽ\\nፍሬ የተባረከ ነው፥ አንቺ ፍጽምትና\\nየተባረክሽ ነሽ የእውነት አምላክ በሆነ\\nበክብር ባለቤት ዘንድ ባለሟልነትን\\nአግኝተሻልና በምድር ላይ ከሚኖር ሁሉ\\nይልቅ ገናንነትና ክብር ለአንቺ ይገባል።\\nየአብ ቃል መጥቶ በአንቺ ሰው ሆነ።\\nከሰው ጋርም ተመላለሰ። መሓሪ ይቅር\\nባይ ሰውን ወዳጅ ነውና በልዩ አመጣጡ\\nአዳነን። ቅድስት ሆይ ለምኝልን።\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4672,
+      "completion_tokens": 509,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፭ የረቡዕ ውዳሴ ማርያም",
+      "bbox": [
+        315.4974489795918,
+        312.6488095238095,
+        1849.0752551020407,
+        443.6011904761905
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፱ ኖኅትም ደጅም መድኃኒታችንን\nየወለደች ድንግል ናት። እርሱን ከወለደች\nበኋላ እንደ ቀድሞ በድንግልና ኖራለችና።\nመጥቶ ምሕረት ከሌለው ጠላት እጅ\nያዳነን ጌታን የወለጅሽ ሆይ የማኅፅንሽ\nፍሬ የተባረከ ነው፥ አንቺ ፍጽምትና\nየተባረክሽ ነሽ የእውነት አምላክ በሆነ\nበክብር ባለቤት ዘንድ ባለሟልነትን\nአግኝተሻልና በምድር ላይ ከሚኖር ሁሉ\nይልቅ ገናንነትና ክብር ለአንቺ ይገባል።\nየአብ ቃል መጥቶ በአንቺ ሰው ሆነ።\nከሰው ጋርም ተመላለሰ። መሓሪ ይቅር\nባይ ሰውን ወዳጅ ነውና በልዩ አመጣጡ\nአዳነን። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        105.7079081632653,
+        513.9880952380952,
+        2278.4119897959185,
+        2851.4880952380954
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 51,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፭ የረቡዕ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          315.4974489795918,
+          312.6488095238095,
+          1849.0752551020407,
+          443.6011904761905
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱ ኖኅትም ደጅም መድኃኒታችንን\nየወለደች ድንግል ናት። እርሱን ከወለደች\nበኋላ እንደ ቀድሞ በድንግልና ኖራለችና።\nመጥቶ ምሕረት ከሌለው ጠላት እጅ\nያዳነን ጌታን የወለጅሽ ሆይ የማኅፅንሽ\nፍሬ የተባረከ ነው፥ አንቺ ፍጽምትና\nየተባረክሽ ነሽ የእውነት አምላክ በሆነ\nበክብር ባለቤት ዘንድ ባለሟልነትን\nአግኝተሻልና በምድር ላይ ከሚኖር ሁሉ\nይልቅ ገናንነትና ክብር ለአንቺ ይገባል።\nየአብ ቃል መጥቶ በአንቺ ሰው ሆነ።\nከሰው ጋርም ተመላለሰ። መሓሪ ይቅር\nባይ ሰውን ወዳጅ ነውና በልዩ አመጣጡ\nአዳነን። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          105.7079081632653,
+          513.9880952380952,
+          2278.4119897959185,
+          2851.4880952380954
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "993e8b61d0e01aceb5730c7212fd7b17dc77c88a47817f3cbcb12ab0ffe95624",
+      "source_sha256": "ba2d6a3b870f880bafe479d97c454aad0e64fed96af9c4ceaa2a7a4442c2c113",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_051.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 69.74,
+      "created_at": "2026-10-23T23:39:32.255358+00:00",
+      "derivative_input": false
+    }
+  }
+}

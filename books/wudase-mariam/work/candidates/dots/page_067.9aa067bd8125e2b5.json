@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-80edcab3fa9aa96b",
+    "object": "chat.completion",
+    "created": 1792799348,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [173, 188, 1174, 263], \"category\": \"Page-header\", \"text\": \"፴ የሐሙስ ውዳሴ ማርያም\"}, {\"bbox\": [43, 315, 1361, 1015], \"category\": \"Text\", \"text\": \"ከዚህ በኋላ ለዘለዓለም ጽድቅ ሆኖ ተቆጠረለት። ሰማዕታት የዚችን ዓለም ጣዕም በዕውነት ናቁ ደማቸውንም ስለ እግዚአብሔር አፈሰሱ። ስለ መንግሥተ ሰማያትም መራራ ሞትን ታገሱ። እንደ ይቅርታህ ብዛት ይቅር በለን። ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [43, 1026, 1367, 1932], \"category\": \"Text\", \"text\": \"፳ ከቅድስት ሥላሴ አንዱ ወልድ መዋረዳችንን አይቶ ከሰማየ ሰማያት ወርዶ ባሕርዩን ዝቅ አደረገና መጥቶ በድንግል ማኅፀን አደረ። ከብቻዋ ከኃጢአት በቀርም እንደኛ ሰው ሆነ፤ ነቢያት ትንቢት እንደተናገሩለት በቤተልሔም ተወለደ። ፈጽሞ አዳነን ወገኖቹም አደረገን። ቅድስት ሆይ ለምኝልን።\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4704,
+      "completion_tokens": 541,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴ የሐሙስ ውዳሴ ማርያም",
+      "bbox": [
+        281.34566326530614,
+        307.73809523809524,
+        1909.2474489795918,
+        430.5059523809524
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ከዚህ በኋላ ለዘለዓለም ጽድቅ ሆኖ ተቆጠረለት። ሰማዕታት የዚችን ዓለም ጣዕም በዕውነት ናቁ ደማቸውንም ስለ እግዚአብሔር አፈሰሱ። ስለ መንግሥተ ሰማያትም መራራ ሞትን ታገሱ። እንደ ይቅርታህ ብዛት ይቅር በለን። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        69.92984693877551,
+        515.625,
+        2213.360969387755,
+        1661.4583333333333
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፳ ከቅድስት ሥላሴ አንዱ ወልድ መዋረዳችንን አይቶ ከሰማየ ሰማያት ወርዶ ባሕርዩን ዝቅ አደረገና መጥቶ በድንግል ማኅፀን አደረ። ከብቻዋ ከኃጢአት በቀርም እንደኛ ሰው ሆነ፤ ነቢያት ትንቢት እንደተናገሩለት በቤተልሔም ተወለደ። ፈጽሞ አዳነን ወገኖቹም አደረገን። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        69.92984693877551,
+        1679.4642857142858,
+        2223.1186224489797,
+        3162.5
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 67,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴ የሐሙስ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          281.34566326530614,
+          307.73809523809524,
+          1909.2474489795918,
+          430.5059523809524
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከዚህ በኋላ ለዘለዓለም ጽድቅ ሆኖ ተቆጠረለት። ሰማዕታት የዚችን ዓለም ጣዕም በዕውነት ናቁ ደማቸውንም ስለ እግዚአብሔር አፈሰሱ። ስለ መንግሥተ ሰማያትም መራራ ሞትን ታገሱ። እንደ ይቅርታህ ብዛት ይቅር በለን። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          69.92984693877551,
+          515.625,
+          2213.360969387755,
+          1661.4583333333333
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳ ከቅድስት ሥላሴ አንዱ ወልድ መዋረዳችንን አይቶ ከሰማየ ሰማያት ወርዶ ባሕርዩን ዝቅ አደረገና መጥቶ በድንግል ማኅፀን አደረ። ከብቻዋ ከኃጢአት በቀርም እንደኛ ሰው ሆነ፤ ነቢያት ትንቢት እንደተናገሩለት በቤተልሔም ተወለደ። ፈጽሞ አዳነን ወገኖቹም አደረገን። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          69.92984693877551,
+          1679.4642857142858,
+          2223.1186224489797,
+          3162.5
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "9aa067bd8125e2b599b5c5923012d374616c44a7ac9141d37d9e51be82542755",
+      "source_sha256": "1eeb3f942b98b2c18171942d3d83e2cf851d616366b1de7d183a8fc4a3435a0f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_067.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 73.649,
+      "created_at": "2026-10-23T23:50:20.381145+00:00",
+      "derivative_input": false
+    }
+  }
+}

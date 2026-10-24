@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9fee74674925d7b5",
+    "object": "chat.completion",
+    "created": 1792801395,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [293, 167, 962, 237], \"category\": \"Page-header\", \"text\": \"፶፯ አንቀጸ ብርሃን\"}, {\"bbox\": [163, 286, 1456, 2016], \"category\": \"Text\", \"text\": \"ሰራዊትና የሰማይ ጭፍሮች በመፍራትና በመንቀጥቀጥ በፊትሽ ቆሙ። በዚህም ዓለም ኪሩቤልና ሱራፌል በሰማይ ካለው ምስጋናቸው ወይም ከቀድሞ ምስጋናቸው ወገን ባልሆነ በሌላ (በአዲስ) ምስጋና አመሰገኑሽ ፍጥረትን ሁሉ ሰብስቦ የያዘና ፍጥረትን ሁሉ የሚመግብ ጌታቸው በብትሽ (በክንድሽ) ተቀምጦ ጡትሽን እንደ ህፃን ሲጠቡ ባዩ ጊዜ በአሪም ፈለጉና በዚህ ዓለም እንደ ቀድሞው በአባቱና ከመንፈስ ቅዱስ ጋር አገኙት። የጌታ ትህትናውን ባዩ ጊዜም ዓይኖቻቸውን ወደ ላይ ወደ አርያም ከፍ ከፍ አደረጉ። ክንፋቸዉንም ዘርግተው ለሁሉ ጌታ ላንተ በሰማይ ምስጋና ይገባሃል። እያሉ ጌታቸውን አመሰገኑ ዳግመኛም በዋሻ (በጎል) ውስጥ አንቺን ከህፃንሽ ጋር እይቀው በሙዴር ላይ ፕለም ፎቅር\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4799,
+      "completion_tokens": 636,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፶፯ አንቀጸ ብርሃን",
+      "bbox": [
+        476.4987244897959,
+        273.36309523809524,
+        1564.4770408163265,
+        387.94642857142856
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ሰራዊትና የሰማይ ጭፍሮች በመፍራትና በመንቀጥቀጥ በፊትሽ ቆሙ። በዚህም ዓለም ኪሩቤልና ሱራፌል በሰማይ ካለው ምስጋናቸው ወይም ከቀድሞ ምስጋናቸው ወገን ባልሆነ በሌላ (በአዲስ) ምስጋና አመሰገኑሽ ፍጥረትን ሁሉ ሰብስቦ የያዘና ፍጥረትን ሁሉ የሚመግብ ጌታቸው በብትሽ (በክንድሽ) ተቀምጦ ጡትሽን እንደ ህፃን ሲጠቡ ባዩ ጊዜ በአሪም ፈለጉና በዚህ ዓለም እንደ ቀድሞው በአባቱና ከመንፈስ ቅዱስ ጋር አገኙት። የጌታ ትህትናውን ባዩ ጊዜም ዓይኖቻቸውን ወደ ላይ ወደ አርያም ከፍ ከፍ አደረጉ። ክንፋቸዉንም ዘርግተው ለሁሉ ጌታ ላንተ በሰማይ ምስጋና ይገባሃል። እያሉ ጌታቸውን አመሰገኑ ዳግመኛም በዋሻ (በጎል) ውስጥ አንቺን ከህፃንሽ ጋር እይቀው በሙዴር ላይ ፕለም ፎቅር",
+      "bbox": [
+        265.0829081632653,
+        468.1547619047619,
+        2367.8571428571427,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 115,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፶፯ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          476.4987244897959,
+          273.36309523809524,
+          1564.4770408163265,
+          387.94642857142856
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሰራዊትና የሰማይ ጭፍሮች በመፍራትና በመንቀጥቀጥ በፊትሽ ቆሙ። በዚህም ዓለም ኪሩቤልና ሱራፌል በሰማይ ካለው ምስጋናቸው ወይም ከቀድሞ ምስጋናቸው ወገን ባልሆነ በሌላ (በአዲስ) ምስጋና አመሰገኑሽ ፍጥረትን ሁሉ ሰብስቦ የያዘና ፍጥረትን ሁሉ የሚመግብ ጌታቸው በብትሽ (በክንድሽ) ተቀምጦ ጡትሽን እንደ ህፃን ሲጠቡ ባዩ ጊዜ በአሪም ፈለጉና በዚህ ዓለም እንደ ቀድሞው በአባቱና ከመንፈስ ቅዱስ ጋር አገኙት። የጌታ ትህትናውን ባዩ ጊዜም ዓይኖቻቸውን ወደ ላይ ወደ አርያም ከፍ ከፍ አደረጉ። ክንፋቸዉንም ዘርግተው ለሁሉ ጌታ ላንተ በሰማይ ምስጋና ይገባሃል። እያሉ ጌታቸውን አመሰገኑ ዳግመኛም በዋሻ (በጎል) ውስጥ አንቺን ከህፃንሽ ጋር እይቀው በሙዴር ላይ ፕለም ፎቅር",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          265.0829081632653,
+          468.1547619047619,
+          2367.8571428571427,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "714e567c0d7c68f6b0c2b1b0ce1773046ca672a4518c83e4249a6082a45ec401",
+      "source_sha256": "24ec7a0ed78f335e16c6a6f2b86b8d28b808bde81015672ce689f02dcb90e493",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_115.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.108,
+      "created_at": "2026-10-24T00:24:37.395954+00:00",
+      "derivative_input": false
+    }
+  }
+}

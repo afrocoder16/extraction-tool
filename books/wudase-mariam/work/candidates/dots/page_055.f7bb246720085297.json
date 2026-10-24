@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-addeedd031dbfe28",
+    "object": "chat.completion",
+    "created": 1792798850,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [174, 132, 1146, 207], \"category\": \"Page-header\", \"text\": \"፳፯ የሐሙስ ውዳሴ ማርያም\"}, {\"bbox\": [55, 254, 1345, 2016], \"category\": \"Text\", \"text\": \"፫ ሔዋን እንጨት በልታ ባደረገችው ዓመፅ በባሕርያችን ያደረ የቀድሞው እርግማን በእርስዋ የጠፋልን አምላክን የወለደች ድንግል ማርያም የሁላችን መመኪያ ናት፡፡ ስለ ሔዋን የገነት ደጅ ተዘጋ ዳግመኛም ስለ ድንግል ማርያም ተከፈተልን፡፡ ከዕፀ ሕይወት እንበላ ዘንድ አደለን፡፡ ይኸውም እኛን ስለመውደድ መጥቶ ያዳነን የክርስቶስ ክብር ሥጋው ክብር ደሙ ነው፡፡ ስለ እርሷ ድንቅ ሆኖ የሚነገረውን ይህን ምሥጢር ማወቅ የሚቻለው ምን ልቡና ነው? መናገር የሚቻለው ምን አንደበት ነው? መስማት የሚቻለው ምን ጆሮ ነው? ሰውን የሚወድ እግዚአብሔር አንድ ብቻ የሆነ አምላክነቱ ሳይለወጥ ከዓለም በፊት የነበረ የአብ ቃል ከአብ ዘንድ መጥቶ ልዩ ከሆነች እናቱ ሰው ሆነ፡፡ ከወለደችውም በኅለ ዲንግልናዋ እልተለወጠም፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4825,
+      "completion_tokens": 662,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፯ የሐሙስ ውዳሴ ማርያም",
+      "bbox": [
+        282.9719387755102,
+        216.07142857142858,
+        1863.7117346938776,
+        338.8392857142857
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፫ ሔዋን እንጨት በልታ ባደረገችው ዓመፅ በባሕርያችን ያደረ የቀድሞው እርግማን በእርስዋ የጠፋልን አምላክን የወለደች ድንግል ማርያም የሁላችን መመኪያ ናት፡፡ ስለ ሔዋን የገነት ደጅ ተዘጋ ዳግመኛም ስለ ድንግል ማርያም ተከፈተልን፡፡ ከዕፀ ሕይወት እንበላ ዘንድ አደለን፡፡ ይኸውም እኛን ስለመውደድ መጥቶ ያዳነን የክርስቶስ ክብር ሥጋው ክብር ደሙ ነው፡፡ ስለ እርሷ ድንቅ ሆኖ የሚነገረውን ይህን ምሥጢር ማወቅ የሚቻለው ምን ልቡና ነው? መናገር የሚቻለው ምን አንደበት ነው? መስማት የሚቻለው ምን ጆሮ ነው? ሰውን የሚወድ እግዚአብሔር አንድ ብቻ የሆነ አምላክነቱ ሳይለወጥ ከዓለም በፊት የነበረ የአብ ቃል ከአብ ዘንድ መጥቶ ልዩ ከሆነች እናቱ ሰው ሆነ፡፡ ከወለደችውም በኅለ ዲንግልናዋ እልተለወጠም፡፡",
+      "bbox": [
+        89.44515306122449,
+        415.7738095238095,
+        2187.3405612244896,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 55,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፯ የሐሙስ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          282.9719387755102,
+          216.07142857142858,
+          1863.7117346938776,
+          338.8392857142857
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ ሔዋን እንጨት በልታ ባደረገችው ዓመፅ በባሕርያችን ያደረ የቀድሞው እርግማን በእርስዋ የጠፋልን አምላክን የወለደች ድንግል ማርያም የሁላችን መመኪያ ናት፡፡ ስለ ሔዋን የገነት ደጅ ተዘጋ ዳግመኛም ስለ ድንግል ማርያም ተከፈተልን፡፡ ከዕፀ ሕይወት እንበላ ዘንድ አደለን፡፡ ይኸውም እኛን ስለመውደድ መጥቶ ያዳነን የክርስቶስ ክብር ሥጋው ክብር ደሙ ነው፡፡ ስለ እርሷ ድንቅ ሆኖ የሚነገረውን ይህን ምሥጢር ማወቅ የሚቻለው ምን ልቡና ነው? መናገር የሚቻለው ምን አንደበት ነው? መስማት የሚቻለው ምን ጆሮ ነው? ሰውን የሚወድ እግዚአብሔር አንድ ብቻ የሆነ አምላክነቱ ሳይለወጥ ከዓለም በፊት የነበረ የአብ ቃል ከአብ ዘንድ መጥቶ ልዩ ከሆነች እናቱ ሰው ሆነ፡፡ ከወለደችውም በኅለ ዲንግልናዋ እልተለወጠም፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          89.44515306122449,
+          415.7738095238095,
+          2187.3405612244896,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f7bb2467200852971bd8d0d4c96aa204f9c3f653de4f20dcfc6295b5e873a142",
+      "source_sha256": "50b3ac93e3f5ee9956bed8eafb8c6c53f3f0ee722c8014d260951ea658b95af6",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_055.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 87.518,
+      "created_at": "2026-10-23T23:42:16.216822+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a24f773b090ae82a",
+    "object": "chat.completion",
+    "created": 1792804185,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [269, 166, 891, 244], \"category\": \"Page-header\", \"text\": \"፲፯ የሰኔ ጎልጎታ\"}, {\"bbox\": [143, 291, 1435, 965], \"category\": \"Text\", \"text\": \"አቤቱ ምስጋናዬን የሚናገሩትን\\nመጻህፍት ለጻፈ ላጻፈ በኔ ስምም\\nለጸለየ ሰማያዊ በሆነ አምደ ብርሃን\\nስሙን ጻፈው በጸሎቱም ተማምኖ\\nይህን· መጻሐፍ በአንገቱ ላነገተ በሰው\\nልብ ያልታሰበዉን አይን ያላየውን ጆሮ\\nያልሰማዉን መልካሙን ዋጋ ክፈለው፡፡\"}, {\"bbox\": [143, 976, 1443, 1641], \"category\": \"Text\", \"text\": \"አቤቱ በስሜ የሚያምኑ ሁሉ ከሲአል\\nሞት ነፃ የወጡ ይሆኑ ዘንድ እለምንሃለሁ\\nእማልድሃለሁ አስቦ መታሰቢያዬን\\nላደረገ (ዝክሬን ላዘከረ) በበዓሌም ቀን\\nበምመሰገንበት ምስጋና የሚያመሰግነውንና\\nየሚዘምረዉን አቤቱ ዝማሬ መላእክትን\\nአሰማው፡፡\"}, {\"bbox\": [143, 1646, 1443, 2016], \"category\": \"Text\", \"text\": \"ጌታችንም ይሁን እንደወደድሽ ይደረግልሽ\\nአላት በአንቺ ስም ቤተ ክርስቲያን\\nላሳነፀ፤ የብርሀን ቦታ አዘጋጅለታለሁ፡፡\\nበመንግሥተ ሰማያትም ንጹሕ ማደሪያ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4810,
+      "completion_tokens": 647,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፯ የሰኔ ጎልጎታ",
+      "bbox": [
+        437.46811224489795,
+        271.7261904761905,
+        1449.0114795918366,
+        399.4047619047619
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "አቤቱ ምስጋናዬን የሚናገሩትን\nመጻህፍት ለጻፈ ላጻፈ በኔ ስምም\nለጸለየ ሰማያዊ በሆነ አምደ ብርሃን\nስሙን ጻፈው በጸሎቱም ተማምኖ\nይህን· መጻሐፍ በአንገቱ ላነገተ በሰው\nልብ ያልታሰበዉን አይን ያላየውን ጆሮ\nያልሰማዉን መልካሙን ዋጋ ክፈለው፡፡",
+      "bbox": [
+        232.55739795918367,
+        476.3392857142857,
+        2333.7053571428573,
+        1579.6130952380952
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "አቤቱ በስሜ የሚያምኑ ሁሉ ከሲአል\nሞት ነፃ የወጡ ይሆኑ ዘንድ እለምንሃለሁ\nእማልድሃለሁ አስቦ መታሰቢያዬን\nላደረገ (ዝክሬን ላዘከረ) በበዓሌም ቀን\nበምመሰገንበት ምስጋና የሚያመሰግነውንና\nየሚዘምረዉን አቤቱ ዝማሬ መላእክትን\nአሰማው፡፡",
+      "bbox": [
+        232.55739795918367,
+        1597.6190476190477,
+        2346.7155612244896,
+        2686.160714285714
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ጌታችንም ይሁን እንደወደድሽ ይደረግልሽ\nአላት በአንቺ ስም ቤተ ክርስቲያን\nላሳነፀ፤ የብርሀን ቦታ አዘጋጅለታለሁ፡፡\nበመንግሥተ ሰማያትም ንጹሕ ማደሪያ",
+      "bbox": [
+        232.55739795918367,
+        2694.345238095238,
+        2346.7155612244896,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 179,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፯ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          437.46811224489795,
+          271.7261904761905,
+          1449.0114795918366,
+          399.4047619047619
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አቤቱ ምስጋናዬን የሚናገሩትን\nመጻህፍት ለጻፈ ላጻፈ በኔ ስምም\nለጸለየ ሰማያዊ በሆነ አምደ ብርሃን\nስሙን ጻፈው በጸሎቱም ተማምኖ\nይህን· መጻሐፍ በአንገቱ ላነገተ በሰው\nልብ ያልታሰበዉን አይን ያላየውን ጆሮ\nያልሰማዉን መልካሙን ዋጋ ክፈለው፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          232.55739795918367,
+          476.3392857142857,
+          2333.7053571428573,
+          1579.6130952380952
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አቤቱ በስሜ የሚያምኑ ሁሉ ከሲአል\nሞት ነፃ የወጡ ይሆኑ ዘንድ እለምንሃለሁ\nእማልድሃለሁ አስቦ መታሰቢያዬን\nላደረገ (ዝክሬን ላዘከረ) በበዓሌም ቀን\nበምመሰገንበት ምስጋና የሚያመሰግነውንና\nየሚዘምረዉን አቤቱ ዝማሬ መላእክትን\nአሰማው፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          232.55739795918367,
+          1597.6190476190477,
+          2346.7155612244896,
+          2686.160714285714
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ጌታችንም ይሁን እንደወደድሽ ይደረግልሽ\nአላት በአንቺ ስም ቤተ ክርስቲያን\nላሳነፀ፤ የብርሀን ቦታ አዘጋጅለታለሁ፡፡\nበመንግሥተ ሰማያትም ንጹሕ ማደሪያ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          232.55739795918367,
+          2694.345238095238,
+          2346.7155612244896,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "dbc6b75894ae1b1b131f2c4a4b094b362919607927306cda103b051dca00003c",
+      "source_sha256": "c22614bd5224a2070503ff30e4ca01f7d322750e03a4ad440866c9bcdb35f70b",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_179.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.77,
+      "created_at": "2026-10-24T01:11:09.638461+00:00",
+      "derivative_input": false
+    }
+  }
+}

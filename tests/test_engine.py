@@ -9,6 +9,7 @@ from engine import book as book_mod
 from engine import build_book
 from engine.cli import parse_pages
 from engine.transcribe import PAGE_SCHEMA
+from engine.provenance import file_hash, page_revision
 
 
 class EngineTests(unittest.TestCase):
@@ -50,6 +51,24 @@ class EngineTests(unittest.TestCase):
             json.dumps(payload), encoding="utf-8"
         )
 
+    def add_source_evidence(self, bk: book_mod.Book, pages: int) -> None:
+        bk.source_pdf.write_bytes(b"fixture source identity")
+        rendered = {}
+        for page in range(1, pages + 1):
+            image = bk.page_images / f"page_{page:03d}.png"
+            image.write_bytes(f"fixture image {page}".encode())
+            rendered[str(page)] = file_hash(image)
+        (bk.work / "source_manifest.json").write_text(json.dumps({
+            "source_sha256": file_hash(bk.source_pdf), "pages": pages,
+            "dpi": bk.dpi, "rendered": rendered,
+        }))
+
+    def approve(self, bk: book_mod.Book, page: int) -> None:
+        transcript = json.loads((bk.dir("transcripts") / f"page_{page:03d}.json").read_text())
+        revision = page_revision(bk.work, page, transcript)
+        bk.verification_file.write_text(json.dumps({"reports": [{"page": page, "review_flags": [], **revision}]}))
+        bk.review_file.write_text(json.dumps({"entries": {str(page): {"status": "approved", **revision}}}))
+
     def test_page_parser(self) -> None:
         self.assertEqual(parse_pages("1,3-5,3", 6), [1, 3, 4, 5])
         self.assertEqual(parse_pages("all", 3), [1, 2, 3])
@@ -79,14 +98,8 @@ class EngineTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             bk = self.make_book(Path(folder), content_pages=(1,))
             self.write_transcript(bk, 1)
-            bk.verification_file.write_text(
-                json.dumps({"reports": [{"page": 1, "review_flags": []}]}),
-                encoding="utf-8",
-            )
-            bk.review_file.write_text(
-                json.dumps({"entries": {"1": {"status": "approved", "note": ""}}}),
-                encoding="utf-8",
-            )
+            self.add_source_evidence(bk, 1)
+            self.approve(bk, 1)
 
             ready = build_book.build(bk, [1], 1)
             self.assertTrue(ready["quality"]["production_ready"])
@@ -100,6 +113,44 @@ class EngineTests(unittest.TestCase):
             incomplete = build_book.build(bk, [1, 2], 2)
             self.assertFalse(incomplete["quality"]["production_ready"])
             self.assertEqual(incomplete["quality"]["missing_transcript_pages"], [2])
+
+    def test_changed_text_invalidates_review_and_verification(self) -> None:
+        with tempfile.TemporaryDirectory() as folder:
+            bk = self.make_book(Path(folder))
+            self.write_transcript(bk, 1)
+            self.add_source_evidence(bk, 1)
+            self.approve(bk, 1)
+            path = bk.dir("transcripts") / "page_001.json"
+            value = json.loads(path.read_text())
+            value["blocks"][0]["spans"][0]["t"] = "changed text"
+            path.write_text(json.dumps(value))
+            result = build_book.build(bk, [1], 1)
+            self.assertFalse(result["quality"]["production_ready"])
+            self.assertEqual(result["quality"]["unverified_transcript_pages"], [1])
+            self.assertEqual(result["quality"]["unapproved_content_pages"], [1])
+
+    def test_unanalysed_source_page_prevents_release(self) -> None:
+        with tempfile.TemporaryDirectory() as folder:
+            bk = self.make_book(Path(folder))
+            self.write_transcript(bk, 1)
+            self.add_source_evidence(bk, 2)
+            self.approve(bk, 1)
+            result = build_book.build(bk, [1], 2)
+            self.assertFalse(result["quality"]["production_ready"])
+            self.assertEqual(result["quality"]["missing_analysis_pages"], [2])
+
+    def test_empty_section_config_has_readable_default_section(self) -> None:
+        with tempfile.TemporaryDirectory() as folder:
+            bk = self.make_book(Path(folder))
+            self.write_transcript(bk, 1)
+            result = build_book.build(bk, [1], 1)
+            self.assertEqual(result["sections_count"], 1)
+            self.assertEqual(result["sections"][0]["blocks"][0]["text"], "ሙከራ።")
+
+    def test_page_parser_rejects_invalid_and_out_of_range_selection(self) -> None:
+        for spec in ("0", "4", "2-1", "1,", "-1"):
+            with self.subTest(spec=spec), self.assertRaises(ValueError):
+                parse_pages(spec, 3)
 
 
 if __name__ == "__main__":

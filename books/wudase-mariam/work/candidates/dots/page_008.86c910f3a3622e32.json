@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bbea58530e7ca9aa",
+    "object": "chat.completion",
+    "created": 1792796892,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [73, 0, 1356, 125], \"category\": \"Text\", \"text\": \"የሆነ በሰማይም ካለው በምድርም ካለው\"}, {\"bbox\": [469, 171, 1093, 234], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4269,
+      "completion_tokens": 106,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "የሆነ በሰማይም ካለው በምድርም ካለው",
+      "bbox": [
+        118.71811224489795,
+        0.0,
+        2205.2295918367345,
+        204.61309523809524
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        762.7232142857143,
+        279.9107142857143,
+        1777.5191326530612,
+        383.0357142857143
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 8,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የሆነ በሰማይም ካለው በምድርም ካለው",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          118.71811224489795,
+          0.0,
+          2205.2295918367345,
+          204.61309523809524
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          762.7232142857143,
+          279.9107142857143,
+          1777.5191326530612,
+          383.0357142857143
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "86c910f3a3622e32a9d2cdc8589ee779470ddef0876adb2dd475a92b11d0b5c3",
+      "source_sha256": "84f87a1604fcfa7be73c4b382992a48464ef7dc46fc9561a4890816b530ad473",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_008.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 22.728,
+      "created_at": "2026-10-23T23:08:34.882389+00:00",
+      "derivative_input": false
+    }
+  }
+}

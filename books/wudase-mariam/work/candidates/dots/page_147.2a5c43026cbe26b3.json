@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8e3bd8b9622c50b0",
+    "object": "chat.completion",
+    "created": 1792802612,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [498, 369, 985, 463], \"category\": \"Section-header\", \"text\": \"የሰኔ ጎልጎታ\"}, {\"bbox\": [97, 584, 1391, 1598], \"category\": \"Text\", \"text\": \"አንድ አምላክ በሚሆን በአብ በወልድ\\nበመንፈስ ቅዱስ ስም በእውነት\\nእናምናለን፡፡ ልመናዋ ክብሯ የልጅዋ\\nቸርነት ከሁላችን ጋር ይኑር ለዘላለሙ\\nአሜን፡፡ አምላክን የወለደች በውስጥ\\nበአፍኣ ንጽሕት የምትሆን የብርሃን\\nእናቱ እመቤታችን እግዝእትነ ማሪያም\\nበሰኔ ሐያ አንድ ቀን በጎልጎታ ይኸውም\\nየጌታችን የመድሃኒታችን የኢየሱስ\\nክርስቶስ መካነ መቃብር በሚሆን እንዲህ\\nስትል የጸለየችው ጸሎት ይኽ ነው፡፡\"}, {\"bbox\": [101, 1612, 1391, 1986], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ጌታዬ አምላኬና ንጉሤ\\nኢየሱስ ክርስቶስ ሆይ፤ ሰውን ለማዳን\\nስትል በፈቃድህ ከኔ ተወልድህ ጡቶቼንም\\nጠብተህ በግዕዘ ሕፃናት ብታድግ ሰማይና\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4725,
+      "completion_tokens": 562,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Section-header",
+      "text": "የሰኔ ጎልጎታ",
+      "bbox": [
+        809.8852040816327,
+        604.0178571428571,
+        1601.8813775510205,
+        757.8869047619048
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "አንድ አምላክ በሚሆን በአብ በወልድ\nበመንፈስ ቅዱስ ስም በእውነት\nእናምናለን፡፡ ልመናዋ ክብሯ የልጅዋ\nቸርነት ከሁላችን ጋር ይኑር ለዘላለሙ\nአሜን፡፡ አምላክን የወለደች በውስጥ\nበአፍኣ ንጽሕት የምትሆን የብርሃን\nእናቱ እመቤታችን እግዝእትነ ማሪያም\nበሰኔ ሐያ አንድ ቀን በጎልጎታ ይኸውም\nየጌታችን የመድሃኒታችን የኢየሱስ\nክርስቶስ መካነ መቃብር በሚሆን እንዲህ\nስትል የጸለየችው ጸሎት ይኽ ነው፡፡",
+      "bbox": [
+        157.7487244897959,
+        955.952380952381,
+        2262.1492346938776,
+        2615.7738095238096
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ጌታዬ አምላኬና ንጉሤ\nኢየሱስ ክርስቶስ ሆይ፤ ሰውን ለማዳን\nስትል በፈቃድህ ከኔ ተወልድህ ጡቶቼንም\nጠብተህ በግዕዘ ሕፃናት ብታድግ ሰማይና",
+      "bbox": [
+        164.25382653061226,
+        2638.690476190476,
+        2262.1492346938776,
+        3250.8928571428573
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 147,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          809.8852040816327,
+          604.0178571428571,
+          1601.8813775510205,
+          757.8869047619048
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አንድ አምላክ በሚሆን በአብ በወልድ\nበመንፈስ ቅዱስ ስም በእውነት\nእናምናለን፡፡ ልመናዋ ክብሯ የልጅዋ\nቸርነት ከሁላችን ጋር ይኑር ለዘላለሙ\nአሜን፡፡ አምላክን የወለደች በውስጥ\nበአፍኣ ንጽሕት የምትሆን የብርሃን\nእናቱ እመቤታችን እግዝእትነ ማሪያም\nበሰኔ ሐያ አንድ ቀን በጎልጎታ ይኸውም\nየጌታችን የመድሃኒታችን የኢየሱስ\nክርስቶስ መካነ መቃብር በሚሆን እንዲህ\nስትል የጸለየችው ጸሎት ይኽ ነው፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          157.7487244897959,
+          955.952380952381,
+          2262.1492346938776,
+          2615.7738095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ጌታዬ አምላኬና ንጉሤ\nኢየሱስ ክርስቶስ ሆይ፤ ሰውን ለማዳን\nስትል በፈቃድህ ከኔ ተወልድህ ጡቶቼንም\nጠብተህ በግዕዘ ሕፃናት ብታድግ ሰማይና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          164.25382653061226,
+          2638.690476190476,
+          2262.1492346938776,
+          3250.8928571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "2a5c43026cbe26b3fe2a60f1d3ebf54d3469bd5442bbe5729f154da06df1da96",
+      "source_sha256": "062f568434bdace047f965269cbfd0fdbc05fd45ed6106b64ffc6780ac2f1dbf",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_147.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 75.472,
+      "created_at": "2026-10-24T00:44:46.627506+00:00",
+      "derivative_input": false
+    }
+  }
+}

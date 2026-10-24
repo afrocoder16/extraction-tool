@@ -1,0 +1,227 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8bd67a3e8c9c167f",
+    "object": "chat.completion",
+    "created": 1792796715,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [345, 217, 385, 278], \"category\": \"Page-header\", \"text\": \"፪\"}, {\"bbox\": [639, 201, 1098, 278], \"category\": \"Page-header\", \"text\": \"የዘወትር ጸሎት\"}, {\"bbox\": [223, 321, 1508, 761], \"category\": \"Text\", \"text\": \"የንጉሦችም ንጉሥ አንተ ነህ:: የስጋም\\nየነፍስም ፈጣሪ አነተ ነህ:: እናንተስ\\nበምትጻልዩበት ጊዜ እንዲህ ብላችሁ\\nጻልዩ ብሎ ቅዱስ ልጅህ እንዳስተማረን\\nእንጠራለሃን::\"}, {\"bbox\": [211, 765, 1505, 1572], \"category\": \"Text\", \"text\": \"፫ አባታችን ሆይ፤ በሰማያት የምትኖር\\nስምህ ይቀደስ መንግሥትህ ትምጣ\\nፈቃድህ በሰማይ እንደሆነች እንዲሁም\\nበምድር ትሁን:: የዕለት እንጀራችንን\\nስጠን ዛሬ በደላችንንም ይቅር በለን፤\\nእኛም የበደሉንን ይቅር እንደምንል::\\nአቤቱ ወደ ፈተናም አታግባን ከክፉ ሁሉ\\nአድነን እንጂ መንግሥት ያንተ ናትና\\nኃይል ክብር ምስጋና ለዘለዓለሙ አሜን::\"}, {\"bbox\": [201, 1566, 1493, 2016], \"category\": \"Text\", \"text\": \"፬ እመቤቴ ማርያም ሆይ ።\\nበመልእኩ በቅዱስ ገብርኤል ሰላምታ\\nሰሳም እልሻለሁ በሃሳብሽ ድንግል\\nነሽ በሥጋሽም ድንግል ነሽ:: የአሽናፊ\\nየእግዚአብሔር እናት ሆይ፤ ላንቺ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4879,
+      "completion_tokens": 716,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፪",
+      "bbox": [
+        561.0650510204082,
+        355.2083333333333,
+        626.1160714285714,
+        455.0595238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Page-header",
+      "text": "የዘወትር ጸሎት",
+      "bbox": [
+        1039.1900510204082,
+        329.01785714285717,
+        1785.6505102040817,
+        455.0595238095238
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "የንጉሦችም ንጉሥ አንተ ነህ:: የስጋም\nየነፍስም ፈጣሪ አነተ ነህ:: እናንተስ\nበምትጻልዩበት ጊዜ እንዲህ ብላችሁ\nጻልዩ ብሎ ቅዱስ ልጅህ እንዳስተማረን\nእንጠራለሃን::",
+      "bbox": [
+        362.6594387755102,
+        525.4464285714286,
+        2452.423469387755,
+        1245.6845238095239
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፫ አባታችን ሆይ፤ በሰማያት የምትኖር\nስምህ ይቀደስ መንግሥትህ ትምጣ\nፈቃድህ በሰማይ እንደሆነች እንዲሁም\nበምድር ትሁን:: የዕለት እንጀራችንን\nስጠን ዛሬ በደላችንንም ይቅር በለን፤\nእኛም የበደሉንን ይቅር እንደምንል::\nአቤቱ ወደ ፈተናም አታግባን ከክፉ ሁሉ\nአድነን እንጂ መንግሥት ያንተ ናትና\nኃይል ክብር ምስጋና ለዘለዓለሙ አሜን::",
+      "bbox": [
+        343.1441326530612,
+        1252.232142857143,
+        2447.5446428571427,
+        2573.214285714286
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "፬ እመቤቴ ማርያም ሆይ ።\nበመልእኩ በቅዱስ ገብርኤል ሰላምታ\nሰሳም እልሻለሁ በሃሳብሽ ድንግል\nነሽ በሥጋሽም ድንግል ነሽ:: የአሽናፊ\nየእግዚአብሔር እናት ሆይ፤ ላንቺ",
+      "bbox": [
+        326.8813775510204,
+        2563.3928571428573,
+        2428.029336734694,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 5,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          561.0650510204082,
+          355.2083333333333,
+          626.1160714285714,
+          455.0595238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የዘወትር ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          1039.1900510204082,
+          329.01785714285717,
+          1785.6505102040817,
+          455.0595238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የንጉሦችም ንጉሥ አንተ ነህ:: የስጋም\nየነፍስም ፈጣሪ አነተ ነህ:: እናንተስ\nበምትጻልዩበት ጊዜ እንዲህ ብላችሁ\nጻልዩ ብሎ ቅዱስ ልጅህ እንዳስተማረን\nእንጠራለሃን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          362.6594387755102,
+          525.4464285714286,
+          2452.423469387755,
+          1245.6845238095239
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ አባታችን ሆይ፤ በሰማያት የምትኖር\nስምህ ይቀደስ መንግሥትህ ትምጣ\nፈቃድህ በሰማይ እንደሆነች እንዲሁም\nበምድር ትሁን:: የዕለት እንጀራችንን\nስጠን ዛሬ በደላችንንም ይቅር በለን፤\nእኛም የበደሉንን ይቅር እንደምንል::\nአቤቱ ወደ ፈተናም አታግባን ከክፉ ሁሉ\nአድነን እንጂ መንግሥት ያንተ ናትና\nኃይል ክብር ምስጋና ለዘለዓለሙ አሜን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          343.1441326530612,
+          1252.232142857143,
+          2447.5446428571427,
+          2573.214285714286
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬ እመቤቴ ማርያም ሆይ ።\nበመልእኩ በቅዱስ ገብርኤል ሰላምታ\nሰሳም እልሻለሁ በሃሳብሽ ድንግል\nነሽ በሥጋሽም ድንግል ነሽ:: የአሽናፊ\nየእግዚአብሔር እናት ሆይ፤ ላንቺ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          326.8813775510204,
+          2563.3928571428573,
+          2428.029336734694,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "3bfb99987e844c736d1d1c47f70fdb92cb3cfd9fc8e912fa6aedff7a439e650d",
+      "source_sha256": "82ccea8b4d793973014d2939a5e2d3c177224591eb3a20d5187030dc631a7842",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_005.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 93.224,
+      "created_at": "2026-10-23T23:06:46.488700+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9271d1475d74edbe",
+    "object": "chat.completion",
+    "created": 1792805541,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [294, 201, 965, 283], \"category\": \"Page-header\", \"text\": \"፴፪ የሰኔ ጎልጎታ\"}, {\"bbox\": [175, 331, 1465, 595], \"category\": \"Text\", \"text\": \"ከመንፈስ ቅዱስ ጋር ክብር ፅንዕ፤ ለአንተ\\nይገባል፤ ዛሬም ዘወትርም እስከ ዘላለሙ\\nድረስ አሜን፡፡\"}, {\"bbox\": [175, 611, 1465, 967], \"category\": \"Text\", \"text\": \"እመቤቴ ማሪያም ሆይ፤ በዚህ ቃል\\nኪዳንሽ ከተንኮለኞች ሰዎች እጅ ከጸዋጋን\\nአጋንንትም መከራ እኔን አገልጋይሽን\\nአድኝኝ አሜን፡፡\"}, {\"bbox\": [285, 1392, 1338, 1445], \"category\": \"Picture\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4497,
+      "completion_tokens": 334,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴፪ የሰኔ ጎልጎታ",
+      "bbox": [
+        478.125,
+        329.01785714285717,
+        1569.3558673469388,
+        463.2440476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ከመንፈስ ቅዱስ ጋር ክብር ፅንዕ፤ ለአንተ\nይገባል፤ ዛሬም ዘወትርም እስከ ዘላለሙ\nድረስ አሜን፡፡",
+      "bbox": [
+        284.5982142857143,
+        541.8154761904761,
+        2382.4936224489797,
+        973.9583333333334
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "እመቤቴ ማሪያም ሆይ፤ በዚህ ቃል\nኪዳንሽ ከተንኮለኞች ሰዎች እጅ ከጸዋጋን\nአጋንንትም መከራ እኔን አገልጋይሽን\nአድኝኝ አሜን፡፡",
+      "bbox": [
+        284.5982142857143,
+        1000.1488095238095,
+        2382.4936224489797,
+        1582.8869047619048
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        463.48852040816325,
+        2278.5714285714284,
+        2175.956632653061,
+        2365.3273809523807
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 207,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴፪ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          478.125,
+          329.01785714285717,
+          1569.3558673469388,
+          463.2440476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከመንፈስ ቅዱስ ጋር ክብር ፅንዕ፤ ለአንተ\nይገባል፤ ዛሬም ዘወትርም እስከ ዘላለሙ\nድረስ አሜን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          284.5982142857143,
+          541.8154761904761,
+          2382.4936224489797,
+          973.9583333333334
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እመቤቴ ማሪያም ሆይ፤ በዚህ ቃል\nኪዳንሽ ከተንኮለኞች ሰዎች እጅ ከጸዋጋን\nአጋንንትም መከራ እኔን አገልጋይሽን\nአድኝኝ አሜን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          284.5982142857143,
+          1000.1488095238095,
+          2382.4936224489797,
+          1582.8869047619048
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "af267d22b3a314526b56386d1e41b662d629a5491cb3e420e27c889dd1b8772e",
+      "source_sha256": "814fa7f6a77363ad30329126dff225fe3cf376861610687d25d88aea87650b28",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_207.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 50.492,
+      "created_at": "2026-10-24T01:33:09.197632+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9d6e3ac49353faa1",
+    "object": "chat.completion",
+    "created": 1792804589,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [193, 136, 835, 215], \"category\": \"Page-header\", \"text\": \"፳፩ የሰኔ ጎልጎታ\"}, {\"bbox\": [64, 272, 1404, 1861], \"category\": \"Text\", \"text\": \"ልብን በመፋቅ በቃር የሚመስሉ በጥርስ\\nበሽታ አፍን በማምረር በራስ ምታትና\\nበአይን ህመምም ቢሆን የሚመሰሉ በልብ\\nህመም ወይም በሆድ ቁርጠት የሚመስሉ\\nበንዳድ (በወባ) በማንቀጥቀጥም ቢሆን\\nየሚመስሉ በባህርና በየብስ በእንጨት\\nበድንጋይም ቢሆን የሚመስሉ በእሳትና\\nበዲን የሚመስሉ በፍቅርና በሰላም ወይም\\nበጠብ ቢሆን የሚመስሉ በአራዊትና\\nበአእዋፍም ጨከት በፀሃይ ሀሩር ወይም\\nበቁርና በአመዳይ በውርጭ በነፋስ\\nንውፅውፅታ ኃይል ወይም በውሻ መንከስ\\nየሚመሰሉ በእፉኝት መንደፍም ቢሆን\\nበእሳት ማቃጠል የሚመስሉ በሌሊት\\nጨለማ በቀን ብርሃንም የሚመሰሉ\\nእሊህ ሁሉ አይቀርቡም፡፡\"}, {\"bbox\": [68, 1868, 1404, 2016], \"category\": \"Text\", \"text\": \"ይህቺን መጽሐፈ ጸሎት በንጹህ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4747,
+      "completion_tokens": 584,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፩ የሰኔ ጎልጎታ",
+      "bbox": [
+        313.87117346938777,
+        222.61904761904762,
+        1357.9400510204082,
+        351.9345238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ልብን በመፋቅ በቃር የሚመስሉ በጥርስ\nበሽታ አፍን በማምረር በራስ ምታትና\nበአይን ህመምም ቢሆን የሚመሰሉ በልብ\nህመም ወይም በሆድ ቁርጠት የሚመስሉ\nበንዳድ (በወባ) በማንቀጥቀጥም ቢሆን\nየሚመስሉ በባህርና በየብስ በእንጨት\nበድንጋይም ቢሆን የሚመስሉ በእሳትና\nበዲን የሚመስሉ በፍቅርና በሰላም ወይም\nበጠብ ቢሆን የሚመስሉ በአራዊትና\nበአእዋፍም ጨከት በፀሃይ ሀሩር ወይም\nበቁርና በአመዳይ በውርጭ በነፋስ\nንውፅውፅታ ኃይል ወይም በውሻ መንከስ\nየሚመሰሉ በእፉኝት መንደፍም ቢሆን\nበእሳት ማቃጠል የሚመስሉ በሌሊት\nጨለማ በቀን ብርሃንም የሚመሰሉ\nእሊህ ሁሉ አይቀርቡም፡፡",
+      "bbox": [
+        104.08163265306122,
+        445.23809523809524,
+        2283.2908163265306,
+        3046.279761904762
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ይህቺን መጽሐፈ ጸሎት በንጹህ",
+      "bbox": [
+        110.58673469387755,
+        3057.7380952380954,
+        2283.2908163265306,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 187,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፩ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          313.87117346938777,
+          222.61904761904762,
+          1357.9400510204082,
+          351.9345238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልብን በመፋቅ በቃር የሚመስሉ በጥርስ\nበሽታ አፍን በማምረር በራስ ምታትና\nበአይን ህመምም ቢሆን የሚመሰሉ በልብ\nህመም ወይም በሆድ ቁርጠት የሚመስሉ\nበንዳድ (በወባ) በማንቀጥቀጥም ቢሆን\nየሚመስሉ በባህርና በየብስ በእንጨት\nበድንጋይም ቢሆን የሚመስሉ በእሳትና\nበዲን የሚመስሉ በፍቅርና በሰላም ወይም\nበጠብ ቢሆን የሚመስሉ በአራዊትና\nበአእዋፍም ጨከት በፀሃይ ሀሩር ወይም\nበቁርና በአመዳይ በውርጭ በነፋስ\nንውፅውፅታ ኃይል ወይም በውሻ መንከስ\nየሚመሰሉ በእፉኝት መንደፍም ቢሆን\nበእሳት ማቃጠል የሚመስሉ በሌሊት\nጨለማ በቀን ብርሃንም የሚመሰሉ\nእሊህ ሁሉ አይቀርቡም፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          104.08163265306122,
+          445.23809523809524,
+          2283.2908163265306,
+          3046.279761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ይህቺን መጽሐፈ ጸሎት በንጹህ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          110.58673469387755,
+          3057.7380952380954,
+          2283.2908163265306,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "28083a4a4a95fc6eecefd2e30246a81a5320e0c5b49322b58cfc8970a8e3402e",
+      "source_sha256": "c70c244955a9969d02a5b940cd07a355dd6525fa41ec8f6844d41d226951dd06",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_187.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 78.532,
+      "created_at": "2026-10-24T01:17:46.396946+00:00",
+      "derivative_input": false
+    }
+  }
+}

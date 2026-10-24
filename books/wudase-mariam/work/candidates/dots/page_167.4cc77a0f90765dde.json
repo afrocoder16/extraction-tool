@@ -1,0 +1,257 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8cd2406928147335",
+    "object": "chat.completion",
+    "created": 1792803614,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [258, 205, 900, 288], \"category\": \"Page-header\", \"text\": \"፲፩ የሰኔ ጎልጎታ\"}, {\"bbox\": [128, 347, 1443, 524], \"category\": \"Text\", \"text\": \"ወደ ሰማይ በማረግህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [115, 547, 1451, 1027], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ይህንን አለም ለማሳለፍ ዳግመኛ በመምጣትህ ነበልባላዊ እሳት በሚጋርድህ ፍፁም በሆነ በአርያም ማደሪያህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [122, 1042, 1451, 1517], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ በማይሻረው መንግስትህ በማያልፈው ዘመንህ ጉድለት በሌለበት የደስታ ወንዝ ዝቅ ከፍ አፅንኖ በሌለበት መንበርህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [122, 1541, 1447, 1816], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ጴቃና ሴቃ በተባሉ ስሞችህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [122, 1833, 1447, 2016], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ጠላትን በሚያቸንፍ በኢያኤል ለጠላት በማይጠቃ በታዳኤል\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4838,
+      "completion_tokens": 675,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፩ የሰኔ ጎልጎታ",
+      "bbox": [
+        419.5790816326531,
+        335.5654761904762,
+        1463.6479591836735,
+        471.42857142857144
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ወደ ሰማይ በማረግህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        208.16326530612244,
+        568.0059523809524,
+        2346.7155612244896,
+        857.7380952380952
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ይህንን አለም ለማሳለፍ ዳግመኛ በመምጣትህ ነበልባላዊ እሳት በሚጋርድህ ፍፁም በሆነ በአርያም ማደሪያህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        187.0216836734694,
+        895.3869047619048,
+        2359.7257653061224,
+        1681.1011904761904
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ በማይሻረው መንግስትህ በማያልፈው ዘመንህ ጉድለት በሌለበት የደስታ ወንዝ ዝቅ ከፍ አፅንኖ በሌለበት መንበርህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        198.40561224489795,
+        1705.654761904762,
+        2359.7257653061224,
+        2483.184523809524
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ጴቃና ሴቃ በተባሉ ስሞችህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        198.40561224489795,
+        2522.470238095238,
+        2353.220663265306,
+        2972.6190476190477
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ጠላትን በሚያቸንፍ በኢያኤል ለጠላት በማይጠቃ በታዳኤል",
+      "bbox": [
+        198.40561224489795,
+        3000.4464285714284,
+        2353.220663265306,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 167,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፩ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          419.5790816326531,
+          335.5654761904762,
+          1463.6479591836735,
+          471.42857142857144
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ወደ ሰማይ በማረግህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          208.16326530612244,
+          568.0059523809524,
+          2346.7155612244896,
+          857.7380952380952
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ይህንን አለም ለማሳለፍ ዳግመኛ በመምጣትህ ነበልባላዊ እሳት በሚጋርድህ ፍፁም በሆነ በአርያም ማደሪያህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          187.0216836734694,
+          895.3869047619048,
+          2359.7257653061224,
+          1681.1011904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ በማይሻረው መንግስትህ በማያልፈው ዘመንህ ጉድለት በሌለበት የደስታ ወንዝ ዝቅ ከፍ አፅንኖ በሌለበት መንበርህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          198.40561224489795,
+          1705.654761904762,
+          2359.7257653061224,
+          2483.184523809524
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ጴቃና ሴቃ በተባሉ ስሞችህ ቃል ኢዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          198.40561224489795,
+          2522.470238095238,
+          2353.220663265306,
+          2972.6190476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ጠላትን በሚያቸንፍ በኢያኤል ለጠላት በማይጠቃ በታዳኤል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          198.40561224489795,
+          3000.4464285714284,
+          2353.220663265306,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "4cc77a0f90765dde82eac7491730817cebbc0e802d24aa8f4268460faaa20479",
+      "source_sha256": "1ed12cfb0ec855796ebd79e62ac190575f6352be9ab737cd180c01422845b3fa",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_167.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 88.491,
+      "created_at": "2026-10-24T01:01:40.851959+00:00",
+      "derivative_input": false
+    }
+  }
+}

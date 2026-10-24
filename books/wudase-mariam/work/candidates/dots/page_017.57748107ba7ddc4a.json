@@ -1,0 +1,257 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b27494ce00a41386",
+    "object": "chat.completion",
+    "created": 1792797309,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [395, 171, 1142, 247], \"category\": \"Page-header\", \"text\": \"፳ የዘወትር ጸሎት\"}, {\"bbox\": [264, 293, 1543, 1717], \"category\": \"Text\", \"text\": \"ታሳቅ ታደርገዋለች መንፈሴም\\nበመድኃኒቴ በእግዚአብሔር ደስ ይላታል።\\nየባሪያይቱን መዋረድ አይቷልና።\\nእነሆ ከዛሬ ጀምሮ ትውልድ ሁሉ\\nያመሰግኑኛል። እርሱ ብርቱ የሚሆን\\nታሳቅ ሥራን በእኔ አድርጓልና ስሙም\\nቅዱስ ነው ለሚፈሩትም ምሕረቱ ለልጅ\\nልጅ ነው ኃይልን በክንዱ አደረገ።\\nበልባቸው አሳብ የሚኮሩ ትዕቢተኞችን\\nበታተናቸው ብርቱዎችንም ከዙፋናቸው\\nአዋረዳቸው። የተራቡትንም በቸርነቱ\\nአጠገባቸው ባለጠጎችንም ባዶ እጃቸውን\\nሰደዳቸው ምሕረቱን እንዲያስብ\\nእስራኤል ባርያውን ተቀበለ። ለአባቶቻችን\\nለአብርሃምና ለዘሩም እስከ ዘለዓለም\\nድረስ እንደተናገረው።\"}, {\"bbox\": [673, 1751, 894, 1803], \"category\": \"Text\", \"text\": \"ማመሳከሪያ\"}, {\"bbox\": [563, 1811, 1001, 1866], \"category\": \"Text\", \"text\": \"ሉቃስ ም.1 ቁ.47-55\"}, {\"bbox\": [183, 1873, 1382, 1933], \"category\": \"Footnote\", \"text\": \"48 የባሪያይቱን ውርደት ተመልክቶአልና። እነሆም፥ ከዛሬ ጀምሮ\"}, {\"bbox\": [485, 1937, 1077, 1995], \"category\": \"Footnote\", \"text\": \"ትውልድ ሁሉ ብፅዕት ይሉኛል፤\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4931,
+      "completion_tokens": 768,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳ የዘወትር ጸሎት",
+      "bbox": [
+        642.3788265306123,
+        279.9107142857143,
+        1857.2066326530612,
+        404.3154761904762
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ታሳቅ ታደርገዋለች መንፈሴም\nበመድኃኒቴ በእግዚአብሔር ደስ ይላታል።\nየባሪያይቱን መዋረድ አይቷልና።\nእነሆ ከዛሬ ጀምሮ ትውልድ ሁሉ\nያመሰግኑኛል። እርሱ ብርቱ የሚሆን\nታሳቅ ሥራን በእኔ አድርጓልና ስሙም\nቅዱስ ነው ለሚፈሩትም ምሕረቱ ለልጅ\nልጅ ነው ኃይልን በክንዱ አደረገ።\nበልባቸው አሳብ የሚኮሩ ትዕቢተኞችን\nበታተናቸው ብርቱዎችንም ከዙፋናቸው\nአዋረዳቸው። የተራቡትንም በቸርነቱ\nአጠገባቸው ባለጠጎችንም ባዶ እጃቸውን\nሰደዳቸው ምሕረቱን እንዲያስብ\nእስራኤል ባርያውን ተቀበለ። ለአባቶቻችን\nለአብርሃምና ለዘሩም እስከ ዘለዓለም\nድረስ እንደተናገረው።",
+      "bbox": [
+        429.33673469387753,
+        479.61309523809524,
+        2509.343112244898,
+        2810.565476190476
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ማመሳከሪያ",
+      "bbox": [
+        1094.483418367347,
+        2866.220238095238,
+        1453.890306122449,
+        2951.339285714286
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ሉቃስ ም.1 ቁ.47-55",
+      "bbox": [
+        915.593112244898,
+        2964.434523809524,
+        1627.9017857142858,
+        3054.464285714286
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Footnote",
+      "text": "48 የባሪያይቱን ውርደት ተመልክቶአልና። እነሆም፥ ከዛሬ ጀምሮ",
+      "bbox": [
+        297.6084183673469,
+        3065.9226190476193,
+        2247.512755102041,
+        3164.1369047619046
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Footnote",
+      "text": "ትውልድ ሁሉ ብፅዕት ይሉኛል፤",
+      "bbox": [
+        788.7436224489796,
+        3170.684523809524,
+        1751.498724489796,
+        3265.625
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 17,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳ የዘወትር ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          642.3788265306123,
+          279.9107142857143,
+          1857.2066326530612,
+          404.3154761904762
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ታሳቅ ታደርገዋለች መንፈሴም\nበመድኃኒቴ በእግዚአብሔር ደስ ይላታል።\nየባሪያይቱን መዋረድ አይቷልና።\nእነሆ ከዛሬ ጀምሮ ትውልድ ሁሉ\nያመሰግኑኛል። እርሱ ብርቱ የሚሆን\nታሳቅ ሥራን በእኔ አድርጓልና ስሙም\nቅዱስ ነው ለሚፈሩትም ምሕረቱ ለልጅ\nልጅ ነው ኃይልን በክንዱ አደረገ።\nበልባቸው አሳብ የሚኮሩ ትዕቢተኞችን\nበታተናቸው ብርቱዎችንም ከዙፋናቸው\nአዋረዳቸው። የተራቡትንም በቸርነቱ\nአጠገባቸው ባለጠጎችንም ባዶ እጃቸውን\nሰደዳቸው ምሕረቱን እንዲያስብ\nእስራኤል ባርያውን ተቀበለ። ለአባቶቻችን\nለአብርሃምና ለዘሩም እስከ ዘለዓለም\nድረስ እንደተናገረው።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          429.33673469387753,
+          479.61309523809524,
+          2509.343112244898,
+          2810.565476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ማመሳከሪያ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          1094.483418367347,
+          2866.220238095238,
+          1453.890306122449,
+          2951.339285714286
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሉቃስ ም.1 ቁ.47-55",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          915.593112244898,
+          2964.434523809524,
+          1627.9017857142858,
+          3054.464285714286
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "48 የባሪያይቱን ውርደት ተመልክቶአልና። እነሆም፥ ከዛሬ ጀምሮ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          297.6084183673469,
+          3065.9226190476193,
+          2247.512755102041,
+          3164.1369047619046
+        ],
+        "layout_category": "Footnote",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ትውልድ ሁሉ ብፅዕት ይሉኛል፤",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          788.7436224489796,
+          3170.684523809524,
+          1751.498724489796,
+          3265.625
+        ],
+        "layout_category": "Footnote",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "57748107ba7ddc4add53b4cbfc51c0569e51913bc9909708a8131d2478151367",
+      "source_sha256": "c3154791882e873e666f0f45b1aa86c87faeca82bb88b51f9f5708e9862f9767",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_017.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 99.059,
+      "created_at": "2026-10-23T23:16:46.414235+00:00",
+      "derivative_input": false
+    }
+  }
+}

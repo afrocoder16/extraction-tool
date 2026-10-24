@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8618551fccea9ad6",
+    "object": "chat.completion",
+    "created": 1792798595,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [311, 187, 1256, 261], \"category\": \"Page-header\", \"text\": \"፳፬ የረቡዕ ውዳሴ ማርያም\"}, {\"bbox\": [192, 314, 1526, 1724], \"category\": \"Text\", \"text\": \"በቅዱሳን ላይ የሚያድር እግዚአብሔር እኛን ለማዳን ልዩ ክሆነች ድንግል ሰው ሆኗዋልና። ኑ ይህን ድንቅ እዩ። ስለ ተገለጠልን ምስጢር ምስጋና አቅርቡ። ሰው የማይሆን ሰው ሆኗልና። ቃል ተዋህዷልና ጥንት የሌለው ሥጋ ጥንታዊ ቀዳማዊ ሆነ ዘመን የማይቆጠርለት መለኮት ዘመን ተቆጠረለት። የማይታወቅ ተገለጠ የማይታይ ታየ የሕያው የእግዚአብሔር ልጅ በእርግጥ ሰው ሆነ። ትላንት የነበረው ዛሬም ያለው መቼም የሚኖረው ኢየሱስ ክርስቶስ እንሰግድለት እናመስግነው ዘንድ አንድ ባሕርይ ነው። ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [206, 1731, 1533, 2001], \"category\": \"Text\", \"text\": \"፳ ነቢዩ ሕዝቅኤል ስለ እርስዋ መሰከረ ድንቅ በሆነ ታላቅ ቁልፍ የተዘጋች ደጅ ምሥራቅ አየሁ አለ ከኃያላን ጌታ በቀር\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4796,
+      "completion_tokens": 633,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፬ የረቡዕ ውዳሴ ማርያም",
+      "bbox": [
+        505.7716836734694,
+        306.1011904761905,
+        2042.6020408163265,
+        427.23214285714283
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "በቅዱሳን ላይ የሚያድር እግዚአብሔር እኛን ለማዳን ልዩ ክሆነች ድንግል ሰው ሆኗዋልና። ኑ ይህን ድንቅ እዩ። ስለ ተገለጠልን ምስጢር ምስጋና አቅርቡ። ሰው የማይሆን ሰው ሆኗልና። ቃል ተዋህዷልና ጥንት የሌለው ሥጋ ጥንታዊ ቀዳማዊ ሆነ ዘመን የማይቆጠርለት መለኮት ዘመን ተቆጠረለት። የማይታወቅ ተገለጠ የማይታይ ታየ የሕያው የእግዚአብሔር ልጅ በእርግጥ ሰው ሆነ። ትላንት የነበረው ዛሬም ያለው መቼም የሚኖረው ኢየሱስ ክርስቶስ እንሰግድለት እናመስግነው ዘንድ አንድ ባሕርይ ነው። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        312.2448979591837,
+        513.9880952380952,
+        2481.6964285714284,
+        2822.0238095238096
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፳ ነቢዩ ሕዝቅኤል ስለ እርስዋ መሰከረ ድንቅ በሆነ ታላቅ ቁልፍ የተዘጋች ደጅ ምሥራቅ አየሁ አለ ከኃያላን ጌታ በቀር",
+      "bbox": [
+        335.01275510204084,
+        2833.4821428571427,
+        2493.0803571428573,
+        3275.4464285714284
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 49,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፬ የረቡዕ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          505.7716836734694,
+          306.1011904761905,
+          2042.6020408163265,
+          427.23214285714283
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በቅዱሳን ላይ የሚያድር እግዚአብሔር እኛን ለማዳን ልዩ ክሆነች ድንግል ሰው ሆኗዋልና። ኑ ይህን ድንቅ እዩ። ስለ ተገለጠልን ምስጢር ምስጋና አቅርቡ። ሰው የማይሆን ሰው ሆኗልና። ቃል ተዋህዷልና ጥንት የሌለው ሥጋ ጥንታዊ ቀዳማዊ ሆነ ዘመን የማይቆጠርለት መለኮት ዘመን ተቆጠረለት። የማይታወቅ ተገለጠ የማይታይ ታየ የሕያው የእግዚአብሔር ልጅ በእርግጥ ሰው ሆነ። ትላንት የነበረው ዛሬም ያለው መቼም የሚኖረው ኢየሱስ ክርስቶስ እንሰግድለት እናመስግነው ዘንድ አንድ ባሕርይ ነው። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          312.2448979591837,
+          513.9880952380952,
+          2481.6964285714284,
+          2822.0238095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳ ነቢዩ ሕዝቅኤል ስለ እርስዋ መሰከረ ድንቅ በሆነ ታላቅ ቁልፍ የተዘጋች ደጅ ምሥራቅ አየሁ አለ ከኃያላን ጌታ በቀር",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          335.01275510204084,
+          2833.4821428571427,
+          2493.0803571428573,
+          3275.4464285714284
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "09b8b1318b0bbfc1103dbd9163e1249c0fed502de41b28fb66e78e532756b2c0",
+      "source_sha256": "daf793ac25ad5b3cdf8c136b67db144847058fe5f7e35792df9189239ee7d1b8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_049.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 83.975,
+      "created_at": "2026-10-23T23:37:57.701247+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-aca4abde61f9f190",
+    "object": "chat.completion",
+    "created": 1792799948,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [327, 97, 1215, 173], \"category\": \"Page-header\", \"text\": \"፿ የቅዳሜ ዉዳሴ ጸሎት\"}, {\"bbox\": [214, 226, 1505, 617], \"category\": \"Text\", \"text\": \"፪ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ፡፡\\nባለሟነትን አግኝተሻልና ደስ ይበልሽ፡፡\\nእግዚአብሔር ካንቺ ጋር ነውና ደስ\\nይበልሽ፡፡\"}, {\"bbox\": [214, 628, 1511, 1313], \"category\": \"Text\", \"text\": \"፫ ግርማ ያለሽ ድንግል ሆይ ገናንነትሽን እናመሰግናለን እናደንቃለን፡፡ እንደ መልእኩ ገብርኤልም ምስጋና እናቀርብልሻለን የባሕርያችን መዳን በማኅፀንሽ ፍሬ ተገኝቷልና፡፡ ወደ አባቱ ወደ እግዚአብሔር ቀረብን ቅድስት ሆይ ለምኝልን፡፡\"}, {\"bbox\": [221, 1324, 1515, 1915], \"category\": \"Text\", \"text\": \"፬ እንደ ሠርግ ቤት ጉድፍ የሌለብሽ ነሽ መንፈስ ቅዱስ አድሮብሻልና፡፡ የልዑል ኃይልም ጸልሎሻልና፡፡ ማርያም ሆይ ለዘለዓለም የሚኖር መጥቶ ከኃጢአት ያዳነን የአብ ልጅ ቃልን በእውነት ወለድሽ፡፡ ቅድስት ሆይ ለምኝልን፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4787,
+      "completion_tokens": 624,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፿ የቅዳሜ ዉዳሴ ጸሎት",
+      "bbox": [
+        531.7920918367347,
+        158.7797619047619,
+        1975.9247448979593,
+        283.1845238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፪ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ፡፡\nባለሟነትን አግኝተሻልና ደስ ይበልሽ፡፡\nእግዚአብሔር ካንቺ ጋር ነውና ደስ\nይበልሽ፡፡",
+      "bbox": [
+        348.0229591836735,
+        369.9404761904762,
+        2447.5446428571427,
+        1009.9702380952381
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፫ ግርማ ያለሽ ድንግል ሆይ ገናንነትሽን እናመሰግናለን እናደንቃለን፡፡ እንደ መልእኩ ገብርኤልም ምስጋና እናቀርብልሻለን የባሕርያችን መዳን በማኅፀንሽ ፍሬ ተገኝቷልና፡፡ ወደ አባቱ ወደ እግዚአብሔር ቀረብን ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        348.0229591836735,
+        1027.9761904761904,
+        2457.3022959183672,
+        2149.2559523809523
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፬ እንደ ሠርግ ቤት ጉድፍ የሌለብሽ ነሽ መንፈስ ቅዱስ አድሮብሻልና፡፡ የልዑል ኃይልም ጸልሎሻልና፡፡ ማርያም ሆይ ለዘለዓለም የሚኖር መጥቶ ከኃጢአት ያዳነን የአብ ልጅ ቃልን በእውነት ወለድሽ፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        359.40688775510205,
+        2167.2619047619046,
+        2463.8073979591836,
+        3134.6726190476193
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 81,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፿ የቅዳሜ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          531.7920918367347,
+          158.7797619047619,
+          1975.9247448979593,
+          283.1845238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ፡፡\nባለሟነትን አግኝተሻልና ደስ ይበልሽ፡፡\nእግዚአብሔር ካንቺ ጋር ነውና ደስ\nይበልሽ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          348.0229591836735,
+          369.9404761904762,
+          2447.5446428571427,
+          1009.9702380952381
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ ግርማ ያለሽ ድንግል ሆይ ገናንነትሽን እናመሰግናለን እናደንቃለን፡፡ እንደ መልእኩ ገብርኤልም ምስጋና እናቀርብልሻለን የባሕርያችን መዳን በማኅፀንሽ ፍሬ ተገኝቷልና፡፡ ወደ አባቱ ወደ እግዚአብሔር ቀረብን ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          348.0229591836735,
+          1027.9761904761904,
+          2457.3022959183672,
+          2149.2559523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬ እንደ ሠርግ ቤት ጉድፍ የሌለብሽ ነሽ መንፈስ ቅዱስ አድሮብሻልና፡፡ የልዑል ኃይልም ጸልሎሻልና፡፡ ማርያም ሆይ ለዘለዓለም የሚኖር መጥቶ ከኃጢአት ያዳነን የአብ ልጅ ቃልን በእውነት ወለድሽ፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          359.40688775510205,
+          2167.2619047619046,
+          2463.8073979591836,
+          3134.6726190476193
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "821cc8c9aa156f0f41e3b254bc42fb24adf5f91df2723e071a38bb57474126ac",
+      "source_sha256": "e326f012b40c2c9d05b617fccc12cf62e1a376f83937b20047356983c8d25934",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_081.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.881,
+      "created_at": "2026-10-24T00:00:29.885053+00:00",
+      "derivative_input": false
+    }
+  }
+}

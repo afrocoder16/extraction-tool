@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9c557025bbd04c4f",
+    "object": "chat.completion",
+    "created": 1792800972,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [307, 187, 976, 253], \"category\": \"Page-header\", \"text\": \"፺ አንቀጸ ብርሃን\"}, {\"bbox\": [189, 307, 1527, 2016], \"category\": \"Text\", \"text\": \"የሚያውቅ ሳይኖር ከሰማይ ወረደ ብለን\\nእናምናለን፡፡ በማህፀንሽ አደረና ዘጠኝ\\nወር ተሸክመሽው ሰማያት ደስ ተሰኙ፤\\nምድርም ደስ ተሰኘች፤ በልጅሽ መወለድ\\nመላእክት ምስራች ተናገሩ፡፡ የሰማይ\\nጭፍሮችም መላእክትም ምስጋና በሰማይ\\nለእግዚአብሔር ይሁን በምድርም ላይ\\nሰላም በሰዉም እርሱ በሚፈቅደው እያሉ\\nአመሰገኑ፡፡ እረኞችም በቤተልሔም\\nካዩትና ከሰሙት የተነሳ አደነቁ፤ የጥበብ\\nሰዎች ብልሆች ሰዎች ለልጅሽ ሊሰግዱና\\nአንቺን ሊያገለግሉ ኮከብን አይተው ከሩቅ\\nአገር መጡ፡፡ ከምስራቅ ጀምሮ መርቶ\\nእስከ ቤተልሔም ያደረሳቸው ያ ኮከብ\\nአንቺ ከሕፃንሽ ጋር ባለሽበት ቦታ ላይ\\nቆመ፡፡ እነዚያ ብልሆች ሰዎች አይተው\\nበታላቅ ደስታ ደስ ተሰኙ ወደ እርሱ\\nማይ እፀንኝ የፀር የፀረ ያመጋቢ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4795,
+      "completion_tokens": 632,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፺ አንቀጸ ብርሃን",
+      "bbox": [
+        499.2665816326531,
+        306.1011904761905,
+        1587.2448979591836,
+        414.13690476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "የሚያውቅ ሳይኖር ከሰማይ ወረደ ብለን\nእናምናለን፡፡ በማህፀንሽ አደረና ዘጠኝ\nወር ተሸክመሽው ሰማያት ደስ ተሰኙ፤\nምድርም ደስ ተሰኘች፤ በልጅሽ መወለድ\nመላእክት ምስራች ተናገሩ፡፡ የሰማይ\nጭፍሮችም መላእክትም ምስጋና በሰማይ\nለእግዚአብሔር ይሁን በምድርም ላይ\nሰላም በሰዉም እርሱ በሚፈቅደው እያሉ\nአመሰገኑ፡፡ እረኞችም በቤተልሔም\nካዩትና ከሰሙት የተነሳ አደነቁ፤ የጥበብ\nሰዎች ብልሆች ሰዎች ለልጅሽ ሊሰግዱና\nአንቺን ሊያገለግሉ ኮከብን አይተው ከሩቅ\nአገር መጡ፡፡ ከምስራቅ ጀምሮ መርቶ\nእስከ ቤተልሔም ያደረሳቸው ያ ኮከብ\nአንቺ ከሕፃንሽ ጋር ባለሽበት ቦታ ላይ\nቆመ፡፡ እነዚያ ብልሆች ሰዎች አይተው\nበታላቅ ደስታ ደስ ተሰኙ ወደ እርሱ\nማይ እፀንኝ የፀር የፀረ ያመጋቢ",
+      "bbox": [
+        307.36607142857144,
+        502.5297619047619,
+        2483.3227040816328,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 105,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፺ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          499.2665816326531,
+          306.1011904761905,
+          1587.2448979591836,
+          414.13690476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የሚያውቅ ሳይኖር ከሰማይ ወረደ ብለን\nእናምናለን፡፡ በማህፀንሽ አደረና ዘጠኝ\nወር ተሸክመሽው ሰማያት ደስ ተሰኙ፤\nምድርም ደስ ተሰኘች፤ በልጅሽ መወለድ\nመላእክት ምስራች ተናገሩ፡፡ የሰማይ\nጭፍሮችም መላእክትም ምስጋና በሰማይ\nለእግዚአብሔር ይሁን በምድርም ላይ\nሰላም በሰዉም እርሱ በሚፈቅደው እያሉ\nአመሰገኑ፡፡ እረኞችም በቤተልሔም\nካዩትና ከሰሙት የተነሳ አደነቁ፤ የጥበብ\nሰዎች ብልሆች ሰዎች ለልጅሽ ሊሰግዱና\nአንቺን ሊያገለግሉ ኮከብን አይተው ከሩቅ\nአገር መጡ፡፡ ከምስራቅ ጀምሮ መርቶ\nእስከ ቤተልሔም ያደረሳቸው ያ ኮከብ\nአንቺ ከሕፃንሽ ጋር ባለሽበት ቦታ ላይ\nቆመ፡፡ እነዚያ ብልሆች ሰዎች አይተው\nበታላቅ ደስታ ደስ ተሰኙ ወደ እርሱ\nማይ እፀንኝ የፀር የፀረ ያመጋቢ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          307.36607142857144,
+          502.5297619047619,
+          2483.3227040816328,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7c078167bc813dc27db6d50ad3a3b4cec9db71320ae66cef9e795835c33eaeb0",
+      "source_sha256": "569dfe1b68eb48c514b29db6fb1b8186d491e4162246828db936f11b542a675e",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_105.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.152,
+      "created_at": "2026-10-24T00:17:34.850465+00:00",
+      "derivative_input": false
+    }
+  }
+}

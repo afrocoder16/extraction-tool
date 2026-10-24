@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-ae44b2b10cd79fdc",
+    "object": "chat.completion",
+    "created": 1792799022,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [157, 142, 1125, 221], \"category\": \"Page-header\", \"text\": \"፳፱ የሐሙስ ውዳሴ ማርያም\"}, {\"bbox\": [36, 262, 1321, 2016], \"category\": \"Text\", \"text\": \"ወለደችው:: መልአኩ ልጅ ትወልጃለሽ\\nስሙም አማኑኤል ይባላል አላት::\\nትርጓሜውም እግዚአብሔር ከእኛ ጋር\\nሆነ ማለት ነው:: ዳግመኛ ወገኖቹን\\nከኃጢአታቸው የሚያድናቸው ኢየሱስ\\nይባላል:: በችሎታው (በኃይሉ) ያድነን\\nዘንድ ኃጢአታችንንም ያስተሠርይልን\\nዘንድ ለዘለዓለም ክብር ይግባውና ሰው\\nየሆነ እርሱን አምላክ እንደሆነ በተረዳ\\nነገር አውቀነዋልና:: ልዩ ከሆነች ድንግል\\nማርያም ይህ የአምላክ መወለድ ምን\\nይደንቅ ቃልን ወሰነችው:: ልደቱንም\\nዘር አልቀደመውም:: በመወልዱም\\nድንግልናዋን አልለወጠውም:: ቃል\\nከአብ ያለ ድካም ወጣ:: ከድንግልም ያለ\\nሕማም ተወለደ:: ሰብአ ሰገል ሰገዱለት\\nአምላክ ነውና ዕጣን አመጡለት ንጉሥም\\nነውና ወርቅ አመጡለት ስለእኛ በፈቃዱ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4764,
+      "completion_tokens": 601,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፱ የሐሙስ ውዳሴ ማርያም",
+      "bbox": [
+        255.3252551020408,
+        232.4404761904762,
+        1829.5599489795918,
+        361.7559523809524
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ወለደችው:: መልአኩ ልጅ ትወልጃለሽ\nስሙም አማኑኤል ይባላል አላት::\nትርጓሜውም እግዚአብሔር ከእኛ ጋር\nሆነ ማለት ነው:: ዳግመኛ ወገኖቹን\nከኃጢአታቸው የሚያድናቸው ኢየሱስ\nይባላል:: በችሎታው (በኃይሉ) ያድነን\nዘንድ ኃጢአታችንንም ያስተሠርይልን\nዘንድ ለዘለዓለም ክብር ይግባውና ሰው\nየሆነ እርሱን አምላክ እንደሆነ በተረዳ\nነገር አውቀነዋልና:: ልዩ ከሆነች ድንግል\nማርያም ይህ የአምላክ መወለድ ምን\nይደንቅ ቃልን ወሰነችው:: ልደቱንም\nዘር አልቀደመውም:: በመወልዱም\nድንግልናዋን አልለወጠውም:: ቃል\nከአብ ያለ ድካም ወጣ:: ከድንግልም ያለ\nሕማም ተወለደ:: ሰብአ ሰገል ሰገዱለት\nአምላክ ነውና ዕጣን አመጡለት ንጉሥም\nነውና ወርቅ አመጡለት ስለእኛ በፈቃዱ",
+      "bbox": [
+        58.545918367346935,
+        428.8690476190476,
+        2148.309948979592,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 59,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፱ የሐሙስ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          255.3252551020408,
+          232.4404761904762,
+          1829.5599489795918,
+          361.7559523809524
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ወለደችው:: መልአኩ ልጅ ትወልጃለሽ\nስሙም አማኑኤል ይባላል አላት::\nትርጓሜውም እግዚአብሔር ከእኛ ጋር\nሆነ ማለት ነው:: ዳግመኛ ወገኖቹን\nከኃጢአታቸው የሚያድናቸው ኢየሱስ\nይባላል:: በችሎታው (በኃይሉ) ያድነን\nዘንድ ኃጢአታችንንም ያስተሠርይልን\nዘንድ ለዘለዓለም ክብር ይግባውና ሰው\nየሆነ እርሱን አምላክ እንደሆነ በተረዳ\nነገር አውቀነዋልና:: ልዩ ከሆነች ድንግል\nማርያም ይህ የአምላክ መወለድ ምን\nይደንቅ ቃልን ወሰነችው:: ልደቱንም\nዘር አልቀደመውም:: በመወልዱም\nድንግልናዋን አልለወጠውም:: ቃል\nከአብ ያለ ድካም ወጣ:: ከድንግልም ያለ\nሕማም ተወለደ:: ሰብአ ሰገል ሰገዱለት\nአምላክ ነውና ዕጣን አመጡለት ንጉሥም\nነውና ወርቅ አመጡለት ስለእኛ በፈቃዱ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          58.545918367346935,
+          428.8690476190476,
+          2148.309948979592,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "c003104efc0c417d69ecd2c7cb4668ae0bdcadacafee1bbac3b8f6518ed96e0f",
+      "source_sha256": "31cd1d5665cf2cb4bb2e60e9ecf7315065f691fbec6e5c775db9c7937b5c578c",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_059.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.498,
+      "created_at": "2026-10-23T23:45:01.058718+00:00",
+      "derivative_input": false
+    }
+  }
+}

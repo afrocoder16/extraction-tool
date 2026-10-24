@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-855b35ba7682b912",
+    "object": "chat.completion",
+    "created": 1792804458,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [115, 43, 1432, 132], \"category\": \"Text\", \"text\": \"በአንቺ ስም የሰየመዉን በምድራዊያን\"}, {\"bbox\": [388, 273, 1074, 341], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4270,
+      "completion_tokens": 107,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "በአንቺ ስም የሰየመዉን በምድራዊያን",
+      "bbox": [
+        187.0216836734694,
+        70.38690476190476,
+        2328.826530612245,
+        216.07142857142858
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        630.9948979591836,
+        446.875,
+        1746.6198979591836,
+        558.1845238095239
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 184,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በአንቺ ስም የሰየመዉን በምድራዊያን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          187.0216836734694,
+          70.38690476190476,
+          2328.826530612245,
+          216.07142857142858
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          630.9948979591836,
+          446.875,
+          1746.6198979591836,
+          558.1845238095239
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "74ce9e1799baa7cc680116ca8be5a3151027eecbb27592010d697e2961721b78",
+      "source_sha256": "230ac60582b9714b0787298c4580e49e5af4882135eb02ce9048211f9c54de78",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_184.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 22.891,
+      "created_at": "2026-10-24T01:14:40.862485+00:00",
+      "derivative_input": false
+    }
+  }
+}

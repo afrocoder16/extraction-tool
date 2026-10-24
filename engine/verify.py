@@ -18,10 +18,8 @@ import unicodedata
 from difflib import SequenceMatcher
 from pathlib import Path
 
-import cv2
-import numpy as np
-
 from .console import configure_utf8_stdio
+from .provenance import atomic_json, page_revision
 
 ETHIOPIC_RE = re.compile(r"[ሀ-፿ᎀ-᎟ⶀ-⷟]")
 LATIN_RE = re.compile(r"[A-Za-z]")
@@ -78,6 +76,8 @@ def normalize(text: str) -> str:
 
 def mask_red_ratio(page: int, work: Path) -> float | None:
     """Fraction of the page's ink that is red, measured from the images."""
+    import cv2
+    import numpy as np
     name = f"page_{page:03d}.png"
     red_layer = cv2.imread(str(work / "red_layer" / name), cv2.IMREAD_GRAYSCALE)
     black_layer = cv2.imread(str(work / "black_layer" / name), cv2.IMREAD_GRAYSCALE)
@@ -156,6 +156,12 @@ def verify_page(page: int, work: Path) -> dict:
     mask_ratio = mask_red_ratio(page, work)
     checks["model_red_ratio"] = round(model_ratio, 3)
     checks["mask_red_ratio"] = round(mask_ratio, 3) if mask_ratio is not None else None
+    if mask_ratio is None:
+        flags.append("missing colour-mask evidence; run split before verification")
+    if not (work / "layout" / f"page_{page:03d}.json").is_file():
+        flags.append("missing word-layout evidence; run layout before verification")
+    if not (work / "page_images" / f"page_{page:03d}.png").is_file():
+        flags.append("missing original page image")
     if mask_ratio is not None:
         gap = model_ratio - mask_ratio
         if abs(gap) > RED_RATIO_TOLERANCE:
@@ -239,7 +245,10 @@ def verify_page(page: int, work: Path) -> dict:
     if transcript.get("notes", "").strip():
         checks["model_notes"] = transcript["notes"]
 
-    return {"page": page, "review_flags": flags, "checks": checks}
+    if transcript.get("_colour_unresolved"):
+        flags.append("OCR candidate has unresolved colour alignment")
+    return {"page": page, "review_flags": flags, "checks": checks,
+            **page_revision(work, page, transcript)}
 
 
 def verify_pages(pages: list[int], work: Path) -> list[dict]:
@@ -274,7 +283,7 @@ def write_report(reports: list[dict], work: Path) -> Path:
         "flagged_pages": [r["page"] for r in flagged],
         "reports": ordered,
     }
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    atomic_json(path, payload)
     return path
 
 

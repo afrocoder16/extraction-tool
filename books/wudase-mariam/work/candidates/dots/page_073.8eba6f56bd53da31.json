@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a9747813b4a2e01f",
+    "object": "chat.completion",
+    "created": 1792799613,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [366, 73, 1266, 137], \"category\": \"Page-header\", \"text\": \"፴፭ የዓርብ ውዳሴ ማርያም\"}, {\"bbox\": [246, 197, 1504, 1146], \"category\": \"Text\", \"text\": \"ማርያም ሆይ ልዑል እግዚአብሔር ያደረብሽ (የከተመብሽ) ረቂቅ ከተማ ነሽ። በኪሩቤልና በሱራፌል ላይ የሚኖረውን ጌታን በመኻል እጅሽ ይዘሽዋልና። በቸርነቱ ብዛት ሥጋዊ ፍጥረትን ሁሉ የሚመግብ እርሱ ጡትሽን ይዞ ጠባ። ይኸውም ሁሉን የሚያድን አምላካችን ነው። ለዘለዓለሙ ይጠብቀናል። እንሰግድለትን እናመስግነው ዘንድ እርሱ ፈጥሮናልና። ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [253, 1157, 1504, 1823], \"category\": \"Text\", \"text\": \"፭ ድንግል ማርያም የሽቱ መኖሪያና የሕይወት ውኃ ምንጭ ናት። የማኅፀንዋ ፍሬ ሰውን ሁሉ አድኖአልና። ከእኛም እርግማንን አጠፋልን። በመካከላችንም ሆኖ በስቀሉ አስታረቀን በልዩ ትንሣኤውም ሰውን ዳግመኛ ወደ ገነት መለሰው። ቅድስት ሆይ ለምኝልን።\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4774,
+      "completion_tokens": 611,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴፭ የዓርብ ውዳሴ ማርያም",
+      "bbox": [
+        595.2168367346939,
+        119.49404761904762,
+        2058.8647959183672,
+        224.25595238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ማርያም ሆይ ልዑል እግዚአብሔር ያደረብሽ (የከተመብሽ) ረቂቅ ከተማ ነሽ። በኪሩቤልና በሱራፌል ላይ የሚኖረውን ጌታን በመኻል እጅሽ ይዘሽዋልና። በቸርነቱ ብዛት ሥጋዊ ፍጥረትን ሁሉ የሚመግብ እርሱ ጡትሽን ይዞ ጠባ። ይኸውም ሁሉን የሚያድን አምላካችን ነው። ለዘለዓለሙ ይጠብቀናል። እንሰግድለትን እናመስግነው ዘንድ እርሱ ፈጥሮናልና። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        400.0637755102041,
+        322.4702380952381,
+        2445.918367346939,
+        1875.892857142857
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፭ ድንግል ማርያም የሽቱ መኖሪያና የሕይወት ውኃ ምንጭ ናት። የማኅፀንዋ ፍሬ ሰውን ሁሉ አድኖአልና። ከእኛም እርግማንን አጠፋልን። በመካከላችንም ሆኖ በስቀሉ አስታረቀን በልዩ ትንሣኤውም ሰውን ዳግመኛ ወደ ገነት መለሰው። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        411.44770408163265,
+        1893.8988095238096,
+        2445.918367346939,
+        2984.0773809523807
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 73,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴፭ የዓርብ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          595.2168367346939,
+          119.49404761904762,
+          2058.8647959183672,
+          224.25595238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ማርያም ሆይ ልዑል እግዚአብሔር ያደረብሽ (የከተመብሽ) ረቂቅ ከተማ ነሽ። በኪሩቤልና በሱራፌል ላይ የሚኖረውን ጌታን በመኻል እጅሽ ይዘሽዋልና። በቸርነቱ ብዛት ሥጋዊ ፍጥረትን ሁሉ የሚመግብ እርሱ ጡትሽን ይዞ ጠባ። ይኸውም ሁሉን የሚያድን አምላካችን ነው። ለዘለዓለሙ ይጠብቀናል። እንሰግድለትን እናመስግነው ዘንድ እርሱ ፈጥሮናልና። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          400.0637755102041,
+          322.4702380952381,
+          2445.918367346939,
+          1875.892857142857
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ ድንግል ማርያም የሽቱ መኖሪያና የሕይወት ውኃ ምንጭ ናት። የማኅፀንዋ ፍሬ ሰውን ሁሉ አድኖአልና። ከእኛም እርግማንን አጠፋልን። በመካከላችንም ሆኖ በስቀሉ አስታረቀን በልዩ ትንሣኤውም ሰውን ዳግመኛ ወደ ገነት መለሰው። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          411.44770408163265,
+          1893.8988095238096,
+          2445.918367346939,
+          2984.0773809523807
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "8eba6f56bd53da31609a3b4595c07ef16a172167053070cd2ab0a7e7f7a384f3",
+      "source_sha256": "46c6e9c67c4bfc9f0fae864046d5c4b7ddf947fd2b32d1191e797812fca231b9",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_073.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 81.48,
+      "created_at": "2026-10-23T23:54:53.298093+00:00",
+      "derivative_input": false
+    }
+  }
+}

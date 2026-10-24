@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a148db769f70ff02",
+    "object": "chat.completion",
+    "created": 1792801237,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [216, 227, 895, 301], \"category\": \"Page-header\", \"text\": \"፺፭ አንቀጸ ብርሃን\"}, {\"bbox\": [87, 352, 1402, 1856], \"category\": \"Text\", \"text\": \"አለሽ ጸጋን ያገኘሽ፤ ሆይ ደስ ይበልሽ እግዚአብሔር ካንቺ ጋር ነው ከሴቶች ይልቅ የተባረክሽ ነሽ የሁሉ ገዥ በሆነ እግዚአብሔር ዘንድ ባለሟልነትን አገኘሽ እንሆ ተጸንሻለሽ ልጅም ትወልጃለሽ ስሙንም ኢየሱስ ትይዋለሽ እርሱም ታላቅ ነው፤ የልዑል እግዚአብሔር ልጅ ይባላል፤ እግዚአብሔር አምላክ የአባቱን የዳዊትን ዙፋን ይሰጠዋል ለዘላለሙ የያዕቆብን ወገን ይገዛል ለመንግስቱም ፍጻሜ የለዉም፡፡ መንፈስ ያድርብሻል የልዑል ኃይልም ይጸልልሻል፡፡ ካንቺ የሚወለደዉም ቅዱስ ነው፤ ቅድስት ሆይ ካንቺ የተወለደው ይቅርታዉን ያድለን ዘንድ ለምኝልን፡፡\"}, {\"bbox\": [164, 1972, 1397, 2016], \"category\": \"Text\", \"text\": \"ቿ የንዱኔር ኣየረሻር ካቱለፆ ይቱለፆሻ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4761,
+      "completion_tokens": 598,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፺፭ አንቀጸ ብርሃን",
+      "bbox": [
+        351.2755102040816,
+        371.57738095238096,
+        1455.516581632653,
+        492.7083333333333
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "አለሽ ጸጋን ያገኘሽ፤ ሆይ ደስ ይበልሽ እግዚአብሔር ካንቺ ጋር ነው ከሴቶች ይልቅ የተባረክሽ ነሽ የሁሉ ገዥ በሆነ እግዚአብሔር ዘንድ ባለሟልነትን አገኘሽ እንሆ ተጸንሻለሽ ልጅም ትወልጃለሽ ስሙንም ኢየሱስ ትይዋለሽ እርሱም ታላቅ ነው፤ የልዑል እግዚአብሔር ልጅ ይባላል፤ እግዚአብሔር አምላክ የአባቱን የዳዊትን ዙፋን ይሰጠዋል ለዘላለሙ የያዕቆብን ወገን ይገዛል ለመንግስቱም ፍጻሜ የለዉም፡፡ መንፈስ ያድርብሻል የልዑል ኃይልም ይጸልልሻል፡፡ ካንቺ የሚወለደዉም ቅዱስ ነው፤ ቅድስት ሆይ ካንቺ የተወለደው ይቅርታዉን ያድለን ዘንድ ለምኝልን፡፡",
+      "bbox": [
+        141.4859693877551,
+        576.1904761904761,
+        2280.0382653061224,
+        3038.095238095238
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ቿ የንዱኔር ኣየረሻር ካቱለፆ ይቱለፆሻ",
+      "bbox": [
+        266.7091836734694,
+        3227.9761904761904,
+        2271.906887755102,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 111,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፺፭ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          351.2755102040816,
+          371.57738095238096,
+          1455.516581632653,
+          492.7083333333333
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አለሽ ጸጋን ያገኘሽ፤ ሆይ ደስ ይበልሽ እግዚአብሔር ካንቺ ጋር ነው ከሴቶች ይልቅ የተባረክሽ ነሽ የሁሉ ገዥ በሆነ እግዚአብሔር ዘንድ ባለሟልነትን አገኘሽ እንሆ ተጸንሻለሽ ልጅም ትወልጃለሽ ስሙንም ኢየሱስ ትይዋለሽ እርሱም ታላቅ ነው፤ የልዑል እግዚአብሔር ልጅ ይባላል፤ እግዚአብሔር አምላክ የአባቱን የዳዊትን ዙፋን ይሰጠዋል ለዘላለሙ የያዕቆብን ወገን ይገዛል ለመንግስቱም ፍጻሜ የለዉም፡፡ መንፈስ ያድርብሻል የልዑል ኃይልም ይጸልልሻል፡፡ ካንቺ የሚወለደዉም ቅዱስ ነው፤ ቅድስት ሆይ ካንቺ የተወለደው ይቅርታዉን ያድለን ዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          141.4859693877551,
+          576.1904761904761,
+          2280.0382653061224,
+          3038.095238095238
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ቿ የንዱኔር ኣየረሻር ካቱለፆ ይቱለፆሻ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          266.7091836734694,
+          3227.9761904761904,
+          2271.906887755102,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "04529b980e79c3693674794de99b0ba3d790d8f364f53b462d952deab6b88230",
+      "source_sha256": "5e55add9b188274cf8320ce32324a6dfc389e75b2193f1badda9cee987c18f10",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_111.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.946,
+      "created_at": "2026-10-24T00:21:55.687153+00:00",
+      "derivative_input": false
+    }
+  }
+}

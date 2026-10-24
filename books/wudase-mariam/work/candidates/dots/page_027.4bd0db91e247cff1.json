@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-88633545d8b6c313",
+    "object": "chat.completion",
+    "created": 1792797666,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [165, 124, 1165, 201], \"category\": \"Page-header\", \"text\": \"፫ የማክሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [36, 254, 1331, 886], \"category\": \"Text\", \"text\": \"ቃል በወለደችልን· በድንግል ማርያም ተገኘልን። ሰው ከሆነ በኋላም ፍጹም አምላክ ነው ስለዚህምበድንግልና ወለደችው። ድንቅ የሆነ የመውለድዋ ችሎታ የማይመረመር ሲነገር የማይቻል ነው። ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [36, 1001, 1323, 1187], \"category\": \"Text\", \"text\": \"፪ በእርሱ ፈቃድ በአባቱ ፈቃድ በመንፈስ ቅዱስ ፈቃድ መጥቶ አዳነን።\"}, {\"bbox\": [28, 1302, 1325, 1987], \"category\": \"Text\", \"text\": \"፫ በድንግልና ፍጽምት የሆንሽ ማርያም ሆይ የድንግልናሽ ምሥጋናና ክብር ታላቅ ነው። እግዚአብሔር ካንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና። ያዕቆብ ከምድር እስከ ሰማይ ደርሳ የእግዚአብሔር መላእክት ሲወጡባት ሲወርዱባት ያያት መሰላል አንቺ ነሽ።\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4755,
+      "completion_tokens": 592,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፫ የማክሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        268.3354591836735,
+        202.97619047619048,
+        1894.6109693877552,
+        329.01785714285717
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ቃል በወለደችልን· በድንግል ማርያም ተገኘልን። ሰው ከሆነ በኋላም ፍጹም አምላክ ነው ስለዚህምበድንግልና ወለደችው። ድንቅ የሆነ የመውለድዋ ችሎታ የማይመረመር ሲነገር የማይቻል ነው። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        58.545918367346935,
+        415.7738095238095,
+        2164.5727040816328,
+        1450.297619047619
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፪ በእርሱ ፈቃድ በአባቱ ፈቃድ በመንፈስ ቅዱስ ፈቃድ መጥቶ አዳነን።",
+      "bbox": [
+        58.545918367346935,
+        1638.5416666666667,
+        2151.5625,
+        1943.0059523809523
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፫ በድንግልና ፍጽምት የሆንሽ ማርያም ሆይ የድንግልናሽ ምሥጋናና ክብር ታላቅ ነው። እግዚአብሔር ካንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና። ያዕቆብ ከምድር እስከ ሰማይ ደርሳ የእግዚአብሔር መላእክት ሲወጡባት ሲወርዱባት ያያት መሰላል አንቺ ነሽ።",
+      "bbox": [
+        45.535714285714285,
+        2131.25,
+        2154.815051020408,
+        3252.529761904762
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 27,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ የማክሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          268.3354591836735,
+          202.97619047619048,
+          1894.6109693877552,
+          329.01785714285717
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ቃል በወለደችልን· በድንግል ማርያም ተገኘልን። ሰው ከሆነ በኋላም ፍጹም አምላክ ነው ስለዚህምበድንግልና ወለደችው። ድንቅ የሆነ የመውለድዋ ችሎታ የማይመረመር ሲነገር የማይቻል ነው። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          58.545918367346935,
+          415.7738095238095,
+          2164.5727040816328,
+          1450.297619047619
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ በእርሱ ፈቃድ በአባቱ ፈቃድ በመንፈስ ቅዱስ ፈቃድ መጥቶ አዳነን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          58.545918367346935,
+          1638.5416666666667,
+          2151.5625,
+          1943.0059523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ በድንግልና ፍጽምት የሆንሽ ማርያም ሆይ የድንግልናሽ ምሥጋናና ክብር ታላቅ ነው። እግዚአብሔር ካንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና። ያዕቆብ ከምድር እስከ ሰማይ ደርሳ የእግዚአብሔር መላእክት ሲወጡባት ሲወርዱባት ያያት መሰላል አንቺ ነሽ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          45.535714285714285,
+          2131.25,
+          2154.815051020408,
+          3252.529761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "4bd0db91e247cff12c6c0f60adeb4b676572fc30a44c4938ed0a2daab8f12696",
+      "source_sha256": "a8eb2ce39985d4a5185d35a5f0287e689c0a0e043b97c23a7e97e9eafa0f13e9",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_027.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.282,
+      "created_at": "2026-10-23T23:22:23.682470+00:00",
+      "derivative_input": false
+    }
+  }
+}

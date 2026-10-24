@@ -23,12 +23,12 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import shutil
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 from . import book as book_mod
 from .console import configure_utf8_stdio
+from . import review_store
 
 MAX_BODY = 8 * 1024 * 1024
 PAGE_RE = re.compile(r"^\d{1,4}$")
@@ -36,6 +36,7 @@ UI_FILE = Path(__file__).resolve().parent / "review.html"
 
 CONTENT_TYPES = {
     ".png": "image/png",
+    ".webp": "image/webp",
     ".jpg": "image/jpeg",
     ".json": "application/json; charset=utf-8",
     ".md": "text/markdown; charset=utf-8",
@@ -70,15 +71,16 @@ class ReviewHandler(BaseHTTPRequestHandler):
         if length <= 0 or length > MAX_BODY:
             return None
         try:
-            return json.loads(self.rfile.read(length).decode("utf-8"))
+            value = json.loads(self.rfile.read(length).decode("utf-8"))
+            return value if isinstance(value, dict) else None
         except (json.JSONDecodeError, UnicodeDecodeError):
             return None
 
-    def _serve_file(self, path: Path) -> None:
+    def _serve_file(self, path: Path, allowed_root: Path | None = None) -> None:
         # The path arrives from the URL, so confirm it stayed inside the book.
         try:
             resolved = path.resolve()
-            resolved.relative_to(self.bk.root.resolve())
+            resolved.relative_to((allowed_root or self.bk.root).resolve())
         except (ValueError, OSError):
             self._send(b"forbidden", "text/plain", 403)
             return
@@ -117,7 +119,25 @@ class ReviewHandler(BaseHTTPRequestHandler):
             else:
                 self._send_json({"entries": {}})
             return
+        if route.startswith("/api/transcript/"):
+            page = route.rsplit("/", 1)[-1]
+            if not PAGE_RE.fullmatch(page) or int(page) < 1:
+                self._send_json({"error": "invalid page"}, 400)
+                return
+            try:
+                self._send_json(review_store.load_transcript(self.bk.work, int(page)))
+            except FileNotFoundError:
+                self._send_json({"error": "no transcript"}, 404)
+            return
         if route.startswith("/work/"):
+            # Browser-size copies are review aids, never original-image evidence.
+            match = re.fullmatch(r"/work/(page_images|debug)/(page_\d{3,})\.png", route)
+            if match and self.bk.book_id == "wudase_mariam":
+                original = self.bk.work / match[1] / (match[2] + ".png")
+                assets = Path(__file__).resolve().parent.parent / "netlify" / "review-assets" / "work"
+                if not original.exists():
+                    self._serve_file(assets / match[1] / (match[2] + ".webp"), assets)
+                    return
             self._serve_file(self.bk.work / route[len("/work/"):])
             return
 
@@ -140,19 +160,17 @@ class ReviewHandler(BaseHTTPRequestHandler):
     # --- handlers --------------------------------------------------------
 
     def _save_review(self, body: dict) -> None:
-        entries = body.get("entries")
-        if not isinstance(entries, dict):
-            self._send_json({"error": "expected an 'entries' object"}, 400)
-            return
-        self.bk.work.mkdir(parents=True, exist_ok=True)
-        self.bk.review_file.write_text(
-            json.dumps({"entries": entries}, ensure_ascii=False, indent=2),
-            encoding="utf-8")
-        self._send_json({"ok": True, "saved": len(entries)})
+        try:
+            saved = review_store.save_review(self.bk.work, body.get("entries"))
+            self._send_json({"ok": True, "saved": len(saved["entries"])})
+        except review_store.RevisionConflict as error:
+            self._send_json({"error": str(error)}, 409)
+        except ValueError as error:
+            self._send_json({"error": str(error)}, 400)
 
     def _save_transcript(self, page_str: str, body: dict) -> None:
         # The page number becomes part of a filename; validate rather than trust.
-        if not PAGE_RE.match(page_str):
+        if not PAGE_RE.fullmatch(page_str) or int(page_str) < 1:
             self._send_json({"error": "page must be a number"}, 400)
             return
         if not isinstance(body.get("blocks"), list):
@@ -173,19 +191,13 @@ class ReviewHandler(BaseHTTPRequestHandler):
             self._send_json({"error": "invalid transcript review fields"}, 400)
             return
 
-        page = int(page_str)
-        out_dir = self.bk.dir("transcripts")
-        out_dir.mkdir(parents=True, exist_ok=True)
-        target = out_dir / f"page_{page:03d}.json"
-        backup = out_dir / f"page_{page:03d}.original.json"
-
-        # Preserve the pre-edit version once, so corrections stay revertible.
-        if target.exists() and not backup.exists():
-            shutil.copy2(target, backup)
-
-        body["page"] = page
-        target.write_text(json.dumps(body, ensure_ascii=False, indent=2), encoding="utf-8")
-        self._send_json({"ok": True, "path": str(target), "backup": backup.exists()})
+        try:
+            saved = review_store.save_transcript(self.bk.work, int(page_str), body)
+            self._send_json({"ok": True, "transcript": saved})
+        except review_store.RevisionConflict as error:
+            self._send_json({"error": str(error)}, 409)
+        except ValueError as error:
+            self._send_json({"error": str(error)}, 400)
 
     # --- logging ---------------------------------------------------------
 

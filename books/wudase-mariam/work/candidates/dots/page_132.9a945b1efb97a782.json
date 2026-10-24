@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8c011174585194e9",
+    "object": "chat.completion",
+    "created": 1792802138,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [124, 0, 1433, 155], \"category\": \"Text\", \"text\": \"ወደ ጌታተና መድጋጊታተገ ሊንጠበ\\nክርስቶስ ለምኝልን፡፡\"}, {\"bbox\": [442, 245, 1119, 310], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4285,
+      "completion_tokens": 122,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "ወደ ጌታተና መድጋጊታተገ ሊንጠበ\nክርስቶስ ለምኝልን፡፡",
+      "bbox": [
+        201.65816326530611,
+        0.0,
+        2330.452806122449,
+        253.7202380952381
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        718.8137755102041,
+        401.0416666666667,
+        1819.8022959183672,
+        507.4404761904762
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 132,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ወደ ጌታተና መድጋጊታተገ ሊንጠበ\nክርስቶስ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          201.65816326530611,
+          0.0,
+          2330.452806122449,
+          253.7202380952381
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          718.8137755102041,
+          401.0416666666667,
+          1819.8022959183672,
+          507.4404761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "9a945b1efb97a782c90bc458d62690817cdcff3a4561d22ffcf32c96a7e13f2d",
+      "source_sha256": "92b96e55e282d475a813a9520ad96564d801c5a3ce713888386f30ce116830a0",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_132.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 24.632,
+      "created_at": "2026-10-24T00:36:01.902136+00:00",
+      "derivative_input": false
+    }
+  }
+}

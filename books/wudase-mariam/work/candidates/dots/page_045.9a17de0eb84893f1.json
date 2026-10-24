@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8e97a5e6437fe235",
+    "object": "chat.completion",
+    "created": 1792798435,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [346, 144, 1297, 225], \"category\": \"Page-header\", \"text\": \"፳፪ የረቡዕ ውዳሴ ማርያም\"}, {\"bbox\": [205, 267, 1558, 2007], \"category\": \"Text\", \"text\": \"እናትና ድንግልን ሁለቱንም ሆናለችና፡፡\\nርኩሰት የሌለብሽና የአብ ቃለ መጥቶ\\nካንቺ ሰው የሆነ ንጽሕት ድንግል\\nሆይ ደስ ይበልሽ፣ ነውር የሌለብሽ\\nፍጽምትና ጉድፍ የሌለብሽ ሙዳይ\\nሆይ ደስ ይበልሽ፡፡ ስለቀደመ ሰው\\nአዳም ሁሉተኛ አዳም የሆነ የክርስቶስ\\nማደሪያው የምትናገሪው ገነት ሆይ\\nደስ ይበልሽ፡፡ ከአባቱ ያልተለየ አንድ\\nእርሱን የተሸከምሽ ሆይ ደስ ይበልሽ፡፡\\nበክብር ጌጥ ሁሉ ያጌጠ እርሱ መጥቶ\\nሰው የሆነብሽ ንጽሕት የሠርግ ቤት ሆይ\\nደስ ይበልሽ፡፡ የመለኮት እሳት (ባሕርይ)\\nያሳቃጠለሽ ዕፀ ጳጦስ ሆይ ደስ ይበልሽ፡፡\\nበኪሩቤል ላይ የሚቀመጠውን ሰማያዊ\\nመለኮትን በሥጋ የተሸከምሽ ገረድና\\nእናት ድንግልና ሰማይ ሆይ ደስ ይበልሽ፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4756,
+      "completion_tokens": 593,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፪ የረቡዕ ውዳሴ ማርያም",
+      "bbox": [
+        562.6913265306123,
+        235.71428571428572,
+        2109.279336734694,
+        368.30357142857144
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "እናትና ድንግልን ሁለቱንም ሆናለችና፡፡\nርኩሰት የሌለብሽና የአብ ቃለ መጥቶ\nካንቺ ሰው የሆነ ንጽሕት ድንግል\nሆይ ደስ ይበልሽ፣ ነውር የሌለብሽ\nፍጽምትና ጉድፍ የሌለብሽ ሙዳይ\nሆይ ደስ ይበልሽ፡፡ ስለቀደመ ሰው\nአዳም ሁሉተኛ አዳም የሆነ የክርስቶስ\nማደሪያው የምትናገሪው ገነት ሆይ\nደስ ይበልሽ፡፡ ከአባቱ ያልተለየ አንድ\nእርሱን የተሸከምሽ ሆይ ደስ ይበልሽ፡፡\nበክብር ጌጥ ሁሉ ያጌጠ እርሱ መጥቶ\nሰው የሆነብሽ ንጽሕት የሠርግ ቤት ሆይ\nደስ ይበልሽ፡፡ የመለኮት እሳት (ባሕርይ)\nያሳቃጠለሽ ዕፀ ጳጦስ ሆይ ደስ ይበልሽ፡፡\nበኪሩቤል ላይ የሚቀመጠውን ሰማያዊ\nመለኮትን በሥጋ የተሸከምሽ ገረድና\nእናት ድንግልና ሰማይ ሆይ ደስ ይበልሽ፡፡",
+      "bbox": [
+        333.38647959183675,
+        437.05357142857144,
+        2533.737244897959,
+        3285.2678571428573
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 45,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፪ የረቡዕ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          562.6913265306123,
+          235.71428571428572,
+          2109.279336734694,
+          368.30357142857144
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እናትና ድንግልን ሁለቱንም ሆናለችና፡፡\nርኩሰት የሌለብሽና የአብ ቃለ መጥቶ\nካንቺ ሰው የሆነ ንጽሕት ድንግል\nሆይ ደስ ይበልሽ፣ ነውር የሌለብሽ\nፍጽምትና ጉድፍ የሌለብሽ ሙዳይ\nሆይ ደስ ይበልሽ፡፡ ስለቀደመ ሰው\nአዳም ሁሉተኛ አዳም የሆነ የክርስቶስ\nማደሪያው የምትናገሪው ገነት ሆይ\nደስ ይበልሽ፡፡ ከአባቱ ያልተለየ አንድ\nእርሱን የተሸከምሽ ሆይ ደስ ይበልሽ፡፡\nበክብር ጌጥ ሁሉ ያጌጠ እርሱ መጥቶ\nሰው የሆነብሽ ንጽሕት የሠርግ ቤት ሆይ\nደስ ይበልሽ፡፡ የመለኮት እሳት (ባሕርይ)\nያሳቃጠለሽ ዕፀ ጳጦስ ሆይ ደስ ይበልሽ፡፡\nበኪሩቤል ላይ የሚቀመጠውን ሰማያዊ\nመለኮትን በሥጋ የተሸከምሽ ገረድና\nእናት ድንግልና ሰማይ ሆይ ደስ ይበልሽ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          333.38647959183675,
+          437.05357142857144,
+          2533.737244897959,
+          3285.2678571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "9a17de0eb84893f199b2d4e05d74425e7b0d8d0d462a2256938e6ab66566b4a4",
+      "source_sha256": "1ef2d5cdd1bd25f5a027e1cfcbe8f8b3c3fa5be6e1a3e2f7c2f74932e37a92fc",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_045.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.238,
+      "created_at": "2026-10-23T23:35:12.665079+00:00",
+      "derivative_input": false
+    }
+  }
+}

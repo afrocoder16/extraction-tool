@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-98627c4617d34cf3",
+    "object": "chat.completion",
+    "created": 1792804100,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [273, 165, 894, 241], \"category\": \"Page-header\", \"text\": \"፲፮ የሰኔ ጎልጎታ\"}, {\"bbox\": [157, 297, 1451, 677], \"category\": \"Text\", \"text\": \"አቤቱ ስለኔ የታረዘውን ያለበስ\\nበሰው እጅ ያልተሰራ እፁብ ድንቅ\\nየሆነዉን የማይጠፋውን የማያረጀውን\\nእውነተኛውን ልብስ አልብሰው፡፡\"}, {\"bbox\": [157, 693, 1454, 1393], \"category\": \"Text\", \"text\": \"አቤቱ ስለእኔ ስም በሽተኞችን የጎበኘ\\n(የጠየቀ) በቸርነትህና በይቅርታህ\\nጎብኘው አቤቱ ስለስሜም ብሎ ለተራበ\\nያበላዉን የህይወት እንጀራ አብላው\\nሰማያዊ በሆነ ማእድህ አስቀምጠው\\nለተጠማ ያጠጣዉንም በኤዶም ገነት\\nከሚፈሰው የህይወት·ዉሃ አጠጣው፡፡\"}, {\"bbox\": [157, 1401, 1454, 1983], \"category\": \"Text\", \"text\": \"አቤቱ ስለኔ ስም የአዘነዉን ያረጋጋ ነፍሱ\\nከስጋው በምትለይበት ጊዜ አጽናናው\\nያዘነውንና የተከዘዉንም ላስደሰተና\\nላጽናና ስለ ስሜ ብለህ አስደስተው፡፡\\nእድል ፈንታዉንም በዚህ ዓለም ሣሉ\\nአንተን በምግባር በሀይማኖት ደስ ካሰኙህ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4805,
+      "completion_tokens": 642,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፮ የሰኔ ጎልጎታ",
+      "bbox": [
+        443.9732142857143,
+        270.0892857142857,
+        1453.890306122449,
+        394.4940476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "አቤቱ ስለኔ የታረዘውን ያለበስ\nበሰው እጅ ያልተሰራ እፁብ ድንቅ\nየሆነዉን የማይጠፋውን የማያረጀውን\nእውነተኛውን ልብስ አልብሰው፡፡",
+      "bbox": [
+        255.3252551020408,
+        486.1607142857143,
+        2359.7257653061224,
+        1108.1845238095239
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "አቤቱ ስለእኔ ስም በሽተኞችን የጎበኘ\n(የጠየቀ) በቸርነትህና በይቅርታህ\nጎብኘው አቤቱ ስለስሜም ብሎ ለተራበ\nያበላዉን የህይወት እንጀራ አብላው\nሰማያዊ በሆነ ማእድህ አስቀምጠው\nለተጠማ ያጠጣዉንም በኤዶም ገነት\nከሚፈሰው የህይወት·ዉሃ አጠጣው፡፡",
+      "bbox": [
+        255.3252551020408,
+        1134.375,
+        2364.6045918367345,
+        2280.2083333333335
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "አቤቱ ስለኔ ስም የአዘነዉን ያረጋጋ ነፍሱ\nከስጋው በምትለይበት ጊዜ አጽናናው\nያዘነውንና የተከዘዉንም ላስደሰተና\nላጽናና ስለ ስሜ ብለህ አስደስተው፡፡\nእድል ፈንታዉንም በዚህ ዓለም ሣሉ\nአንተን በምግባር በሀይማኖት ደስ ካሰኙህ",
+      "bbox": [
+        255.3252551020408,
+        2293.3035714285716,
+        2364.6045918367345,
+        3245.9821428571427
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 177,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፮ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          443.9732142857143,
+          270.0892857142857,
+          1453.890306122449,
+          394.4940476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አቤቱ ስለኔ የታረዘውን ያለበስ\nበሰው እጅ ያልተሰራ እፁብ ድንቅ\nየሆነዉን የማይጠፋውን የማያረጀውን\nእውነተኛውን ልብስ አልብሰው፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          255.3252551020408,
+          486.1607142857143,
+          2359.7257653061224,
+          1108.1845238095239
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አቤቱ ስለእኔ ስም በሽተኞችን የጎበኘ\n(የጠየቀ) በቸርነትህና በይቅርታህ\nጎብኘው አቤቱ ስለስሜም ብሎ ለተራበ\nያበላዉን የህይወት እንጀራ አብላው\nሰማያዊ በሆነ ማእድህ አስቀምጠው\nለተጠማ ያጠጣዉንም በኤዶም ገነት\nከሚፈሰው የህይወት·ዉሃ አጠጣው፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          255.3252551020408,
+          1134.375,
+          2364.6045918367345,
+          2280.2083333333335
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አቤቱ ስለኔ ስም የአዘነዉን ያረጋጋ ነፍሱ\nከስጋው በምትለይበት ጊዜ አጽናናው\nያዘነውንና የተከዘዉንም ላስደሰተና\nላጽናና ስለ ስሜ ብለህ አስደስተው፡፡\nእድል ፈንታዉንም በዚህ ዓለም ሣሉ\nአንተን በምግባር በሀይማኖት ደስ ካሰኙህ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          255.3252551020408,
+          2293.3035714285716,
+          2364.6045918367345,
+          3245.9821428571427
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "01017bfa4c9e43e0d5bbbd16ce6e1f972e7f144083e35a50069396863431066a",
+      "source_sha256": "60e6d3a4d44b9e2a093bac588dfb26a08f732c8916c93fd627857f502fce6329",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_177.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.016,
+      "created_at": "2026-10-24T01:09:43.843953+00:00",
+      "derivative_input": false
+    }
+  }
+}

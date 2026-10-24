@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-aea0abaaf91310fe",
+    "object": "chat.completion",
+    "created": 1792802794,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [278, 125, 904, 206], \"category\": \"Page-header\", \"text\": \"፫ የሰኔ ጎልጎታ\"}, {\"bbox\": [148, 261, 1443, 1845], \"category\": \"Text\", \"text\": \"ከሀገር ወደሀገር መሰደዴን ስለአንተም\\nየደረሰብኝን ጭንቅና መከራ ረሃብና\\nጥም አስብ፤ የምለምንህም ለደጋጎች\\nለጻድቃን ብቻ አይደለም፤ በዚህ ዓለም\\nሳሉ ስሜን ለሚጠሩ መታሰቢያዬን\\nለሚያደርጉ በአማላጅነቴ ለሚተማመኑ\\nኋጥአንም ነው እንጂ፤ አቤቱ ጸሎቴንና\\nልመናዬን አስተውል፤ ከአንተም ዘንድ\\nየምሻውን የቃሌን ልመና ትሰማኝ ዘንድ\\nየልቦናዬንም ሀሳብ ትፈጽምልኝ ዘንድ\\nበዚች እለት በዚችም ሰአት አስራ ሁለት\\nየብርሃን መላእክትን ሁለት የይቅርታ\\nመላእክትን፤ ሃያ ዓራት የምህረት\\nመላእክትን ከኔ ጋር ቁመው የልቦናዬን\\nይፈጽሙልኝ ዘንድ ላክልኝ ካንተ ዘንድ\\nየምሻውን ቸርነትህን አታርቅብኝ፡፡\"}, {\"bbox\": [153, 1864, 1438, 2016], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ አለም ሳይፈጠር\\nአስቁዮም ከአንተ ጋር በነበረ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4791,
+      "completion_tokens": 628,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፫ የሰኔ ጎልጎታ",
+      "bbox": [
+        452.1045918367347,
+        204.61309523809524,
+        1470.1530612244899,
+        337.20238095238096
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ከሀገር ወደሀገር መሰደዴን ስለአንተም\nየደረሰብኝን ጭንቅና መከራ ረሃብና\nጥም አስብ፤ የምለምንህም ለደጋጎች\nለጻድቃን ብቻ አይደለም፤ በዚህ ዓለም\nሳሉ ስሜን ለሚጠሩ መታሰቢያዬን\nለሚያደርጉ በአማላጅነቴ ለሚተማመኑ\nኋጥአንም ነው እንጂ፤ አቤቱ ጸሎቴንና\nልመናዬን አስተውል፤ ከአንተም ዘንድ\nየምሻውን የቃሌን ልመና ትሰማኝ ዘንድ\nየልቦናዬንም ሀሳብ ትፈጽምልኝ ዘንድ\nበዚች እለት በዚችም ሰአት አስራ ሁለት\nየብርሃን መላእክትን ሁለት የይቅርታ\nመላእክትን፤ ሃያ ዓራት የምህረት\nመላእክትን ከኔ ጋር ቁመው የልቦናዬን\nይፈጽሙልኝ ዘንድ ላክልኝ ካንተ ዘንድ\nየምሻውን ቸርነትህን አታርቅብኝ፡፡",
+      "bbox": [
+        240.6887755102041,
+        427.23214285714283,
+        2346.7155612244896,
+        3020.089285714286
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ አለም ሳይፈጠር\nአስቁዮም ከአንተ ጋር በነበረ",
+      "bbox": [
+        248.8201530612245,
+        3051.190476190476,
+        2338.5841836734694,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 151,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          452.1045918367347,
+          204.61309523809524,
+          1470.1530612244899,
+          337.20238095238096
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከሀገር ወደሀገር መሰደዴን ስለአንተም\nየደረሰብኝን ጭንቅና መከራ ረሃብና\nጥም አስብ፤ የምለምንህም ለደጋጎች\nለጻድቃን ብቻ አይደለም፤ በዚህ ዓለም\nሳሉ ስሜን ለሚጠሩ መታሰቢያዬን\nለሚያደርጉ በአማላጅነቴ ለሚተማመኑ\nኋጥአንም ነው እንጂ፤ አቤቱ ጸሎቴንና\nልመናዬን አስተውል፤ ከአንተም ዘንድ\nየምሻውን የቃሌን ልመና ትሰማኝ ዘንድ\nየልቦናዬንም ሀሳብ ትፈጽምልኝ ዘንድ\nበዚች እለት በዚችም ሰአት አስራ ሁለት\nየብርሃን መላእክትን ሁለት የይቅርታ\nመላእክትን፤ ሃያ ዓራት የምህረት\nመላእክትን ከኔ ጋር ቁመው የልቦናዬን\nይፈጽሙልኝ ዘንድ ላክልኝ ካንተ ዘንድ\nየምሻውን ቸርነትህን አታርቅብኝ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          240.6887755102041,
+          427.23214285714283,
+          2346.7155612244896,
+          3020.089285714286
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ አለም ሳይፈጠር\nአስቁዮም ከአንተ ጋር በነበረ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          248.8201530612245,
+          3051.190476190476,
+          2338.5841836734694,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "84d2ef91da725152b0719ac0cc724e452fb8576140b41e82103f909303d7c304",
+      "source_sha256": "053a4d2828ab784dc74e0c97423765452fda0528a98a902eafb1cd142a547107",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_151.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 83.386,
+      "created_at": "2026-10-24T00:47:55.780524+00:00",
+      "derivative_input": false
+    }
+  }
+}

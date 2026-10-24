@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-933a2ce3d9480860",
+    "object": "chat.completion",
+    "created": 1792802305,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [286, 177, 1115, 255], \"category\": \"Page-header\", \"text\": \"፰፰ ይዌድስዋ መላእክት\"}, {\"bbox\": [165, 306, 1467, 1995], \"category\": \"Text\", \"text\": \"ወደ እርስዋ ገብቶ እንዲህ አላት ደስታ\\nይገባሻል እግዚአብሔር ከሥጋሽ ሥጋ\\nከነፍስሽ ነፍስ ነሥቶ ካንቺ ሰው ሆኗልና\\nከሴቶች ይልቅ አንቺ ቡርክት ነሽ:: ከቃሉ\\nአነጋገር አይታ ደነገጠች እንዲህም\\nአለች እንዲህ ያለ የምስጋና እጅ መንሻ\\nይደረግልኛል? መልአክ እንዲህ አላት\\nማርያም ሆይ አትፍሪ ከእግዚአብሔር\\nዘንድ ባለሟልነትን አግኝተሻልና እነሆ\\nትፀንሻለሽ ትወልጃልሽ ስሙንም ኢየሱስ\\nትይዋለሽ እርሱም ታላቅ የእግዚአብሔር\\nልጅ ይባላል እግዚአብሔር አምላክም\\nየዳዊት ያባቱን ዙፋን ይሰጠዋል::\\nእርሱም በያዕቆብ ወገን ለዘላለሙ\\nይነግሣል መንግሥቱም አያልፍም፤\\nማርያምም መልአኩን እንዲህ አለችው\\nይህ ነገር እንደምን ይሆንልኛል እንዘ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4744,
+      "completion_tokens": 581,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፰፰ ይዌድስዋ መላእክት",
+      "bbox": [
+        465.11479591836735,
+        289.73214285714283,
+        1813.297193877551,
+        417.4107142857143
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ወደ እርስዋ ገብቶ እንዲህ አላት ደስታ\nይገባሻል እግዚአብሔር ከሥጋሽ ሥጋ\nከነፍስሽ ነፍስ ነሥቶ ካንቺ ሰው ሆኗልና\nከሴቶች ይልቅ አንቺ ቡርክት ነሽ:: ከቃሉ\nአነጋገር አይታ ደነገጠች እንዲህም\nአለች እንዲህ ያለ የምስጋና እጅ መንሻ\nይደረግልኛል? መልአክ እንዲህ አላት\nማርያም ሆይ አትፍሪ ከእግዚአብሔር\nዘንድ ባለሟልነትን አግኝተሻልና እነሆ\nትፀንሻለሽ ትወልጃልሽ ስሙንም ኢየሱስ\nትይዋለሽ እርሱም ታላቅ የእግዚአብሔር\nልጅ ይባላል እግዚአብሔር አምላክም\nየዳዊት ያባቱን ዙፋን ይሰጠዋል::\nእርሱም በያዕቆብ ወገን ለዘላለሙ\nይነግሣል መንግሥቱም አያልፍም፤\nማርያምም መልአኩን እንዲህ አለችው\nይህ ነገር እንደምን ይሆንልኛል እንዘ",
+      "bbox": [
+        268.3354591836735,
+        500.89285714285717,
+        2385.746173469388,
+        3265.625
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 137,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፰፰ ይዌድስዋ መላእክት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          465.11479591836735,
+          289.73214285714283,
+          1813.297193877551,
+          417.4107142857143
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ወደ እርስዋ ገብቶ እንዲህ አላት ደስታ\nይገባሻል እግዚአብሔር ከሥጋሽ ሥጋ\nከነፍስሽ ነፍስ ነሥቶ ካንቺ ሰው ሆኗልና\nከሴቶች ይልቅ አንቺ ቡርክት ነሽ:: ከቃሉ\nአነጋገር አይታ ደነገጠች እንዲህም\nአለች እንዲህ ያለ የምስጋና እጅ መንሻ\nይደረግልኛል? መልአክ እንዲህ አላት\nማርያም ሆይ አትፍሪ ከእግዚአብሔር\nዘንድ ባለሟልነትን አግኝተሻልና እነሆ\nትፀንሻለሽ ትወልጃልሽ ስሙንም ኢየሱስ\nትይዋለሽ እርሱም ታላቅ የእግዚአብሔር\nልጅ ይባላል እግዚአብሔር አምላክም\nየዳዊት ያባቱን ዙፋን ይሰጠዋል::\nእርሱም በያዕቆብ ወገን ለዘላለሙ\nይነግሣል መንግሥቱም አያልፍም፤\nማርያምም መልአኩን እንዲህ አለችው\nይህ ነገር እንደምን ይሆንልኛል እንዘ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          268.3354591836735,
+          500.89285714285717,
+          2385.746173469388,
+          3265.625
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "72afd6baca3d222d47d1065c8fd328c83c2b659c5accbf2fc6e2d0cc4c2ea086",
+      "source_sha256": "dc1f02b4254c78ce9fd026d5cec7976fd0c64b4151ef15fff64628400f757409",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_137.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 77.816,
+      "created_at": "2026-10-24T00:39:41.288642+00:00",
+      "derivative_input": false
+    }
+  }
+}

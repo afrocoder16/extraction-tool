@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a55b6aca3a414fe7",
+    "object": "chat.completion",
+    "created": 1792802688,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [277, 162, 904, 237], \"category\": \"Page-header\", \"text\": \"፪ የሰኔ ጎልጎታ\"}, {\"bbox\": [155, 287, 1471, 2016], \"category\": \"Text\", \"text\": \"የአለም ዳርቻዎች አይወስኑህም\\nምድር ልትሸከምህ አትችልም፤\\nቀላያት አብርህትም ከጥልቀታቸው\\nየተነሳ የክረምት ማእበልም፤ በእፍኝህ\\nአይመሉም ኃይላት መላእክትም ቢሆኑ\\nወደ አንተ ሊቀርቡ አይችሉም አቤቱ እኔ\\nእናትህን ገረድህ የምሆን በማህፀኔ ዘጠኝ\\nወር ከአምስት ቀን ተሸክሜሃለሁና፡፡\\nጡቶቼንም አራት አመት እየጠባህ\\nአድገሀልና እለምንሀለሁ እማለድሀለሁ፡\\n፡ ሄሮድስ በምቀኝነት ሊገድልህ በፈለገ\\nጊዜ አንተን በጀርባዬ አዝዬ አራት\\nዓመት ከአንዱ ሀገር ወደ አንዱ ሀገር\\nተሰድጃለሁና አቤቱ ጌታዬና አምላኬ\\nኢየሱስ ክርስቶስ ሆይ ጸሎቴንና ልመናዬን\\nስማኝ አቤቱ ማህፀኔን አለም አድርገህ\\nዘጠኝ ወር ከአምስት ቀን የተሸከምኩህን\\nአቤቱ በቁርና በብርድ ወራት በቤተልቃም\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4783,
+      "completion_tokens": 620,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፪ የሰኔ ጎልጎታ",
+      "bbox": [
+        450.4783163265306,
+        265.17857142857144,
+        1470.1530612244899,
+        387.94642857142856
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "የአለም ዳርቻዎች አይወስኑህም\nምድር ልትሸከምህ አትችልም፤\nቀላያት አብርህትም ከጥልቀታቸው\nየተነሳ የክረምት ማእበልም፤ በእፍኝህ\nአይመሉም ኃይላት መላእክትም ቢሆኑ\nወደ አንተ ሊቀርቡ አይችሉም አቤቱ እኔ\nእናትህን ገረድህ የምሆን በማህፀኔ ዘጠኝ\nወር ከአምስት ቀን ተሸክሜሃለሁና፡፡\nጡቶቼንም አራት አመት እየጠባህ\nአድገሀልና እለምንሀለሁ እማለድሀለሁ፡\n፡ ሄሮድስ በምቀኝነት ሊገድልህ በፈለገ\nጊዜ አንተን በጀርባዬ አዝዬ አራት\nዓመት ከአንዱ ሀገር ወደ አንዱ ሀገር\nተሰድጃለሁና አቤቱ ጌታዬና አምላኬ\nኢየሱስ ክርስቶስ ሆይ ጸሎቴንና ልመናዬን\nስማኝ አቤቱ ማህፀኔን አለም አድርገህ\nዘጠኝ ወር ከአምስት ቀን የተሸከምኩህን\nአቤቱ በቁርና በብርድ ወራት በቤተልቃም",
+      "bbox": [
+        252.07270408163265,
+        469.7916666666667,
+        2392.251275510204,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 149,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          450.4783163265306,
+          265.17857142857144,
+          1470.1530612244899,
+          387.94642857142856
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የአለም ዳርቻዎች አይወስኑህም\nምድር ልትሸከምህ አትችልም፤\nቀላያት አብርህትም ከጥልቀታቸው\nየተነሳ የክረምት ማእበልም፤ በእፍኝህ\nአይመሉም ኃይላት መላእክትም ቢሆኑ\nወደ አንተ ሊቀርቡ አይችሉም አቤቱ እኔ\nእናትህን ገረድህ የምሆን በማህፀኔ ዘጠኝ\nወር ከአምስት ቀን ተሸክሜሃለሁና፡፡\nጡቶቼንም አራት አመት እየጠባህ\nአድገሀልና እለምንሀለሁ እማለድሀለሁ፡\n፡ ሄሮድስ በምቀኝነት ሊገድልህ በፈለገ\nጊዜ አንተን በጀርባዬ አዝዬ አራት\nዓመት ከአንዱ ሀገር ወደ አንዱ ሀገር\nተሰድጃለሁና አቤቱ ጌታዬና አምላኬ\nኢየሱስ ክርስቶስ ሆይ ጸሎቴንና ልመናዬን\nስማኝ አቤቱ ማህፀኔን አለም አድርገህ\nዘጠኝ ወር ከአምስት ቀን የተሸከምኩህን\nአቤቱ በቁርና በብርድ ወራት በቤተልቃም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          252.07270408163265,
+          469.7916666666667,
+          2392.251275510204,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "56dd634d922b1d078e02bf17b8f6dbb2a7ceda7e5205518f8310500a18c93105",
+      "source_sha256": "d253479a741eb63814c9d65c5f1d9d173df81bbd9901f6c955638cfa0581e7e8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_149.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.554,
+      "created_at": "2026-10-24T00:46:09.208860+00:00",
+      "derivative_input": false
+    }
+  }
+}

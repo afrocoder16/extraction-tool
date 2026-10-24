@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-830a0321fe036e91",
+    "object": "chat.completion",
+    "created": 1792805454,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [247, 164, 305, 231], \"category\": \"Page-header\", \"text\": \"፴\"}, {\"bbox\": [501, 164, 895, 246], \"category\": \"Page-header\", \"text\": \"የሰኔ ጎልጎታ\"}, {\"bbox\": [113, 295, 1471, 2016], \"category\": \"Text\", \"text\": \"ለማሳለፍ በታላቅ ምስጋና በምመጣበት ቃል ኪዳን ገባሁልሽ፡፡ ክብር በሆነ ደሜ ቅዱስ በሆነ ስጋዬ ቃል ኪዳን ገባሁልሽ፡፡ ሰማያዊት በሆነች በእየሩሳሌም ሀገሬ በክብር በምስጋና በተጌጠች በፅዮን ቃል ኪዳን ገባሁልሽ፡፡ የሙሽራ አምሳል በሆነች በቅድስት ቤተክርስቲያን ከእለታት መርጭ በተወለድኩባት በተጠመቅሬባት ለሰው ልጅ ደህንነትን የምታስገኝ ትንሳዔንም በገለጽኩባት በሰንበተ ክርስቲያን ቃል ኪዳን ገባሁልሽ በደብረ ዘይት በተቀደሰውም በጽዮን ደብረ መንግስቴ በመቃብሬም ቦታ በጎልጎታ ንጹህ ብሩህ በሆነ ደምግባትሽ፤ ንጹሐት ክቡራት በሆኑ ልብሶችሽ በነዚህ ሁሉ ቃል ኪዳን ገባሁልሽ፡፡ እናቴ ድንግል ማሪያም ሆይ፤ የሰጠሁሽን ቃል ኪዳን እንዳልነሳሽ አማንየ ብየ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4815,
+      "completion_tokens": 652,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴",
+      "bbox": [
+        401.6900510204082,
+        268.45238095238096,
+        496.0140306122449,
+        378.125
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Page-header",
+      "text": "የሰኔ ጎልጎታ",
+      "bbox": [
+        814.7640306122449,
+        268.45238095238096,
+        1455.516581632653,
+        402.67857142857144
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ለማሳለፍ በታላቅ ምስጋና በምመጣበት ቃል ኪዳን ገባሁልሽ፡፡ ክብር በሆነ ደሜ ቅዱስ በሆነ ስጋዬ ቃል ኪዳን ገባሁልሽ፡፡ ሰማያዊት በሆነች በእየሩሳሌም ሀገሬ በክብር በምስጋና በተጌጠች በፅዮን ቃል ኪዳን ገባሁልሽ፡፡ የሙሽራ አምሳል በሆነች በቅድስት ቤተክርስቲያን ከእለታት መርጭ በተወለድኩባት በተጠመቅሬባት ለሰው ልጅ ደህንነትን የምታስገኝ ትንሳዔንም በገለጽኩባት በሰንበተ ክርስቲያን ቃል ኪዳን ገባሁልሽ በደብረ ዘይት በተቀደሰውም በጽዮን ደብረ መንግስቴ በመቃብሬም ቦታ በጎልጎታ ንጹህ ብሩህ በሆነ ደምግባትሽ፤ ንጹሐት ክቡራት በሆኑ ልብሶችሽ በነዚህ ሁሉ ቃል ኪዳን ገባሁልሽ፡፡ እናቴ ድንግል ማሪያም ሆይ፤ የሰጠሁሽን ቃል ኪዳን እንዳልነሳሽ አማንየ ብየ",
+      "bbox": [
+        183.76913265306123,
+        482.88690476190476,
+        2392.251275510204,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 205,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          401.6900510204082,
+          268.45238095238096,
+          496.0140306122449,
+          378.125
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          814.7640306122449,
+          268.45238095238096,
+          1455.516581632653,
+          402.67857142857144
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ለማሳለፍ በታላቅ ምስጋና በምመጣበት ቃል ኪዳን ገባሁልሽ፡፡ ክብር በሆነ ደሜ ቅዱስ በሆነ ስጋዬ ቃል ኪዳን ገባሁልሽ፡፡ ሰማያዊት በሆነች በእየሩሳሌም ሀገሬ በክብር በምስጋና በተጌጠች በፅዮን ቃል ኪዳን ገባሁልሽ፡፡ የሙሽራ አምሳል በሆነች በቅድስት ቤተክርስቲያን ከእለታት መርጭ በተወለድኩባት በተጠመቅሬባት ለሰው ልጅ ደህንነትን የምታስገኝ ትንሳዔንም በገለጽኩባት በሰንበተ ክርስቲያን ቃል ኪዳን ገባሁልሽ በደብረ ዘይት በተቀደሰውም በጽዮን ደብረ መንግስቴ በመቃብሬም ቦታ በጎልጎታ ንጹህ ብሩህ በሆነ ደምግባትሽ፤ ንጹሐት ክቡራት በሆኑ ልብሶችሽ በነዚህ ሁሉ ቃል ኪዳን ገባሁልሽ፡፡ እናቴ ድንግል ማሪያም ሆይ፤ የሰጠሁሽን ቃል ኪዳን እንዳልነሳሽ አማንየ ብየ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          183.76913265306123,
+          482.88690476190476,
+          2392.251275510204,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "ba647cc9cd1a8845bcfdc70f522b638df75dfcc96b47a0ffb91ac6d79644678a",
+      "source_sha256": "4c7f718f51ae7114f376016b2e8631edd1a450e36826fb4ef05e9f312d9085f0",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_205.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 86.316,
+      "created_at": "2026-10-24T01:32:18.683176+00:00",
+      "derivative_input": false
+    }
+  }
+}

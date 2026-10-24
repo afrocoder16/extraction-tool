@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-92ba95d9f37d51df",
+    "object": "chat.completion",
+    "created": 1792803995,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [224, 182, 894, 265], \"category\": \"Page-header\", \"text\": \"፲፭ የሰኔ ጎልጎታ\"}, {\"bbox\": [83, 316, 1484, 1995], \"category\": \"Text\", \"text\": \"ምን ላደርግልሽ ትፈቅጃለሽ? እነሆ\\nየስመንሽውን ሁሉ የምትሺውንም\\nእፈፅምልሻለሁና፡፡ ብርክት መርገመ ነፍስ\\nመርገመ ስጋ የሌለባት ማርያም ለልጇ\\nለወዳጇ እንዲህ ስትል መለሰችለት፡፡\\nልጄ ወዳጄ ኢየሱስ ክርስቶስ ሆይ፤\\nተስፋዬ አምባ መጠጊያዬ አንተ ነህ\\nእምነቴም በአንተ ላይ ነው፡፡ ገና\\nበእናቴ ማህፀን ሳለሁ አንተ ጠበቅከኝ\\nአጸናኸኝም ለሁል ጊዜም መታሰቢያዬና\\nአለኝታዬ አንተ ሃህ በኋለኛውም ዘመን\\nትንቢቱ ሲፈጸም ሰአቱ ሲደርስ በእንተ\\nፈቃድ በአባትህም ፈቃድ ማሕያዊ\\nበሚሆን በመንፈስ ቅዱስም ፈቃድ ከእኔ\\nተወልደሃልና ዛሬ ጸሎቴንና፡ ልመናዬን\\nስማኝ የአንደበቴንም ቃል አድምጥ እኔ\\nወላጅ እናትህ ማሪያም የምነግርህንም\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4743,
+      "completion_tokens": 580,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፭ የሰኔ ጎልጎታ",
+      "bbox": [
+        364.2857142857143,
+        297.9166666666667,
+        1453.890306122449,
+        433.7797619047619
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ምን ላደርግልሽ ትፈቅጃለሽ? እነሆ\nየስመንሽውን ሁሉ የምትሺውንም\nእፈፅምልሻለሁና፡፡ ብርክት መርገመ ነፍስ\nመርገመ ስጋ የሌለባት ማርያም ለልጇ\nለወዳጇ እንዲህ ስትል መለሰችለት፡፡\nልጄ ወዳጄ ኢየሱስ ክርስቶስ ሆይ፤\nተስፋዬ አምባ መጠጊያዬ አንተ ነህ\nእምነቴም በአንተ ላይ ነው፡፡ ገና\nበእናቴ ማህፀን ሳለሁ አንተ ጠበቅከኝ\nአጸናኸኝም ለሁል ጊዜም መታሰቢያዬና\nአለኝታዬ አንተ ሃህ በኋለኛውም ዘመን\nትንቢቱ ሲፈጸም ሰአቱ ሲደርስ በእንተ\nፈቃድ በአባትህም ፈቃድ ማሕያዊ\nበሚሆን በመንፈስ ቅዱስም ፈቃድ ከእኔ\nተወልደሃልና ዛሬ ጸሎቴንና፡ ልመናዬን\nስማኝ የአንደበቴንም ቃል አድምጥ እኔ\nወላጅ እናትህ ማሪያም የምነግርህንም",
+      "bbox": [
+        134.98086734693877,
+        517.2619047619048,
+        2413.3928571428573,
+        3265.625
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 175,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፭ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          364.2857142857143,
+          297.9166666666667,
+          1453.890306122449,
+          433.7797619047619
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ምን ላደርግልሽ ትፈቅጃለሽ? እነሆ\nየስመንሽውን ሁሉ የምትሺውንም\nእፈፅምልሻለሁና፡፡ ብርክት መርገመ ነፍስ\nመርገመ ስጋ የሌለባት ማርያም ለልጇ\nለወዳጇ እንዲህ ስትል መለሰችለት፡፡\nልጄ ወዳጄ ኢየሱስ ክርስቶስ ሆይ፤\nተስፋዬ አምባ መጠጊያዬ አንተ ነህ\nእምነቴም በአንተ ላይ ነው፡፡ ገና\nበእናቴ ማህፀን ሳለሁ አንተ ጠበቅከኝ\nአጸናኸኝም ለሁል ጊዜም መታሰቢያዬና\nአለኝታዬ አንተ ሃህ በኋለኛውም ዘመን\nትንቢቱ ሲፈጸም ሰአቱ ሲደርስ በእንተ\nፈቃድ በአባትህም ፈቃድ ማሕያዊ\nበሚሆን በመንፈስ ቅዱስም ፈቃድ ከእኔ\nተወልደሃልና ዛሬ ጸሎቴንና፡ ልመናዬን\nስማኝ የአንደበቴንም ቃል አድምጥ እኔ\nወላጅ እናትህ ማሪያም የምነግርህንም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          134.98086734693877,
+          517.2619047619048,
+          2413.3928571428573,
+          3265.625
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "95b2ac56d837c166228bd335e05d88fa9dda395cada1164a4a8241f1bd5bc1eb",
+      "source_sha256": "bf5715574e04523b1565d300de25140cdd3abd545592abf846888d1da6316ef5",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_175.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 78.253,
+      "created_at": "2026-10-24T01:07:51.130698+00:00",
+      "derivative_input": false
+    }
+  }
+}

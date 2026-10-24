@@ -1,0 +1,257 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8dee7caf84e0bc64",
+    "object": "chat.completion",
+    "created": 1792799868,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [184, 87, 1074, 165], \"category\": \"Page-header\", \"text\": \"፴፱ የቅዳሜ ዉዳሴ ጸሎት\"}, {\"bbox\": [36, 218, 1354, 754], \"category\": \"Text\", \"text\": \"ሆይ የተባረክሽ ነሽ፣ የማኅፀንሽም ፍሬ\\nየተባረከ ነው:: ጸጋን የተመላሽ ሆይ\\nእግዚአብሔር ካንቺ ጋር ነውና ደስ\\nይበልሽ እያልን መልአኩ ገብርኤል\\nእንዳመሰገነሽ እናመሰግንሻለን:: ቅድስት\\nሆይ ለምኝልን::\"}, {\"bbox\": [176, 897, 1387, 1014], \"category\": \"Text\", \"text\": \"White is not always light and black is not always dark\"}, {\"bbox\": [36, 1111, 1337, 1287], \"category\": \"Text\", \"text\": \"ቅዳሜ የሚጸለይ አምላክን የወለደች\\nየእመቤታችን የድንግል ማርያም ምስጋና\"}, {\"bbox\": [434, 1381, 936, 1459], \"category\": \"Section-header\", \"text\": \"ስድስተኛ ክፍል\"}, {\"bbox\": [41, 1572, 1354, 2016], \"category\": \"Text\", \"text\": \"፩ ንጽሕት ነሽ ብርህትም ነሽ:: ጌታን በመኻል እጅሽ የያዝሽው ሆይ በሁሉ የተቀደሽ ነሽ:: ፍጥረት ሁሉ ቅድስት ሆይ ለምኝልን ብለው እየጮኹ ካንቺ ጋር ደስ ይላቸዋል::\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4765,
+      "completion_tokens": 602,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴፱ የቅዳሜ ዉዳሴ ጸሎት",
+      "bbox": [
+        299.234693877551,
+        142.41071428571428,
+        1746.6198979591836,
+        270.0892857142857
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ሆይ የተባረክሽ ነሽ፣ የማኅፀንሽም ፍሬ\nየተባረከ ነው:: ጸጋን የተመላሽ ሆይ\nእግዚአብሔር ካንቺ ጋር ነውና ደስ\nይበልሽ እያልን መልአኩ ገብርኤል\nእንዳመሰገነሽ እናመሰግንሻለን:: ቅድስት\nሆይ ለምኝልን::",
+      "bbox": [
+        58.545918367346935,
+        356.8452380952381,
+        2201.9770408163267,
+        1234.2261904761904
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "White is not always light and black is not always dark",
+      "bbox": [
+        286.2244897959184,
+        1468.3035714285713,
+        2255.644132653061,
+        1659.8214285714287
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ቅዳሜ የሚጸለይ አምላክን የወለደች\nየእመቤታችን የድንግል ማርያም ምስጋና",
+      "bbox": [
+        58.545918367346935,
+        1818.6011904761904,
+        2174.3303571428573,
+        2106.6964285714284
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Section-header",
+      "text": "ስድስተኛ ክፍል",
+      "bbox": [
+        705.8035714285714,
+        2260.565476190476,
+        1522.1938775510205,
+        2388.2440476190477
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "፩ ንጽሕት ነሽ ብርህትም ነሽ:: ጌታን በመኻል እጅሽ የያዝሽው ሆይ በሁሉ የተቀደሽ ነሽ:: ፍጥረት ሁሉ ቅድስት ሆይ ለምኝልን ብለው እየጮኹ ካንቺ ጋር ደስ ይላቸዋል::",
+      "bbox": [
+        66.67729591836735,
+        2573.214285714286,
+        2201.9770408163267,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 79,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴፱ የቅዳሜ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          299.234693877551,
+          142.41071428571428,
+          1746.6198979591836,
+          270.0892857142857
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሆይ የተባረክሽ ነሽ፣ የማኅፀንሽም ፍሬ\nየተባረከ ነው:: ጸጋን የተመላሽ ሆይ\nእግዚአብሔር ካንቺ ጋር ነውና ደስ\nይበልሽ እያልን መልአኩ ገብርኤል\nእንዳመሰገነሽ እናመሰግንሻለን:: ቅድስት\nሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          58.545918367346935,
+          356.8452380952381,
+          2201.9770408163267,
+          1234.2261904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "White is not always light and black is not always dark",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          1468.3035714285713,
+          2255.644132653061,
+          1659.8214285714287
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ቅዳሜ የሚጸለይ አምላክን የወለደች\nየእመቤታችን የድንግል ማርያም ምስጋና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          58.545918367346935,
+          1818.6011904761904,
+          2174.3303571428573,
+          2106.6964285714284
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ስድስተኛ ክፍል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          705.8035714285714,
+          2260.565476190476,
+          1522.1938775510205,
+          2388.2440476190477
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ ንጽሕት ነሽ ብርህትም ነሽ:: ጌታን በመኻል እጅሽ የያዝሽው ሆይ በሁሉ የተቀደሽ ነሽ:: ፍጥረት ሁሉ ቅድስት ሆይ ለምኝልን ብለው እየጮኹ ካንቺ ጋር ደስ ይላቸዋል::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          66.67729591836735,
+          2573.214285714286,
+          2201.9770408163267,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "16f50ad0ebc5f54ddda7d52eaf6a64017b2fa5d6984393891de09bc217e2f3aa",
+      "source_sha256": "cb6a45d173b2b9f03fa0c79f80ed57692bb3ae603508a91ba0863cc9efb2e9f8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_079.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.357,
+      "created_at": "2026-10-23T23:59:06.982571+00:00",
+      "derivative_input": false
+    }
+  }
+}

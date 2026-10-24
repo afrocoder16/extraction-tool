@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bb25ea08e45c3c00",
+    "object": "chat.completion",
+    "created": 1792802975,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [165, 42, 1455, 128], \"category\": \"Title\", \"text\": \"ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ::\"}, {\"bbox\": [446, 201, 1115, 265], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4275,
+      "completion_tokens": 112,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Title",
+      "text": "ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ::",
+      "bbox": [
+        268.3354591836735,
+        68.75,
+        2366.230867346939,
+        209.52380952380952
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        725.3188775510204,
+        329.01785714285717,
+        1813.297193877551,
+        433.7797619047619
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 154,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          268.3354591836735,
+          68.75,
+          2366.230867346939,
+          209.52380952380952
+        ],
+        "layout_category": "Title",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          725.3188775510204,
+          329.01785714285717,
+          1813.297193877551,
+          433.7797619047619
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "a488e6dd39cc223e6b6caeb9fc25096bd8a99946de832f552fc76796b7e3dcf7",
+      "source_sha256": "f7d9693d2a03709ef9cc4372abcaa05ea0e9cc073cb214164a7d6f98b839ba8a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_154.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 23.624,
+      "created_at": "2026-10-24T00:49:58.004385+00:00",
+      "derivative_input": false
+    }
+  }
+}

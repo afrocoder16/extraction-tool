@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8acdc8f221f6fcb7",
+    "object": "chat.completion",
+    "created": 1792801137,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [298, 231, 983, 301], \"category\": \"Page-header\", \"text\": \"፶ አንቀጸ ብርሃን\"}, {\"bbox\": [182, 348, 1498, 1648], \"category\": \"Text\", \"text\": \"ምግብሽና ያመጡ ነበር፡፡ **መላእክት**\\nእየጎበኙሽ እንዲህ አስራ ሁለት አመት\\nኖርሽ መጠጥሽም የሕይወት መጠጥ\\nነበር፤ ምግብሽም የሰማይ ሕብስት\\nነበር፤ አባትሽ ዳዊት በመሰንቆ አመሰገነ\\nበትንቢት መንፈስም **መንፈስ** ቅዱስ\\nበገና እየደረደረ እንዲህ ብሎ ዘመረ ልጆ\\nሆይ፤ ስሚ እይም ዦሮሽንም አዘንብይ፤\\nሕዝብሽንና የአባትሽንም ቤት እርሽ\\nንጉሱም ውበትሽን ይወዳል፤ እርሱም\\nጌታሽ ነውና ለእርሱም ስገጂ ትሰግጃለሽ\\n**ቅድስት** ሆይ **ልጅሽ** ይቅርታዉን ያድለን\\nዘንድ ለምኝልን፡፡\"}, {\"bbox\": [186, 1765, 1501, 2016], \"category\": \"Text\", \"text\": \"፯. ከንጹሐን ካልበደሉ **መላእክት** ወገን የሆነና በደል የሌለበት በሁሉ **ጌታ ፊት** የማቆም ካይ ገጋቼ መልእኔት መገን ይይነ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4742,
+      "completion_tokens": 579,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፶ አንቀጸ ብርሃን",
+      "bbox": [
+        484.6301020408163,
+        378.125,
+        1598.6288265306123,
+        492.7083333333333
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ምግብሽና ያመጡ ነበር፡፡ **መላእክት**\nእየጎበኙሽ እንዲህ አስራ ሁለት አመት\nኖርሽ መጠጥሽም የሕይወት መጠጥ\nነበር፤ ምግብሽም የሰማይ ሕብስት\nነበር፤ አባትሽ ዳዊት በመሰንቆ አመሰገነ\nበትንቢት መንፈስም **መንፈስ** ቅዱስ\nበገና እየደረደረ እንዲህ ብሎ ዘመረ ልጆ\nሆይ፤ ስሚ እይም ዦሮሽንም አዘንብይ፤\nሕዝብሽንና የአባትሽንም ቤት እርሽ\nንጉሱም ውበትሽን ይወዳል፤ እርሱም\nጌታሽ ነውና ለእርሱም ስገጂ ትሰግጃለሽ\n**ቅድስት** ሆይ **ልጅሽ** ይቅርታዉን ያድለን\nዘንድ ለምኝልን፡፡",
+      "bbox": [
+        295.98214285714283,
+        569.6428571428571,
+        2436.160714285714,
+        2697.6190476190477
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፯. ከንጹሐን ካልበደሉ **መላእክት** ወገን የሆነና በደል የሌለበት በሁሉ **ጌታ ፊት** የማቆም ካይ ገጋቼ መልእኔት መገን ይይነ",
+      "bbox": [
+        302.48724489795916,
+        2889.1369047619046,
+        2441.0395408163267,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 109,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፶ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          484.6301020408163,
+          378.125,
+          1598.6288265306123,
+          492.7083333333333
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ምግብሽና ያመጡ ነበር፡፡ **መላእክት**\nእየጎበኙሽ እንዲህ አስራ ሁለት አመት\nኖርሽ መጠጥሽም የሕይወት መጠጥ\nነበር፤ ምግብሽም የሰማይ ሕብስት\nነበር፤ አባትሽ ዳዊት በመሰንቆ አመሰገነ\nበትንቢት መንፈስም **መንፈስ** ቅዱስ\nበገና እየደረደረ እንዲህ ብሎ ዘመረ ልጆ\nሆይ፤ ስሚ እይም ዦሮሽንም አዘንብይ፤\nሕዝብሽንና የአባትሽንም ቤት እርሽ\nንጉሱም ውበትሽን ይወዳል፤ እርሱም\nጌታሽ ነውና ለእርሱም ስገጂ ትሰግጃለሽ\n**ቅድስት** ሆይ **ልጅሽ** ይቅርታዉን ያድለን\nዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          295.98214285714283,
+          569.6428571428571,
+          2436.160714285714,
+          2697.6190476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯. ከንጹሐን ካልበደሉ **መላእክት** ወገን የሆነና በደል የሌለበት በሁሉ **ጌታ ፊት** የማቆም ካይ ገጋቼ መልእኔት መገን ይይነ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          302.48724489795916,
+          2889.1369047619046,
+          2441.0395408163267,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "cb735b1658e940447ed3273894f36c036b0aa062a22a68d8b9d09bd56e20a266",
+      "source_sha256": "5c89bcbfcf994d0d2ade7017b6f54bb6413e9e5712be105a8c9cbb0296ff466f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_109.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 77.829,
+      "created_at": "2026-10-24T00:20:13.036240+00:00",
+      "derivative_input": false
+    }
+  }
+}

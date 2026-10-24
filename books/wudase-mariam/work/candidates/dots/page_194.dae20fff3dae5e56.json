@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a740e81b8ac64650",
+    "object": "chat.completion",
+    "created": 1792804909,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [137, 27, 1455, 145], \"category\": \"Section-header\", \"text\": \"ማያልፈው ዓለም ነፍሱ ከስጋው ተለይታ\"}, {\"bbox\": [442, 237, 1123, 304], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4273,
+      "completion_tokens": 110,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Section-header",
+      "text": "ማያልፈው ዓለም ነፍሱ ከስጋው ተለይታ",
+      "bbox": [
+        222.7997448979592,
+        44.19642857142857,
+        2366.230867346939,
+        237.35119047619048
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        718.8137755102041,
+        387.94642857142856,
+        1826.3073979591836,
+        497.6190476190476
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 194,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ማያልፈው ዓለም ነፍሱ ከስጋው ተለይታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          222.7997448979592,
+          44.19642857142857,
+          2366.230867346939,
+          237.35119047619048
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          718.8137755102041,
+          387.94642857142856,
+          1826.3073979591836,
+          497.6190476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "dae20fff3dae5e56f2d51480f194d816196428c4b37c04a18f1740cce1a7f249",
+      "source_sha256": "b5786a9a99682e4bb3c231c31e48bb290e58b4839ec5580d11e6129603dc3f1d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_194.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 23.227,
+      "created_at": "2026-10-24T01:22:11.708109+00:00",
+      "derivative_input": false
+    }
+  }
+}

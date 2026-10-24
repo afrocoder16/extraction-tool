@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8ead7602f964cb32",
+    "object": "chat.completion",
+    "created": 1792796452,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [465, 271, 1041, 356], \"category\": \"Section-header\", \"text\": \"የዘወትር ጸሎት፡፡\"}, {\"bbox\": [75, 443, 1292, 691], \"category\": \"Text\", \"text\": \"በጌታዬ በኢየሱስ ክርስቶስ ትእምርተ\\nመስቀል ፊቴን እና መሳ ሰውነቴን ሦስት\\nጊዜ አማትባለው፡፡\"}, {\"bbox\": [69, 706, 1294, 1461], \"category\": \"Text\", \"text\": \"፩ አንድ አምላክ በሚሆን በአብ\\nበወልድ በመንፈስ ቅዱስ ስም ንጹሕ ልዩ\\nክቡር ጽሩይ በሆኑ በሦስትነት ወይም\\nበሥላሴ እያመንኩና እየተማፀንኩ ጠላቴ\\nስይጣንን እክድሃለው፡፡ በዚች በእናቴ\\nበቤተ ክርስቲያን ፊት ቁሜ እክድሃለው፡፡\\nለዚህም ምስክሬ ማርያም ናት በዚህም\\nዓለም በወዲያኛውም ዓለም እሷን አምባ\\nመጠጊያ አድርጌ እክድሃለሁ፡፡\"}, {\"bbox\": [73, 1473, 1296, 1989], \"category\": \"Text\", \"text\": \"፪ አቤቱ እናመስግንሃለን፡፡ አቤቱ\\nእናከብርሃለን አቤቱ እንገዛልሃለን፡፡\\nአቤቱ ቅዱስ ስምህን 、 እናመስግናለን፡፡\\nጉልበት ሁሉ የሚሰግድልህ አቤቱ\\nእንሰግድልሃለን አንደበትም ሁሉ ላንተ\\nይገዛል የአምላኮች አምላክ የጌቶች ጌታ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4834,
+      "completion_tokens": 671,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Section-header",
+      "text": "የዘወትር ጸሎት፡፡",
+      "bbox": [
+        756.218112244898,
+        443.6011904761905,
+        1692.952806122449,
+        582.7380952380952
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "በጌታዬ በኢየሱስ ክርስቶስ ትእምርተ\nመስቀል ፊቴን እና መሳ ሰውነቴን ሦስት\nጊዜ አማትባለው፡፡",
+      "bbox": [
+        121.97066326530613,
+        725.1488095238095,
+        2101.1479591836733,
+        1131.1011904761904
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፩ አንድ አምላክ በሚሆን በአብ\nበወልድ በመንፈስ ቅዱስ ስም ንጹሕ ልዩ\nክቡር ጽሩይ በሆኑ በሦስትነት ወይም\nበሥላሴ እያመንኩና እየተማፀንኩ ጠላቴ\nስይጣንን እክድሃለው፡፡ በዚች በእናቴ\nበቤተ ክርስቲያን ፊት ቁሜ እክድሃለው፡፡\nለዚህም ምስክሬ ማርያም ናት በዚህም\nዓለም በወዲያኛውም ዓለም እሷን አምባ\nመጠጊያ አድርጌ እክድሃለሁ፡፡",
+      "bbox": [
+        112.21301020408163,
+        1155.654761904762,
+        2104.4005102040815,
+        2391.5178571428573
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፪ አቤቱ እናመስግንሃለን፡፡ አቤቱ\nእናከብርሃለን አቤቱ እንገዛልሃለን፡፡\nአቤቱ ቅዱስ ስምህን 、 እናመስግናለን፡፡\nጉልበት ሁሉ የሚሰግድልህ አቤቱ\nእንሰግድልሃለን አንደበትም ሁሉ ላንተ\nይገዛል የአምላኮች አምላክ የጌቶች ጌታ",
+      "bbox": [
+        118.71811224489795,
+        2411.160714285714,
+        2107.6530612244896,
+        3255.8035714285716
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 3,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የዘወትር ጸሎት፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          756.218112244898,
+          443.6011904761905,
+          1692.952806122449,
+          582.7380952380952
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በጌታዬ በኢየሱስ ክርስቶስ ትእምርተ\nመስቀል ፊቴን እና መሳ ሰውነቴን ሦስት\nጊዜ አማትባለው፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          121.97066326530613,
+          725.1488095238095,
+          2101.1479591836733,
+          1131.1011904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ አንድ አምላክ በሚሆን በአብ\nበወልድ በመንፈስ ቅዱስ ስም ንጹሕ ልዩ\nክቡር ጽሩይ በሆኑ በሦስትነት ወይም\nበሥላሴ እያመንኩና እየተማፀንኩ ጠላቴ\nስይጣንን እክድሃለው፡፡ በዚች በእናቴ\nበቤተ ክርስቲያን ፊት ቁሜ እክድሃለው፡፡\nለዚህም ምስክሬ ማርያም ናት በዚህም\nዓለም በወዲያኛውም ዓለም እሷን አምባ\nመጠጊያ አድርጌ እክድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          112.21301020408163,
+          1155.654761904762,
+          2104.4005102040815,
+          2391.5178571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ አቤቱ እናመስግንሃለን፡፡ አቤቱ\nእናከብርሃለን አቤቱ እንገዛልሃለን፡፡\nአቤቱ ቅዱስ ስምህን 、 እናመስግናለን፡፡\nጉልበት ሁሉ የሚሰግድልህ አቤቱ\nእንሰግድልሃለን አንደበትም ሁሉ ላንተ\nይገዛል የአምላኮች አምላክ የጌቶች ጌታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          118.71811224489795,
+          2411.160714285714,
+          2107.6530612244896,
+          3255.8035714285716
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "0211290a4dcf3058211ec302298844b9a11e48f758f078f4646a2a0470b42981",
+      "source_sha256": "bc5eb46046f59514f342b457b69c828a56c433b6ae09e07ce1cfa5832ddd43a4",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_003.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 90.029,
+      "created_at": "2026-10-23T23:02:18.509326+00:00",
+      "derivative_input": false
+    }
+  }
+}

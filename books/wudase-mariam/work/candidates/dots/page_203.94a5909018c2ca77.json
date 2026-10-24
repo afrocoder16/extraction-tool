@@ -1,0 +1,227 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9202b74d89434b5c",
+    "object": "chat.completion",
+    "created": 1792805338,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [227, 151, 874, 232], \"category\": \"Page-header\", \"text\": \"፳፱ የሰኔ ጎልጎታ\"}, {\"bbox\": [96, 284, 1435, 981], \"category\": \"Text\", \"text\": \"ለሞት አሳልፈዉ ስለሰጡ ሰባ ሁለቱ ሕርድእት ቃል ኪዳን ገባሁልሽ፡፡ ዙፋኔ በተዘጋጀባት ሉዓላዊት ሰማይ የእግሬ መረገጫ በሆነችዉ ታህታዊት ምድር ቃል ኪዳን ገባሁልሽ ነደ ዕሳት በሆነ የዕሳት መጋረጃዬ ፍፁም ማደሪያዬ በሆነ በእርያም ሰማይ ቃል ኪዳን ገባሁልሽ፡፡\"}, {\"bbox\": [96, 986, 1435, 1186], \"category\": \"Text\", \"text\": \"በተሰቀልኩበት እፀመስቀል እጅና እግሬ በተቸነከረበት ቀኖት (ችንካር) በጦር\"}, {\"bbox\": [96, 1186, 1435, 1577], \"category\": \"Text\", \"text\": \"በተወጋዉ ጎኔ ቃል ኪዳን ገባሁልሽ፡፡ በእለተ አርብ በፈሰሰው ደሜ በህመሜና በሞቴ ሶስት መአልት ሶስት ሌሊት በከርስ መቃብር በአደርኩበት ቃል\"}, {\"bbox\": [96, 1587, 1435, 1976], \"category\": \"Text\", \"text\": \"ኪዳን ገባሁልሽ፡፡ ከመቃብር ወጥቼ ሕዳምን ከነልጆቹ ከሲኦል ለማውጣት ወደ ሲኦል በመውረዴ በሶስተኛው ቀን ከሙታን ተለይቼ ሙስና መቃብርን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4852,
+      "completion_tokens": 689,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፱ የሰኔ ጎልጎታ",
+      "bbox": [
+        369.1645408163265,
+        247.17261904761904,
+        1421.3647959183672,
+        379.76190476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ለሞት አሳልፈዉ ስለሰጡ ሰባ ሁለቱ ሕርድእት ቃል ኪዳን ገባሁልሽ፡፡ ዙፋኔ በተዘጋጀባት ሉዓላዊት ሰማይ የእግሬ መረገጫ በሆነችዉ ታህታዊት ምድር ቃል ኪዳን ገባሁልሽ ነደ ዕሳት በሆነ የዕሳት መጋረጃዬ ፍፁም ማደሪያዬ በሆነ በእርያም ሰማይ ቃል ኪዳን ገባሁልሽ፡፡",
+      "bbox": [
+        156.12244897959184,
+        464.8809523809524,
+        2333.7053571428573,
+        1605.8035714285713
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "በተሰቀልኩበት እፀመስቀል እጅና እግሬ በተቸነከረበት ቀኖት (ችንካር) በጦር",
+      "bbox": [
+        156.12244897959184,
+        1613.9880952380952,
+        2333.7053571428573,
+        1941.3690476190477
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "በተወጋዉ ጎኔ ቃል ኪዳን ገባሁልሽ፡፡ በእለተ አርብ በፈሰሰው ደሜ በህመሜና በሞቴ ሶስት መአልት ሶስት ሌሊት በከርስ መቃብር በአደርኩበት ቃል",
+      "bbox": [
+        156.12244897959184,
+        1941.3690476190477,
+        2333.7053571428573,
+        2581.3988095238096
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ኪዳን ገባሁልሽ፡፡ ከመቃብር ወጥቼ ሕዳምን ከነልጆቹ ከሲኦል ለማውጣት ወደ ሲኦል በመውረዴ በሶስተኛው ቀን ከሙታን ተለይቼ ሙስና መቃብርን",
+      "bbox": [
+        156.12244897959184,
+        2597.7678571428573,
+        2333.7053571428573,
+        3234.5238095238096
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 203,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፱ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          369.1645408163265,
+          247.17261904761904,
+          1421.3647959183672,
+          379.76190476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ለሞት አሳልፈዉ ስለሰጡ ሰባ ሁለቱ ሕርድእት ቃል ኪዳን ገባሁልሽ፡፡ ዙፋኔ በተዘጋጀባት ሉዓላዊት ሰማይ የእግሬ መረገጫ በሆነችዉ ታህታዊት ምድር ቃል ኪዳን ገባሁልሽ ነደ ዕሳት በሆነ የዕሳት መጋረጃዬ ፍፁም ማደሪያዬ በሆነ በእርያም ሰማይ ቃል ኪዳን ገባሁልሽ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          156.12244897959184,
+          464.8809523809524,
+          2333.7053571428573,
+          1605.8035714285713
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በተሰቀልኩበት እፀመስቀል እጅና እግሬ በተቸነከረበት ቀኖት (ችንካር) በጦር",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          156.12244897959184,
+          1613.9880952380952,
+          2333.7053571428573,
+          1941.3690476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በተወጋዉ ጎኔ ቃል ኪዳን ገባሁልሽ፡፡ በእለተ አርብ በፈሰሰው ደሜ በህመሜና በሞቴ ሶስት መአልት ሶስት ሌሊት በከርስ መቃብር በአደርኩበት ቃል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          156.12244897959184,
+          1941.3690476190477,
+          2333.7053571428573,
+          2581.3988095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ኪዳን ገባሁልሽ፡፡ ከመቃብር ወጥቼ ሕዳምን ከነልጆቹ ከሲኦል ለማውጣት ወደ ሲኦል በመውረዴ በሶስተኛው ቀን ከሙታን ተለይቼ ሙስና መቃብርን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          156.12244897959184,
+          2597.7678571428573,
+          2333.7053571428573,
+          3234.5238095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "94a5909018c2ca77303e2c85537ef2cb413c77173cf7a855320aefab9467e552",
+      "source_sha256": "f6040b632e2a5c4f41710f5b4ee617c96285a8dce7c2e62e328274ca3c2b7837",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_203.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 90.662,
+      "created_at": "2026-10-24T01:30:26.579305+00:00",
+      "derivative_input": false
+    }
+  }
+}

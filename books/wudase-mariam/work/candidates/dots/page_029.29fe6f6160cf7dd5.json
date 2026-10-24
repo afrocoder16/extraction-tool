@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b03486bc8031c716",
+    "object": "chat.completion",
+    "created": 1792797745,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [426, 156, 1386, 236], \"category\": \"Page-header\", \"text\": \"፲ የማክሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [303, 275, 1552, 731], \"category\": \"Text\", \"text\": \"፬ ሙሴ በነደ እሳት ሳትቃጠል ያያት ዕፅ አንቺ ንሽ ይኸውም መጥቶ በማኅፀንሽ ያደረው የእግዚአብሔር ልጅ ነው የመለኮቱ እሳትነት ሥጋሽን አላቃጠለውም:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [293, 737, 1547, 1355], \"category\": \"Text\", \"text\": \"፭ ዘር ያልተዘራባት እርሻ አንቺ ነሽ የሕይወት ፍሬ ከአንቺ ወጣ:: ዮሴፍ የዋጃትና የከበረ ዕንቁን ያገኘባትሣጥን አንቺ ነሽ ይኸውም መድኃኒታችን ኢየሱስ ክርስቶስ ነው በማኅፀንሽ አደረ በዚህ ዓለምም ወለድሽው:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [287, 1376, 1541, 2016], \"category\": \"Text\", \"text\": \"፮ የመላእክት ደስታቸው የሆነ ጌታን የወለድሽ ሆይ ደስ ይበልሽ:: የነቢያት ዜናቸው ንጽሕት ሆይ ደስ ይበልሽ እግዚአብሔር ከአንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና ደስ ይበልሽ:: የዓለም የሰው ሁሉ ደስታ የሆነየመልአኩን ቃል ተቀብለሻልና ደስ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4862,
+      "completion_tokens": 699,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲ የማክሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        692.7933673469388,
+        255.35714285714286,
+        2254.0178571428573,
+        386.3095238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፬ ሙሴ በነደ እሳት ሳትቃጠል ያያት ዕፅ አንቺ ንሽ ይኸውም መጥቶ በማኅፀንሽ ያደረው የእግዚአብሔር ልጅ ነው የመለኮቱ እሳትነት ሥጋሽን አላቃጠለውም:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        492.76147959183675,
+        450.1488095238095,
+        2523.9795918367345,
+        1196.577380952381
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፭ ዘር ያልተዘራባት እርሻ አንቺ ነሽ የሕይወት ፍሬ ከአንቺ ወጣ:: ዮሴፍ የዋጃትና የከበረ ዕንቁን ያገኘባትሣጥን አንቺ ነሽ ይኸውም መድኃኒታችን ኢየሱስ ክርስቶስ ነው በማኅፀንሽ አደረ በዚህ ዓለምም ወለድሽው:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        476.4987244897959,
+        1206.3988095238096,
+        2515.848214285714,
+        2218.0059523809523
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፮ የመላእክት ደስታቸው የሆነ ጌታን የወለድሽ ሆይ ደስ ይበልሽ:: የነቢያት ዜናቸው ንጽሕት ሆይ ደስ ይበልሽ እግዚአብሔር ከአንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና ደስ ይበልሽ:: የዓለም የሰው ሁሉ ደስታ የሆነየመልአኩን ቃል ተቀብለሻልና ደስ",
+      "bbox": [
+        466.74107142857144,
+        2252.3809523809523,
+        2506.0905612244896,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 29,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ የማክሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          692.7933673469388,
+          255.35714285714286,
+          2254.0178571428573,
+          386.3095238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬ ሙሴ በነደ እሳት ሳትቃጠል ያያት ዕፅ አንቺ ንሽ ይኸውም መጥቶ በማኅፀንሽ ያደረው የእግዚአብሔር ልጅ ነው የመለኮቱ እሳትነት ሥጋሽን አላቃጠለውም:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          492.76147959183675,
+          450.1488095238095,
+          2523.9795918367345,
+          1196.577380952381
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ ዘር ያልተዘራባት እርሻ አንቺ ነሽ የሕይወት ፍሬ ከአንቺ ወጣ:: ዮሴፍ የዋጃትና የከበረ ዕንቁን ያገኘባትሣጥን አንቺ ነሽ ይኸውም መድኃኒታችን ኢየሱስ ክርስቶስ ነው በማኅፀንሽ አደረ በዚህ ዓለምም ወለድሽው:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          476.4987244897959,
+          1206.3988095238096,
+          2515.848214285714,
+          2218.0059523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ የመላእክት ደስታቸው የሆነ ጌታን የወለድሽ ሆይ ደስ ይበልሽ:: የነቢያት ዜናቸው ንጽሕት ሆይ ደስ ይበልሽ እግዚአብሔር ከአንቺ ጋር ቢሆን ባለሟልነትን አግኝተሻልና ደስ ይበልሽ:: የዓለም የሰው ሁሉ ደስታ የሆነየመልአኩን ቃል ተቀብለሻልና ደስ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          466.74107142857144,
+          2252.3809523809523,
+          2506.0905612244896,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "29fe6f6160cf7dd5349cc76df0d8c3d89045cf71c3c0043a532d056aaeaf7d67",
+      "source_sha256": "395aaab7e492e310700df31ce4e0744f6915a6f9b35cf49ba347a9aed52f54ef",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_029.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 91.305,
+      "created_at": "2026-10-23T23:23:55.010568+00:00",
+      "derivative_input": false
+    }
+  }
+}

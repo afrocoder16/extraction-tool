@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b96d63551ae7d06b",
+    "object": "chat.completion",
+    "created": 1792799185,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [185, 173, 1187, 244], \"category\": \"Page-header\", \"text\": \"፴፭ የሐሙስ ውዳሴ ማርያም\"}, {\"bbox\": [47, 302, 1373, 693], \"category\": \"Text\", \"text\": \"ኢየሱስ ክርስቶስ ከእርስዋ ተወልዷልና የይቅርታውን ብዛት መርምረን እንወቅ (እንገፈልግ) መጥቶ አድኖናልና፡፡ ቅድስት ሆይ ልምኝልን።\"}, {\"bbox\": [54, 711, 1376, 2016], \"category\": \"Text\", \"text\": \"፮ እግዚአብሔር የባሕርይህን ፍሬ በዙፋንህ አኖራለው ብሎ ለዳዊት በእውነት ማለ እይጸጸትም፡፡ ጸድቅ እርሱ ዳዊት ክርስቶስ በሥጋ ከእርሱ እንዲወለድ ቢመነ ጊዜ የእግዚአብሔርን ቃል ማደሪያ ፈልጎ ያገኝ ዘንድ ወደደ ይህንንም በታላቅ ትጋት ፈጸመ፡፡ ከዚህም በኋላ እነሆ በኤፍራታ ሰማነው ብሎ በመንፈስ ቅዱስ አሰምቶ ተናገረ፡፡ ይህቺውም አማኑኤል እኛን ለማዳን በሥጋ ይወልድባት ዘንድ የመረጣት የያዕቆብ አምላክ ማደሪያ ናት፡፡ ዳግመኛም ከነቢያት አንዱ ሚክያስ አንቺ የኤፍራታ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4775,
+      "completion_tokens": 612,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴፭ የሐሙስ ውዳሴ ማርያም",
+      "bbox": [
+        300.8609693877551,
+        283.1845238095238,
+        1930.3890306122448,
+        399.4047619047619
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ኢየሱስ ክርስቶስ ከእርስዋ ተወልዷልና የይቅርታውን ብዛት መርምረን እንወቅ (እንገፈልግ) መጥቶ አድኖናልና፡፡ ቅድስት ሆይ ልምኝልን።",
+      "bbox": [
+        76.43494897959184,
+        494.3452380952381,
+        2232.876275510204,
+        1134.375
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፮ እግዚአብሔር የባሕርይህን ፍሬ በዙፋንህ አኖራለው ብሎ ለዳዊት በእውነት ማለ እይጸጸትም፡፡ ጸድቅ እርሱ ዳዊት ክርስቶስ በሥጋ ከእርሱ እንዲወለድ ቢመነ ጊዜ የእግዚአብሔርን ቃል ማደሪያ ፈልጎ ያገኝ ዘንድ ወደደ ይህንንም በታላቅ ትጋት ፈጸመ፡፡ ከዚህም በኋላ እነሆ በኤፍራታ ሰማነው ብሎ በመንፈስ ቅዱስ አሰምቶ ተናገረ፡፡ ይህቺውም አማኑኤል እኛን ለማዳን በሥጋ ይወልድባት ዘንድ የመረጣት የያዕቆብ አምላክ ማደሪያ ናት፡፡ ዳግመኛም ከነቢያት አንዱ ሚክያስ አንቺ የኤፍራታ",
+      "bbox": [
+        87.8188775510204,
+        1163.8392857142858,
+        2237.7551020408164,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 63,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴፭ የሐሙስ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          300.8609693877551,
+          283.1845238095238,
+          1930.3890306122448,
+          399.4047619047619
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ኢየሱስ ክርስቶስ ከእርስዋ ተወልዷልና የይቅርታውን ብዛት መርምረን እንወቅ (እንገፈልግ) መጥቶ አድኖናልና፡፡ ቅድስት ሆይ ልምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          76.43494897959184,
+          494.3452380952381,
+          2232.876275510204,
+          1134.375
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ እግዚአብሔር የባሕርይህን ፍሬ በዙፋንህ አኖራለው ብሎ ለዳዊት በእውነት ማለ እይጸጸትም፡፡ ጸድቅ እርሱ ዳዊት ክርስቶስ በሥጋ ከእርሱ እንዲወለድ ቢመነ ጊዜ የእግዚአብሔርን ቃል ማደሪያ ፈልጎ ያገኝ ዘንድ ወደደ ይህንንም በታላቅ ትጋት ፈጸመ፡፡ ከዚህም በኋላ እነሆ በኤፍራታ ሰማነው ብሎ በመንፈስ ቅዱስ አሰምቶ ተናገረ፡፡ ይህቺውም አማኑኤል እኛን ለማዳን በሥጋ ይወልድባት ዘንድ የመረጣት የያዕቆብ አምላክ ማደሪያ ናት፡፡ ዳግመኛም ከነቢያት አንዱ ሚክያስ አንቺ የኤፍራታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          87.8188775510204,
+          1163.8392857142858,
+          2237.7551020408164,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "42cb28980e030abb994fd01f3abd20ab253db4c0b585a323455e131274f5e6e2",
+      "source_sha256": "98b2d50d2912209af98685f64a883c0e0417a0998415a84eb9a63c9421aa4ac9",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_063.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 81.361,
+      "created_at": "2026-10-23T23:47:45.523595+00:00",
+      "derivative_input": false
+    }
+  }
+}

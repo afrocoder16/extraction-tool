@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9961b7095859e350",
+    "object": "chat.completion",
+    "created": 1792804271,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [245, 197, 878, 276], \"category\": \"Page-header\", \"text\": \"፲፰ · የሰኔ ጎልጎታ\"}, {\"bbox\": [125, 346, 1445, 1971], \"category\": \"Text\", \"text\": \"ከባህርይ አባቴ ከአብ ከባህርይ ሕይወቴ\\nከመንፈስ ቅዱስ ፊት አቀርበዋለሁ፡፡\\nየታመመዉንም በስምሽ የጎበኘ ታሞ\\nበአልጋላይ በተኛ ጊዜ እጎበኘዋለሁ፡፡ ከዚህ\\nከሚያልፈው ዓለም ወደማያልፈው ዓለም\\nበሞት በተለየ ጊዜም መሪር የሆነ የሞት\\nጽዋን አላጠጣዉም፡፡ ወደ መንግስተ\\nሰማያት እስኪገባ ድረስ አልለየዉም\\nርኩሳን መናፍስትም በተከራከሩት ጊዜ\\nእኔ ጠባቂ እሆነዋለሁ በችግሩም ጊዜ\\nረዳት እሆነዋለሁ፡፡ ዳግመኛም በስምሽ\\nለታረዘ (ለተራቆተ) ላለበሰ በሰው እጅ\\nያልተፈተለና ያልተሰራ ኅብሩ ዕፁብ ድንቅ\\nየሆነ የሕይወት ልብስ አለብሰዋለሁ፡፡\\nየማይጠፋ የማይጠወልግ የሕይወት\\nአክሊልም አቀዳጀዋለሁ ስለአንቺም ብሎ\\nካንልቅ ጉርፅ ላታረፌ ላባል ሙዑረወ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4749,
+      "completion_tokens": 586,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፰ · የሰኔ ጎልጎታ",
+      "bbox": [
+        398.4375,
+        322.4702380952381,
+        1427.8698979591836,
+        451.7857142857143
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ከባህርይ አባቴ ከአብ ከባህርይ ሕይወቴ\nከመንፈስ ቅዱስ ፊት አቀርበዋለሁ፡፡\nየታመመዉንም በስምሽ የጎበኘ ታሞ\nበአልጋላይ በተኛ ጊዜ እጎበኘዋለሁ፡፡ ከዚህ\nከሚያልፈው ዓለም ወደማያልፈው ዓለም\nበሞት በተለየ ጊዜም መሪር የሆነ የሞት\nጽዋን አላጠጣዉም፡፡ ወደ መንግስተ\nሰማያት እስኪገባ ድረስ አልለየዉም\nርኩሳን መናፍስትም በተከራከሩት ጊዜ\nእኔ ጠባቂ እሆነዋለሁ በችግሩም ጊዜ\nረዳት እሆነዋለሁ፡፡ ዳግመኛም በስምሽ\nለታረዘ (ለተራቆተ) ላለበሰ በሰው እጅ\nያልተፈተለና ያልተሰራ ኅብሩ ዕፁብ ድንቅ\nየሆነ የሕይወት ልብስ አለብሰዋለሁ፡፡\nየማይጠፋ የማይጠወልግ የሕይወት\nአክሊልም አቀዳጀዋለሁ ስለአንቺም ብሎ\nካንልቅ ጉርፅ ላታረፌ ላባል ሙዑረወ",
+      "bbox": [
+        203.2844387755102,
+        566.3690476190476,
+        2349.968112244898,
+        3226.339285714286
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 181,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፰ · የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          398.4375,
+          322.4702380952381,
+          1427.8698979591836,
+          451.7857142857143
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከባህርይ አባቴ ከአብ ከባህርይ ሕይወቴ\nከመንፈስ ቅዱስ ፊት አቀርበዋለሁ፡፡\nየታመመዉንም በስምሽ የጎበኘ ታሞ\nበአልጋላይ በተኛ ጊዜ እጎበኘዋለሁ፡፡ ከዚህ\nከሚያልፈው ዓለም ወደማያልፈው ዓለም\nበሞት በተለየ ጊዜም መሪር የሆነ የሞት\nጽዋን አላጠጣዉም፡፡ ወደ መንግስተ\nሰማያት እስኪገባ ድረስ አልለየዉም\nርኩሳን መናፍስትም በተከራከሩት ጊዜ\nእኔ ጠባቂ እሆነዋለሁ በችግሩም ጊዜ\nረዳት እሆነዋለሁ፡፡ ዳግመኛም በስምሽ\nለታረዘ (ለተራቆተ) ላለበሰ በሰው እጅ\nያልተፈተለና ያልተሰራ ኅብሩ ዕፁብ ድንቅ\nየሆነ የሕይወት ልብስ አለብሰዋለሁ፡፡\nየማይጠፋ የማይጠወልግ የሕይወት\nአክሊልም አቀዳጀዋለሁ ስለአንቺም ብሎ\nካንልቅ ጉርፅ ላታረፌ ላባል ሙዑረወ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          203.2844387755102,
+          566.3690476190476,
+          2349.968112244898,
+          3226.339285714286
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "51e925b39bc77022ddf039a47807ceab29c0d1c1711ede1867d854c685465685",
+      "source_sha256": "cb9516bb10eac11ccb585cb2a9d740dc98225b81a22a2fa353b92e0daf130cad",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_181.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 78.723,
+      "created_at": "2026-10-24T01:12:28.385652+00:00",
+      "derivative_input": false
+    }
+  }
+}

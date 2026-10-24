@@ -1,0 +1,260 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-89bb5b1c5dac6a3d",
+    "object": "chat.completion",
+    "created": 1792800721,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [197, 114, 1082, 183], \"category\": \"Page-header\", \"text\": \"፱፱ የእሁድ ዉዳሴ ጸሎት\"}, {\"bbox\": [71, 237, 1356, 496], \"category\": \"Text\", \"text\": \"፲፩ ፣ ልመናዋ ክብሯ የልጇም ቸርነት ከልጇ ከወዳጇ ከ--------ጋር ለዘለዓለሙ ይኑር አሜን።\"}, {\"bbox\": [85, 596, 141, 644], \"category\": \"Picture\"}, {\"bbox\": [143, 584, 1285, 656], \"category\": \"Picture\"}, {\"bbox\": [1287, 596, 1347, 646], \"category\": \"Picture\"}, {\"bbox\": [387, 771, 895, 851], \"category\": \"Section-header\", \"text\": \"አንቀጸ ብርሃን\"}, {\"bbox\": [71, 957, 1356, 1333], \"category\": \"Text\", \"text\": \"፩ ኢትዮጵያዊው ቅዱስ ያሬድ የደረሰው የአምላክ እናት ምስጋና። ለእውነተኛ ፈራጅ ለአምላክ እናት ምስጋና አገልግሎት ይገባል።\"}, {\"bbox\": [66, 1447, 1356, 2016], \"category\": \"Text\", \"text\": \"፪. ቅድስት ሆይ ብፅዕት ነሽ የተመሰገንሽና የተባረክሽ ነሽ የከበርሽና ከፍ ከፍ ያልሽ ነሽ የብርሃን መውጫ የህይወት መሰላል አምላክን የወለድሽ እመቤታችን ድንግል ማሪያም ሆይ ፣ ከተለዩ የተለያሽ የመለከት ማደሪያ ነሽ ፤\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4813,
+      "completion_tokens": 650,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፱፱ የእሁድ ዉዳሴ ጸሎት",
+      "bbox": [
+        320.3762755102041,
+        186.60714285714286,
+        1759.6301020408164,
+        299.55357142857144
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፲፩ ፣ ልመናዋ ክብሯ የልጇም ቸርነት ከልጇ ከወዳጇ ከ--------ጋር ለዘለዓለሙ ይኑር አሜን።",
+      "bbox": [
+        115.46556122448979,
+        387.94642857142856,
+        2205.2295918367345,
+        811.9047619047619
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        138.23341836734693,
+        975.5952380952381,
+        229.3048469387755,
+        1054.1666666666667
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        232.55739795918367,
+        955.952380952381,
+        2089.764030612245,
+        1073.8095238095239
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        2093.016581632653,
+        975.5952380952381,
+        2190.593112244898,
+        1057.4404761904761
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Section-header",
+      "text": "አንቀጸ ብርሃን",
+      "bbox": [
+        629.3686224489796,
+        1262.0535714285713,
+        1455.516581632653,
+        1393.0059523809523
+      ]
+    },
+    {
+      "order": 6,
+      "category": "Text",
+      "text": "፩ ኢትዮጵያዊው ቅዱስ ያሬድ የደረሰው የአምላክ እናት ምስጋና። ለእውነተኛ ፈራጅ ለአምላክ እናት ምስጋና አገልግሎት ይገባል።",
+      "bbox": [
+        115.46556122448979,
+        1566.517857142857,
+        2205.2295918367345,
+        2181.9940476190477
+      ]
+    },
+    {
+      "order": 7,
+      "category": "Text",
+      "text": "፪. ቅድስት ሆይ ብፅዕት ነሽ የተመሰገንሽና የተባረክሽ ነሽ የከበርሽና ከፍ ከፍ ያልሽ ነሽ የብርሃን መውጫ የህይወት መሰላል አምላክን የወለድሽ እመቤታችን ድንግል ማሪያም ሆይ ፣ ከተለዩ የተለያሽ የመለከት ማደሪያ ነሽ ፤",
+      "bbox": [
+        107.33418367346938,
+        2368.6011904761904,
+        2205.2295918367345,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 99,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱፱ የእሁድ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          320.3762755102041,
+          186.60714285714286,
+          1759.6301020408164,
+          299.55357142857144
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፩ ፣ ልመናዋ ክብሯ የልጇም ቸርነት ከልጇ ከወዳጇ ከ--------ጋር ለዘለዓለሙ ይኑር አሜን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          115.46556122448979,
+          387.94642857142856,
+          2205.2295918367345,
+          811.9047619047619
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          629.3686224489796,
+          1262.0535714285713,
+          1455.516581632653,
+          1393.0059523809523
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ ኢትዮጵያዊው ቅዱስ ያሬድ የደረሰው የአምላክ እናት ምስጋና። ለእውነተኛ ፈራጅ ለአምላክ እናት ምስጋና አገልግሎት ይገባል።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          115.46556122448979,
+          1566.517857142857,
+          2205.2295918367345,
+          2181.9940476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪. ቅድስት ሆይ ብፅዕት ነሽ የተመሰገንሽና የተባረክሽ ነሽ የከበርሽና ከፍ ከፍ ያልሽ ነሽ የብርሃን መውጫ የህይወት መሰላል አምላክን የወለድሽ እመቤታችን ድንግል ማሪያም ሆይ ፣ ከተለዩ የተለያሽ የመለከት ማደሪያ ነሽ ፤",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          107.33418367346938,
+          2368.6011904761904,
+          2205.2295918367345,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      5,
+      6,
+      7
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "06902d3601282ec1ef717d987579edde8c63106abd313308d05844f5cc244d44",
+      "source_sha256": "05c6487a475d5e7e25d2d01da1443d614ed46ad416788b01a88d69386fb51b7e",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_099.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.912,
+      "created_at": "2026-10-24T00:13:25.321241+00:00",
+      "derivative_input": false
+    }
+  }
+}

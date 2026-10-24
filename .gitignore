@@ -7,6 +7,8 @@ books/*/work/*
 !books/*/work/review.json
 !books/*/work/page_stats.json
 !books/*/work/verification.json
+# Raw OCR candidates are small and are the provenance for adopted transcripts.
+!books/*/work/candidates/
 
 # Source PDFs are large binaries; track them with git-lfs or keep them out.
 books/*/source/*.pdf
@@ -17,6 +19,7 @@ __pycache__/
 node_modules/
 netlify-dist/
 .netlify/
+.local-runtime/
 
 # Legacy/generated output from the pre-book-aware pipeline.
 /output/

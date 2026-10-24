@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b84e2b564431cdf4",
+    "object": "chat.completion",
+    "created": 1792800458,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [296, 57, 1195, 145], \"category\": \"Page-header\", \"text\": \"፵፮ የእሁድ ዉዳሴ ጸሎት\"}, {\"bbox\": [174, 185, 1486, 556], \"category\": \"Text\", \"text\": \"ሰው የሆነው ቃል ኃጢአታችንን\\nየሚያስተሠርይልንና አበሳችንን\\nየሚደመስስልን ሆነ:: ቅድስት ሆይ\\nለምኝልን::\"}, {\"bbox\": [184, 611, 1495, 1064], \"category\": \"Text\", \"text\": \"፭ የተሠወረ መና ያለብሽ የንጹሕ\\nወርቅ መሶብ አንቺ ነሽ መናም ከሰማይ\\nየወረደውና ለዓለም ሁሉ ሕይወትን\\nየሚያድለው ኅብስት ነው:: ቅድስት ሆይ\\nለምኝልን::\"}, {\"bbox\": [196, 1118, 1515, 2016], \"category\": \"Text\", \"text\": \"፮ ሁል ጊዜ ብርሃንነት ያለውን ፋና\\nየተሸከምሽ የወርቅ መቅረዝ አንቺ ነሽ\\nይኸውም ፋና የዓለም ብርሃን ነው::\\nጥንት ከሌለው ብርሃን የተገኘ ብርሃን\\nነው:: ከእውነተኛ አምላክ የተገኘ\\nእውነተኛ አምላክ ነው:: ያለ መለወጥ\\nከአንቺ ሰው የሆነው ነው:: በመምጣቱም\\n(ሰው በመሆኑም) በጨለማና በሞት ጥላ\\nውስጥ ለምንኖር ለእኛ አበራልን በልዩ\\nየጥበቡ ምሥጢር በሥጋዌ የልቦናችንን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4823,
+      "completion_tokens": 660,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፵፮ የእሁድ ዉዳሴ ጸሎት",
+      "bbox": [
+        481.3775510204082,
+        93.30357142857143,
+        1943.3992346938776,
+        237.35119047619048
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ሰው የሆነው ቃል ኃጢአታችንን\nየሚያስተሠርይልንና አበሳችንን\nየሚደመስስልን ሆነ:: ቅድስት ሆይ\nለምኝልን::",
+      "bbox": [
+        282.9719387755102,
+        302.82738095238096,
+        2416.6454081632655,
+        910.1190476190476
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፭ የተሠወረ መና ያለብሽ የንጹሕ\nወርቅ መሶብ አንቺ ነሽ መናም ከሰማይ\nየወረደውና ለዓለም ሁሉ ሕይወትን\nየሚያድለው ኅብስት ነው:: ቅድስት ሆይ\nለምኝልን::",
+      "bbox": [
+        299.234693877551,
+        1000.1488095238095,
+        2431.281887755102,
+        1741.6666666666667
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፮ ሁል ጊዜ ብርሃንነት ያለውን ፋና\nየተሸከምሽ የወርቅ መቅረዝ አንቺ ነሽ\nይኸውም ፋና የዓለም ብርሃን ነው::\nጥንት ከሌለው ብርሃን የተገኘ ብርሃን\nነው:: ከእውነተኛ አምላክ የተገኘ\nእውነተኛ አምላክ ነው:: ያለ መለወጥ\nከአንቺ ሰው የሆነው ነው:: በመምጣቱም\n(ሰው በመሆኑም) በጨለማና በሞት ጥላ\nውስጥ ለምንኖር ለእኛ አበራልን በልዩ\nየጥበቡ ምሥጢር በሥጋዌ የልቦናችንን",
+      "bbox": [
+        318.75,
+        1830.0595238095239,
+        2463.8073979591836,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 93,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፵፮ የእሁድ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          481.3775510204082,
+          93.30357142857143,
+          1943.3992346938776,
+          237.35119047619048
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሰው የሆነው ቃል ኃጢአታችንን\nየሚያስተሠርይልንና አበሳችንን\nየሚደመስስልን ሆነ:: ቅድስት ሆይ\nለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          282.9719387755102,
+          302.82738095238096,
+          2416.6454081632655,
+          910.1190476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ የተሠወረ መና ያለብሽ የንጹሕ\nወርቅ መሶብ አንቺ ነሽ መናም ከሰማይ\nየወረደውና ለዓለም ሁሉ ሕይወትን\nየሚያድለው ኅብስት ነው:: ቅድስት ሆይ\nለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          299.234693877551,
+          1000.1488095238095,
+          2431.281887755102,
+          1741.6666666666667
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ ሁል ጊዜ ብርሃንነት ያለውን ፋና\nየተሸከምሽ የወርቅ መቅረዝ አንቺ ነሽ\nይኸውም ፋና የዓለም ብርሃን ነው::\nጥንት ከሌለው ብርሃን የተገኘ ብርሃን\nነው:: ከእውነተኛ አምላክ የተገኘ\nእውነተኛ አምላክ ነው:: ያለ መለወጥ\nከአንቺ ሰው የሆነው ነው:: በመምጣቱም\n(ሰው በመሆኑም) በጨለማና በሞት ጥላ\nውስጥ ለምንኖር ለእኛ አበራልን በልዩ\nየጥበቡ ምሥጢር በሥጋዌ የልቦናችንን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          318.75,
+          1830.0595238095239,
+          2463.8073979591836,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f3dcba3b263bd2e313a06e1fbd1f586a5e3181e644aecca00d864539999cc48d",
+      "source_sha256": "cd2333cd463629fbe51b66b75b73838bb51509a54bbd822ed2316cd3433394f1",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_093.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 87.076,
+      "created_at": "2026-10-24T00:09:03.696398+00:00",
+      "derivative_input": false
+    }
+  }
+}

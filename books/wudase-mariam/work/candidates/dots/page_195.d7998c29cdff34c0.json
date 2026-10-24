@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a21dfcf761779673",
+    "object": "chat.completion",
+    "created": 1792804933,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [199, 165, 833, 243], \"category\": \"Page-header\", \"text\": \"፳፭ የሰኔ ጎልጎታ\"}, {\"bbox\": [77, 294, 1393, 681], \"category\": \"Text\", \"text\": \"ምትወጣበት ሰዓት ደብረ መቅደሴን ሕወርሰዋለሁ፤ ከባህርይ አባቴ ከአብ ክባህርይ ሕይወቴ ከመንፈስ ቅዱስም ዘንድ አቀርበዋለሁ፡፡\"}, {\"bbox\": [77, 687, 1405, 1965], \"category\": \"Text\", \"text\": \"ይህች መጽሀፍ ካለችበት ቦታ ይቅርታ ብርነት ምህረት ጥጋብ ተድላ ደስታ እስከ ዘለዓለም ድረስ ይሆናል በእውነት· �ይህች ጸሎት በተደገመችበትና በተነበበችበት ቦታ ንዳድ እንቅጥቅጥ በያይነቱ በሽታ ሁሉ ሕይቀርቡም፡፡ ይህቺ የጸሎት መጽሐፍ በንጽሁ ለያዛት እሱን ልጆቹን ገንዘቡን ሀብቱን እባርካለሁ፡፡ በዚች መጽሀፍ አምኖ በንጹህ ልቦና በቅን ሃይማኖት ያለ ጥርጥር በማየ ጸሎቱ የተጠመቀ የጠጣ መንገዱን የጠረገ በቤቱ መድረክ ላይ የረጨ እኔ ጸሎቱን እሰማለሁ፤ እንደ ልቡም ፈቃድ አደርግለቷለሁ፤ ሚካኤልና\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4778,
+      "completion_tokens": 615,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፭ የሰኔ ጎልጎታ",
+      "bbox": [
+        323.62882653061223,
+        270.0892857142857,
+        1354.6875,
+        397.76785714285717
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ምትወጣበት ሰዓት ደብረ መቅደሴን ሕወርሰዋለሁ፤ ከባህርይ አባቴ ከአብ ክባህርይ ሕይወቴ ከመንፈስ ቅዱስም ዘንድ አቀርበዋለሁ፡፡",
+      "bbox": [
+        125.22321428571429,
+        481.25,
+        2265.401785714286,
+        1114.732142857143
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ይህች መጽሀፍ ካለችበት ቦታ ይቅርታ ብርነት ምህረት ጥጋብ ተድላ ደስታ እስከ ዘለዓለም ድረስ ይሆናል በእውነት· �ይህች ጸሎት በተደገመችበትና በተነበበችበት ቦታ ንዳድ እንቅጥቅጥ በያይነቱ በሽታ ሁሉ ሕይቀርቡም፡፡ ይህቺ የጸሎት መጽሐፍ በንጽሁ ለያዛት እሱን ልጆቹን ገንዘቡን ሀብቱን እባርካለሁ፡፡ በዚች መጽሀፍ አምኖ በንጹህ ልቦና በቅን ሃይማኖት ያለ ጥርጥር በማየ ጸሎቱ የተጠመቀ የጠጣ መንገዱን የጠረገ በቤቱ መድረክ ላይ የረጨ እኔ ጸሎቱን እሰማለሁ፤ እንደ ልቡም ፈቃድ አደርግለቷለሁ፤ ሚካኤልና",
+      "bbox": [
+        125.22321428571429,
+        1124.5535714285713,
+        2284.9170918367345,
+        3216.5178571428573
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 195,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፭ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          323.62882653061223,
+          270.0892857142857,
+          1354.6875,
+          397.76785714285717
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ምትወጣበት ሰዓት ደብረ መቅደሴን ሕወርሰዋለሁ፤ ከባህርይ አባቴ ከአብ ክባህርይ ሕይወቴ ከመንፈስ ቅዱስም ዘንድ አቀርበዋለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          125.22321428571429,
+          481.25,
+          2265.401785714286,
+          1114.732142857143
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ይህች መጽሀፍ ካለችበት ቦታ ይቅርታ ብርነት ምህረት ጥጋብ ተድላ ደስታ እስከ ዘለዓለም ድረስ ይሆናል በእውነት· �ይህች ጸሎት በተደገመችበትና በተነበበችበት ቦታ ንዳድ እንቅጥቅጥ በያይነቱ በሽታ ሁሉ ሕይቀርቡም፡፡ ይህቺ የጸሎት መጽሐፍ በንጽሁ ለያዛት እሱን ልጆቹን ገንዘቡን ሀብቱን እባርካለሁ፡፡ በዚች መጽሀፍ አምኖ በንጹህ ልቦና በቅን ሃይማኖት ያለ ጥርጥር በማየ ጸሎቱ የተጠመቀ የጠጣ መንገዱን የጠረገ በቤቱ መድረክ ላይ የረጨ እኔ ጸሎቱን እሰማለሁ፤ እንደ ልቡም ፈቃድ አደርግለቷለሁ፤ ሚካኤልና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          125.22321428571429,
+          1124.5535714285713,
+          2284.9170918367345,
+          3216.5178571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d7998c29cdff34c06b499171958485be3c6b968f7714ed6f23307e93a556bef8",
+      "source_sha256": "b2fd921b8b7d2090375a0b18c3b4d3e5d8d3dd465cd8131df61ff8da81974d42",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_195.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.082,
+      "created_at": "2026-10-24T01:23:33.819861+00:00",
+      "derivative_input": false
+    }
+  }
+}

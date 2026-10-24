@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8207a4d6b92d6afa",
+    "object": "chat.completion",
+    "created": 1792802383,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [236, 196, 1057, 266], \"category\": \"Page-header\", \"text\": \"፳፱ ይዌድስዋ መላእክት\"}, {\"bbox\": [107, 317, 1405, 1306], \"category\": \"Text\", \"text\": \"አላት፡ መንፈስ ቅዱስ ይጠብቅሻል\\nየልዑል ኃይልም ያድርብሻል ይህ\\nየሚወለደው ከሦስቱ ቅዱስ አንዱ\\nቅዱስ ነው እነሆ ኤልሣቤጥ ካንቺ ወገን\\nየምትሆን ከሸመገለች ካረጀች በኋላ\\nፀነሰች ልጅም አገኘች እነሆ ይህ ስድስት\\nወር ሆነ መካን ሲሏት ለእግዚአብሔር\\nየሚሳነው ነገር የለምና፡፡ ማርያምም\\nመልአኩን እንደ ቃልህ ይደረግልኝ እኔ\\nለእግዚአብሔር ባሪያው ነኝ አለቸው፡፡\"}, {\"bbox\": [107, 1421, 1405, 2007], \"category\": \"Text\", \"text\": \"፫. መልአኩ ገብርኤል ማርያም\\nድንግል ላንቺ ክብር ምስጋና ይገባሻል\\nአላት፡፡ ወላዲተ አምላክ ምስጋና\\nይገባሻል፣ ቅድስት ነሽና ምስጋና\\nይገባሻል፣ የመለኮት ማደሪያ ነሽና\\nምስጋና ይገባሻል፣ የተሸለምሽ ድንኳን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4751,
+      "completion_tokens": 588,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፱ ይዌድስዋ መላእክት",
+      "bbox": [
+        383.80102040816325,
+        320.8333333333333,
+        1718.9732142857142,
+        435.4166666666667
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "አላት፡ መንፈስ ቅዱስ ይጠብቅሻል\nየልዑል ኃይልም ያድርብሻል ይህ\nየሚወለደው ከሦስቱ ቅዱስ አንዱ\nቅዱስ ነው እነሆ ኤልሣቤጥ ካንቺ ወገን\nየምትሆን ከሸመገለች ካረጀች በኋላ\nፀነሰች ልጅም አገኘች እነሆ ይህ ስድስት\nወር ሆነ መካን ሲሏት ለእግዚአብሔር\nየሚሳነው ነገር የለምና፡፡ ማርያምም\nመልአኩን እንደ ቃልህ ይደረግልኝ እኔ\nለእግዚአብሔር ባሪያው ነኝ አለቸው፡፡",
+      "bbox": [
+        174.01147959183675,
+        518.8988095238095,
+        2284.9170918367345,
+        2137.7976190476193
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፫. መልአኩ ገብርኤል ማርያም\nድንግል ላንቺ ክብር ምስጋና ይገባሻል\nአላት፡፡ ወላዲተ አምላክ ምስጋና\nይገባሻል፣ ቅድስት ነሽና ምስጋና\nይገባሻል፣ የመለኮት ማደሪያ ነሽና\nምስጋና ይገባሻል፣ የተሸለምሽ ድንኳን",
+      "bbox": [
+        174.01147959183675,
+        2326.0416666666665,
+        2284.9170918367345,
+        3285.2678571428573
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 139,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፱ ይዌድስዋ መላእክት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          383.80102040816325,
+          320.8333333333333,
+          1718.9732142857142,
+          435.4166666666667
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አላት፡ መንፈስ ቅዱስ ይጠብቅሻል\nየልዑል ኃይልም ያድርብሻል ይህ\nየሚወለደው ከሦስቱ ቅዱስ አንዱ\nቅዱስ ነው እነሆ ኤልሣቤጥ ካንቺ ወገን\nየምትሆን ከሸመገለች ካረጀች በኋላ\nፀነሰች ልጅም አገኘች እነሆ ይህ ስድስት\nወር ሆነ መካን ሲሏት ለእግዚአብሔር\nየሚሳነው ነገር የለምና፡፡ ማርያምም\nመልአኩን እንደ ቃልህ ይደረግልኝ እኔ\nለእግዚአብሔር ባሪያው ነኝ አለቸው፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          174.01147959183675,
+          518.8988095238095,
+          2284.9170918367345,
+          2137.7976190476193
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫. መልአኩ ገብርኤል ማርያም\nድንግል ላንቺ ክብር ምስጋና ይገባሻል\nአላት፡፡ ወላዲተ አምላክ ምስጋና\nይገባሻል፣ ቅድስት ነሽና ምስጋና\nይገባሻል፣ የመለኮት ማደሪያ ነሽና\nምስጋና ይገባሻል፣ የተሸለምሽ ድንኳን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          174.01147959183675,
+          2326.0416666666665,
+          2284.9170918367345,
+          3285.2678571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "cf305b41889d79325dba4e740f3ce69b357eb287d36389e5ec4f9390361d9cb2",
+      "source_sha256": "0f183cdd42a74e007f328fb0c90a9c9e3918a80d172ac867f8bbe0c352473032",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_139.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 78.659,
+      "created_at": "2026-10-24T00:40:59.971241+00:00",
+      "derivative_input": false
+    }
+  }
+}

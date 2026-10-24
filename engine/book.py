@@ -10,7 +10,7 @@ Layout of a book folder:
     books/<slug>/
       book.json          config (this module reads it)
       source/*.pdf       the scanned original
-      work/              everything derived; safe to delete and regenerate
+      work/              renders, extraction candidates, and irreplaceable review edits
         page_images/     rendered pages          <- render.py
         red_mask/        red ink, binary         <- color_split.py
         black_layer/     text with red removed   <- color_split.py
@@ -33,7 +33,7 @@ from pathlib import Path
 from typing import Any
 
 CONFIG_NAME = "book.json"
-TRANSCRIPT_NAME_RE = re.compile(r"^page_(\d{3})\.json$")
+TRANSCRIPT_NAME_RE = re.compile(r"^page_(\d{3,})\.json$")
 
 # Derived directories, created on demand. Named here so no stage has to guess.
 WORK_DIRS = (
@@ -44,6 +44,7 @@ WORK_DIRS = (
     "debug",
     "layout",
     "transcripts",
+    "candidates",
 )
 
 
@@ -90,6 +91,10 @@ class Book:
     @property
     def effort(self) -> str:
         return self.config.get("ocr", {}).get("effort", "high")
+
+    @property
+    def provider(self) -> str:
+        return self.config.get("ocr", {}).get("provider", "dots")
 
     # --- paths ---
 

@@ -1,0 +1,2 @@
+# Lightweight HTTP client for a separately hosted dots.mocr/dots.ocr model.
+Pillow==12.1.1

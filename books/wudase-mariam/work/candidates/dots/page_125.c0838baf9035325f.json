@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-af9781e1ba4caff0",
+    "object": "chat.completion",
+    "created": 1792801827,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [236, 175, 905, 241], \"category\": \"Page-header\", \"text\": \"፰፪ አንቀጸ ብርሃን\"}, {\"bbox\": [116, 297, 1405, 868], \"category\": \"Text\", \"text\": \"ከመንፈስ ቅዱስ ተፈቅዶልሻል፤ ለሰዎች ልጆች የዘላለም ህይወት ድልድይ ትሆኝ ዘንድ፡፡ የአለም ሁሉ መድኃኒት ሆይ ለምእመናን ወገኖችሽ መድኃኒታቸው ልትባይ ይገባሻል፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡\"}, {\"bbox\": [116, 978, 1405, 2016], \"category\": \"Text\", \"text\": \"፲፫. አንቺ የተባረክሽ ዕፅ ነሽ የሕይወትና የደሕንነት ዕፅ ነሽ፤ በገነት ዉስጥ ባለው ዕፀ ህይወት ፈንታ በዚህ ዓለም የሕይወት ዕፅ ሆንሽ ፍሬሽም የሕይወት ፍሬ ነው፡፡ በሚወዱት (በሚያውቁት) በዓለም ሰዎች ዘንድ የሚሸት መልካም መዓዛ ያለው አበባ ካንቺ ታዮ፡ የኸውም ከርቤ፤ ሚዓ፤ ስልኪ የተባሉ ሽቶዎች በልብሰችሽ ላይ አሉ ብሎ በበገና ነብዩ ዳዊት ትንቢት የተናገረልሽ ነው፡፡ አባትሽ ሰሎምንም የፎንጫሽ መኔዛ እንያነጭ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4812,
+      "completion_tokens": 649,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፰፪ አንቀጸ ብርሃን",
+      "bbox": [
+        383.80102040816325,
+        286.4583333333333,
+        1471.779336734694,
+        394.4940476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ከመንፈስ ቅዱስ ተፈቅዶልሻል፤ ለሰዎች ልጆች የዘላለም ህይወት ድልድይ ትሆኝ ዘንድ፡፡ የአለም ሁሉ መድኃኒት ሆይ ለምእመናን ወገኖችሽ መድኃኒታቸው ልትባይ ይገባሻል፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+      "bbox": [
+        188.64795918367346,
+        486.1607142857143,
+        2284.9170918367345,
+        1420.8333333333333
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፫. አንቺ የተባረክሽ ዕፅ ነሽ የሕይወትና የደሕንነት ዕፅ ነሽ፤ በገነት ዉስጥ ባለው ዕፀ ህይወት ፈንታ በዚህ ዓለም የሕይወት ዕፅ ሆንሽ ፍሬሽም የሕይወት ፍሬ ነው፡፡ በሚወዱት (በሚያውቁት) በዓለም ሰዎች ዘንድ የሚሸት መልካም መዓዛ ያለው አበባ ካንቺ ታዮ፡ የኸውም ከርቤ፤ ሚዓ፤ ስልኪ የተባሉ ሽቶዎች በልብሰችሽ ላይ አሉ ብሎ በበገና ነብዩ ዳዊት ትንቢት የተናገረልሽ ነው፡፡ አባትሽ ሰሎምንም የፎንጫሽ መኔዛ እንያነጭ",
+      "bbox": [
+        188.64795918367346,
+        1600.892857142857,
+        2284.9170918367345,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 125,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፰፪ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          383.80102040816325,
+          286.4583333333333,
+          1471.779336734694,
+          394.4940476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከመንፈስ ቅዱስ ተፈቅዶልሻል፤ ለሰዎች ልጆች የዘላለም ህይወት ድልድይ ትሆኝ ዘንድ፡፡ የአለም ሁሉ መድኃኒት ሆይ ለምእመናን ወገኖችሽ መድኃኒታቸው ልትባይ ይገባሻል፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          188.64795918367346,
+          486.1607142857143,
+          2284.9170918367345,
+          1420.8333333333333
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፫. አንቺ የተባረክሽ ዕፅ ነሽ የሕይወትና የደሕንነት ዕፅ ነሽ፤ በገነት ዉስጥ ባለው ዕፀ ህይወት ፈንታ በዚህ ዓለም የሕይወት ዕፅ ሆንሽ ፍሬሽም የሕይወት ፍሬ ነው፡፡ በሚወዱት (በሚያውቁት) በዓለም ሰዎች ዘንድ የሚሸት መልካም መዓዛ ያለው አበባ ካንቺ ታዮ፡ የኸውም ከርቤ፤ ሚዓ፤ ስልኪ የተባሉ ሽቶዎች በልብሰችሽ ላይ አሉ ብሎ በበገና ነብዩ ዳዊት ትንቢት የተናገረልሽ ነው፡፡ አባትሽ ሰሎምንም የፎንጫሽ መኔዛ እንያነጭ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          188.64795918367346,
+          1600.892857142857,
+          2284.9170918367345,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "c0838baf9035325f00eb2ccb73116cbd87cfcb2a800176ddf5ed68bc3233e3be",
+      "source_sha256": "fc174c76fee26124c6197fa1cd06d1c24cad4eb173045c29acf8628a28d3e418",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_125.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.776,
+      "created_at": "2026-10-24T00:31:51.377626+00:00",
+      "derivative_input": false
+    }
+  }
+}

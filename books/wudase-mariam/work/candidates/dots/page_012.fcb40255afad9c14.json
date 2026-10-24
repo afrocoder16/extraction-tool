@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-900472359f698f3d",
+    "object": "chat.completion",
+    "created": 1792797096,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [48, 46, 1334, 131], \"category\": \"Title\", \"text\": \"ኢየሱስ ክርስቶስ ለተሰቀለበት መስቀልም\"}, {\"bbox\": [534, 212, 1156, 275], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4269,
+      "completion_tokens": 106,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Title",
+      "text": "ኢየሱስ ክርስቶስ ለተሰቀለበት መስቀልም",
+      "bbox": [
+        78.06122448979592,
+        75.29761904761905,
+        2169.451530612245,
+        214.4345238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        868.4311224489796,
+        347.0238095238095,
+        1879.9744897959183,
+        450.1488095238095
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 12,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ኢየሱስ ክርስቶስ ለተሰቀለበት መስቀልም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          78.06122448979592,
+          75.29761904761905,
+          2169.451530612245,
+          214.4345238095238
+        ],
+        "layout_category": "Title",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          868.4311224489796,
+          347.0238095238095,
+          1879.9744897959183,
+          450.1488095238095
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "fcb40255afad9c14492a7679035fa946b06a868448c1c30f4ccf62d7dbf0515d",
+      "source_sha256": "6c52302673f8d5490cd238aadc669dabefb1418a8f451bcd336abb16b0f1bc88",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_012.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 22.747,
+      "created_at": "2026-10-23T23:11:58.876971+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a358d88e75d9bbf1",
+    "object": "chat.completion",
+    "created": 1792803283,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [274, 198, 903, 272], \"category\": \"Page-header\", \"text\": \"፲ የሰኔ ጎልጎታ\"}, {\"bbox\": [156, 325, 1467, 705], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ተልእኳቸዉን\\nለማፋጠን በሚፋጠኑ ዘጠና ዘጠኙ ነገደ\\nመላእክት ቃል ኪዳን ትገባልኝ ዘንድ\\nእለምንሃለሁ፡፡\"}, {\"bbox\": [156, 714, 1471, 1195], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ እልፍ ሆነው በፊትህ\\nበሚቆሙ እልፍ ሆነው ከኃላህ በሚቆሙ\\nእልፍ ሆነው በቀኝህ በሚቆሙ እልፍ\\nሆነው በግራህ በሚቆሙ መላእክት ቃል\\nኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [162, 1212, 1474, 1589], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ በመንበርህ ዙሪያ\\nበሚቆሙ እልፍ አእላፍት ትጉሃን\\nመላእክት ቃል ኪዳን ትገባልኝ ዘንድ\\nእማልድሃለሁ፡፡\"}, {\"bbox\": [166, 1607, 1481, 1983], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ በሰማይና በምድር\\nስፋታቸው በደመናም ውስጥ በሚመላለሱ\\nረቂቃን መላእክት ቃል ኪዳን ትገባልኝ\\nዘንድ እማልድሃለሁ፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4798,
+      "completion_tokens": 635,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲ የሰኔ ጎልጎታ",
+      "bbox": [
+        445.5994897959184,
+        324.10714285714283,
+        1468.5267857142858,
+        445.23809523809524
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ተልእኳቸዉን\nለማፋጠን በሚፋጠኑ ዘጠና ዘጠኙ ነገደ\nመላእክት ቃል ኪዳን ትገባልኝ ዘንድ\nእለምንሃለሁ፡፡",
+      "bbox": [
+        253.69897959183675,
+        531.9940476190476,
+        2385.746173469388,
+        1154.017857142857
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ እልፍ ሆነው በፊትህ\nበሚቆሙ እልፍ ሆነው ከኃላህ በሚቆሙ\nእልፍ ሆነው በቀኝህ በሚቆሙ እልፍ\nሆነው በግራህ በሚቆሙ መላእክት ቃል\nኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        253.69897959183675,
+        1168.75,
+        2392.251275510204,
+        1956.1011904761904
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ በመንበርህ ዙሪያ\nበሚቆሙ እልፍ አእላፍት ትጉሃን\nመላእክት ቃል ኪዳን ትገባልኝ ዘንድ\nእማልድሃለሁ፡፡",
+      "bbox": [
+        263.4566326530612,
+        1983.9285714285713,
+        2397.1301020408164,
+        2601.0416666666665
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ በሰማይና በምድር\nስፋታቸው በደመናም ውስጥ በሚመላለሱ\nረቂቃን መላእክት ቃል ኪዳን ትገባልኝ\nዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        269.96173469387753,
+        2630.5059523809523,
+        2408.514030612245,
+        3245.9821428571427
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 161,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          445.5994897959184,
+          324.10714285714283,
+          1468.5267857142858,
+          445.23809523809524
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ተልእኳቸዉን\nለማፋጠን በሚፋጠኑ ዘጠና ዘጠኙ ነገደ\nመላእክት ቃል ኪዳን ትገባልኝ ዘንድ\nእለምንሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          253.69897959183675,
+          531.9940476190476,
+          2385.746173469388,
+          1154.017857142857
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ እልፍ ሆነው በፊትህ\nበሚቆሙ እልፍ ሆነው ከኃላህ በሚቆሙ\nእልፍ ሆነው በቀኝህ በሚቆሙ እልፍ\nሆነው በግራህ በሚቆሙ መላእክት ቃል\nኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          253.69897959183675,
+          1168.75,
+          2392.251275510204,
+          1956.1011904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ በመንበርህ ዙሪያ\nበሚቆሙ እልፍ አእላፍት ትጉሃን\nመላእክት ቃል ኪዳን ትገባልኝ ዘንድ\nእማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          263.4566326530612,
+          1983.9285714285713,
+          2397.1301020408164,
+          2601.0416666666665
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ በሰማይና በምድር\nስፋታቸው በደመናም ውስጥ በሚመላለሱ\nረቂቃን መላእክት ቃል ኪዳን ትገባልኝ\nዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          269.96173469387753,
+          2630.5059523809523,
+          2408.514030612245,
+          3245.9821428571427
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "74dd26f32302b079b2544f154e099ca4fe4ad62061302a371511a035a434f066",
+      "source_sha256": "ac33bc51f3730b8dc742b0d9d80279207b6ad50c05ef11f9d47d92ddb268b709",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_161.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.266,
+      "created_at": "2026-10-24T00:56:05.620440+00:00",
+      "derivative_input": false
+    }
+  }
+}

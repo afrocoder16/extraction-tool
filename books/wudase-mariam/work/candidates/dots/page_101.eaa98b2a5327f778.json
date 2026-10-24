@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a93c1af551fab2ca",
+    "object": "chat.completion",
+    "created": 1792800807,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [298, 135, 985, 213], \"category\": \"Page-header\", \"text\": \"፶ አንቀጸ ብርሃን\"}, {\"bbox\": [176, 265, 1505, 1365], \"category\": \"Text\", \"text\": \"ከፍጥረት ሁሉ ይልቅ የተከበርሽ ሆይ፤\\nአብ የወደደሽ ወልድ ያደረብሽ መንፈስ\\nቅዱስ ያረፈብሽ (የጸለለብሽ) ተባልሽ፡፡\\nበምድር ላይ ከፍተኛ አርያምን የሆንሽ\\nከሰማያት በላይ ያለ የአርያም የልዑል\\nስፍራ ምትክ አንቺ ነሽ፡፡ ቅዱሳን ነቢያት\\nካህናት ነገስታች ያንቺ ምሳሌ አድርገው\\nበውስጧ የኪዳን የሕግ ጽላት ያለባት\\nቅድስት' ቅዱሳን ከተለዩ የተለየችውን\\nሰሩ ቅድስት ሆይ፤ ልጅሽ ይቅርታውን\\nያድለን ዘንድ ለምኝልን፡፡\"}, {\"bbox\": [192, 1385, 1505, 1795], \"category\": \"Text\", \"text\": \"፫. የአምላክ ልጅ ካንቺ ሰው ስለመሆኑ\\nስላንቺም ከምድር ወደ አርያም ወደ\\nመንግስተ ሰማያት የቀረብን ሆን፤\\nበአንቺና በልጅሽ ስም የቀረብን ሆን፡፡\"}, {\"bbox\": [187, 1792, 1505, 2004], \"category\": \"Text\", \"text\": \"፬. አሥሩ ቃላት በጣቶቹ የተፃፉ\\nየፍጥረት ሁሉ ጌታ ያዉም የአምላክ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4810,
+      "completion_tokens": 647,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፶ አንቀጸ ብርሃን",
+      "bbox": [
+        484.6301020408163,
+        220.98214285714286,
+        1601.8813775510205,
+        348.6607142857143
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ከፍጥረት ሁሉ ይልቅ የተከበርሽ ሆይ፤\nአብ የወደደሽ ወልድ ያደረብሽ መንፈስ\nቅዱስ ያረፈብሽ (የጸለለብሽ) ተባልሽ፡፡\nበምድር ላይ ከፍተኛ አርያምን የሆንሽ\nከሰማያት በላይ ያለ የአርያም የልዑል\nስፍራ ምትክ አንቺ ነሽ፡፡ ቅዱሳን ነቢያት\nካህናት ነገስታች ያንቺ ምሳሌ አድርገው\nበውስጧ የኪዳን የሕግ ጽላት ያለባት\nቅድስት' ቅዱሳን ከተለዩ የተለየችውን\nሰሩ ቅድስት ሆይ፤ ልጅሽ ይቅርታውን\nያድለን ዘንድ ለምኝልን፡፡",
+      "bbox": [
+        286.2244897959184,
+        433.7797619047619,
+        2447.5446428571427,
+        2234.375
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፫. የአምላክ ልጅ ካንቺ ሰው ስለመሆኑ\nስላንቺም ከምድር ወደ አርያም ወደ\nመንግስተ ሰማያት የቀረብን ሆን፤\nበአንቺና በልጅሽ ስም የቀረብን ሆን፡፡",
+      "bbox": [
+        312.2448979591837,
+        2267.1130952380954,
+        2447.5446428571427,
+        2938.2440476190477
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፬. አሥሩ ቃላት በጣቶቹ የተፃፉ\nየፍጥረት ሁሉ ጌታ ያዉም የአምላክ",
+      "bbox": [
+        304.11352040816325,
+        2933.3333333333335,
+        2447.5446428571427,
+        3280.3571428571427
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 101,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፶ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          484.6301020408163,
+          220.98214285714286,
+          1601.8813775510205,
+          348.6607142857143
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከፍጥረት ሁሉ ይልቅ የተከበርሽ ሆይ፤\nአብ የወደደሽ ወልድ ያደረብሽ መንፈስ\nቅዱስ ያረፈብሽ (የጸለለብሽ) ተባልሽ፡፡\nበምድር ላይ ከፍተኛ አርያምን የሆንሽ\nከሰማያት በላይ ያለ የአርያም የልዑል\nስፍራ ምትክ አንቺ ነሽ፡፡ ቅዱሳን ነቢያት\nካህናት ነገስታች ያንቺ ምሳሌ አድርገው\nበውስጧ የኪዳን የሕግ ጽላት ያለባት\nቅድስት' ቅዱሳን ከተለዩ የተለየችውን\nሰሩ ቅድስት ሆይ፤ ልጅሽ ይቅርታውን\nያድለን ዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          286.2244897959184,
+          433.7797619047619,
+          2447.5446428571427,
+          2234.375
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫. የአምላክ ልጅ ካንቺ ሰው ስለመሆኑ\nስላንቺም ከምድር ወደ አርያም ወደ\nመንግስተ ሰማያት የቀረብን ሆን፤\nበአንቺና በልጅሽ ስም የቀረብን ሆን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          312.2448979591837,
+          2267.1130952380954,
+          2447.5446428571427,
+          2938.2440476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬. አሥሩ ቃላት በጣቶቹ የተፃፉ\nየፍጥረት ሁሉ ጌታ ያዉም የአምላክ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          304.11352040816325,
+          2933.3333333333335,
+          2447.5446428571427,
+          3280.3571428571427
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "eaa98b2a5327f77818a2690014251aad05dc6707d1a0dcf29a10c9704b1216cb",
+      "source_sha256": "92538748fcf98ec0cee5a1ae26b5cb0aefb2d85a0e0fe32df73afb03e42f045b",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_101.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.919,
+      "created_at": "2026-10-24T00:14:51.266989+00:00",
+      "derivative_input": false
+    }
+  }
+}

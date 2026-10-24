@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9b78d6b38b90266a",
+    "object": "chat.completion",
+    "created": 1792801750,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [285, 144, 978, 215], \"category\": \"Page-header\", \"text\": \"፳፩ አንቀጸ ብርሃን\"}, {\"bbox\": [153, 274, 1514, 982], \"category\": \"Text\", \"text\": \"በምሕረቱ በአርያም (በልዕልና) ሆኖ ጎበኘን፡፡ በጨለማና በሞት ጥላ ውስጥ ለሚኖሩትም ብርሃኑን ይገልጥላቸው ዘንድ ተወለደ ይቅርም ይለን ይምረን ዘንድ እግሮቻችንን ወደ ሰላም መንገድ አቀናልን፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡\"}, {\"bbox\": [153, 1093, 1495, 2006], \"category\": \"Text\", \"text\": \"፲፪. እመቤታችን ሆይ የቅዱሳንና የምእመናን ሁሉ ጸሎት በማዕጠንታቸው ከምድር ወደ ሰማይ በሚያሳርጉ በሰማያዊያን የካህናት አለቆች እጆች ውስጥ ባለ የወርቅ ማዕጥንት እንመስልሻለን፡፡ እንዲሁም ስምሽን በመጥራት የሰው ልጆችን ልመና ወደ ልዩ ሦስት አብ ወልድ መንፈስ ቅዱስ ያሳርጋሉ፡፡ የወገኖችሽንም ኃጢአት\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4738,
+      "completion_tokens": 575,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፩ አንቀጸ ብርሃን",
+      "bbox": [
+        463.48852040816325,
+        235.71428571428572,
+        1590.4974489795918,
+        351.9345238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "በምሕረቱ በአርያም (በልዕልና) ሆኖ ጎበኘን፡፡ በጨለማና በሞት ጥላ ውስጥ ለሚኖሩትም ብርሃኑን ይገልጥላቸው ዘንድ ተወለደ ይቅርም ይለን ይምረን ዘንድ እግሮቻችንን ወደ ሰላም መንገድ አቀናልን፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+      "bbox": [
+        248.8201530612245,
+        448.51190476190476,
+        2462.1811224489797,
+        1607.4404761904761
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፪. እመቤታችን ሆይ የቅዱሳንና የምእመናን ሁሉ ጸሎት በማዕጠንታቸው ከምድር ወደ ሰማይ በሚያሳርጉ በሰማያዊያን የካህናት አለቆች እጆች ውስጥ ባለ የወርቅ ማዕጥንት እንመስልሻለን፡፡ እንዲሁም ስምሽን በመጥራት የሰው ልጆችን ልመና ወደ ልዩ ሦስት አብ ወልድ መንፈስ ቅዱስ ያሳርጋሉ፡፡ የወገኖችሽንም ኃጢአት",
+      "bbox": [
+        248.8201530612245,
+        1789.1369047619048,
+        2431.281887755102,
+        3283.6309523809523
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 123,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፩ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          463.48852040816325,
+          235.71428571428572,
+          1590.4974489795918,
+          351.9345238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በምሕረቱ በአርያም (በልዕልና) ሆኖ ጎበኘን፡፡ በጨለማና በሞት ጥላ ውስጥ ለሚኖሩትም ብርሃኑን ይገልጥላቸው ዘንድ ተወለደ ይቅርም ይለን ይምረን ዘንድ እግሮቻችንን ወደ ሰላም መንገድ አቀናልን፡፡ ቅድስት ሆይ ልጅሽ ይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          248.8201530612245,
+          448.51190476190476,
+          2462.1811224489797,
+          1607.4404761904761
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፪. እመቤታችን ሆይ የቅዱሳንና የምእመናን ሁሉ ጸሎት በማዕጠንታቸው ከምድር ወደ ሰማይ በሚያሳርጉ በሰማያዊያን የካህናት አለቆች እጆች ውስጥ ባለ የወርቅ ማዕጥንት እንመስልሻለን፡፡ እንዲሁም ስምሽን በመጥራት የሰው ልጆችን ልመና ወደ ልዩ ሦስት አብ ወልድ መንፈስ ቅዱስ ያሳርጋሉ፡፡ የወገኖችሽንም ኃጢአት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          248.8201530612245,
+          1789.1369047619048,
+          2431.281887755102,
+          3283.6309523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "37e4e0d53480a7dd75e723d20aac919b5ad8d485eaca54f8f14acd17abcc7088",
+      "source_sha256": "53524dcb79b905f7cf65e16b3067af2f4dfd0b45874e90f6b2cb2f08b59f8a65",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_123.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 77.322,
+      "created_at": "2026-10-24T00:30:25.574951+00:00",
+      "derivative_input": false
+    }
+  }
+}

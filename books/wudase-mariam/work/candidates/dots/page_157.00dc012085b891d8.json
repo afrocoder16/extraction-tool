@@ -1,0 +1,227 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bb95a4e4ef33c29d",
+    "object": "chat.completion",
+    "created": 1792803093,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [305, 172, 915, 248], \"category\": \"Page-header\", \"text\": \"፮ የሰኔ ጎልጎታ\"}, {\"bbox\": [194, 311, 1468, 578], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ምን ምን ሊቀርብህ የማይችል አንተን በሳሙ ከንፈሮቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [194, 594, 1471, 1333], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ከአንተ ጋርቃል ለቃል በተነጋገረ አንደበቴ፤ ሱራፌል ኪሩቤል ድምፅህን ሰምተው ፀንተው ለመቆም የማይቻላቸው ጥዑማት ቃላትህን በሰሙ ጆሮቼ ሰላሳ ሶስት ዓመት ከአውራጃ ወደ አውራጃ ከአንተ ጋራ በተመላለሱ እግሮቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [194, 1346, 1468, 1808], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ልብሱ እሳት ክዳኑ እሳት እየተባልክ የምትመሰገን አንተ፤ እሳተ መለኮት ስትሆን በጨርቅ ተጠቅልለህ በተጣልክበት ዋሻ (በረት) ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [194, 1825, 1453, 2001], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ መልአከ ምክርህ በሆነ ቅዱስ ሚካኤል አንተን በክብር\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4869,
+      "completion_tokens": 706,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፮ የሰኔ ጎልጎታ",
+      "bbox": [
+        496.0140306122449,
+        281.54761904761904,
+        1488.0420918367347,
+        405.95238095238096
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ምን ምን ሊቀርብህ የማይችል አንተን በሳሙ ከንፈሮቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        315.4974489795918,
+        509.07738095238096,
+        2387.372448979592,
+        946.1309523809524
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ከአንተ ጋርቃል ለቃል በተነጋገረ አንደበቴ፤ ሱራፌል ኪሩቤል ድምፅህን ሰምተው ፀንተው ለመቆም የማይቻላቸው ጥዑማት ቃላትህን በሰሙ ጆሮቼ ሰላሳ ሶስት ዓመት ከአውራጃ ወደ አውራጃ ከአንተ ጋራ በተመላለሱ እግሮቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        315.4974489795918,
+        972.3214285714286,
+        2392.251275510204,
+        2181.9940476190477
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ልብሱ እሳት ክዳኑ እሳት እየተባልክ የምትመሰገን አንተ፤ እሳተ መለኮት ስትሆን በጨርቅ ተጠቅልለህ በተጣልክበት ዋሻ (በረት) ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        315.4974489795918,
+        2203.2738095238096,
+        2387.372448979592,
+        2959.5238095238096
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ መልአከ ምክርህ በሆነ ቅዱስ ሚካኤል አንተን በክብር",
+      "bbox": [
+        315.4974489795918,
+        2987.3511904761904,
+        2362.9783163265306,
+        3275.4464285714284
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 157,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          496.0140306122449,
+          281.54761904761904,
+          1488.0420918367347,
+          405.95238095238096
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ምን ምን ሊቀርብህ የማይችል አንተን በሳሙ ከንፈሮቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          315.4974489795918,
+          509.07738095238096,
+          2387.372448979592,
+          946.1309523809524
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ከአንተ ጋርቃል ለቃል በተነጋገረ አንደበቴ፤ ሱራፌል ኪሩቤል ድምፅህን ሰምተው ፀንተው ለመቆም የማይቻላቸው ጥዑማት ቃላትህን በሰሙ ጆሮቼ ሰላሳ ሶስት ዓመት ከአውራጃ ወደ አውራጃ ከአንተ ጋራ በተመላለሱ እግሮቼ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          315.4974489795918,
+          972.3214285714286,
+          2392.251275510204,
+          2181.9940476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ልብሱ እሳት ክዳኑ እሳት እየተባልክ የምትመሰገን አንተ፤ እሳተ መለኮት ስትሆን በጨርቅ ተጠቅልለህ በተጣልክበት ዋሻ (በረት) ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          315.4974489795918,
+          2203.2738095238096,
+          2387.372448979592,
+          2959.5238095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ መልአከ ምክርህ በሆነ ቅዱስ ሚካኤል አንተን በክብር",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          315.4974489795918,
+          2987.3511904761904,
+          2362.9783163265306,
+          3275.4464285714284
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "00dc012085b891d8deeb5bcf0957f3ec1b0e3239da980a41c9c87526660396c1",
+      "source_sha256": "25e5d55932ffacb1128acafce0eb55fce3ec3a33e1c14c8d9957752f7965ed13",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_157.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 92.168,
+      "created_at": "2026-10-24T00:53:03.765457+00:00",
+      "derivative_input": false
+    }
+  }
+}

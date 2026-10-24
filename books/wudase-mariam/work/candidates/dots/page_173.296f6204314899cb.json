@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b57ed63c2540d76c",
+    "object": "chat.completion",
+    "created": 1792803906,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [297, 171, 901, 247], \"category\": \"Page-header\", \"text\": \"፲፬ የሰኔ ጎልጎታ\"}, {\"bbox\": [163, 295, 1446, 741], \"category\": \"Text\", \"text\": \"ወትእልፊት አእላፋት መላእክት በግራ\\nበቀኝ ተሰልፈው ወረደ እመቤታችን\\nማርያም ይህን ሁሉ ባየች ጊዜ ልጇን\\nወዳጇን በታላቅ ግርማ አየችው ፈፅማም\\nአደነቀች፡፡\"}, {\"bbox\": [163, 764, 1453, 2007], \"category\": \"Text\", \"text\": \"ጌታ ኢየሱስ ክርስቶስም እናቱ ማሪያምን\\nይህ ያስደንቅሻልን ዘጠኝ ወር ከአምስት\\nቀን በማህጸንሽ ተሸክመሽኝ አይደለምን\\nአላት ብርክት ማርያምም እንዲህ\\nስትል መለሰችለት ቀድሞ በዚህ አኳጎን\\nአላየሁህም የሰውን ስጋ ለብሰህ በግዘፈ\\nስጋ በማህፀኔ ተሸከምኩህ እንጂ ዛሬ\\nግን እጅግ በሚያስደነግጥና በሚያስፈራ\\nበመለኮት ግርማ አየሁህ፡፡ ጌታችንም\\nመለሰ እንዲህም አላት ወላጅ እናቴ ሆይ ፣\\nዘጠኝ ወር ከአምስት ቀን በማህፀንሽ\\nየተሸከምሽኝ በጀርባሽም ያዘልሽኝ ከመዓር\\nከስኳር ይልቅ የሚጣፍጥ ከበረዶ\\nየነፃ ከገነት ፈሳሽ ውሃም ንፁህ የሆነ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4833,
+      "completion_tokens": 670,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፬ የሰኔ ጎልጎታ",
+      "bbox": [
+        483.00382653061223,
+        279.9107142857143,
+        1465.2742346938776,
+        404.3154761904762
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ወትእልፊት አእላፋት መላእክት በግራ\nበቀኝ ተሰልፈው ወረደ እመቤታችን\nማርያም ይህን ሁሉ ባየች ጊዜ ልጇን\nወዳጇን በታላቅ ግርማ አየችው ፈፅማም\nአደነቀች፡፡",
+      "bbox": [
+        265.0829081632653,
+        482.88690476190476,
+        2351.594387755102,
+        1212.9464285714287
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ጌታ ኢየሱስ ክርስቶስም እናቱ ማሪያምን\nይህ ያስደንቅሻልን ዘጠኝ ወር ከአምስት\nቀን በማህጸንሽ ተሸክመሽኝ አይደለምን\nአላት ብርክት ማርያምም እንዲህ\nስትል መለሰችለት ቀድሞ በዚህ አኳጎን\nአላየሁህም የሰውን ስጋ ለብሰህ በግዘፈ\nስጋ በማህፀኔ ተሸከምኩህ እንጂ ዛሬ\nግን እጅግ በሚያስደነግጥና በሚያስፈራ\nበመለኮት ግርማ አየሁህ፡፡ ጌታችንም\nመለሰ እንዲህም አላት ወላጅ እናቴ ሆይ ፣\nዘጠኝ ወር ከአምስት ቀን በማህፀንሽ\nየተሸከምሽኝ በጀርባሽም ያዘልሽኝ ከመዓር\nከስኳር ይልቅ የሚጣፍጥ ከበረዶ\nየነፃ ከገነት ፈሳሽ ውሃም ንፁህ የሆነ",
+      "bbox": [
+        265.0829081632653,
+        1250.595238095238,
+        2362.9783163265306,
+        3285.2678571428573
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 173,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፬ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          483.00382653061223,
+          279.9107142857143,
+          1465.2742346938776,
+          404.3154761904762
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ወትእልፊት አእላፋት መላእክት በግራ\nበቀኝ ተሰልፈው ወረደ እመቤታችን\nማርያም ይህን ሁሉ ባየች ጊዜ ልጇን\nወዳጇን በታላቅ ግርማ አየችው ፈፅማም\nአደነቀች፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          265.0829081632653,
+          482.88690476190476,
+          2351.594387755102,
+          1212.9464285714287
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ጌታ ኢየሱስ ክርስቶስም እናቱ ማሪያምን\nይህ ያስደንቅሻልን ዘጠኝ ወር ከአምስት\nቀን በማህጸንሽ ተሸክመሽኝ አይደለምን\nአላት ብርክት ማርያምም እንዲህ\nስትል መለሰችለት ቀድሞ በዚህ አኳጎን\nአላየሁህም የሰውን ስጋ ለብሰህ በግዘፈ\nስጋ በማህፀኔ ተሸከምኩህ እንጂ ዛሬ\nግን እጅግ በሚያስደነግጥና በሚያስፈራ\nበመለኮት ግርማ አየሁህ፡፡ ጌታችንም\nመለሰ እንዲህም አላት ወላጅ እናቴ ሆይ ፣\nዘጠኝ ወር ከአምስት ቀን በማህፀንሽ\nየተሸከምሽኝ በጀርባሽም ያዘልሽኝ ከመዓር\nከስኳር ይልቅ የሚጣፍጥ ከበረዶ\nየነፃ ከገነት ፈሳሽ ውሃም ንፁህ የሆነ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          265.0829081632653,
+          1250.595238095238,
+          2362.9783163265306,
+          3285.2678571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "296f6204314899cb6db30eaa4142cbca8526541aa60f1329f4b007d16030c585",
+      "source_sha256": "135c32662f457cfc868bf2f567558af1bc708f42ed4aa430c100133932c03dfd",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_173.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 88.161,
+      "created_at": "2026-10-24T01:06:32.841183+00:00",
+      "derivative_input": false
+    }
+  }
+}

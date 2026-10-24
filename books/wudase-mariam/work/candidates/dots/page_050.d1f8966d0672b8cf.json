@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b8d37a3a34e5818a",
+    "object": "chat.completion",
+    "created": 1792798678,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [207, 0, 1531, 182], \"category\": \"Text\", \"text\": \"ወደ እርስዋ ገብቶ የወጣ የለም:: ቅድስት\\nሆይ ለምኝልን::\"}, {\"bbox\": [373, 235, 1052, 303], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4287,
+      "completion_tokens": 124,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "ወደ እርስዋ ገብቶ የወጣ የለም:: ቅድስት\nሆይ ለምኝልን::",
+      "bbox": [
+        336.6390306122449,
+        0.0,
+        2489.827806122449,
+        297.9166666666667
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        606.6007653061224,
+        384.67261904761904,
+        1710.841836734694,
+        495.98214285714283
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 50,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ወደ እርስዋ ገብቶ የወጣ የለም:: ቅድስት\nሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          336.6390306122449,
+          0.0,
+          2489.827806122449,
+          297.9166666666667
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          606.6007653061224,
+          384.67261904761904,
+          1710.841836734694,
+          495.98214285714283
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d1f8966d0672b8cff0ed307779271442f567ccac612bbcf38a6e13c17658a754",
+      "source_sha256": "dfeea06775e5f8cabc190ed51be81b7fec528387a5ada43637bda505c78ca1b8",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_050.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 24.787,
+      "created_at": "2026-10-23T23:38:22.493051+00:00",
+      "derivative_input": false
+    }
+  }
+}

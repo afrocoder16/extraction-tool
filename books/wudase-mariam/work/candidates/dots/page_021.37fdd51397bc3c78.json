@@ -1,0 +1,227 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8ab6f87ad4ee7274",
+    "object": "chat.completion",
+    "created": 1792796540,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [415, 197, 1256, 255], \"category\": \"Page-header\", \"text\": \"፲ የሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [306, 314, 1538, 716], \"category\": \"Text\", \"text\": \"፭ ነቢዩ ኢሳያስ በመንፈስ ቅዱስ የዐማኑኤልን ምሥጢር አየ ስለዚህም ሕፃን ተወስደልን ወልድም ተሰጠን ብሎ አሰምቶ ተናገረ:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [302, 736, 1536, 1231], \"category\": \"Text\", \"text\": \"፮ ሰው ሆይ ፈጽመህ ደስ ይበልህ እግዚአብሔር ዓለሙን ወዶታልና አንድ ልጁንም የሚያምንበት ሁሉ እስከ ዘለዓለም ፈጽሞ ይድን ዘንድ አሳልፎ ሰጥቷልና ልዑል ክንዱን ሰደደልን:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [298, 1245, 1534, 1744], \"category\": \"Text\", \"text\": \"፯ የነበረው የሚኖረው የመጣው ዳግመኛ የሚመጣውም ቃል ኢየሱስ ክርስቶስ ያለመለወጥ ፍጹም ሰው ሆነ:: አንዱ ወልድ በሥራው ሁሉ አልተለየም የእግዚአብሔር ቃል መለኮት አንድ ነው እንጂ :: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [296, 1753, 1530, 2016], \"category\": \"Text\", \"text\": \"፰ የነቢያት ሀገራቸው ቤተልሔም ሆይ ደስ ይበልሽ ሁለተኛው አዳም ክርስቶስ በአንቺ ዘንድ ተወልዷልና::\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4890,
+      "completion_tokens": 727,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲ የሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        674.9043367346939,
+        322.4702380952381,
+        2042.6020408163265,
+        417.4107142857143
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፭ ነቢዩ ኢሳያስ በመንፈስ ቅዱስ የዐማኑኤልን ምሥጢር አየ ስለዚህም ሕፃን ተወስደልን ወልድም ተሰጠን ብሎ አሰምቶ ተናገረ:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        497.640306122449,
+        513.9880952380952,
+        2501.2117346938776,
+        1172.0238095238096
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፮ ሰው ሆይ ፈጽመህ ደስ ይበልህ እግዚአብሔር ዓለሙን ወዶታልና አንድ ልጁንም የሚያምንበት ሁሉ እስከ ዘለዓለም ፈጽሞ ይድን ዘንድ አሳልፎ ሰጥቷልና ልዑል ክንዱን ሰደደልን:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        491.13520408163265,
+        1204.7619047619048,
+        2497.9591836734694,
+        2015.029761904762
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፯ የነበረው የሚኖረው የመጣው ዳግመኛ የሚመጣውም ቃል ኢየሱስ ክርስቶስ ያለመለወጥ ፍጹም ሰው ሆነ:: አንዱ ወልድ በሥራው ሁሉ አልተለየም የእግዚአብሔር ቃል መለኮት አንድ ነው እንጂ :: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        484.6301020408163,
+        2037.9464285714287,
+        2494.706632653061,
+        2854.7619047619046
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "፰ የነቢያት ሀገራቸው ቤተልሔም ሆይ ደስ ይበልሽ ሁለተኛው አዳም ክርስቶስ በአንቺ ዘንድ ተወልዷልና::",
+      "bbox": [
+        481.3775510204082,
+        2869.4940476190477,
+        2488.201530612245,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 21,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ የሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          674.9043367346939,
+          322.4702380952381,
+          2042.6020408163265,
+          417.4107142857143
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭ ነቢዩ ኢሳያስ በመንፈስ ቅዱስ የዐማኑኤልን ምሥጢር አየ ስለዚህም ሕፃን ተወስደልን ወልድም ተሰጠን ብሎ አሰምቶ ተናገረ:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          497.640306122449,
+          513.9880952380952,
+          2501.2117346938776,
+          1172.0238095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ ሰው ሆይ ፈጽመህ ደስ ይበልህ እግዚአብሔር ዓለሙን ወዶታልና አንድ ልጁንም የሚያምንበት ሁሉ እስከ ዘለዓለም ፈጽሞ ይድን ዘንድ አሳልፎ ሰጥቷልና ልዑል ክንዱን ሰደደልን:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          491.13520408163265,
+          1204.7619047619048,
+          2497.9591836734694,
+          2015.029761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ የነበረው የሚኖረው የመጣው ዳግመኛ የሚመጣውም ቃል ኢየሱስ ክርስቶስ ያለመለወጥ ፍጹም ሰው ሆነ:: አንዱ ወልድ በሥራው ሁሉ አልተለየም የእግዚአብሔር ቃል መለኮት አንድ ነው እንጂ :: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          484.6301020408163,
+          2037.9464285714287,
+          2494.706632653061,
+          2854.7619047619046
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፰ የነቢያት ሀገራቸው ቤተልሔም ሆይ ደስ ይበልሽ ሁለተኛው አዳም ክርስቶስ በአንቺ ዘንድ ተወልዷልና::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          481.3775510204082,
+          2869.4940476190477,
+          2488.201530612245,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "37fdd51397bc3c78cdd960bf5059d2cdbb80977275c896a9732b9872311da5b5",
+      "source_sha256": "8c3e4e584b949929387f0ca10083a364b03047af676705872a742845a86d0c3c",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_021.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 94.434,
+      "created_at": "2026-10-23T23:03:52.966038+00:00",
+      "derivative_input": false
+    }
+  }
+}

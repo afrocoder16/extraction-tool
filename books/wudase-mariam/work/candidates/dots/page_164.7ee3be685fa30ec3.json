@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-87c445e95b941a33",
+    "object": "chat.completion",
+    "created": 1792803483,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [125, 37, 521, 126], \"category\": \"Text\", \"text\": \"ለመመስረት\"}, {\"bbox\": [657, 37, 951, 126], \"category\": \"Text\", \"text\": \"በትህትና\"}, {\"bbox\": [1088, 37, 1433, 126], \"category\": \"Text\", \"text\": \"በቆምክበት\"}, {\"bbox\": [417, 256, 1095, 324], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4328,
+      "completion_tokens": 165,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "ለመመስረት",
+      "bbox": [
+        203.2844387755102,
+        60.56547619047619,
+        847.2895408163265,
+        206.25
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "በትህትና",
+      "bbox": [
+        1068.4630102040817,
+        60.56547619047619,
+        1546.5880102040817,
+        206.25
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "በቆምክበት",
+      "bbox": [
+        1769.3877551020407,
+        60.56547619047619,
+        2330.452806122449,
+        206.25
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        678.156887755102,
+        419.04761904761904,
+        1780.7716836734694,
+        530.3571428571429
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 164,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ለመመስረት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          203.2844387755102,
+          60.56547619047619,
+          847.2895408163265,
+          206.25
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በትህትና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          1068.4630102040817,
+          60.56547619047619,
+          1546.5880102040817,
+          206.25
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በቆምክበት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          1769.3877551020407,
+          60.56547619047619,
+          2330.452806122449,
+          206.25
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          678.156887755102,
+          419.04761904761904,
+          1780.7716836734694,
+          530.3571428571429
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7ee3be685fa30ec3e3e48d2c68fad37ca9419e07ae3262d3ad1cf8f1654d77e9",
+      "source_sha256": "463a6101d762869a3799ea722b95351cdce3c83e8693ef85a1f820ee28cfb015",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_164.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 29.503,
+      "created_at": "2026-10-24T00:58:32.296814+00:00",
+      "derivative_input": false
+    }
+  }
+}

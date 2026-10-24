@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-86e8594276c186a2",
+    "object": "chat.completion",
+    "created": 1792797496,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [173, 169, 1013, 246], \"category\": \"Page-header\", \"text\": \"፲፩ የሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [41, 296, 1286, 936], \"category\": \"Text\", \"text\": \"የቀድሞውን ሰው አዳምን ከምድር (ከሲኦል) ወደ ገነት ይመልሰው ዘንድ፤ አዳም ሆይ መሬት ነበርክና ወደ መሬት ትመለሳለህ ብሎ የፈረደበትንም የሞት ፍርድ ያጠፋለት ዘንድ፤ ብዙ ኃጢአት ባለችበት የእዚአብሔር ጸጋትበዛለች፡፡ ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [41, 941, 1291, 2016], \"category\": \"Text\", \"text\": \"፱ የሰው ሁሉ ሰውነት ደስ ይላታል በሰማይ ለእግዚአብሔር ምስጋና ይሁን በምድርም ሰላም ለሰውም እርሱ በሚፈቅደው እያሉ አሰምተው ንጉሥ ክስርቶስን ከመላእክት ጋር ያመስግኑታል፡፡ የቀድሞውን እርግማን አጥፍቷልና የጠላትን ምክሩን አፈረሰበት ለአዳምና ለሔዋን የዕዳ ደብዳቤያቸውን ቀደደላቸው በዳዊት ሀገር የተወለደ መድኃኒታችን ኢየሱስ ክርስቶስ አዳምንና ሔዋንን ነፃ አደረጋቸው፡፡ ቅድስት ሆይ ለመኝለን።\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4803,
+      "completion_tokens": 640,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፩ የሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        281.34566326530614,
+        276.63690476190476,
+        1647.4170918367347,
+        402.67857142857144
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "የቀድሞውን ሰው አዳምን ከምድር (ከሲኦል) ወደ ገነት ይመልሰው ዘንድ፤ አዳም ሆይ መሬት ነበርክና ወደ መሬት ትመለሳለህ ብሎ የፈረደበትንም የሞት ፍርድ ያጠፋለት ዘንድ፤ ብዙ ኃጢአት ባለችበት የእዚአብሔር ጸጋትበዛለች፡፡ ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        66.67729591836735,
+        484.5238095238095,
+        2091.390306122449,
+        1532.142857142857
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፱ የሰው ሁሉ ሰውነት ደስ ይላታል በሰማይ ለእግዚአብሔር ምስጋና ይሁን በምድርም ሰላም ለሰውም እርሱ በሚፈቅደው እያሉ አሰምተው ንጉሥ ክስርቶስን ከመላእክት ጋር ያመስግኑታል፡፡ የቀድሞውን እርግማን አጥፍቷልና የጠላትን ምክሩን አፈረሰበት ለአዳምና ለሔዋን የዕዳ ደብዳቤያቸውን ቀደደላቸው በዳዊት ሀገር የተወለደ መድኃኒታችን ኢየሱስ ክርስቶስ አዳምንና ሔዋንን ነፃ አደረጋቸው፡፡ ቅድስት ሆይ ለመኝለን።",
+      "bbox": [
+        66.67729591836735,
+        1540.327380952381,
+        2099.5216836734694,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 23,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፩ የሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          281.34566326530614,
+          276.63690476190476,
+          1647.4170918367347,
+          402.67857142857144
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የቀድሞውን ሰው አዳምን ከምድር (ከሲኦል) ወደ ገነት ይመልሰው ዘንድ፤ አዳም ሆይ መሬት ነበርክና ወደ መሬት ትመለሳለህ ብሎ የፈረደበትንም የሞት ፍርድ ያጠፋለት ዘንድ፤ ብዙ ኃጢአት ባለችበት የእዚአብሔር ጸጋትበዛለች፡፡ ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          66.67729591836735,
+          484.5238095238095,
+          2091.390306122449,
+          1532.142857142857
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱ የሰው ሁሉ ሰውነት ደስ ይላታል በሰማይ ለእግዚአብሔር ምስጋና ይሁን በምድርም ሰላም ለሰውም እርሱ በሚፈቅደው እያሉ አሰምተው ንጉሥ ክስርቶስን ከመላእክት ጋር ያመስግኑታል፡፡ የቀድሞውን እርግማን አጥፍቷልና የጠላትን ምክሩን አፈረሰበት ለአዳምና ለሔዋን የዕዳ ደብዳቤያቸውን ቀደደላቸው በዳዊት ሀገር የተወለደ መድኃኒታችን ኢየሱስ ክርስቶስ አዳምንና ሔዋንን ነፃ አደረጋቸው፡፡ ቅድስት ሆይ ለመኝለን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          66.67729591836735,
+          1540.327380952381,
+          2099.5216836734694,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "055379dcf78a881bd233aff0331e0210be4cea5a7d2b3e07163415ead6400f35",
+      "source_sha256": "396d4312180cdc3a1843f4cca3278caea8074066e9a8830d7d2d84df33d7f3ae",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_023.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.635,
+      "created_at": "2026-10-23T23:19:39.464877+00:00",
+      "derivative_input": false
+    }
+  }
+}

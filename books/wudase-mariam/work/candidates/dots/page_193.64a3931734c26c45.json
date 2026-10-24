@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b2393b171b78f415",
+    "object": "chat.completion",
+    "created": 1792804830,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [241, 176, 876, 253], \"category\": \"Page-header\", \"text\": \"34 የሰኔ ጎልጎታ\"}, {\"bbox\": [125, 305, 1455, 2016], \"category\": \"Text\", \"text\": \"መላእክት ይቀበሉታል፡፡ በቅዱስ ወንጌል የተነገረዉን አልሰሚሽምን? መቶ በጎች ያሉት ሰው ከመቶ አንዲቷ ብትጠፋበት ዘጠና ዘጠኙን በዱር ትቶ የጠፋችዉን በግ ሊፈልግ እንደሄደ፤ በአገኛትም ጊዜ በትከሻው ተሸክሞ ካልጠፉት ከዘጠና ዘጠኙ በጎች ይልቅ ጠፍታ በተገኘችው በግ ደስ እንደሚለው ባልንጀሮቹንና ጎረቤቶቹንም ጠርቶ የጠፋችዉ በጌ ተገኝታለችና ደስ ይበላችሁ ይላቸዋል፡፡ እውነት እውነት እላችኃለሁ ንስሃን ከማይሹ ፃድቃን ይልቅ ንስሃን በሚገባ አንድ ኃጥእ ሰው በሰማይ ታላቅ ደስታ እንደሚደረግ፤ ሁለተኛም ይህቺ መጽሐፍ በሚደግማትና በሚይዛት ሰው ሰማያዊያን መላእክት ሰራዊት ደስ ይሰኛሉ፤ ከዚህ ከሚያልፈው ዓለም ወደ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4764,
+      "completion_tokens": 601,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "34 የሰኔ ጎልጎታ",
+      "bbox": [
+        391.9323979591837,
+        288.0952380952381,
+        1424.6173469387754,
+        414.13690476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "መላእክት ይቀበሉታል፡፡ በቅዱስ ወንጌል የተነገረዉን አልሰሚሽምን? መቶ በጎች ያሉት ሰው ከመቶ አንዲቷ ብትጠፋበት ዘጠና ዘጠኙን በዱር ትቶ የጠፋችዉን በግ ሊፈልግ እንደሄደ፤ በአገኛትም ጊዜ በትከሻው ተሸክሞ ካልጠፉት ከዘጠና ዘጠኙ በጎች ይልቅ ጠፍታ በተገኘችው በግ ደስ እንደሚለው ባልንጀሮቹንና ጎረቤቶቹንም ጠርቶ የጠፋችዉ በጌ ተገኝታለችና ደስ ይበላችሁ ይላቸዋል፡፡ እውነት እውነት እላችኃለሁ ንስሃን ከማይሹ ፃድቃን ይልቅ ንስሃን በሚገባ አንድ ኃጥእ ሰው በሰማይ ታላቅ ደስታ እንደሚደረግ፤ ሁለተኛም ይህቺ መጽሐፍ በሚደግማትና በሚይዛት ሰው ሰማያዊያን መላእክት ሰራዊት ደስ ይሰኛሉ፤ ከዚህ ከሚያልፈው ዓለም ወደ",
+      "bbox": [
+        203.2844387755102,
+        499.2559523809524,
+        2366.230867346939,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 193,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "34 የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          391.9323979591837,
+          288.0952380952381,
+          1424.6173469387754,
+          414.13690476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "መላእክት ይቀበሉታል፡፡ በቅዱስ ወንጌል የተነገረዉን አልሰሚሽምን? መቶ በጎች ያሉት ሰው ከመቶ አንዲቷ ብትጠፋበት ዘጠና ዘጠኙን በዱር ትቶ የጠፋችዉን በግ ሊፈልግ እንደሄደ፤ በአገኛትም ጊዜ በትከሻው ተሸክሞ ካልጠፉት ከዘጠና ዘጠኙ በጎች ይልቅ ጠፍታ በተገኘችው በግ ደስ እንደሚለው ባልንጀሮቹንና ጎረቤቶቹንም ጠርቶ የጠፋችዉ በጌ ተገኝታለችና ደስ ይበላችሁ ይላቸዋል፡፡ እውነት እውነት እላችኃለሁ ንስሃን ከማይሹ ፃድቃን ይልቅ ንስሃን በሚገባ አንድ ኃጥእ ሰው በሰማይ ታላቅ ደስታ እንደሚደረግ፤ ሁለተኛም ይህቺ መጽሐፍ በሚደግማትና በሚይዛት ሰው ሰማያዊያን መላእክት ሰራዊት ደስ ይሰኛሉ፤ ከዚህ ከሚያልፈው ዓለም ወደ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          203.2844387755102,
+          499.2559523809524,
+          2366.230867346939,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "64a3931734c26c456f3610f9c65ec63b3797159a59c2f3e755cd425099851716",
+      "source_sha256": "66f21ba4bc86ee72c3ab673c5080156239aaae8462fe7ec5fc9331fe289d8add",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_193.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.521,
+      "created_at": "2026-10-24T01:21:48.476133+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-ac3605961ca0ed50",
+    "object": "chat.completion",
+    "created": 1792798093,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [356, 157, 1355, 241], \"category\": \"Page-header\", \"text\": \"፲፯ የማክሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [235, 286, 1527, 841], \"category\": \"Text\", \"text\": \"፲፬ የከበርሽ ጌታን የወለድሽ ሆይ የማይታይ ቃልን የተሸከምሽው የብርሃን እናቱ አንቺ ነሽ:: እርሱን ከወለደሽው በኋላ በድንግልና ኖረሻልና በፍጹም ምስጋና ያገኑሻል:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [226, 855, 1524, 1617], \"category\": \"Text\", \"text\": \"፲፭ የአብ ቃል እናቱ ንጽሕት ድንግል ሆይ ስለአንቺ የሚነገረውን ነገር መናገር የሚቻለው ምን አንደበት ነው፤ ኪሩቤል ለሚሸከሙት ንጉሥ ዙፋኑ (ማደሪያው) ሆንሽ፤ የተከበርሽ ሆይ እናመሰግንሻልን የጌታችን የኢየሱስ ክርስቶስ እናቱ መልካሟ እርግብ ሆይ ስምሽን በልጅ ልጅ እንጠራለን:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [220, 1615, 1513, 2016], \"category\": \"Text\", \"text\": \"፲፮ እናትና ገረድ ማርያም ሆይ ደስ ይበልሽ:: የታቀፍሽውን መላእክት ያመሰግኑታል ኪሩቤልም በፍርሃት ይሰግዱለታልና ሱራፌልም ያለማቋረጥ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4839,
+      "completion_tokens": 676,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፯ የማክሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        578.954081632653,
+        256.9940476190476,
+        2203.6033163265306,
+        394.4940476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፲፬ የከበርሽ ጌታን የወለድሽ ሆይ የማይታይ ቃልን የተሸከምሽው የብርሃን እናቱ አንቺ ነሽ:: እርሱን ከወለደሽው በኋላ በድንግልና ኖረሻልና በፍጹም ምስጋና ያገኑሻል:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        382.17474489795916,
+        468.1547619047619,
+        2483.3227040816328,
+        1376.6369047619048
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፭ የአብ ቃል እናቱ ንጽሕት ድንግል ሆይ ስለአንቺ የሚነገረውን ነገር መናገር የሚቻለው ምን አንደበት ነው፤ ኪሩቤል ለሚሸከሙት ንጉሥ ዙፋኑ (ማደሪያው) ሆንሽ፤ የተከበርሽ ሆይ እናመሰግንሻልን የጌታችን የኢየሱስ ክርስቶስ እናቱ መልካሟ እርግብ ሆይ ስምሽን በልጅ ልጅ እንጠራለን:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        367.53826530612247,
+        1399.5535714285713,
+        2478.4438775510203,
+        2646.875
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፲፮ እናትና ገረድ ማርያም ሆይ ደስ ይበልሽ:: የታቀፍሽውን መላእክት ያመሰግኑታል ኪሩቤልም በፍርሃት ይሰግዱለታልና ሱራፌልም ያለማቋረጥ",
+      "bbox": [
+        357.78061224489795,
+        2643.6011904761904,
+        2460.5548469387754,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 37,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፯ የማክሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          578.954081632653,
+          256.9940476190476,
+          2203.6033163265306,
+          394.4940476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፬ የከበርሽ ጌታን የወለድሽ ሆይ የማይታይ ቃልን የተሸከምሽው የብርሃን እናቱ አንቺ ነሽ:: እርሱን ከወለደሽው በኋላ በድንግልና ኖረሻልና በፍጹም ምስጋና ያገኑሻል:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          382.17474489795916,
+          468.1547619047619,
+          2483.3227040816328,
+          1376.6369047619048
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፭ የአብ ቃል እናቱ ንጽሕት ድንግል ሆይ ስለአንቺ የሚነገረውን ነገር መናገር የሚቻለው ምን አንደበት ነው፤ ኪሩቤል ለሚሸከሙት ንጉሥ ዙፋኑ (ማደሪያው) ሆንሽ፤ የተከበርሽ ሆይ እናመሰግንሻልን የጌታችን የኢየሱስ ክርስቶስ እናቱ መልካሟ እርግብ ሆይ ስምሽን በልጅ ልጅ እንጠራለን:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          367.53826530612247,
+          1399.5535714285713,
+          2478.4438775510203,
+          2646.875
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፮ እናትና ገረድ ማርያም ሆይ ደስ ይበልሽ:: የታቀፍሽውን መላእክት ያመሰግኑታል ኪሩቤልም በፍርሃት ይሰግዱለታልና ሱራፌልም ያለማቋረጥ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          357.78061224489795,
+          2643.6011904761904,
+          2460.5548469387754,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f7bedd2f06c7d82e7b92ebb37d8624d9bf69f9aaf61556e1b1004496c7855e11",
+      "source_sha256": "77b4804b3a45d83dc98be137a9810af50bd919033362eb1d0e6b5a692dd336fb",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_037.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 88.59,
+      "created_at": "2026-10-23T23:29:40.743919+00:00",
+      "derivative_input": false
+    }
+  }
+}

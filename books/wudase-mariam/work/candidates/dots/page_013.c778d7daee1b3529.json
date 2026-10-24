@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8e7a4af9164b4432",
+    "object": "chat.completion",
+    "created": 1792797120,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [384, 171, 1128, 251], \"category\": \"Page-header\", \"text\": \"፮ የዘወትር ጸሎት\"}, {\"bbox\": [267, 298, 1533, 851], \"category\": \"Text\", \"text\": \"እስገዳለሁ:: መስቀል ኃይላችን ነው ኃይላችን መስቀል ነው የሚያፀናን መስቀል ነው፣ መስቀል ቤዛችን ነው፣ መስቀል የነፍሳችን መዳኛ ነው፣ አይሁድ ይክዱታል እኛ ግን እናምነዋለን ያመነው እኛም በመስቀሉ እንድናለን፣ ድነናልም::\"}, {\"bbox\": [267, 857, 1541, 1977], \"category\": \"Text\", \"text\": \"፯ ለአብ ምስጋና ይገባል፣ ለወልድም ምስጋና ይገባል፣ ለመንፈስ ቅዱስም ምስጋና ይገባል:: ፫ ጊዜ በል፤ አምላክን ለወለደች ለእመቤታችን ለድንግል ማርያም ምስጋና ይገባል:: ለኢየሱስ ክርስቶስ መስቀልም ምስጋና ይገባል:: ክርስቶስ በቸርነቱ ያስበን ዘንድ፣ ዳግመኛም በመጣ ጊዜ እንዳያሳፍረን:: ስሙን ለማመስገን ያነቃን ዘንድ:: እርሱንም በማምለክ ያጸናን ዘንድ:: እመቤታችን ጸሎታችንን አሳርጊልን፣ ኃጢአታችንንም አስተሥርይልን በጌታችን መንበር\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4808,
+      "completion_tokens": 645,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፮ የዘወትር ጸሎት",
+      "bbox": [
+        624.4897959183673,
+        279.9107142857143,
+        1834.438775510204,
+        410.86309523809524
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "እስገዳለሁ:: መስቀል ኃይላችን ነው ኃይላችን መስቀል ነው የሚያፀናን መስቀል ነው፣ መስቀል ቤዛችን ነው፣ መስቀል የነፍሳችን መዳኛ ነው፣ አይሁድ ይክዱታል እኛ ግን እናምነዋለን ያመነው እኛም በመስቀሉ እንድናለን፣ ድነናልም::",
+      "bbox": [
+        434.2155612244898,
+        487.79761904761904,
+        2493.0803571428573,
+        1393.0059523809523
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፯ ለአብ ምስጋና ይገባል፣ ለወልድም ምስጋና ይገባል፣ ለመንፈስ ቅዱስም ምስጋና ይገባል:: ፫ ጊዜ በል፤ አምላክን ለወለደች ለእመቤታችን ለድንግል ማርያም ምስጋና ይገባል:: ለኢየሱስ ክርስቶስ መስቀልም ምስጋና ይገባል:: ክርስቶስ በቸርነቱ ያስበን ዘንድ፣ ዳግመኛም በመጣ ጊዜ እንዳያሳፍረን:: ስሙን ለማመስገን ያነቃን ዘንድ:: እርሱንም በማምለክ ያጸናን ዘንድ:: እመቤታችን ጸሎታችንን አሳርጊልን፣ ኃጢአታችንንም አስተሥርይልን በጌታችን መንበር",
+      "bbox": [
+        434.2155612244898,
+        1402.827380952381,
+        2506.0905612244896,
+        3236.160714285714
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 13,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ የዘወትር ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          624.4897959183673,
+          279.9107142857143,
+          1834.438775510204,
+          410.86309523809524
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እስገዳለሁ:: መስቀል ኃይላችን ነው ኃይላችን መስቀል ነው የሚያፀናን መስቀል ነው፣ መስቀል ቤዛችን ነው፣ መስቀል የነፍሳችን መዳኛ ነው፣ አይሁድ ይክዱታል እኛ ግን እናምነዋለን ያመነው እኛም በመስቀሉ እንድናለን፣ ድነናልም::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          434.2155612244898,
+          487.79761904761904,
+          2493.0803571428573,
+          1393.0059523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ ለአብ ምስጋና ይገባል፣ ለወልድም ምስጋና ይገባል፣ ለመንፈስ ቅዱስም ምስጋና ይገባል:: ፫ ጊዜ በል፤ አምላክን ለወለደች ለእመቤታችን ለድንግል ማርያም ምስጋና ይገባል:: ለኢየሱስ ክርስቶስ መስቀልም ምስጋና ይገባል:: ክርስቶስ በቸርነቱ ያስበን ዘንድ፣ ዳግመኛም በመጣ ጊዜ እንዳያሳፍረን:: ስሙን ለማመስገን ያነቃን ዘንድ:: እርሱንም በማምለክ ያጸናን ዘንድ:: እመቤታችን ጸሎታችንን አሳርጊልን፣ ኃጢአታችንንም አስተሥርይልን በጌታችን መንበር",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          434.2155612244898,
+          1402.827380952381,
+          2506.0905612244896,
+          3236.160714285714
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "c778d7daee1b35293d9eda5b673979f6b2bef15b5b94390c99632f69be78ac62",
+      "source_sha256": "664a2b46e193f171bccca211d9677fbb0edb2ef8007d0eae63323aced784ebb2",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_013.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 85.122,
+      "created_at": "2026-10-23T23:13:24.015761+00:00",
+      "derivative_input": false
+    }
+  }
+}

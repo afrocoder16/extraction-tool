@@ -1,0 +1,227 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b1d6b092e38b803e",
+    "object": "chat.completion",
+    "created": 1792800545,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [189, 66, 961, 151], \"category\": \"Page-header\", \"text\": \"፿፯ የዘወትር ጸሎት\"}, {\"bbox\": [63, 203, 1368, 391], \"category\": \"Text\", \"text\": \"እግር ወደ ሰሳም መንገድ አቀናልን።\\nቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [63, 436, 1377, 1171], \"category\": \"Text\", \"text\": \"፯፬ ብሩክ ከቤተ መቅደስ ይዞሽ የወጣ እሳትነት ያለውን ፍህም የተሸከምሽ የወርቅ ማዕጠንት አንቺ ነሽ ፍሕም የተባለውም ኃጢአትን የሚያስተሠርይና በደልን የሚደመስስ ነው። ይኸውም ካንቺ ሰው የሆነና ራሱን የተወደደ መሥዋዕት አድርጎ ያሳረገ የእግዚአብሔር ቃል ነው።\\nቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [74, 1217, 1404, 1684], \"category\": \"Text\", \"text\": \"፯፬ የእግዚአብሔርን ቃል የወስድሽልን መልካሟ ርግብ ማርያም ሆይ ደሽ ይበልሽ። ከዕሴይ ሥር የወጣሽ መዐዛሽ ያማረ አበባ አንቺ ነሽ። ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [78, 1727, 1411, 2006], \"category\": \"Text\", \"text\": \"፱፬ ሳይተክሏትና ውሃ ሳያጠጧት የለመለመች የአሮን በትር ነበረች ያለ ዘር ሰው ሆኖ ያዳነን እውነተኛ አምላክችንን\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4860,
+      "completion_tokens": 697,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፿፯ የዘወትር ጸሎት",
+      "bbox": [
+        307.36607142857144,
+        108.03571428571429,
+        1562.8507653061224,
+        247.17261904761904
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "እግር ወደ ሰሳም መንገድ አቀናልን።\nቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        102.45535714285714,
+        332.2916666666667,
+        2224.7448979591836,
+        640.0297619047619
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፯፬ ብሩክ ከቤተ መቅደስ ይዞሽ የወጣ እሳትነት ያለውን ፍህም የተሸከምሽ የወርቅ ማዕጠንት አንቺ ነሽ ፍሕም የተባለውም ኃጢአትን የሚያስተሠርይና በደልን የሚደመስስ ነው። ይኸውም ካንቺ ሰው የሆነና ራሱን የተወደደ መሥዋዕት አድርጎ ያሳረገ የእግዚአብሔር ቃል ነው።\nቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        102.45535714285714,
+        713.6904761904761,
+        2239.3813775510203,
+        1916.8154761904761
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፯፬ የእግዚአብሔርን ቃል የወስድሽልን መልካሟ ርግብ ማርያም ሆይ ደሽ ይበልሽ። ከዕሴይ ሥር የወጣሽ መዐዛሽ ያማረ አበባ አንቺ ነሽ። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        120.34438775510205,
+        1992.1130952380952,
+        2283.2908163265306,
+        2756.5476190476193
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "፱፬ ሳይተክሏትና ውሃ ሳያጠጧት የለመለመች የአሮን በትር ነበረች ያለ ዘር ሰው ሆኖ ያዳነን እውነተኛ አምላክችንን",
+      "bbox": [
+        126.84948979591837,
+        2826.934523809524,
+        2294.674744897959,
+        3283.6309523809523
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 95,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፿፯ የዘወትር ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          307.36607142857144,
+          108.03571428571429,
+          1562.8507653061224,
+          247.17261904761904
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "እግር ወደ ሰሳም መንገድ አቀናልን።\nቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          102.45535714285714,
+          332.2916666666667,
+          2224.7448979591836,
+          640.0297619047619
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯፬ ብሩክ ከቤተ መቅደስ ይዞሽ የወጣ እሳትነት ያለውን ፍህም የተሸከምሽ የወርቅ ማዕጠንት አንቺ ነሽ ፍሕም የተባለውም ኃጢአትን የሚያስተሠርይና በደልን የሚደመስስ ነው። ይኸውም ካንቺ ሰው የሆነና ራሱን የተወደደ መሥዋዕት አድርጎ ያሳረገ የእግዚአብሔር ቃል ነው።\nቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          102.45535714285714,
+          713.6904761904761,
+          2239.3813775510203,
+          1916.8154761904761
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯፬ የእግዚአብሔርን ቃል የወስድሽልን መልካሟ ርግብ ማርያም ሆይ ደሽ ይበልሽ። ከዕሴይ ሥር የወጣሽ መዐዛሽ ያማረ አበባ አንቺ ነሽ። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          120.34438775510205,
+          1992.1130952380952,
+          2283.2908163265306,
+          2756.5476190476193
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱፬ ሳይተክሏትና ውሃ ሳያጠጧት የለመለመች የአሮን በትር ነበረች ያለ ዘር ሰው ሆኖ ያዳነን እውነተኛ አምላክችንን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          126.84948979591837,
+          2826.934523809524,
+          2294.674744897959,
+          3283.6309523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d9bc11acbff7dcbee1f0b166d400364014a32823cd04f487c37b6cfdc6a333a9",
+      "source_sha256": "dc09d66a839b2c3f70be5ed468d669f2cf51655df043ecb5357c9805a5ed358a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_095.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 91.391,
+      "created_at": "2026-10-24T00:10:35.116088+00:00",
+      "derivative_input": false
+    }
+  }
+}

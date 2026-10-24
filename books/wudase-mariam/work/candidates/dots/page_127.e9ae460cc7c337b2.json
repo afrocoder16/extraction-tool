@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8eedc93c0661cbd5",
+    "object": "chat.completion",
+    "created": 1792801913,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [303, 176, 971, 244], \"category\": \"Page-header\", \"text\": \"፳፫ አንቀጸ ብርሃን\"}, {\"bbox\": [175, 301, 1456, 1654], \"category\": \"Text\", \"text\": \"ዕጣን መአዛ ነው አለ እኅትየ መርዓት\\n(ሙሽራዬ ሆይ) የታጠርሽ ተክል ነሽ\\nመንገድሽ የታጠረች ተክል የታተመች\\nጉድጓድ ናት፡፡ ከሽቱ ቅመም ጋር ሽቱ\\nአለሽ፡፡ ቆዕ የሚባል ሽቶ ናርዶስ የሚባል\\nሽቶ ጋር አለሽ፡፡ ናርዶስ የሚባል ሽቶ\\nመጽርይ የሚባል ሽቶ ጋር አለሽ\\nቀጺመታት ቀናንሞስ የሚባል ሽቶች\\nአደጋ ሽቶች ጋራ አሉሽ ከሽቶች ሁሉ\\nከሚበልጡ ከርቤና ዐልው የተባሉ ሽቶች\\nከነዚህ ሁሉ ሽቶች ጋር አሉሽ፡፡ የገነት\\nፈሳሽ ሆይ ፤ከደጋ የሚፈስ የሕይወት\\nውሃ መገናኛ ነሽ ቅድስት ሆይ ልጅሽ\\nይቅርታውን ያድለን ዘንድ ለምኝልን፡፡\"}, {\"bbox\": [175, 1754, 1456, 2007], \"category\": \"Text\", \"text\": \"፲፬. ሳይተክሏትና ውሃ ሳያጠጧት\\nየስመለመች የአሮን በትር በቤተ መቅደስ\\nነበረች ለካህናት ዝግጁ ያደረጋት ነበረች፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4798,
+      "completion_tokens": 635,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፫ አንቀጸ ብርሃን",
+      "bbox": [
+        492.76147959183675,
+        288.0952380952381,
+        1579.1135204081634,
+        399.4047619047619
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ዕጣን መአዛ ነው አለ እኅትየ መርዓት\n(ሙሽራዬ ሆይ) የታጠርሽ ተክል ነሽ\nመንገድሽ የታጠረች ተክል የታተመች\nጉድጓድ ናት፡፡ ከሽቱ ቅመም ጋር ሽቱ\nአለሽ፡፡ ቆዕ የሚባል ሽቶ ናርዶስ የሚባል\nሽቶ ጋር አለሽ፡፡ ናርዶስ የሚባል ሽቶ\nመጽርይ የሚባል ሽቶ ጋር አለሽ\nቀጺመታት ቀናንሞስ የሚባል ሽቶች\nአደጋ ሽቶች ጋራ አሉሽ ከሽቶች ሁሉ\nከሚበልጡ ከርቤና ዐልው የተባሉ ሽቶች\nከነዚህ ሁሉ ሽቶች ጋር አሉሽ፡፡ የገነት\nፈሳሽ ሆይ ፤ከደጋ የሚፈስ የሕይወት\nውሃ መገናኛ ነሽ ቅድስት ሆይ ልጅሽ\nይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+      "bbox": [
+        284.5982142857143,
+        492.7083333333333,
+        2367.8571428571427,
+        2707.440476190476
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፬. ሳይተክሏትና ውሃ ሳያጠጧት\nየስመለመች የአሮን በትር በቤተ መቅደስ\nነበረች ለካህናት ዝግጁ ያደረጋት ነበረች፡፡",
+      "bbox": [
+        284.5982142857143,
+        2871.1309523809523,
+        2367.8571428571427,
+        3285.2678571428573
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 127,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፫ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          492.76147959183675,
+          288.0952380952381,
+          1579.1135204081634,
+          399.4047619047619
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ዕጣን መአዛ ነው አለ እኅትየ መርዓት\n(ሙሽራዬ ሆይ) የታጠርሽ ተክል ነሽ\nመንገድሽ የታጠረች ተክል የታተመች\nጉድጓድ ናት፡፡ ከሽቱ ቅመም ጋር ሽቱ\nአለሽ፡፡ ቆዕ የሚባል ሽቶ ናርዶስ የሚባል\nሽቶ ጋር አለሽ፡፡ ናርዶስ የሚባል ሽቶ\nመጽርይ የሚባል ሽቶ ጋር አለሽ\nቀጺመታት ቀናንሞስ የሚባል ሽቶች\nአደጋ ሽቶች ጋራ አሉሽ ከሽቶች ሁሉ\nከሚበልጡ ከርቤና ዐልው የተባሉ ሽቶች\nከነዚህ ሁሉ ሽቶች ጋር አሉሽ፡፡ የገነት\nፈሳሽ ሆይ ፤ከደጋ የሚፈስ የሕይወት\nውሃ መገናኛ ነሽ ቅድስት ሆይ ልጅሽ\nይቅርታውን ያድለን ዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          284.5982142857143,
+          492.7083333333333,
+          2367.8571428571427,
+          2707.440476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፬. ሳይተክሏትና ውሃ ሳያጠጧት\nየስመለመች የአሮን በትር በቤተ መቅደስ\nነበረች ለካህናት ዝግጁ ያደረጋት ነበረች፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          284.5982142857143,
+          2871.1309523809523,
+          2367.8571428571427,
+          3285.2678571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e9ae460cc7c337b2c2a95f61d8e8370c4ef505f068555ead4473beab8fe39ca0",
+      "source_sha256": "aeddeda81e4397cf00c30f27519e1add513fd4bd6fe12d943f87778ee465a34a",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_127.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.027,
+      "created_at": "2026-10-24T00:33:15.427591+00:00",
+      "derivative_input": false
+    }
+  }
+}

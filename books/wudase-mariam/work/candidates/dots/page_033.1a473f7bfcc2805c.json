@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a58112536010a598",
+    "object": "chat.completion",
+    "created": 1792797924,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [372, 151, 1366, 227], \"category\": \"Page-header\", \"text\": \"፲፮ የማክሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [256, 282, 1544, 838], \"category\": \"Text\", \"text\": \"፱ ወደ ደብረሲና የወረደ ለሙሴ ሕግን የሰጠ የተራራውን እራስ በጽጋግ በጢስ በጨለማና በነፋስ የሽፈነ ፈርተው የቆሙትንም በነጋሪቶች ድምፅ የገሠፀ የአብ አካልዊ ቃል ነው:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [256, 847, 1536, 1895], \"category\": \"Text\", \"text\": \"፲ በትሕትና የተናገርሽ ተራራ ሆይ ይኸውም ወደ አንቺ የወረደው ነው:: ሰውን የወደደ እርሱ ያለመለወጥ ባንቺ ሰው ሆነ:: እንደ እኛ በሚናገር ሥጋፍጹም ሆኖ አምላክ በመንፈስ ቅዱስ በማህፀኗ አደረና ፍጹም ሰውሆነ:: አዳምን ያድነው ዘንድ ኃጢአቱንም ያስተሠርይለት ዘንድ በሰማያት (በሰማያዊ መዓረግ) ያኖረው ዘንድ በቸርነቱና በይቅርታው ብዛት ወደ ቀድሞው ቦታው ይመልሰው ዘንድ:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [335, 1903, 1532, 1991], \"category\": \"Text\", \"text\": \"፲፩ የድንግልን ገናንነቷን ሊናገሩት\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4844,
+      "completion_tokens": 681,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፮ የማክሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        604.9744897959183,
+        247.17261904761904,
+        2221.4923469387754,
+        371.57738095238096
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፱ ወደ ደብረሲና የወረደ ለሙሴ ሕግን የሰጠ የተራራውን እራስ በጽጋግ በጢስ በጨለማና በነፋስ የሽፈነ ፈርተው የቆሙትንም በነጋሪቶች ድምፅ የገሠፀ የአብ አካልዊ ቃል ነው:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        416.3265306122449,
+        461.60714285714283,
+        2510.969387755102,
+        1371.7261904761904
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲ በትሕትና የተናገርሽ ተራራ ሆይ ይኸውም ወደ አንቺ የወረደው ነው:: ሰውን የወደደ እርሱ ያለመለወጥ ባንቺ ሰው ሆነ:: እንደ እኛ በሚናገር ሥጋፍጹም ሆኖ አምላክ በመንፈስ ቅዱስ በማህፀኗ አደረና ፍጹም ሰውሆነ:: አዳምን ያድነው ዘንድ ኃጢአቱንም ያስተሠርይለት ዘንድ በሰማያት (በሰማያዊ መዓረግ) ያኖረው ዘንድ በቸርነቱና በይቅርታው ብዛት ወደ ቀድሞው ቦታው ይመልሰው ዘንድ:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        416.3265306122449,
+        1386.4583333333333,
+        2497.9591836734694,
+        3101.934523809524
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፲፩ የድንግልን ገናንነቷን ሊናገሩት",
+      "bbox": [
+        544.8022959183673,
+        3115.029761904762,
+        2491.454081632653,
+        3259.0773809523807
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 33,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፮ የማክሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          604.9744897959183,
+          247.17261904761904,
+          2221.4923469387754,
+          371.57738095238096
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፱ ወደ ደብረሲና የወረደ ለሙሴ ሕግን የሰጠ የተራራውን እራስ በጽጋግ በጢስ በጨለማና በነፋስ የሽፈነ ፈርተው የቆሙትንም በነጋሪቶች ድምፅ የገሠፀ የአብ አካልዊ ቃል ነው:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          416.3265306122449,
+          461.60714285714283,
+          2510.969387755102,
+          1371.7261904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ በትሕትና የተናገርሽ ተራራ ሆይ ይኸውም ወደ አንቺ የወረደው ነው:: ሰውን የወደደ እርሱ ያለመለወጥ ባንቺ ሰው ሆነ:: እንደ እኛ በሚናገር ሥጋፍጹም ሆኖ አምላክ በመንፈስ ቅዱስ በማህፀኗ አደረና ፍጹም ሰውሆነ:: አዳምን ያድነው ዘንድ ኃጢአቱንም ያስተሠርይለት ዘንድ በሰማያት (በሰማያዊ መዓረግ) ያኖረው ዘንድ በቸርነቱና በይቅርታው ብዛት ወደ ቀድሞው ቦታው ይመልሰው ዘንድ:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          416.3265306122449,
+          1386.4583333333333,
+          2497.9591836734694,
+          3101.934523809524
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፩ የድንግልን ገናንነቷን ሊናገሩት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          544.8022959183673,
+          3115.029761904762,
+          2491.454081632653,
+          3259.0773809523807
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "1a473f7bfcc2805c9c12bba28d4ccce9871b3735f60328e9556bfc601f33e2ad",
+      "source_sha256": "2edecd49383bfe3cc1225daaff98c8608280c77f0542353eafb88b8e8921cd7f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_033.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 89.543,
+      "created_at": "2026-10-23T23:26:51.540909+00:00",
+      "derivative_input": false
+    }
+  }
+}

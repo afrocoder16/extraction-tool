@@ -23,10 +23,13 @@ import os
 import sys
 from pathlib import Path
 
-import anthropic
-import cv2
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    import anthropic
 
 from .console import configure_utf8_stdio
+from .provenance import atomic_json
 
 DEFAULT_MODEL = "claude-opus-5"
 
@@ -107,106 +110,7 @@ Block types:
   - "ornament": a decorative border. No text.
 """
 
-PAGE_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "page": {"type": "integer"},
-        "notes": {
-            "type": "string",
-            "description": (
-                "Anything a human proofreader should check on this page: damaged "
-                "glyphs, ambiguous colour, text lost to the gutter. Empty if clean."
-            ),
-        },
-        "corrections": {
-            "type": "array",
-            "description": (
-                "Suspected misprints. The spans keep the printed form; these are "
-                "suggestions a human accepts or rejects in the review UI."
-            ),
-            "items": {
-                "type": "object",
-                "properties": {
-                    "printed": {
-                        "type": "string",
-                        "description": "The word exactly as printed, as it appears in the spans.",
-                    },
-                    "suggested": {
-                        "type": "string",
-                        "description": "The standard form you believe was intended.",
-                    },
-                    "reason": {
-                        "type": "string",
-                        "description": "Short plain reason, e.g. 'missing ግ' or 'ሠ should be ሥ'.",
-                    },
-                },
-                "required": ["printed", "suggested", "reason"],
-                "additionalProperties": False,
-            },
-        },
-        "uncertain": {
-            "type": "array",
-            "description": (
-                "Words that could not be read confidently. The text must exactly "
-                "match the best literal reading placed in a span."
-            ),
-            "items": {
-                "type": "object",
-                "properties": {
-                    "text": {"type": "string"},
-                    "why": {"type": "string"},
-                },
-                "required": ["text", "why"],
-                "additionalProperties": False,
-            },
-        },
-        "clipped": {
-            "type": "array",
-            "description": "Lines whose text is lost beyond a scan edge.",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "edge": {"type": "string", "enum": ["top", "bottom"]},
-                    "note": {"type": "string"},
-                },
-                "required": ["edge", "note"],
-                "additionalProperties": False,
-            },
-        },
-        "blocks": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "type": {
-                        "type": "string",
-                        "enum": ["title", "verse", "prayer", "instruction", "ornament"],
-                    },
-                    "verse_num_am": {
-                        "type": "string",
-                        "description": "Ethiopic numeral of the verse, or empty string.",
-                    },
-                    "spans": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "t": {"type": "string"},
-                                "c": {"type": "string", "enum": ["black", "red"]},
-                            },
-                            "required": ["t", "c"],
-                            "additionalProperties": False,
-                        },
-                    },
-                },
-                "required": ["type", "verse_num_am", "spans"],
-                "additionalProperties": False,
-            },
-        },
-    },
-    "required": ["page", "notes", "corrections", "uncertain", "clipped", "blocks"],
-    "additionalProperties": False,
-}
+from .schema import PAGE_SCHEMA
 
 
 def encode_image(path: Path, max_edge: int = MAX_IMAGE_EDGE) -> str:
@@ -216,6 +120,8 @@ def encode_image(path: Path, max_edge: int = MAX_IMAGE_EDGE) -> str:
     PNG would while uploading roughly ten times faster. Quality 92 is well clear
     of any artefact that could blur the boundary between a red and a black glyph.
     """
+    import cv2
+
     image = cv2.imread(str(path), cv2.IMREAD_COLOR)
     if image is None:
         raise FileNotFoundError(f"missing image: {path}")
@@ -380,6 +286,8 @@ def transcribe_pages(
             "transcription stage."
         )
 
+    import anthropic
+
     client = anthropic.Anthropic()
     results = []
     for page in pages:
@@ -390,9 +298,7 @@ def transcribe_pages(
             continue
 
         result = transcribe_page(client, page, work, effort, model, page_images)
-        cache_path.write_text(
-            json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
+        atomic_json(cache_path, result)
         usage = result["_usage"]
         print(
             f"page {page}: {len(result['blocks'])} blocks, "

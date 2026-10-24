@@ -18,11 +18,14 @@ Stages run in dependency order, so `--stage all` is the normal invocation:
 from __future__ import annotations
 
 import argparse
+import json
+import shutil
 import sys
 from pathlib import Path
 
 from . import book as book_mod
-from . import build_book, color_split, layout, render, verify
+from . import build_book
+from .provenance import file_hash, read_json
 from .console import configure_utf8_stdio
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -39,12 +42,16 @@ def parse_pages(spec: str, total: int) -> list[int]:
     for part in spec.split(","):
         part = part.strip()
         if not part:
-            continue
+            raise ValueError("page selection contains an empty entry")
         if "-" in part:
             start, end = part.split("-", 1)
+            if int(start) > int(end):
+                raise ValueError("page range is reversed")
             pages.extend(range(int(start), int(end) + 1))
         else:
             pages.append(int(part))
+    if any(p < 1 or p > total for p in pages):
+        raise ValueError(f"pages must be between 1 and {total}")
     return sorted(set(pages))
 
 
@@ -75,6 +82,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("book", nargs="?", type=Path,
                         help="path to a book folder, e.g. books/wudase-mariam")
     parser.add_argument("--list", action="store_true", help="list available books")
+    parser.add_argument("--doctor", action="store_true", help="check source and runtime without running OCR")
+    parser.add_argument("--provider", choices=["claude", "dots"], help="OCR provider; dots writes review candidates")
+    parser.add_argument("--base-url", help="dots server endpoint including /v1")
+    parser.add_argument("--model", help="served dots model name")
+    parser.add_argument("--image-dir", type=Path, help="explicit image directory for provisional dots candidates")
+    parser.add_argument("--output-dir", type=Path, help="write draft/release exports to this directory")
     parser.add_argument("--stage", default="all", choices=["all", *STAGES])
     parser.add_argument("--pages", default="all", help="'all', '21', '21,147', '21-26'")
     parser.add_argument("--force", action="store_true",
@@ -84,7 +97,7 @@ def main(argv: list[str] | None = None) -> int:
         help="with build, refuse to write unless every content page is verified and approved",
     )
     parser.add_argument("--tesseract", type=Path,
-                        default=Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe"))
+                        default=Path(shutil.which("tesseract") or "tesseract"))
     parser.add_argument("--tessdata", type=Path, default=REPO_ROOT / "engine" / "tessdata")
     args = parser.parse_args(argv)
 
@@ -92,14 +105,25 @@ def main(argv: list[str] | None = None) -> int:
         return list_books()
 
     bk = book_mod.load(args.book)
+    if args.doctor:
+        from .doctor import show
+        return show(bk)
     bk.ensure_dirs()
     run_all = args.stage == "all"
     print(f"book: {bk.title_am} ({bk.book_id})  ->  {bk.root}")
 
-    total = render.page_count(bk.source_pdf) if bk.source_pdf.exists() else 0
+    source_manifest = read_json(bk.work / "source_manifest.json", {})
+    stats = read_json(bk.stats_file, {})
+    total = int(source_manifest.get("pages", 0)) or max((int(p) for p in stats), default=0)
+    if bk.source_pdf.exists() and (args.stage in {"all", "render"}
+            or not source_manifest or source_manifest.get("source_sha256") != file_hash(bk.source_pdf)):
+        from . import render
+        total = render.page_count(bk.source_pdf)
+    provider = args.provider or bk.provider
 
     # --- render -----------------------------------------------------------
     if run_all or args.stage == "render":
+        from . import render
         written = render.render_pdf(
             bk.source_pdf, bk.page_images, bk.dpi, args.force,
             None if args.pages == "all" else parse_pages(args.pages, total or 10_000),
@@ -108,11 +132,17 @@ def main(argv: list[str] | None = None) -> int:
               f"({total - len(written)} already present)")
 
     if not total:
-        total = len(list(bk.page_images.glob("page_*.png")))
-    pages = parse_pages(args.pages, total)
+        total = max((int(p.stem.split("_")[1]) for p in (args.image_dir or bk.page_images).glob("page_*.*")), default=0)
+    try:
+        pages = parse_pages(args.pages, total)
+    except ValueError as error:
+        parser.error(str(error))
+    if not pages:
+        parser.error("no pages available; restore the source PDF or page inventory first")
 
     # --- split ------------------------------------------------------------
     if run_all or args.stage == "split":
+        from . import color_split
         print(f"[split] {len(pages)} pages")
         for stat in color_split.split_pages(bk.page_images, bk.work, pages):
             if stat.is_blank or stat.is_illustration:
@@ -124,13 +154,15 @@ def main(argv: list[str] | None = None) -> int:
                       f"{stat.red_components_dropped_ornament} ornaments dropped")
 
     # Pages with no prayer text are excluded from every later stage.
-    skip = color_split.blank_pages(bk.work, pages)
+    stats = read_json(bk.stats_file, {})
+    skip = {p for p in pages if stats.get(str(p), {}).get("is_blank") or stats.get(str(p), {}).get("is_illustration")}
     if skip:
         pages = [p for p in pages if p not in skip]
         print(f"[skip] {len(skip)} blank/illustration pages excluded; {len(pages)} remain")
 
     # --- layout -----------------------------------------------------------
     if run_all or args.stage == "layout":
+        from . import layout
         print(f"[layout] {len(pages)} pages")
         results = layout.analyse_pages(
             pages, bk.work, args.tesseract, args.tessdata, bk.tesseract_lang,
@@ -142,6 +174,7 @@ def main(argv: list[str] | None = None) -> int:
 
     # --- audit ------------------------------------------------------------
     if run_all or args.stage == "audit":
+        from . import color_split
         path = color_split.write_audit(bk.work)
         stats = color_split.load_stats(bk.work)
         content = [p for p, s in stats.items()
@@ -156,15 +189,24 @@ def main(argv: list[str] | None = None) -> int:
     # --- ocr --------------------------------------------------------------
     if run_all or args.stage == "ocr":
         print(f"[ocr] {len(pages)} pages")
-        from . import transcribe
-
-        transcribe.transcribe_pages(
-            pages, bk.work, bk.effort, args.force,
-            model=bk.model, page_images=bk.page_images,
-        )
+        if provider == "dots":
+            from .dots_ocr import run_pages
+            try:
+                summary = run_pages(bk, pages, image_dir=args.image_dir, base_url=args.base_url,
+                                    model=args.model, force=args.force)
+            except ValueError as error:
+                parser.error(str(error))
+            print(json.dumps(summary, ensure_ascii=False))
+            # Candidates must be reviewed and saved before verification/build.
+            return 2 if summary["failed"] else 0
+        else:
+            from . import transcribe
+            transcribe.transcribe_pages(pages, bk.work, bk.effort, args.force,
+                                        model=bk.model, page_images=bk.page_images)
 
     # --- verify -----------------------------------------------------------
     if run_all or args.stage == "verify":
+        from . import verify
         print(f"[verify] {len(pages)} pages")
         reports = verify.verify_pages(pages, bk.work)
         path = verify.write_report(reports, bk.work)
@@ -190,7 +232,14 @@ def main(argv: list[str] | None = None) -> int:
                 file=sys.stderr,
             )
             return 2
-        full, minified = build_book.write(bk, payload)
+        if args.output_dir:
+            from .provenance import atomic_json
+            full = args.output_dir / f"{bk.book_id}.json"
+            minified = args.output_dir / f"{bk.book_id}.min.json"
+            atomic_json(full, payload)
+            atomic_json(minified, payload, compact=True)
+        else:
+            full, minified = build_book.write(bk, payload)
         print(f"[build] {payload['extraction']['pages_transcribed']} pages -> "
               f"{payload['sections_count']} sections")
         print(

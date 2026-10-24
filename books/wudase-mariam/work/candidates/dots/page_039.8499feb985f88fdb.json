@@ -1,0 +1,238 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-af7f30af069bbff2",
+    "object": "chat.completion",
+    "created": 1792798182,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [173, 163, 1167, 237], \"category\": \"Page-header\", \"text\": \"፲፱ የማክሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [47, 291, 1337, 662], \"category\": \"Text\", \"text\": \"ንጉሥ (የክብር ባለቤት) ይህ ነው፤\\nበይቅርታው ብዛት የዓለምን ኃጢአት\\nያስተሰርይ ዘንድ የመጣው ይህ ነው\\nይላሉ፡፡ ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [56, 685, 1344, 759], \"category\": \"Picture\"}, {\"bbox\": [56, 936, 1344, 1114], \"category\": \"Text\", \"text\": \"ረቡዕ የሚጸለይ አምላክን የወለደች\\nየእመቤታችን የድንግል ማርያም ምስጋና\"}, {\"bbox\": [513, 1217, 965, 1295], \"category\": \"Section-header\", \"text\": \"ሦስተኛ ክፍል\"}, {\"bbox\": [53, 1362, 1344, 2016], \"category\": \"Text\", \"text\": \"፩ የምድር ሁለተኛ የሆንሽ ሰማይ\\nሆይ የሰማያት ሠራዊት (መላእክት)\\nንዕድ ነሽ ይላሉ፡፡ ድንግል ማርያም\\nየምስራቅ ደጅ ናት፡፡ ሙሽራዋ ንጹሕ\\nየሆነ ንጽሕት የሠርግ ቤት ናት፡፡ አብ\\nበሰማይ አይቶ እንዳንቺ ያለ አላገኘምና\\nአንድ ልጁን ላከው በአንችም ሰው ሆነ፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4768,
+      "completion_tokens": 605,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፱ የማክሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        281.34566326530614,
+        266.8154761904762,
+        1897.8635204081634,
+        387.94642857142856
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ንጉሥ (የክብር ባለቤት) ይህ ነው፤\nበይቅርታው ብዛት የዓለምን ኃጢአት\nያስተሰርይ ዘንድ የመጣው ይህ ነው\nይላሉ፡፡ ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        76.43494897959184,
+        476.3392857142857,
+        2174.3303571428573,
+        1083.6309523809523
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Picture",
+      "text": "",
+      "bbox": [
+        91.07142857142857,
+        1121.279761904762,
+        2185.714285714286,
+        1242.4107142857142
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ረቡዕ የሚጸለይ አምላክን የወለደች\nየእመቤታችን የድንግል ማርያም ምስጋና",
+      "bbox": [
+        91.07142857142857,
+        1532.142857142857,
+        2185.714285714286,
+        1823.5119047619048
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Section-header",
+      "text": "ሦስተኛ ክፍል",
+      "bbox": [
+        834.2793367346939,
+        1992.1130952380952,
+        1569.3558673469388,
+        2119.7916666666665
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "፩ የምድር ሁለተኛ የሆንሽ ሰማይ\nሆይ የሰማያት ሠራዊት (መላእክት)\nንዕድ ነሽ ይላሉ፡፡ ድንግል ማርያም\nየምስራቅ ደጅ ናት፡፡ ሙሽራዋ ንጹሕ\nየሆነ ንጽሕት የሠርግ ቤት ናት፡፡ አብ\nበሰማይ አይቶ እንዳንቺ ያለ አላገኘምና\nአንድ ልጁን ላከው በአንችም ሰው ሆነ፡፡",
+      "bbox": [
+        86.19260204081633,
+        2229.464285714286,
+        2185.714285714286,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 39,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፱ የማክሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          281.34566326530614,
+          266.8154761904762,
+          1897.8635204081634,
+          387.94642857142856
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ንጉሥ (የክብር ባለቤት) ይህ ነው፤\nበይቅርታው ብዛት የዓለምን ኃጢአት\nያስተሰርይ ዘንድ የመጣው ይህ ነው\nይላሉ፡፡ ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          76.43494897959184,
+          476.3392857142857,
+          2174.3303571428573,
+          1083.6309523809523
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ረቡዕ የሚጸለይ አምላክን የወለደች\nየእመቤታችን የድንግል ማርያም ምስጋና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          91.07142857142857,
+          1532.142857142857,
+          2185.714285714286,
+          1823.5119047619048
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሦስተኛ ክፍል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          834.2793367346939,
+          1992.1130952380952,
+          1569.3558673469388,
+          2119.7916666666665
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩ የምድር ሁለተኛ የሆንሽ ሰማይ\nሆይ የሰማያት ሠራዊት (መላእክት)\nንዕድ ነሽ ይላሉ፡፡ ድንግል ማርያም\nየምስራቅ ደጅ ናት፡፡ ሙሽራዋ ንጹሕ\nየሆነ ንጽሕት የሠርግ ቤት ናት፡፡ አብ\nበሰማይ አይቶ እንዳንቺ ያለ አላገኘምና\nአንድ ልጁን ላከው በአንችም ሰው ሆነ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          86.19260204081633,
+          2229.464285714286,
+          2185.714285714286,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "8499feb985f88fdb5fe1a34e9445170865a72aab8633fb9f5f85c628c6114630",
+      "source_sha256": "516a13888a997afcee50036aedc797c541070c6d2f310c2ef3823873925471bd",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_039.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.626,
+      "created_at": "2026-10-23T23:31:01.392671+00:00",
+      "derivative_input": false
+    }
+  }
+}

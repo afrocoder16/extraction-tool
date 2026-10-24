@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-890d2a57ff4a3315",
+    "object": "chat.completion",
+    "created": 1792799695,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [186, 91, 1091, 168], \"category\": \"Page-header\", \"text\": \"፴፯ የዓርብ ውዳሴ ማርያም\"}, {\"bbox\": [61, 206, 1325, 792], \"category\": \"Text\", \"text\": \"፮ ንጽሕት ድንግል ማርያም የታመነች አምላክን የወለደች ናት፡፡ ለሰዎች ልጆችም የምሕረት አማላጅ ናት፡፡ ኃጢአታችንን ያስተሠርይልን ዘንድ ወደ ልጅሽ ወደ ክርስቶስ ለምኝልን፡፡ ቅድስት ሆይ ለምኝልን፡፡\"}, {\"bbox\": [75, 787, 1346, 1945], \"category\": \"Text\", \"text\": \"፯ ድንግል ማርያም በቤተመቅደስ አሰምታ ትናገር ነበር፡፡ መልአኩ ቅድስት ድንግል ሆይ ሰላምታ ይገባሻል ብሎ አክብሮ ከነገረኝ ነገር በቀር ምንም ምን ሌላ የማውቀው እንደሌለኝ እግዚአብሔር ያውቃል አለች፡፡ የማይቻለውን ቻልሽ የማይወሰነውንና ምንም ምን የሚወስነው የሌለውን ወሰንሽ፡፡ በክብር ሁሉ ላይ ጸጋን የተመላሽሆይ ምስጋናሽ ይበዛል ክብርሽ ፍጹም ነው፡፡ የአብ ቃል ማደሪያ ሆነሻልና የክርስቲያን ወገኖች ምእመናንን የምትሰበስቢያቸውና\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4802,
+      "completion_tokens": 639,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፴፯ የዓርብ ውዳሴ ማርያም",
+      "bbox": [
+        302.48724489795916,
+        148.95833333333334,
+        1774.266581632653,
+        275.0
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፮ ንጽሕት ድንግል ማርያም የታመነች አምላክን የወለደች ናት፡፡ ለሰዎች ልጆችም የምሕረት አማላጅ ናት፡፡ ኃጢአታችንን ያስተሠርይልን ዘንድ ወደ ልጅሽ ወደ ክርስቶስ ለምኝልን፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        99.20280612244898,
+        337.20238095238096,
+        2154.815051020408,
+        1296.4285714285713
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፯ ድንግል ማርያም በቤተመቅደስ አሰምታ ትናገር ነበር፡፡ መልአኩ ቅድስት ድንግል ሆይ ሰላምታ ይገባሻል ብሎ አክብሮ ከነገረኝ ነገር በቀር ምንም ምን ሌላ የማውቀው እንደሌለኝ እግዚአብሔር ያውቃል አለች፡፡ የማይቻለውን ቻልሽ የማይወሰነውንና ምንም ምን የሚወስነው የሌለውን ወሰንሽ፡፡ በክብር ሁሉ ላይ ጸጋን የተመላሽሆይ ምስጋናሽ ይበዛል ክብርሽ ፍጹም ነው፡፡ የአብ ቃል ማደሪያ ሆነሻልና የክርስቲያን ወገኖች ምእመናንን የምትሰበስቢያቸውና",
+      "bbox": [
+        121.97066326530613,
+        1288.2440476190477,
+        2188.966836734694,
+        3183.779761904762
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 75,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፴፯ የዓርብ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          302.48724489795916,
+          148.95833333333334,
+          1774.266581632653,
+          275.0
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮ ንጽሕት ድንግል ማርያም የታመነች አምላክን የወለደች ናት፡፡ ለሰዎች ልጆችም የምሕረት አማላጅ ናት፡፡ ኃጢአታችንን ያስተሠርይልን ዘንድ ወደ ልጅሽ ወደ ክርስቶስ ለምኝልን፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          99.20280612244898,
+          337.20238095238096,
+          2154.815051020408,
+          1296.4285714285713
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ ድንግል ማርያም በቤተመቅደስ አሰምታ ትናገር ነበር፡፡ መልአኩ ቅድስት ድንግል ሆይ ሰላምታ ይገባሻል ብሎ አክብሮ ከነገረኝ ነገር በቀር ምንም ምን ሌላ የማውቀው እንደሌለኝ እግዚአብሔር ያውቃል አለች፡፡ የማይቻለውን ቻልሽ የማይወሰነውንና ምንም ምን የሚወስነው የሌለውን ወሰንሽ፡፡ በክብር ሁሉ ላይ ጸጋን የተመላሽሆይ ምስጋናሽ ይበዛል ክብርሽ ፍጹም ነው፡፡ የአብ ቃል ማደሪያ ሆነሻልና የክርስቲያን ወገኖች ምእመናንን የምትሰበስቢያቸውና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          121.97066326530613,
+          1288.2440476190477,
+          2188.966836734694,
+          3183.779761904762
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "8de46d0543b58c7c984173b865ebb33de34298dea488dbcc74328150274702a5",
+      "source_sha256": "8d5e4004eb3c4555c653901cfcb2a038117fe2ffd499f355d6089120ccb041d3",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_075.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 84.597,
+      "created_at": "2026-10-23T23:56:17.917667+00:00",
+      "derivative_input": false
+    }
+  }
+}

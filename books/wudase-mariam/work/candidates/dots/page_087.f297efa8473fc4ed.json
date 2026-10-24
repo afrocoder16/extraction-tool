@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a88f7487aa6e417d",
+    "object": "chat.completion",
+    "created": 1792800212,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [205, 101, 1158, 191], \"category\": \"Page-header\", \"text\": \"፵፫ የእሁድ ዉዳሴ ጸሎት\"}, {\"bbox\": [65, 243, 1463, 842], \"category\": \"Text\", \"text\": \"፲ የተባረክሽና ንጽሕት የሆንሽ አዳራሽ ሆይ እነሆ ጌታ የፈጠረውን ዓለም ሁሉ በይቅርታው ብዛት ያድን ዘንድ ካንቺ ወጣ (ተወለደ) ፈጽመን እናመስግነው:: ቸርና ሰውን ወዳጅ ነውና:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [71, 859, 1473, 1885], \"category\": \"Text\", \"text\": \"፲፩ ያለርኩሰት ድንግል የሆንሽ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ፤ የዓለም ሁሉ መክበሪያ ንጽሕት ጽዋ ነሽ:: የማትጠፊ ፋና ነሽ የማትፈርሽ መቅደስ ነሽ:: የቅዱሳን መደገፊያቸው (መጠጊያቸው) የማትለወጪ የሃይማኖት በትር ነሽ፣ ቸር አዳኛችን ወደ ሆነ ልጅሽ ለምኝልን ፈጽሞ ይቅር ይለንና ይምረን ዘንድ ኃጢአታችንንም ያስተሠርይልን ዘንድ:: ቅድስት ሆይ ለምኝልን::\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4739,
+      "completion_tokens": 576,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፵፫ የእሁድ ዉዳሴ ጸሎት",
+      "bbox": [
+        333.38647959183675,
+        165.32738095238096,
+        1883.2270408163265,
+        312.6488095238095
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፲ የተባረክሽና ንጽሕት የሆንሽ አዳራሽ ሆይ እነሆ ጌታ የፈጠረውን ዓለም ሁሉ በይቅርታው ብዛት ያድን ዘንድ ካንቺ ወጣ (ተወለደ) ፈጽመን እናመስግነው:: ቸርና ሰውን ወዳጅ ነውና:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        105.7079081632653,
+        397.76785714285717,
+        2379.2410714285716,
+        1378.2738095238096
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፩ ያለርኩሰት ድንግል የሆንሽ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ፤ የዓለም ሁሉ መክበሪያ ንጽሕት ጽዋ ነሽ:: የማትጠፊ ፋና ነሽ የማትፈርሽ መቅደስ ነሽ:: የቅዱሳን መደገፊያቸው (መጠጊያቸው) የማትለወጪ የሃይማኖት በትር ነሽ፣ ቸር አዳኛችን ወደ ሆነ ልጅሽ ለምኝልን ፈጽሞ ይቅር ይለንና ይምረን ዘንድ ኃጢአታችንንም ያስተሠርይልን ዘንድ:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        115.46556122448979,
+        1406.1011904761904,
+        2395.503826530612,
+        3085.565476190476
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 87,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፵፫ የእሁድ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          333.38647959183675,
+          165.32738095238096,
+          1883.2270408163265,
+          312.6488095238095
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ የተባረክሽና ንጽሕት የሆንሽ አዳራሽ ሆይ እነሆ ጌታ የፈጠረውን ዓለም ሁሉ በይቅርታው ብዛት ያድን ዘንድ ካንቺ ወጣ (ተወለደ) ፈጽመን እናመስግነው:: ቸርና ሰውን ወዳጅ ነውና:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          105.7079081632653,
+          397.76785714285717,
+          2379.2410714285716,
+          1378.2738095238096
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፩ ያለርኩሰት ድንግል የሆንሽ ጸጋን የተመላሽ ሆይ ደስ ይበልሽ፤ የዓለም ሁሉ መክበሪያ ንጽሕት ጽዋ ነሽ:: የማትጠፊ ፋና ነሽ የማትፈርሽ መቅደስ ነሽ:: የቅዱሳን መደገፊያቸው (መጠጊያቸው) የማትለወጪ የሃይማኖት በትር ነሽ፣ ቸር አዳኛችን ወደ ሆነ ልጅሽ ለምኝልን ፈጽሞ ይቅር ይለንና ይምረን ዘንድ ኃጢአታችንንም ያስተሠርይልን ዘንድ:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          115.46556122448979,
+          1406.1011904761904,
+          2395.503826530612,
+          3085.565476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f297efa8473fc4ed0c1ce940d92c17da71d94f94e56b3ba4d32da42e4dbf21ce",
+      "source_sha256": "6c4df31701f2981a8c2a84fc9b1c78780bae691d008f3092f7e50a5cb9504767",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_087.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 77.453,
+      "created_at": "2026-10-24T00:04:47.690555+00:00",
+      "derivative_input": false
+    }
+  }
+}

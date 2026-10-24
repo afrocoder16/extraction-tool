@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-875ec6292f18746b",
+    "object": "chat.completion",
+    "created": 1792804561,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [96, 0, 1436, 158], \"category\": \"Text\", \"text\": \"በአንደራ መባገዋ ወይም በዉሆና በጠላ ትንታ የሚመስሉ በስካር በቁጣ የሚመስሉ\"}, {\"bbox\": [353, 291, 1046, 357], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4303,
+      "completion_tokens": 140,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "በአንደራ መባገዋ ወይም በዉሆና በጠላ ትንታ የሚመስሉ በስካር በቁጣ የሚመስሉ",
+      "bbox": [
+        156.12244897959184,
+        0.0,
+        2335.331632653061,
+        258.6309523809524
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        574.0752551020408,
+        476.3392857142857,
+        1701.0841836734694,
+        584.375
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 186,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "በአንደራ መባገዋ ወይም በዉሆና በጠላ ትንታ የሚመስሉ በስካር በቁጣ የሚመስሉ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          156.12244897959184,
+          0.0,
+          2335.331632653061,
+          258.6309523809524
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          574.0752551020408,
+          476.3392857142857,
+          1701.0841836734694,
+          584.375
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "1c7c8a02ad5e1a7d2e41c34297836440d161a380ae2ae4ba86259f3bcc521713",
+      "source_sha256": "c794e3fec04ab2580b5d66bd279e1ad565e2c7adc7147c5f427530e3e9f67d82",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_186.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 26.826,
+      "created_at": "2026-10-24T01:16:27.832938+00:00",
+      "derivative_input": false
+    }
+  }
+}

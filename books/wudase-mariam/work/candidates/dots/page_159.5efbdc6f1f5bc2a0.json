@@ -1,0 +1,257 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-af4eafb3a6e1174d",
+    "object": "chat.completion",
+    "created": 1792803185,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [248, 166, 861, 244], \"category\": \"Page-header\", \"text\": \"፯ የሰኔ ጎልጎታ\"}, {\"bbox\": [105, 284, 1368, 466], \"category\": \"Text\", \"text\": \"(ምስራች) በነገረኝበቅዱስ ገብርኤል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [105, 476, 1387, 845], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ በምጥ የተያዙትን ሴቶች ማህፀን ይፈታ ዘንድ ስልጣን በሰጠኸው በቅዱስ ሩፋኤል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [105, 855, 1387, 1128], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ የሰላምና የደህንነት መልአክ በሆነ በዑራኤል መልአክ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [105, 1138, 1387, 1509], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ያዘኑትን የሚያረጋጋ በሰዳካኤል መልአክ ጌድቅና ትሁት በሆነ በስላትያል መላእክ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡\"}, {\"bbox\": [105, 1519, 1387, 2016], \"category\": \"Text\", \"text\": \"ልጆ ወዳጆ ሆይ፤ ዙፋንህን በሚሽከሙ ዐርባዕቱ እንሰሳ ኪሩቤል ቅዱስ ቅዱስ ቅዱስ እግዚአብሔር እያሉ አኗኗርህን በማመስገን መንበርህን በሚያጥኑ ሃያ ዐራቱ ካህናተ ሰማይ (ሱራፌል) ቃል\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4916,
+      "completion_tokens": 753,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፯ የሰኔ ጎልጎታ",
+      "bbox": [
+        403.31632653061223,
+        271.7261904761905,
+        1400.2232142857142,
+        399.4047619047619
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "(ምስራች) በነገረኝበቅዱስ ገብርኤል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        170.75892857142858,
+        464.8809523809524,
+        2224.7448979591836,
+        762.797619047619
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ በምጥ የተያዙትን ሴቶች ማህፀን ይፈታ ዘንድ ስልጣን በሰጠኸው በቅዱስ ሩፋኤል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        170.75892857142858,
+        779.1666666666666,
+        2255.644132653061,
+        1383.1845238095239
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ የሰላምና የደህንነት መልአክ በሆነ በዑራኤል መልአክ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        170.75892857142858,
+        1399.5535714285713,
+        2255.644132653061,
+        1846.4285714285713
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ያዘኑትን የሚያረጋጋ በሰዳካኤል መልአክ ጌድቅና ትሁት በሆነ በስላትያል መላእክ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+      "bbox": [
+        170.75892857142858,
+        1862.797619047619,
+        2255.644132653061,
+        2470.089285714286
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Text",
+      "text": "ልጆ ወዳጆ ሆይ፤ ዙፋንህን በሚሽከሙ ዐርባዕቱ እንሰሳ ኪሩቤል ቅዱስ ቅዱስ ቅዱስ እግዚአብሔር እያሉ አኗኗርህን በማመስገን መንበርህን በሚያጥኑ ሃያ ዐራቱ ካህናተ ሰማይ (ሱራፌል) ቃል",
+      "bbox": [
+        170.75892857142858,
+        2486.4583333333335,
+        2255.644132653061,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 159,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          403.31632653061223,
+          271.7261904761905,
+          1400.2232142857142,
+          399.4047619047619
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "(ምስራች) በነገረኝበቅዱስ ገብርኤል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          170.75892857142858,
+          464.8809523809524,
+          2224.7448979591836,
+          762.797619047619
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ በምጥ የተያዙትን ሴቶች ማህፀን ይፈታ ዘንድ ስልጣን በሰጠኸው በቅዱስ ሩፋኤል ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          170.75892857142858,
+          779.1666666666666,
+          2255.644132653061,
+          1383.1845238095239
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ የሰላምና የደህንነት መልአክ በሆነ በዑራኤል መልአክ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          170.75892857142858,
+          1399.5535714285713,
+          2255.644132653061,
+          1846.4285714285713
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ያዘኑትን የሚያረጋጋ በሰዳካኤል መልአክ ጌድቅና ትሁት በሆነ በስላትያል መላእክ ቃል ኪዳን ትገባልኝ ዘንድ እማልድሃለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          170.75892857142858,
+          1862.797619047619,
+          2255.644132653061,
+          2470.089285714286
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ልጆ ወዳጆ ሆይ፤ ዙፋንህን በሚሽከሙ ዐርባዕቱ እንሰሳ ኪሩቤል ቅዱስ ቅዱስ ቅዱስ እግዚአብሔር እያሉ አኗኗርህን በማመስገን መንበርህን በሚያጥኑ ሃያ ዐራቱ ካህናተ ሰማይ (ሱራፌል) ቃል",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          170.75892857142858,
+          2486.4583333333335,
+          2255.644132653061,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "5efbdc6f1f5bc2a035ab6733241ace63f0032c6adceb34a1db0798e61665d6a4",
+      "source_sha256": "adebb854507440d5670cae3d7175c8d040b72539119e9b19f159da38a4db6819",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_159.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 97.539,
+      "created_at": "2026-10-24T00:54:41.328457+00:00",
+      "derivative_input": false
+    }
+  }
+}

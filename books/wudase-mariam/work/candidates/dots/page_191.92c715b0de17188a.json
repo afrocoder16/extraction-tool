@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-ae6f2a909e8bb9a1",
+    "object": "chat.completion",
+    "created": 1792804748,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [203, 171, 825, 247], \"category\": \"Page-header\", \"text\": \"፳፫ የሰኔ ጎልጎታ\"}, {\"bbox\": [79, 295, 1377, 1989], \"category\": \"Text\", \"text\": \"ከሱጋር አይቆሙም፡፡ ሊቀርቡትም አይችሉም፡፡ዳግመኛም እኔ በዚያ አስፈሪ በሆነ ሰአት እረዳት አሆነዋለሁ፡፡ እኔና የባህርይ አባቴ አብ የባህርይ ሕይወቴ የእዉነት መንፈስ ጳራቅሊጦስ ወደ እርሱ እንመጣለን አስራ ሁለቱ ሊቃነ መላእክትም ከዝርግፍ ወርቅ ጋር የወርቅ ጥላቸዉን ይዘው ይመጣሉ፡፡ ቀስተ ደመና በመሰለ በናርዱ ሽቱ መብረቅም በመሰለ የእሳት ሰረገላ ሆነን ይህችን ጸሎት የያዘ ሰው እንቀበለው ዘንድ እስከ አምስተኛው ሰማይ ድረስ እንወርዳለን፤ በደረቴ አቅፌ ባህረ እሳትን አሻግረዋለሁ፡፡ ወደ መንበረ መንግስቴም አቀርበዋለሁ፡፡ መንፈሳዊያን የሰራዊት መላእክት አለቆችም በአዩት ጊዜ ደስ ይላቸዋል፡፡ ይህቺን ጸሎት በንጽህና እየጸለየ የያዛትን ሰው በክንፋቸው\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4769,
+      "completion_tokens": 606,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳፫ የሰኔ ጎልጎታ",
+      "bbox": [
+        330.13392857142856,
+        279.9107142857143,
+        1341.6772959183672,
+        404.3154761904762
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ከሱጋር አይቆሙም፡፡ ሊቀርቡትም አይችሉም፡፡ዳግመኛም እኔ በዚያ አስፈሪ በሆነ ሰአት እረዳት አሆነዋለሁ፡፡ እኔና የባህርይ አባቴ አብ የባህርይ ሕይወቴ የእዉነት መንፈስ ጳራቅሊጦስ ወደ እርሱ እንመጣለን አስራ ሁለቱ ሊቃነ መላእክትም ከዝርግፍ ወርቅ ጋር የወርቅ ጥላቸዉን ይዘው ይመጣሉ፡፡ ቀስተ ደመና በመሰለ በናርዱ ሽቱ መብረቅም በመሰለ የእሳት ሰረገላ ሆነን ይህችን ጸሎት የያዘ ሰው እንቀበለው ዘንድ እስከ አምስተኛው ሰማይ ድረስ እንወርዳለን፤ በደረቴ አቅፌ ባህረ እሳትን አሻግረዋለሁ፡፡ ወደ መንበረ መንግስቴም አቀርበዋለሁ፡፡ መንፈሳዊያን የሰራዊት መላእክት አለቆችም በአዩት ጊዜ ደስ ይላቸዋል፡፡ ይህቺን ጸሎት በንጽህና እየጸለየ የያዛትን ሰው በክንፋቸው",
+      "bbox": [
+        128.47576530612244,
+        482.88690476190476,
+        2239.3813775510203,
+        3255.8035714285716
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 191,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳፫ የሰኔ ጎልጎታ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          330.13392857142856,
+          279.9107142857143,
+          1341.6772959183672,
+          404.3154761904762
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከሱጋር አይቆሙም፡፡ ሊቀርቡትም አይችሉም፡፡ዳግመኛም እኔ በዚያ አስፈሪ በሆነ ሰአት እረዳት አሆነዋለሁ፡፡ እኔና የባህርይ አባቴ አብ የባህርይ ሕይወቴ የእዉነት መንፈስ ጳራቅሊጦስ ወደ እርሱ እንመጣለን አስራ ሁለቱ ሊቃነ መላእክትም ከዝርግፍ ወርቅ ጋር የወርቅ ጥላቸዉን ይዘው ይመጣሉ፡፡ ቀስተ ደመና በመሰለ በናርዱ ሽቱ መብረቅም በመሰለ የእሳት ሰረገላ ሆነን ይህችን ጸሎት የያዘ ሰው እንቀበለው ዘንድ እስከ አምስተኛው ሰማይ ድረስ እንወርዳለን፤ በደረቴ አቅፌ ባህረ እሳትን አሻግረዋለሁ፡፡ ወደ መንበረ መንግስቴም አቀርበዋለሁ፡፡ መንፈሳዊያን የሰራዊት መላእክት አለቆችም በአዩት ጊዜ ደስ ይላቸዋል፡፡ ይህቺን ጸሎት በንጽህና እየጸለየ የያዛትን ሰው በክንፋቸው",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          128.47576530612244,
+          482.88690476190476,
+          2239.3813775510203,
+          3255.8035714285716
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "92c715b0de17188a7fcfb96e439adcf9a09bde69a643d269ed01e980048b2ba7",
+      "source_sha256": "741bcb9ea4770b72203b53c63d83c4e0ebe8015a4e13559e115d9f13a6494568",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_191.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 80.851,
+      "created_at": "2026-10-24T01:20:27.924671+00:00",
+      "derivative_input": false
+    }
+  }
+}

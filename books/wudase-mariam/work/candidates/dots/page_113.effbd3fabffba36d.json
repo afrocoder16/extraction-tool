@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-814868eb1b6202f8",
+    "object": "chat.completion",
+    "created": 1792801317,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [307, 185, 977, 253], \"category\": \"Page-header\", \"text\": \"፺ አንቀጸ ብርሃን\"}, {\"bbox\": [186, 306, 1485, 1973], \"category\": \"Text\", \"text\": \"የብርሃን መጋረጃና የማይመረመር\\nየክብር (የጌትነት) ዙፋን አንቺ ነሽ ቅድስት\\nማሪያም ሆይ መንፈስ ቅዱስ መጥቶ\\nስላደረብሽና የልዑል ሃይል ስለጸለለብሽ\\nቅድስተ ቅዱሳን (ከተለዩ) የተለየሽ\\nበሆነች መቅደስ መሰልንሽ የብርሃን\\nመጋረጃ ነሽ ማለታችን ግን የአብ ቃል\\nየሆነ መድሀኒታችን ኢየሱስ ክርስቶስ\\nበማህፀንሽ ስለተሰወረ ነው:: ይኸውም\\nበላይ ያለ የሁሉ ጌታ ነው:: መላእክትና\\nየመላእክት አለቆች መናብርት ስልጣናት\\nአጋዕዝት ሓይላት ሊቃናት መኳንንት\\nየሚያመሰግኑት ነው:: ልጅሽንም በዚህ\\nዓለም በወለድሽው ጊዜ ዓይኖቻቸው\\nብዙዎች የሆኑ ኪሩቤልና ክንፎቻቸው\\nስድስት የሆኑ ሱራፌል በበረት ውስጥ\\nጋረዱሽ:: የብርሃን ደመናዎችም\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4737,
+      "completion_tokens": 574,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፺ አንቀጸ ብርሃን",
+      "bbox": [
+        499.2665816326531,
+        302.82738095238096,
+        1588.8711734693877,
+        414.13690476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "የብርሃን መጋረጃና የማይመረመር\nየክብር (የጌትነት) ዙፋን አንቺ ነሽ ቅድስት\nማሪያም ሆይ መንፈስ ቅዱስ መጥቶ\nስላደረብሽና የልዑል ሃይል ስለጸለለብሽ\nቅድስተ ቅዱሳን (ከተለዩ) የተለየሽ\nበሆነች መቅደስ መሰልንሽ የብርሃን\nመጋረጃ ነሽ ማለታችን ግን የአብ ቃል\nየሆነ መድሀኒታችን ኢየሱስ ክርስቶስ\nበማህፀንሽ ስለተሰወረ ነው:: ይኸውም\nበላይ ያለ የሁሉ ጌታ ነው:: መላእክትና\nየመላእክት አለቆች መናብርት ስልጣናት\nአጋዕዝት ሓይላት ሊቃናት መኳንንት\nየሚያመሰግኑት ነው:: ልጅሽንም በዚህ\nዓለም በወለድሽው ጊዜ ዓይኖቻቸው\nብዙዎች የሆኑ ኪሩቤልና ክንፎቻቸው\nስድስት የሆኑ ሱራፌል በበረት ውስጥ\nጋረዱሽ:: የብርሃን ደመናዎችም",
+      "bbox": [
+        302.48724489795916,
+        500.89285714285717,
+        2415.019132653061,
+        3229.6130952380954
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 113,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፺ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          499.2665816326531,
+          302.82738095238096,
+          1588.8711734693877,
+          414.13690476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የብርሃን መጋረጃና የማይመረመር\nየክብር (የጌትነት) ዙፋን አንቺ ነሽ ቅድስት\nማሪያም ሆይ መንፈስ ቅዱስ መጥቶ\nስላደረብሽና የልዑል ሃይል ስለጸለለብሽ\nቅድስተ ቅዱሳን (ከተለዩ) የተለየሽ\nበሆነች መቅደስ መሰልንሽ የብርሃን\nመጋረጃ ነሽ ማለታችን ግን የአብ ቃል\nየሆነ መድሀኒታችን ኢየሱስ ክርስቶስ\nበማህፀንሽ ስለተሰወረ ነው:: ይኸውም\nበላይ ያለ የሁሉ ጌታ ነው:: መላእክትና\nየመላእክት አለቆች መናብርት ስልጣናት\nአጋዕዝት ሓይላት ሊቃናት መኳንንት\nየሚያመሰግኑት ነው:: ልጅሽንም በዚህ\nዓለም በወለድሽው ጊዜ ዓይኖቻቸው\nብዙዎች የሆኑ ኪሩቤልና ክንፎቻቸው\nስድስት የሆኑ ሱራፌል በበረት ውስጥ\nጋረዱሽ:: የብርሃን ደመናዎችም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          302.48724489795916,
+          500.89285714285717,
+          2415.019132653061,
+          3229.6130952380954
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "effbd3fabffba36d20fa72dc0c47f7f5b1a97c8df59cab7e204375c910e2eb8e",
+      "source_sha256": "48137205354c517e050be09e5fba29b521a8be3f2c0b43923dc70c635f4bb19e",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_113.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 77.543,
+      "created_at": "2026-10-24T00:23:13.262523+00:00",
+      "derivative_input": false
+    }
+  }
+}

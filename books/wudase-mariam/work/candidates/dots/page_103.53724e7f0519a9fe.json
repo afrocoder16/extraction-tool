@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a27ec95df94eaccf",
+    "object": "chat.completion",
+    "created": 1792800893,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [175, 175, 862, 245], \"category\": \"Page-header\", \"text\": \"፷፩ አንቀጸ ብርሃን\"}, {\"bbox\": [45, 297, 1366, 1097], \"category\": \"Text\", \"text\": \"አብ በስልጣኑ አፀናሽ መንፈስ ቅዱስም\\nጌለለብሽ (አነጻሽ) የልዑል ኃይልም\\nአጸናሽ፡፡ ኢየሱስም ያንቺን ስጋ ለበሰ፡፡\\nበታላቅ ቃል ጮሆ መጽሃፍ የህይወት\\nውሃ ምንጭ ከሆዱ የፈልቃል እንዳለ\\nማንም የተጠማ ቢኖር ወደኔ መጥቶ\\nይጠጣ አለ፡፡ ቅድስት ሆይ ልጅሽ\\nይቅርታዉን ያድለን ዘንድ ለምኝልን፡፡\"}, {\"bbox\": [51, 1184, 1381, 2016], \"category\": \"Text\", \"text\": \"፭. አብ አስቀድሞ በየውጣ ነገረን\\nየውጣ የተባሉ በእግዚአብሔር ጣቶች\\nየተፃፉ አሥርቱ ቃላት ናቸው፡፡ ልጅህ\\nጌታችን መድሃኒታችን ኢየሱስ ክርስቶስ\\nአንተ ብቻ አባቱ እንደሆንክ እርሱም ብቻ\\nልጅህ እንደሆነ አስተማረን፡፡ እንዲሁም\\nበሰማይ እናት በምድር አባት የለም\\nብለን እናምናለን መምጣቱን ከአባቱና\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4757,
+      "completion_tokens": 594,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፷፩ አንቀጸ ብርሃን",
+      "bbox": [
+        284.5982142857143,
+        286.4583333333333,
+        1401.8494897959183,
+        401.0416666666667
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "አብ በስልጣኑ አፀናሽ መንፈስ ቅዱስም\nጌለለብሽ (አነጻሽ) የልዑል ኃይልም\nአጸናሽ፡፡ ኢየሱስም ያንቺን ስጋ ለበሰ፡፡\nበታላቅ ቃል ጮሆ መጽሃፍ የህይወት\nውሃ ምንጭ ከሆዱ የፈልቃል እንዳለ\nማንም የተጠማ ቢኖር ወደኔ መጥቶ\nይጠጣ አለ፡፡ ቅድስት ሆይ ልጅሽ\nይቅርታዉን ያድለን ዘንድ ለምኝልን፡፡",
+      "bbox": [
+        73.18239795918367,
+        486.1607142857143,
+        2221.4923469387754,
+        1795.6845238095239
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፭. አብ አስቀድሞ በየውጣ ነገረን\nየውጣ የተባሉ በእግዚአብሔር ጣቶች\nየተፃፉ አሥርቱ ቃላት ናቸው፡፡ ልጅህ\nጌታችን መድሃኒታችን ኢየሱስ ክርስቶስ\nአንተ ብቻ አባቱ እንደሆንክ እርሱም ብቻ\nልጅህ እንደሆነ አስተማረን፡፡ እንዲሁም\nበሰማይ እናት በምድር አባት የለም\nብለን እናምናለን መምጣቱን ከአባቱና",
+      "bbox": [
+        82.94005102040816,
+        1938.095238095238,
+        2245.8864795918366,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 103,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፷፩ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          284.5982142857143,
+          286.4583333333333,
+          1401.8494897959183,
+          401.0416666666667
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "አብ በስልጣኑ አፀናሽ መንፈስ ቅዱስም\nጌለለብሽ (አነጻሽ) የልዑል ኃይልም\nአጸናሽ፡፡ ኢየሱስም ያንቺን ስጋ ለበሰ፡፡\nበታላቅ ቃል ጮሆ መጽሃፍ የህይወት\nውሃ ምንጭ ከሆዱ የፈልቃል እንዳለ\nማንም የተጠማ ቢኖር ወደኔ መጥቶ\nይጠጣ አለ፡፡ ቅድስት ሆይ ልጅሽ\nይቅርታዉን ያድለን ዘንድ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          73.18239795918367,
+          486.1607142857143,
+          2221.4923469387754,
+          1795.6845238095239
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፭. አብ አስቀድሞ በየውጣ ነገረን\nየውጣ የተባሉ በእግዚአብሔር ጣቶች\nየተፃፉ አሥርቱ ቃላት ናቸው፡፡ ልጅህ\nጌታችን መድሃኒታችን ኢየሱስ ክርስቶስ\nአንተ ብቻ አባቱ እንደሆንክ እርሱም ብቻ\nልጅህ እንደሆነ አስተማረን፡፡ እንዲሁም\nበሰማይ እናት በምድር አባት የለም\nብለን እናምናለን መምጣቱን ከአባቱና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          82.94005102040816,
+          1938.095238095238,
+          2245.8864795918366,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "53724e7f0519a9fe19d2820c1f22f87dc4641f1295ddb0857b28bd31f7ec6800",
+      "source_sha256": "b1913d968168230f2a0862a9914dd39174c4af644b2291b7afc342e595f37db9",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_103.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 79.382,
+      "created_at": "2026-10-24T00:16:10.671375+00:00",
+      "derivative_input": false
+    }
+  }
+}

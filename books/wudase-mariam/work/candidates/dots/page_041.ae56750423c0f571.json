@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b604ebcee4029729",
+    "object": "chat.completion",
+    "created": 1792798263,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [375, 174, 1284, 253], \"category\": \"Page-header\", \"text\": \"፳ የረቡዕ ውዳሴ ማርያም\"}, {\"bbox\": [254, 297, 1527, 566], \"category\": \"Text\", \"text\": \"፪ አምላክን የወለድሽ እመቤታችን ሆይ ትውልድ ሁሉ አንችን ብቻ ያመሰግኑሻል፡፡\"}, {\"bbox\": [231, 588, 1521, 1476], \"category\": \"Text\", \"text\": \"፫ የእግዚአብሔር ሀገር (ከተማ) ሆይ ነቢያት ድንቅ ድንቅ ነገርን ተናገሩልሽ፤ ደስ የተሰኙ የጻድቃን ማደሪያ ሆነሻልና የምድር ነገሥታት ሁሉ በብርሃንሽ ይሄዳሉ፡፡ ሕዝቡም ሠራዊቶቻቸውም በብርሃንሽ ይሄዳሉ፤ ማርያም ሆይ ትውልድ ሁሉ ያመሰግኑሻል፡፡ ካንቺ ለተወለደውም ይሰግዱለታል ያገኑታልም፡፡ ቅድስት ሆይ ለምኝልን፡፡\"}, {\"bbox\": [216, 1465, 1501, 2016], \"category\": \"Text\", \"text\": \"፬ የዝናብ ውሃ የታየብሽ የእውነት ደመና አንቺ ነሽ፡፡ አብ የልጁ ምልክት አደረገሽ መንፈስ ቅዱስ አደረብሽ የልዑል ኃይል ጋረደሽ፤ ማርያም ሆይ ለዘለዓለም የሚኖር የአብን ልጅ ቃልን የወለድሽልን መጥቶም ከኃወኔት ኣየነን።\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4822,
+      "completion_tokens": 659,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፳ የረቡዕ ውዳሴ ማርያም",
+      "bbox": [
+        609.8533163265306,
+        284.82142857142856,
+        2088.137755102041,
+        414.13690476190476
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፪ አምላክን የወለድሽ እመቤታችን ሆይ ትውልድ ሁሉ አንችን ብቻ ያመሰግኑሻል፡፡",
+      "bbox": [
+        413.07397959183675,
+        486.1607142857143,
+        2483.3227040816328,
+        926.4880952380952
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፫ የእግዚአብሔር ሀገር (ከተማ) ሆይ ነቢያት ድንቅ ድንቅ ነገርን ተናገሩልሽ፤ ደስ የተሰኙ የጻድቃን ማደሪያ ሆነሻልና የምድር ነገሥታት ሁሉ በብርሃንሽ ይሄዳሉ፡፡ ሕዝቡም ሠራዊቶቻቸውም በብርሃንሽ ይሄዳሉ፤ ማርያም ሆይ ትውልድ ሁሉ ያመሰግኑሻል፡፡ ካንቺ ለተወለደውም ይሰግዱለታል ያገኑታልም፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+      "bbox": [
+        375.66964285714283,
+        962.5,
+        2473.565051020408,
+        2416.0714285714284
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፬ የዝናብ ውሃ የታየብሽ የእውነት ደመና አንቺ ነሽ፡፡ አብ የልጁ ምልክት አደረገሽ መንፈስ ቅዱስ አደረብሽ የልዑል ኃይል ጋረደሽ፤ ማርያም ሆይ ለዘለዓለም የሚኖር የአብን ልጅ ቃልን የወለድሽልን መጥቶም ከኃወኔት ኣየነን።",
+      "bbox": [
+        351.2755102040816,
+        2398.065476190476,
+        2441.0395408163267,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 41,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፳ የረቡዕ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          609.8533163265306,
+          284.82142857142856,
+          2088.137755102041,
+          414.13690476190476
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ አምላክን የወለድሽ እመቤታችን ሆይ ትውልድ ሁሉ አንችን ብቻ ያመሰግኑሻል፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          413.07397959183675,
+          486.1607142857143,
+          2483.3227040816328,
+          926.4880952380952
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ የእግዚአብሔር ሀገር (ከተማ) ሆይ ነቢያት ድንቅ ድንቅ ነገርን ተናገሩልሽ፤ ደስ የተሰኙ የጻድቃን ማደሪያ ሆነሻልና የምድር ነገሥታት ሁሉ በብርሃንሽ ይሄዳሉ፡፡ ሕዝቡም ሠራዊቶቻቸውም በብርሃንሽ ይሄዳሉ፤ ማርያም ሆይ ትውልድ ሁሉ ያመሰግኑሻል፡፡ ካንቺ ለተወለደውም ይሰግዱለታል ያገኑታልም፡፡ ቅድስት ሆይ ለምኝልን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          375.66964285714283,
+          962.5,
+          2473.565051020408,
+          2416.0714285714284
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬ የዝናብ ውሃ የታየብሽ የእውነት ደመና አንቺ ነሽ፡፡ አብ የልጁ ምልክት አደረገሽ መንፈስ ቅዱስ አደረብሽ የልዑል ኃይል ጋረደሽ፤ ማርያም ሆይ ለዘለዓለም የሚኖር የአብን ልጅ ቃልን የወለድሽልን መጥቶም ከኃወኔት ኣየነን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          351.2755102040816,
+          2398.065476190476,
+          2441.0395408163267,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "ae56750423c0f57146550087d2628693057a54741f8c11de2f61093f69d043ab",
+      "source_sha256": "e72be5a0af9f321aa765d32e60965f9d671ce2906e6ff3b5de21b95db645fc9f",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_041.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 86.938,
+      "created_at": "2026-10-23T23:32:28.362375+00:00",
+      "derivative_input": false
+    }
+  }
+}

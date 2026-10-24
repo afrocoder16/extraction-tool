@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a4625e8ee6c4156c",
+    "object": "chat.completion",
+    "created": 1792801644,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [199, 177, 896, 256], \"category\": \"Page-header\", \"text\": \"፰ አንቀጸ ብርሃን\"}, {\"bbox\": [75, 313, 1421, 1845], \"category\": \"Text\", \"text\": \"ጌታ የባሕርይ አምላክ ከሆነ የተገኘ የእውነተኛው የሁሉ ጌታ የተወለደ እንጂ የተፈጠረ ያይደለ በህልውና በአኗኗር ከአባቱ ጋር የተካከለ በሰማይና በምድር ያለው ሁሉ በእርሱ የተፈጠረ እኛን ሰዎችን ስለማዳን የወረደ ክርስቶስ ከቅድስት ድንግል ማሪያም ፈፅሞ ሳው ሆነ፡፡ በመምጣቱም አበራልን ፍጹም ደስታንም አበሰረን (ነገረን) ወደ አባቱም አቀረበን (አስታረቀን) ወደ ሕይወት ጎዳናም መራን የዘላለም ህይወትንም ሰጠን፡፡ ነቢዩ ኢሳያስ እርሱን በማመን ከህጉ የተነሳ በትንቢት እያደነቀ ህግህ በምድር ላይ ብርሃን ነው አለ፡፡ አረጋዊ፤ ካህንና የእግዚአብሔርን\"}, {\"bbox\": [85, 1855, 1421, 2016], \"category\": \"Text\", \"text\": \"ትእዛዝ የጠበቀ ጌዲቅና ንጹህ ዘካሪያስ ፈፅሞ አያነቀ፡፡ መናገርም ኾመረና\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4784,
+      "completion_tokens": 621,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፰ አንቀጸ ብርሃን",
+      "bbox": [
+        323.62882653061223,
+        289.73214285714283,
+        1457.142857142857,
+        419.04761904761904
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ጌታ የባሕርይ አምላክ ከሆነ የተገኘ የእውነተኛው የሁሉ ጌታ የተወለደ እንጂ የተፈጠረ ያይደለ በህልውና በአኗኗር ከአባቱ ጋር የተካከለ በሰማይና በምድር ያለው ሁሉ በእርሱ የተፈጠረ እኛን ሰዎችን ስለማዳን የወረደ ክርስቶስ ከቅድስት ድንግል ማሪያም ፈፅሞ ሳው ሆነ፡፡ በመምጣቱም አበራልን ፍጹም ደስታንም አበሰረን (ነገረን) ወደ አባቱም አቀረበን (አስታረቀን) ወደ ሕይወት ጎዳናም መራን የዘላለም ህይወትንም ሰጠን፡፡ ነቢዩ ኢሳያስ እርሱን በማመን ከህጉ የተነሳ በትንቢት እያደነቀ ህግህ በምድር ላይ ብርሃን ነው አለ፡፡ አረጋዊ፤ ካህንና የእግዚአብሔርን",
+      "bbox": [
+        121.97066326530613,
+        512.3511904761905,
+        2310.9375,
+        3020.089285714286
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ትእዛዝ የጠበቀ ጌዲቅና ንጹህ ዘካሪያስ ፈፅሞ አያነቀ፡፡ መናገርም ኾመረና",
+      "bbox": [
+        138.23341836734693,
+        3036.4583333333335,
+        2310.9375,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 121,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፰ አንቀጸ ብርሃን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          323.62882653061223,
+          289.73214285714283,
+          1457.142857142857,
+          419.04761904761904
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ጌታ የባሕርይ አምላክ ከሆነ የተገኘ የእውነተኛው የሁሉ ጌታ የተወለደ እንጂ የተፈጠረ ያይደለ በህልውና በአኗኗር ከአባቱ ጋር የተካከለ በሰማይና በምድር ያለው ሁሉ በእርሱ የተፈጠረ እኛን ሰዎችን ስለማዳን የወረደ ክርስቶስ ከቅድስት ድንግል ማሪያም ፈፅሞ ሳው ሆነ፡፡ በመምጣቱም አበራልን ፍጹም ደስታንም አበሰረን (ነገረን) ወደ አባቱም አቀረበን (አስታረቀን) ወደ ሕይወት ጎዳናም መራን የዘላለም ህይወትንም ሰጠን፡፡ ነቢዩ ኢሳያስ እርሱን በማመን ከህጉ የተነሳ በትንቢት እያደነቀ ህግህ በምድር ላይ ብርሃን ነው አለ፡፡ አረጋዊ፤ ካህንና የእግዚአብሔርን",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          121.97066326530613,
+          512.3511904761905,
+          2310.9375,
+          3020.089285714286
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ትእዛዝ የጠበቀ ጌዲቅና ንጹህ ዘካሪያስ ፈፅሞ አያነቀ፡፡ መናገርም ኾመረና",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          138.23341836734693,
+          3036.4583333333335,
+          2310.9375,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "b70ffb31393c4f31b3329271c40fe5769371aaa7faa0e0534757fb3834c252db",
+      "source_sha256": "ab22934ab51d948ed5908fd9a7c1ec0f23d1294d4a81a0dd03a0e538ad850a99",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_121.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 82.824,
+      "created_at": "2026-10-24T00:28:44.947662+00:00",
+      "derivative_input": false
+    }
+  }
+}

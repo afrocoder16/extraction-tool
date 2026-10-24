@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-8f5d53e9196b9d2c",
+    "object": "chat.completion",
+    "created": 1792805591,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [267, 155, 915, 231], \"category\": \"Page-header\", \"text\": \"፪ የኅሊና·ጸሎት\"}, {\"bbox\": [147, 276, 1436, 763], \"category\": \"Text\", \"text\": \"ቸል አትበያት፡፡ ዝምብለሽ አቶመልከቻት በቆምኩበት ቦታ ቆመሽ ከንዋመ ሐኬት አንቂኝ ቅብዓ መንፈስ ቅዱስን ቀቢኝ፡፡ በመለኮት ጨውነት ነገሬን አጣፍጠሽ በሁሉ ዘንድ መወደድን አትርፊልኝ፡፡\"}, {\"bbox\": [147, 777, 1436, 1553], \"category\": \"Text\", \"text\": \"፫ ድንግል ሆይ፤ የልጅሽን በረኽት በኔላይ አዝንቢ የሚፃረረኝን የሚቃወመኝን ሰው አፉን ለጉሚ አንደበቱን ዲዳ አድርጊ ጉሮሮውን ዝጊ፡፡ ጆሮዉን አደንቁሪ ሀይሉንም አድክሚ በልጅሽ መለኮታዊ ሰይፍ አንገቱን ቆርጠሽ ጣይዉ በላዬ የሚያንዥብበዉን የጠላት ዲያቢሎስን ክንፍ ስበሪ አሜን፡፡\"}, {\"bbox\": [147, 1562, 1436, 2016], \"category\": \"Text\", \"text\": \"፬ ድንግል ሆይ፤ የሁላችን መመኪያ ጠባቂያችን ነሽና ከቀን ወራሪ ከለሊት ሰባሪ አድኝኝ፡፡ የሕይወት መሸጋገሪያ ድልድይ ነሽና ከባህር ጠልቆ ከገደል ወድፅ ካመመቅ ኣዎሻኝ ኣማን፡፡\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4847,
+      "completion_tokens": 684,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፪ የኅሊና·ጸሎት",
+      "bbox": [
+        434.2155612244898,
+        253.7202380952381,
+        1488.0420918367347,
+        378.125
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ቸል አትበያት፡፡ ዝምብለሽ አቶመልከቻት በቆምኩበት ቦታ ቆመሽ ከንዋመ ሐኬት አንቂኝ ቅብዓ መንፈስ ቅዱስን ቀቢኝ፡፡ በመለኮት ጨውነት ነገሬን አጣፍጠሽ በሁሉ ዘንድ መወደድን አትርፊልኝ፡፡",
+      "bbox": [
+        239.0625,
+        451.7857142857143,
+        2335.331632653061,
+        1248.9583333333333
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፫ ድንግል ሆይ፤ የልጅሽን በረኽት በኔላይ አዝንቢ የሚፃረረኝን የሚቃወመኝን ሰው አፉን ለጉሚ አንደበቱን ዲዳ አድርጊ ጉሮሮውን ዝጊ፡፡ ጆሮዉን አደንቁሪ ሀይሉንም አድክሚ በልጅሽ መለኮታዊ ሰይፍ አንገቱን ቆርጠሽ ጣይዉ በላዬ የሚያንዥብበዉን የጠላት ዲያቢሎስን ክንፍ ስበሪ አሜን፡፡",
+      "bbox": [
+        239.0625,
+        1271.875,
+        2335.331632653061,
+        2542.1130952380954
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፬ ድንግል ሆይ፤ የሁላችን መመኪያ ጠባቂያችን ነሽና ከቀን ወራሪ ከለሊት ሰባሪ አድኝኝ፡፡ የሕይወት መሸጋገሪያ ድልድይ ነሽና ከባህር ጠልቆ ከገደል ወድፅ ካመመቅ ኣዎሻኝ ኣማን፡፡",
+      "bbox": [
+        239.0625,
+        2556.845238095238,
+        2335.331632653061,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 209,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ የኅሊና·ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          434.2155612244898,
+          253.7202380952381,
+          1488.0420918367347,
+          378.125
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ቸል አትበያት፡፡ ዝምብለሽ አቶመልከቻት በቆምኩበት ቦታ ቆመሽ ከንዋመ ሐኬት አንቂኝ ቅብዓ መንፈስ ቅዱስን ቀቢኝ፡፡ በመለኮት ጨውነት ነገሬን አጣፍጠሽ በሁሉ ዘንድ መወደድን አትርፊልኝ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          239.0625,
+          451.7857142857143,
+          2335.331632653061,
+          1248.9583333333333
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ ድንግል ሆይ፤ የልጅሽን በረኽት በኔላይ አዝንቢ የሚፃረረኝን የሚቃወመኝን ሰው አፉን ለጉሚ አንደበቱን ዲዳ አድርጊ ጉሮሮውን ዝጊ፡፡ ጆሮዉን አደንቁሪ ሀይሉንም አድክሚ በልጅሽ መለኮታዊ ሰይፍ አንገቱን ቆርጠሽ ጣይዉ በላዬ የሚያንዥብበዉን የጠላት ዲያቢሎስን ክንፍ ስበሪ አሜን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          239.0625,
+          1271.875,
+          2335.331632653061,
+          2542.1130952380954
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬ ድንግል ሆይ፤ የሁላችን መመኪያ ጠባቂያችን ነሽና ከቀን ወራሪ ከለሊት ሰባሪ አድኝኝ፡፡ የሕይወት መሸጋገሪያ ድልድይ ነሽና ከባህር ጠልቆ ከገደል ወድፅ ካመመቅ ኣዎሻኝ ኣማን፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          239.0625,
+          2556.845238095238,
+          2335.331632653061,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "ac2c235233e13c7739ddc386b53362ad97b61fc023ab3d61fe97d539b06bee94",
+      "source_sha256": "8e3fefb5a3ed74b6e5f05c664c99cf700bb6980aa276ab1dbbcc5cf087d312b9",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_209.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 90.24,
+      "created_at": "2026-10-24T01:34:39.461469+00:00",
+      "derivative_input": false
+    }
+  }
+}

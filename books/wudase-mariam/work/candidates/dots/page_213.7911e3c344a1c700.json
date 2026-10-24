@@ -1,0 +1,227 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a6d9db44dd49b49d",
+    "object": "chat.completion",
+    "created": 1792805766,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [237, 135, 281, 201], \"category\": \"Page-header\", \"text\": \"፮\"}, {\"bbox\": [492, 135, 908, 213], \"category\": \"Page-header\", \"text\": \"የኅሊና ጸሎት\"}, {\"bbox\": [117, 265, 1453, 661], \"category\": \"Text\", \"text\": \"ነገር መናገር የሚቻለዉ ምን አንደበት ነው? የጽርሐ አርያም ብርኃን ሆይ፤ ስለቅድስናሽ መስማት የሚቻለው ምን ጆሮ ነው?\"}, {\"bbox\": [117, 685, 1453, 1692], \"category\": \"Text\", \"text\": \"፲፫ እመቤቴ ድንግል ማሪያም ሆይ፤\\nየአለም ሁሉ ህዝብ ለክብርሽና ለገናንነትሽ እንደምን ባለው ምስጋና ለማመስገን ይችላል ነገር ግን ምስጋናሽ ገናንነትሽን በሰው አንደበት ተነግሮ አያልቅም፤ ስለሆነም እንደ ቅዱስ ገብርኤል ሰላምታ በእግዚአብሔር ዘንድ ባለሟልነትን አግኝተሻልና ፀጋን ክብርን የተመላሽ ሆይ፤ ደስ ይበልሽ እያልኩ አመሰግንሻለሁ፡፡\"}, {\"bbox\": [124, 1716, 1456, 2005], \"category\": \"Text\", \"text\": \"፲፬ እመቤቴ ድንግል ማሪያም ሆይ፤\\nወላዲተ አምላክ ሆይ፤ ክብርሽ ገናንነትሽ ታላቅ እንደመሆኑ በሰውና በመላእክቶች\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4817,
+      "completion_tokens": 654,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፮",
+      "bbox": [
+        385.42729591836735,
+        220.98214285714286,
+        456.9834183673469,
+        329.01785714285717
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Page-header",
+      "text": "የኅሊና ጸሎት",
+      "bbox": [
+        800.1275510204082,
+        220.98214285714286,
+        1476.658163265306,
+        348.6607142857143
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "ነገር መናገር የሚቻለዉ ምን አንደበት ነው? የጽርሐ አርያም ብርኃን ሆይ፤ ስለቅድስናሽ መስማት የሚቻለው ምን ጆሮ ነው?",
+      "bbox": [
+        190.27423469387756,
+        433.7797619047619,
+        2362.9783163265306,
+        1081.9940476190477
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፲፫ እመቤቴ ድንግል ማሪያም ሆይ፤\nየአለም ሁሉ ህዝብ ለክብርሽና ለገናንነትሽ እንደምን ባለው ምስጋና ለማመስገን ይችላል ነገር ግን ምስጋናሽ ገናንነትሽን በሰው አንደበት ተነግሮ አያልቅም፤ ስለሆነም እንደ ቅዱስ ገብርኤል ሰላምታ በእግዚአብሔር ዘንድ ባለሟልነትን አግኝተሻልና ፀጋን ክብርን የተመላሽ ሆይ፤ ደስ ይበልሽ እያልኩ አመሰግንሻለሁ፡፡",
+      "bbox": [
+        190.27423469387756,
+        1121.279761904762,
+        2362.9783163265306,
+        2769.6428571428573
+      ]
+    },
+    {
+      "order": 4,
+      "category": "Text",
+      "text": "፲፬ እመቤቴ ድንግል ማሪያም ሆይ፤\nወላዲተ አምላክ ሆይ፤ ክብርሽ ገናንነትሽ ታላቅ እንደመሆኑ በሰውና በመላእክቶች",
+      "bbox": [
+        201.65816326530611,
+        2808.9285714285716,
+        2367.8571428571427,
+        3281.9940476190477
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 213,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፮",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          385.42729591836735,
+          220.98214285714286,
+          456.9834183673469,
+          329.01785714285717
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የኅሊና ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          800.1275510204082,
+          220.98214285714286,
+          1476.658163265306,
+          348.6607142857143
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ነገር መናገር የሚቻለዉ ምን አንደበት ነው? የጽርሐ አርያም ብርኃን ሆይ፤ ስለቅድስናሽ መስማት የሚቻለው ምን ጆሮ ነው?",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          190.27423469387756,
+          433.7797619047619,
+          2362.9783163265306,
+          1081.9940476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፫ እመቤቴ ድንግል ማሪያም ሆይ፤\nየአለም ሁሉ ህዝብ ለክብርሽና ለገናንነትሽ እንደምን ባለው ምስጋና ለማመስገን ይችላል ነገር ግን ምስጋናሽ ገናንነትሽን በሰው አንደበት ተነግሮ አያልቅም፤ ስለሆነም እንደ ቅዱስ ገብርኤል ሰላምታ በእግዚአብሔር ዘንድ ባለሟልነትን አግኝተሻልና ፀጋን ክብርን የተመላሽ ሆይ፤ ደስ ይበልሽ እያልኩ አመሰግንሻለሁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          190.27423469387756,
+          1121.279761904762,
+          2362.9783163265306,
+          2769.6428571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፬ እመቤቴ ድንግል ማሪያም ሆይ፤\nወላዲተ አምላክ ሆይ፤ ክብርሽ ገናንነትሽ ታላቅ እንደመሆኑ በሰውና በመላእክቶች",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          201.65816326530611,
+          2808.9285714285716,
+          2367.8571428571427,
+          3281.9940476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7911e3c344a1c700cb3f8340086a8fa1f6cb70feb9ebe2353016da689a623f6f",
+      "source_sha256": "40264bf6b063cc48433fdbcf2a2efc90fea4edc2c9101f580067da41d510e839",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_213.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 86.456,
+      "created_at": "2026-10-24T01:37:31.154831+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-ba94d56f295db5ad",
+    "object": "chat.completion",
+    "created": 1792805853,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [227, 155, 908, 236], \"category\": \"Page-header\", \"text\": \"፯ የኅሊና ጸሎት\"}, {\"bbox\": [93, 291, 1444, 804], \"category\": \"Text\", \"text\": \"ባለሟልነትን የተጎናጸፍሽ ነሽና በተንኮልና በክፉ በምቀኝነት በሚያሴሩብኝ ጠላቶቼ ላይ ቁጣና መዓት ይውረድባቸው እንደጉም በነው እንደጢስ ተነው ይጥፉ በቆፈሩት ጉድጓድ ይውደቁ፡፡\"}, {\"bbox\": [83, 815, 1441, 1636], \"category\": \"Text\", \"text\": \"፲፭ ወላዲተ አምላክ ማሪያም ሆይ፤ ጧት ስነሳ እግዚአብሔርና አንቺን እመቤቴን በጸሎት እንዳመሰግን የሚያነቃ መንፈስ ኅሊና አሳድሪብኝ፤ ስራና ወንድምን ወዳድ አድርጊኝ የምሰራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጭኝ፤ ኃጥያት እንዳልሰራ ተቆጣጠሪኝ ከችግር ከመከራ ሰዉሪኝ፡፡\"}, {\"bbox\": [79, 1653, 1431, 2016], \"category\": \"Text\", \"text\": \"፲፮ እመቤቴ ድንግል ማሪያም ሆይ፤ ለጸሎት እጆን ወደ አንቺ በዘረጋሁ ጊዜ ስለኔ ለመጸለይ ቅዱሳን እጆችሽን ንጹሃን ወዳድ አድርጊኝ የምሰራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጭኝ፤\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4860,
+      "completion_tokens": 697,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፯ የኅሊና ጸሎት",
+      "bbox": [
+        369.1645408163265,
+        253.7202380952381,
+        1476.658163265306,
+        386.3095238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ባለሟልነትን የተጎናጸፍሽ ነሽና በተንኮልና በክፉ በምቀኝነት በሚያሴሩብኝ ጠላቶቼ ላይ ቁጣና መዓት ይውረድባቸው እንደጉም በነው እንደጢስ ተነው ይጥፉ በቆፈሩት ጉድጓድ ይውደቁ፡፡",
+      "bbox": [
+        151.24362244897958,
+        476.3392857142857,
+        2348.341836734694,
+        1316.0714285714287
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፲፭ ወላዲተ አምላክ ማሪያም ሆይ፤ ጧት ስነሳ እግዚአብሔርና አንቺን እመቤቴን በጸሎት እንዳመሰግን የሚያነቃ መንፈስ ኅሊና አሳድሪብኝ፤ ስራና ወንድምን ወዳድ አድርጊኝ የምሰራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጭኝ፤ ኃጥያት እንዳልሰራ ተቆጣጠሪኝ ከችግር ከመከራ ሰዉሪኝ፡፡",
+      "bbox": [
+        134.98086734693877,
+        1334.077380952381,
+        2343.4630102040815,
+        2677.9761904761904
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፲፮ እመቤቴ ድንግል ማሪያም ሆይ፤ ለጸሎት እጆን ወደ አንቺ በዘረጋሁ ጊዜ ስለኔ ለመጸለይ ቅዱሳን እጆችሽን ንጹሃን ወዳድ አድርጊኝ የምሰራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጭኝ፤",
+      "bbox": [
+        128.47576530612244,
+        2705.8035714285716,
+        2327.200255102041,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 215,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ የኅሊና ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          369.1645408163265,
+          253.7202380952381,
+          1476.658163265306,
+          386.3095238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ባለሟልነትን የተጎናጸፍሽ ነሽና በተንኮልና በክፉ በምቀኝነት በሚያሴሩብኝ ጠላቶቼ ላይ ቁጣና መዓት ይውረድባቸው እንደጉም በነው እንደጢስ ተነው ይጥፉ በቆፈሩት ጉድጓድ ይውደቁ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          151.24362244897958,
+          476.3392857142857,
+          2348.341836734694,
+          1316.0714285714287
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፭ ወላዲተ አምላክ ማሪያም ሆይ፤ ጧት ስነሳ እግዚአብሔርና አንቺን እመቤቴን በጸሎት እንዳመሰግን የሚያነቃ መንፈስ ኅሊና አሳድሪብኝ፤ ስራና ወንድምን ወዳድ አድርጊኝ የምሰራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጭኝ፤ ኃጥያት እንዳልሰራ ተቆጣጠሪኝ ከችግር ከመከራ ሰዉሪኝ፡፡",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          134.98086734693877,
+          1334.077380952381,
+          2343.4630102040815,
+          2677.9761904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፮ እመቤቴ ድንግል ማሪያም ሆይ፤ ለጸሎት እጆን ወደ አንቺ በዘረጋሁ ጊዜ ስለኔ ለመጸለይ ቅዱሳን እጆችሽን ንጹሃን ወዳድ አድርጊኝ የምሰራዉን ባርኪልኝ የእለት ምግብንና የዓመት ልብስ ስጭኝ፤",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          128.47576530612244,
+          2705.8035714285716,
+          2327.200255102041,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "91581fcb20b0d047a2eac2c4bd8a04d16f329eeda917e703731e4f68983a3cf2",
+      "source_sha256": "20d25b70fa4097883424fc4d206998367a2b7cdf24746d4f6c259931c8c85abb",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_215.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 91.322,
+      "created_at": "2026-10-24T01:39:02.502266+00:00",
+      "derivative_input": false
+    }
+  }
+}

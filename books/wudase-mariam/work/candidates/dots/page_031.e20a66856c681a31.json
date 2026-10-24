@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-bfd529d3e006ce10",
+    "object": "chat.completion",
+    "created": 1792797836,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [175, 167, 1155, 257], \"category\": \"Page-header\", \"text\": \"፲፭ የማክሰኞ ውዳሴ ማርያም\"}, {\"bbox\": [54, 299, 1323, 575], \"category\": \"Text\", \"text\": \"ይበልሽ:: ዓለምን ሁሉ የፈጠረ ጌታን የወስድሽ ሆይ ደስ ይበልሽ:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [58, 555, 1361, 1371], \"category\": \"Text\", \"text\": \"፯ በሚገባ የአምላክ እናት ተብለሻልና ደስ ይበልሽ:: የሔዋን መድኃኒት ሆይ ደስ ይበልሽ:: ፍጥረቱን ሁሉ የሚመግበውን እርሱን ጡትሽን አጥብተሽዋልና ደስ ይበልሽ:: የሕያዋን (የጻድቃን) ሁሉ እናታቸው ቅድስት ሆይ ደስ ይበልሽ:: ትለምኝልን ዘንድ ወደ አንቺ እናንጋጥጣለን:: ቅድስት ሆይ ለምኝልን::\"}, {\"bbox\": [72, 1365, 1351, 1993], \"category\": \"Text\", \"text\": \"፲ ድንግል. ሆይ ቅድስት ሆይ ጌታን የወስድሽ ሆይ እኛን ለማዳን ድንቅ ምሥጢር (ተዋህዶ) በአንቺ ቢደረግ ንጉሥን ወልደሽልናልና ፍጥረታትን በልዩ ልዩ መልክ የፈጠረ የእርሱን የገናንነቱን ነገር ፈጽመን መናገር አይቻልምና ዝም እንበል:: ቅድስት ሆይ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4824,
+      "completion_tokens": 661,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፲፭ የማክሰኞ ውዳሴ ማርያም",
+      "bbox": [
+        284.5982142857143,
+        273.36309523809524,
+        1878.3482142857142,
+        420.6845238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ይበልሽ:: ዓለምን ሁሉ የፈጠረ ጌታን የወስድሽ ሆይ ደስ ይበልሽ:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        87.8188775510204,
+        489.4345238095238,
+        2151.5625,
+        941.2202380952381
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፯ በሚገባ የአምላክ እናት ተብለሻልና ደስ ይበልሽ:: የሔዋን መድኃኒት ሆይ ደስ ይበልሽ:: ፍጥረቱን ሁሉ የሚመግበውን እርሱን ጡትሽን አጥብተሽዋልና ደስ ይበልሽ:: የሕያዋን (የጻድቃን) ሁሉ እናታቸው ቅድስት ሆይ ደስ ይበልሽ:: ትለምኝልን ዘንድ ወደ አንቺ እናንጋጥጣለን:: ቅድስት ሆይ ለምኝልን::",
+      "bbox": [
+        94.32397959183673,
+        908.4821428571429,
+        2213.360969387755,
+        2244.1964285714284
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፲ ድንግል. ሆይ ቅድስት ሆይ ጌታን የወስድሽ ሆይ እኛን ለማዳን ድንቅ ምሥጢር (ተዋህዶ) በአንቺ ቢደረግ ንጉሥን ወልደሽልናልና ፍጥረታትን በልዩ ልዩ መልክ የፈጠረ የእርሱን የገናንነቱን ነገር ፈጽመን መናገር አይቻልምና ዝም እንበል:: ቅድስት ሆይ",
+      "bbox": [
+        117.09183673469387,
+        2234.375,
+        2197.098214285714,
+        3262.3511904761904
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 31,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲፭ የማክሰኞ ውዳሴ ማርያም",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          284.5982142857143,
+          273.36309523809524,
+          1878.3482142857142,
+          420.6845238095238
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ይበልሽ:: ዓለምን ሁሉ የፈጠረ ጌታን የወስድሽ ሆይ ደስ ይበልሽ:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          87.8188775510204,
+          489.4345238095238,
+          2151.5625,
+          941.2202380952381
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፯ በሚገባ የአምላክ እናት ተብለሻልና ደስ ይበልሽ:: የሔዋን መድኃኒት ሆይ ደስ ይበልሽ:: ፍጥረቱን ሁሉ የሚመግበውን እርሱን ጡትሽን አጥብተሽዋልና ደስ ይበልሽ:: የሕያዋን (የጻድቃን) ሁሉ እናታቸው ቅድስት ሆይ ደስ ይበልሽ:: ትለምኝልን ዘንድ ወደ አንቺ እናንጋጥጣለን:: ቅድስት ሆይ ለምኝልን::",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          94.32397959183673,
+          908.4821428571429,
+          2213.360969387755,
+          2244.1964285714284
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፲ ድንግል. ሆይ ቅድስት ሆይ ጌታን የወስድሽ ሆይ እኛን ለማዳን ድንቅ ምሥጢር (ተዋህዶ) በአንቺ ቢደረግ ንጉሥን ወልደሽልናልና ፍጥረታትን በልዩ ልዩ መልክ የፈጠረ የእርሱን የገናንነቱን ነገር ፈጽመን መናገር አይቻልምና ዝም እንበል:: ቅድስት ሆይ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          117.09183673469387,
+          2234.375,
+          2197.098214285714,
+          3262.3511904761904
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e20a66856c681a310d89cf11912034da2f0f42f68fd5204806e2f09c52f81b91",
+      "source_sha256": "092e9f5ccc3235d9602b3a2e41d2300590f977f7154370cbf3dc6ca35c94d307",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_031.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 86.941,
+      "created_at": "2026-10-23T23:25:21.974114+00:00",
+      "derivative_input": false
+    }
+  }
+}

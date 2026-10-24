@@ -1,0 +1,197 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a3d4d44b0a33d8d9",
+    "object": "chat.completion",
+    "created": 1792800368,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [203, 127, 1066, 206], \"category\": \"Page-header\", \"text\": \"፵፭ የእሁድ ዉዳሴ ጸሎት\"}, {\"bbox\": [82, 255, 1342, 696], \"category\": \"Text\", \"text\": \"፪ ሁል ጊዜ ንጽሕት የሆንሽ አምላክን የወለድሽ እምቤታችን ሆይ ሁላችን ስለዚህ እናገንሻለን ሰውን በሚወድ በጌታ ዘንድ ይቅርታን እናገኝ ዘንድ እንለምንሻለን ወዳንቺም እናንጋጥጣለን።\"}, {\"bbox\": [82, 791, 1342, 1683], \"category\": \"Text\", \"text\": \"፫ ከማይነቅዝ እንጨት የተቀረፀ በውስጥና በውጭ በወርቅ የተለበጠ ታቦት ያለመለየትና ያለመለወጥ ሰው የሆነ የእግዚአብሔርን ቃል ይመስልልናል። ይኸውም መለወጥ የሌለበት ንጹሕ መለኮት ነው ከአብ ጋር የተካከለ ነው ለንጽሕት በራሱ አበሠራት። በልዩ ጥበቡ ያለ ወንድ ዘር እንደ እኛ ሆነ መለኮቱን አዋሕዶ ያለ ርኵሰት ባንቺ ሰው ሆነ። ቅድስት ሆይ ለምኝልን።\"}, {\"bbox\": [82, 1747, 1342, 2007], \"category\": \"Text\", \"text\": \"፬ በእግዚአብሔር ሥዕል የተሣሉ ኪሩቤል የሚጋርዱሽ መቅደስ አንቺ ነሽ። ንጽሕት ሆይ ያለመለወጥ ካንቺ\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4845,
+      "completion_tokens": 682,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "፵፭ የእሁድ ዉዳሴ ጸሎት",
+      "bbox": [
+        330.13392857142856,
+        207.88690476190476,
+        1733.609693877551,
+        337.20238095238096
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፪ ሁል ጊዜ ንጽሕት የሆንሽ አምላክን የወለድሽ እምቤታችን ሆይ ሁላችን ስለዚህ እናገንሻለን ሰውን በሚወድ በጌታ ዘንድ ይቅርታን እናገኝ ዘንድ እንለምንሻለን ወዳንቺም እናንጋጥጣለን።",
+      "bbox": [
+        133.3545918367347,
+        417.4107142857143,
+        2182.4617346938776,
+        1139.2857142857142
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፫ ከማይነቅዝ እንጨት የተቀረፀ በውስጥና በውጭ በወርቅ የተለበጠ ታቦት ያለመለየትና ያለመለወጥ ሰው የሆነ የእግዚአብሔርን ቃል ይመስልልናል። ይኸውም መለወጥ የሌለበት ንጹሕ መለኮት ነው ከአብ ጋር የተካከለ ነው ለንጽሕት በራሱ አበሠራት። በልዩ ጥበቡ ያለ ወንድ ዘር እንደ እኛ ሆነ መለኮቱን አዋሕዶ ያለ ርኵሰት ባንቺ ሰው ሆነ። ቅድስት ሆይ ለምኝልን።",
+      "bbox": [
+        133.3545918367347,
+        1294.7916666666667,
+        2182.4617346938776,
+        2754.910714285714
+      ]
+    },
+    {
+      "order": 3,
+      "category": "Text",
+      "text": "፬ በእግዚአብሔር ሥዕል የተሣሉ ኪሩቤል የሚጋርዱሽ መቅደስ አንቺ ነሽ። ንጽሕት ሆይ ያለመለወጥ ካንቺ",
+      "bbox": [
+        133.3545918367347,
+        2859.6726190476193,
+        2182.4617346938776,
+        3285.2678571428573
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 91,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፵፭ የእሁድ ዉዳሴ ጸሎት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          330.13392857142856,
+          207.88690476190476,
+          1733.609693877551,
+          337.20238095238096
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪ ሁል ጊዜ ንጽሕት የሆንሽ አምላክን የወለድሽ እምቤታችን ሆይ ሁላችን ስለዚህ እናገንሻለን ሰውን በሚወድ በጌታ ዘንድ ይቅርታን እናገኝ ዘንድ እንለምንሻለን ወዳንቺም እናንጋጥጣለን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          133.3545918367347,
+          417.4107142857143,
+          2182.4617346938776,
+          1139.2857142857142
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፫ ከማይነቅዝ እንጨት የተቀረፀ በውስጥና በውጭ በወርቅ የተለበጠ ታቦት ያለመለየትና ያለመለወጥ ሰው የሆነ የእግዚአብሔርን ቃል ይመስልልናል። ይኸውም መለወጥ የሌለበት ንጹሕ መለኮት ነው ከአብ ጋር የተካከለ ነው ለንጽሕት በራሱ አበሠራት። በልዩ ጥበቡ ያለ ወንድ ዘር እንደ እኛ ሆነ መለኮቱን አዋሕዶ ያለ ርኵሰት ባንቺ ሰው ሆነ። ቅድስት ሆይ ለምኝልን።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          133.3545918367347,
+          1294.7916666666667,
+          2182.4617346938776,
+          2754.910714285714
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፬ በእግዚአብሔር ሥዕል የተሣሉ ኪሩቤል የሚጋርዱሽ መቅደስ አንቺ ነሽ። ንጽሕት ሆይ ያለመለወጥ ካንቺ",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          133.3545918367347,
+          2859.6726190476193,
+          2182.4617346938776,
+          3285.2678571428573
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "98839f2cc4672af1924eb270f2e095c8bea1aed40c4e84a350ee9702a3cc5f9a",
+      "source_sha256": "5614309440cea7c4ab6b57ec99f10367f8adb43135c2acbe724f689bfa35acfb",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_091.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 89.247,
+      "created_at": "2026-10-24T00:07:36.596232+00:00",
+      "derivative_input": false
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-b49d34c70d11fbae",
+    "object": "chat.completion",
+    "created": 1792802239,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [396, 482, 1112, 582], \"category\": \"Section-header\", \"text\": \"ይዔድስዋ መላእክት\"}, {\"bbox\": [112, 791, 1453, 1606], \"category\": \"Text\", \"text\": \"፩. መላእክት ማርያምን በመንጦላዕት ውስጥ ያመሰግኗታል፤ ሐዳስ ጣዕዋ ላንቺ ምስጋና ይገባሻል እያሉ፡፡ መልእክ ማርያምን ቃልን ተቀበይው አላት ካንቺ ዘንድ ይመጣልና በማኅፀንሽም ያድራል፡፡ እንዴት ከድሃ ቤት አደረ እንደ ምስኪን ከሰማያት ወርዶ የርስዋን ባሕርይ ባሕርይ አድርጎ ተወለደ?\"}, {\"bbox\": [112, 1614, 1453, 2016], \"category\": \"Text\", \"text\": \"፪. በ፯ኛው ወር ገብርኤል መልእክ ከእግዚአብሔር አብ ዘንድ ተላከ ካንዲት አገር ናዝሬት ገሊላ ከምትባል ለዮሴፍ እጮኛ ከሆነች ከድንግል ዘንድ፡፡ የዚህች\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4638,
+      "completion_tokens": 475,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Section-header",
+      "text": "ይዔድስዋ መላእክት",
+      "bbox": [
+        644.0051020408164,
+        788.9880952380952,
+        1808.4183673469388,
+        952.6785714285714
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "፩. መላእክት ማርያምን በመንጦላዕት ውስጥ ያመሰግኗታል፤ ሐዳስ ጣዕዋ ላንቺ ምስጋና ይገባሻል እያሉ፡፡ መልእክ ማርያምን ቃልን ተቀበይው አላት ካንቺ ዘንድ ይመጣልና በማኅፀንሽም ያድራል፡፡ እንዴት ከድሃ ቤት አደረ እንደ ምስኪን ከሰማያት ወርዶ የርስዋን ባሕርይ ባሕርይ አድርጎ ተወለደ?",
+      "bbox": [
+        182.14285714285714,
+        1294.7916666666667,
+        2362.9783163265306,
+        2628.8690476190477
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Text",
+      "text": "፪. በ፯ኛው ወር ገብርኤል መልእክ ከእግዚአብሔር አብ ዘንድ ተላከ ካንዲት አገር ናዝሬት ገሊላ ከምትባል ለዮሴፍ እጮኛ ከሆነች ከድንግል ዘንድ፡፡ የዚህች",
+      "bbox": [
+        182.14285714285714,
+        2641.964285714286,
+        2362.9783163265306,
+        3300.0
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 135,
+    "blocks": [
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ይዔድስዋ መላእክት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          644.0051020408164,
+          788.9880952380952,
+          1808.4183673469388,
+          952.6785714285714
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፩. መላእክት ማርያምን በመንጦላዕት ውስጥ ያመሰግኗታል፤ ሐዳስ ጣዕዋ ላንቺ ምስጋና ይገባሻል እያሉ፡፡ መልእክ ማርያምን ቃልን ተቀበይው አላት ካንቺ ዘንድ ይመጣልና በማኅፀንሽም ያድራል፡፡ እንዴት ከድሃ ቤት አደረ እንደ ምስኪን ከሰማያት ወርዶ የርስዋን ባሕርይ ባሕርይ አድርጎ ተወለደ?",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          182.14285714285714,
+          1294.7916666666667,
+          2362.9783163265306,
+          2628.8690476190477
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "፪. በ፯ኛው ወር ገብርኤል መልእክ ከእግዚአብሔር አብ ዘንድ ተላከ ካንዲት አገር ናዝሬት ገሊላ ከምትባል ለዮሴፍ እጮኛ ከሆነች ከድንግል ዘንድ፡፡ የዚህች",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          182.14285714285714,
+          2641.964285714286,
+          2362.9783163265306,
+          3300.0
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "1489e26106ba734587b2c10fcac3a6b979d3b209f81fda0805dfd76f128b0a10",
+      "source_sha256": "653c0aed93cb870fa7743f7093ad2a2badd082005c6c63c07212468709c41f9d",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_135.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 65.906,
+      "created_at": "2026-10-24T00:38:23.452378+00:00",
+      "derivative_input": false
+    }
+  }
+}

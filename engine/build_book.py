@@ -14,6 +14,8 @@ from pathlib import Path
 from typing import Any
 
 from . import book as book_mod
+from .provenance import atomic_json, page_revision, revision_matches, source_problems
+from .schema import validate_transcript
 
 ETHIOPIC_RE = re.compile(r"[ሀ-፿]")
 
@@ -59,7 +61,9 @@ def load_transcripts(bk: book_mod.Book, pages: list[int]) -> list[dict]:
     for page in pages:
         path = bk.dir("transcripts") / f"page_{page:03d}.json"
         if path.exists():
-            transcripts.append(json.loads(path.read_text(encoding="utf-8")))
+            transcript = json.loads(path.read_text(encoding="utf-8"))
+            validate_transcript(transcript, page, legacy=True)
+            transcripts.append(transcript)
     return sorted(transcripts, key=lambda t: t["page"])
 
 
@@ -101,6 +105,11 @@ def build(bk: book_mod.Book, pages: list[int], total_pages: int) -> dict[str, An
     out_sections: list[dict] = []
     current: dict | None = None
     front_matter: list[dict] = []
+
+    if not table and transcripts:
+        current = _new_section({"section_id": bk.book_id, "order": 1,
+                                "title_am": bk.title_am, "title_en": bk.title_en}, transcripts[0]["page"])
+        out_sections.append(current)
 
     for transcript in transcripts:
         page = transcript["page"]
@@ -160,28 +169,41 @@ def build(bk: book_mod.Book, pages: list[int], total_pages: int) -> dict[str, An
         reports_by_page = {
             int(report["page"]): report for report in verification.get("reports", [])
         }
-    unverified_pages = sorted(transcript_pages - reports_by_page.keys())
+    revisions = {t["page"]: page_revision(bk.work, t["page"], t) for t in transcripts}
+    unverified_pages = sorted(page for page in transcript_pages
+                             if not revision_matches(reports_by_page.get(page, {}), revisions[page]))
     flagged_pages = sorted(
         page for page in transcript_pages
         if reports_by_page.get(page, {}).get("review_flags")
     )
     approved_pages = {
         page for page, entry in review.items() if entry.get("status") == "approved"
+        and page in revisions and revision_matches(entry, revisions[page])
     }
     unapproved_pages = sorted(content_pages - approved_pages)
     expected_section_ids = {section["section_id"] for section in table}
     built_section_ids = {section["section_id"] for section in out_sections}
     missing_sections = sorted(expected_section_ids - built_section_ids)
-    production_ready = bool(stats) and not (
+    inventory = set(range(1, total_pages + 1))
+    analysed = {int(p) for p in stats}
+    missing_analysis = sorted(inventory - analysed)
+    unexpected_analysis = sorted(analysed - inventory)
+    source_issues = source_problems(bk, total_pages)
+    production_ready = bool(content_pages) and not (
         missing_pages
+        or missing_analysis
+        or unexpected_analysis
+        or source_issues
         or unverified_pages
         or flagged_pages
         or unapproved_pages
         or missing_sections
     )
-    if not stats:
+    if source_issues:
+        quality_status = "source_incomplete"
+    elif not stats:
         quality_status = "not_analyzed"
-    elif missing_pages:
+    elif missing_pages or missing_analysis or unexpected_analysis or not content_pages:
         quality_status = "incomplete"
     elif unverified_pages or flagged_pages:
         quality_status = "needs_review"
@@ -194,6 +216,7 @@ def build(bk: book_mod.Book, pages: list[int], total_pages: int) -> dict[str, An
 
     return {
         "book_id": bk.book_id,
+        "schema_version": "2.1",
         "title_am": bk.title_am,
         "title_en": bk.title_en,
         "tradition": bk.config.get("tradition"),
@@ -207,7 +230,7 @@ def build(bk: book_mod.Book, pages: list[int], total_pages: int) -> dict[str, An
         },
         "extraction": {
             "engine": "wudase extraction engine v2",
-            "red_assignment": "deterministic, from HSV ink mask (not OCR)",
+            "red_assignment": "HSV mask evidence; transcript colours require alignment and review",
             "model": bk.model,
             "pages_transcribed": len(transcripts),
             "pages_expected": len(content_pages),
@@ -225,6 +248,9 @@ def build(bk: book_mod.Book, pages: list[int], total_pages: int) -> dict[str, An
             "flagged_transcript_pages": flagged_pages,
             "unapproved_content_pages": unapproved_pages,
             "missing_sections": missing_sections,
+            "missing_analysis_pages": missing_analysis,
+            "unexpected_analysis_pages": unexpected_analysis,
+            "source_issues": source_issues,
         },
         "front_matter": front_matter,
         "sections_count": len(out_sections),
@@ -234,10 +260,6 @@ def build(bk: book_mod.Book, pages: list[int], total_pages: int) -> dict[str, An
 
 def write(bk: book_mod.Book, payload: dict) -> tuple[Path, Path]:
     bk.out.mkdir(parents=True, exist_ok=True)
-    bk.book_json.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    bk.book_json_min.write_text(
-        json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
-    )
+    atomic_json(bk.book_json, payload)
+    atomic_json(bk.book_json_min, payload, compact=True)
     return bk.book_json, bk.book_json_min

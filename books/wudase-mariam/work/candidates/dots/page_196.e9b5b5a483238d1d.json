@@ -1,0 +1,137 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-89ab4560255c53cf",
+    "object": "chat.completion",
+    "created": 1792805014,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [86, 0, 1387, 147], \"category\": \"Text\", \"text\": \"ዝርኤልፆ ፈዎዥ አ ይፈእመሱስ በ ዝወትር ወደ እርሱ ይመጣሉ።\"}, {\"bbox\": [412, 237, 1122, 304], \"category\": \"Text\", \"text\": \"www.zenadebretsion.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4292,
+      "completion_tokens": 129,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "ዝርኤልፆ ፈዎዥ አ ይፈእመሱስ በ ዝወትር ወደ እርሱ ይመጣሉ።",
+      "bbox": [
+        139.85969387755102,
+        0.0,
+        2255.644132653061,
+        240.625
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "www.zenadebretsion.org",
+      "bbox": [
+        670.0255102040817,
+        387.94642857142856,
+        1824.6811224489795,
+        497.6190476190476
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 196,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ዝርኤልፆ ፈዎዥ አ ይፈእመሱስ በ ዝወትር ወደ እርሱ ይመጣሉ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          139.85969387755102,
+          0.0,
+          2255.644132653061,
+          240.625
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.zenadebretsion.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          670.0255102040817,
+          387.94642857142856,
+          1824.6811224489795,
+          497.6190476190476
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "e9b5b5a483238d1d5893bb41829383157e2315ecd592447da5d308630570efaf",
+      "source_sha256": "aea7ce4b227469ed7686ddbea89aab61dacd568e18a5f86db042cb4b25d4b840",
+      "image_path": "/workspace/extraction-tool/books/wudase-mariam/work/page_images/page_196.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 25.398,
+      "created_at": "2026-10-24T01:23:59.222952+00:00",
+      "derivative_input": false
+    }
+  }
+}
