@@ -50,6 +50,12 @@
   "uncertain": [
     {
       "text": "# በ በ በ",
+      "bbox": [
+        777,
+        1692,
+        1667,
+        1771
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

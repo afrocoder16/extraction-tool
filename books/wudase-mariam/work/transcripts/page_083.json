@@ -87,6 +87,12 @@
   "uncertain": [
     {
       "text": "የየወ የኳማዝኳበተር ለኳ ኳው...",
+      "bbox": [
+        106,
+        3238,
+        2209,
+        3300
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

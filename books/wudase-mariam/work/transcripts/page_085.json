@@ -107,10 +107,22 @@
   "uncertain": [
     {
       "text": "አማርኛ አማርኛ አማርኛ",
+      "bbox": [
+        1145,
+        1805,
+        1764,
+        1917
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     },
     {
       "text": "አማርኛ አማርኛ",
+      "bbox": [
+        2114,
+        3023,
+        2523,
+        3147
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

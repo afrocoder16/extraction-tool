@@ -97,14 +97,32 @@
   "uncertain": [
     {
       "text": "ቃል ኢዳን ገባሁልሽ",
+      "bbox": [
+        495,
+        2635,
+        1708,
+        2771
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     },
     {
       "text": "ምስጋ",
+      "bbox": [
+        174,
+        2987,
+        376,
+        3079
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     },
     {
       "text": "ኢዳን ገባሁልሽ",
+      "bbox": [
+        131,
+        3115,
+        1024,
+        3247
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

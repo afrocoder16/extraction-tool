@@ -109,10 +109,22 @@
   "uncertain": [
     {
       "text": "e, የዖ",
+      "bbox": [
+        467,
+        1084,
+        886,
+        1130
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     },
     {
       "text": "ስመ፩",
+      "bbox": [
+        2107,
+        1251,
+        2511,
+        1362
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

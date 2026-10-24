@@ -57,6 +57,12 @@
   "uncertain": [
     {
       "text": "አማርኛ አማርኛ",
+      "bbox": [
+        579,
+        609,
+        1123,
+        725
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

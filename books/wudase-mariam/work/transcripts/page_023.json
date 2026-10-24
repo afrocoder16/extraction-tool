@@ -86,6 +86,12 @@
   "uncertain": [
     {
       "text": "ለመኹለን...",
+      "bbox": [
+        66,
+        3236,
+        609,
+        3300
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

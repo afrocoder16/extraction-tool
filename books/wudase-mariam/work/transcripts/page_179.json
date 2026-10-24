@@ -71,6 +71,12 @@
   "uncertain": [
     {
       "text": "ንታችን90",
+      "bbox": [
+        237,
+        2712,
+        765,
+        2847
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

@@ -149,10 +149,22 @@
   "uncertain": [
     {
       "text": "ልጅ ወዳጅ ሆይ...",
+      "bbox": [
+        466,
+        2103,
+        1539,
+        2233
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     },
     {
       "text": "ለኅ በኅ የ፲:",
+      "bbox": [
+        336,
+        3224,
+        1258,
+        3300
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

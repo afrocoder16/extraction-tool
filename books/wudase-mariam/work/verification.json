@@ -253,7 +253,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "aceb9b4c1a8f021c065a4537f08e5a84bd235dd375a00abbb0a6e374f230cb27",
+      "transcript_sha256": "f7526d6b3c141f1184cebf2f823299c825e418613649475f365e5e659203f56c",
       "evidence_sha256": "fc1398993e6f4a9d502892ca4ad4f707f1494141658d75bf7a7341c917fe5525"
     },
     {
@@ -324,7 +324,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "73d4fb078a442481f1ab6420f0e08f6de1306152c2500912d92c2a88c007cee1",
+      "transcript_sha256": "b0de6592c123bccceed5582703b0fc9a45f7fdbf58d802cabc377b5969cafa65",
       "evidence_sha256": "f21f3f097f8cf943d1b6b6b4455cab81bd42ea61dd016643ca3eadac7078fed9"
     },
     {
@@ -763,7 +763,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "9b0710ed36c7f6973a2cf784ade70980817b7f28dc48893a07630461ba763e39",
+      "transcript_sha256": "10b024ae4c98bbcebc4db3cb84fefc36345deec7c0b3d9c3291f6a966ca64a19",
       "evidence_sha256": "74e51da3fb503df26ac40b302a2afa7cb6652adce98dd10b6834413db1db8a15"
     },
     {
@@ -788,7 +788,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "cca5736ade8568ce8a5a4f8895412558e9da4e8eda595fc4fc8d6a9770e979fe",
+      "transcript_sha256": "cd8a01a6c6124c11b46f8dedbfc05cd4c54f131ef7456561731948ca7d7dae20",
       "evidence_sha256": "3cf8989151b5874b2ce5471c61a8d22e48209f1e0ed66cfb0cc9dc9511dd2e71"
     },
     {
@@ -813,7 +813,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "92495dd2e6532fa901290a5912eb774f92168e2ae2f5203a660491c6af507cdc",
+      "transcript_sha256": "426d5aa48ff68530c1a40e3e0e91b992ca423ffa9347a6b1f344c7ba3aa5d7db",
       "evidence_sha256": "f9bb38324e56279a07ace27c625c8b73c74f6a2c89b72111841e56c5b1188738"
     },
     {
@@ -976,7 +976,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "d2980c56ac4e5fece541ab8f67049d4060dc7a7906b46b6bed0dc5ef8c9737a0",
+      "transcript_sha256": "0937a5df48eff20197febd612c5ef0e9ef0ac91adf0edc5ca0c4b0533b3efcc9",
       "evidence_sha256": "e0d31d2760f56d7609d0f8ff6c18512be67cfdb3baea4df7c825fa891f50ebac"
     },
     {
@@ -1070,7 +1070,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "868a387e4fffb77eba70934e830b4fa453142791eb1b1bff8a4187bf0efa0714",
+      "transcript_sha256": "f50817567d25dd1928759d1a5def2cde1991cfdc7a923ddbc7b634edc17194c9",
       "evidence_sha256": "be828b9056c820247d05f0cd1917d66bce622ec43f14a3a51aaecd117bae5ab6"
     },
     {
@@ -1095,7 +1095,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "d09a62a41739b8556d5da42997d237e412a5fd36bef85325702ff240f498ff4f",
+      "transcript_sha256": "c5de3e98223af44c78583a24c4bab734bc0d32a676447611c374ed46b5036b70",
       "evidence_sha256": "ee55abede2669b9ee7b3099b12f6786a83ffe2b9e3cb448039863d0045321f2c"
     },
     {
@@ -1235,7 +1235,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "6dddf9113be41f2790f2e739e1c49ee3951a7356e92ca6ab4b74e0616f6c7bde",
+      "transcript_sha256": "6f0e2cce1aba8dbbfd38342b7e2faef540114f3484404db8e321f63fc7bb4a9f",
       "evidence_sha256": "f6bebdc1af9c2dcaa3bce4911342e43f99ef8b362bcac48ccdeb6de159bca694"
     },
     {
@@ -1329,7 +1329,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "9c843329ea3e28baeb02a9081496e9db40c8ddb236a649b43a11d1e78134e2f3",
+      "transcript_sha256": "81c92aa31be0b139246c9d558dbf38cc9adde181c43d586f421f608b5549c595",
       "evidence_sha256": "f564633353d5c01bd1f424db1c4c9b0dd7181577cb2803afccdf120b04417725"
     },
     {
@@ -1515,7 +1515,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "cc996ab6e40d5cbede78861eef3748e7fe38c194583159caf872b18be06c7066",
+      "transcript_sha256": "23e5455cafaa56ade9d18e2732ebe9d73ae4692c6fb4e42e498f646e55c2d981",
       "evidence_sha256": "a0d8e4a31f2e1d0bf1ccf9c1a161f422acf6583b9c9b52cb0284259e3028de04"
     },
     {
@@ -1632,7 +1632,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "713375b89b1c8e63c4e46e9f9054e3afd1f4dbf37383fcf079611cfe990c19c2",
+      "transcript_sha256": "8545786a76936ecb91d655b0a7c8c936816141e0175b8a16d487b18fe7b5836d",
       "evidence_sha256": "98f986be2b59934f61cae08f1fa5815c82e376bfa0e3d0af78208b30f795165d"
     },
     {
@@ -1841,7 +1841,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "92289cb64054379a791557a74e29bee291ccc73293028d0df6a2c8558cb40d36",
+      "transcript_sha256": "8594228cfb4a1891bac6954f326289c84144e2464699a470f4505a9ca12baff2",
       "evidence_sha256": "aab9569a409a109b8ec4e333bbf26c6b84ab1462e91e85891640485f760eff38"
     },
     {
@@ -1958,7 +1958,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "db6e76003ac3f575401df19e29f037136d675eb63641c33f42ede249b9a277b3",
+      "transcript_sha256": "0e4dd088979a708370eb888b52e6f9e75fdda516b1bba017f144581e041eb4b5",
       "evidence_sha256": "d233ecbabeacd31fed4b1c58be89246406b33e4b24158fc116f7652cfac61189"
     },
     {
@@ -2121,7 +2121,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "2dfaaa9ec1c3884265145ccec60a646441b48262b10048442e74156aa8042388",
+      "transcript_sha256": "1ba568b87e810337e92a17359ff9bcba38cb9a59c2ee028827d3ef9f52bac6c0",
       "evidence_sha256": "aded95d61c35ae6adfd76cee191860d5f01f862ca379c8dd0534d065ab011301"
     },
     {
@@ -2169,7 +2169,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "0c6dc33d431f8d41bd69b89d1a5c6139cdd9d923d2f47c4dee8d85ba9b9f07b8",
+      "transcript_sha256": "ac56e7f5b1d97725cf50a554716361f86ff5afceb0a661c6fa49bfaa213e5765",
       "evidence_sha256": "402cef327269b22b16d200b83c1473e46e9d7f3312cd6d790d316a3708a2180b"
     },
     {
@@ -2378,7 +2378,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "2dba8abdbc1194a048028b5675352f96806025fc3970d591d5ecf118dc576896",
+      "transcript_sha256": "01d8e60c48745935e78815fa5dccc509106fb3980ad0081e29eb05367330e18a",
       "evidence_sha256": "c26bdde456c30081679a6fc5c9604516eab7b5f9441ace35a4cbde816ad4651e"
     },
     {
@@ -2702,7 +2702,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "5fc674cef63f5f2c0567b849da77690eff7577f702aa328f90ac4bcefe046070",
+      "transcript_sha256": "18e1bb71895dcd16b92adb196c4caa90342f3b03db1248347e75e12d55a814eb",
       "evidence_sha256": "cd8384f0a03fcb2d32dab537993a9dd7b4a7505132e19a4dab8cb74ed8d02c3e"
     },
     {
@@ -2750,7 +2750,7 @@
         "unusable": false,
         "model_notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan."
       },
-      "transcript_sha256": "beddba3a750bbbbad7ff259325cbd9278f006056f4a1a2d827386418546f6152",
+      "transcript_sha256": "dd76ea44c2afca24171c3cad965760a55520f2d2d16b666eb243697b2356f3b9",
       "evidence_sha256": "74760e5883556d488b3104f172ca74316b8e72ffcdc5edadacc6f7fff8c0c896"
     },
     {

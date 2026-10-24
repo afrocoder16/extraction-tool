@@ -251,6 +251,19 @@
 
     .imagepane.show-overlay .stage img.overlay { opacity: 1; }
 
+    /* Scan <-> text link: boxes are placed in image pixels inside the scaled stage. */
+    .stage.easing { transition: transform .28s ease; }
+    .hl {
+      position: absolute; display: none; pointer-events: none; border-radius: 6px;
+      border: 5px solid #f5b301; background: rgba(245, 179, 1, .10);
+    }
+    .hl.soft { border-style: dashed; border-color: rgba(245, 179, 1, .85); background: none; }
+    .block.linked { box-shadow: 0 0 0 2px #f5b301; }
+    .block.flash { animation: flash 1s ease; }
+    @keyframes flash { from { background: #fff3c4; } to { background: var(--panel); } }
+    .unsurebox .row[data-bbox] { cursor: pointer; }
+    .unsurebox .row[data-bbox]:hover .unsure-word { text-decoration: underline; }
+
     .split .stage img.overlay {
       opacity: 1;
       clip-path: inset(0 0 0 50%);
@@ -712,10 +725,12 @@
         <div class="stage" id="stage">
           <img id="imgOriginal" alt="Page scan">
           <img id="imgOverlay" class="overlay" alt="Red-ink mask overlay">
+          <div class="hl" id="hlFocus"></div>
+          <div class="hl soft" id="hlHover"></div>
         </div>
         <div class="split-line"></div>
         <div class="hint">
-          Hold <kbd>O</kbd> to flash the overlay &middot; scroll to zoom &middot; drag to pan<br>
+          Click the scan to find its text &middot; hold <kbd>O</kbd> to flash the overlay &middot; scroll to zoom &middot; drag to pan<br>
           <b style="color:#7CFC9B">green</b> = detected red ink &middot;
           <b style="color:#FF7BFF">magenta</b> = rejected ornament
         </div>
@@ -998,6 +1013,7 @@ async function selectPage(page) {
     delete state.transcripts[state.current];  // drop the edited copy, re-fetch clean
   }
   state.current = page;
+  clearRegions();
   el("pageNo").textContent = "page " + page;
   el("imgOriginal").src = `${state.base}/work/page_images/page_${pad(page)}.${state.imageExtension}`;
   el("imgOverlay").src = `${state.base}/work/debug/page_${pad(page)}.${state.imageExtension}`;
@@ -1258,7 +1274,8 @@ function renderClipped(clipped) {
 /** Words the transcriber flagged rather than guessed at. */
 function renderUncertain(uncertain) {
   if (!uncertain.length) return "";
-  const rows = uncertain.map((u) => `<div class="row">
+  const rows = uncertain.map((u) => `<div class="row"${Array.isArray(u.bbox)
+      ? ` data-bbox="${escapeHtml(JSON.stringify(u.bbox))}" title="Show on the scan"` : ""}>
       <span class="unsure-word">${escapeHtml(u.text || "")}</span>
       <span class="unsure-why">${escapeHtml(u.why || "unclear on the scan")}</span>
     </div>`).join("");
@@ -1473,6 +1490,8 @@ function wireEditor(page) {
     renderText(page);
   });
 
+  wireScanLink();
+
   el("markRed")?.addEventListener("click", () => markSelection("red"));
   el("markBlack")?.addEventListener("click", () => markSelection("black"));
   el("saveBtn")?.addEventListener("click", () => saveTranscript(page));
@@ -1569,7 +1588,93 @@ function zoomBy(factor, cx, cy) {
   applyTransform();
 }
 
-el("imgOriginal").addEventListener("load", () => { if (!state.fitted) fit(); });
+/* ---------------- scan <-> text link ---------------- */
+
+// Bboxes are in source-page pixels (300 DPI); the displayed image may be a
+// smaller copy, so convert through the page's recorded width.
+function imageScale() {
+  const meta = state.pages.find((p) => p.page === state.current);
+  const img = el("imgOriginal");
+  return meta?.width && img.naturalWidth ? img.naturalWidth / meta.width : 1;
+}
+
+function placeBox(box, bbox) {
+  if (!bbox) { box.style.display = "none"; return; }
+  const s = imageScale();
+  Object.assign(box.style, {
+    display: "block",
+    left: bbox[0] * s - 8 + "px", top: bbox[1] * s - 8 + "px",
+    width: (bbox[2] - bbox[0]) * s + 16 + "px", height: (bbox[3] - bbox[1]) * s + 16 + "px",
+  });
+}
+
+/** Outline a region of the scan and, if asked, glide the view so it fills the pane. */
+function focusRegion(bbox, zoomTo) {
+  state.focusBbox = bbox;
+  placeBox(el("hlFocus"), bbox);
+  if (!bbox || !zoomTo || !el("imgOriginal").naturalWidth) return;
+  const pane = el("imagePane");
+  const s = imageScale();
+  const [x1, y1, x2, y2] = bbox.map((v) => v * s);
+  const zoom = Math.min(pane.clientWidth * 0.92 / (x2 - x1), pane.clientHeight * 0.8 / (y2 - y1), 3);
+  state.zoom = Math.max(zoom, 0.05);
+  state.panX = pane.clientWidth / 2 - ((x1 + x2) / 2) * state.zoom;
+  // A block taller than the pane starts at its first line rather than its middle.
+  state.panY = (y2 - y1) * state.zoom > pane.clientHeight * 0.9
+    ? 24 - y1 * state.zoom
+    : pane.clientHeight / 2 - ((y1 + y2) / 2) * state.zoom;
+  state.fitted = false;
+  const stage = el("stage");
+  stage.classList.add("easing");
+  applyTransform();
+  setTimeout(() => stage.classList.remove("easing"), 300);
+}
+
+function clearRegions() {
+  state.focusBbox = null;
+  placeBox(el("hlFocus"), null);
+  placeBox(el("hlHover"), null);
+}
+
+function blockBbox(art) {
+  try { return art?.dataset.bbox ? JSON.parse(art.dataset.bbox) : null; } catch { return null; }
+}
+
+function wireScanLink() {
+  const pane = el("textPane");
+  pane.querySelectorAll(".block[data-bbox]").forEach((art) => {
+    art.addEventListener("focusin", () => {
+      pane.querySelectorAll(".block.linked").forEach((b) => b.classList.remove("linked"));
+      art.classList.add("linked");
+      // Typing inside the same block must not keep re-zooming the scan.
+      if (JSON.stringify(state.focusBbox) !== art.dataset.bbox) focusRegion(blockBbox(art), true);
+    });
+    art.addEventListener("mouseenter", () => placeBox(el("hlHover"), blockBbox(art)));
+    art.addEventListener("mouseleave", () => placeBox(el("hlHover"), null));
+  });
+  pane.querySelectorAll(".unsurebox .row[data-bbox]").forEach((row) =>
+    row.addEventListener("click", () => focusRegion(JSON.parse(row.dataset.bbox), true)));
+}
+
+/** A click (not a drag) on the scan scrolls to the block printed there. */
+function blockAtScanPoint(clientX, clientY) {
+  const r = el("imagePane").getBoundingClientRect();
+  const s = imageScale();
+  const x = (clientX - r.left - state.panX) / state.zoom / s;
+  const y = (clientY - r.top - state.panY) / state.zoom / s;
+  let best = null;
+  for (const art of el("textPane").querySelectorAll(".block[data-bbox]")) {
+    const [x1, y1, x2, y2] = blockBbox(art);
+    const d = Math.max(x1 - x, 0, x - x2) + Math.max(y1 - y, 0, y - y2);  // 0 inside the box
+    if (d < 60 && (!best || d < best.d)) best = { art, d };
+  }
+  return best?.art || null;
+}
+
+el("imgOriginal").addEventListener("load", () => {
+  if (!state.fitted && !state.focusBbox) fit();
+  placeBox(el("hlFocus"), state.focusBbox);
+});
 
 el("imagePane").addEventListener("wheel", (e) => {
   e.preventDefault();
@@ -1579,9 +1684,9 @@ el("imagePane").addEventListener("wheel", (e) => {
 
 (function enableDrag() {
   const pane = el("imagePane");
-  let dragging = false, lastX = 0, lastY = 0;
+  let dragging = false, lastX = 0, lastY = 0, startX = 0, startY = 0;
   pane.addEventListener("pointerdown", (e) => {
-    dragging = true; lastX = e.clientX; lastY = e.clientY;
+    dragging = true; lastX = startX = e.clientX; lastY = startY = e.clientY;
     pane.classList.add("dragging"); pane.setPointerCapture(e.pointerId);
   });
   pane.addEventListener("pointermove", (e) => {
@@ -1592,6 +1697,16 @@ el("imagePane").addEventListener("wheel", (e) => {
     applyTransform();
   });
   const stop = (e) => {
+    if (dragging && e.type === "pointerup" && Math.hypot(e.clientX - startX, e.clientY - startY) < 5) {
+      const art = blockAtScanPoint(e.clientX, e.clientY);
+      if (art) {
+        el("textPane").querySelectorAll(".block.linked").forEach((b) => b.classList.remove("linked"));
+        art.classList.add("linked", "flash");
+        setTimeout(() => art.classList.remove("flash"), 1000);
+        art.scrollIntoView({ block: "center", behavior: "smooth" });
+        focusRegion(blockBbox(art), false);
+      }
+    }
     dragging = false; pane.classList.remove("dragging");
     if (e.pointerId != null && pane.hasPointerCapture?.(e.pointerId)) pane.releasePointerCapture(e.pointerId);
   };

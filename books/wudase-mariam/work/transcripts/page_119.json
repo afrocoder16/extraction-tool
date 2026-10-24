@@ -83,10 +83,22 @@
   "uncertain": [
     {
       "text": "ልዕል",
+      "bbox": [
+        1361,
+        775,
+        1678,
+        900
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     },
     {
       "text": "1 ነጻሬ 2 ነጻኙ 3 ነጻኝ 4 ነጻኔ 5 ነጻሮ 6 ነጻሼ 7 ነጻሼ 8 ነጻሼ 9 ነጻሼ 10 ነጻሼ 11 ነጻሼ 12 ነጻሼ 13 ነጻሼ 14 ነጻሼ 15 ነጻሼ 16 ነጻሼ 17 ነጻሼ 18 ነጻሼ 19 ነጻሼ 20 ነጻሼ 21 ነጻሼ 22 ነጻሼ 23 ነጻሼ 24 ነጻሼ 25 ነጻሼ 26 ነጻሼ 27 ነ",
+      "bbox": [
+        313,
+        3242,
+        2384,
+        3300
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

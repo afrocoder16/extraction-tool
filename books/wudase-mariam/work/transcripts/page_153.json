@@ -144,6 +144,12 @@
   "uncertain": [
     {
       "text": "በእግዚአብሔር እብ በባህርይ እባትህ",
+      "bbox": [
+        236,
+        518,
+        2411,
+        666
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

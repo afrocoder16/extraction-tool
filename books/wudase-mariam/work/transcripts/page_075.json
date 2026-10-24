@@ -78,6 +78,12 @@
   "uncertain": [
     {
       "text": "ክምስ ሰን",
+      "bbox": [
+        94,
+        537,
+        545,
+        651
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

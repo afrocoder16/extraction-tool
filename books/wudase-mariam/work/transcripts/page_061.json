@@ -46,6 +46,12 @@
   "uncertain": [
     {
       "text": "አማርኛ እግዚእ",
+      "bbox": [
+        1045,
+        1883,
+        1606,
+        2009
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

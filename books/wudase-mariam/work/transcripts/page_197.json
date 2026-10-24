@@ -81,6 +81,12 @@
   "uncertain": [
     {
       "text": "ከዖን",
+      "bbox": [
+        1494,
+        3052,
+        1799,
+        3174
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

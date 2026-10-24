@@ -200,7 +200,8 @@ def build_transcript(page: int, candidate: dict, red: dict, ignore: list[str]) -
         if hit:
             found.setdefault(owner, []).append(hit)
         elif not _ornament_reading(reading):
-            uncertain.append({"text": reading.strip("። "), "why": "red ink on the scan that was not found in this text; check spelling and colour"})
+            uncertain.append({"text": reading.strip("። "), "bbox": region["bbox"],
+                              "why": "red ink on the scan that was not found in this text; check spelling and colour"})
 
     blocks = []
     for i, cell in enumerate(cells):

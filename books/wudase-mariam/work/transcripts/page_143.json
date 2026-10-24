@@ -33,6 +33,12 @@
   "uncertain": [
     {
       "text": "የዴዎርክ ዘንዦ ለምኝ የ",
+      "bbox": [
+        240,
+        1174,
+        1408,
+        1241
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

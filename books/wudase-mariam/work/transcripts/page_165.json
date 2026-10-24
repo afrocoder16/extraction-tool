@@ -170,6 +170,12 @@
   "uncertain": [
     {
       "text": "...።: ຈል ་ዕኝ ሆይ",
+      "bbox": [
+        31,
+        2960,
+        1331,
+        3105
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],

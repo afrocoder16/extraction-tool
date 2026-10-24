@@ -49,6 +49,12 @@
   "uncertain": [
     {
       "text": "39 አካፅ39 እC 0ልዥ0ት 0+ ሉ",
+      "bbox": [
+        425,
+        2741,
+        2371,
+        2826
+      ],
       "why": "red ink on the scan that was not found in this text; check spelling and colour"
     }
   ],
