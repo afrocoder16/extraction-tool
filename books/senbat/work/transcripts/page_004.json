@@ -1,0 +1,199 @@
+{
+  "page": 4,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምስጢረ ሥላሴ (ነገረ ሥላሴ)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1018,
+        647,
+        1742,
+        717
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«መቅድመ ኩሉ ንስብክ ሥላሴ ዕሩየ ወቅዱስ ዘውእቶሙ አብ ወወልድ ወመንፈስ ቅዱስ፤ ከሁሉ አስቀድመን በአካል ልዩ በቅድስና (በክብር) አንድ የሆነውን ሦስትነት እንስብካለን። ይኸውም አብ ወልድ መንፈስ ቅዱስ ናቸው» ሲል ጎርጎርስ ነባቤ መለኮት (ቴኦሎጎስ) አስተምሮአል (ሃያማኖተ አበው፣ጎርጎር ዮስ፣ ገጽ ፪፪፲)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        296,
+        820,
+        2126,
+        1028
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የምስጢረ ሥላሴ መሠረቱና ምንጩ ቅዱስ መጽሐፍ ነው። የምስጢረ ሥላሴ ትምህርት በሚገባ ጐልቶ የተገለጸው፣ ጌታችን ኢየሱስ ክርስቶስ ባለመለወጥ ፍጹም ስው ከሆነ ወዲህ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        296,
+        1079,
+        2101,
+        1180
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ምስጢረ ሥላሴ ማለት ምን ማለት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        296,
+        1238,
+        1286,
+        1295
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በመለኮት፣ በባህርይ (በህላዌ)፣ በፈቃድና በሥልጣን አንድ የሆነው እግዚአብሔር፣ የአካል፣ የገጽ ፣ የስምና የግብር ሦስትነት እንዳለው የምናምነው እምነት ምስጢር ሥላሴ ይባላል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        446,
+        1349,
+        2124,
+        1449
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦እግዚአብሔር የአካል ሦስትነት አለው ስንል ምን ማለታችን ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        296,
+        1501,
+        1815,
+        1563
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በመለኮት አንድ የሆነው እግዚአብሔር፣ የአካል ሦስትነት አለው ማለት፣ አብ፣ ወልድ፣ መንፈስ ቅዱስ ይባላል ማለት ነው። በሌላም አነጋገር፣ ለአብ ፍጹም አካል፣ ፍጹም ገጽ፣ ፍጹም መልክ ለወልድም ፍጹም አካል፣ ፍጹም ገጽ፣ ፍጹም መልክ፣ ለመንፈስ ቅዱስም ፍጹም አካል፣ ፍጹም ገጽ፣ ፍጹም መልክ እንዳለው የምናምነው እምነት ምስጢረ ሥላሴ ይባላል። የሦስቱም (የሥላሴም) የስም ሦስትነት አብ፣ ወልድ፣ መንፈስ ቅዱስ ነው።የግብር ሦስትነታቸውም አብ ወላዲ፣ ወልድ ተወላዲ፣ መንፈስ ቅዱስ ሠራፂ ነው። ይኸውም፣ ወላዲነት፣ ተወላዲነት፣ ሠራፂነት ማለት ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        446,
+        1617,
+        2127,
+        1974
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦እግዚአብሔር አብ ለምን አባት (አብ) ተባለ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        296,
+        2033,
+        1386,
+        2094
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር አብ ወልድን ከባሕርዩ (ከህላዌው) እምቅድመ ዓለም ስለ ወለደው አብ (አባት) ተባለ። ወልድም ከአብ ባሕርይ ስለ ተወለደ (ስለ ተገኘ) የአብ ልጅ ተባለ። ስለዚህ አብ ወላዲ፣ ወልድ ተወላዲ ይባላሉ። ስለዚህም ቅዱስ መጽሐፍ እንዲህ ይላል፤ «ከጥንቱ ከዘላለም ጀምሮ ተሾምኩ፤ ምድር ከመፈጠርዋ አስቀድሞ፣ ቀላያት ገና ሳይፈጠሩ እኔ ተወለድኩ፤ ተራሮች ገና ሳ ይመሠረቱ፣ ከኮረብቶች በፊት እኔ ተወለድኩ» (ምሳ.፯፥፳፫-፳፭)። እራሱ እግዚአብሔር አብም፣ «በእርሱ ደስ የሚለኝ ልጆ ይህ ነው» ሲል መስክሮለታል (ማቴ.፫፥፲፯)። በተጨማሪም፣ «በእርሱ ደስ የሚለኝ የምወደው ልጆ ይህ ነው እርሱን ስሙት» ሲል አረጋግጦአል (ማቴ.፲፯፥፳) መጥምቁ ቅዱስ ዮሐንስም፣ «እኔም አይቸዋለሁ፤ እርሱም የእግዚአብሔር ልጅ እንደ ሆነ እመስክራለሁ» ብሎአል (ዮሐ.፩፥፳፬)። ቅዱሳን አባቶቻችን ሦስት መቶ አሥራ ስምንቱ ሊቃውንትም በቀኖናቸው፣ «ሁሉን በፈጠረ፣ ስማይንና ምድርን፣ የሚታየውንና የማይታየውን በፈጠረ፣ አንድ አምላክ በሚሆን በእግአብሔር አብ እናምናለን፤ እምቅድመ ዓለም ከአብ በተወለደው፣ ከዓለም በፊት ከአብ ጋር ህልው ሆኖ በኖረው፣ የአብ አንድ ልጅ በሆነው በአንድ ጌታ በኢየሱስ ክርስቶስ እናምናለን» ብለዋል (ጸሎተ ሃይማኖት)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        446,
+        2146,
+        2126,
+        2819
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "125f516b66035853cc9345c46bd35bce8ae30bdfe76849a89bb0e2fe0713b914",
+      "source_sha256": "9b46b6df36e90de0958f39bd6bc9861d0ead61f3c42091d11be836d3964547a3",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_004.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 295.633,
+      "created_at": "2026-10-24T21:35:24.524244+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "9b46b6df36e90de0958f39bd6bc9861d0ead61f3c42091d11be836d3964547a3",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_004.json"
+}

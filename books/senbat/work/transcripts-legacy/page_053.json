@@ -1,0 +1,249 @@
+{
+  "page": 53,
+  "page_header": "1",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምስጢረ ንስሐ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        946,
+        558,
+        1283,
+        620
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፣ንስሐ ማለት ምን ማለት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        382,
+        669,
+        1107,
+        725
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ንስሐ ማለት አግዚአብሔርንና ሰዉን በመበደል የአግዚአብሔርንና ትአዛዝ (ሕግ) በመተሳለፍ ከፈጸሙት ኃጢአት መጸጸትና ማዘን «በድየለሁ አጥፍቻለሁ» ብሎ አግዚአብሔርን መለ መንና ይቅርታን መጠየቅ ማለት ነው ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        773,
+        2028,
+        917
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፣መናዘዝ ማለትስ ምን ማለት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        382,
+        1017,
+        1181,
+        1072
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መናዘዝ ማለትስ የሠሩትን ኃጢአትና የፈጸሙትን በደል በሙሉ በንስሐ አባት አማካኝነት ለእግዚአብሔር መንገር ማለት ነዉ። ለንስሐ አባት መንገር ማለት ለእግዚአብሔር መንገር ማለት ነዉና።«ኃጢአትየ ነገርኩ ወአበሳየ አጋባአኩ ወአቤ አስተዋዲ ርእስየ እግዚአብሔር በአንተ ኃጢአትየ»ኃጢአቴን ነገርሁ በደሌን አልደበቅሁም መተሳለፊን ሁሉ ለእግዚአብሔር እናገራ ለዉ አልሁ ሲል ቅዱስ ዳዊት ተናግሮአል፤ ይኸዉም ንስሐ መግባትና የሠሩትን ኃጢአት በሙሉ ለእግዚአብሔር መናዘዝ (መንገር) የሚገባ መሆኑን ያረጋግጣል (መዝ ፴፩-(፴፪)-፳)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1118,
+        2054,
+        1414
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፣ ምስጢረ ንስሐ ማለት ምን ማለት ነወ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        382,
+        1509,
+        1304,
+        1565
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ንስሐ በመግባትና በመናዘዝ በንስሐ አባት አማካኝነት መንፈስ ቅዱስ ንስሐ ለገቡና ለተናዘዙ ሥርየተኃጢአትን ስለሚሰጣቸውና ከኃጢአትና ከበደል ንጹሕ ስለሚያደርጋቸዉ የማንጸቱንም ሥራ የሚፈጽመዉ መንፈስ ቅዱስ በመሆኑ ንስሐ ምስጢር ይባላል። «መንፈስ ቅዱስ ባወቀው ኃጢአታችሁን ይቅር ይበላችሁ» እያሉ ካህናት «እግዚአብሔር ይፍታ» የሚሉት ስለዚህ ነው ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1611,
+        2083,
+        1807
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፣ ንስሐ ስንት ክፍል አሉት?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        382,
+        1905,
+        1052,
+        1961
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪ኛ/ ጥምቀተ ክርስትና ከመሰራትዋ በፊት የበደሉ ሰዎች በየጊዜዉ ወደ እግዚአብሔር እየተመለሱ ሲፈጽሙት የነበረውን የንስሐና የኑዛዜ ሥርዓት ነዉ። እንደዚሁም ዮሐንስ መጥምቅ ሲሰብከው የነበረው የንስሐ ጥምቀት ነው ። ዮሐንስ መጥምቅ «መንግሥተ ሰማያት ቀርባለችና ንስሐ ግቡ» ብሎ በይሁዳ ምድረ በዳ እየሰበከ መጣ። «የጌታን መንገድ አዘጋጁ ጥርጊያውን አቅኑ...» እያለ ያን ጊዜም ኢየሩሳሌም ይሁዳም ሁሉ በዩርዳኖስ ዙሪያ ያለ አገር ሁሉ ወደ እርሱ ይመጡ ነበር። ኃጢአታቸውንም እየተናዘዙ በዩርዳኖስ ወንዝ ከእርሱ (ከዮሐንስ) ይጠመቁ ነበር (ማቴ ፫፬ ፩-፩ ማር ፩፬ ፩ ፰ ሉቃስ ፫፬-፩፯)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2005,
+        2044,
+        2351
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፫ኛ/ ጥምቀተ ክርስትና ከተሠራች በኋላ እያንዳንዱ ክርስቲያን ከፈጸመው ኃጢአትና ከሠራው በደል በንስሐ ወደ እግዚአብሔር ተመልሶ የሚፈጽመው የንስሐና የኑዛዜ ሥርዓት ነው ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2392,
+        2028,
+        2491
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ንስሐ ለማንውም ሰው እጅግ አስፈላጊ ነው። በቀድሞ ዘመነ እስራኤላውያን በየጊዜው ሕገ እግዚአብሔርን በመተሳለፍ ኃጢአት ይፈጽሙ ነበር። እግዚአብሔር ግን በየጊዜው ነቢያትን እየላከ እስራኤላውያን ኃጢአት መሥራታቸውን ትተው በንስሐ ወደ ፈጣሪያቸው እንዲመለሱ በነቢያት አንደበት ይመክራቸው ነበር።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2542,
+        2054,
+        2734
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለምሳሌ በነቢዩ በኢሳይያስ አንደበት እግዚአብሔር ያስተሳለፈው የንስሐ ጥሪ እንዲህ የሚል ነው፤«ንዑ ንትዋቀስ ይቤ እግዚአብሔር እመኒ ኮነ ኃጢአትክሙ ከመ ካኳ አነ አጻዐድዎ ከ መ በረድ ወእመኒ ቄሐ ከመ ለይ አነ አነጽሖ ከመ ጸምር» «ኑና እንዋቀስ ይላል እግዚአብሔር ኃጢአታችሁ እንደ አለላ ብትሆን እንደ አመዳይ ትነጸለች እንደ ደም ብትቀላም እንደ ባዘቶ ትጠራለች (ኢሳ ፩፤ ፩፰)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2783,
+        2049,
+        3027
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "c00b565bb4e4249207783e0f6acf02f7f84a494c128f3937535ec76f10606c22",
+      "source_sha256": "767ff9bfa9205a214d3e74135a58b3b52e70ac6f39eb91cf5d8adfc38c710a43",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_053.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 329.2,
+      "created_at": "2026-10-25T02:25:35.703222+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "767ff9bfa9205a214d3e74135a58b3b52e70ac6f39eb91cf5d8adfc38c710a43",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

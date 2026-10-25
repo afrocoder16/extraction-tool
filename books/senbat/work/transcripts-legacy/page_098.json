@@ -1,0 +1,283 @@
+{
+  "page": 98,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በረዶና ውርጭ እንጂ ብርሃን አይሆንም» ሲል ትንቢት ተናግሮአል (ዘካ.፲፬፦፭-፮)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        608,
+        295,
+        2041,
+        352
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፱ኛ. ራሱ ጌታችን በቅዱሳን መላእክቱ ታጅቦ በታላቅ ክብር እንደሚመለስ ሲያረጋግጥ፤ «የሰው ልጅ (ክርስቶስ) ከመላእክቱ ጋር በአባቱ ክብር ይመጣ ዘንድ አለውና፤ ያን ጊዜም ለሁሉ እንደ ሥራው ይከፍለዋል» ብሎአል (ማቴ.፲፮፦፳፮)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        399,
+        2163,
+        560
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በሌላ ክፍል «የሰው ልጅ (ክርስቶስ) ከቅዱሳን ከመላእክቱ ጋር በክብሩ በሚመጣበት ጊዜ በዚያን ጊዜ በክብሩ መንበር ይቀመጣል» ሲል ተናግሮአል (ማቴ.፳፭፦፴፩)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        608,
+        611,
+        2135,
+        714
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፳ኛ. እንዲሁም ራሱ አምላካችን አስደናቂውን ራእይ በገለጸለት በጌዱስ ዮሐንስ አንደበት ወደዚህ ዓለም ተመልሶ እንደሚመጣ አስቀድሞ ሲያሰጠነቅ፣ «እንሆ በቶሎ እመጣለሁ ለእያንዳንዱ ም እንደ ሥራው መጠን እከፍል ዘንድ ዋጋዩ ከእኔ ጋር ነው። አልፋና ኦሜጋ፣ፊተኛውና ኋለኛው መጀመሪያውና መጨረሻው እኔ ነኝ» ብሎአል (ራእ.፳፪፤፲፪-፲፫)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        814,
+        2223,
+        1025
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስለዚህ ጌታችን ኢየሱስ ክርስቶስ በታላቅ ክንርና በምስጋና ወደ ሰማይ ካረገ (ከወጣ) በኋላ (መዝ.፵፭(፵፮)፦፬-፮)። እርሱ በወሰነው ቀን እንደገና በታላቅ ክብርና በብዙ ምሥጋና ከቅዱሳን መላእክቱ ጋር ተመልሶ እንደሚመጣ ቅዱስ መጽሐፍ ያረጋግጣል(ማቴ.፳፬፤ ማር.፩፫፣ሉቃ.፳፩)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        587,
+        1072,
+        2244,
+        1233
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### ጥያቄ፦ታዲያ ጌታችን ኢየሱስ ክርስቶስ ተመልሶ የሚመጣው እንዴት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        372,
+        1331,
+        1930,
+        1393
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኢየሱስ ክርስቶስ ተመልሶ የሚመጣውማ በታላቅ ግርማና በብዙ ክብር፣ በክበበ ትስብእት፣ በግርማ መለኮት ማለት በግርማ መንግሥቱ በሰማይ ደመና ነው (ማቴ.፳፬፦፴)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        1445,
+        2236,
+        1552
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### ጥያቄ፦ጌታችን ኢየሱስ ክርስቶስ በክበበ ትስብእት፣ በግርማ መለኮት ሲመጣ የሚመለሰው በስውር ነው ወይስ በግልጽ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        372,
+        1653,
+        2226,
+        1776
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን በግልጽና በታላቅ ግርማ ይመጣል ይኸውም እርሱ ራሱ እንዳለው፣ መብረቅ ከምሥራቅ ወጥቶ እስከ ምዕራብ እንደሚታይ ጌታችን ኢየሱስ ክርስቶስም እንደዚሁ በታላቅ ግርማ በቅዱሳን መላእክቱና በመባርቅት ታጅቦ ከሰማይ ወደዚህ ዓለም በግልጥ ይመጣል (ማቴ.፳፬፦፳፮)። በዚያን ጊዜ የምድር ወገኖች (የሰው ልጅች በሙሉ) ዋይ፣ዋይ ይላሉ፤ «የሰው ልጅም ማለት ክርስቶስም በኃይልና በብዙ ክብር በሰማይ ደመና ሲመጣ ያዩታል»(ማቴ.፳፬፦፴-፴፪)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        1828,
+        2223,
+        2092
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቅዱስ ዮሐንስም በራእዩ፣ «ናሁ ይመጽእ በደመና ሰማይ ወትሬእዮ ኩላ ወእልክቱሂ እለ ወግእዎ፣ ወይበክዩ በእንቲእሁ ኩሎሙ አሕዛብ ምድር» በብሎአል። ይኸውም «እነሆ በደመና ይመጣል፣ የሰው ዓይን ሁሉ ታየዋለች፣ የወጉትም ያዩታል፣ እርሱን ከማየት የተነሣ የምድር አሕዛብ ሁሉ ያለቅሳሉ» ማለት ነው (ራእ.፩፦፯-፳፮)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        2141,
+        2173,
+        2349
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### ጥያቄ፦ጌታችን ኢየሱስ ክርስቶስ ከመምጣቱ አስቀድሞ የሚታዩ ምልክቶች ምንና ምን ናቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        372,
+        2449,
+        2244,
+        2570
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኢየሱስ ክርስቶስ ከመምጣቱ አስቀድሞ በዓለም ላይ የሚታዩ የጌታ የመምጣቱ ምልክቶች እጅግ ብዙ ናቸው። ከብዙዎቹ ጥቂቶቹ የሚከከተሉት ናቸው፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        2626,
+        2208,
+        2730
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኢየሱስ ክርስቶስ በተናገረው መሠረት፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        566,
+        2779,
+        1389,
+        2832
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፩ኛ. ብዙ ሐሰተኞች ፣ «እኔ ክርስቶስ ነኝ» እያሉ በጌታችን ኢየሱስ ክርስቶስ ስም ይመጣሉ፤ እነርሱም ብዙዎችን ያስታሉ፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        2883,
+        2148,
+        2987
+      ],
+      "layout_category": "List-item"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "745b69f50058865f346043acd7f11a7b6927b483950a00e70f34b0b64103f337",
+      "source_sha256": "c4c4ef75e1853bcafa3ec6f04a6b7940e1f80a04eb58775ed0e5377a37b35c12",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_098.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 311.951,
+      "created_at": "2026-10-25T06:16:21.579951+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "c4c4ef75e1853bcafa3ec6f04a6b7940e1f80a04eb58775ed0e5377a37b35c12",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

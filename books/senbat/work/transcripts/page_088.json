@@ -1,0 +1,233 @@
+{
+  "page": 88,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምስጢረ ትንሣኤ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1065,
+        648,
+        1482,
+        712
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ትንሣኤ ማለት ምን ማለት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        771,
+        1195,
+        828
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ትንሣኤ ማለት መነሣት፣ መቆም ማለት ነው። ከበሸታ ድኖ መነሳት ትንሣኤ ነው። ከሠላሳ ስምንት ዓመት ጀምሮ ታሞና አልጋ ላይ ተኝቶ የነበረውን በሸተኛ (መፃጒዕ) ጌታችን ኢየስሱ ክርስቶሰ፣ «ተነሳና አልጋህን ተሸክመህ ሂድ» ባለው ጊዜ፣ በሸተኛው ሰው በጌታችን ቃል ከበሸታ ው ተፈውሶ አልጋውን ተሸክሞ ሂደ (ዮሐ.፭፦፬)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        520,
+        832,
+        2169,
+        1039
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በተለይም ከሞትና ከመቃብር በሕይወት መነሣት ትንሣኤ ይባላል። ሞቶ ከተቀበረ ከአራት ቀን በላይ የሆነውን አልዓዛርን ጌታችን በቃሉ፣ «አልዓዛር ሆይ፤ ተነሣ! ወደ ውጭ ና» ብሎ ከሞት አስነሣው፣ ከመቃብርአወጣው (ዮሐ.፲፩፦፵፫-፵፬)። ትንሣኤ ማለት ይህ ነው። ጌታችን ኢየሱስ ክርስቶስም በተዋሐደው ሥጋ ከሞተና ከተቀበረ በኋላ፣ በሦስተኛው ቀን ሞትን ድል አድርጎ መነሣቱ አማናዊ (እውነተኛው) ትንሣኤ ይባላል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        520,
+        1089,
+        2174,
+        1349
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ምስጢረ ትንሣኤ ሙታን ማለት ምን ማለት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1401,
+        1548,
+        1458
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሰዎች ከሞቱና ከተቀበሩ በኋላ፣ እንደገና ከፈጣሪያቸው ከእግዚአብሔር ሕይወትን አግኝተው ከሞትና ከመቃብር ይነሣሉ። ይህ ከሞትና ከመቃብር መነሣት፣ እጅግ ዐቢይና ድንቅ ነገር ስለሆ ነ፣የትንሣኤ ምስጢር ተብሎ ይጠራል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        520,
+        1458,
+        2173,
+        1612
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ ምስጢረ ትንሣኤ በስንት ይከፈላል?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1671,
+        1286,
+        1727
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምስጢረ ትንሣኤ በሁለት ይከፈላል። ይኸውም፦ ሀ. የጌታችን ትንሣኤ፣ ለ. የሰው ልጆች ትንሣኤ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        520,
+        1730,
+        1371,
+        1884
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦የጌታችን ትንሣኤ እንዴት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1936,
+        1179,
+        1995
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን በአዳም ምክንያት የመጣውን ሞት ይሸር ዘንድ በተዋሐደው ሥጋ ሞቶ ተቀበረ። ከዚያም በሦስተኛው ቀን ከሙታን ተለይቶ ተነሣ። የጌታችን መስቀልና ትንሣኤ ታሪክ ባጭሩ እንደሚከተለው ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        520,
+        1999,
+        2126,
+        2153
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ራሱ ስለ ሰው ልጆች ድኅነት በፈቃዱ መከራን እንደሚቀበል፣ በመስቀል እንደሚሰቀል፣ እንደሚሞትና በሦስተኛው ቀን ከሙታን ተለይቶ እንደሚነሣ አስቀድሞ፤ «እነሆ ወደ ኢየሩሳሌ ም እንወጣለን፤ የሰው ልጅም ለካህናት አለቆችና ለጸፎች አልፎ ይሰጣል፤ የሞት ፈርድ ይፈር ዱበታል፤ ለአሕዛብም አሳልፈው ይሰጡታል፤ ይዘቡቱበታል፤ ይተፉበታል፤ ይገርፉታል፤ ይገድሉ ታልም፤በሦስተኛውም ቀን ይነሳል» ሲል ለደቀ መዛሙርቱ ነገራቸው (ማር.፲፦፴፬፤ ማቴ.፲፮፦፳ ፲-፳፪፤ ሉቃ.፲፳፦፴፩-፴፬፤ ማቴ.፳፦፲፳)። በዚሁ መሠረት፣ «ነቢያት ክርስቶስ ሰለ ሰው ልጆች መከራን ይቀበላል፤ ይሰቀላል፤ ይሞታል፤ በሦስተኛው ቀን ከሙታን ተለይቶ ይነሳል» ብለው የተናገሩት ትንቢት ይፈጸም ዘንድ ጌታችን መከራ መስቀልን ተቀበለ (ኢሳ.፵፫፦፩-፲፪፤ ዳን.፱፦፳፭-፳፯)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        520,
+        2203,
+        2169,
+        2675
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "cd87a0b6d7b656f911821327395fa0851f4a8ce94827f70a1ec694e2d5dd797c",
+      "source_sha256": "83faf5a372abc1cbead879eec7e44a0608becfdfcfcc2cff3bced36426d099d4",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_088.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 274.937,
+      "created_at": "2026-10-25T05:14:13.292002+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "83faf5a372abc1cbead879eec7e44a0608becfdfcfcc2cff3bced36426d099d4",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_088.json"
+}

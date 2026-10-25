@@ -1,0 +1,300 @@
+{
+  "page": 137,
+  "page_header": "የኢትዮጵያ ኦርቕዜክስ ተሞሕድ ቤተ ክርስቲያን ሃይግኖትና ሥርዓት The Ethiopian Orthodox Cewahido Church Faith and Order",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስድስተኛው ትእዛዝ አታመንዝር",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        992,
+        367,
+        1477,
+        493
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ማመንዘር ሁለት ዋና ዋና ትርጉም አሉት እነዚህም",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        538,
+        1026,
+        586
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "1. አንድ ሰው የራሱ የኑሮ ጓደኛ ካልሆነ ሰው /ባለ ወይም ሚስት/ ጋር ቢገናኝ አመንዝራ ይባላል። ይኸውም በብሉይ ኪዳን የሞት ፍርድ ሊያስፈርድበት ይችል ነበር። /ዘሌ 20:10/። በሐዲስ ኪዳን ደግሞ ከሰማያዊ መንግሥት ይለያል። ሰፋና ዘር ዘር ብሎ ሊተረጐምም",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        230,
+        625,
+        2334,
+        765
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሀ. ከአንድ በላይ ማግባት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        230,
+        809,
+        723,
+        857
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በአዲስ ኪዳን አንዲት ሚስት ለአንድ ባል ለአንዲት ሚስት የሚለው ሕግ ጸንቷል። \"... ለእያንዳንዱ ለራሱ ሚስት ትኑረው ለእያንዳንዲቱ ደግሞ ለራስዋ ባል ይኑራት\" ማቴ7:2። በመሆኑም ምንም በቂ ሐብትና ንብረት ቢኖረው ሁሉንም እኩል እወዳለሁ አስተዳድራለሁ ቢል ከአንድ በላይ ያገባ ሁሉ /ወንድም ሆነ ሴት / አመንዝራ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        897,
+        2334,
+        1044
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከጋ፱ቻ ውጭ ግንኙነት ወደጡ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        992,
+        1082,
+        1477,
+        1129
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ይኽኛውን ደግሞ እንደገና በተለያዩ መንገዶች መመልከት ይቻላል። የመጀመሪያው /ሚስት ወይም ባል እያለው ወደ ሌላ የሚሄድ ማለት/ ካገባት ሚስቱ ወይም ከአገባችው ባሏ ውጭ ግንኙነት የሚፈጽሙ አመንዝራ ነው። ሁለተኛው ትርጉሙ ደግሞ አንድ ሰው ጋብቻ ከመፈጸሙ በፊት ከእጮኛው ሊሆን ወይም ላይሆንም ይችላል/ የሚፈጽመው ግንኙነት ሁሉ ዝሙት ነው። ከዚያ በፈት የሚፈጸመው ሁሉ ግን ሕጋዊ አይደለምና ዝሙት ወይም ማመንዘር ይባላል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        1192,
+        2334,
+        1445
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሐ. የቅርብ ዘመድ ማግባት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        230,
+        1507,
+        744,
+        1554
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሕገ ቤተክርስቲያን ጋብቻ እንዲፈጽም ከሚፈቅድበት የዝምድና ገደብ ውጪ ከቅርብ ዘመድ ጋር የማፈጸም ጋብቻ ዝሙት /አመንዝራነት/ ነው። ይኽውም እስከ ሰባት ትውልድ የሚደርስ የሥጋ ዝምድና ወይም በክርስትና ማንሣትና መነሣት የሚፈጠር የመንፈስ ዝምድና ሊሆን ይችላል። ማር 6:18 ዘሌ 18:6",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        1594,
+        2334,
+        1735
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መ. ሕግ ከሚፈቅደው ውጭ በዝሙት ወይም የተፈታውን/ችውን/ ማግባት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        1775,
+        1504,
+        1823
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከሁለት አንዱ በዝሙት ተገኝቶ ወይንም በሞት ተለይቶ ካልሆነ በቀር መፍታት ማመንዘር ነው። ሕገ እግዚአብሔር ከሚፈቅደው ውጪ በሞት መለየት ወይም በዝሙት ምክንያት ሳይሆን መፍታት ማመንዘር ነው። እንዲሁም ያለ ሕግ የተፈታችውን ማግባት ከዚህ የተለየ አይደለም። \"ያለ ዝሙት ምክንያት ሚስቱንም ፈትቶ ሌላይቱንም የሚያገባ ሁሉ ያመነዝራል\" \"ሚስቱንም ፈትቶ ሌላይቱንም የሚያገባ ሁሉ ያመነዝራል\" ማቴ 19:9 ሉቃ 16:18። ስለሆነም በቤተ ክርስቲያን ሥርዓት በዝሙት ምክንያት ብቻ ከተፈቀደው መጽሐፍ ቅዱሳዊ ፍቺ ውጭ ራሱንም ሆነ ሌሎችን ሊያሳምን ይችላል ተብሎ በሚታሰብ በማናቸውም ምክንያት ሚስቱን የሚፈታ ሰው ፍቺው በክርስትና ሕግ ተቀባይነት የለውም። ጋብቻውም እንዳልፈረሰ ጋብቻ ይቆጠራል። ቢያገባም በሚስቱ ላይ ሁለተኛ እንደደረበ እንዳመነዘረም ይቆጠራል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        1863,
+        2334,
+        2192
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሠ. ምኞት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        2232,
+        347,
+        2279
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንድ ሰው /ሴት ወይም ወንድ/ በማይገባ መመልከት /ለዝሙት መፈለግ / ማመንዘር ነው። ምንም እንኳን ይህ ሰው በግብር ባይፈጽመውም ተመኝቷል ቢመቸው ሊፈጽመው ይችላልና በልቡ አመንዝሯል። \"ወደ ሴት ያየ ሁሉ የተመለከታትም ያን ጊዜ በልቡ ክርሏ ጋር አመነዘረ\" ማቴ 5:28",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        2319,
+        2334,
+        2467
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንድ ሰው እግዚአብሔር ትቶ ሌላ አምላክ ሲያመልክ አመነዘረ ይባላል። ይህም ጣኦት ማምለክንና እምነት መቀየር /ከእውነተኛው ሃይማኖት ወጥቶ ወደ ሌላ መሄድን/ ያጠቃልላል። ኤር 3:8-9 ያዕ1 ማቴ 12:39። በዘመነ መሳፍንት እሥራኤል ጣዖትን ባመለኩ ጊዜ \"ሌሎች አማልክትን ተከትለው አመነዘሩ ሰገዱላቸውም እንደ መሳፍንቶቻቸውን አልሰሙም\" ተብለዋል። መሳ.2:17።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        2508,
+        2334,
+        2693
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በማናቸውም መንገድ ቢተረጐም ማመንዘር ከባድ ኃፊነት ነው። ይህንንም ቅዱስ ጳውሎስ ሲገልጥ \"ከዝሙት ሽሹ ሰው የሚያደርገው ኃጢአት ሁሉ ከሥጋ ወጭ ነው። ዝሙትን የሚሠራ ግን በገዛ ሥጋው ላይ ኃጢአትን ይሠራል።\" 1ቆሮ 6:18 ፡ የዚህም ሰው ሥጋው ላይ የሚሠራው ኃጢአት አስከፊነትም በሁለት ምክንያቶች ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        152,
+        2736,
+        2334,
+        2881
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f17e778e4d9e7191b68bbb466c20bf00dd0cce4629c6f58c2a52caecd09c871d",
+      "source_sha256": "9e8cf4fa0949dc225db190ca6669d491e8c2a3f745eba9b04caa41513f6399de",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_137.png",
+      "source_dimensions": [
+        2496,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 385.1,
+      "created_at": "2026-10-25T09:53:25.620339+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "25be1ed8f3701e8c8cedc4d93cd1cb6ec00f61857f11a14af6826c4c5a9c4cab",
+      "image": "9e8cf4fa0949dc225db190ca6669d491e8c2a3f745eba9b04caa41513f6399de",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

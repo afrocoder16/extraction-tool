@@ -1,0 +1,62 @@
+{
+  "page": 136,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የራሱን ሥጋዊ ፍላጎት ተከትሎ ለጊዜያዊና ምድራዊ ለሚያልፍም እርካታ ብሎ ወደዓለም ያጋደለ ፈቃደ ነፍሱንም የተወሰው አምስተኛውን ትእዛዝ በመተላለፍ የራሱን ነፍስ ገድሏል። በወንጌልም «ነፍሱን የሚያገኝ ያጠፋታል» ቲብሎ የተነገረው ለእንደዚህ ዓይነቱ ሰው ነው። ማቴ.10÷39። ለምድራዊ ተድላ ሲሮጥ፤ ለሚያልፍ ጊዜያዊ እርካታ ሲደክም የዘለዓለም ሞትን ገንዘብ አድርጓልና። ስለዚህ «አትግደል» የሚለውን ሕግ ስፋትና ጥልቀት ከፈሳችን ማንነት ጋር በማገናዘብ ከመግደል ተጠብቀን ልንኖር ይገባናል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        601,
+        359,
+        1759,
+        1187
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "346e92b0647b63102bbfb797de9fcfa28966f15cdb11c0580d527bbc5c1078fd",
+      "source_sha256": "b9efd3e9afe15bba53abcaada1ff6a48859ce13c211df52a6c9fb56256227308",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_136.png",
+      "source_dimensions": [
+        2496,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 75.921,
+      "created_at": "2026-10-25T09:47:00.514431+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "25be1ed8f3701e8c8cedc4d93cd1cb6ec00f61857f11a14af6826c4c5a9c4cab",
+      "image": "b9efd3e9afe15bba53abcaada1ff6a48859ce13c211df52a6c9fb56256227308",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

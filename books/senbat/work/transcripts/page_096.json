@@ -1,0 +1,250 @@
+{
+  "page": 96,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ትንሣኤ ነውና (ዮሐ.፲፩፦፳፳-፳፪)። እንደገናም ራሱ ሞትን አሸንፎ ከሙታን ተለይቶ ከተነሳ በኋላ ፤ «ፊተኛውና መጨረሻው ሕያውም እኔ ነኝ፤ ሞቼም ነበርሁ፤ እነሆም ከዘላለም እሰከ ዘላለም ድረ ስ ሕያው ነኝ፤ የሞትና የሲኦልም መክፈቻ አለኝ» ብሎአል (ራዕ.፩፦፲፳-፲፪)። በዚህኛው ቃል ጌታ ችን በሞትና በሲኦል ላይ ሙሉ ሥልጣን እነዳለው ተረጋግጦአል። ይህም ማለት ጌታችን ሞትንና ሲኦልን ማዘዝ፤ መሰር፤ ማስወገድና መጥፋት የሚችል ኃያል አምላክ ነው ማለት ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        293,
+        2246,
+        558
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሞትና ሲኦል በጌታችን አምላካዊ ሥልጣን ድል መሆናቸውን አስመልክቶ ሐዋርያው ቅዱስ ጫውሎስ ሲመሰክር «ሞት ሆይ መውጊያህ የት አለ? ሲኦል ሆይ ድል መንሳትህ የት አለ? የሞት መውጊያ ኃጢአት ነው የኃጢአትም ኃይል ሕግ (ኦሪት)ነው፤ ነገር ግን በጌታችን ኢየሱስ ክርስቶስ በኩል ድል መንሣቱን ለሰጠን ለእግዚአብሔር ምስጋና ይሁን» ብሎአል (፩ቆሮ.፲፳፦፵፳-፵፪)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        607,
+        2221,
+        820
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ በሞትና በሲኦል ላይ የአሸናፊነት ሥልጣን ያለው ጌታችን ኢየሱስ ክርስቶስ ሞትን ድል አድርጎና ከሙታን ተለይቶ በመነሣቱ ለእኛ ለሰው ልጆች የሰጠን ጥቅም ምንድር ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        864,
+        2231,
+        1049
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኢየሱስ ክርስቶስ በትንሣኤው የሰጠን ታላቅ ጥቅም ከሞት በኋላ ሕይወትንና ትንሣኤን መግኘት ነው። ይኸውም እርሱ ራሱ «ቃሌን የሚሰማ የላከኝንም የሚያምን የዘላለም ሕይወት አለውከሞት ወደ ሕይወት ተሻገረ እንጂ ወደ ፍርድ አይመጣም» ብሎ ከሞት የመነሣትና የዘላለማዊ ሕይወትን የመውረስ መብት ሰጥቶናል ዮሐ.፳፩፦፳፪)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1102,
+        2235,
+        1314
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በተለይም ጌታችን ከሙታን ተለይቶ በመነሣቱ ከሞትና ከመቃብር መነሣት ለሚገባቸው የሰው ልጆች በሙሉ በኩር ሆኖአል ጌታችን ኢየሱስ ክርስቶስ ከሞት ከመቃብር ለሚነዙ ሁሉ ጀማሪ በኩር መሆኑን ሐዋርያው ቅዱስ ጫውሎስ ሲያስረዳ «አሁን ግን ክርስቶስ ላንቀለፉት ሁሉ በኩር ሆኖ ከሙታን ተነሥቶአል ሞት በሰው በኩል መጣ፤ ትንሣኤ ሙታን በሰው በኩል (በክርስቶስ በኩል) ሆኖአል። ሁሉ ባዳም እንደሚሞቱ እንዲሁ በክርስቶስ ደግሞ ሕያዋን ይሆናሉ» ብሎአል (፩ቆሮ.፲፳፦፳፪-፳፫)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1362,
+        2239,
+        1678
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ ጌታችን ከሙታን አልተነሣም ብለው ለማስተባበል ሲሉ በጌታ መቃብር ዙሪያ ነቅተው ተግተው ይጠብቁ የነበሩት ወታደሮች ጌታችን በታላቅ ሥልጣን ከሙታን ተለይቶ በተነሣ ጊዜ ምን ሆኑ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1724,
+        2239,
+        1910
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ተቀብሮበት በነበረው ቦታ የእግዚአብሔር መልአክ ስለ ወረደበት እጅግ ተናወጠች (ተንቀጠቀጠች)። ከሰማይ የወረደውም መልአክ እንደ መብረቅ ልብሱም እንደ በረድ ነጭ ነበር ጠባቆችም መልአኩን ከመፍራት የተነሣ ተንቀጠቀጡ እንደ ሞቱም ሆኑ ይላል ((ማቴ.፳፳፦፪-፬) ስለዚህ ነቅተው ተግተው ይጠብቁ የነበሩት ወታደሮች መልአኩን አይተው በመደንገጥ ወደቁ እንደ ሞቱም ሆኑ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1961,
+        2173,
+        2220
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ ጌታችን ኢየሱስ ክርስቶስ ከሙታን ተለይቶ ከተነሣ በኋላ ወዴት ሄደ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2272,
+        1974,
+        2336
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኢየሱስ ክርስቶስ ሞትን አሸንፎ ከሙታን ተለይቶ ከተነሣ በኋላ በኢየሩሳሌም በገሊላ ተራራና በጥብርያዶስ ባሕር አጠገብ ለደቀ መዛሙርቱ እየተገለጸ ምስጢረ ትንሣኤውን ሲያስተምራቸውከቆየ በኋላ ከሙታን በተነሣ በአርባኛው ቀን በታላቅ ክብርና በምስጋና ወደ መጣበት ወደ ሰማይ ወደ ላከው ወደ አብ ዐረገ (የሐዋ.፩፦፲፫)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        2385,
+        2228,
+        2598
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ ጌታችን ኢየሱስ ክርስቶስ ታላቅ ክብርና በምስጋና ወደ ሰማይ ከማረጉ (ከመውጣቱ) በፊት ለደቀ መዛሙርቱ ምን አላቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2653,
+        2239,
+        2779
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መልስ፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2837,
+        511,
+        2881
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፩ኛ. አርባ ቀን ሙሉ እየታያቸው ማለትም እየተገለጸላቸው ስለ እግዚአብሔር መንግሥት እያስተማራቸው ከሕማሙ በኋላ ሕያው መሆኑን በብዙ ማስረጃ ራሱን ገለጸላቸው፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        2881,
+        2074,
+        2989
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "d667717dee1fba8fd7eb72f21187a8e3441feb726187549333af9d65b4f0f24a",
+      "source_sha256": "929b744ca0904a68a1513f703ada85961b46bbd79deb1f48fcf67860143ac4a7",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_096.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 348.135,
+      "created_at": "2026-10-25T06:05:39.413301+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "929b744ca0904a68a1513f703ada85961b46bbd79deb1f48fcf67860143ac4a7",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_096.json"
+}

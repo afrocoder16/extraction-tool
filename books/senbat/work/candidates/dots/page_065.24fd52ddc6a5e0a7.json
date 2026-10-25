@@ -1,0 +1,347 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-9167b9c43b1b503b",
+    "object": "chat.completion",
+    "created": 1792898249,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [236, 63, 1253, 103], \"category\": \"Page-header\", \"text\": \"የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ሃይማኖትና ሥርዓት\"}, {\"bbox\": [244, 108, 1244, 152], \"category\": \"Page-header\", \"text\": \"The Ethiopian Orthodox Tewahido Church Faith and Order\"}, {\"bbox\": [570, 153, 920, 183], \"category\": \"Page-header\", \"text\": \"www.ethiopianorthodox.org\"}, {\"bbox\": [242, 297, 849, 334], \"category\": \"List-item\", \"text\": \"ሠ. ጠንቃቃ፣ ጻድቅ፣ ቅድስና ራሱን የሚገዛ መሆን አለበት፤\"}, {\"bbox\": [242, 327, 1182, 427], \"category\": \"List-item\", \"text\": \"ረ. ሕይወት የሚገኝበትን ትምህርት ማስተማር የሚችል፤ በሃይማኖት ትምህርት የበሰለና በድንግልና ጸንቶ የመነከዴስ መሆን ይገባዋል (ቂቶ1፣ 7-10) ግእዙን፣ በተጨማሪም ፍትሐ መንፈሳዊ አንቀጽ 5 እስከ መጨረሻው ያለውን ይመልከቱ።\"}, {\"bbox\": [197, 451, 355, 483], \"category\": \"Section-header\", \"text\": \"## ታልቅ ምክር\"}, {\"bbox\": [195, 489, 1175, 578], \"category\": \"Text\", \"text\": \"<<ካህኑ፣ የሠራዊት ጌታ የእግዚአብሔር መልክተኛ ነውና፣ ከክንፈሮቹ (ከአንደበቱ) ዕውቀትን ይጠብቁ ዘንድ ይገባቸዋል፤ ሰዎችም ሕግን ከአፉ ይፈልጉ ዘንድ ይገባቸዋል>> (ሚል.2፣ 7)።\"}, {\"bbox\": [565, 656, 1171, 734], \"category\": \"Text\", \"text\": \"ከትምህርት ሃይማኖት ኦርቶዶክሳዊት 1991 ዓ.ም. አቡነ ገብርኤል ከጻፉት የተወሰደ።\"}, {\"bbox\": [576, 2012, 976, 2041], \"category\": \"Page-footer\", \"text\": \"www.ethiopianorthodox.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4201,
+      "total_tokens": 5031,
+      "completion_tokens": 830,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Page-header",
+      "text": "የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ሃይማኖትና ሥርዓት",
+      "bbox": [
+        374.84155844155845,
+        100.0945945945946,
+        1990.1545454545455,
+        163.64671814671814
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Page-header",
+      "text": "The Ethiopian Orthodox Tewahido Church Faith and Order",
+      "bbox": [
+        387.5480519480519,
+        171.59073359073358,
+        1975.8597402597402,
+        241.4980694980695
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Page-header",
+      "text": "www.ethiopianorthodox.org",
+      "bbox": [
+        905.3376623376623,
+        243.08687258687257,
+        1461.2467532467533,
+        290.75096525096524
+      ]
+    },
+    {
+      "order": 3,
+      "category": "List-item",
+      "text": "ሠ. ጠንቃቃ፣ ጻድቅ፣ ቅድስና ራሱን የሚገዛ መሆን አለበት፤",
+      "bbox": [
+        384.37142857142857,
+        471.8745173745174,
+        1348.4766233766234,
+        530.6602316602317
+      ]
+    },
+    {
+      "order": 4,
+      "category": "List-item",
+      "text": "ረ. ሕይወት የሚገኝበትን ትምህርት ማስተማር የሚችል፤ በሃይማኖት ትምህርት የበሰለና በድንግልና ጸንቶ የመነከዴስ መሆን ይገባዋል (ቂቶ1፣ 7-10) ግእዙን፣ በተጨማሪም ፍትሐ መንፈሳዊ አንቀጽ 5 እስከ መጨረሻው ያለውን ይመልከቱ።",
+      "bbox": [
+        384.37142857142857,
+        519.53861003861,
+        1877.3844155844156,
+        678.418918918919
+      ]
+    },
+    {
+      "order": 5,
+      "category": "Section-header",
+      "text": "## ታልቅ ምክር",
+      "bbox": [
+        312.8974025974026,
+        716.550193050193,
+        563.8506493506494,
+        767.3918918918919
+      ]
+    },
+    {
+      "order": 6,
+      "category": "Text",
+      "text": "<<ካህኑ፣ የሠራዊት ጌታ የእግዚአብሔር መልክተኛ ነውና፣ ከክንፈሮቹ (ከአንደበቱ) ዕውቀትን ይጠብቁ ዘንድ ይገባቸዋል፤ ሰዎችም ሕግን ከአፉ ይፈልጉ ዘንድ ይገባቸዋል>> (ሚል.2፣ 7)።",
+      "bbox": [
+        309.7207792207792,
+        776.9247104247104,
+        1866.2662337662337,
+        918.3281853281853
+      ]
+    },
+    {
+      "order": 7,
+      "category": "Text",
+      "text": "ከትምህርት ሃይማኖት ኦርቶዶክሳዊት 1991 ዓ.ም. አቡነ ገብርኤል ከጻፉት የተወሰደ።",
+      "bbox": [
+        897.3961038961039,
+        1042.2548262548262,
+        1859.912987012987,
+        1166.1814671814673
+      ]
+    },
+    {
+      "order": 8,
+      "category": "Page-footer",
+      "text": "www.ethiopianorthodox.org",
+      "bbox": [
+        914.8675324675324,
+        3196.6718146718144,
+        1550.1922077922077,
+        3242.7471042471043
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 65,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ሃይማኖትና ሥርዓት",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          374.84155844155845,
+          100.0945945945946,
+          1990.1545454545455,
+          163.64671814671814
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "The Ethiopian Orthodox Tewahido Church Faith and Order",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          387.5480519480519,
+          171.59073359073358,
+          1975.8597402597402,
+          241.4980694980695
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.ethiopianorthodox.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          905.3376623376623,
+          243.08687258687257,
+          1461.2467532467533,
+          290.75096525096524
+        ],
+        "layout_category": "Page-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ሠ. ጠንቃቃ፣ ጻድቅ፣ ቅድስና ራሱን የሚገዛ መሆን አለበት፤",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          384.37142857142857,
+          471.8745173745174,
+          1348.4766233766234,
+          530.6602316602317
+        ],
+        "layout_category": "List-item",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ረ. ሕይወት የሚገኝበትን ትምህርት ማስተማር የሚችል፤ በሃይማኖት ትምህርት የበሰለና በድንግልና ጸንቶ የመነከዴስ መሆን ይገባዋል (ቂቶ1፣ 7-10) ግእዙን፣ በተጨማሪም ፍትሐ መንፈሳዊ አንቀጽ 5 እስከ መጨረሻው ያለውን ይመልከቱ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          384.37142857142857,
+          519.53861003861,
+          1877.3844155844156,
+          678.418918918919
+        ],
+        "layout_category": "List-item",
+        "colour_aligned": false
+      },
+      {
+        "type": "title",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "## ታልቅ ምክር",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          312.8974025974026,
+          716.550193050193,
+          563.8506493506494,
+          767.3918918918919
+        ],
+        "layout_category": "Section-header",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "<<ካህኑ፣ የሠራዊት ጌታ የእግዚአብሔር መልክተኛ ነውና፣ ከክንፈሮቹ (ከአንደበቱ) ዕውቀትን ይጠብቁ ዘንድ ይገባቸዋል፤ ሰዎችም ሕግን ከአፉ ይፈልጉ ዘንድ ይገባቸዋል>> (ሚል.2፣ 7)።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          309.7207792207792,
+          776.9247104247104,
+          1866.2662337662337,
+          918.3281853281853
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ከትምህርት ሃይማኖት ኦርቶዶክሳዊት 1991 ዓ.ም. አቡነ ገብርኤል ከጻፉት የተወሰደ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          897.3961038961039,
+          1042.2548262548262,
+          1859.912987012987,
+          1166.1814671814673
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.ethiopianorthodox.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          914.8675324675324,
+          3196.6718146718144,
+          1550.1922077922077,
+          3242.7471042471043
+        ],
+        "layout_category": "Page-footer",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "24fd52ddc6a5e0a7085d76e32aaefb2db578d8a28bf458c638da010054470bb2",
+      "source_sha256": "c36250da8b4797530e946a5beeb655b5a8149a4612f15b672fa9801d529f07c4",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_065.png",
+      "source_dimensions": [
+        2446,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2072
+      ],
+      "elapsed_seconds": 105.116,
+      "created_at": "2026-10-25T03:19:13.913589+00:00",
+      "derivative_input": false
+    }
+  }
+}

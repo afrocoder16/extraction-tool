@@ -1,0 +1,131 @@
+{
+  "page": 144,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ይነቱ ተግባር በጥንቃቄ ላይ ካልተመሠረተ እውነተኛውንና ጻድቁን ወደመኮነን ሊያደርስ ይችላል፤ በመጽሐፍም «በድፍ ረትና በትዕቢት በመናቅም በጻድቅ /በእውነተኛው/ ላይ የሚናገሩ የሽንገላ ከንፈሮች ድዳ ይሁኑ።» የተባለው ሳይረጋገጥ ስለሚነገር ነገር አደገኛነት ለማመልከት ነው። መዝ. 30÷18። ይህም የተባለበት ምክንያት ብዙዎች የአይሁድ ሊቃነ ካህናት እንደአደረጉት ሁሉ በቅዱሳን ላይ በሐሰት ስለሚመሰክሩ ነው። እነዚህ በጌታችን በኢየሱስ ክርስቶስ ላይ የሐሰት ምስክር ይፈልጉ ነበርና።» ማቴ.26 ÷59።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        558,
+        293,
+        1760,
+        807
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በቅዱሳን ላይ በሐሰት መመስከር",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        735,
+        875,
+        1588,
+        950
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በመጽሐፍ እንደተመዘገበው ቅዱስ እስጢፋኖስን አይሁድ ሊገድሉት በፈለጉ ጊዜ ብዙ ሰዎች በሐሰት መስክረውበት ነበር። በሐሰት ቃላቸው «ይህ ሰው በዚህ በተቀደሰው ስፍራ በሕግም ላይ የስድብን ነገር ለመናገር አይተውም» በማለት እነርሱን ትክክለኛ፤ እርሱን ደግሞ ተሳዳቢና ሕግን ተላሳፊ አድርገው በመናገር መስክረውበት ነበር። የሐዋ.6÷13። ቀደም ብሎም በብሉይ ኪዳን ንግሥቲቱ ኤልዛቤል በኢይዝራኤላዊው በናቡቴ ላይ ያቆመቻቸው የሐሰት ምስክሮች «ናቡቴ እግዚአብሔርንና ንጉሡን ሰድቦአል ብለው በናቡቴ ላይ መሰከሩ። የዚያን ጊዜም ከከተማአውጥተው እሰኪሞት ድረስ ወገሩት»። 1ነገ.20÷13።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        566,
+        1021,
+        1773,
+        1648
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሐዋርያው ቅዱስ ጳውሎስም «በክብርና በውርደት በክፉ ወሬና በመልካም ወሬ ራሳችንን እናማጥናለን፤ አሳቾች ስንባል እውነተኛች ነን» በማለት የተናገረው በሐዋርያዊ አገልግሎታቸው ላይ በሐሰት ይናፈስ የነበረውን አሉባልታ የሚመለከት ነበር። 2ቆሮ.6÷8። ከዚህም በላይ በቅዱሳን ላይ ስለተነገረው የሐሰት ምስክርነት ሁሉ እንጻፍ ቢባል ጊዜም አይበቃም። ብዙ ቅዱሳን በሐሰት ምስክርነት የተነሣ ያለ በደላቸው መከራን ተቀብለዋል፤ የነፍስ መሥዋዕትነትም ጭምር ከፍለዋል። ለምሳሌ ያህል ቅዱስ አትናቴዎስ ሐዋርያዊ በዝሙትና በነፍስ ግድያ፤ ሶርያዊው ቅዱስ አብርሃም፣ ታላቁ መቃርዮስ፣ አባ መሪና በዝሙት የተከሰሱት በሐሰት እንደነበር ቅዱሳት ድርሳናት ያስረዳሉ። እነዚህ ቅዱሳን አበው በሐሰት ከተከሰሱበት ኃጢአት ነፃ መሆናቸው ተረጋግጧል። ስለዚህ እንግዲህ በሐሰት ለሚነገር ክስም ሆነ ወሬ ጆሮን ከመስጠት መቆጠብ ለሰው ሁሉ ጠቃሚ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        576,
+        1660,
+        1784,
+        2519
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«በሐሰት አትመስክር» የሚለው ትእዛዝ ዋሽቶ የሚናገረውንና ሐሰተኛ ወሬን የሚሰማውንም ሰው ሁሉ የሚመለከት ነው። ሐሰት ወሬን የሚሰማና የሚቀበል ሰውውሽተኛውን የበለጠ እንዲዋሽ ይገፋፋዋልና በኃጢአት ላይ ኃጢአት እንዲሠራ ምክንያት ይሆነዋል። በዚህ መሠረትም በሐሰት ኃጢአት ተናጋሪውና አድማጩ ሁለቱም ተሳታፊዎች ናቸው። በቅዱስ መጽሐፍ የምናገኘው የመጽሐፍ ቃል የሚያስተምረው ሐሰተኛ ወሬን መስማትና ማስተጋባትም ተገቢ አለመሆኑን ነው። ምሳ.29÷12። የቤተ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        616,
+        2535,
+        1789,
+        3046
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "24abb478b2dcf976cee022f279c9c28d19671ae3500ada9f10afa6398dcb7f80",
+      "source_sha256": "f95e93a680947bea4490590d04e611adf73cfae21f68a76754a1fa2d37d0c186",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_144.png",
+      "source_dimensions": [
+        2471,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 266.92,
+      "created_at": "2026-10-25T10:30:06.349928+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "cef9f4c746a617efaa45203c6cb151899fc12f6aa2a0c88a79eb000ecc3e1156",
+      "image": "f95e93a680947bea4490590d04e611adf73cfae21f68a76754a1fa2d37d0c186",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_144.json"
+}

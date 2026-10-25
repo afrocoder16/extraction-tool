@@ -1,8 +1,10 @@
 """Assemble per-page transcripts into the finished book JSON.
 
 Section boundaries come from the book's own config, not from code, so a new PDF
-only needs a new `book.json`. A book with no section table is emitted as a single
-implicit section covering every page.
+only needs a new `book.json`. Sections either open on a matching title block
+(`required_any`) or, when every section gives `pages: [first, last]`, on their
+first page; the latter suits a book joined from several PDFs. A book with no
+section table is emitted as a single implicit section covering every page.
 """
 
 from __future__ import annotations
@@ -56,6 +58,14 @@ def match_section(
     return None
 
 
+def section_for_page(page: int, sections: list[dict]) -> dict | None:
+    for section in sections:
+        first, last = section["pages"]
+        if first <= page <= last:
+            return section
+    return None
+
+
 def load_transcripts(bk: book_mod.Book, pages: list[int]) -> list[dict]:
     transcripts = []
     for page in pages:
@@ -101,6 +111,7 @@ def build(bk: book_mod.Book, pages: list[int], total_pages: int) -> dict[str, An
     flags_by_page = load_flags(bk)
     review = load_review(bk)
     table = bk.sections
+    by_pages = bool(table) and all(s.get("pages") for s in table)
 
     out_sections: list[dict] = []
     current: dict | None = None
@@ -121,11 +132,16 @@ def build(bk: book_mod.Book, pages: list[int], total_pages: int) -> dict[str, An
             # A running header repeats the section title on later pages, so a
             # section already opened is never reopened — match_section skips it.
             opened = {s["section_id"] for s in out_sections}
-            matched = (
-                match_section(text, table, opened)
-                if block.get("type") == "title"
-                else None
-            )
+            if by_pages:
+                matched = section_for_page(page, table)
+                if matched and matched["section_id"] in opened:
+                    matched = None
+            else:
+                matched = (
+                    match_section(text, table, opened)
+                    if block.get("type") == "title"
+                    else None
+                )
             if matched:
                 previous = current["blocks"] if current is not None else front_matter
                 current = _new_section(matched, page)

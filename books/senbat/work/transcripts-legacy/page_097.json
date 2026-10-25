@@ -1,0 +1,283 @@
+{
+  "page": 97,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪ኛ. «እነሆ አባቴ የሰጠውን ተሰፋ እኔ እልክላችኋለሁ እናንተ ግን ከላይ ኃይል እስክትለብሱ ድረስ በኢየሩሳሌም ቆዩ» ብሎ አዘዛቸው(ሉቃ.፳፬፦፵፯-፵፬)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        345,
+        2148,
+        460
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፫ኛ. «ከእኔ የሰማችሁትን አብ የሰጠውን ተሰፋ ቃል ጠብቁ ዮሐንስ በውኃ አጥምቆ ነበርና እናንተ ግን ከጥቂት ቀን በኋላ በመንፈስ ቅዱስ ትጠመቃላችሁ» አላቸው (የሐዋ.፩፦፬-፭)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        501,
+        2186,
+        612
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፬ኛ. «መንፈስ ቅዱስ በእናንተ ላይ በወረደ ጊዜ ኃይልን ትቀበላላችሁ፤ በኢየሩሳሌምና በይሁዳም ሁሉ በሰማርያም እሰከ ምድርም ዳርም ድረስ ምስክሮቼ ትሁናላችሁ» አላቸው(የሐዋ.፩፦፵-፬)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        656,
+        2238,
+        768
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከዚህ በኋላ ጌታችን ደቀ መዛሙርቱን እስከ ቢታንያ አወጣቸው፤ እጆቹንም አንሥቶ ባረካቸው ሲባርካቸውም ከእነርሱ ተለየ ወደ ሰማይም ዐረገ፡ እነርሱም ሰገዱለትና በብዙ ደስታ ወደ ኢየሩሳሌ ም ተመለሱ ዘወትርም እግዚአብሔርን እያመሰገኑ በመቅደስ ኖሩ (ሉቃ.፳፬፦፵-፵፫)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        814,
+        2243,
+        974
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኢየሱስ ክርስቶስ ከሙታን ተለይቶ በተነሣ በአርባኛው ቀን በታላቅ ክብርና በብዙ ምስጋና ወደ ሰማይ ባረገ ጊዜ ደቀ መዛሙርቱ አንገታቸውን ወደ ሰማይ አቅንተው ወደ ሰማይ በማረግ (በመውጣት)ላይ የነበረውን ጌታችንን ትኩር ብለው ሲመለከቱ እነሆ ነጫጭ ልብስ የለበሱ ሁለት ሰዎች (መላእክት) ባጠገባቸው ቆመው እንዲህ አሉአቸው «እናንት የገሊላ ሰዎች ሆይ ወደ ሰማይ እየተመለከታችሁ ስለምን እዚህ ቆማችኋል? ይህ ከእናንተ ወደ ሰማይ የወጣው ኢየሱስ ወደ ሰማይ ሲወጣ እንዳያችሁት እንዲሁ ይመጣል (ይመለሳል) (የሐዋ.፩፦፲-፲፩)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1020,
+        2243,
+        1336
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ወደ ሰማይ ባረገ በአሥረኛው ቀን ከሙታን ተለይቶ በተነሣ በአምሳኛው ቀን መንፈስ ቅዱስን ለሐዋርያት ላከላቸው፤ ሐዋርያትም መንፈስ ቅዱስን ተሞልተው ልዩ ልዩ ስጦታዎችን ተቀበሉ በልዩ ልዩ ቃንቃም ተናገሩ (የሐዋ.፪፦፩-፬)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1382,
+        2215,
+        1544
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## ዳግም ምጽአተ እግዚእነ (የጌታችን ዳግመኛ መምጣት)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        722,
+        1640,
+        2051,
+        1717
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### ጥያቄ፦ጌታችን ኢየሱስ ክርስቶስ በታላቅ ክብርና ምስጋና ወደ ሰማይ ካረገ በኋላ አንደገን ወደዚህ ዓለም ተመልሶ ይመጣልን?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1765,
+        2230,
+        1891
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አዎን ወደዚህ ዓለም ተመልሶ ይመጣል። ጌታችን ወደዚህ ዓለም ተመልሶ እንደሚመጣ ራሱ መድኃኒታችን ወደ ሰማይ ባረገበት ወቅት ባጠገቡ ቆመው የነበሩት መላእክት «እናንት የገሊላ ሰዎች ሆይ ወደ ሰማይ እየተመለከታችሁ ስለምን ቆማችኋል? ይህ ከእናንተ ወደ ሰማይ የወጣው ኢየሱስ ወደ ሰማይ ሲወጣ እንዳያችሁት እንዲሁ ይመጣል» ብለው በዚያ ቆመው ለነበሩት ለቅዱሳን ሐዋርያት አረጋግጠውላቸዋል (የሐዋ.፩፦፲-፲፩)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1941,
+        2243,
+        2207
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### ጥያቄ፦ጌታችን ኢየሱስ ክርስቶስ ተመልሶ ወደዚህ ዓለም እንደሚመጣ ቀደም ብሎ የተነገረ ትንቢት አለ ወይ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2252,
+        2235,
+        2377
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አዎን አለ፤ ይህም በመጽሐፍ ቅዱስ ውስጥ በብዙ ቦታ ይገኛል። ከዚህ ቀጥለው ያሉት ጥቅሶች ከቡዙ ጥቂቶቹ ናቸው፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2428,
+        2178,
+        2532
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፩ኛ. «እግዚአብሔር ግልጥ ሆኖ (በግልጥ)ይመጣል፤ አምላካችን ይመጣል (ይመለሳል)፤ ዝምም አይልም፤ እሳትም በፊቱ ይነዳል» ሲል ቅዱስ ዳዊት ተናግሮአል (መዝ.፵፬፦፵-፵፫)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2580,
+        2142,
+        2693
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪ኛ. ነቢዩ ኢሳያይስ «እነሆ እግዚአብሔር መዓቱን በቁጣ፤ ዘለፋውንም በእሳት ነበልባል ይመልስ ዘንድ ከእሳት ጋር ይመጣል» ሲል አረጋግጦአል (ኢሳ.፵፯፦፲፯)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2737,
+        2195,
+        2847
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፫ኛ. ነብዩ ዘካርያስ፤ «አምላኬ እግዚአብሔር ከቅዱሳኑ ሁሉ ጋር ይመጣል። በዚያም ቀን",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2892,
+        2077,
+        2946
+      ],
+      "layout_category": "List-item"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "95c83b54c3299c037ea12ba9430d737bfa5f8f705579525fa3b69915a1011928",
+      "source_sha256": "511850370c8b06b8cfe83c10ba2c8ea2fc165c747de2f0cfc5f36ec12093a1a7",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_097.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 330.206,
+      "created_at": "2026-10-25T06:11:09.624424+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "511850370c8b06b8cfe83c10ba2c8ea2fc165c747de2f0cfc5f36ec12093a1a7",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

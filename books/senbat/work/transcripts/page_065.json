@@ -1,0 +1,131 @@
+{
+  "page": 65,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሠ. ጠንቃቃ፣ ጻድቅ፣ ቅድስና ራሱን የሚገዛ መሆን አለበት፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        384,
+        472,
+        1348,
+        531
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ረ. ሕይወት የሚገኝበትን ትምህርት ማስተማር የሚችል፤ በሃይማኖት ትምህርት የበሰለና በድንግልና ጸንቶ የመነከዴስ መሆን ይገባዋል (ቂቶ1፣ 7-10) ግእዙን፣ በተጨማሪም ፍትሐ መንፈሳዊ አንቀጽ 5 እስከ መጨረሻው ያለውን ይመልከቱ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        384,
+        520,
+        1877,
+        678
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ታልቅ ምክር",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        313,
+        717,
+        564,
+        767
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«ካህኑ፣ የሠራዊት ጌታ የእግዚአብሔር መልክተኛ ነውና፣ ከክንፈሮቹ (ከአንደበቱ) ዕውቀትን ይጠብቁ ዘንድ ይገባቸዋል፤ ሰዎችም ሕግን ከአፉ ይፈልጉ ዘንድ ይገባቸዋል» (ሚል.2፣ 7)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        310,
+        777,
+        1866,
+        918
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከትምህርት ሃይማኖት ኦርቶዶክሳዊት 1991 ዓ.ም. አቡነ ገብርኤል ከጻፉት የተወሰደ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        897,
+        1042,
+        1860,
+        1166
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "24fd52ddc6a5e0a7085d76e32aaefb2db578d8a28bf458c638da010054470bb2",
+      "source_sha256": "c36250da8b4797530e946a5beeb655b5a8149a4612f15b672fa9801d529f07c4",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_065.png",
+      "source_dimensions": [
+        2446,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2072
+      ],
+      "elapsed_seconds": 105.116,
+      "created_at": "2026-10-25T03:19:13.913589+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "492d674e37c45601633d6df911caa333ec791cd56761fceaad3c35baa00605b4",
+      "image": "c36250da8b4797530e946a5beeb655b5a8149a4612f15b672fa9801d529f07c4",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_065.json"
+}

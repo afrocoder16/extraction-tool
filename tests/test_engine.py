@@ -8,6 +8,7 @@ from pathlib import Path
 from engine import book as book_mod
 from engine import build_book
 from engine.cli import parse_pages
+from engine.dots_colour import clean_text
 from engine.transcribe import PAGE_SCHEMA
 from engine.provenance import file_hash, page_revision
 
@@ -146,6 +147,24 @@ class EngineTests(unittest.TestCase):
             result = build_book.build(bk, [1], 1)
             self.assertEqual(result["sections_count"], 1)
             self.assertEqual(result["sections"][0]["blocks"][0]["text"], "ሙከራ።")
+
+    def test_page_range_sections_open_on_their_first_page(self) -> None:
+        with tempfile.TemporaryDirectory() as folder:
+            bk = self.make_book(Path(folder), (1, 2, 3))
+            bk.config["sections"] = [
+                {"section_id": "a", "order": 1, "pages": [1, 2]},
+                {"section_id": "b", "order": 2, "pages": [3, 3]},
+            ]
+            for page in (1, 2, 3):
+                self.write_transcript(bk, page)
+            result = build_book.build(bk, [1, 2, 3], 3)
+            spans = [(s["section_id"], s["start_page"], s["end_page"]) for s in result["sections"]]
+            self.assertEqual(spans, [("a", 1, 2), ("b", 3, 3)])
+
+    def test_clean_text_drops_markdown_and_typed_guillemets(self) -> None:
+        self.assertEqual(clean_text("### ጥያቄ፦ ምንድን ነው?"), "ጥያቄ፦ ምንድን ነው?")
+        self.assertEqual(clean_text("አንደኛው ትእዛዝ\n### «አትግደል»"), "አንደኛው ትእዛዝ «አትግደል»")
+        self.assertEqual(clean_text("<<ቃል>> ::"), "«ቃል»።")
 
     def test_page_parser_rejects_invalid_and_out_of_range_selection(self) -> None:
         for spec in ("0", "4", "2-1", "1,", "-1"):

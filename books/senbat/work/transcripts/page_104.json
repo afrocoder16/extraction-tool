@@ -1,0 +1,233 @@
+{
+  "page": 104,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "1. ቅዱስ ዳዊት ሰዎች እንደሚሞቱና እንደገናም እንደሚነሱ ሲናገር «ፊትህን ስትመልስ(ስትሰውር) ይደነግጣሉ፣ ነፍሳቸውን ታወጣለህ፣ ይሞታሉም ወደ አፈራቸውም ይመለሳሉ መንፈስህን ትልካለህ ይፈጠራሉም» ብሎአል መዝ 103(104 29-30)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        296,
+        2165,
+        458
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "2. ነቢዩ ኢሳያስም «ሙታንሰ ይትነስኡ፣ ወየሀይው እለ ውስተ መቃብር ወይትፌስሁ እለ ውስተ ምድር እስመ ጠል ዘእምታቤከ ሕይወቶሙ ውእቱ» «አንተ ከምትሰጣቸው የሕይወት ጠል የተነሳ ሙታን ይነሳሉ። ከመቃብር ያሉት ሁሉ ይድናሉ (ሕይወት ያገኛሉ) በምድርም ያሉት ደስ ይሰኛሉ» ብሎአል ኢሳ. 26፥ 18-19 ግእዙን ይመልከቱ) በአማርኛው መጽሐፍ ቅዱስ ደግሞ «ሙታን ሕያዋን ይሆናሉ ሬሳዎችም ይነሳሉ ጠልህ የብርሃን ጠል ነውና ምድርም ሙታንን ታወጣለች» ተብሎ ተመዝግቦአል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        504,
+        2174,
+        809
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "3. ነቢዩ ዳንኤልም ሙታን እንደሚነሱ ሲመሰክር «በዚያን ዘመን ስለ ሕዝብህ ልጆች የሚቆም ታላቁ አለቃ ሚካኤል ይነሳል። በህዝቡ ላይም ከሆነ ጀምሮ እስከዚያ ዘመን ድረስ እንደርሱ ያለ ያልሆነ የመከራ ዘመን ይሆናል። በዚያ ዘመን በሕይወት መጽሐፍ ተጽፎ የተገኘ ሕዝብ እያንዳንዱ ይድናል። በምድር ትቢያ ውስጥ ካንቀላፉት ብዙዋች ይነቃሉ እኩሌቶቹ ወደ ዘላለም ሕይወት፣ እኩሌቶች ወደ ዘለዓለም ጉስቁልና ይሄዳሉ» ብሎአል። (ዳን 12፥ 1-3)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        859,
+        2174,
+        1123
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "4. በነብዩ በሆስኤ መጽሐፍ ደግሞ «ወያሀይወነ በሰኡይ መዋእል ወአመ ሳልስት እለት ንትነሳእ ወነሀዩ በቅድሜሁ» «ከሁለት ቀን በሁዋላ ያድነናል በሶስተኛውም ቀን እንነሳለን በፊቱም በህ ይወት እንኖራለን።» ተብሎ ተጽፎአል። (ሆሴ 6፥ 2)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1172,
+        2165,
+        1329
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "5. እራሱ ጌታችንም ሙታን እንደሚነሱ ሲያረጋግጥ «በመቃብር ያሉት ሁሉ ድምጹን (የጌታን ድምጽ) የሚሰሙበት ሰዓት ይመጣል። መልካም ያደረጉ ለሕይወት ትንሣኤ ክፉም ያደረጉ ለፍርድ (ለኩነኔ) ትንሣኤ ይወጣሉ» ብሎአል። (ዮሀ 5፥ 9)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1375,
+        2161,
+        1534
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ይህ አምላካዊ ቃል ሁለት ዓይነት ትንሣኤ እንዳለ ያመለክታል። ይኸውም፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1583,
+        1847,
+        1632
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሀ. የሕይወት (የድኅነት) ትንሣኤ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        670,
+        1684,
+        1228,
+        1737
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለ. የሐሳር (የመከራ) ትንሣኤ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        670,
+        1788,
+        1288,
+        1840
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መልካም የሠሩ መልካም ስራቸውን ይዘው ይነሱና ወደ ዘላለማዊ ሕይወት እንደሚሄዱ መጥፎሥራ የሠሩ ደግሞ ክፉ ሥራቸውን ተሸክመው ይነሱና ወደ ዘላለማዊ ቅጣት እንደሚላኩ የሚያመለክት ቃል ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1891,
+        2168,
+        2041
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "6. ጌታችን ኢየሱስ ክርስቶስ በመጨረሻው ቀን (ዓለም ሲፈጸም) ሙታንን እንደሚያስነሳ ብዙ ጊዜ ተናግሮአል። «አብ ከሰጠኝም ሁሉ አንድ ስንኳ እንዳሳጠፋ ነገር ግን በመጨረሻው ቀን አስነሳዋለሁ እንጂ የላከኝ የአብ ፈቃድም ይህ ነውና» ብሎአል (ዮሐ 6፥ 39) እንደዚሁም «ወ አልቦ ዘይክል መጸአ ታቤየ፣ እመ ኢሰሀቦ አብ ዘፈነወኒ ወአነ አንስኦ በድታሪት እለት» «የላከኝ አብ ካልሳበው በቀር ማንም ወደ እኔ ሊመጣ የሚችል የለም እኔም በመጨረሻው ቀን አስነሳዋለሁ» ሲል ተናግሮአል። (ዮሐ 6፥ 44) ቀጥሎም «ሥጋዩን የሚበላ ደሜን የሚጠጣ የዘላለም ሕይወት አለው እኔም በመጨረሻው ቀን አስነሳዋለሁ» ብሎአል። (ዮሐ 6፥ 54)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2092,
+        2171,
+        2457
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "7. በዘመነ ብሉይ የነበረው ነቢዩ ዕዝራም በምድር የተቀበሩ ሬሳዎችና በሲኦል የሚገኙ ነፍሳት እንደሚነሱ ሲመሰክር «መዋቲ (ሟች) የሚኖርበት ዓለም ያልፋል፣ምድርም በውስጡዋ ያሉትን (የተቀበሩትን) ትሰጣለች፣ መሬትም በውስጡ ያሉትን ይሰጣል። ባህርም፣ ሲኦልና ገነትም በውስጣቸው ያሉትን ነፍሳት ይሰጣሉ» ሲል ትንቢት ተናግሮ ነበር (ዕዝ ሱቱ 5፥ 31-33)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2504,
+        2171,
+        2714
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "06bf45bdb93c91bd71b10fc65962ba0c523eb2a8c7d99a90f0a633e08cdc90b0",
+      "source_sha256": "a8950b170e0f9c130a6ee21291e1bb30947a1aded6ac0cc306ab60f495a6f560",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_104.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 319.219,
+      "created_at": "2026-10-25T06:50:51.734963+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "a8950b170e0f9c130a6ee21291e1bb30947a1aded6ac0cc306ab60f495a6f560",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_104.json"
+}

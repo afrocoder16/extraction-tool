@@ -1,0 +1,266 @@
+{
+  "book_id": "senbat",
+  "publish": true,
+  "title_am": "የሰንበት ት/ቤት ትምህርት",
+  "title_en": "Sunday School Teachings",
+  "tradition": "Ethiopian Orthodox Tewahedo Church",
+  "language": [
+    "am",
+    "gez"
+  ],
+  "script": "Ethiopic",
+  "source_pdf": "source/senbat.pdf",
+  "source_note": "19 topic PDFs from ethiopianorthodox.org (books/senbat.zip), joined in teaching order; each section's pages give its range in the joined PDF.",
+  "render": {
+    "dpi": 300
+  },
+  "split": {
+    "blank_ink_ratio": 0.004
+  },
+  "ocr": {
+    "provider": "dots",
+    "dots": {
+      "model": "dots-studio/dots.mocr",
+      "timeout": 900,
+      "retries": 2,
+      "max_pixels": 3211264,
+      "max_completion_tokens": 8192,
+      "ignore_text": [
+        "ethiopianorthodox\\.org",
+        "Ethiopian Orthodox Tewahido Church Faith and Order",
+        "የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን ሃይማኖትና ሥርዓት"
+      ]
+    },
+    "tesseract_lang": "amh"
+  },
+  "sections": [
+    {
+      "section_id": "summary",
+      "order": 1,
+      "title_am": "ማጠቃለያ",
+      "title_en": "Summary of the Faith",
+      "category": "doctrine",
+      "source_file": "summary.pdf",
+      "pages": [
+        1,
+        3
+      ]
+    },
+    {
+      "section_id": "trinity",
+      "order": 2,
+      "title_am": "ምስጢረ ሥላሴ",
+      "title_en": "The Mystery of the Trinity",
+      "category": "doctrine",
+      "source_file": "trinity.pdf",
+      "pages": [
+        4,
+        8
+      ]
+    },
+    {
+      "section_id": "incarnation",
+      "order": 3,
+      "title_am": "ምስጢረ ሥጋዌ",
+      "title_en": "The Mystery of the Incarnation",
+      "category": "doctrine",
+      "source_file": "incarnation.pdf",
+      "pages": [
+        9,
+        20
+      ]
+    },
+    {
+      "section_id": "weld_wahid",
+      "order": 4,
+      "title_am": "ወልድ ዋሕድ",
+      "title_en": "The Only-Begotten Son",
+      "category": "doctrine",
+      "source_file": "weldwahid.pdf",
+      "pages": [
+        21,
+        32
+      ]
+    },
+    {
+      "section_id": "baptism",
+      "order": 5,
+      "title_am": "ምስጢረ ጥምቀት",
+      "title_en": "The Mystery of Baptism",
+      "category": "sacrament",
+      "source_file": "baptism.pdf",
+      "pages": [
+        33,
+        43
+      ]
+    },
+    {
+      "section_id": "meron",
+      "order": 6,
+      "title_am": "ምስጢረ ሜሮን",
+      "title_en": "The Mystery of Holy Chrism",
+      "category": "sacrament",
+      "source_file": "meron.pdf",
+      "pages": [
+        44,
+        45
+      ]
+    },
+    {
+      "section_id": "holy_communion",
+      "order": 7,
+      "title_am": "ምስጢረ ቁርባን",
+      "title_en": "The Mystery of Holy Communion",
+      "category": "sacrament",
+      "source_file": "holycommunion.pdf",
+      "pages": [
+        46,
+        52
+      ]
+    },
+    {
+      "section_id": "penance",
+      "order": 8,
+      "title_am": "ምስጢረ ንስሐ",
+      "title_en": "The Mystery of Penance",
+      "category": "sacrament",
+      "source_file": "penance.pdf",
+      "pages": [
+        53,
+        57
+      ]
+    },
+    {
+      "section_id": "matrimony",
+      "order": 9,
+      "title_am": "ምስጢረ ተክሊል",
+      "title_en": "The Mystery of Matrimony",
+      "category": "sacrament",
+      "source_file": "martimony.pdf",
+      "pages": [
+        58,
+        59
+      ]
+    },
+    {
+      "section_id": "qendil",
+      "order": 10,
+      "title_am": "ምስጢረ ቀንዲል",
+      "title_en": "The Mystery of Unction",
+      "category": "sacrament",
+      "source_file": "mistereqendil.pdf",
+      "pages": [
+        60,
+        60
+      ]
+    },
+    {
+      "section_id": "kihenet",
+      "order": 11,
+      "title_am": "ምስጢረ ክህነት",
+      "title_en": "The Mystery of Priesthood",
+      "category": "sacrament",
+      "source_file": "mkihenet.pdf",
+      "pages": [
+        61,
+        65
+      ]
+    },
+    {
+      "section_id": "creation",
+      "order": 12,
+      "title_am": "ሥነ ፍጥረት",
+      "title_en": "Creation",
+      "category": "doctrine",
+      "source_file": "creation.pdf",
+      "pages": [
+        66,
+        67
+      ]
+    },
+    {
+      "section_id": "hallawe_egziabher",
+      "order": 13,
+      "title_am": "ሀልዎተ እግዚአብሔር",
+      "title_en": "The Existence of God",
+      "category": "doctrine",
+      "source_file": "halewotegziabher.pdf",
+      "pages": [
+        68,
+        70
+      ]
+    },
+    {
+      "section_id": "neger_egziabher",
+      "order": 14,
+      "title_am": "ነገረ እግዚአብሔር",
+      "title_en": "Teaching on God",
+      "category": "doctrine",
+      "source_file": "negereegizeabher.pdf",
+      "pages": [
+        71,
+        83
+      ]
+    },
+    {
+      "section_id": "neger_menfes_qidus",
+      "order": 15,
+      "title_am": "እግዚአብሔር መንፈስ ቅዱስ",
+      "title_en": "God the Holy Spirit",
+      "category": "doctrine",
+      "source_file": "negermenfesekidus.pdf",
+      "pages": [
+        84,
+        87
+      ]
+    },
+    {
+      "section_id": "tinsae_mutan",
+      "order": 16,
+      "title_am": "ምስጢረ ትንሣኤ",
+      "title_en": "The Mystery of the Resurrection",
+      "category": "doctrine",
+      "source_file": "tinsaemutan.pdf",
+      "pages": [
+        88,
+        108
+      ]
+    },
+    {
+      "section_id": "ten_commandments",
+      "order": 17,
+      "title_am": "የእግዚአብሔር ሕግ",
+      "title_en": "The Law of God (Ten Commandments)",
+      "category": "law",
+      "source_file": "10commandments.pdf",
+      "pages": [
+        109,
+        155
+      ]
+    },
+    {
+      "section_id": "higgege_wengel",
+      "order": 18,
+      "title_am": "ሕግጋተ ወንጌል",
+      "title_en": "The Commandments of the Gospel",
+      "category": "law",
+      "source_file": "higegatewengel.pdf",
+      "pages": [
+        156,
+        160
+      ]
+    },
+    {
+      "section_id": "fiqr",
+      "order": 19,
+      "title_am": "ፍቅር",
+      "title_en": "Love",
+      "category": "virtue",
+      "source_file": "fiker.pdf",
+      "pages": [
+        161,
+        166
+      ]
+    }
+  ]
+}

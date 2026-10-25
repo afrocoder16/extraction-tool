@@ -1,0 +1,232 @@
+{
+  "page": 109,
+  "page_header": "የኢትዮጵያ አርቶዶክስ ተጥሕዶ ቢተ ክርስቲያን ሃይግኖትና ሥርዓት The Ethiopian Orthodox Cewahido Church Faith and Order",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የእግዚአብሔር ሕግ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        206,
+        399,
+        2152,
+        577
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መግቢያ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1125,
+        665,
+        1326,
+        723
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አምላካችን እግዚአብሔር ሰውን በፈጠረው ጊዜ የሚመዝንና የሚያስተውል አእምሮ ሰጥቶት በነፃነት የፈጠረው መሆኑን ቅዱሳት መጻሕፍት ያስረዳሉ። ስለዚህም በተሰጠው ነፃ አእምሮ ክፋውን ከመልካሙ በመለየት በእግዚአብሔር ፊት በጽድቅ መኖር ለሰው ልጅት ከፍጥረት መጀመሪያ አንሥቶ የተሰጠው ጸጋ ነው። ይህንንም የጻድቃን አባቶችን ታሪክ በግልጥ የሚያስረዳ መሆኑን በመጽሐፍ ተጽፏል። በዚህ ተቃራኒ ደግሞ አእምሮአቸውን በሕገ ልቡና ከኃጢአት ለይተው መኖር የተሳናቸው ሰዎች ሞት እንደተፈረደባቸወ በሰብአ ትካት (በኖነ ዘመን የጠፋ ሰዎች) እና በሰዶምና በገሞራ ሰዎች ታሪክ የታወቀ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        770,
+        2326,
+        1100
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አምላክ ለሰው ልጆች ላዘጋጀው ክብር እንደብቁ መመሪያ የሚሆኑ የእምነትና የምግባር ሕግጋትን በሕገ ልቦና ብቻ ሳይሆን በዓይን የሚታይና በእጅ በሚዳሰስ ሁኔታ በጣቶቺ በመጸፍ በነቢዩ በሙሴ አማካይነት ለእስራኤል ሰጥቷል። ዘጺ. 20-1:17 ዘዳግ. 5። እነዚህ ሕግጋት አሥራ በመሆናቸው «አሠርቱ ትእዛዛት በመባል ይታወቃሉ። በሌላ አነጋገርም «ትእዛዛተ ኦሪት» ይባላሉ። በዚህ ጽሑፍም በተከታታይ ስለእነዚሁ «አሠርቱ ትእዛዛት» ለመግለጽ ያቀድን በመሆኑ ለዛሬ መግቢያውን እነሆ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        1172,
+        2326,
+        1437
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አሠርቱን ትእዛዛት በጠቅላላው ስንመለከታቸው የሚከተሉትን ዐበይት ነጥቦች እንድናስተውል ያደርጉናል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        1514,
+        1948,
+        1569
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሀ. አሠርቱ ትእዛዛት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        1628,
+        611,
+        1680
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በእግዚአብሔርና በሰው መካከል የተደረጉ ኪዳናት ናቸው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        1718,
+        1209,
+        1770
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አሠርቱ ትእዛዛት የተሰጡት ለአለፋት በቀደምት ዘመናት ለነበሩት ሰዎች ብቻ ሳይሆን እኛም የዚህ ዘመን ሰዎች ክርስቶስና ደቀ መዛሙርቱ በኃላም ሊቃውንተ ቤተ ክርስቲያን ካስተማሩት ርቱዕና ምሉዕ የክርስትና ሕግና ትምህርት ጋር በማዋሐድ እንድንመራባቸው ነው። ስለዚህ ከሁሉ አስቀድሞ እነዚህ አሠርቱ ትእዛዛት በእግዚአብሔርና በሰው ልጆች መካከል የተደረጉ ኪዳናት መሆናቸውን መረዳት ይገባል። ነቢያ እዚአብሔር ሙሴም ይህንኑ ለማስረዳት « አምላካችን እግዚአብሔር በኮሪብ ከእኛ ጋር ቃለ ኪዳን አደረገ። እግዚአብሔር ዛሬ በዚህ በሕይወት ካለነው ከእኛ ጋር ቃል ኪዳን አደረገ እግዚአብሔር ዛሬ በዚህ በሕይወት ካለነው ከእኛ ከሁላችን ጋር እንጂ ከአባቶቻችን ጋር ብቻ ይህችን ቃል ኪዳን አላደረገም።» በማለት አስገንዝቧል። ዘዳ. 5-2:3። ከዚህ በመነሣት ነው አሠርቱ ትእዛዛት የተጻፋባቸውን ጽላት «የቃል ኪዳኑ ጽላት» ብለን የምንጠራው። ዘዳ. 9-11። እነዚህ አሠርቱ ትእዛዛት የተጻፋባት መጽሐፍ» ተብሏል። ዘዳ. 24-7።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        1797,
+        2336,
+        2332
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እንግዲህ እነዚህ ትእዛዛት እኛ እግዚአብሔርን ባመለክንበት ወይም እርሱም ባመንበት ጊዜ በእኛና በእርሱ መካከል የተመሠረቱ ኪዳናት ናቸው። ልዑል እግዚአብሔርም እነዚህን ኪዳንና ከሰዎች ልጆች ጋር ባደረገ ጊዜ በሚያስፈራና በሚያስደነግጥ ሁኔታ እንደነበር ቅድስ መጽሐፍ ያስረዳናል። በዚያን ጊዜ ተራራው ይናወጥ ነበር። የሲና ተራራ ሁሉ ይጤስ ነበር። ከእርሱም እንደ እቶን ያለ ጢስ ይወጣ ነበር። ዘዳ. 19-16:-19። ሐዋርያው ቅዱስ ጳውሎስም ይህንኑ ሁኔታ ሲገለጥ «ሙሴ እጅግ እፈራለሁ እንቀጠቀጣለሁ እስኪል ድረስ የሚታየው እጅግ የሚያስፈራ ነበረ» ብሏል። ዕብ. 12-21።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        2339,
+        2336,
+        2667
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለ. የትእዛዛቱ አስፈላጊነት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        2751,
+        703,
+        2802
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እነዚህ አሠርቱ ትእዛዛት በፈጣሪአችን በእግዚአብሔር አንደበት የተነገሩ በጣቶቹም የተጻፋና ከእርሱ የተሰጠ መሆናቸው አስፈላጊነታቸውን የጎላ ያደርገዋል። ዘጺ. 20-1። ዘዳ. 9-10። ነቢዩ ሙሴም አሠርቱን ትእዛዛት ተቀብሎ ሲወርድ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        146,
+        2809,
+        2336,
+        2938
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "697f46257d652cacf2a008dee942622ebfecba6c7a3571e12510c0bbc27b291e",
+      "source_sha256": "2608d3dd8c3716e22648e25e28eac0be70d50e6cd0acaa5500b156b1d89ea8e6",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_109.png",
+      "source_dimensions": [
+        2496,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 358.706,
+      "created_at": "2026-10-25T07:16:11.989590+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "25be1ed8f3701e8c8cedc4d93cd1cb6ec00f61857f11a14af6826c4c5a9c4cab",
+      "image": "2608d3dd8c3716e22648e25e28eac0be70d50e6cd0acaa5500b156b1d89ea8e6",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

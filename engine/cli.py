@@ -145,7 +145,7 @@ def main(argv: list[str] | None = None) -> int:
     if run_all or args.stage == "split":
         from . import color_split
         print(f"[split] {len(pages)} pages")
-        for stat in color_split.split_pages(bk.page_images, bk.work, pages):
+        for stat in color_split.split_pages(bk.page_images, bk.work, pages, bk.blank_ink_ratio):
             if stat.is_blank or stat.is_illustration:
                 kind = "blank scan" if stat.is_blank else "colour illustration"
                 print(f"  page {stat.page}: {kind} (skipped downstream)")

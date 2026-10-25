@@ -1,0 +1,113 @@
+{
+  "page": 59,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስለዚህ ባልና ሚስት ከኃጢአትና ከበደል ይድኑ ዘንድ በሕገ ቤተክርስቲያን አማካይነት የገቡት ን የጋብቻ ቃል ኪዳን እስከ ዕለተ ሞታቸዉ ድረስ ጠብቀው መኖር ይገባቸዋል። በጋብቻቸው ጊዜ በእግዚአብሔር ስም ቤተክርስቲያን የገቡትን ቃል ኪዳን ማፍረስ ዐቢይ ኃጢአትና ትልቅ በደል መሆኑን ምን ጊዜም መርሳት አይገባቸውም።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        169,
+        2178,
+        372
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## እጅግ ጠቃሚ ምክር",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        369,
+        478,
+        803,
+        535
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሐዋርያው ቅዱስ ጳውሎስ ከዚህ በታች የሰጠውን ምክርና መመሪያ መከተል ይገባል፤ «ባሎች ሆይ ክርስቶስ ደግሞ ቤተክርስቲያንን እንደወደዳት ሚስቶቻችሁን ውደዱ። በውኃ ጥምቀትና በቃሉ ያነጻት ዘንድና ይቀድሳትም ዘንድ ስለ እርስዋ ራሱን አሳልፎ ሰጠ። ነውርና እንከን ጉድፍ ሳይኖርባት ንጽሕትና ቅድስት ትሆን ዘንድ ለራሱ አደረጋት። እንደዚሁም ባሎች ሚስቶቻቸውን እንደ ራሳቸው አድርገው ሊወዱ ይገባቸዋል። የገዛ ሚስቱን የሚወድ ራሱን ይወዳል፤ የገዛ ሥጋውን የሚጠላ ከቶ የለምና። የአካሉ ክፍሎች ስለሆንን ክርስቶስ ቤተክርስቲያኑን እንደሚመግብ እናንተም ሚስቶቻችሁን መግቡ ተንከባከቡም። ስለዚህ ሰው (ባል) አባቱንና እናቱን ይተዋል ሚስቱንም ይከተላል ሁለቱም አንድ አካል ይሆናሉ። ይህ ምስጢር ታላቅ ነው። እኔግን ይህን ስለ ክርስቶስና ስለ ቤተክርስቲያን እላለሁ። ነገር ግ እናንት እያንዳንዳችሁ ሚስቶቻችሁን እንደ ራሳችሁ አድርጋችሁ ውደዱ፤ ሚስት ባሏን ታክብረው» (ኤፌ. 5፣26-33)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        535,
+        2174,
+        1054
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከትምህርተ ሃይማኖት ኦርቶዶክሳዊት 1991 አቡነ ገብርኤል ከጻፉት የተወሰደ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1200,
+        1893,
+        1249
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "63059a1539f334c744b8b86a9ce32d5edc002389538ef694ff369d5984f79937",
+      "source_sha256": "7a4face73ba8aa8fe651981a482b901d899dd76c65b98244f400dd11c0cdd263",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_059.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 150.254,
+      "created_at": "2026-10-25T02:49:30.698423+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "7a4face73ba8aa8fe651981a482b901d899dd76c65b98244f400dd11c0cdd263",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

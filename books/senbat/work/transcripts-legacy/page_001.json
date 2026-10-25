@@ -1,0 +1,385 @@
+{
+  "page": 1,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## ማጠቃለያ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1169,
+        638,
+        1384,
+        699
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከላይ በአጭሩ ከተገለጹት ትምህርቶች መሐከል የሚከተሉት ሰባቱ ምስጢራተ ቤተክርስቲያን በመባል ይታወቃሉ። እነርሱም፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        369,
+        755,
+        2155,
+        877
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "1ኛ/ ምስጢረ ጥምቀት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        376,
+        881,
+        852,
+        940
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "2ኛ/ ምስጢረ ሜሮን",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        943,
+        802,
+        1002
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "3ኛ/ ምስጢረ ቁርባን",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1005,
+        813,
+        1062
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "4ኛ/ ምስጢረ ንስሐ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1066,
+        787,
+        1125
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "5ኛ/ ምስጢረ ክህነት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1128,
+        816,
+        1187
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "6ኛ/ ምስጢረ ተክሊል",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1190,
+        846,
+        1249
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "7ኛ/ ምስጢረ ቀንዲል",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1252,
+        842,
+        1311
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፤-ከእነዚህ ከሰባቱ ምስጢራት መካከል የማይደገሙት ማለት በድጋሚ የማይፈጸሙት የትኞቹ ናቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1375,
+        2122,
+        1491
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንድ ጊዜ ከተፈጸሙ በኋላ የማይደገሙ ምስጢራት፧",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1558,
+        1459,
+        1607
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "1ኛ/ ምስጢረ ጥምቀት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1607,
+        922,
+        1658
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "2ኛ/ ምስጢረ ሜሮን",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1660,
+        881,
+        1711
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "3ኛ/ ምስጢረ ክህነት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1711,
+        894,
+        1761
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "4ኛ/ ምስጢረ ተክሊል ናቸው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1763,
+        1070,
+        1815
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እነዚህ ዕስቱ ምስጢራት፤ ሕገ ቤተክርስቲያን በሚያዘው መሠረት ከተፈጸሙ በኋላ በምንም ዓይነት እንደገና አይፈጸሙም። ይህም ማለት ሓዋርያዊትና ኦርቶዶክሳዊት ቤተክርስቲያን በምታዘው ሥርዓተ ሐዋርያት መሠረት አንድ ጊዜ የተጠመቀ ሰው ድጋሚ መጠመቅ አይገባውም። ጥምቀት አንዲት ናትና (ኤፌ. 4፤5)። ሥልጣነ ክህነትም አንድ ጊዜ ከተቀበሉት በኋላ በድጋሚ ሊቀበሉት አይቻልም። ሥልጣነ ክህነት ከፈረሰ በኋላ እንደገና አይሠራም፣ አይጠገንም።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1866,
+        2176,
+        2121
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፤-ምስጢራተ ቤተክርስቲያን ለምን ሰባት ብቻ ሆኑ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2228,
+        1551,
+        2283
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በቅዱስ መጽሐፍ አቆጣጠር ሰባት (7) ፍጹምና ሙሉ ቁጥር በመሆኑ ከአንድ እስከ ሰባት (1-7) የተዘረዘሩት ምስጢራተ ቤተክርስቲያንም እንከንና ጉድለት የሌለባቸው ፍጹማን ናቸው። ሰባት ቁጥር በመጽሐፍ ቅዱስ ሥርዓት ፍጹም ለመሆን ለማወቅ ከዚህ የሚከተሉትን ማስረጃዎች እንመልከት፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        2287,
+        2173,
+        2488
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "1ኛ/ እግዚአብሔር የፈጠራቸው ከእሑድ እስከ ቅዳሜ ያሉት ቀኖች (ዕለታት) ሰባት ናቸው (ዘፍ. 1፤5-31፤ 2፣1-4)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2490,
+        2114,
+        2596
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "2ኛ/ ከአዳም ሰባተኛ ትውልድ የሆነው ሄኖክ ሞትን ሳይቀምስ ቀርቶአል። በሕይወተ ሥጋ ሳለም እግዚአብሔር ወደ እርሱ ወስዶታል (ሰውሮታል) (ዘፍ. 5፤21-24)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2645,
+        2166,
+        2752
+      ],
+      "layout_category": "List-item"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7859bfde8c8713485e90891907c818381cec4036a42c9ffb961b2145f9ce0abc",
+      "source_sha256": "a7df37efebab4823edac4e4e817d240b043d9236aad154c6e078d130baf82a41",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_001.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 252.508,
+      "created_at": "2026-10-24T21:12:27.537844+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "a7df37efebab4823edac4e4e817d240b043d9236aad154c6e078d130baf82a41",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

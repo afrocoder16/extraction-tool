@@ -1,0 +1,249 @@
+{
+  "page": 2,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "3ኛ/ የእግዚአብሔር ሰው ኖና በመርከብ ውስጥ ሆኖ ምድርን ያጥለቀለቃት የጥፋት ውኃ ጎድሎ እንደሆነ ታረጋግጥለት ዘንድ ርግብን ላካት። እርስዋም ውኃው ያልጎደለ መሆኑን በ ማረጋገጥ ወደ ኖና ተመለሰች። ከዚያም ሰባት ቀን ቆይቶ ርግቢቱን መልሶ ሰደዳት። ርግ ብም በማታ ጊዜ በአፍዋ ለምለም የወይራ ቅጠል ይዛ ተመለሰች። ኖናም ከምድር ላይ ው ኃው እንደቀለለ (እንደ ጎደለ) ተገነዘበ። እንደገናም ሰባት ቀን ቆይቶ ርግቧን ላካት፤ ርግ ቢቱ ግን ዳግመኛ ወደ ኖና አልተመለሰችም። በዚህም ምክንያት ጻድቁ ኖና ውኃው እንደ ደረቀ ተገንዝቦ ከመርከብ ወጣ (ዘፍ.8፤ 6-12)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        355,
+        2176,
+        724
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የእግዚአብሔር ሰው ኖና ሰባት ቀን እየቆየ ርግቢቱን መላኩ ቁጥር ሰባት ፍጹምና ጥልቅ ትርጉም ያለዉ መሆኑን የሚያመለክት ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        594,
+        789,
+        2153,
+        892
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "4ኛ/ ሰባት ቁጥር ጥልቅ ትርጉም ያለው ፍጹም ቁጥር መሆኑን የተገነዘበው ቅዱስ ዳዊት «ስ ብዓ ለዕለትየ እሴብሐከ በእንተ ኩነኔ ጽድቅከ»፤ «ስለ ጽድቅህ ፍርድ በቀን ሰባት ጊዜ አ መሰግንሃለው» ብሎአል (መዝ.118፤ 164)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        949,
+        2169,
+        1110
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "5ኛ/ ሰባት ቁጥር ፍጹምና ዐቢይ ትርጉም ያለው መሆኑ ይታወቅ ዘንድ ሐዋርያው ቅዱስ ጴጥ ሮሰ ወደ ጌታችን ቀርቦ (ጌታ ሆይ ወንድሜ ቢበድለኝ ስንት ጊዜ ልተውለት? እስከ ሰባት ጊዜ ነውን? አለው። ጌታችን ኢየሱስ ክርስቶስ ግን እስከ ሰባት ጊዜ ሰባ እንጂ እስከ ሰባት ጊዜ ብቻ አልልህም» ሲል መለሰለት(ማቴ. 18፤21)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1165,
+        2176,
+        1378
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "6ኛ/ጌታችን በመስቀል ላይ ተሰቅሎ ሳለ በፈቃዱ ነፍሱን ከሥጋው ከመለየቱ ማለትም ከመለየቱ በፊት በመልዕልተ መስቀል (በመስቀል ላይ) እንዳለ ሰባት ጊዜ ተናግሯል ይኽውም፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1421,
+        2163,
+        1531
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሀ. አባት ሆይ የሚያደርጉትን አያውቁምና ይቅር በላቸው? ብሎ ለሰቀሉት ጸልዮላቸዋል (ሉቃ. 23. 34)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        820,
+        1580,
+        2150,
+        1684
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለ. በቀኙ በኩል ተሰቅሎ ለነበረው ወንበዴ «እውነት እልሃለው ዛሬ ከእኔ ጋር በገነት ትሆናለህ» ብሎታል (ሉቃ. 23፤ 43)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        820,
+        1732,
+        2173,
+        1840
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሐ. ዘጠኝ ሰዓትም በሆነ ጊዜ ጌታ ኢየሱስ «ኤሎሄ ኤሎሄ ላማ ሰበቅታኒ ብሎ በታሳቅ ድምጽ ጨሆአል» (ማቴ. 27፤ 46)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        820,
+        1884,
+        2148,
+        1992
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መ. ጌታችን በመስቀል ላይ ተሰቅሎ ሳለ፤ እናቱንና ደቀ መዝሙሩን በመስቀል አጠገብ ቆመዉ ባያቸው ጊዜ እናቱን «እንቺ ሴት እነሆ ልጅሸ አላት»፤ ደቀ መዝሙሩንም «እንኋት እናትህ» አለው (ዮሐ. 19፤25-27)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        820,
+        2040,
+        2153,
+        2198
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሠ. «ከዚያ በኋላ ጌታ ኢየሱስ አሁን ሁሉ እንደ ተፈጸመ አውቆ የመጽሐፉ ቃል ይፈጸም ዘንድ «ተጠማሁ» አለ (ዮሐ. 19፤28)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        820,
+        2249,
+        2139,
+        2351
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ረ. ከዚያ በኋላ «ሁሉ ተፈጸመ» አለ (ዮሐ. 19፤30)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        820,
+        2401,
+        1751,
+        2457
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሰ. በመጨረሻ ጌታችን እግዚአብሔር አብን «አባት ሆይ ነፍሴን በእጅህ አደራ እሰጣለው» ብሎ ነፍሱን ሰጠ (ሞተ) (ሉቃ. 23፤46-47)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        820,
+        2501,
+        2165,
+        2609
+      ],
+      "layout_category": "List-item"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "f330bc1f237a8381547ce92a3f49e5d58ca4e72ace93198e43e0248908ee1b18",
+      "source_sha256": "79ad5b0d164c5df9c7479872395bcfbbd6c4abc12ac428b82f7773334c04def2",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_002.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 270.652,
+      "created_at": "2026-10-24T21:27:12.037188+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "79ad5b0d164c5df9c7479872395bcfbbd6c4abc12ac428b82f7773334c04def2",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

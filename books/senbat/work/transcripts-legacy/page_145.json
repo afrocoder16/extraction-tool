@@ -1,0 +1,130 @@
+{
+  "page": 145,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ክርስቲያን ሕግም ከዚሁ በተመሳሳይ ካህኑ ሐሰተኛ ነገርን እንዳይሰማ ያዝዛል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        602,
+        312,
+        1759,
+        424
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቃላት ለአድማጭ እስኪደርሱ ድረስ ስለመበረዛቸው",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        714,
+        504,
+        1649,
+        641
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንዳንድ ሰዎች ስለአንድ ነገር የሰሙትን እንዳለ ከማስተላለፍ ይልቅ የራሳቸውን ሃሳብ ጨምረው፣ በራሳቸው መደምደሚያ አበጅተውለት፣ የራሳቸውንም ፍላጎት እንዲያስተላልፍላቸው ካመቻቹ በኋላ ልክ እንደተናጋሪው ቃላት አስመስለው ለሰሚው ያቀርባሉ። እነዚህ ሰዎች ሐሰተኞች ናቸው። የዓባይን ወንዝ እንደ ምሳሌ እንውሰድ፣ መልኩ ቡናማ ቀለም ነው፤ ቡናማ የሆነበት ምክንያት ከመነሻው ጀምሮ በሰበሰበው የተሸረሽረ አፈር የተነሣ ነው። ከዚያ በፊት በኢትዮጵያ ተራራዎች ላይ በዘነበው ንጹሕ ውኃ የተሞላ ነበር፤ በረዥሙ ጉዞው ግን ከአፈር ጋር ተደባልቆ ቡናማ መልክ ኖረው። የመጀመሪያ መልኩም ለመለወጥ በቃ። እንዲሁ ሁሉ ከመነሻቸው ንጹሐን የነበሩት ወሬዎች በመጨረሻ በሚሰማቸው ሰው ጆሮ ሲደርሱ ከብዙ ሃሳብ ጋር ተደባልቀውና ማንነታቸው ተለውጦ ነው። ሐሰት የተጠደባለቀባቸውና የተበረዙ ሆነው ለጆሮ ይቀርባሉ። ከንጹሕ ንግግር ጋር የተቀላቀለ ሐሰት በሰዎች መካከል ያለውን ግንኙነት የሚያሻክር ይሆናል። በዚህ የተነሣም የተናፈሱትን የሐሰት ወሬዎች መሠረት በማድረግ ባልንጀራን ወይም ወዳጅን ወይም ማንኛውንም ሰው ቢሆን ከመቀየምና ስለጉዳዩም ከመናገር አስቀድሞ ስለሆነው ነገር ሁሉ እርግጠኛ መሆን ይገባል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        581,
+        688,
+        1781,
+        1873
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንዳንድ ሰዎች በሐሰተኛ ወሬ የተነሣ ስማቸው ሲጎ ድፍና ሲታሙ እየሰሙ ራሳቸውን ከመከላከል ተቆጥበው ይኖራሉ። እነዚህ ንጹሐን ቁጥብነትን በመምረጣቸው እንደ ጥፋተኛ መቆጠር የለባቸውም። የአንድን ሰው ንጽሕና ለማረጋገጥ የሚደረገው ጥረት ስለሰውየው ሊታወቅ ያማይገባውን የግል ምሥጢሩን የሚያጋልጥ፣ የሌላውን ሰው ወንጀለኛነት የሚያጋልጥ፣ ወይም የሰውየውን ስሕተቶች የሚያጋልጥ ሊሆን ስለሚችል ራሱን ለመከላከል ላይመርጥ ይችላል። የአንድን ሰው ንጽሕና ማረጋገጥ በከሳቾቹና በስም አጥፊዎቹ ላይ ችግር የሚያስከትል ሲሆን ንጹሑ ሰው ነገሩን ሁሉ ለእግዚአብሔር በመስጠት መከላከሉን ሊተው ይችላል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        594,
+        1878,
+        1799,
+        2506
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ይሁን እንጂ ሐሰተኛው ሰው ንጹሑን ጥፋተኛ፣ ጥፋተኛውን ደግም ንጹሕ አድርጎ የሰዎችን ኅሊናና አመ ለካከት ሊበርዝ ይችላል። ይህን በተመለከተ በቅዱስ መጽሐፍ «ኃጥኡን የሚያጸድቅና በጻድቁ የሚፈርድ፦ ሁለቱ በእግዚአብሔር ዘንድ አስጸያፊዎች ናቸው።» የሚል ተጽፎ እናገኛለን። ምሳ. 17÷15። ንጹሑን ሰው የሚኮንን ኃጢአተኛውንም ጻድቅ እንደሆነ የሚመሰክር ሰው ሐሰተኛ ነው። በሌላም በኩል በአንድ የሥራ መስክ በቂ ችሎታና ዕውቀት ሳይኖረው እንደ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        608,
+        2506,
+        1810,
+        2976
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "ceb336bc5b6c9442857f047b3cb66ef3796caed9a481a5993b31578c0cd72c4c",
+      "source_sha256": "04606ef9512a67ac6dc5bf07579160db7f9506f0d2b1618401e8f7d8b9198f4e",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_145.png",
+      "source_dimensions": [
+        2471,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 256.401,
+      "created_at": "2026-10-25T10:34:22.756323+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "cef9f4c746a617efaa45203c6cb151899fc12f6aa2a0c88a79eb000ecc3e1156",
+      "image": "04606ef9512a67ac6dc5bf07579160db7f9506f0d2b1618401e8f7d8b9198f4e",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

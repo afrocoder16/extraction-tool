@@ -1,0 +1,216 @@
+{
+  "page": 60,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምስጢረ ቀንዲል",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1036,
+        473,
+        1397,
+        532
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፣- ምስጢረ ቀንዲል ማለት ምን ማለት ነዉ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        241,
+        594,
+        1303,
+        651
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምስጢረ ቀንዲል ማለት ምስጢረ ቅብዐ ፈውስ ማለት ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        390,
+        715,
+        1451,
+        764
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምስጢረ ቀንዲል ከሰባቱ ምስጢራተ ቤተክርስቲያን አንዱ ነው። ምስጢረ ቀንዲል የተጀመረው በጌታችን ዘመን በሐዋርያት ነው። ይኽውም ቅዱሳን ሐዋርያት በጌታችን ትእዛዝ ልዩ ልዩ ድውዮችን (በሸተኞችን) ቅብዐ ቅዱስ እየቀቡ ይፈውሱ ነበር (ማር. 6፣12-13)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        387,
+        820,
+        2192,
+        976
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የኢየሩሳሌም ኤጺስ ቆጹስ የነበረዉ ሐዋርያው ቅዱስ ያዕቆብም ምስጢረ ቀንዲልን አስመልክቶ ለምእ መናን ሲጽፍ እንዲህ ብሏል፤ «ከእናንተ መከራ የሚቀበል ማንም ቢኖር እርሱ ይጸልይ፤ ደስ የሚለዉ ማንም ቢኖር እርሱ ይዘምር (ጌታን ያመስግን)። ከእናንተ የታመመ ማንም ቢኖር እርሱ የቤተክርስቲያን ን ቀሳዉስት ወደእርሱ ይጥራ፤ በጌታም ስም እርሱን ዘይት ቀብተዉ ይጸልዩለት። የእምነት ጸሎት ድውዩን (በሸተኞውን) ያድናል፤ ጌታም ያስነሣዋል ኃጢአትም ሠርቶ እንደሆን ይሰረይለታል» (ያዕ. 5፣13-15)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        387,
+        1023,
+        2186,
+        1336
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በኢትዮጵያ ኦርቶዶክስ ተዋህዶ ቤተክርስቲያን ምስጢረ ቅብዐ ፈውስ የሚፈጸምላቸው ሕሙማን፤ በኢትዮጵያ ኦርቶዶክስ ተዋህዶ ቤተክርስቲያን ቀኖና መሠረት የቤተክርስቲያኒቱን እምነትና ሥርዓት የሚከተሉ መሆን አለባቸው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        387,
+        1383,
+        2169,
+        1534
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምእመናን ልዩ ልዩ በሸታ ሲያድርባቸው ወደ ቤተክርስቲያናቸው ማለት ወደ አጥቢያ ቤተክርስቲያናቸው እየሄዱ ወይም መልእክተኞች እየላኩ ቀሳዉስቱ በጸሎት ምስጢረ ፈውስ (ምስጢረ ቀንዲል) ይፈጽሙላቸው ዘንድ ይገባል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        387,
+        1589,
+        2165,
+        1742
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፣- ምስጢረ ቀንዲል መፈጸም የሚችል ማን ነዉ?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        241,
+        1843,
+        1400,
+        1904
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ምስጢረ ቀንዲልን መፈጸም የሚችሉ ሥልጣነ ክህነት ያላቸው ቀሳውስት ናቸው፤ ማለት በአንብሮተ እድ የተኾሙ ቀሳውስት ይህንን የፈውስ ምስጢር በሕሙማን ላይ መፈጸም ይችላሉ። ሥልጣነ ቅስና የሌለው ሰው ግን ምስጢረ ቀንዲልን መፈጸም አይችልም።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        387,
+        1958,
+        2192,
+        2110
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከትምህርተ ሃይማኖት ኦርቶዶክሳዊት 1991 አቡነ ገብርኤል ከጸፉት የተወሰደ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        387,
+        2262,
+        1761,
+        2311
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "77b8d8f4ceb882c28c742796d69d7239cc3acff2bc8bcf26b4c55c0c1c5da3ab",
+      "source_sha256": "12a05f31a15e673900664bef2ee817e597dbc0c8c8c10bd05fb0e048084dec63",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_060.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 219.869,
+      "created_at": "2026-10-25T02:53:10.572036+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "12a05f31a15e673900664bef2ee817e597dbc0c8c8c10bd05fb0e048084dec63",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_060.json"
+}

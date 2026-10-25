@@ -1,0 +1,334 @@
+{
+  "page": 99,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪ኛ. በየቦታው የጦርነት ወሬ ይሰማል፤ በየስፍራው ጦርነት ይሆናል፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        349,
+        1691,
+        401
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፫ኛ. ሕዝብ በሕዝብ ላይ መንግሥትም በመንግሥት ላይ ይነሣል፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        450,
+        1651,
+        504
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፬ኛ. ራብ ቸነፈርና የምድር መናወጥ (መንቀጥቀጥ) በልዩ ልዩ ስፍራ ይሆናል፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        553,
+        1851,
+        609
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፭ኛ. ብዙ ክርስቲያኖች በእምነት ይሰናከላሉ፣ እርስ በርሳቸው አሳልፈው ይሰጣጣሉ፣",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        656,
+        1978,
+        710
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፮ኛ. ብዙ ሐሰተኞች ነቢያት ይነሣሉ፤ ብዙዎችን ያስታሉ፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        760,
+        1524,
+        814
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፯ኛ. ከዐመፅ ብዛት የተነሣ የብዙ ሰዎች ፍቅር ትቀዘቅዛለች (ማቴ. ፳፬፥፩-፴፭፤ ማር.፲፫፥፫-፳፯ ሉቃ.፳፩፥፭-፴፮)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        863,
+        2202,
+        971
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እነዚህና እነዚህን የመሰሉተ ሁሉ የጌታችን መምጣት ምልክቶችና የመከራው መጀመሪያዎች ናቸው (ማቴ. ፳፬፥፳)። በዚያን ጊዜ ከዓለም መጀመሪያ አንሥቶ እስከ ዛሬ ድረስ ያለሆነ ከዚህም በኋላ የመይሆን ታላቅ መከራ ይሆናል (ማቴ. ፳፬፥፳፩፤ ማር.፲፫፥፲፬)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        1020,
+        2235,
+        1180
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ጌታችን ለእውነተኞቹ ተከታዮቹ የሰጣቸው መመሪያዎች ምንና ምን ናቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1278,
+        2101,
+        1342
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኢየሱስ ክርስቶስ ለቅዱሳን ሐዋርያትና ለመላው ተከታዮቹ የሰጣቸው መመሪያዎች የሚከተሉት ናቸው፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        1391,
+        2085,
+        1494
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፩ኛ. እሰከ መጨረሻው የሚጸና እሱ ይድናል (ማቴ. ፳፬፥፲፫)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        1545,
+        1597,
+        1603
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪ኛ. «በዚያን ጊዜ ማንም እነሆ ክርስቶስ በዚህ ወይም በዚያ አለ ቢላችሁ አትመኑ፤ ሐሰተኞች ክርስቶሶችና ሐሰተኞች ነቢያት ይነሣሉ፤ ቢቻላቸውስ የተመረጡትን እንኳን ለማሳት እሰኪችሉ ድረስ ታላላቅ ምልክቶችንና አስደናቂ ሥራዎችን ያሳያሉ፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        1650,
+        2239,
+        1807
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፫ኛ. «እንሆ አስቀድሜ ነገርኋችሁ፤ እንግዲህ እንሆ ክርስቶስ በበረሃ ነው ቢሉአችሁ አትውጡ፤ እነሆ በእለፍኝ ነው ቢሉአችሁ አትመኑ፤ መብረቅ ከምሥራቅ ወጥቶ እስከ ምዕራብ እንደሚታይ የሰው ልጅ (የክርስቶስ) መምጣትም እንዲሁ ይሆናል» (ማቴ.፳፬፥፳፫-፳፯)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        1856,
+        2239,
+        2017
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«ምሳሌውን ከበለስ ተማሩ፤ ጫፍዋ ሲለሰልስ ቅጠለዋም ሲያቆጠቁጥ ያን ጊዜ በጋ እንደ ቀረበ ታውቃላችሁ፤ እንዲሁ እናንተ ደግሞ ይህን ሁሉ በደጅ እንደቀረበ እወቁ። አውነት እውነት እላችኋለሁ፤ ይህ ሁሉ እስኪሆን ድረስ ይህ ትውልድ አያልፍም። ሰማይና ምድር ያል ፋል ቃሌ ግን አያልፍም» (ማቴ.፳፬፥፴፪-፴፯)፤ ሲል አስረድቶአቸዋል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        608,
+        2067,
+        2230,
+        2277
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦የጌታችን መምጣት እጅግ እንደ ቀረበ የሚያሳዩ ምልክቶች ምንና ምን ናቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2323,
+        2135,
+        2388
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የጌታችን መምጣት እጅግ እንደ ቀረበ የሚያሳዩ (የሚጠቁሙ) ምልክቶች፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        2437,
+        1807,
+        2493
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፩ኛ. ለአሕዛብ ሁሉ ምስክር ይሆንባቸው ዘንድ የክርስቶስ የመንግሥቱ ወንጌል በዓለም ሁሉ ይሰበካል (ማቴ.፳፬፥፲፬ ማር፲፫፥፲)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        545,
+        2540,
+        2117,
+        2649
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪ኛ. «ከዚያ ሁሉ መከራ በኋላ ወዲያው ፀሐይ ይጨልማል ጨረቃ ብርሃንኗን አትሰጥም፤ ከዋክብት ከሰማይ ይወድቃሉ፤ የሰማያት ኃይላት ይናወጣሉ፤ በዚያን ጊዜ የሰው ልጅ (ክርስቶስ) ምልክት በሰማይ ይታያል» (ማቴ.፳፬፥፳፬)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        2696,
+        2241,
+        2856
+      ],
+      "layout_category": "List-item"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "bfe3aebab44b989e7291ef3244b07f11cfba8b6fab207785149ebb6ec332a199",
+      "source_sha256": "5ffdb2b183ecad22feea9c14f09a3160951098b1afb8878bec16587d14560854",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_099.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 298.965,
+      "created_at": "2026-10-25T06:21:20.550418+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "5ffdb2b183ecad22feea9c14f09a3160951098b1afb8878bec16587d14560854",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

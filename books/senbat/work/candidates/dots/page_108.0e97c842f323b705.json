@@ -1,0 +1,167 @@
+{
+  "status": "draft",
+  "raw_response": {
+    "id": "chatcmpl-a7b978f66583dbcf",
+    "object": "chat.completion",
+    "created": 1792912166,
+    "model": "dots-studio/dots.mocr",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "[{\"bbox\": [318, 183, 1333, 278], \"category\": \"Text\", \"text\": \"ግዲህ በኃላ ሌሊት አይሆንም፣ እግዚአብሔር አምላክ በእነርሱ ላይ ያበራላቸዋልና፣ የመብራት ብርሃን የፀሐይም ብርሃን አያስፈልጋቸውም ከዘላለም እሰከ ዘላለም ይነግሣሉ»(ራእ. 22፥ 4-5)\"}, {\"bbox\": [228, 341, 1378, 376], \"category\": \"Text\", \"text\": \"ትምህርተ ሃይማኖት ኦርቶዶክሳዊት ከሚለው አቡነ ገብርኤል በ1991 ካሳተሙት የተወሰደ።\"}, {\"bbox\": [608, 1892, 959, 1925], \"category\": \"Page-footer\", \"text\": \"www.ethiopianorthodox.org\"}]",
+          "refusal": null,
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": [],
+          "reasoning": null
+        },
+        "logprobs": null,
+        "finish_reason": "stop",
+        "stop_reason": 151673,
+        "token_ids": null
+      }
+    ],
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "prompt_tokens": 4163,
+      "total_tokens": 4490,
+      "completion_tokens": 327,
+      "prompt_tokens_details": null
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "kv_transfer_params": null
+  },
+  "layout": [
+    {
+      "order": 0,
+      "category": "Text",
+      "text": "ግዲህ በኃላ ሌሊት አይሆንም፣ እግዚአብሔር አምላክ በእነርሱ ላይ ያበራላቸዋልና፣ የመብራት ብርሃን የፀሐይም ብርሃን አያስፈልጋቸውም ከዘላለም እሰከ ዘላለም ይነግሣሉ»(ራእ. 22፥ 4-5)",
+      "bbox": [
+        517.155612244898,
+        299.55357142857144,
+        2167.825255102041,
+        455.0595238095238
+      ]
+    },
+    {
+      "order": 1,
+      "category": "Text",
+      "text": "ትምህርተ ሃይማኖት ኦርቶዶክሳዊት ከሚለው አቡነ ገብርኤል በ1991 ካሳተሙት የተወሰደ።",
+      "bbox": [
+        370.7908163265306,
+        558.1845238095239,
+        2241.0076530612246,
+        615.4761904761905
+      ]
+    },
+    {
+      "order": 2,
+      "category": "Page-footer",
+      "text": "www.ethiopianorthodox.org",
+      "bbox": [
+        988.7755102040817,
+        3097.0238095238096,
+        1559.5982142857142,
+        3151.0416666666665
+      ]
+    }
+  ],
+  "transcript": {
+    "page": 108,
+    "blocks": [
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ግዲህ በኃላ ሌሊት አይሆንም፣ እግዚአብሔር አምላክ በእነርሱ ላይ ያበራላቸዋልና፣ የመብራት ብርሃን የፀሐይም ብርሃን አያስፈልጋቸውም ከዘላለም እሰከ ዘላለም ይነግሣሉ»(ራእ. 22፥ 4-5)",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          517.155612244898,
+          299.55357142857144,
+          2167.825255102041,
+          455.0595238095238
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "ትምህርተ ሃይማኖት ኦርቶዶክሳዊት ከሚለው አቡነ ገብርኤል በ1991 ካሳተሙት የተወሰደ።",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          370.7908163265306,
+          558.1845238095239,
+          2241.0076530612246,
+          615.4761904761905
+        ],
+        "layout_category": "Text",
+        "colour_aligned": false
+      },
+      {
+        "type": "prayer",
+        "verse_num_am": "",
+        "spans": [
+          {
+            "t": "www.ethiopianorthodox.org",
+            "c": "black"
+          }
+        ],
+        "bbox": [
+          988.7755102040817,
+          3097.0238095238096,
+          1559.5982142857142,
+          3151.0416666666665
+        ],
+        "layout_category": "Page-footer",
+        "colour_aligned": false
+      }
+    ],
+    "notes": "OCR draft. Check text, verse labels, block roles and colour against the scan.",
+    "corrections": [],
+    "uncertain": [],
+    "clipped": [],
+    "_source": "dots OCR draft",
+    "_colour_unresolved": [
+      0,
+      1,
+      2
+    ],
+    "_provenance": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "0e97c842f323b7052f3b1a95332b1420c7076f2d0fdda502cfd40d8568cfd19f",
+      "source_sha256": "c551e95124b3d6ab0e9b7ba1ad8e4f43c86f697bc8f70d68be2f7e89a1a0f543",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_108.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 47.651,
+      "created_at": "2026-10-25T07:10:13.278853+00:00",
+      "derivative_input": false
+    }
+  }
+}

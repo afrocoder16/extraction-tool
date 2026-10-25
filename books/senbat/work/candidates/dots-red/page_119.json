@@ -1,0 +1,11 @@
+{
+  "page": 119,
+  "key": {
+    "mask": "2740e9084dde09bf18a5f765a8b049f9fc2fbce8efaa920b3c4174a9c42f0156",
+    "image": "b40f0bf84e1c1b712138782f34c1ffb595b2bc2fe7537e311a53a4ba34fc3777",
+    "version": "red-crop-v1",
+    "model": "dots-studio/dots.mocr"
+  },
+  "regions": [],
+  "created_at": "2026-10-24T21:01:23.316701+00:00"
+}

@@ -186,7 +186,8 @@ def _ink_mask(bgr: np.ndarray) -> np.ndarray:
     return binary
 
 
-def split_page(src_path: Path, dirs: dict[str, Path], page: int) -> PageColorStats:
+def split_page(src_path: Path, dirs: dict[str, Path], page: int,
+               blank_ink_ratio: float = BLANK_INK_RATIO) -> PageColorStats:
     bgr = cv2.imread(str(src_path), cv2.IMREAD_COLOR)
     if bgr is None:
         raise FileNotFoundError(f"could not read page image: {src_path}")
@@ -240,7 +241,7 @@ def split_page(src_path: Path, dirs: dict[str, Path], page: int) -> PageColorSta
         red_ink_ratio=round(red_px / float(max(1, red_px + black_px)), 4),
         ink_coverage=round(coverage, 5),
         colour_area=round(colour_area, 4),
-        is_blank=coverage < BLANK_INK_RATIO,
+        is_blank=coverage < blank_ink_ratio,
         is_illustration=colour_area > ILLUSTRATION_COLOUR_RATIO,
     )
 
@@ -282,13 +283,14 @@ def blank_pages(out_root: Path, pages: list[int]) -> set[int]:
 
 
 def split_pages(
-    page_image_dir: Path, out_root: Path, pages: list[int]
+    page_image_dir: Path, out_root: Path, pages: list[int],
+    blank_ink_ratio: float = BLANK_INK_RATIO,
 ) -> list[PageColorStats]:
     dirs = ensure_dirs(out_root)
     stats = []
     for page in pages:
         src = page_image_dir / f"page_{page:03d}.png"
-        stats.append(split_page(src, dirs, page))
+        stats.append(split_page(src, dirs, page, blank_ink_ratio))
 
     # Merge into the persisted table so later stages can skip blank scans without
     # re-analysing, and so a partial run doesn't discard earlier pages.

@@ -1,0 +1,335 @@
+{
+  "page": 74,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦እግዚአብሔር ሰማይንና ምድርን ከምን ፈጠራቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        303,
+        1579,
+        360
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር ሰማይንና ምድርን ካለ መኖር ወደ መኖር አምጥቶ ፈጠራቸው፤ማለት «እም ኀበ አልቦ»«ኀበ ቦ» ፈጠራቸው፤ ፈጣሪ እንደ መሆኑ፣ ካለመኖር ፈጠራቸው። «ሰማያትንና ምድርን፣ ሌሎቹን በዙሪያችን የምናያቸውን ፍጥረታት እግዚአብሔር ካለመኖር (እም ኀበ አልቦ) እንደ ፈጠራቸው ታውቃለህ» ተብሎ ተጽፎአል (ቀዳማዊ መቃብያን.፯፥፳፳)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        363,
+        2187,
+        568
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በሁለተኛው ክፍለ ዘመን መጀመሪያ ላይ በሮም፣ «ካህን ወነቢይ» እየተባለ ይጠራ የነበረው ሔርማ፣ «ኖላዊ» የተባለው መምህርም፣ እግዚአብሔር ሰማያትንና ምድርን ካለመኖር (እም ኀበ አልቦ) እንደ ፈጠራቸው መስክሮአል (መጽሐፈ ሔርማን ኖላዊ ክፍል 2)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        620,
+        2108,
+        778
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦እግዚአብሔር ሰማያትንና ምድርን ከለመኖር (እም ኀበ አልቦ) አምጥቶ ፈጠራቸው ማለት ምን ማለት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        881,
+        1994,
+        999
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር ሰማያትን ምድርን ካለመኖር (እም ኀበ አልቦ) ፈጠራቸው ማለት፣ ከሌላ ነገር በ ማዳቀል፣ ወይም በመቁረስ፣ ወይም በማባዛት ሳይሆን፣ እንደዚሁ በመለኮታዊ ችሎታው ካለመኖር ፈጠራቸው ማለት ነው። ይኸም ችሎታ (ጥበብ) በእግዚአብሔር እንጂ በፍጡራን ዘንድ አይገኝም።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1003,
+        2187,
+        1206
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ማንኛውም ብልጎተኛ ስው ለመሥራት የፈለገውን ዕቃ የሚሠራው እግዚአብሔር ከፈጠረው ፍጥረት ከእንድ ነገር ከፍሎ፣ ወይም ቆንጥሮ በመውስድ ነው። እግዚአብሔር ግን ምንም ነገር ለማድረግ አይሳነውምና የመጀመሪያዎቹን ፍጥረታት የፈጠረው ካለመኖር (እም ኀበ አልቦ) ነው። «በውኑ ለእግዚአብሔር የሚሳነው ነገር አለን?» ሲል የእግዚአብሔር ቃል የሚያስረዳው ስለዚህ ነው (ዘፍ.፲፰፦፲፬)። መልአኩ ቅዱስ ገብርኤልም ለድንግል ማርያም ምጽአተ ወልደ እግዚአብሔርን ሲያበሥራት፣ «ለእግዚአብሔር የሚሳነው ነገር የለምና» ሲል አስረድቶአታል (ሉቃ.፪፦፴፳)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1262,
+        2178,
+        1627
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አርጌንስና ሌሎች የተሳሳተ ግምት የነበራቸው ስዎች ግን፣ «እግዚአብሔር ሰማያትንና ምድርን ዘለዓለማዊት ከሆነች ቁስ አካል (ማተር) ፈጠራቸው» ሲሉ አስተምረዋል። (ኦር.ዲ.ፕሪንሲፕል)። ነገር ግን የሐዋርያት ቤተክርስቲያን ሰማያትና ምድር ከመፈጠራቸው በፊት ከራሱ ከእግዚአብሔር በስተቀር ሌላ ምንም ነገር እንዳልነበረ ታስተምራለች፤ ከእግዚአብሔር በቀር ሌላ ዘለዓለማዊ የሆነ ነገር እንዳልነበረ ታምናለች።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        1673,
+        2187,
+        1932
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦እግዚአብሔር ካለመኖር (እም ኀበ አልቦ) የፈጠራቸው ፍጥረታት ስንት ናቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1987,
+        2158,
+        2049
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር ካለመኖር ወደ መኖር አምጥቶ የፈጠራቸው ፍጥረታት ብቻ ናቸው። ዋና ዋናዎቹ ግን ከዚህ ቀጥለው የተዘረዘሩት ናቸው፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2049,
+        2171,
+        2148
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሀ. ሰማያትና ምድር (የማይታዩትና የሚታዩት)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        672,
+        2153,
+        1449,
+        2205
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለ. መላእክት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        672,
+        2207,
+        899,
+        2249
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሐ. ብርሃን፣ ጨለማ፣ ነፋስ፣ ውሃ፣ እሳት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        672,
+        2257,
+        1392,
+        2301
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መ. ነፍስና ሌሎችም ናቸው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        672,
+        2306,
+        1174,
+        2352
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦የእግዚአብሔር ዘመን ስንት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2413,
+        1212,
+        2468
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የእግዚአብሔር ዘመን ቁጥር የለውም። እግዚአብሔር በዚህ ዘመን ነበረ፤ በዚህ ዘመን ግን አልነበረምአይባልም። ፍጥረታት ሁሉ መነሻና መድረሻ አላቸው። ያልነበሩበት ዘመን፣ ያልተፈጠሩበት ጊዜ ነበር። እንደዚሁም እያንዳንዱ ፍጡር ለመኖር የተወስነለትን ጊዜ ሲጨርስ በሞት ይለያል። በእግዚአብሔር ዘንድ ግን ይህ ሁሉ የለም፤ ለዘለዓለም የኖረና የሚኖር እርሱ ብቻ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2473,
+        2187,
+        2678
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ስለ እግዚአብሔር ዘለዓለማዊነት ቅዱስ መጽሐፍ ምን ይላል?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2734,
+        1795,
+        2789
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር ዘለዓለማዊ አምላክ መሆኑን ቅዱስ መጽሐፍ በብዙ ቦታ ይመስክራል። «ተራሮች ሳይፈጠሩ፣ ምድርም፣ ዓለምም ሳይሠራ ከዘለዓለም እሰከ ዘለዓለም ድረስ አንተ ነህ»",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        522,
+        2789,
+        2158,
+        2894
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "2d5f94eb72e5f0d118574408b684c1f9eb9ce5ce2eded418ff0da5a9ab2c34d9",
+      "source_sha256": "189623e8c47dd8a1b4a2ebfada844406c79cdd9dae11c5c75480aaed23ad1dc6",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_074.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 349.443,
+      "created_at": "2026-10-25T04:00:18.479227+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "189623e8c47dd8a1b4a2ebfada844406c79cdd9dae11c5c75480aaed23ad1dc6",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_074.json"
+}

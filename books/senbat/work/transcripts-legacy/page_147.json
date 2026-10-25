@@ -1,0 +1,147 @@
+{
+  "page": 147,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለመንፈሳውያን መምህራን፣ በእነርሱ ለሚደረጉት ተአምራትና ድንቆችም የሚሰጠውን እውነታዊ ግምት ተገንአድርገው የተሳሳተ ትምህርት የሚያስተምሩት ሐሰተኞች ሐዋርያት እንዲሁም ለማሳሳት የሚጠቀሙባቸው «ሐሰተኛ ድንቆች» የእነርሱን ሐሰተኛነት አስከፊና ተጠያቂነታቸውንም ከፍተኛ ያደርጉታል። ራእ.2÷2። 2ተሰ.2÷9።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        566,
+        325,
+        1728,
+        715
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የመዋሸት ምክንያትና መፍትሔው",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        695,
+        834,
+        1600,
+        904
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንዳንድ ሰዎች መዋሸት ከፈጸሙት ጥፋት የሚያድናቸው እየመሰላቸው የሠሩትን ኃጢአት ለመደበቅ ይዋሻሉ። ይሁን እንጂ የሐሰት መንገድ አጭርና የትም የማያደርስ ብዙ ጊዜም መገለጡ የማይቀር በመሆኑ ሰዎች ከሐሰት ይልቅ የሚያድናቸውን እውነተኛና ተገቢ መንገድ መጠቀም ይኖርባቸዋል። በተገለጠ ጊዜ የሚያሳፍርና ማኅበራዊ ከበሬታውና መንፈሳዊ ተአማኒነትን የሚያሳጣ ሐሰትን በመጠቀም ምንም ነገር መሥራት ተገቢ ካለመሆኑም በላይ ጉዳቱ ያመዝናል። ለሁሉም የሚበጀው ደግሞልቡናን ከክፋት አእምሮን ከሐሰት ነፃ በማድረግ ማንኛውንም ኃጢአት ለማስወገድ የሚቻል መሆኑን ማመን",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        566,
+        929,
+        1728,
+        1583
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንዳንድ ሰዎች ከመበሳጨት ወይም ከመፍራት ወይም ስለአንድ ነገር የሚጠይቃቸው ሰው ከሚያሳድርባቸው ጫና የተነሣ ሊዋሹ ይችላሉ። ከመዋሸት ይልቅ ግን በእንደዚህ ያለ ጊዜ ዝምታ መልካም መሆኑን ማወቅ ተገቢ ነው። በሐሰት ራስን ለማዳን ከመሞከር ምንም ይሁን ምን የንግግርን አቅጣጫ በመቀየርም ቢሆን፣ መልስ ሳለመስጠት ይቅርታ በመጠየቅም ቢሆን፣ በተቻለ መጠን በማስተዋልና እውነትን በመናገር ራስን መከሳከልና ስለተሠራው ስሕተት ይቅርታ መጠየቅ መልካም ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        566,
+        1588,
+        1710,
+        2086
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አንዳንድ ሰዎች ሳያውቁ እንደዐወቁ፣ ሳይሆኑም እንደሆኑ በማስመሰል የሚኩራሩ በመሆኑና አለማወቃቸውንም እንዳይታወቅባቸው ስለሚዋሹ መዋሸትን እንደመሸፈኛ ሊጠቀሙበት ይችላሉ። አንዱን ኃጢአት ለመሸፈን በመዋሸት ተጨማሪ ኃጢአት ከመሥራት አሳውቅም በማለት እውነት መናገሩ የተመረጠና ተገቢም ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        566,
+        2113,
+        1710,
+        2493
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለማጠቃለልም ሐሰት በአንደበት በመናገር የሚፈጸም ኃጢአት ነው። በሰው ዘንድ በምሥጢር መጠበቅ ያለባቸው ብዙ ጉዳዮች ስላሉ በዚህ ረገድ የማይናገረው ሰው ሐሰተኛ ሊባል አይችልም። እንዲህም ስለሆነ ባለመናገር የሐሰትን ኃጢአት መዋጋትና መከሳከል ይኖርብናል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        566,
+        2524,
+        1710,
+        2857
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "8d3c9e08fab99fd45ff4339e8b1f07ea8f1e0d43898369968996be9ef03b1f3f",
+      "source_sha256": "8e14d5a7a6ba1224741c0716fa18136c38510b0c9c43611106205d5cb74471af",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_147.png",
+      "source_dimensions": [
+        2471,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 225.367,
+      "created_at": "2026-10-25T10:42:35.570779+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "cef9f4c746a617efaa45203c6cb151899fc12f6aa2a0c88a79eb000ecc3e1156",
+      "image": "8e14d5a7a6ba1224741c0716fa18136c38510b0c9c43611106205d5cb74471af",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

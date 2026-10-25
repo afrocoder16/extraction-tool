@@ -1,0 +1,284 @@
+{
+  "page": 47,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ረት በመጀመሪያ የሚቀርበውና የሚጠጣው ወይን ነበር፤ ስለዚህ ያንን ሥርዓት በመከተል፣ ጌታ የኦሪቱን የፋሲካ ማዕድ አስቀድሞ፣ የሐዲስ ኪዳን መሠረት የሆነውን ምስጢረ ቀርባንን መሥርቶ ለሐዋርያት እንደ ሰጣቸው ያመለክታል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        441,
+        139,
+        1872,
+        285
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ቅዱሳን ሐዋርያት ከጌታ እጅ የተቀበሉት የጌታ ሥጋና ደም ኅብስቱ ሥጋ አምላክ፣ ወይኑ ደመ አምላክ ሆኖ የተለወጠው ምን ጊዜ ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        353,
+        391,
+        1833,
+        504
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኅብስቱን አንስቶ በባረከውና በቀደሰው ጊዜ፣ ኅብስቱ ተለውጦ ሥጋ አምላክ ሆኖአል፤ ወይኑንም በጽዋ አድርጎ በባረከውና በቀደሰው ጊዜ፣ ወይኑ ተለውጦ ደ መ አምላክ ሆኖአል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        476,
+        506,
+        1854,
+        648
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ በአሁኑ ዘመንስ ቀሳውስት ኅብስቱን በጻሕል፣ ወይኑን በጽዋ አድርገው የሚያቀርቡት ቀርባን የሚለወጠው ምን ጊዜ ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        353,
+        769,
+        1838,
+        881
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ኅብስቱ ሥጋ አምላክ፣ ወይኑም ደመ አምላክ ለመሆን የሚለወጠው ቄሱ፣ «አእኰተ፣ ባረከ፤ ወቀደሰ» ብሎ በባረከው ጊዜ፣ መንፈስ ቅዱስ ኅብስቱን ሥጋ ወልደ እግዚአብሔር (ሥጋ አምላክ) ወይኑንም ደመወልደ እግዚአብሔር (ደመ አምላክ)፣ አድርጎ ይለውጠዋል፤ በዚህ ጊዜ ፍጹም ሥጋ አምላክ፣ ፍጹም ደመ አምላክ ይሆናል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        886,
+        1865,
+        1118
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በ፱፻፯ ዓ.ም. በግፍና በስደት ያረፈው ቅዱስ ዮሐንስ አፈወርቅ፣ «ይህ ሥጋዬ ነው፤ ይህ ደሜ ነው» የተባለው ቃል ስገልጽ፣ ቀርባኑ ሥጋ አምላክና ደመ አምላክ ወደ መሆን ይለወጣል ሲል እንደሚከተለው ጽፎአል፤ «ወይቤ እግዚእነ ዝውእቱ ሥጋ የ፣ ዛቲ ቃል ትዌልጥ ቀርባነ ዘንቡር፣ ወበከመ ይእቲ ቃል ዘይቤ በውስተ ኦሪት ብዝቱ ወተባዝቱ ወምልእዋ ለምድር፣ ይቤ ምእረ ወኮነ ይገብር ውስተ ፍጥረት ትዝምዳተ ወትውልዳተ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        1180,
+        1872,
+        1470
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከማሁ ዝንቱ ቃል ዘይቤ ምእረ ወውእቱ ቃል ይፈጽም ኵሎ መስዋዕተ ዘንቡር ውስተ ኵሉ ቤተክርስቲያን»፤ «በኦሪት አምላካችን፣ ብዙ ተባዙ ምድርንም ሙሉአት ብሎ አንድ ጊዜ በተናገረው ቃል፣ በኣለም የሚገኙ ፍጥረታት ሁሉ ሲዋለዱና ሲራቡ እንደሚኖሩ፣ አሁንም አንደዚሁ ይህ ሥጋዬ ነው፤ ይህ ደሜ ነው ብሎ ነው ብሎ የተናገረው ቃል፣ በታቦት ላይ የሚቀመጠውና በየቤተ ክርስቲያኑ ዘወትር የሚቀርበውን መስዋዕት፣ ሥጋ ወልደ እግዚአብሔር ደመ ወልደ እግዚአብሔር ወደ መሆን ይለውጠዋል» ሲልጽፎአል (መጽሐፈ ግብረ ህማማት ዘሐሙስ፣ ገጽ ፪፺፫)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        1524,
+        1878,
+        1863
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ «አሐዱ አብ ቅዱስ፣ አሐዱ ወልድ ቅዱስ፣ አሐዱ ውእቱ መንፈስ ቅዱስ» ከተባለ በኋላ ይለወጣል የሚሉ አሉ፤ ታዲያ ይህ ልክ ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        353,
+        1920,
+        1869,
+        2031
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«አሐዱ አብ ቅዱስ፣ አሐዱ ወልድ ቅዱስ፣ አሐዱ ውእቱ መንፈስ ቅዱስ» የሚለው ጸሎት፣ የጸሎተ ቅዳሴ የመጀመሪያው ክፍል ነው። ከጸሎተ ቅዳሴው መጀመሪያ አንስቶ፣ «ባረከ ወቀደሰ» ይረስዮ....እስከሚለው ድረስ ለቀርባን የመለወጫ ጸሎት ነውና በዚህ ረገድ ከሆነ ግን፣ ጸሎተ ቅዳሴው ይመሰክርባቸዋልና አባባሉ ትክክል አይደለም።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        2033,
+        1865,
+        2272
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ የምስጢረ ቀርባን ታሪካውያን ምሳሌዎች ምንና ምን ናቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        353,
+        2319,
+        1735,
+        2380
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪ኛ. ጸድቁ አቤል ለእግዚአብሔር ያቀረበው መስዋዕተ ቀርባን፣ ጌታችን ለመሠረተው ቅዱስ ቀርባን፣ ምሳሌ ነው (ዘፍ.፬፬)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        2426,
+        1860,
+        2526
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፫ኛ. ጸድቁ ኖህ ለእግዚአብሔር ያቀረበው መስዋዕተ ቀርባን፣ ለአማናዊው ምስጢረ ቀርባን ምሳሌ ነው፤ (ዘፍ.፯፯-፮፪)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        2526,
+        1865,
+        2626
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፫ኛ. የሳሌም ንጉሥና የልዑል እግዚአብሔር ካህን መልከ ጹዴቅ፣ ለአብርሃም ያቀረበለት የተባረከ ኅብስትና የተቀደሰ ወይን፣ ጌታችን ሐሙስ ማታ ለመሠረተው ምስጢረ ቀርባን ዓይነተኛው ምሳሌ ነው (ዘፍ.፲፬:፲፮-፮፪)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        2626,
+        1865,
+        2770
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፬ኛ. የአብርሃም መስዋዕትና የእስራኤል ልጆች የተመገቡት የፋሲካው በግ፣ ለአማናዊው የጌታችን ሥጋና ደም ታሪካውያን ምሳሌዎች ናቸው (ዘፍ.፮፪:፲-፲፬ ፤ ዘጸ.፲፪:፩-፮፯)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        2770,
+        1872,
+        2914
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "4444bbd13045ba6d4b53ecdaec7bce4ccfccf8e4097cd838e59de9237d6f68bc",
+      "source_sha256": "afd14c8766546bebae00ea596f0ec9f252f5ae86c81dd3a36b4967a33741d695",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_047.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 354.545,
+      "created_at": "2026-10-25T01:50:06.203647+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "afd14c8766546bebae00ea596f0ec9f252f5ae86c81dd3a36b4967a33741d695",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_047.json"
+}

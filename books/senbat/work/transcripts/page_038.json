@@ -1,0 +1,250 @@
+{
+  "page": 38,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ጥምቀት ስንት ግዜ ትፈጸማለች?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        296,
+        1190,
+        358
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በአብ በወልድ በመንፈስ ቅዱስ የምትፈጸም ጥምቀት አንዲት ናት።አንድ ግዜ ከተፈጸመች ማለት ከተሰጠች በኋላ አትደገምም። በካህን በኤጺስ ቆጶስ እጅ የምትፈጸምው ጥምቀት አንዲት ናት። «ሊቀ ጳጳሳት ወይም ጳጳስ ወይም ኤጺስ ቆጶስ ሳይመጣ አናጠምቅም አይበሉ፤ የማጥመቅ ሥልጣን ያለው ያጥምቅ እንጂ፤ የጥምቀት ሥልጣን አንዲት ናትና» ተብሎ በሕገቀኖና ታዞአልና (አንቀጽ ሣልስ፣ቁ.፳፱)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        409,
+        2171,
+        673
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ጥምቀት በስንት ትክፈላለች?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        719,
+        1109,
+        782
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከዚህ በላይ እንደ ተገለጸው፣ አማናዊቷ ማለት እውነተናዋ ጥምቀት አንዲት ናት። ሐዋርያው ቅዱስ ጳውሎስ ጥምቀት አንድ መሆንዋን ሲመስክር፣ «አንድ ጌታ፣ አንዲት ሃይማኖት፣ አንዲት ጥምቀት፣ ከሁሉ በላይ የሚሆን፣ በሁሉም የሚሠራ፣ በሁሉ የሚኖር አንድ አምላክ የሁሉ አባት አለ» ብሎአል (ኤፌ. ፪፣፪-፳)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        836,
+        2155,
+        1044
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በሌላ በኩል ግን ጌታ የመሠረታት ጥምቀት አንዲትና የማትደገም መሆንዋ የታወቀ ቢሆንም፣ ጥምቀትን የሚመስሉ አራት ዓይነት መንገዶች እንዳሉ ቅዱስ ጎርጎርዮስ ዘእንዚናዙ ገልጸአል። ይህ ቅዱስ አባት ስለ ምስጢራተ ቤተክርስቲያን በጻፈው ክፍል ሲገልጽ እንዲህ ብሎአል፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1095,
+        2145,
+        1249
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፩",
+      "spans": [
+        {
+          "t": "ሐዋርያው ቅዱስ ጳውሎስ እንደ ጻፈው (፪ቆሮ. ፲፤፪)፣ እስራኤላውያን ከደመና በታች ሆነው ባሕር ሲሻገሩ ሁሉም በደመናና በባሕር ተጠመቁ...... ያለው እንደ ጥምቀት ይቆጠራል፣ ግን ምሳሌ እንጂ አማናዊ ጥምቀት አይደለም። ምሳሌነቱም፣ ባሕር አማናዊቱ ጥምቀት ምሳሌ፣ ደመና የመንፈስ ቅዱስ ምሳሌ፣ መና የኅብስተ ሕይወት (ቅዱስ ቁርባን) ምሳሌ፣ የጠጡት መንፈሳዊ ውኃም የክርስቶስ ደም ምሳሌ ነው፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1296,
+        2166,
+        1562
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፪",
+      "spans": [
+        {
+          "t": "ዮሐንስ መጥምቁ ሲያጠምቃት የነበረች ጥምቀት ናት፤ ነገር ግን ዮሐንስ ለንስሐ በውኃ ብቻ እንጂ በመንፈስ ቅዱስ ሰላላጠመቀ፣ የዮሐንስ ጥምቀት የንስሐ እንጂ አማናዊት ጥምቀት አልነ በረችም።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1609,
+        2166,
+        1763
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፫",
+      "spans": [
+        {
+          "t": "በስማዕትነት ደምን በማፍስስ የምትፈጸም ጥምቀት ናት። ይህች ጥምቀት ክርስቶስን መምስል ን የምታስጥ እጅግ የከበረች ጥምቀት ናትና ዋጋዋ ከፍ ያለ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1814,
+        2171,
+        1922
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "verse",
+      "verse_num_am": "፬",
+      "spans": [
+        {
+          "t": "«አንብዐ ንስሓ» ማለት በንስሐ ግዜ የሚፈስው የለቅሶ፣ የሐዘን እምባ ነው። የንስሐ እንባ ለስርየተ ኃጢአትን ስለሚስጥ እንደ ጥምቀት ይቆጠራል (ድርሳነ ጎርጎርዮስ፣ ኦሬንቴሸን ፴፱-፲፳)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1971,
+        2155,
+        2131
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከነዚህ ከዚህ በላይ የተገለጹት የጥምቀት መንገዶች ጌታችን ኢየሱስ ክርስቶስ የመሠረታትን ጥምቀት የሚመስሉ ናቸው።በተለይም በሦስተኛውና በአራተኛው ተራ ቁጥር የተገለጹት የጥምቀት መንገዶች የእውነተኛዋን ጥምቀት የሚያህሉ ናቸው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        2180,
+        2155,
+        2334
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ክርስቶስን አምነው በስማዕትነት ደማቸውን አፈስስው ከሞቱና ከሚሞቱት ቅዱሳ ን ሰዎች በቀር፣ ሁላችንም የክርስቶስን ሞት የምንሳተፍበት ምስጢር የትኛዋ ናት?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2390,
+        2171,
+        2509
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የክርስቶስን መከራና ሞት የምንሳተፍባት ምስጢር ጥምቀት ናት፤ ስለዚህም ሐዋርያው ቅዱስ ጳውሎስ በሮም ለነበሩ ምእመናን በጻፈው መልእክቱ በጥያቄ መልክ እንዲህ ሲል አስረድቶአቸዋል፤ «ወይስ ክርስቶስ ኢየሱስ ጋር አንድ እንሆን ዘንድ የተጠመቅን ሁላችን ከሞቱ ጋር አንድ እንሆን ዘንድ እንደ ተጠመቅን አታውቁምን?» ብሎአል (ሮሜ ፯፥፫)። ለገላትያ ምእመናን በጻፈውመልእክቱም፣ «በእምነት በኩል ሁላችሁ በክርስቶስ ኢየሱስ የእግዚአብሔር ልጆች ናችሁ ና፤ ከክርስቶስ ጋር አንድ ትሆኑ ዘንድ በክርስቶስ የተጠመቃችሁ ሁሉ ክርስቶስን ለብሳችኋልና።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        2563,
+        2171,
+        2874
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "27ab670f6d57ab7ec5c93df5bc08edb0345e8c0a7c4c599b4ac0450104c65ab1",
+      "source_sha256": "8494b5d82ac275fc3582c99fb8274dba26426591ca68d7e83e0bed3a00d20275",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_038.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 325.956,
+      "created_at": "2026-10-25T00:57:08.910010+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "8494b5d82ac275fc3582c99fb8274dba26426591ca68d7e83e0bed3a00d20275",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_038.json"
+}

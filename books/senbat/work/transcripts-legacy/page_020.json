@@ -1,0 +1,164 @@
+{
+  "page": 20,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## ማጠቃለያ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        298,
+        406,
+        473,
+        453
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "1. ክርስቶስ አንድ አካል አንድ ባሕርይ ነው። በመለኮቱ የእግዚአብሔር ልጅ፥ በሥጋ የአዳም ልጅ እንደሆነ እናምናለን። ስው ባልሆነ አካል የስውነት ሥራ አይሠራም ሥጋን ከርሷ የተነሣ ቅድስት ድንግል ማርያም ሞት የሚስማማት ስለሆነች ሞት የሚስማማውን ሥጋ ተዋሕዶአልና። ስለዚህም የተቀበለው ልቅሶ፥ ሕማም፥ ሞት ከድንግል የተነሳው የሥጋ ገንዘብ ነው። አዘነ አለቀስ ሲል ብትስማ ያዘነ ያለቀስ አምላክ ቃል እንደሆነ አታስብ ይህ ሁሉ ሥጋ በመሆኑ ነው እንጂ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        298,
+        455,
+        2098,
+        714
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "2. ይህ ወልድ ለአንድ የምንስግድለት ለአንዱ የማንስግድለት ሁለት ባሕርይ ነው የምንል አይደለም። ስው የሆነ የእግዚአብሔር ቃል ባሕርይ አንድ ስለሆነ ከሥጋው ጋር አዋሕደን አንዲት ስግደት እንስግ ድለታለን እንጂ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        298,
+        766,
+        2083,
+        920
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "3. ከእኛ በተነሣው ሥጋ ሞተ በማለት ፋንታ እግዚአብሔር አምላካችን ሥጋ በሌለው ባሕርይ ታመመ ሞተ ይሉት ዘንድ አይገባም።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        298,
+        969,
+        2087,
+        1074
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "4. ክርስቶስ ፈጣሪ፥ እግዚአብሔር መሆኑን እናምናለን፥ ስለሆነም ፍጡር ነው የሚሉትንና ዛሬም በአብ ቀኝ ተቀምጦ ለእኛ ያማልዳል የሚሉትን እንቃወማለን።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        298,
+        1126,
+        2090,
+        1229
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "5. ወልድ ከአብ ከመንፈስ ቅዱስ አንድነት ሳይለይ በምልአት ሳለ ሥጋ መሆኑ እንደምን ነው? ቢሉ የዓይን ብርሃን ከዓይን ብሌን ሳይለይ ከብርሃነ ፀሐይ ጋር ተዋሕዶ ምሉዕ እንደሆነ ጌታም በምልአተ ባህር ዩ ሳለ በማህጸነ ድንግል አድሮ ከመቅጽበተ ዓይን ስው ሆነ። የማይለይ የማይነገር የማይመረመር ተዋህዶ ሆነ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        298,
+        1282,
+        2098,
+        1485
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ዓምደ ሃይማኖት ከሚለው ብርሃኑ ጎበና በ1992 ካሳተሙት የተወሰደ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        677,
+        1593,
+        1867,
+        1643
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "c7b03ba4c426b34fc28e458ed6db2abcca374a51b07ae8abdc5154c3a5d195f9",
+      "source_sha256": "875a56cc42d3b9bff74ff865a753440efb21d70207e301c1e2502549f2cc3ea6",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_020.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 166.128,
+      "created_at": "2026-10-24T23:06:53.120002+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "875a56cc42d3b9bff74ff865a753440efb21d70207e301c1e2502549f2cc3ea6",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

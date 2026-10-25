@@ -1,0 +1,147 @@
+{
+  "page": 157,
+  "page_header": "የኢትዮጵያ አርቶዶክስ ተኖሕዶ ቤተ ክርስቲያን ሃይማኖትና ሥርዓት",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ፈልጋል። በዕለተ ዓርብ በቀራንዮ በመስቀል ላይ የተቆረጠ ሰውና የፈሰሰው የመድኃኔዓለም ሥጋና ደም ሕዝብንና አሕዛብን አንድ ያደረገ የክርስትና መሠረት በመሆኑና በዚህ ቤዛነትም ለሰው ሁሉ ድኅነት በመሰጠቱ ሁሉም ወንድማ ማቾች ሆነዋል። በመሆኑም ክርስቲያኖች አንዳቸው የሌላኛው አካላት ናቸውና አንዱ በሌላው ወንድሙ ላይ እንዳይቆጣ ታዝዟል። ከፍቅርና ከመተሳሰብ በቀር ቁጣ የእግዚአብሔርን ጽድቅ አይሠራምና።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        692,
+        314,
+        1855,
+        749
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መቆጣት የሌላውን ሰው ስሜት የሚጎዳና ከቁጣው ድንገተኛነት የተነሣም ወደሌላ ከፍተኛ የስሜት ለውጥ ሊቀየር ስለሚችል ከመቆጣት መቆጠብ ተገቢ ነው። ያልታሰበና ያልተጠበቀ ቁጣ የደረሰበት ሰው በድንጋጤ ሊሞትም ይችላል። ከዚህም ሌላ በድንጋጤ ራሱን ለመከላከል በሚያደርገው ድርጊት የተነሣ ነፍስ እስከ መግደል ሊደርስም ይችላል። እንግዲህ ቁጣ በአንደበት የሚነገርና ቀላል ይምሰል እንጂ ውጤቱ አደገኛና አሳዛኝም ሊሆን እንደሚችል በማጤን ከመቆጣት መቆጠብና ቁጣንም ከራስ ማራቅ ይበጃል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        680,
+        776,
+        1852,
+        1335
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መቆጣት በሰው ላይ ከሚያደርሰው ጉዳት በተጨማሪ በእግዚአብሔር ዘንድ የተጠላና ኃጢአትም በመሆኑ ከተፈጸመ በኋላ የሚከተለው ቅጣት አለ። መድኃኒታችን ኢየሱስ ክርስቶስ «ለቀደሙት፡- አትግደል እንደተባለ ሰምታችጋል፦ የገደለም ሁሉ ፍርድ ይገባዋል። እኔ ግን እሳችጋለሁ፦ በወንድሙ ላይ የሚቆጣ ሁሉ ፍርድ ይገባዋል፣ ወንድሙንም ጨርቃም የሚለው ሁሉ የሸንጎ ፍርድ ይገባዋል፤ ደንቆሮ የሚለውም ሁሉ የገሃነመ እሳት ፍርድ ይገባዋል፡» በማለት ቁጣንና መሳደብን ከመግደል ጋር አስተካክሎ መግለጡ መቆጣት ከፍተኛ ኃጢአትና ቅጣቱም ታላቅ መሆኑን የሚያስገነዝብ ነው። ማቴ.5÷21-33። ስለዚህ ቁጣን ከራስ አርቆ በትዕግሥትና በመተሳሰብ መኖር ለክርስቲያኖች ሁሉ የሚገባ ነውና ሁላችን ገንዘብ እናድርገው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        676,
+        1363,
+        1840,
+        2094
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## 2.«ወደ ሴት አትመልከት በልብህም አታመንዝር»",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        676,
+        2169,
+        1832,
+        2231
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ማቴ.5÷27። ይህ ወደ ሴት በመመልከት በልቡና የሚያድረው ፍትወተ ሥጋ ኃጢአት መሆኑን የሚያመለክት ነው። ሴትን ማየት ሳይሆን ባዩአት ጊዜ ለፈቃደ ሥጋ መመኘትን ነው እግዚአብሔር የማይፈቅደው። ለዚህም ነው በወንጌል «ወደ ሴት ያየ ሁሉ የተመኛ ትም ያን ጊዜ በልቡ ከእርሷ ጋር አመንዝሮአል» በማለት የተነገረው። «ዓይቶ የሚያሰናክል ዓይን» የተባለውን ፍትወተ ተራክቦን አውጥቶ መጣልና መንግሥተ ሰማይን ገንዘብ ማድረግ በማየት የሚመጣ ምኞትን በመፈጸም በገሃነም ከመጣል ይሻላል፤ ይበልጣልም። ማቴ.5÷28።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        674,
+        2308,
+        1837,
+        2859
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ዓይን ሁሉን ይመለከታል፣ ወደልቡና መዝገብ የሚልከው ግን ቀልቡ ያረፈበትን ነው። በዚህ አንፃር ሴትን በክፉ የኃጢአት ምኞት መመልከት አይገባም፤ በልቡናም",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        674,
+        2888,
+        1837,
+        3050
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "7c5bd1c0a826f125af212ad7107cb45f0b679f6ea0fcd0418d4f5f348dbbca6e",
+      "source_sha256": "2718fb7533a956c6e7cc222413f350276062fd7cab384921992cae8779c3965d",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_157.png",
+      "source_dimensions": [
+        2471,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 268.077,
+      "created_at": "2026-10-25T11:33:43.603399+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "cef9f4c746a617efaa45203c6cb151899fc12f6aa2a0c88a79eb000ecc3e1156",
+      "image": "2718fb7533a956c6e7cc222413f350276062fd7cab384921992cae8779c3965d",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

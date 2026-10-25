@@ -1,0 +1,436 @@
+{
+  "page": 63,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሀ. አጻዌ ኖጎት፣ ማለት በረኛ፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        526,
+        388,
+        1024,
+        431
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለ. አናጉንስጢስ፣ ማለት አንባቢ፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        526,
+        435,
+        1053,
+        478
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሒ. ንፍቀ ዲቁና፣ ማለት ተራዳኢነት፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        526,
+        483,
+        1150,
+        526
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መ. መዘምርነት፣",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        526,
+        531,
+        794,
+        569
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሠ. ዲያቆናዊት፣ (ሴት ስትጠመቅ የምትረዳ የሴት ዲያቆን)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        526,
+        577,
+        1522,
+        637
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## ከዚህ በሳይ የተዘረዘሩትን ሹመቶች መስጠት (መሾም) የሚችል ማን ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        421,
+        680,
+        1850,
+        752
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የዲቁና፣ የቅስና፣ የአጻዌ ኖጎትነት፣ የአናጉንስጢስነት፣ የንፍቀ ዲቁናን ሥልጣል መስጠት የሚችል ኤጺስ ቆጻሳት ናቸው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        421,
+        739,
+        1977,
+        829
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## ኤጺስ ቆጻስ የሚሾመው በማን ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        421,
+        891,
+        1107,
+        945
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ኤጺስ ቆጻስ የሚሾመው በቅዱስ ፓትርያርኩና በሊቃነ ጳጻሳት ቡራኬ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        421,
+        949,
+        1622,
+        1004
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## የአናጉንስጢስ ሥራ (አገልግሎት) ምንድር ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        415,
+        1052,
+        1353,
+        1112
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አናጉንስጢስ ቃሉ ፅርዕ ሲሆን፣ ትርጉሙ አንባቢ ማለት ነው። ሥራውም በቤተክርስቲያን ውስጥ ቅዱሳት መጻሕፍትን አጣርቶና አሰምቶ ማንበብ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        415,
+        1107,
+        1973,
+        1203
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## የመዘመር አገልግሎት ምንድር ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        415,
+        1262,
+        1121,
+        1314
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የመዘመር አገልግሎት፣ በአገልግሎት ጊዜ መንፈሳዊ መዝሙርችን መዘመር ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        415,
+        1316,
+        1719,
+        1374
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## የአጻዌ ኖጎት አገልግሎት ምንድን ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        415,
+        1422,
+        1198,
+        1476
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የአጻዌ ኖጎት አገልግሎት የቤተ ክርስቲያንን በር መጠበቅ በሩን መክፈትና መዝጋት አገልግሎት በሚሰጥበትና በሌላም ጊዜ ምዕመናንን ለማስቸገር፣ ሰላምን ለመንሳት፣ ጸጥታን ለማወክ የሚመጡትን ኹሉ መከልከል ነው",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        407,
+        1476,
+        1970,
+        1617
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## የንፍቀ ዲያቆን አግልግሎት ምንድን ነው? ለመንፈሳዊ አግልግሎት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        407,
+        1676,
+        1709,
+        1740
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የንፍቀ ዲያቆን አግልግሎት ለመንፈሳዊ አግልግሎት የሚላኩትን ካህናትና ዲያቆናቱን መርዳት ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        407,
+        1732,
+        1966,
+        1814
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## የዲያቆናዊት አገልግሎት ምንድን ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        407,
+        1884,
+        1172,
+        1940
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስለ ዲያቆናዊት ሴቶች አገልግሎት፣ በዲድስቅልያ አንቀጽ 17 ላይ ተወስኖአል። እርሱም ቀዋሎ ያሰው ነው፤ <<ኤጺስ ቆጻስ ንጹሐችን ሴቶች መርጦ ሴቶችን ለማገልገል ዲቁናን የሾማቸዋል። ምዕመናት ሴቶችን ለሚያስፈልጋቸው ነገር በጠሩ ጊዜ፣ ከዲያቆናዊት በቀር ወንድ ዲያቆን ወደ ሴቶች ቤት ሊልክ አይገባውም። ስለዚህና ስለሚያጠምቋትም ሴት ሰውነትዋን ሜርን ትቀባ ዘንድ ነው። ወንድ የተራቆተችውን ሴት ማየት አይገባውምና።>>",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        399,
+        1940,
+        1966,
+        2185
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## ሥልጣነ ክህነት በእንብሮተ እድ መስጠት ወይም መሾም ማለት እንዴት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        399,
+        2235,
+        1922,
+        2301
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ፓትርያርኩና ሊቃነ ጳጻሳቱ በንጹሕናውና በትምህርት ችሎታው ተመርጦ የቀረበውን ቆሞስ መነኮስ እጃቸውን በራሱ ላይ በማኖር በጸሎት ኤጺስ ቆጻስ ብለው ይሾሙታል። ኤጺስ ቆጻሱም እንዲሁ ለዲቁና፣ ለቅስና ሥልጣን የሚያበቃ ትምህርት ተምረውና ተመርጠው የቀረቡትን እጁን በራሳቸው ላይ በማኖር ዲያቆን፣ ቄስ ብሎ ይሾማቸዋል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        394,
+        2289,
+        1958,
+        2485
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በእንብሮተ እድ ማለት እጅ በመጫን ሥልጣን በመስጠትና ተከታዮችን መሾም በዘመነ ኦሪትም የተለመደ ሥርዓት እንደ ነበር ቅዱስ መጽሐፍ ይመሰክራል። ይችውም በሙሴና በኢያሱታውቆአል። ሙሴ በዕድሚ እየሸመግለና ጉልበቱም እየደክመ በሄደ ጊዜ ወደ እግዚአብሔር እንዲህ ሲል አመለከተ፤ <<የእግዚአብሔር ማኅበር እረኛ እንደሌለው መንጋ እንዳይሆን፣ በፊታቸው የሚወጣውን፣ በፊታቸው የሚገባውን የሚያስፈልጋቸውን ሰው፣ የሥጋ ኹሉ መንፈስ እግዚአብሔር በማኅበሩ ላይ ይሹመው>> (ዘህል.27፣ 15-18)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        391,
+        2526,
+        1955,
+        2819
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር የሙሴን ጸሎት ሰምቶ እንዲህ ሲል አዘዘው፤ <<መንፈስ (መንፈስ ቅዱስ) ያለበትን ሰው፣ የነዌን ልጅ ኢያሱን ወስደህ እጅህን በላዩ ጫንበት፤ በካህኑ በአልዓዛርና በማኅበሩ ኹሉ ፈት አቁመው እነርሱም እያዩ እዘዘው። የእስራኤልም ልጆች፣ ማኅበሩ ኹሉ እንዲታዘዙለት ከክብርህ (ከሥልጣንህ) አኑርበት። በካህኑም በአልዓዛር ፈት ይቁም፤ እርሱም",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        386,
+        2849,
+        1952,
+        3057
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "533e7afb942a4e4ac6bbacc2a2bf4dd7307b5999680d7d54b955d24f2b31af11",
+      "source_sha256": "80b355f38f38d6ce536b656aa94f8c72fb5c364a71a981c7320a143a5a0e1055",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_063.png",
+      "source_dimensions": [
+        2446,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2072
+      ],
+      "elapsed_seconds": 379.411,
+      "created_at": "2026-10-25T03:10:49.150926+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "492d674e37c45601633d6df911caa333ec791cd56761fceaad3c35baa00605b4",
+      "image": "80b355f38f38d6ce536b656aa94f8c72fb5c364a71a981c7320a143a5a0e1055",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

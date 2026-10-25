@@ -1,0 +1,165 @@
+{
+  "page": 66,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሥነ ፍጥረት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1122,
+        679,
+        1425,
+        743
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቅዱስ መጽሐፍ የእግዚአብሔርን መኖር በማረጋገጥ እግዚአብሔር ሰማይንና ምድርን ፈጠረ በማለት ይጀምራል። (ዘፍ. 1፤1) ቅዱስ ጳውሎስም በዕብራውያን መልእክቱ 3፤4 ላይ «ሁሉን የፈጠረ እግዚአብሔር ነው ይሳል»።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        797,
+        2174,
+        948
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር ሁሉን አስገኘ ለሁሉ ነገር መገኛ ጥንትና መሠረት ነው። ለእርሱ ግን ለህሳዌው ምክንያት የለውም። (የሐዋርያት ጸሎተ ሃይማኖት) እግዚአብሔር ይህን የሚታየውንና የማይታየውን ዓለም በውስጣቸው ያሉትን ሁሉ ከቸርነቱ ብዛት የተነሳ ፈጠረ። (ኢሳ. 42፤5)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1002,
+        2174,
+        1157
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር ይህን ዓለም ካለመኖር ወደ መኖር ያስገኘው «ለይኩን» ባለው ቃሉ ብቻ ነው። ይህ ዓለም ከመፈጠሩ በፊት ምንም ነገር አልነበረምና (ጥበበ ሰለሞን 11፤17፣ 1መቃ.27፤1) ቅዱስ ጳውሎስም «ኣለማት ሁሉ በእግዚአብሔር ቃል እንደተፈጠሩ ስለዚህም የሚታየው ነገር ከሚታዩት እንዳልሆነ በእምነት እናስተውላለን» (ዕብ. 11፤3) በማለት እግዚአብሔር ፍጥረትን ካለመኖር ወደ መኖር አምጥቶ መፍጠሩን አስረድቷል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1208,
+        2174,
+        1463
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ፈጣሬ ፍጥረታት እግዚአብሔር ሥነ ፍጥረትን በየመልኩና በየወገኑ መፍጠሩ ክብሩ ይገለጥበትና ስሙ ይቀደሰበት ዘንድ ነው። ይህንም ነቢዩ ኢሳይያስ «ፍጥረታትን ሁሉ ለክብሬ ፈጠርኋቸው አለ እግዚአብሔር» ብሎ ተናግሮአል። (ኢሳ. 43፤7)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1517,
+        2174,
+        1671
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ፍጥረታት ሁሉ በየወገናቸው ከዕለተ እሑድ እስከ ዕለተ ዓርብ ባሉት ስድስት ቀናት በቅደም ተከተል መፈጠራቸውን ቅዱስ መጽሐፍ ይናገራል። እነዚህም በስድስቱ እለታት የተፈጠሩ ፍጥረታት በየወገን በየወገን ተቆጥረው ሃያ ሁለት መሆናቸውን መጽሐፈ ኩፋሌ ይናገራል። (ዘፍ.1፤1-31፣ ኩፋሌ 3፤9) በየዕለቱ የተፈጠሩት ፍጥረታትም በሚከተለው ሁኔታ የተገለጡት ናቸው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1722,
+        2174,
+        1923
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "<table><tr><td>እሁድ</td><td>እሳት፣ ነፋስ፣ ውኃ፣ መሬት (አራቱ ባሕርያት)፣ ጨለማ፣ ሰባቱ ሰማያት፣ መላእክትብርሃን። (ኩፋሌ 2፤5-8 ፣ ዘፍ. 1፤1-5)</td></tr><tr><td>ሰኞ</td><td>በምድር ላይ ሞልቶ የነበረው ውኃ ተከፍሎ ጠፈር ተገለጠ። (ኩፋሌ 2፤9 ፣ ዘፍ. 1፤6-9)</td></tr><tr><td>ማክሰኞ</td><td>በጣት የሚለቀሙ አትክልት፣ በማጭድ የሚታጨዱ አዝርዕት፣ በምሣር የሚቆረጡ እፀዋት ናቸው። (ዘፍ. 1፤1)</td></tr><tr><td>ረቡዕ</td><td>ፀሐይ፣ ጨረቃ፣ ከዋክብት (ዘፍ. 1፤14-16)</td></tr><tr><td>ሐሙስ</td><td>በደመ ነፍስ የሚንቀሳቀሱ ከባሕር ውስጥ፣ በደረት የሚሳቡ፣ በእግር የሚያኮበኩቡ፣ በክንፍ የሚበሩ እንስሳት አራዊትና አዕዋፍ ናቸው። (ዘፍ. 1፤20-22)</td></tr><tr><td>ዓርብ</td><td>በደመ ነፍስ ሕይወት የሚንቀሳቀሱ በየብስ የሚኖሩ ዘመደ እንስሳ፣ ዘመደ አዕዋፍ፣ ዘመደ አራዊት፣ በነባቢት ነፍስ የሚንቀሳቀስ ሰው ናቸው (ዘፍ. 1፤24-28)</td></tr></table>",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        350,
+        1976,
+        2194,
+        2865
+      ],
+      "layout_category": "Table"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "4c4aeca0d0510b37a29868aeb9a813823bbbb45bb034b7f79bac508676127bd7",
+      "source_sha256": "5fa611af37f2a0940e7a5a492e35b25289a85e1b5c865802e802ea82ed15bf5f",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_066.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 259.69,
+      "created_at": "2026-10-25T03:23:33.609378+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "5fa611af37f2a0940e7a5a492e35b25289a85e1b5c865802e802ea82ed15bf5f",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_066.json"
+}

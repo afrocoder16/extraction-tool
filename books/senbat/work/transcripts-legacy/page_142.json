@@ -1,0 +1,164 @@
+{
+  "page": 142,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስምንተኛው ትእዛዝ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        882,
+        349,
+        1531,
+        428
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«በባልንጀራህ ላይ በሐሰት አትመስክር»",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        687,
+        512,
+        1725,
+        585
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ዘጹ.20÷16።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1560,
+        617,
+        1789,
+        662
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በሐሰት መመስከር መዋሽት ነው። በቅዱስ መጽሐፍም ስለሐሰት የተነገሩት ቃላት የመዋሽትን አስከፊ ገጽታ የሚያሳዩ ናቸው። ስለዚህም ነገር ጠቢቡ ሰሎሞን «ውሽተኛ ከንፈር በእግዚአብሔር ዘንድ አስጾያፊ ነው» በማለት ተናግሯል። ምሳ.12÷22። መዋሽት በእግዚአብሔር ዘንድ የተጠላ በመሆኑም ቀደም ብሎ በዘሌዋውያን «እናንተም እርስ በርሳችሁ ሐሰት አትነጋገሩ» የሚል ትእዛዝ ተሰጥቶ ነበር። ዘሌ.19÷11። ይህም በሰዎች ዘንድ ሐሰት መናገር ያለተፈቀደ መሆኑን የሚያስገነዝብ ነው። ከዚህ በመነሣት ሐሰት ወይም ውሽት ምንድነው? ለሚለው ጥያቄ መልስ መስጠቱ አስፈላጊ ነው። ሐሰት /ውሽት/ የሆነውን አልሆነም፣ ያለሆነውን ሆነ ብሎ ለሌላው ሰው መናገር ወይም አሉታዊውን አዎንታዊ አዎንታዊውን ደግሞ አሉታዊ አድርጎ በማቅረብ የተሳሳተ መረጃ መስጠት ማለት ነው። ሐሰት የእውነት ተቃራኒ ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        613,
+        773,
+        1792,
+        1612
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በዚህ ላይ በመመሥረት ነው መምህረ አሕዛብ የተባለው ሐዋርያው ቅዱስ ጳውሎስ ለኤፌሶን ምእመናን በላክው መልእክቱ «ስለዚህ ውሽትን አስወግዳችሁ... እያንዳንዳችሁ ከባልንጀሮቻችሁ ጋር እውነትን ተነጋገሩ።» በማለት የመከረው። ኤፌ.4÷25። በዚህ ምንባብም ቢሆን እውነትን መናገር የክርስትና መሠረት መሆኑ በግልጥ ነው የተመለከተው። ብሉያትም ሆኑ ሐዲሳት ተባብረው ሐሰትን አውግዘውታል፤ ክፉ ነውና።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        607,
+        1638,
+        1792,
+        2082
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "መዋሽት በሰውም በእግዚአብሔርም ዘንድ መጠላቱ ኃጢአት ስለሆነ ነው። ውሽት ከፍርሃትና ከደካማ ባሕርይ የሚመነጭ ሊሆን ይችላል። በራሱ የሚተማመንና እውነተኛ ሰው አይዋሽም፣ የተሰጠውንም ኃላፊነት በሚገባ ይወጣል። በራሱ የማይተማመን ደካማና ሰነፍ ሰው መዋሽትን የስንፍናው መሽፈኛና ቀላል የመፍትሔ አማራጭ አድርጎ ይጠቀምበታል። አልፎ አልፎም ውሽትን ለቀደመ ሐሰት መሽፈኛ ሲጠቀሙበት የሚታዩም አሉ። እንዲህ ዓይነቶቹ ሰዎች ከአንዱ ውሽት ወደሌላው እየቀጠሉ ሲዋሹ ይኖራሉ፣ መዋሽታቸውን ለመሽፈን መዋሽትን ለምደዋልና።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        607,
+        2110,
+        1771,
+        2657
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የሐሰተኛ ሰው ቃሉ አይታመንም÷ የሚያምነውም የለም፤ እውነትን እንኳ ቢናገር፣ እውነተኛነቱንም ለማረጋገጥ ሲምል፣ ከቀደመው ውሽቱ የተነሣ ነገሩን አምኖ የሚቀበለው አያገኝም፤ አንድ ጊዜ ተአማኒነቱን አጥቷልና። መዋሽት በጀርባ ሌላ ኃጢአትን የከለለ፣ ያለፈውን መሽፈኛ ወይም የሚመጣውን መከለያ እጥፍ ኃጢአት ነው። ስለሆነም እንደ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        607,
+        2685,
+        1771,
+        3004
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "691debad71382ddaea4a7b02f19814d5cef2ee7dd55347e7fa0f73294ec3cb03",
+      "source_sha256": "1c4ed65f790be304c4849d0f4e9e952558656a0bdc456676388f94b0bab63f0c",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_142.png",
+      "source_dimensions": [
+        2471,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 243.149,
+      "created_at": "2026-10-25T10:21:02.744224+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "cef9f4c746a617efaa45203c6cb151899fc12f6aa2a0c88a79eb000ecc3e1156",
+      "image": "1c4ed65f790be304c4849d0f4e9e952558656a0bdc456676388f94b0bab63f0c",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

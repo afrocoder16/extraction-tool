@@ -1,0 +1,165 @@
+{
+  "page": 67,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እነዚህን ሁሉ ፍጥረታት በየወገኑ ከፈጠራቸው በኋላ መልካም እንደሆኑ አይቶ እግዚአብሔር በሥራው ደስ አለው እንዲበዙም ባረካቸው። (ዘፍ. 1፤21 ፤ መዝ. 103፤31)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        301,
+        2158,
+        404
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የሰው ተፈጥሮ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1098,
+        717,
+        1449,
+        781
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር ከዕለተ እሑድ እስከ ዕለተ ዓርብ ያሉ ፍጥረታትን በየዓይነታቸው ከፈጠረ በኋላ ሰውን የእነዚህ ሁሉ የበላይ ገዢ አድርጎ በመልኩና በአርአያው ፈጠረው፤ በደመ ነፍስ ሕይወት ከሚኖሩ ፍጥረታት የምትለየውን ነባቢት ፣ ለባዊትና ሕያውት ነፍስን በውስጡ አሳደረበት። ወንድና ሴትም አደረጋቸው «ብዙ ተባዙ ምድርን ሙሉአት ግዙአትም» ብሎ ባረካቸው። (ዘፍ. 1፤26-28)። በእግዚአብሔር አርአያና ምሳሌ የተፈጠረው ሰው ባለ አእምሮ ፍጡር ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        835,
+        2153,
+        1087
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "7ኛ ቀን፤ እግዚአብሔር በሰባተኛው ቀን ከመፍጠር ሥራው ዐረፈ። ስለዚህ ሰባተኛይቱን ቀን የዕረፍት ቀን እንድትሆን ባረካት ቀደሳትም» ተብሎ ተጻፈ። (ዘፍ. 1፤2-3)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1139,
+        2132,
+        1246
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "instruction",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ፈጣሬ ኩሉ ዓለም",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1148,
+        2066,
+        1399,
+        2100
+      ],
+      "layout_category": "Caption"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስለዚህ እግዚአብሔር የፍጥረታት ሁሉ አስገኝና ባለቤት ነው። እግዚአብሔር ዓለምን በሥልጣኑ ማስገኘት ብቻ ሳይሆን መጋቢው፣ መሪውና ጠባቂውም ነው። (መዝ. 103፤27-31፣ 1ቆሮ. 3፤22፣ 15፤28፣ የሐዋ14፤17)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2153,
+        2171,
+        2311
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የኢትዮጵያ ኦርቶዶክስ ተዋሕዶ ቤተ ክርስቲያን እምነት ሥርዓተ አምልኮትና የውጭ ግንኙነት በ1988 በቅዱስ ሲኖዶስ ትእዛዝ ከታተመው የተወሰደ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2516,
+        2004,
+        2614
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "50d3f565282d4b1c427e23ed3bdc02c48155d10108e98b39efe3764ddda9787e",
+      "source_sha256": "8836e44afc713e08e17b63f7f8e48fd322b16b60b05711f9101ec0a132152db0",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_067.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 151.308,
+      "created_at": "2026-10-25T03:26:04.921047+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "8836e44afc713e08e17b63f7f8e48fd322b16b60b05711f9101ec0a132152db0",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_067.json"
+}

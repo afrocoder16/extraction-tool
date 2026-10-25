@@ -1,0 +1,317 @@
+{
+  "page": 101,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሰማያትና ምድር ያልፋሉ (ማቴ.፳፬፦፴፭)፤ ሰማያትና ምድር እንደሚያልፉ ሐዋርያው ቅዱስ ጴጥሮ ስ የጌታችንን ቃል ተከትሎ እንዲህ ሲል ጽፎአል«የጌታችን ቀን ግን እንደ ሌባ (ባልታወቀ ሰዓት) ይመጣል በዚያም ቀን ሰማያት በታላቅ ድምፅ ያልፋሉ፤ የሰማይ ክብር በትልቅ ተኩሳት ይቀልጣልና ምድርና በምድር ላይ ያለው ሁሉ ይቃጠላል» (፪ጴጥ.፫፦፲)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        293,
+        2249,
+        511
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከዚያም በኋላ አዲስ ሰማይና አዲስ ምድር እንደሚመጡ፤ (እንደሚገለጡ) ይህ ቅዱስ ሐዋርያ እንዲህ ሲል ጽፎአል «ይህ ሁሉ እንዲህ የሚቀልጥ ከሆነ፤ የእግዚአብሔር ቀን መምጣት እየጠበቃ ችሁና እየቸኮላችሁ (እየተጋችሁ) በተቀደሰ ኑሮ እግዚአብሔርንም በመምሰል (በመልካም ስራ በመ ምሰል) ልትኖሩ ይገባችታል። ስለዚያ ቀንስ ሰማያት ተቃጥለው ይቀልጣሉ የሰማይም ክብር (ኃይል በትልቅ ትኩሳት ይፈታል። ነገር ግን ጽድቅ የሚኖርባትን አዲስ ሰማይና አዲስ ምድር እንደ ተስፋ ቃሉ እንጠብቃለን» (2ኛጴጥ 3፦12-14) እንደዚሁም (ራእ 21፦1-3) ይመልከቱ።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        558,
+        2249,
+        871
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### ጥያቄ፦ «የጌታ ቀን እንደሌባ ሆኖ ይመጣል» ያለው ምን ማለት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        930,
+        1841,
+        989
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሌባ ባለቤት ባላሰበበትና ባልተጠበቀበት ሰዓት እንደሚመጣ ሁሉ የጌታችንም አመጣጥ እንደዚሁ በ ድንገት የሚሆን መሆኑን ለማመልከት ነው። ስለዚህ ራሱ ጌታ ሲናገር «ባለቤት ከሌሊቱ በየትኛው ክፍል ሌባ እንደሚመጣ ቢያውቅ ኖሮ በነቃ፣ ቤቱንም እንዲቆፈር ባልተወም ነበር። ስለዚህ እናን ተ ደግሞ ተዘጋጅታችሁ ኑሩ፣የሰው ልጅ በማታስቡበት ሰዓት ይመጣል» ብሎአል (ማቴ 24፦44-45)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        1039,
+        2241,
+        1251
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## የሰው ልጆች ትንሣኤ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1121,
+        1347,
+        1644,
+        1424
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«ሙታን ሕያዋን ይሆናሉ ሬሳዎችም ይነሳሉ» ኢሳ. 26፦19",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        768,
+        1470,
+        1778,
+        1524
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### ጥያቄ፦ ሰው ሞቶ ከተቀበረ፤ ሥጋው ወደ አፈር ከተመለሰ፣ ከፈረሰና ከበሰበሰ በኃላ እንደገና ሕይወት አግኝቶ መነሳት ይችላልን?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        1578,
+        2137,
+        1697
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አዎን ይችላል። በአርአያ እግዚአብሔር የተፈጠረ ሰው ሁሉ ከሞተና ከተቀበረ በኃላ እንደገና በእግዚአብሔር ኃይል ሕይወትን አግኝቶ ሕያው ሆኖ ይነሳል። በአዳም በደል ምክንያት በ አዳምና በአዳም ልጆች ላይ ሁሉ «አፈር ነህና ወደ አፈር ትመለሳለህ» ብሎ እግዚአብሔር ሞት ስለፈረደባቸው(ዘፍ. 3፦19) ሁሉም ለመሞት በቁ፣ ወደ መቃብርም ወርደው ወደ አፈር ተመለሱ። ነገርግን በዓለም መጨረሻ እንደገና የሞቱተት ሰዎች በሙሉ በእግዚአብሔር ታይል ከሞትና ከመቃብር ይነሳሉ። «ሁሉ በአዳም እንደሚሞቱ እንዲሁም ሁሉ በክርስቶስ ደግሞ ሕያዋን ይሆናሉ» ተብሎ ተጽፎአልና።(1ኛ ቆሮ.15፦22)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        556,
+        1747,
+        2173,
+        2113
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### ጥያቄ፦ የሰው ልጆች ትንሣኤ በስንት ይከፈላል?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2210,
+        1387,
+        2277
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "#### የሰው ልጆች ትንሣኤ በሦስት ይከፈላል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        2323,
+        1241,
+        2375
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "##### ይኸውም፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        524,
+        2378,
+        711,
+        2426
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "1. የመንፈስ ትንሣኤ (በመንፈስ መነሳት)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        743,
+        2429,
+        1443,
+        2480
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "2. የነፍስ ትንሣኤ (በነፍስ ብቻ መነሳት)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        743,
+        2480,
+        1443,
+        2531
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "3. የሥጋና የነፍስ ትንሣኤ (የመጨረሻው ትንሣኤ) ነው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        743,
+        2532,
+        1732,
+        2583
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "#### ጥያቄ፦ የመንፈስ ትንሣኤ እንዴት ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        371,
+        2686,
+        1213,
+        2748
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በጌታችን በኢየሱስ ክርስቶስ ያመኑ ሁሉ ከኃጢአት፦ ከጨለማ፦ ከሞት ይነሳሉ፣ የሕይወትን ብርሃን ያገኛሉ(ዮሐ. 8፦12)። ጌታችንን ያላመኑና እርሱን ያልተከተሉ ሁሉ ሙታን (ሙታነ መንፍስ) እንደሚባሉ (ማቴ. 8፦22፦ ሉቃ.9፦59-60) በሕይወተ ሥጋ ያሉ፣ በጌታችን ያመኑ በመንፈ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        519,
+        2796,
+        2173,
+        2953
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "5a11ee3f6f24083c5ae92678907d9a4e71deaf046d63fc0920ba67a366020ac9",
+      "source_sha256": "08517d94faba7e7a83c845cdcdc8bba068fd1ad3e0c35686b7c1802217889627",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_101.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 324.396,
+      "created_at": "2026-10-25T06:32:55.471693+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "08517d94faba7e7a83c845cdcdc8bba068fd1ad3e0c35686b7c1802217889627",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

@@ -81,6 +81,12 @@ class Book:
         return int(self.config.get("render", {}).get("dpi", 300))
 
     @property
+    def blank_ink_ratio(self) -> float:
+        """Pages with less ink than this are skipped as blank. Clean digital pages
+        can hold a few lines under the 1% suited to noisy scans."""
+        return float(self.config.get("split", {}).get("blank_ink_ratio", 0.01))
+
+    @property
     def tesseract_lang(self) -> str:
         return self.config.get("ocr", {}).get("tesseract_lang", "amh")
 

@@ -1,0 +1,368 @@
+{
+  "page": 62,
+  "page_header": "The Ethiopian Orthodox Cеuahido Church Faith and Order",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "6ኛ) በሕግ የታዘዘውን መሥዋዕት (መባ) ከአራስ ቤት እየተቀበሉ ስርየት ያደርጉላት ነበር (ዘሌዋ.12) ከለምጻሙም በሕግ የታዘዘውን መባ እየተቀበሉ፣ ደዌውን ያስወግዱ ነበር (ዘሌዋ.13፤ 14)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        459,
+        427,
+        1955,
+        570
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "7ኛ) በኦሪት በታዘዘው መሠረት በልዩ ልዩ ምክንያት ረክሰዋል ተብለው የተገመቱትን ወገኖች ካህናቱ የሚገባውን መሥዋዕት (መባ) ተቀብለው የተባረከውን ውኃ ይረጪ፡በታል፣ እነርሱም ንጹሐን ይኾኑ ነበር (ዘሀል. 19፤ 1-22)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        459,
+        628,
+        1955,
+        775
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "8ኛ) አሮንና ልጆቹ የእስራኤልን ልጆች በእግዚአብሔር ስም እንደሚከተለው ይባርኳቸው ነበር <<እግዚአብሔር ይባርክሀ ይጠብቅሀ፣ እግዚአብሔር ፈቱን ያብራልህ ይራራልህም፣ እግዚአብሔር ፈቱን ወደ አንተ ይመልስ ሰላምን ይስጥሀ>> (ዘሀል. 6፤ 22)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        459,
+        815,
+        1955,
+        1004
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የአሮንና የልጆቹ ክህነት ጌታችን ኢየሱስ ክርስቶስ ለመሠረተው አማናዊው ክህነት፣ ታሪካው ምሳሌ መሆኑን መገንዘብ ይገባል",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        459,
+        1052,
+        1955,
+        1144
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "## ክህነት በሐዲስ ኪዳን ዘመን",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        321,
+        1204,
+        864,
+        1257
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### እውነተኛውን (አማናዊውን) ክህነት የመሠረተ ማን ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        388,
+        1320,
+        1480,
+        1376
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እውነተኛውን (አማናዊውን) ክህነት የመሠረተው ጌታችን ኢየሱስ ክርስቶስ ነው። ጌታችን ኢየሱስ ክርስቶስ፣ <<ቅዱስ፣ ተንኮልና ነውር የሌለበት፣ ከኃጢአት የተለየ (ኃጢአት የሌለበት) ክሰማያት ከፍ ከፍ ያለ እውነተኛ ሊቀ ካህናት ነው>> (ዕብ.6፤ 26-28)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        388,
+        1376,
+        1950,
+        1522
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጌታችን ኢየሱስ ክርስቶስ ቅዱሳን ሐዋርያትን ተከታዮቹ (ደቀ መዛሙርቱ) እንዲሆኑ ከመረጣቸው በጋላ ሰፊ ስልጣን ሰጥቶአቸዋል፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        388,
+        1563,
+        1950,
+        1654
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "1ኛ) <<በምድር የምታስሩት ኹሉ በሰማይ የታሰረ ይኾናል፤ በምድር ዮምትፈቱት ኹሉ በሰማይ የተፈታ ይሆናል>> (ማቴ.18፤ 18)",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        456,
+        1706,
+        1950,
+        1803
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "2ኛ) <<መንፈስ ቅዱስን ተቀበሉ፤ ኃጢአታቸውን ይቅር ያላችኋቸውን ኹሉ ይቀርላቸዋል፤ የያዛችሁባቸው ኹሉ ይያገባቸዋል፤ >>",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        456,
+        1848,
+        1950,
+        1942
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "3ኛ) <<ድውዮችን ፈውሰ፣ ሙታንን አንዡ፣ ለምጻሞችን አንጹ፣ አጋንንትን አውጡ>> (ማቴ.10፤ 1-2)፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        456,
+        1989,
+        1950,
+        2085
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቅዱሳን ሐዋርያትም ከጌታችን የተቀበሉትን ሥልጣነ ክህነት በአንብሮተ እድ (በራሳቸው ላይ እጅ በማኖር) ለተከታዮቻቸው አስተላልፈዋል። የቅዱሳን ሐዋርያት ተከታዮችም እንደዚሁ ተከታዮቻቸውን በአንብሮተ እድ ሾመዋል (የሐዋ.6፤ 2-6)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        388,
+        2131,
+        1950,
+        2275
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በዚሁ በሐዋርያት ሥርዓት (ቀኖና) መሠረት፣ ኦርቶዶክሳዊት ቤተ ክርስቲያን ኤጺስ ቆጺሳትን፣ ቀሳውስትን ዲያቆናትን በአንብሮተ እድ ትሾማለች። የፓትሪያርክነትና የሊቀ ጹጹስና ሥልጣን ግን፣ ያለ አንብሮተ እድ በምርጫና በጸሎት ይሰጣል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        388,
+        2321,
+        1950,
+        2463
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "### በአንብሮተ እድ የሚሰጡ የክህነት ደረጃዎች ስንት ናቸው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        388,
+        2521,
+        1522,
+        2574
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በአንብሮተ እድ (እጅ በመጫን) የሚሰጡ የሥልጣነ ክህነት ደረጃዎች ሦስት ናቸው። እነርሱም፦",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        388,
+        2577,
+        1744,
+        2663
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሀ. ዲቁና፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        486,
+        2672,
+        646,
+        2709
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለ. ቅስት፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        486,
+        2714,
+        646,
+        2752
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሐ. ኤጺስ ቆጺስነት ናቸው",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        486,
+        2760,
+        905,
+        2801
+      ],
+      "layout_category": "List-item"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በአንብሮተ እድ የማይሰጡ ግን ከዲቁና በፊት የሚሰጡ የመንፈሳዊ አገልግሎት ሹመቶች አሉ፤ እነዚሀም፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        486,
+        2853,
+        1950,
+        2946
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "237b7f097086a9c9c62868c0c99c4cc531a137063990598bb9c422849ec5de44",
+      "source_sha256": "b970e11a421dbff1fffad79687d2ee85fcd27c27cf4161d3862a6219c6a0e9a3",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_062.png",
+      "source_dimensions": [
+        2446,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2072
+      ],
+      "elapsed_seconds": 320.646,
+      "created_at": "2026-10-25T03:04:29.733205+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "492d674e37c45601633d6df911caa333ec791cd56761fceaad3c35baa00605b4",
+      "image": "b970e11a421dbff1fffad79687d2ee85fcd27c27cf4161d3862a6219c6a0e9a3",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

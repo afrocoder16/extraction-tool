@@ -95,7 +95,8 @@ def read_red(bk, page: int, endpoint: str, model: str, force: bool = False) -> d
 
 def clean_text(text: str) -> str:
     """Normalise model formatting without changing the reading."""
-    text = text.replace("**", "").replace("、", "")
+    text = text.replace("**", "").replace("、", "").replace("<<", "«").replace(">>", "»")
+    text = re.sub(r"(?m)^\s*#+\s+", "", text)              # markdown heading marks
     text = re.sub(r"\s*\n\s*", " ", text)                 # printed line wraps are not semantic
     text = re.sub(r"\s*(?:::|፡፡|：：)", "።", text)          # four-dot full stop
     text = re.sub(r"[ \t]{2,}", " ", text)

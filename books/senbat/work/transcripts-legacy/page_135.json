@@ -1,0 +1,113 @@
+{
+  "page": 135,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በቅዱስ መጽሐፍ ሰው ሥጋውን «ይመግበዋል ይከባከበውማል» ተብሎ እንደተጻፈ፤ በዚያ ቀን እግዚአብሔር ከእኛ የሚፈልገውን እንድንሠራ ስለሰውነታችንም ዕረፍት የሰንበትን ሕግ ሰጥቶናል። ኤፌ.5÷29። መድኃኒታችንም ብዙ ድውያንን የፈወሰው ስለሰው አካል ጤንነት የሚያስብ በመሆኑ ነው። ስሙን ለማመስገን ክብሩንም ለመግለጥ እንድንችል እግዚአብሔር ጤናማ አካላችንን ይፈልጋል። ጤናማ አካል ቆሞ ለመጸለይ፣ ለመስገድ፣ ነቅቶ ለመቆየት፣ ሰዎችን ለማገልገል፣ ለመጸም፣ ይረዳል። ስለሆነም በእግዚአብሔር ፊት የተወደደ አገልግሎትን ለመፈጸምና የዘለዓለምን ክብር ለመውረስ ሰው ሁሉ አካሉን በጤና መጠበቅ አለበት እንጂ በግድየለሽነትና በቸልታ አካሉን እያጎሳቆለ ሽባ ሊያደርገው አያስፈልግም አካሉ የእግዚአብሔር ገንዘብ ነውና። 1ቆሮ.6÷20።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        611,
+        333,
+        1786,
+        1095
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በዚህ መልክ ሰዎች አካላቸውን በማጎሳቆል ራሳቸውን ከሚገድሉባቸው መንገዶች መካከል በመጠጥ ብዛት በመስከር፤ በማጨስ፣ የሱስ ምንጮች የሆኑ ዕፅዋትን በመብላትና የመሳሰሉት ይገኙበታል። እነዚህ ሁሉ ቀስ በቀስ የሰውን አካል በማዳከም ለጽድቅ ሥራ ቀርቶ ቆሞ ለመሄድ ከማ ይቻልበት ደረጃ በማድረስ ወደሞት የሚያጓጉዙ ናቸው።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        608,
+        1126,
+        1783,
+        1456
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከሁሉ የከፋው ራስን የመግደል ዓይነት ግን ኃጢ አትን መሥራት ነው። ኃጢአት ሞት ነውና ሐዋርያው ቅዱስ ጳውሎስ «በበደላችን ምውታን ነበርን» «የኃጢአትም ደሞዝ ነው» «ስለሥጋ ማሰብ ሞት ነውና» እንዳለ። ኤፌ.2÷5። ሮሜ.6÷32። ሮሜ6÷8። በዚህ መሠረትም ሰው ኃጢአትን በመሥራት መንፈሳዊ ማንነቱን ይገድላል። ይህ ሞትም ነፍሱን ከእግዚአብሔር በመለየት ወደ ሲኦል ቀጥሎም ወደገሃነም እሳት እንድትጣል፣ ለዘለዓለምም ያለተስፋ እንድትቀር ያደርጋታል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        608,
+        1480,
+        1783,
+        2089
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ስለሆነም ኃጢአት ሰው ራሱን የሚያጠፋበት መንፈሳዊ /ረቂት/ ግድያ ነው። ሰው ከኃጢአት የተነሣ ከመንፈሳውያን ምግባራት፣ ከጸም፣ ከጸሎት፣ ከመስገድ፣ ቅዱሳት መጻሕፍትን ከመመልከት፣ ከኑዛዜ፣ ከሥጋውና ከደሙ፣ ከሌሎችም ጸጋና ድኅነት ከሚገኝባቸው ምግባራት የተለየ እንደሆነ መንፈሳዊ ማንነቱን /ነፍሱን/ ገድሏል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        648,
+        2121,
+        1810,
+        2604
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "5e3955b1d54243484fb925db34fa25781ac75f45a1b0052b7cf4c9494e551468",
+      "source_sha256": "1575925158f4e36f23cd9d7f5b59fcf56a08c9acfde2c215bf0e3b4b00b0d3c1",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_135.png",
+      "source_dimensions": [
+        2496,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 206.981,
+      "created_at": "2026-10-25T09:45:44.590235+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "25be1ed8f3701e8c8cedc4d93cd1cb6ec00f61857f11a14af6826c4c5a9c4cab",
+      "image": "1575925158f4e36f23cd9d7f5b59fcf56a08c9acfde2c215bf0e3b4b00b0d3c1",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "page": 123,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "አምስተኛው ትእዛዝ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        840,
+        349,
+        1477,
+        428
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«አትግደል»",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1088,
+        575,
+        1392,
+        638
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ዘጾ.20÷13።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        1368,
+        673,
+        1590,
+        717
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "«አትግደል» የሚለው ትእዛዝ ወንጀለኞችንና ነፍሰ ገዳዮችን ብቻ የሚመለከትና ለክርስቲያኖች አስፈላጊ ያልሆነ የሚመስላቸው አንዳንድ ሰዎች ሊኖሩ ይችላሉ። ይሁን እንጂ በዚህ ርእስ ሥር የዚህን ትእዛዝ አስፈላጊነ ትና ጠቀሜታ በማሳየት በሕይወታችን ላይ ያለውን ተጽ እኖ፤ ምን ያህል እየተላለፍነው ወይም እያከበርነው መሆኑን ለመዳሰስ እንሞክራለን። ከሁሉ አስቀድሞ አንድ ጥያቄ እናነሣለን፤ እግዚአብሔር መግደል ፈጽሞ ከልክሎ ይሆን ወይም እንደኃጢአት ወይም እንደወንጀል የማይቆጠር የተፈቀደ መግደል ይኖር ይሆን?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        587,
+        781,
+        1734,
+        1329
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "የተፈቀደ መግደል",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        922,
+        1398,
+        1394,
+        1454
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "እግዚአብሔር አምላክ አትግደል የሚለውን ትእዛዝ ሕግ አድርጎ የሰጠ ሲሆን በአንዳንድ ሥፍራዎች ደገሞ መግደል የፈቀደበት ሁኔታ መኖሩን እናስተውላለን። መፍቀድ ብቻ ሳይሆን መግደልን አስፈሳጊ ያደረገባቸው አንዳንድ ሥፍራዎችም አሉ። በብሉይ ኪዳን መጻሕፍት እንደምናገኘው ኃጢአት የሠራ ሰው እንዲገደል ሕግ ተሠርቷል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        587,
+        1479,
+        1734,
+        1804
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ትእዛዛትን የተላለፈውን በሞት መቅጣት",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        673,
+        1859,
+        1715,
+        1925
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ለምሳሌ «አታመንዝር» የሚለውን ትእዛዝ የተላለፈ ሰው በሞት ይቀጣ ነበር። በመጽሐፍ «አመንዝራውና አመንዝራይቱ ፈጽሞ ይገደሉ።» ይላልና። ዘሌ.20÷10-16። በዝሙት ያገኟትን ሴት በጌታ ፊት በከሰሏት ጊዜ ጸሐፍት ፈሪሳውያን የጠቀሱት ይህን ሕግ ነበር። ዮሐ.8÷5። ከዚህም ሌላ ማንም ይህን ትእዛዝ ተሳልፎ ሰውን ቢገድል በተንኮልም በባልንጀራው ላይ ቢሸምቅበትና ቢገድለው ፈጽሞ ይገደል የሚል ትእዛዝ አለ። ዘጾ.21÷12-14። በቀጥታ የገደለ ብቻ ሳይሆን በተዘዋዋሪ ለአንዱ ሰው መሞት ተጠያቂ የሚሆን መገደል እንደነበረበት በሕግ ተደንግጎ ነበር፤ «በሬው ግን አስቀድሞ ተዋጊ ቢሆን፦ ሰዎችም ለባለቤቱ ቢመሡክሩለት ባይጠብቀውም፦ ወንድንም ወይም ሴትን ቢገድል፦ በሬው ይወገር፲ ባለቤቱ ደግሞ ይገደል።» ተብሎ ነበርና። ዘጾ.21÷29።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        619,
+        2039,
+        1773,
+        2815
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በብሉይ ኪዳን እንደተጻፈ የእግዚአብሔርን ስም በከንቱ የሚጠራ እንዲገደል ሕግ ይናገራል፤ ከትእዛዛት አንዱን ተላልችልና። ዘሌ.24÷16። የመጀመሪያውን ትእዛዝ",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        622,
+        2846,
+        1773,
+        3009
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "5b5a8a280e8a76d0eef9ba347082621592f291696286b94bb1c81f433b980159",
+      "source_sha256": "d132e2db515428f4410ce774396ae28f17f736e3cadea3713669f73e5e90b098",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_123.png",
+      "source_dimensions": [
+        2496,
+        3292
+      ],
+      "input_dimensions": [
+        1540,
+        2044
+      ],
+      "elapsed_seconds": 228.88,
+      "created_at": "2026-10-25T08:53:28.365960+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "25be1ed8f3701e8c8cedc4d93cd1cb6ec00f61857f11a14af6826c4c5a9c4cab",
+      "image": "d132e2db515428f4410ce774396ae28f17f736e3cadea3713669f73e5e90b098",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_123.json"
+}

@@ -1,0 +1,267 @@
+{
+  "page": 48,
+  "page_header": "",
+  "blocks": [
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ ቅዱስ ቒርባን የሚዘጋጀው ከምንድን ነው?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        355,
+        141,
+        1382,
+        198
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ቅዱስ ቒርባን የሚዘጋጀው ከንጹሕ ስንዴና ከንጹሕ ወይን ነው። ከንጹሕ ስንዴና ከንጹሕ ወይን ያልተዘጋጀ ነገር፣ በምንም አይነት ቅዱስ ቒርባን ሊሆን አይችልም። ስለዚህ የቤተ ክርስቲያን ሕግ (ቀኖና) እንዲህ ሲል ያስጠነቅቃል፤ «ንጹሕ ከሆነ ስንዴ፣ ንጹሕ ከሆነም ወይን በቀር፣ ሌሳ በቤተ ክርስቲያን አይሠው» (ጴጥ.ረሰጠጅ.፫፡ ፍትህ መንፈሳዊ፣ ገጽ ፪፴፯)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        198,
+        1880,
+        442
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ ቅዱስ ቒርባን መቀበል ለምን ይጠቅማል?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        355,
+        555,
+        1353,
+        612
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከክርስቶስ ጋር አንድ ለመሆንና ዘላለማዊውን ሕይወት ለመውረስ ይጠቅማል። ስለዚሁም ጌታችን፣ «እውነት እውነት እላችኋለሁ፤ የሰውን ልጅ ሥጋ (የክርስቶስን ሥጋ) ካልበላችሁ፣ ደሙንም ካልጠጣችሁ፣ የዘላለም ሕይወት የላችሁም። ሥጋዬን የሚበላ ደሜንም የሚጠጣ የዘላለም ሕይወት አለው፤ እኔም በመጨረሻ ቀን አስነሣዋለሁ። ሥጋዬ እውነተኛ መብል፣ ደሜም እውነተኛ መጠጥ ነውና። ሥጋዬን የሚበላ፣ ደሜንም የሚጠጣ በእኔ ይኖራል፤ እኔም በእርሱ እኖራለሁ» ሲል ጌታ አስተምሮአል (ዮሐ. ፮፡ ፵፫-፵፯)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        612,
+        1880,
+        954
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "title",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ጥያቄ፦ የጌታችን ቅዱስ ሥጋውና ክቡር ደሙ የሆነውን ቅዱስ ቒርባን ከመቀበላችን በፊት ምን ማድረግ ይገባናል?",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        355,
+        1005,
+        1994,
+        1121
+      ],
+      "layout_category": "Section-header"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ሥጋውን ደሙን ከመቀበላችን በፊት፣ ከዚህ በታች የተመለከቱትን ግዴታዎች መፈጸም ይገባናል።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        473,
+        1121,
+        2023,
+        1218
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፩ኛ. ጸሎተ ቅዳሴውን የሚያከናውነው ካህን ኅብስቱን በጻሕል፣ ወይኑን በጽዋዕ አድርጎ እየባረከ፣ ጸሎተ ቅዳሴውን ሲያደርስበት፣ ኅብስቱ ተለውጦ የወልደ እግዚአብሔር ደም እንደሚሆን ከልብ ማመን ይገባል፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        1265,
+        2034,
+        1413
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፪ኛ. በሐሳብ፣ በቃል፣ በተግባር የፈጸሙትን ኃጢአት ለንስሐ አባት መንገር (መናዘዝ) ይገባል፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        1460,
+        2030,
+        1514
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፫ኛ. የሠሩትን ኃጢአት ተናዝዞ፣ ከንስሐ አባት የሚሰጠውን ቀኖና ማለትም ጸም፣ ጸሎት፣ ስግ ደት፣ ምጽዋትና ሌላም ይህንን የመሰለውን ሁሉ ተቀብሎ መፈጸም ይገባል፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        473,
+        1557,
+        2023,
+        1657
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፬ኛ. ከማንኛውም ኃጢአት መራቅ ያስፈልጋል፤",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        1701,
+        1267,
+        1753
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "፭ኛ. ከዚህ በላይ ከተዘረዘሩት ሌላ፣ ቅዱስ ቒርባን ከመቀበላችን በፊት፣ ከአሥራ አምስት ሰዓት ላላነሰ ጊዜ መጸም ይገባናል። እንዲሁም ሰውነታችንን፣ ልብሳችንን አጥበንና አጽድተን ሥጋውን ደሙን መቀበል ይገባናል፤ ይህንን ፈጽመን ከቆረብን፣ ሰርየተ ኃጢአትን እንቀበላለን፤ ዘላለማዊ ሕይወትንም እንወርሳለን፤ የመንግሥተ ሰማያት ወራኾችም እንሆናለን።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        1797,
+        2030,
+        1994
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "ከዚህ በላይ የተዘረዘሩትን መንፈሳዊ ግዴታዎች ሳይፈጽሙ በድፍረት፣ ምን አለበት በማለት ቢቆርቡ ግን፣ በራስ ፈርዶ መቀሠፍና ገሃነመ እሳት መግባት ነው። ንስሐ ሳይገቡ፣ በንስሐም ከሠሩት ኃጢአት ሳይናዘዙና ሳይነጹ በድፍረት ሥጋውን ደሙን መቀበል፣ የሥጋን መቅሠፍትና የነፍስንም ፍዳ የሚያስከትል መሆኑን ሐርያው ቅዱስ ጳውሎስ ወደ ቆሮንቶስ ምእመናን በጻፈው መልእክቱ እንዲህ ይላል፤ «ሳይገባው ይህን ኅብስት የበላ፣ ወይም የጌታን ጽዋ የጠጣ ሁሉ፣ የጌታ ሥጋና ደም ዕዳ አለበት፤ ስለዚህ ሰው ራሱን ይመርምር፤ ከዚያም ከኅብስቱ ይብላ፤ ከጽዋውም ይጠጣ። የጌታ ሥጋ መሆኑ ሳይገባው (ሳይበቃ ወይም ብቁ ሳይሆን) የሚበላና ጽዋውን የሚጠጣ ለራሱ መቅሠፍትና ፍርድን(ኩነኔን) ይበላል፤ ይጠጣልም» (፩ቆሮ. ፲፩፡ ፳፯ - ፴)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        2040,
+        2044,
+        2480
+      ],
+      "layout_category": "Text"
+    },
+    {
+      "type": "prayer",
+      "verse_num_am": "",
+      "spans": [
+        {
+          "t": "በሥርዓተ ቅዳሴው፤ ዘወትር በካህኑ አንደበት የሚታወጀው ትእዛዝ፣ «ንጹሕ የሆነ ከቒርባኑ ይቀበል፤ ንጹሕ ያልሆነ ግን አይቀበል፤ ለሰይጣንና ለሰራዊቱ በተዘጋጀው እሳተ ገሃነም እንዳ ይቃጠል። በልቡናውቂምን የያዘ፣ ልዩ ሐሳብና ዝሙትም ያለበት ቢሆን አይቅረብ» የሚል ነው። እዚህ ላይ «ንጹሕ የሆነ» ያለው ንስሐ የገባና የተናዘዘ ማለቱ ነው። «ንጹሕ ያልሆነ» ያለው ንስሐ ያልገባና ያልተናዘዘ ማለቱ ነው። (ሥርዓተ ቅዳሴ፣ ቁ፵፮)።",
+          "c": "black"
+        }
+      ],
+      "bbox": [
+        494,
+        2526,
+        2038,
+        2819
+      ],
+      "layout_category": "Text"
+    }
+  ],
+  "notes": "dots.mocr draft with pixel-based red marking. Check every word and colour against the scan.",
+  "corrections": [],
+  "uncertain": [],
+  "clipped": [],
+  "_source": "dots.mocr OCR + red-mask crops (draft, needs human review)",
+  "_provenance": {
+    "candidate": {
+      "model": "dots-studio/dots.mocr",
+      "temperature": 0.1,
+      "top_p": 0.9,
+      "max_completion_tokens": 8192,
+      "max_pixels": 3211264,
+      "prompt_version": "layout-literal-v1",
+      "prompt_sha256": "afff725da81439f183701a292e23c434e8cb3f21c22aad0c4ac1a22c2cddc2aa",
+      "model_revision": "e539fbb52280393adc081b289ec597430a0f9031",
+      "cache_key": "21820b47f6f7f366c0d7d6f6c808902ecbab78dbbbaf85c19314f04abef6ab8e",
+      "source_sha256": "2abd5c34aaffb45631aa65a7ea47c114427e61ece3da326ca014846f973c521d",
+      "image_path": "/workspace/extraction-tool/books/senbat/work/page_images/page_048.png",
+      "source_dimensions": [
+        2550,
+        3300
+      ],
+      "input_dimensions": [
+        1568,
+        2016
+      ],
+      "elapsed_seconds": 354.291,
+      "created_at": "2026-10-25T01:56:00.502475+00:00",
+      "derivative_input": false
+    },
+    "red": {
+      "mask": "671a42a59deb03a73ed4dff3520cf46cebe96e17f82eab4fc0ce9f67369283da",
+      "image": "2abd5c34aaffb45631aa65a7ea47c114427e61ece3da326ca014846f973c521d",
+      "version": "red-crop-v1",
+      "model": "dots-studio/dots.mocr"
+    },
+    "red_regions": 0,
+    "red_located": 0
+  },
+  "_legacy": "transcripts-legacy/page_048.json"
+}
